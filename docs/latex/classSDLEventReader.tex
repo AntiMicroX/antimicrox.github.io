@@ -1,0 +1,453 @@
+\hypertarget{classSDLEventReader}{}\doxysection{S\+D\+L\+Event\+Reader Class Reference}
+\label{classSDLEventReader}\index{SDLEventReader@{SDLEventReader}}
+
+
+{\ttfamily \#include $<$sdleventreader.\+h$>$}
+
+
+
+Inheritance diagram for S\+D\+L\+Event\+Reader\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=172pt]{classSDLEventReader__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for S\+D\+L\+Event\+Reader\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=249pt]{classSDLEventReader__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classSDLEventReader_a84820a10d58c70f969878250b2381e43}{perform\+Work}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classSDLEventReader_a9aea4a49e5b72851a6676609b18dac6f}{stop}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classSDLEventReader_a90ca921f9f50fa3847efb5ca1860504f}{refresh}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classSDLEventReader_ad37598b5029d8613e4c0cc43287a1154}{update\+Poll\+Rate}} (int temp\+Poll\+Rate)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classSDLEventReader_a4db2e7ec7512be001069a4afe9b3b6af}{reset\+Joystick\+Map}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classSDLEventReader_a02963fe211624fa51c657fb6013e325f}{quit}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classSDLEventReader_ab23b916f4086fe58ecc8335378b70c0b}{close\+Devices}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classSDLEventReader_a1c33e74e1c8363dc7e839c7f3a98a25a}{halt\+Services}} ()
+\begin{DoxyCompactList}\small\item\em Method to block activity on the \mbox{\hyperlink{classSDLEventReader}{S\+D\+L\+Event\+Reader}} object and its thread event loop. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classSDLEventReader_abdd82e682337e8655a757b9df56800e9}{event\+Raised}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classSDLEventReader_adc7f2b043528e93c38289c7f6e415094}{finished}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classSDLEventReader_acb94ca78a77cfc30bca708afbb6a5728}{sdl\+Started}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classSDLEventReader_ac0c19d95dc1e7323a368bb628ff29bac}{sdl\+Closed}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classSDLEventReader_a6a04914bb03b550adda5e191abd2ae49}{S\+D\+L\+Event\+Reader}} (Q\+Map$<$ S\+D\+L\+\_\+\+Joystick\+ID, \mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$ $>$ $\ast$\mbox{\hyperlink{classSDLEventReader_aaa8c13416b969fce24f37ba7110b862e}{joysticks}}, \mbox{\hyperlink{classAntiMicroSettings}{Anti\+Micro\+Settings}} $\ast$\mbox{\hyperlink{classSDLEventReader_a33197aaf9e40a3d393fa9b26996b6ab8}{settings}}, Q\+Object $\ast$parent=nullptr)
+\item 
+\mbox{\hyperlink{classSDLEventReader_a5b8b3964859f2ae954bc37c248801077}{$\sim$\+S\+D\+L\+Event\+Reader}} ()
+\item 
+bool \mbox{\hyperlink{classSDLEventReader_adc557d906bc839e5009ce6f2efa93ce3}{is\+S\+D\+L\+Open}} ()
+\item 
+Q\+Map$<$ S\+D\+L\+\_\+\+Joystick\+ID, \mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$ $>$ $\ast$ \mbox{\hyperlink{classSDLEventReader_ac328d5e3cad6701035cc0285f4d612a6}{get\+Joysticks}} () const
+\item 
+\mbox{\hyperlink{classAntiMicroSettings}{Anti\+Micro\+Settings}} $\ast$ \mbox{\hyperlink{classSDLEventReader_a25acd1aa6438a10a56e83cf19fc8dc5e}{get\+Settings}} () const
+\item 
+const Q\+Timer \& \mbox{\hyperlink{classSDLEventReader_aca4427224414b436daf18a83416f44ec}{get\+Poll\+Rate\+Timer}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classSDLEventReader_af9ed7e67978569528ffc7de13cee30f4}{init\+S\+DL}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classSDLEventReader_aaadf77acabf14b73b512d0ae73c9e078}{close\+S\+DL}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classSDLEventReader_a442d065e8fd7562954a9c4967337e745}{clear\+Events}} ()
+\item 
+int \mbox{\hyperlink{classSDLEventReader_a840f42029b92353465d41d0454000fdd}{event\+Status}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classSDLEventReader_a8dc8ff624f25ddf0595a055db7c91742}{secondary\+Refresh}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Map$<$ S\+D\+L\+\_\+\+Joystick\+ID, \mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$ $>$ $\ast$ \mbox{\hyperlink{classSDLEventReader_aaa8c13416b969fce24f37ba7110b862e}{joysticks}}
+\item 
+bool \mbox{\hyperlink{classSDLEventReader_aa2a2d0c2abc1b731956f9e6075eea387}{sdl\+Is\+Open}}
+\item 
+\mbox{\hyperlink{classAntiMicroSettings}{Anti\+Micro\+Settings}} $\ast$ \mbox{\hyperlink{classSDLEventReader_a33197aaf9e40a3d393fa9b26996b6ab8}{settings}}
+\item 
+int \mbox{\hyperlink{classSDLEventReader_a4b4e803ef207078354363776b8635ac4}{poll\+Rate}}
+\item 
+Q\+Timer \mbox{\hyperlink{classSDLEventReader_a0c751cc326ae67a1ace1ba2a3b1a1b66}{poll\+Rate\+Timer}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classSDLEventReader_a6a04914bb03b550adda5e191abd2ae49}\label{classSDLEventReader_a6a04914bb03b550adda5e191abd2ae49}} 
+\index{SDLEventReader@{SDLEventReader}!SDLEventReader@{SDLEventReader}}
+\index{SDLEventReader@{SDLEventReader}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{SDLEventReader()}{SDLEventReader()}}
+{\footnotesize\ttfamily S\+D\+L\+Event\+Reader\+::\+S\+D\+L\+Event\+Reader (\begin{DoxyParamCaption}\item[{Q\+Map$<$ S\+D\+L\+\_\+\+Joystick\+ID, \mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$ $>$ $\ast$}]{joysticks,  }\item[{\mbox{\hyperlink{classAntiMicroSettings}{Anti\+Micro\+Settings}} $\ast$}]{settings,  }\item[{Q\+Object $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSDLEventReader_a6a04914bb03b550adda5e191abd2ae49_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSDLEventReader_a5b8b3964859f2ae954bc37c248801077}\label{classSDLEventReader_a5b8b3964859f2ae954bc37c248801077}} 
+\index{SDLEventReader@{SDLEventReader}!````~SDLEventReader@{$\sim$SDLEventReader}}
+\index{````~SDLEventReader@{$\sim$SDLEventReader}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{$\sim$SDLEventReader()}{~SDLEventReader()}}
+{\footnotesize\ttfamily S\+D\+L\+Event\+Reader\+::$\sim$\+S\+D\+L\+Event\+Reader (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSDLEventReader_a5b8b3964859f2ae954bc37c248801077_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classSDLEventReader_a442d065e8fd7562954a9c4967337e745}\label{classSDLEventReader_a442d065e8fd7562954a9c4967337e745}} 
+\index{SDLEventReader@{SDLEventReader}!clearEvents@{clearEvents}}
+\index{clearEvents@{clearEvents}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{clearEvents()}{clearEvents()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} S\+D\+L\+Event\+Reader\+::clear\+Events (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classSDLEventReader_ab23b916f4086fe58ecc8335378b70c0b}\label{classSDLEventReader_ab23b916f4086fe58ecc8335378b70c0b}} 
+\index{SDLEventReader@{SDLEventReader}!closeDevices@{closeDevices}}
+\index{closeDevices@{closeDevices}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{closeDevices}{closeDevices}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} S\+D\+L\+Event\+Reader\+::close\+Devices (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSDLEventReader_ab23b916f4086fe58ecc8335378b70c0b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSDLEventReader_ab23b916f4086fe58ecc8335378b70c0b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSDLEventReader_aaadf77acabf14b73b512d0ae73c9e078}\label{classSDLEventReader_aaadf77acabf14b73b512d0ae73c9e078}} 
+\index{SDLEventReader@{SDLEventReader}!closeSDL@{closeSDL}}
+\index{closeSDL@{closeSDL}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{closeSDL()}{closeSDL()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} S\+D\+L\+Event\+Reader\+::close\+S\+DL (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSDLEventReader_aaadf77acabf14b73b512d0ae73c9e078_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSDLEventReader_aaadf77acabf14b73b512d0ae73c9e078_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSDLEventReader_abdd82e682337e8655a757b9df56800e9}\label{classSDLEventReader_abdd82e682337e8655a757b9df56800e9}} 
+\index{SDLEventReader@{SDLEventReader}!eventRaised@{eventRaised}}
+\index{eventRaised@{eventRaised}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{eventRaised}{eventRaised}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} S\+D\+L\+Event\+Reader\+::event\+Raised (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSDLEventReader_abdd82e682337e8655a757b9df56800e9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSDLEventReader_a840f42029b92353465d41d0454000fdd}\label{classSDLEventReader_a840f42029b92353465d41d0454000fdd}} 
+\index{SDLEventReader@{SDLEventReader}!eventStatus@{eventStatus}}
+\index{eventStatus@{eventStatus}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{eventStatus()}{eventStatus()}}
+{\footnotesize\ttfamily int S\+D\+L\+Event\+Reader\+::event\+Status (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSDLEventReader_a840f42029b92353465d41d0454000fdd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSDLEventReader_adc7f2b043528e93c38289c7f6e415094}\label{classSDLEventReader_adc7f2b043528e93c38289c7f6e415094}} 
+\index{SDLEventReader@{SDLEventReader}!finished@{finished}}
+\index{finished@{finished}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{finished}{finished}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} S\+D\+L\+Event\+Reader\+::finished (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+\mbox{\Hypertarget{classSDLEventReader_ac328d5e3cad6701035cc0285f4d612a6}\label{classSDLEventReader_ac328d5e3cad6701035cc0285f4d612a6}} 
+\index{SDLEventReader@{SDLEventReader}!getJoysticks@{getJoysticks}}
+\index{getJoysticks@{getJoysticks}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{getJoysticks()}{getJoysticks()}}
+{\footnotesize\ttfamily Q\+Map$<$ S\+D\+L\+\_\+\+Joystick\+ID, \mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$ $>$ $\ast$ S\+D\+L\+Event\+Reader\+::get\+Joysticks (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classSDLEventReader_aca4427224414b436daf18a83416f44ec}\label{classSDLEventReader_aca4427224414b436daf18a83416f44ec}} 
+\index{SDLEventReader@{SDLEventReader}!getPollRateTimer@{getPollRateTimer}}
+\index{getPollRateTimer@{getPollRateTimer}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{getPollRateTimer()}{getPollRateTimer()}}
+{\footnotesize\ttfamily const Q\+Timer \& S\+D\+L\+Event\+Reader\+::get\+Poll\+Rate\+Timer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classSDLEventReader_a25acd1aa6438a10a56e83cf19fc8dc5e}\label{classSDLEventReader_a25acd1aa6438a10a56e83cf19fc8dc5e}} 
+\index{SDLEventReader@{SDLEventReader}!getSettings@{getSettings}}
+\index{getSettings@{getSettings}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{getSettings()}{getSettings()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classAntiMicroSettings}{Anti\+Micro\+Settings}} $\ast$ S\+D\+L\+Event\+Reader\+::get\+Settings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classSDLEventReader_a1c33e74e1c8363dc7e839c7f3a98a25a}\label{classSDLEventReader_a1c33e74e1c8363dc7e839c7f3a98a25a}} 
+\index{SDLEventReader@{SDLEventReader}!haltServices@{haltServices}}
+\index{haltServices@{haltServices}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{haltServices}{haltServices}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} S\+D\+L\+Event\+Reader\+::halt\+Services (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Method to block activity on the \mbox{\hyperlink{classSDLEventReader}{S\+D\+L\+Event\+Reader}} object and its thread event loop. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSDLEventReader_a1c33e74e1c8363dc7e839c7f3a98a25a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSDLEventReader_a1c33e74e1c8363dc7e839c7f3a98a25a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSDLEventReader_af9ed7e67978569528ffc7de13cee30f4}\label{classSDLEventReader_af9ed7e67978569528ffc7de13cee30f4}} 
+\index{SDLEventReader@{SDLEventReader}!initSDL@{initSDL}}
+\index{initSDL@{initSDL}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{initSDL()}{initSDL()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} S\+D\+L\+Event\+Reader\+::init\+S\+DL (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=346pt]{classSDLEventReader_af9ed7e67978569528ffc7de13cee30f4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSDLEventReader_af9ed7e67978569528ffc7de13cee30f4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSDLEventReader_adc557d906bc839e5009ce6f2efa93ce3}\label{classSDLEventReader_adc557d906bc839e5009ce6f2efa93ce3}} 
+\index{SDLEventReader@{SDLEventReader}!isSDLOpen@{isSDLOpen}}
+\index{isSDLOpen@{isSDLOpen}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{isSDLOpen()}{isSDLOpen()}}
+{\footnotesize\ttfamily bool S\+D\+L\+Event\+Reader\+::is\+S\+D\+L\+Open (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSDLEventReader_adc557d906bc839e5009ce6f2efa93ce3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSDLEventReader_a84820a10d58c70f969878250b2381e43}\label{classSDLEventReader_a84820a10d58c70f969878250b2381e43}} 
+\index{SDLEventReader@{SDLEventReader}!performWork@{performWork}}
+\index{performWork@{performWork}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{performWork}{performWork}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} S\+D\+L\+Event\+Reader\+::perform\+Work (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSDLEventReader_a84820a10d58c70f969878250b2381e43_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSDLEventReader_a84820a10d58c70f969878250b2381e43_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSDLEventReader_a02963fe211624fa51c657fb6013e325f}\label{classSDLEventReader_a02963fe211624fa51c657fb6013e325f}} 
+\index{SDLEventReader@{SDLEventReader}!quit@{quit}}
+\index{quit@{quit}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{quit}{quit}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} S\+D\+L\+Event\+Reader\+::quit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSDLEventReader_a02963fe211624fa51c657fb6013e325f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSDLEventReader_a02963fe211624fa51c657fb6013e325f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSDLEventReader_a90ca921f9f50fa3847efb5ca1860504f}\label{classSDLEventReader_a90ca921f9f50fa3847efb5ca1860504f}} 
+\index{SDLEventReader@{SDLEventReader}!refresh@{refresh}}
+\index{refresh@{refresh}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{refresh}{refresh}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} S\+D\+L\+Event\+Reader\+::refresh (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSDLEventReader_a90ca921f9f50fa3847efb5ca1860504f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSDLEventReader_a4db2e7ec7512be001069a4afe9b3b6af}\label{classSDLEventReader_a4db2e7ec7512be001069a4afe9b3b6af}} 
+\index{SDLEventReader@{SDLEventReader}!resetJoystickMap@{resetJoystickMap}}
+\index{resetJoystickMap@{resetJoystickMap}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{resetJoystickMap}{resetJoystickMap}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} S\+D\+L\+Event\+Reader\+::reset\+Joystick\+Map (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+\mbox{\Hypertarget{classSDLEventReader_ac0c19d95dc1e7323a368bb628ff29bac}\label{classSDLEventReader_ac0c19d95dc1e7323a368bb628ff29bac}} 
+\index{SDLEventReader@{SDLEventReader}!sdlClosed@{sdlClosed}}
+\index{sdlClosed@{sdlClosed}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{sdlClosed}{sdlClosed}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} S\+D\+L\+Event\+Reader\+::sdl\+Closed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSDLEventReader_ac0c19d95dc1e7323a368bb628ff29bac_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSDLEventReader_acb94ca78a77cfc30bca708afbb6a5728}\label{classSDLEventReader_acb94ca78a77cfc30bca708afbb6a5728}} 
+\index{SDLEventReader@{SDLEventReader}!sdlStarted@{sdlStarted}}
+\index{sdlStarted@{sdlStarted}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{sdlStarted}{sdlStarted}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} S\+D\+L\+Event\+Reader\+::sdl\+Started (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSDLEventReader_acb94ca78a77cfc30bca708afbb6a5728_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSDLEventReader_a8dc8ff624f25ddf0595a055db7c91742}\label{classSDLEventReader_a8dc8ff624f25ddf0595a055db7c91742}} 
+\index{SDLEventReader@{SDLEventReader}!secondaryRefresh@{secondaryRefresh}}
+\index{secondaryRefresh@{secondaryRefresh}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{secondaryRefresh}{secondaryRefresh}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} S\+D\+L\+Event\+Reader\+::secondary\+Refresh (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSDLEventReader_a8dc8ff624f25ddf0595a055db7c91742_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSDLEventReader_a8dc8ff624f25ddf0595a055db7c91742_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSDLEventReader_a9aea4a49e5b72851a6676609b18dac6f}\label{classSDLEventReader_a9aea4a49e5b72851a6676609b18dac6f}} 
+\index{SDLEventReader@{SDLEventReader}!stop@{stop}}
+\index{stop@{stop}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{stop}{stop}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} S\+D\+L\+Event\+Reader\+::stop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSDLEventReader_a9aea4a49e5b72851a6676609b18dac6f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSDLEventReader_ad37598b5029d8613e4c0cc43287a1154}\label{classSDLEventReader_ad37598b5029d8613e4c0cc43287a1154}} 
+\index{SDLEventReader@{SDLEventReader}!updatePollRate@{updatePollRate}}
+\index{updatePollRate@{updatePollRate}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{updatePollRate}{updatePollRate}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} S\+D\+L\+Event\+Reader\+::update\+Poll\+Rate (\begin{DoxyParamCaption}\item[{int}]{temp\+Poll\+Rate }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSDLEventReader_ad37598b5029d8613e4c0cc43287a1154_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classSDLEventReader_aaa8c13416b969fce24f37ba7110b862e}\label{classSDLEventReader_aaa8c13416b969fce24f37ba7110b862e}} 
+\index{SDLEventReader@{SDLEventReader}!joysticks@{joysticks}}
+\index{joysticks@{joysticks}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{joysticks}{joysticks}}
+{\footnotesize\ttfamily Q\+Map$<$S\+D\+L\+\_\+\+Joystick\+ID, \mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$$>$$\ast$ S\+D\+L\+Event\+Reader\+::joysticks\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSDLEventReader_a4b4e803ef207078354363776b8635ac4}\label{classSDLEventReader_a4b4e803ef207078354363776b8635ac4}} 
+\index{SDLEventReader@{SDLEventReader}!pollRate@{pollRate}}
+\index{pollRate@{pollRate}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{pollRate}{pollRate}}
+{\footnotesize\ttfamily int S\+D\+L\+Event\+Reader\+::poll\+Rate\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSDLEventReader_a0c751cc326ae67a1ace1ba2a3b1a1b66}\label{classSDLEventReader_a0c751cc326ae67a1ace1ba2a3b1a1b66}} 
+\index{SDLEventReader@{SDLEventReader}!pollRateTimer@{pollRateTimer}}
+\index{pollRateTimer@{pollRateTimer}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{pollRateTimer}{pollRateTimer}}
+{\footnotesize\ttfamily Q\+Timer S\+D\+L\+Event\+Reader\+::poll\+Rate\+Timer\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSDLEventReader_aa2a2d0c2abc1b731956f9e6075eea387}\label{classSDLEventReader_aa2a2d0c2abc1b731956f9e6075eea387}} 
+\index{SDLEventReader@{SDLEventReader}!sdlIsOpen@{sdlIsOpen}}
+\index{sdlIsOpen@{sdlIsOpen}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{sdlIsOpen}{sdlIsOpen}}
+{\footnotesize\ttfamily bool S\+D\+L\+Event\+Reader\+::sdl\+Is\+Open\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classSDLEventReader_a33197aaf9e40a3d393fa9b26996b6ab8}\label{classSDLEventReader_a33197aaf9e40a3d393fa9b26996b6ab8}} 
+\index{SDLEventReader@{SDLEventReader}!settings@{settings}}
+\index{settings@{settings}!SDLEventReader@{SDLEventReader}}
+\doxysubsubsection{\texorpdfstring{settings}{settings}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classAntiMicroSettings}{Anti\+Micro\+Settings}}$\ast$ S\+D\+L\+Event\+Reader\+::settings\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{sdleventreader_8h}{sdleventreader.\+h}}\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{sdleventreader_8cpp}{sdleventreader.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,52 @@
+<map id="InputDevice::activatePossibleVDPadEvents" name="InputDevice::activatePossibleVDPadEvents">
+<area shape="rect" id="node1" title=" " alt="" coords="5,685,200,726"/>
+<area shape="rect" id="node2" href="$classVDPad.html#a03844375e4b1fd052934a745d5081cad" title=" " alt="" coords="255,575,451,601"/>
+<area shape="rect" id="node45" href="$classInputDevice.html#abc23a70bef37f2fc70248cd129af170b" title=" " alt="" coords="266,626,441,667"/>
+<area shape="rect" id="node47" href="$classSetJoystick.html#a556752a5816edd7f1e34dad0651f8739" title=" " alt="" coords="248,692,459,719"/>
+<area shape="rect" id="node49" href="$classSetJoystick.html#abcdc88c96a95fb0f5d8a721582d22851" title=" " alt="" coords="275,743,432,769"/>
+<area shape="rect" id="node50" href="$classVDPad.html#a3c18a68a72cb12be417cf960f7b7685b" title=" " alt="" coords="267,793,439,820"/>
+<area shape="rect" id="node3" href="$classVDPad.html#a48d8aa1c0a915b9ae46b519e76e4be6e" title=" " alt="" coords="545,575,667,601"/>
+<area shape="rect" id="node4" href="$classJoyDPad.html#ac660764f3e958b5c1cf9da1a5d2f2398" title=" " alt="" coords="753,549,888,576"/>
+<area shape="rect" id="node5" href="$classJoyDPad.html#a1f5c5db45f36b205d1c4a43f1616950a" title=" " alt="" coords="936,480,1120,507"/>
+<area shape="rect" id="node6" href="$classJoyButton.html#abb09326682e89c3c32975519ee73dfb0" title=" " alt="" coords="1168,411,1307,437"/>
+<area shape="rect" id="node7" href="$classJoyButton.html#abadd72042d4f28cb4d99fd56c4f9f1f7" title=" " alt="" coords="1365,221,1556,262"/>
+<area shape="rect" id="node8" href="$classJoyButton.html#a48369975ea4bc0d16e284b02bf4b1246" title=" " alt="" coords="1895,166,2074,207"/>
+<area shape="rect" id="node10" href="$classSetJoystick.html#af641cbddd22e358218ba68497e40e4e3" title=" " alt="" coords="1627,287,1813,313"/>
+<area shape="rect" id="node11" href="$classJoyButton.html#a352acb56d462240c593e7b70bca74f55" title="Get the distance factor that should be used for mouse movement." alt="" coords="2637,213,2836,254"/>
+<area shape="rect" id="node12" href="$classJoyButton.html#acf2e65dcec7b0d2a8a2c21c36c489ad6" title=" " alt="" coords="1630,520,1810,547"/>
+<area shape="rect" id="node14" href="$classInputDevice.html#af398dd46ce98825fe56b36e41a13db9b" title=" " alt="" coords="1615,633,1825,660"/>
+<area shape="rect" id="node16" href="$classJoyButton.html#a50c06702f8781ee7fc49b4a842bd6bc4" title=" " alt="" coords="1625,107,1815,149"/>
+<area shape="rect" id="node17" href="$classJoyButton.html#afb5704003e2483ff61e142c7a7bd4699" title=" " alt="" coords="1373,338,1548,379"/>
+<area shape="rect" id="node21" href="$classJoyButton.html#a3ca2ea0caae21aa3c758d0fec0ecbe6a" title=" " alt="" coords="1385,469,1537,496"/>
+<area shape="rect" id="node39" href="$classJoyButton.html#a056b480fe5132bb36d65d22de0fe9934" title=" " alt="" coords="1355,5,1567,32"/>
+<area shape="rect" id="node40" href="$classJoyButton.html#ab0ca3b9966d8da06279d2f347e42e78b" title=" " alt="" coords="1360,571,1561,613"/>
+<area shape="rect" id="node41" href="$classJoyButton.html#a73c3ec041bb8e8d00517b8d4165f1444" title=" " alt="" coords="1623,684,1817,711"/>
+<area shape="rect" id="node42" href="$classJoyButton.html#a9a7e651c64b30bf748ac14e0a03955ee" title=" " alt="" coords="1367,739,1554,765"/>
+<area shape="rect" id="node44" href="$classJoyButton.html#a78a19ca8744927a690e484e19127f62f" title=" " alt="" coords="1371,403,1550,445"/>
+<area shape="rect" id="node9" href="$classJoyButton.html#a447ec98d3ffd8b2a8668c14d2646851c" title="Get the distance that an element is away from its assigned dead zone." alt="" coords="2884,213,3073,254"/>
+<area shape="rect" id="node13" href="$classJoyButton.html#a39c9ccaf641bb8bf50b29d4c4e04c165" title="Get a 1 indexed number of button." alt="" coords="1885,481,2085,508"/>
+<area shape="rect" id="node15" href="$classInputDevice.html#a197e76d4113e8258e6637981830dd219" title=" " alt="" coords="1892,633,2077,660"/>
+<area shape="rect" id="node18" href="$classJoyButton.html#aa4a7f763f73f9f63b446e0125a713709" title=" " alt="" coords="1627,338,1813,379"/>
+<area shape="rect" id="node19" href="$classJoyButton.html#a384912c63bcea6a25ab2957c7c8c23c6" title=" " alt="" coords="1883,357,2087,398"/>
+<area shape="rect" id="node20" href="$classJoyButton.html#a17e7d44ff2d956493113d7312ab406dc" title=" " alt="" coords="1873,291,2096,333"/>
+<area shape="rect" id="node22" href="$classJoyButton.html#abb0c0c4b3cc8a5eadab90e567c77c4d1" title=" " alt="" coords="1615,469,1825,496"/>
+<area shape="rect" id="node23" href="$classJoyButton.html#a96766131be0f60f91d715b02ec941615" title=" " alt="" coords="1890,532,2079,559"/>
+<area shape="rect" id="node34" href="$classJoyButton.html#a52f911105048e6c33180bf267f158b35" title=" " alt="" coords="1887,425,2082,452"/>
+<area shape="rect" id="node24" href="$classJoyButton.html#a5ad4a1a185fbca249220549f45d859ea" title=" " alt="" coords="2412,367,2576,393"/>
+<area shape="rect" id="node28" href="$classJoyButton.html#a31a4707b5d086bd7f7d0bf491c94169b" title=" " alt="" coords="2162,712,2333,739"/>
+<area shape="rect" id="node30" href="$classJoyButton.html#ae1d364dfa70f47fae3db99ffbcdea44b" title=" " alt="" coords="2641,796,2832,823"/>
+<area shape="rect" id="node25" href="$classJoyButton.html#a64f1660931aea2fa8df1bf5e313c05ba" title=" " alt="" coords="2650,409,2823,436"/>
+<area shape="rect" id="node26" href="$classJoyButtonSlot.html#a7fa0bf6d891437a2392e47d32b746502" title=" " alt="" coords="2645,460,2829,487"/>
+<area shape="rect" id="node27" href="$classJoyButtonSlot.html#abed7fe134c404b403ea79c0753f6eaaf" title=" " alt="" coords="2644,540,2829,567"/>
+<area shape="rect" id="node29" href="$classJoyButton.html#a620db17aa5f321ed72d92f742bde3669" title=" " alt="" coords="2399,789,2589,830"/>
+<area shape="rect" id="node31" href="$classJoyButton.html#a81b400c291611a14a4856e13fad49f76" title=" " alt="" coords="2411,301,2577,342"/>
+<area shape="rect" id="node32" href="$classJoyButtonSlot.html#a3b849071be5e1d6f7850209f4187aadb" title=" " alt="" coords="2651,343,2822,385"/>
+<area shape="rect" id="node33" href="$classJoyButton.html#a3a8371dc64de08da55ff78aa7e4bb4d2" title=" " alt="" coords="2650,278,2823,319"/>
+<area shape="rect" id="node35" href="$classJoyButton.html#a8dfd2cd78d3f93e01429ee1db68b00fe" title=" " alt="" coords="2144,359,2351,385"/>
+<area shape="rect" id="node36" href="$classJoyButton.html#ad50be193a754200a382335d3549708f2" title=" " alt="" coords="2401,621,2587,662"/>
+<area shape="rect" id="node37" href="$classJoyButton.html#ae43c0b46569b42036bf7ea883e93c591" title=" " alt="" coords="2154,511,2341,537"/>
+<area shape="rect" id="node38" href="$classJoyButton.html#a9ae35a773dd8085e8c810d4f739bcdcb" title=" " alt="" coords="2145,409,2350,436"/>
+<area shape="rect" id="node43" href="$classVDPad.html#adcf9719ec120514f2400d62d1c6cfbf8" title=" " alt="" coords="1639,739,1801,765"/>
+<area shape="rect" id="node46" href="$classInputDevice.html#a1c4c65d9e509a5c3bde064871d7e1849" title=" " alt="" coords="507,633,705,660"/>
+<area shape="rect" id="node48" href="$classSetJoystick.html#ad859311bfde76dbdaac274cb5ede63d6" title=" " alt="" coords="527,717,685,744"/>
+</map>

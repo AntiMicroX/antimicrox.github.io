@@ -1,0 +1,15 @@
+<map id="JoyControlStick::getRealJoyIndex" name="JoyControlStick::getRealJoyIndex">
+<area shape="rect" id="node1" title=" " alt="" coords="832,283,999,324"/>
+<area shape="rect" id="node2" href="$classJoyControlStick.html#a15845226575e7d1c81bf119653c86a3d" title=" " alt="" coords="571,195,784,222"/>
+<area shape="rect" id="node11" href="$classInputDeviceXml.html#a12bf094c5ab0ab10dae089e41fbc778c" title=" " alt="" coords="583,315,772,342"/>
+<area shape="rect" id="node3" href="$classJoyControlStickPushButton.html#a0059ca289c5b44dd334330d2b7db5b79" title="Generate the string that will be displayed on the button." alt="" coords="310,5,493,47"/>
+<area shape="rect" id="node4" href="$classJoyControlStick.html#ab76489911cda31a32731a0efce3b10dd" title=" " alt="" coords="314,71,489,98"/>
+<area shape="rect" id="node5" href="$classJoyControlStickModifierButton.html#a2666f594ac56d2c9d06f74b2b07a23e4" title=" " alt="" coords="302,123,501,164"/>
+<area shape="rect" id="node6" href="$classJoyControlStickButton.html#a1d8721f560ffcdee6bb8cf331b43ec50" title=" " alt="" coords="325,188,478,229"/>
+<area shape="rect" id="node7" href="$classMouseControlStickSettingsDialog.html#a8ff60a784173b38c871484c83b670571" title=" " alt="" coords="280,253,523,295"/>
+<area shape="rect" id="node9" href="$classJoyControlStickEditDialog.html#af7427cbc037e7ff1361237c910ad708b" title=" " alt="" coords="298,319,505,360"/>
+<area shape="rect" id="node8" href="$classMouseControlStickSettingsDialog.html#aac9d5ef09dced4cee0df95d99ae13369" title=" " alt="" coords="5,238,232,294"/>
+<area shape="rect" id="node10" href="$classJoyControlStickEditDialog.html#a2baa35c50ff7528a03ec6f2ba1ed657d" title=" " alt="" coords="27,319,210,360"/>
+<area shape="rect" id="node12" href="$classXMLConfigWriter.html#aacd0a3991eedf223f3586d33559903d4" title=" " alt="" coords="323,387,480,414"/>
+<area shape="rect" id="node13" href="$classJoyTabWidgetHelper.html#ad1754369989cbe4a3e10c8c01e3fb89b" title=" " alt="" coords="47,384,190,425"/>
+</map>

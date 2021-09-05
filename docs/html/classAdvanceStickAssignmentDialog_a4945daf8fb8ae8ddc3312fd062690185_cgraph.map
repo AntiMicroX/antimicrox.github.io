@@ -1,0 +1,12 @@
+<map id="AdvanceStickAssignmentDialog::populateDPadComboBoxes" name="AdvanceStickAssignmentDialog::populateDPadComboBoxes">
+<area shape="rect" id="node1" title=" " alt="" coords="5,99,213,141"/>
+<area shape="rect" id="node2" href="$classInputDevice.html#abc23a70bef37f2fc70248cd129af170b" title=" " alt="" coords="535,95,709,137"/>
+<area shape="rect" id="node4" href="$classSetJoystick.html#a7c8f524fe045b89901ba945c5e1045cf" title=" " alt="" coords="285,56,447,83"/>
+<area shape="rect" id="node5" href="$classInputDevice.html#a4c662c7a0415e247266e6b205d064763" title=" " alt="" coords="269,5,463,32"/>
+<area shape="rect" id="node7" href="$classInputDevice.html#a8d061d1a518f77dcdecbb2ecd32e9d30" title=" " alt="" coords="261,157,471,184"/>
+<area shape="rect" id="node10" href="$classJoyAxis.html#a0dde339f2f10bba167eb811d8f166b48" title=" " alt="" coords="274,208,458,235"/>
+<area shape="rect" id="node3" href="$classInputDevice.html#a1c4c65d9e509a5c3bde064871d7e1849" title=" " alt="" coords="773,103,972,129"/>
+<area shape="rect" id="node6" href="$classSetJoystick.html#a7e71493074ed6e796c077aab6e6688b7" title=" " alt="" coords="527,5,717,32"/>
+<area shape="rect" id="node8" href="$classSetJoystick.html#a446e296af015f6304bd7425153a4c4ae" title=" " alt="" coords="519,161,725,188"/>
+<area shape="rect" id="node9" href="$classSetJoystick.html#ac5baae46a0b3924a83b523ad89819a53" title=" " alt="" coords="793,161,953,188"/>
+</map>

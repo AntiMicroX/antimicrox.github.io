@@ -1,0 +1,39 @@
+<map id="MiniSlotRun::run" name="MiniSlotRun::run">
+<area shape="rect" id="node1" title=" " alt="" coords="5,223,124,250"/>
+<area shape="rect" id="node2" href="$classJoyButton.html#a2662df8f42a2cc23b7bedb0c8a6ebb39" title=" " alt="" coords="172,223,360,250"/>
+<area shape="rect" id="node3" href="$classJoyButton.html#a3a8371dc64de08da55ff78aa7e4bb4d2" title=" " alt="" coords="417,81,590,123"/>
+<area shape="rect" id="node4" href="$classJoyButtonSlot.html#a7fa0bf6d891437a2392e47d32b746502" title=" " alt="" coords="411,147,595,174"/>
+<area shape="rect" id="node5" href="$classJoyButtonSlot.html#abed7fe134c404b403ea79c0753f6eaaf" title=" " alt="" coords="411,198,596,225"/>
+<area shape="rect" id="node6" href="$classJoyButtonSlot.html#a6e10409ded595380cbdcfd5c827ab32a" title=" " alt="" coords="410,249,597,275"/>
+<area shape="rect" id="node32" href="$classJoyButtonSlot.html#a2f6cf85e1f0620120e2a270a72c11287" title=" " alt="" coords="408,451,599,478"/>
+<area shape="rect" id="node36" href="$event_8cpp.html#ab915c19c4fcafa9d72c024ca008d5de6" title=" " alt="" coords="953,477,1065,503"/>
+<area shape="rect" id="node7" href="$classJoyButtonSlot.html#a4fb0606a34134786bc642627bc25aedd" title=" " alt="" coords="663,67,845,94"/>
+<area shape="rect" id="node9" href="$namespacePadderCommon.html#aaa09739d2df84421a5a3467a06ce941c" title="Returns the &quot;human&#45;readable&quot; name of the given profile." alt="" coords="647,173,861,199"/>
+<area shape="rect" id="node10" href="$event_8cpp.html#a76ce89b71143c1c09343f45f038b4a67" title=" " alt="" coords="687,223,821,250"/>
+<area shape="rect" id="node31" href="$classJoyButtonSlot.html#a37ff2b523177bae4ea6a44b82f2973eb" title=" " alt="" coords="651,274,857,301"/>
+<area shape="rect" id="node8" href="$classJoyButtonSlot.html#a9ba9cb0dda063a7df5575072c0aabe01" title=" " alt="" coords="923,5,1095,47"/>
+<area shape="rect" id="node11" href="$classX11Extras.html#a643c95dc1de8eb073a0accb41619fe83" title="Get display instance." alt="" coords="1201,71,1333,98"/>
+<area shape="rect" id="node12" href="$classBaseEventHandler.html#a9a014e472ec57408d16b8b5eed964e90" title=" " alt="" coords="1164,122,1371,149"/>
+<area shape="rect" id="node13" href="$classEventHandlerFactory.html#a90ce153a19fbb91128bd52eb083ce271" title=" " alt="" coords="1195,448,1340,489"/>
+<area shape="rect" id="node16" href="$classEventHandlerFactory.html#a4c13007f0ece5bf881080c9c04f1f20d" title=" " alt="" coords="1683,419,1828,460"/>
+<area shape="rect" id="node18" href="$classX11Extras.html#ace76277fced60e6bd6ff880030338182" title=" " alt="" coords="1188,21,1347,47"/>
+<area shape="rect" id="node21" href="$event_8cpp.html#ad239a34cab482dc3cad5a23a9ac1ad78" title=" " alt="" coords="940,223,1079,250"/>
+<area shape="rect" id="node14" href="$classEventHandlerFactory.html#ade5162034acc0f8683725fdb124bece0" title=" " alt="" coords="1433,608,1601,649"/>
+<area shape="rect" id="node15" href="$classEventHandlerFactory.html#a2f843293b2ea47271fc7bd99bd871fa6" title=" " alt="" coords="1441,477,1594,519"/>
+<area shape="rect" id="node17" href="$classEventHandlerFactory.html#afa5ca0171c70b1a24f92b5c8dd00dc92" title=" " alt="" coords="1445,543,1590,584"/>
+<area shape="rect" id="node19" href="$classX11Extras.html#ab9bcb016e23bacb0e988feb8175d2c88" title=" " alt="" coords="1441,21,1593,47"/>
+<area shape="rect" id="node20" href="$classX11Extras.html#a6f63e77ed045e174546d77333672b8f0" title=" " alt="" coords="1665,13,1845,55"/>
+<area shape="rect" id="node22" href="$classUInputHelper.html#ac4c70c9479c1cc0eb515ab1bdf2426f5" title=" " alt="" coords="1671,161,1840,203"/>
+<area shape="rect" id="node24" href="$classX11Extras.html#abe710bac948c9802105a2d9d06815cac" title="Get appropriate alias for a known KeySym string that might be blank or contain invalid characters whe..." alt="" coords="1174,274,1361,301"/>
+<area shape="rect" id="node25" href="$classUInputHelper.html#a61509601d3dbd8933aaa26c1e2db02f6" title=" " alt="" coords="1180,223,1355,250"/>
+<area shape="rect" id="node23" href="$classUInputHelper.html#a043b0fa7cf4ce5811d01d95f3ca318b7" title=" " alt="" coords="1901,161,2109,203"/>
+<area shape="rect" id="node26" href="$classUInputHelper.html#a5d56d23a0e0202435c7a5ff1aca9ce55" title=" " alt="" coords="1425,230,1609,257"/>
+<area shape="rect" id="node27" href="$classUInputHelper.html#a0f4dbb4221502d86f7d0af12a9865568" title=" " alt="" coords="1657,227,1853,268"/>
+<area shape="rect" id="node28" href="$classUInputHelper.html#a8f3fe71ae635cd3c46eaab79dd11c2e0" title=" " alt="" coords="1901,357,2109,399"/>
+<area shape="rect" id="node29" href="$classUInputHelper.html#a9793030329fbbe1106b255814ef2bd0f" title=" " alt="" coords="1916,227,2095,268"/>
+<area shape="rect" id="node30" href="$classUInputHelper.html#af02574de230bb0550eebb63f5a669681" title=" " alt="" coords="1915,292,2096,333"/>
+<area shape="rect" id="node33" href="$classAntKeyMapper.html#acd08c44a2501edcfdb1ef8a68d534b1b" title=" " alt="" coords="663,527,845,554"/>
+<area shape="rect" id="node34" href="$classAntKeyMapper.html#abe4a434636d370a750d32a14b9a139d3" title=" " alt="" coords="909,527,1109,554"/>
+<area shape="rect" id="node35" href="$antkeymapper_8cpp.html#a4f87707944cf82e8e59c85d48e24951c" title=" " alt="" coords="929,578,1089,605"/>
+<area shape="rect" id="node37" href="$classBaseEventHandler.html#afd723bd1451d78a34976642783026c40" title=" " alt="" coords="1157,513,1377,555"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="MouseSettingsDialog" name="MouseSettingsDialog">
+<area shape="rect" id="node1" title=" " alt="" coords="123,85,269,112"/>
+<area shape="rect" id="node3" href="$classMouseAxisSettingsDialog.html" title=" " alt="" coords="323,5,495,32"/>
+<area shape="rect" id="node4" href="$classMouseButtonSettingsDialog.html" title=" " alt="" coords="317,56,501,83"/>
+<area shape="rect" id="node5" href="$classMouseControlStickSettingsDialog.html" title=" " alt="" coords="319,107,500,149"/>
+<area shape="rect" id="node6" href="$classMouseDPadSettingsDialog.html" title=" " alt="" coords="320,173,499,200"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,85,75,112"/>
+</map>

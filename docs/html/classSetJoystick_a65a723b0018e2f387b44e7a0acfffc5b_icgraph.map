@@ -1,0 +1,10 @@
+<map id="SetJoystick::addControlStick" name="SetJoystick::addControlStick">
+<area shape="rect" id="node1" title=" " alt="" coords="740,111,931,138"/>
+<area shape="rect" id="node2" href="$classAdvanceStickAssignmentDialog.html#a3d447d0544efde715f4774ff0789b9b1" title=" " alt="" coords="476,71,692,112"/>
+<area shape="rect" id="node5" href="$classGameControllerSet.html#afbbd676e52346412a864cdd084b5c9ce" title=" " alt="" coords="513,136,655,177"/>
+<area shape="rect" id="node3" href="$classAdvanceStickAssignmentDialog.html#a0558948fa11d0753485a53d6729e1e53" title=" " alt="" coords="195,5,428,47"/>
+<area shape="rect" id="node4" href="$classAdvanceStickAssignmentDialog.html#a60498e3f0a4ade4f6644478cb78d3cbc" title=" " alt="" coords="195,71,427,112"/>
+<area shape="rect" id="node6" href="$classGameControllerSet.html#a40b9c9ac22d6fe71c15380dcbca7eb80" title=" " alt="" coords="241,136,382,177"/>
+<area shape="rect" id="node7" href="$classGameControllerSet.html#a9d686fa2df459f7d157d60e05707f712" title=" " alt="" coords="5,103,147,144"/>
+<area shape="rect" id="node8" href="$classGameControllerSet.html#a69d798af242a07017bc0f2e2d0d8a830" title=" " alt="" coords="5,168,147,209"/>
+</map>

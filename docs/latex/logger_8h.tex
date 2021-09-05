@@ -1,0 +1,58 @@
+\hypertarget{logger_8h}{}\doxysection{/home/pawel/antimicrox/src/logger.h File Reference}
+\label{logger_8h}\index{/home/pawel/antimicrox/src/logger.h@{/home/pawel/antimicrox/src/logger.h}}
+{\ttfamily \#include $<$Q\+File$>$}\newline
+{\ttfamily \#include $<$Q\+Mutex$>$}\newline
+{\ttfamily \#include $<$Q\+Object$>$}\newline
+{\ttfamily \#include $<$Q\+Text\+Stream$>$}\newline
+{\ttfamily \#include $<$Q\+Thread$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+Include dependency graph for logger.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{logger_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{logger_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classLogger}{Logger}}
+\begin{DoxyCompactList}\small\item\em Custom singleton class used for logging across application. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classLogHelper}{Log\+Helper}}
+\begin{DoxyCompactList}\small\item\em simple helper class used for constructing log message and sending it to \mbox{\hyperlink{classLogger}{Logger}} \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classStreamPrinter}{Stream\+Printer}}
+\begin{DoxyCompactList}\small\item\em Simple adapter for Q\+Text\+Stream additionally logging printed values Logs are printed when \mbox{\hyperlink{classStreamPrinter}{Stream\+Printer}} is destroyed or log\+Content() is called. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{logger_8h_ae15389cf2f6cb63255ad552bc271e25b}{P\+R\+I\+N\+T\+\_\+\+S\+T\+D\+O\+UT}}()~\mbox{\hyperlink{classStreamPrinter}{Stream\+Printer}}(stdout, \+\_\+\+\_\+\+L\+I\+N\+E\+\_\+\+\_\+, \+\_\+\+\_\+\+F\+I\+L\+E\+\_\+\+\_\+)
+\begin{DoxyCompactList}\small\item\em Macro used for printing messages to stdout. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{logger_8h_a930d78c973685965a14ec9a3dcbf373d}{P\+R\+I\+N\+T\+\_\+\+S\+T\+D\+E\+RR}}()~\mbox{\hyperlink{classStreamPrinter}{Stream\+Printer}}(stderr, \+\_\+\+\_\+\+L\+I\+N\+E\+\_\+\+\_\+, \+\_\+\+\_\+\+F\+I\+L\+E\+\_\+\+\_\+)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{logger_8h_a930d78c973685965a14ec9a3dcbf373d}\label{logger_8h_a930d78c973685965a14ec9a3dcbf373d}} 
+\index{logger.h@{logger.h}!PRINT\_STDERR@{PRINT\_STDERR}}
+\index{PRINT\_STDERR@{PRINT\_STDERR}!logger.h@{logger.h}}
+\doxysubsubsection{\texorpdfstring{PRINT\_STDERR}{PRINT\_STDERR}}
+{\footnotesize\ttfamily \#define P\+R\+I\+N\+T\+\_\+\+S\+T\+D\+E\+RR(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~\mbox{\hyperlink{classStreamPrinter}{Stream\+Printer}}(stderr, \+\_\+\+\_\+\+L\+I\+N\+E\+\_\+\+\_\+, \+\_\+\+\_\+\+F\+I\+L\+E\+\_\+\+\_\+)}
+
+\mbox{\Hypertarget{logger_8h_ae15389cf2f6cb63255ad552bc271e25b}\label{logger_8h_ae15389cf2f6cb63255ad552bc271e25b}} 
+\index{logger.h@{logger.h}!PRINT\_STDOUT@{PRINT\_STDOUT}}
+\index{PRINT\_STDOUT@{PRINT\_STDOUT}!logger.h@{logger.h}}
+\doxysubsubsection{\texorpdfstring{PRINT\_STDOUT}{PRINT\_STDOUT}}
+{\footnotesize\ttfamily \#define P\+R\+I\+N\+T\+\_\+\+S\+T\+D\+O\+UT(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~\mbox{\hyperlink{classStreamPrinter}{Stream\+Printer}}(stdout, \+\_\+\+\_\+\+L\+I\+N\+E\+\_\+\+\_\+, \+\_\+\+\_\+\+F\+I\+L\+E\+\_\+\+\_\+)}
+
+
+
+Macro used for printing messages to stdout. 
+
+Example usage \mbox{\hyperlink{logger_8h_ae15389cf2f6cb63255ad552bc271e25b}{P\+R\+I\+N\+T\+\_\+\+S\+T\+D\+O\+U\+T()}} $<$$<$ \char`\"{}my message\char`\"{}; 

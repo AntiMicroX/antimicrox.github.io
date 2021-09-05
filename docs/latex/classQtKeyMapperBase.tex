@@ -1,0 +1,429 @@
+\hypertarget{classQtKeyMapperBase}{}\doxysection{Qt\+Key\+Mapper\+Base Class Reference}
+\label{classQtKeyMapperBase}\index{QtKeyMapperBase@{QtKeyMapperBase}}
+
+
+{\ttfamily \#include $<$qtkeymapperbase.\+h$>$}
+
+
+
+Inheritance diagram for Qt\+Key\+Mapper\+Base\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQtKeyMapperBase__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Qt\+Key\+Mapper\+Base\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=178pt]{classQtKeyMapperBase__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structQtKeyMapperBase_1_1__charKeyInformation}{\+\_\+char\+Key\+Information}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \{ \newline
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79af52b5f58b5508cf6c926e2bc3663d0b5}{Ant\+Key\+\_\+\+Shift\+\_\+R}} = Qt\+::Key\+\_\+\+Shift $\vert$ custom\+Qt\+Key\+Prefix, 
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a5b0c7d8dc9b1be3e5012a046a0abc169}{Ant\+Key\+\_\+\+Control\+\_\+R}} = Qt\+::Key\+\_\+\+Control $\vert$ custom\+Qt\+Key\+Prefix, 
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a282f18ffc97efbed992537a43a3577d3}{Ant\+Key\+\_\+\+Shift\+\_\+\+Lock}} = 0xffe6 $\vert$ custom\+Key\+Prefix, 
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a0537ab505381c228657d0aea984cdcc9}{Ant\+Key\+\_\+\+Meta\+\_\+R}} = Qt\+::Key\+\_\+\+Meta $\vert$ custom\+Qt\+Key\+Prefix, 
+\newline
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ac5c53d63eb7121ac1aa14955fb248672}{Ant\+Key\+\_\+\+Alt\+\_\+R}} = Qt\+::Key\+\_\+\+Alt $\vert$ custom\+Qt\+Key\+Prefix, 
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a67541aca74c072415c162f5c35f7c88d}{Ant\+Key\+\_\+\+K\+P\+\_\+\+Divide}} = Qt\+::Key\+\_\+\+Slash $\vert$ custom\+Qt\+Key\+Prefix, 
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a085cf0c292413c2d2ea0dd42b4368baa}{Ant\+Key\+\_\+\+K\+P\+\_\+\+Multiply}} = Qt\+::Key\+\_\+\+Asterisk $\vert$ custom\+Qt\+Key\+Prefix, 
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a5e3e3c0bcb894342f1157d697d5f8048}{Ant\+Key\+\_\+\+K\+P\+\_\+\+Subtract}} = Qt\+::Key\+\_\+\+Minus $\vert$ custom\+Qt\+Key\+Prefix, 
+\newline
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ad52992eb68b25557f64e92211b6a5655}{Ant\+Key\+\_\+\+K\+P\+\_\+\+Add}} = Qt\+::Key\+\_\+\+Plus $\vert$ custom\+Qt\+Key\+Prefix, 
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a555052bc5c923d2a1b89a4a0fcf9df19}{Ant\+Key\+\_\+\+K\+P\+\_\+\+Decimal}} = Qt\+::Key\+\_\+\+Period $\vert$ custom\+Qt\+Key\+Prefix, 
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ad9b601fc2d05e3f5ac44f092810d2493}{Ant\+Key\+\_\+\+K\+P\+\_\+\+Insert}} = Qt\+::Key\+\_\+\+Insert $\vert$ custom\+Qt\+Key\+Prefix, 
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a85fe839e756a28a1cf003606b2b5a003}{Ant\+Key\+\_\+\+Delete}} = Qt\+::Key\+\_\+\+Delete $\vert$ custom\+Qt\+Key\+Prefix, 
+\newline
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a8b5b797297624879c66ace1631876158}{Ant\+Key\+\_\+\+K\+P\+\_\+\+Delete}} = 0xff9f $\vert$ custom\+Key\+Prefix, 
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ae96973f536942d90cc08c6d209cf6d30}{Ant\+Key\+\_\+\+K\+P\+\_\+\+End}} = Qt\+::Key\+\_\+\+End $\vert$ custom\+Qt\+Key\+Prefix, 
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ac1f5420d4839b065b7904103ddf3395b}{Ant\+Key\+\_\+\+K\+P\+\_\+\+Down}} = Qt\+::Key\+\_\+\+Down $\vert$ custom\+Qt\+Key\+Prefix, 
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ac3e68ad0ef0d9336ef6e5ebd7f303972}{Ant\+Key\+\_\+\+K\+P\+\_\+\+Prior}} = Qt\+::Key\+\_\+\+Page\+Up $\vert$ custom\+Qt\+Key\+Prefix, 
+\newline
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ad18f75315253d5235bc8a0b25ab350b4}{Ant\+Key\+\_\+\+K\+P\+\_\+\+Left}} = Qt\+::Key\+\_\+\+Left $\vert$ custom\+Qt\+Key\+Prefix, 
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a05bb48e29f7467c961917284b420c526}{Ant\+Key\+\_\+\+K\+P\+\_\+\+Begin}} = Qt\+::Key\+\_\+\+Clear $\vert$ custom\+Qt\+Key\+Prefix, 
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a2fe0b8101bbec695b2c0d1d268c4458a}{Ant\+Key\+\_\+\+K\+P\+\_\+\+Right}} = Qt\+::Key\+\_\+\+Right $\vert$ custom\+Qt\+Key\+Prefix, 
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79aead4fed42ccc2dde4e19fee40717f96e}{Ant\+Key\+\_\+\+K\+P\+\_\+\+Home}} = Qt\+::Key\+\_\+\+Home $\vert$ custom\+Qt\+Key\+Prefix, 
+\newline
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a8abaf67141090604195882e20a2353c8}{Ant\+Key\+\_\+\+K\+P\+\_\+\+Up}} = Qt\+::Key\+\_\+\+Up $\vert$ custom\+Qt\+Key\+Prefix, 
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a099b3d962032475fd65660b8b405739e}{Ant\+Key\+\_\+\+K\+P\+\_\+\+Next}} = Qt\+::Key\+\_\+\+Page\+Down $\vert$ custom\+Qt\+Key\+Prefix, 
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79adcfa769fd7642884120c82a652bb5d68}{Ant\+Key\+\_\+\+K\+P\+\_\+\+Enter}} = 0xff8d $\vert$ custom\+Key\+Prefix, 
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ae8886c35410e26228d410e7be5320e40}{Ant\+Key\+\_\+\+K\+P\+\_\+0}} = 0xffb0 $\vert$ custom\+Key\+Prefix, 
+\newline
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a6347d093ed7643318f4804578388c237}{Ant\+Key\+\_\+\+K\+P\+\_\+1}} = 0xffb1 $\vert$ custom\+Key\+Prefix, 
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ab0bc69590c64bf6f3743be33c5dba39d}{Ant\+Key\+\_\+\+K\+P\+\_\+2}} = 0xffb2 $\vert$ custom\+Key\+Prefix, 
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a8599006350ba00f5df1dc58409c16d4b}{Ant\+Key\+\_\+\+K\+P\+\_\+3}} = 0xffb3 $\vert$ custom\+Key\+Prefix, 
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79aef33beb20a9a66650cab5c2c655bcbe9}{Ant\+Key\+\_\+\+K\+P\+\_\+4}} = 0xffb4 $\vert$ custom\+Key\+Prefix, 
+\newline
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a78d2b25954024609703ff822eb49ca80}{Ant\+Key\+\_\+\+K\+P\+\_\+5}} = 0xffb5 $\vert$ custom\+Key\+Prefix, 
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a1f89dabf28b76af2d33e6c17c5684fd3}{Ant\+Key\+\_\+\+K\+P\+\_\+6}} = 0xffb6 $\vert$ custom\+Key\+Prefix, 
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a64d9f767c10e2dca7e23251c578f88ce}{Ant\+Key\+\_\+\+K\+P\+\_\+7}} = 0xffb7 $\vert$ custom\+Key\+Prefix, 
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ae215eed52a83b1034a6a00832b359be3}{Ant\+Key\+\_\+\+K\+P\+\_\+8}} = 0xffb8 $\vert$ custom\+Key\+Prefix, 
+\newline
+\mbox{\hyperlink{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a4e3ada006b2acbf1be9d4d84ac4d673d}{Ant\+Key\+\_\+\+K\+P\+\_\+9}} = 0xffb9 $\vert$ custom\+Key\+Prefix
+ \}
+\item 
+typedef struct \mbox{\hyperlink{structQtKeyMapperBase_1_1__charKeyInformation}{Qt\+Key\+Mapper\+Base\+::\+\_\+char\+Key\+Information}} \mbox{\hyperlink{classQtKeyMapperBase_ae6ed94762cfe24287533847e70bce51e}{char\+Key\+Information}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classQtKeyMapperBase_a793413509c796fcbc62ac7a32bdac574}{Qt\+Key\+Mapper\+Base}} (Q\+Object $\ast$parent=nullptr)
+\item 
+virtual int \mbox{\hyperlink{classQtKeyMapperBase_a5df0f313bce11847f8495126373e7178}{return\+Virtual\+Key}} (int qkey)
+\item 
+virtual int \mbox{\hyperlink{classQtKeyMapperBase_a320ec78a9a4a978014992808ca787796}{return\+Qt\+Key}} (int key, int scancode=0)
+\item 
+virtual bool \mbox{\hyperlink{classQtKeyMapperBase_ac65b8696f15214f498f26d4d6c51b769}{is\+Modifier}} (int qkey)
+\item 
+\mbox{\hyperlink{classQtKeyMapperBase_ae6ed94762cfe24287533847e70bce51e}{char\+Key\+Information}} \mbox{\hyperlink{classQtKeyMapperBase_a5f8f3d468b761f286578334871bb4456}{get\+Char\+Key\+Information}} (Q\+Char value)
+\item 
+Q\+String \mbox{\hyperlink{classQtKeyMapperBase_aa94648e13f7d981198dd653a807b3a4d}{get\+Identifier}} ()
+\begin{DoxyCompactList}\small\item\em Obtain identifier string for key mapper. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static const int \mbox{\hyperlink{classQtKeyMapperBase_a0950b2aa6c65e50b5b4dd8f822550e4c}{custom\+Qt\+Key\+Prefix}} = 0x10000000
+\item 
+static const int \mbox{\hyperlink{classQtKeyMapperBase_aed4573a2981961a362d709f3bafc27d6}{custom\+Key\+Prefix}} = 0x20000000
+\item 
+static const int \mbox{\hyperlink{classQtKeyMapperBase_ae5b682595be6287e8e12db35efb81cb2}{native\+Key\+Prefix}} = 0x60000000
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classQtKeyMapperBase_a7a31c8e3a97a9306a6dc2fc87eb5aa2e}{populate\+Mapping\+Hashes}} ()=0
+\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classQtKeyMapperBase_a10734e3e97011ec88d5e4b510f6d74a2}{populate\+Char\+Key\+Information}} ()=0
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Hash$<$ int, int $>$ \mbox{\hyperlink{classQtKeyMapperBase_acfe504e07d4f47f4d3ee035cc2ebcfba}{qt\+Key\+To\+Virt\+Key\+Hash}}
+\item 
+Q\+Hash$<$ int, int $>$ \mbox{\hyperlink{classQtKeyMapperBase_a13f4c09d6f55dc1a6396c227750f407e}{virt\+Key\+To\+Qt\+Key\+Hash}}
+\item 
+Q\+Hash$<$ int, \mbox{\hyperlink{classQtKeyMapperBase_ae6ed94762cfe24287533847e70bce51e}{char\+Key\+Information}} $>$ \mbox{\hyperlink{classQtKeyMapperBase_a95c383bfec8f3f957105be83b0b79085}{virtkey\+To\+Char\+Key\+Info}}
+\item 
+Q\+String \mbox{\hyperlink{classQtKeyMapperBase_aa1757ad84ca4ef1b1f75c5cb6f597cc7}{identifier}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Typedef Documentation}
+\mbox{\Hypertarget{classQtKeyMapperBase_ae6ed94762cfe24287533847e70bce51e}\label{classQtKeyMapperBase_ae6ed94762cfe24287533847e70bce51e}} 
+\index{QtKeyMapperBase@{QtKeyMapperBase}!charKeyInformation@{charKeyInformation}}
+\index{charKeyInformation@{charKeyInformation}!QtKeyMapperBase@{QtKeyMapperBase}}
+\doxysubsubsection{\texorpdfstring{charKeyInformation}{charKeyInformation}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structQtKeyMapperBase_1_1__charKeyInformation}{Qt\+Key\+Mapper\+Base\+::\+\_\+char\+Key\+Information}} \mbox{\hyperlink{classQtKeyMapperBase_ae6ed94762cfe24287533847e70bce51e}{Qt\+Key\+Mapper\+Base\+::char\+Key\+Information}}}
+
+
+
+\doxysubsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79}} 
+\doxysubsubsection{\texorpdfstring{anonymous enum}{anonymous enum}}
+{\footnotesize\ttfamily anonymous enum}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_Shift\_R@{AntKey\_Shift\_R}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_Shift\_R@{AntKey\_Shift\_R}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79af52b5f58b5508cf6c926e2bc3663d0b5}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79af52b5f58b5508cf6c926e2bc3663d0b5}} 
+Ant\+Key\+\_\+\+Shift\+\_\+R&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_Control\_R@{AntKey\_Control\_R}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_Control\_R@{AntKey\_Control\_R}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a5b0c7d8dc9b1be3e5012a046a0abc169}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a5b0c7d8dc9b1be3e5012a046a0abc169}} 
+Ant\+Key\+\_\+\+Control\+\_\+R&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_Shift\_Lock@{AntKey\_Shift\_Lock}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_Shift\_Lock@{AntKey\_Shift\_Lock}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a282f18ffc97efbed992537a43a3577d3}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a282f18ffc97efbed992537a43a3577d3}} 
+Ant\+Key\+\_\+\+Shift\+\_\+\+Lock&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_Meta\_R@{AntKey\_Meta\_R}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_Meta\_R@{AntKey\_Meta\_R}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a0537ab505381c228657d0aea984cdcc9}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a0537ab505381c228657d0aea984cdcc9}} 
+Ant\+Key\+\_\+\+Meta\+\_\+R&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_Alt\_R@{AntKey\_Alt\_R}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_Alt\_R@{AntKey\_Alt\_R}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ac5c53d63eb7121ac1aa14955fb248672}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ac5c53d63eb7121ac1aa14955fb248672}} 
+Ant\+Key\+\_\+\+Alt\+\_\+R&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_Divide@{AntKey\_KP\_Divide}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_Divide@{AntKey\_KP\_Divide}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a67541aca74c072415c162f5c35f7c88d}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a67541aca74c072415c162f5c35f7c88d}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+\+Divide&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_Multiply@{AntKey\_KP\_Multiply}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_Multiply@{AntKey\_KP\_Multiply}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a085cf0c292413c2d2ea0dd42b4368baa}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a085cf0c292413c2d2ea0dd42b4368baa}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+\+Multiply&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_Subtract@{AntKey\_KP\_Subtract}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_Subtract@{AntKey\_KP\_Subtract}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a5e3e3c0bcb894342f1157d697d5f8048}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a5e3e3c0bcb894342f1157d697d5f8048}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+\+Subtract&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_Add@{AntKey\_KP\_Add}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_Add@{AntKey\_KP\_Add}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ad52992eb68b25557f64e92211b6a5655}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ad52992eb68b25557f64e92211b6a5655}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+\+Add&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_Decimal@{AntKey\_KP\_Decimal}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_Decimal@{AntKey\_KP\_Decimal}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a555052bc5c923d2a1b89a4a0fcf9df19}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a555052bc5c923d2a1b89a4a0fcf9df19}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+\+Decimal&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_Insert@{AntKey\_KP\_Insert}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_Insert@{AntKey\_KP\_Insert}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ad9b601fc2d05e3f5ac44f092810d2493}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ad9b601fc2d05e3f5ac44f092810d2493}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+\+Insert&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_Delete@{AntKey\_Delete}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_Delete@{AntKey\_Delete}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a85fe839e756a28a1cf003606b2b5a003}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a85fe839e756a28a1cf003606b2b5a003}} 
+Ant\+Key\+\_\+\+Delete&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_Delete@{AntKey\_KP\_Delete}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_Delete@{AntKey\_KP\_Delete}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a8b5b797297624879c66ace1631876158}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a8b5b797297624879c66ace1631876158}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+\+Delete&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_End@{AntKey\_KP\_End}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_End@{AntKey\_KP\_End}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ae96973f536942d90cc08c6d209cf6d30}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ae96973f536942d90cc08c6d209cf6d30}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+\+End&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_Down@{AntKey\_KP\_Down}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_Down@{AntKey\_KP\_Down}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ac1f5420d4839b065b7904103ddf3395b}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ac1f5420d4839b065b7904103ddf3395b}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+\+Down&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_Prior@{AntKey\_KP\_Prior}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_Prior@{AntKey\_KP\_Prior}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ac3e68ad0ef0d9336ef6e5ebd7f303972}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ac3e68ad0ef0d9336ef6e5ebd7f303972}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+\+Prior&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_Left@{AntKey\_KP\_Left}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_Left@{AntKey\_KP\_Left}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ad18f75315253d5235bc8a0b25ab350b4}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ad18f75315253d5235bc8a0b25ab350b4}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+\+Left&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_Begin@{AntKey\_KP\_Begin}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_Begin@{AntKey\_KP\_Begin}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a05bb48e29f7467c961917284b420c526}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a05bb48e29f7467c961917284b420c526}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+\+Begin&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_Right@{AntKey\_KP\_Right}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_Right@{AntKey\_KP\_Right}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a2fe0b8101bbec695b2c0d1d268c4458a}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a2fe0b8101bbec695b2c0d1d268c4458a}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+\+Right&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_Home@{AntKey\_KP\_Home}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_Home@{AntKey\_KP\_Home}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79aead4fed42ccc2dde4e19fee40717f96e}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79aead4fed42ccc2dde4e19fee40717f96e}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+\+Home&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_Up@{AntKey\_KP\_Up}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_Up@{AntKey\_KP\_Up}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a8abaf67141090604195882e20a2353c8}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a8abaf67141090604195882e20a2353c8}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+\+Up&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_Next@{AntKey\_KP\_Next}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_Next@{AntKey\_KP\_Next}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a099b3d962032475fd65660b8b405739e}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a099b3d962032475fd65660b8b405739e}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+\+Next&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_Enter@{AntKey\_KP\_Enter}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_Enter@{AntKey\_KP\_Enter}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79adcfa769fd7642884120c82a652bb5d68}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79adcfa769fd7642884120c82a652bb5d68}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+\+Enter&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_0@{AntKey\_KP\_0}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_0@{AntKey\_KP\_0}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ae8886c35410e26228d410e7be5320e40}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ae8886c35410e26228d410e7be5320e40}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+0&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_1@{AntKey\_KP\_1}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_1@{AntKey\_KP\_1}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a6347d093ed7643318f4804578388c237}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a6347d093ed7643318f4804578388c237}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+1&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_2@{AntKey\_KP\_2}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_2@{AntKey\_KP\_2}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ab0bc69590c64bf6f3743be33c5dba39d}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ab0bc69590c64bf6f3743be33c5dba39d}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+2&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_3@{AntKey\_KP\_3}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_3@{AntKey\_KP\_3}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a8599006350ba00f5df1dc58409c16d4b}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a8599006350ba00f5df1dc58409c16d4b}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+3&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_4@{AntKey\_KP\_4}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_4@{AntKey\_KP\_4}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79aef33beb20a9a66650cab5c2c655bcbe9}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79aef33beb20a9a66650cab5c2c655bcbe9}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+4&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_5@{AntKey\_KP\_5}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_5@{AntKey\_KP\_5}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a78d2b25954024609703ff822eb49ca80}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a78d2b25954024609703ff822eb49ca80}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+5&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_6@{AntKey\_KP\_6}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_6@{AntKey\_KP\_6}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a1f89dabf28b76af2d33e6c17c5684fd3}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a1f89dabf28b76af2d33e6c17c5684fd3}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+6&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_7@{AntKey\_KP\_7}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_7@{AntKey\_KP\_7}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a64d9f767c10e2dca7e23251c578f88ce}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a64d9f767c10e2dca7e23251c578f88ce}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+7&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_8@{AntKey\_KP\_8}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_8@{AntKey\_KP\_8}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ae215eed52a83b1034a6a00832b359be3}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79ae215eed52a83b1034a6a00832b359be3}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+8&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AntKey\_KP\_9@{AntKey\_KP\_9}!QtKeyMapperBase@{QtKeyMapperBase}}\index{QtKeyMapperBase@{QtKeyMapperBase}!AntKey\_KP\_9@{AntKey\_KP\_9}}}\mbox{\Hypertarget{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a4e3ada006b2acbf1be9d4d84ac4d673d}\label{classQtKeyMapperBase_a05d317680d3bb749adb582aec5cf5e79a4e3ada006b2acbf1be9d4d84ac4d673d}} 
+Ant\+Key\+\_\+\+K\+P\+\_\+9&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classQtKeyMapperBase_a793413509c796fcbc62ac7a32bdac574}\label{classQtKeyMapperBase_a793413509c796fcbc62ac7a32bdac574}} 
+\index{QtKeyMapperBase@{QtKeyMapperBase}!QtKeyMapperBase@{QtKeyMapperBase}}
+\index{QtKeyMapperBase@{QtKeyMapperBase}!QtKeyMapperBase@{QtKeyMapperBase}}
+\doxysubsubsection{\texorpdfstring{QtKeyMapperBase()}{QtKeyMapperBase()}}
+{\footnotesize\ttfamily Qt\+Key\+Mapper\+Base\+::\+Qt\+Key\+Mapper\+Base (\begin{DoxyParamCaption}\item[{Q\+Object $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classQtKeyMapperBase_a5f8f3d468b761f286578334871bb4456}\label{classQtKeyMapperBase_a5f8f3d468b761f286578334871bb4456}} 
+\index{QtKeyMapperBase@{QtKeyMapperBase}!getCharKeyInformation@{getCharKeyInformation}}
+\index{getCharKeyInformation@{getCharKeyInformation}!QtKeyMapperBase@{QtKeyMapperBase}}
+\doxysubsubsection{\texorpdfstring{getCharKeyInformation()}{getCharKeyInformation()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classQtKeyMapperBase_ae6ed94762cfe24287533847e70bce51e}{Qt\+Key\+Mapper\+Base\+::char\+Key\+Information}} Qt\+Key\+Mapper\+Base\+::get\+Char\+Key\+Information (\begin{DoxyParamCaption}\item[{Q\+Char}]{value }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQtKeyMapperBase_a5f8f3d468b761f286578334871bb4456_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classQtKeyMapperBase_aa94648e13f7d981198dd653a807b3a4d}\label{classQtKeyMapperBase_aa94648e13f7d981198dd653a807b3a4d}} 
+\index{QtKeyMapperBase@{QtKeyMapperBase}!getIdentifier@{getIdentifier}}
+\index{getIdentifier@{getIdentifier}!QtKeyMapperBase@{QtKeyMapperBase}}
+\doxysubsubsection{\texorpdfstring{getIdentifier()}{getIdentifier()}}
+{\footnotesize\ttfamily Q\+String Qt\+Key\+Mapper\+Base\+::get\+Identifier (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Obtain identifier string for key mapper. 
+
+\begin{DoxyReturn}{Returns}
+Identifier string. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQtKeyMapperBase_aa94648e13f7d981198dd653a807b3a4d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classQtKeyMapperBase_ac65b8696f15214f498f26d4d6c51b769}\label{classQtKeyMapperBase_ac65b8696f15214f498f26d4d6c51b769}} 
+\index{QtKeyMapperBase@{QtKeyMapperBase}!isModifier@{isModifier}}
+\index{isModifier@{isModifier}!QtKeyMapperBase@{QtKeyMapperBase}}
+\doxysubsubsection{\texorpdfstring{isModifier()}{isModifier()}}
+{\footnotesize\ttfamily bool Qt\+Key\+Mapper\+Base\+::is\+Modifier (\begin{DoxyParamCaption}\item[{int}]{qkey }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQtKeyMapperBase_ac65b8696f15214f498f26d4d6c51b769_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classQtKeyMapperBase_a10734e3e97011ec88d5e4b510f6d74a2}\label{classQtKeyMapperBase_a10734e3e97011ec88d5e4b510f6d74a2}} 
+\index{QtKeyMapperBase@{QtKeyMapperBase}!populateCharKeyInformation@{populateCharKeyInformation}}
+\index{populateCharKeyInformation@{populateCharKeyInformation}!QtKeyMapperBase@{QtKeyMapperBase}}
+\doxysubsubsection{\texorpdfstring{populateCharKeyInformation()}{populateCharKeyInformation()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Qt\+Key\+Mapper\+Base\+::populate\+Char\+Key\+Information (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classQtWinKeyMapper_a72ce99fd0c0fa0308bf7cc2acd6c707e}{Qt\+Win\+Key\+Mapper}}, \mbox{\hyperlink{classQtVMultiKeyMapper_acc0583518ae0bf19c1bbdb0ef2ce1034}{Qt\+V\+Multi\+Key\+Mapper}}, \mbox{\hyperlink{classQtUInputKeyMapper_aafb18ce6ea725d3f2acb5379aeb0121c}{Qt\+U\+Input\+Key\+Mapper}}, and \mbox{\hyperlink{classQtX11KeyMapper_a0e6788f06cd1fbe7a3190c616857fe06}{Qt\+X11\+Key\+Mapper}}.
+
+\mbox{\Hypertarget{classQtKeyMapperBase_a7a31c8e3a97a9306a6dc2fc87eb5aa2e}\label{classQtKeyMapperBase_a7a31c8e3a97a9306a6dc2fc87eb5aa2e}} 
+\index{QtKeyMapperBase@{QtKeyMapperBase}!populateMappingHashes@{populateMappingHashes}}
+\index{populateMappingHashes@{populateMappingHashes}!QtKeyMapperBase@{QtKeyMapperBase}}
+\doxysubsubsection{\texorpdfstring{populateMappingHashes()}{populateMappingHashes()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Qt\+Key\+Mapper\+Base\+::populate\+Mapping\+Hashes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classQtWinKeyMapper_a00e60b1af3c35d5efa7751d4d117e9f7}{Qt\+Win\+Key\+Mapper}}, \mbox{\hyperlink{classQtVMultiKeyMapper_a5d1b48980d48a6d74141642fb68ea699}{Qt\+V\+Multi\+Key\+Mapper}}, \mbox{\hyperlink{classQtUInputKeyMapper_a608d6ec02add1e03ec7b671663fbb461}{Qt\+U\+Input\+Key\+Mapper}}, and \mbox{\hyperlink{classQtX11KeyMapper_a509b851e479fb1432991ac60bad0bd61}{Qt\+X11\+Key\+Mapper}}.
+
+\mbox{\Hypertarget{classQtKeyMapperBase_a320ec78a9a4a978014992808ca787796}\label{classQtKeyMapperBase_a320ec78a9a4a978014992808ca787796}} 
+\index{QtKeyMapperBase@{QtKeyMapperBase}!returnQtKey@{returnQtKey}}
+\index{returnQtKey@{returnQtKey}!QtKeyMapperBase@{QtKeyMapperBase}}
+\doxysubsubsection{\texorpdfstring{returnQtKey()}{returnQtKey()}}
+{\footnotesize\ttfamily int Qt\+Key\+Mapper\+Base\+::return\+Qt\+Key (\begin{DoxyParamCaption}\item[{int}]{key,  }\item[{int}]{scancode = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classQtWinKeyMapper_a65dc4730a0dc9dcae2b32d963678f26a}{Qt\+Win\+Key\+Mapper}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQtKeyMapperBase_a320ec78a9a4a978014992808ca787796_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classQtKeyMapperBase_a5df0f313bce11847f8495126373e7178}\label{classQtKeyMapperBase_a5df0f313bce11847f8495126373e7178}} 
+\index{QtKeyMapperBase@{QtKeyMapperBase}!returnVirtualKey@{returnVirtualKey}}
+\index{returnVirtualKey@{returnVirtualKey}!QtKeyMapperBase@{QtKeyMapperBase}}
+\doxysubsubsection{\texorpdfstring{returnVirtualKey()}{returnVirtualKey()}}
+{\footnotesize\ttfamily int Qt\+Key\+Mapper\+Base\+::return\+Virtual\+Key (\begin{DoxyParamCaption}\item[{int}]{qkey }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQtKeyMapperBase_a5df0f313bce11847f8495126373e7178_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classQtKeyMapperBase_aed4573a2981961a362d709f3bafc27d6}\label{classQtKeyMapperBase_aed4573a2981961a362d709f3bafc27d6}} 
+\index{QtKeyMapperBase@{QtKeyMapperBase}!customKeyPrefix@{customKeyPrefix}}
+\index{customKeyPrefix@{customKeyPrefix}!QtKeyMapperBase@{QtKeyMapperBase}}
+\doxysubsubsection{\texorpdfstring{customKeyPrefix}{customKeyPrefix}}
+{\footnotesize\ttfamily const int Qt\+Key\+Mapper\+Base\+::custom\+Key\+Prefix = 0x20000000\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classQtKeyMapperBase_a0950b2aa6c65e50b5b4dd8f822550e4c}\label{classQtKeyMapperBase_a0950b2aa6c65e50b5b4dd8f822550e4c}} 
+\index{QtKeyMapperBase@{QtKeyMapperBase}!customQtKeyPrefix@{customQtKeyPrefix}}
+\index{customQtKeyPrefix@{customQtKeyPrefix}!QtKeyMapperBase@{QtKeyMapperBase}}
+\doxysubsubsection{\texorpdfstring{customQtKeyPrefix}{customQtKeyPrefix}}
+{\footnotesize\ttfamily const int Qt\+Key\+Mapper\+Base\+::custom\+Qt\+Key\+Prefix = 0x10000000\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classQtKeyMapperBase_aa1757ad84ca4ef1b1f75c5cb6f597cc7}\label{classQtKeyMapperBase_aa1757ad84ca4ef1b1f75c5cb6f597cc7}} 
+\index{QtKeyMapperBase@{QtKeyMapperBase}!identifier@{identifier}}
+\index{identifier@{identifier}!QtKeyMapperBase@{QtKeyMapperBase}}
+\doxysubsubsection{\texorpdfstring{identifier}{identifier}}
+{\footnotesize\ttfamily Q\+String Qt\+Key\+Mapper\+Base\+::identifier\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classQtKeyMapperBase_ae5b682595be6287e8e12db35efb81cb2}\label{classQtKeyMapperBase_ae5b682595be6287e8e12db35efb81cb2}} 
+\index{QtKeyMapperBase@{QtKeyMapperBase}!nativeKeyPrefix@{nativeKeyPrefix}}
+\index{nativeKeyPrefix@{nativeKeyPrefix}!QtKeyMapperBase@{QtKeyMapperBase}}
+\doxysubsubsection{\texorpdfstring{nativeKeyPrefix}{nativeKeyPrefix}}
+{\footnotesize\ttfamily const int Qt\+Key\+Mapper\+Base\+::native\+Key\+Prefix = 0x60000000\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classQtKeyMapperBase_acfe504e07d4f47f4d3ee035cc2ebcfba}\label{classQtKeyMapperBase_acfe504e07d4f47f4d3ee035cc2ebcfba}} 
+\index{QtKeyMapperBase@{QtKeyMapperBase}!qtKeyToVirtKeyHash@{qtKeyToVirtKeyHash}}
+\index{qtKeyToVirtKeyHash@{qtKeyToVirtKeyHash}!QtKeyMapperBase@{QtKeyMapperBase}}
+\doxysubsubsection{\texorpdfstring{qtKeyToVirtKeyHash}{qtKeyToVirtKeyHash}}
+{\footnotesize\ttfamily Q\+Hash$<$int, int$>$ Qt\+Key\+Mapper\+Base\+::qt\+Key\+To\+Virt\+Key\+Hash\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classQtKeyMapperBase_a95c383bfec8f3f957105be83b0b79085}\label{classQtKeyMapperBase_a95c383bfec8f3f957105be83b0b79085}} 
+\index{QtKeyMapperBase@{QtKeyMapperBase}!virtkeyToCharKeyInfo@{virtkeyToCharKeyInfo}}
+\index{virtkeyToCharKeyInfo@{virtkeyToCharKeyInfo}!QtKeyMapperBase@{QtKeyMapperBase}}
+\doxysubsubsection{\texorpdfstring{virtkeyToCharKeyInfo}{virtkeyToCharKeyInfo}}
+{\footnotesize\ttfamily Q\+Hash$<$int, \mbox{\hyperlink{classQtKeyMapperBase_ae6ed94762cfe24287533847e70bce51e}{char\+Key\+Information}}$>$ Qt\+Key\+Mapper\+Base\+::virtkey\+To\+Char\+Key\+Info\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classQtKeyMapperBase_a13f4c09d6f55dc1a6396c227750f407e}\label{classQtKeyMapperBase_a13f4c09d6f55dc1a6396c227750f407e}} 
+\index{QtKeyMapperBase@{QtKeyMapperBase}!virtKeyToQtKeyHash@{virtKeyToQtKeyHash}}
+\index{virtKeyToQtKeyHash@{virtKeyToQtKeyHash}!QtKeyMapperBase@{QtKeyMapperBase}}
+\doxysubsubsection{\texorpdfstring{virtKeyToQtKeyHash}{virtKeyToQtKeyHash}}
+{\footnotesize\ttfamily Q\+Hash$<$int, int$>$ Qt\+Key\+Mapper\+Base\+::virt\+Key\+To\+Qt\+Key\+Hash\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{qtkeymapperbase_8h}{qtkeymapperbase.\+h}}\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{qtkeymapperbase_8cpp}{qtkeymapperbase.\+cpp}}\end{DoxyCompactItemize}

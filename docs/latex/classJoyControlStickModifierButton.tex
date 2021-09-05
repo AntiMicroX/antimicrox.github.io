@@ -1,0 +1,295 @@
+\hypertarget{classJoyControlStickModifierButton}{}\doxysection{Joy\+Control\+Stick\+Modifier\+Button Class Reference}
+\label{classJoyControlStickModifierButton}\index{JoyControlStickModifierButton@{JoyControlStickModifierButton}}
+
+
+{\ttfamily \#include $<$joycontrolstickmodifierbutton.\+h$>$}
+
+
+
+Inheritance diagram for Joy\+Control\+Stick\+Modifier\+Button\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=229pt]{classJoyControlStickModifierButton__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Joy\+Control\+Stick\+Modifier\+Button\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyControlStickModifierButton__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classJoyControlStickModifierButton_adad0850c102acce162cc1076216008bf}{Joy\+Control\+Stick\+Modifier\+Button}} (\mbox{\hyperlink{classJoyControlStick}{Joy\+Control\+Stick}} $\ast$\mbox{\hyperlink{classJoyControlStickModifierButton_a595cb896c1e97f7d04804f8aee5741fa}{stick}}, int originset, \mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$parent\+Set, Q\+Object $\ast$parent)
+\item 
+virtual Q\+String \mbox{\hyperlink{classJoyControlStickModifierButton_a2666f594ac56d2c9d06f74b2b07a23e4}{get\+Partial\+Name}} (bool force\+Full\+Format=false, bool display\+Names=false) const
+\item 
+virtual Q\+String \mbox{\hyperlink{classJoyControlStickModifierButton_a23ea356d5f136fc2ece3051f1c8b1031}{get\+Xml\+Name}} ()
+\item 
+virtual double \mbox{\hyperlink{classJoyControlStickModifierButton_a65412dae4962e20798e45533f0b98948}{get\+Distance\+From\+Dead\+Zone}} ()
+\begin{DoxyCompactList}\small\item\em Get the distance that an element is away from its assigned dead zone. \end{DoxyCompactList}\item 
+virtual double \mbox{\hyperlink{classJoyControlStickModifierButton_ac2f9e7924a72d288733c987fc3498a91}{get\+Mouse\+Distance\+From\+Dead\+Zone}} ()
+\begin{DoxyCompactList}\small\item\em Get the distance factor that should be used for mouse movement. \end{DoxyCompactList}\item 
+virtual double \mbox{\hyperlink{classJoyControlStickModifierButton_adaf7679f50f4cd6b8d0b217351c7032c}{get\+Last\+Mouse\+Distance\+From\+Dead\+Zone}} ()
+\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyControlStickModifierButton_aa29ac1a3b21e90dc0b482bed38935654}{set\+Change\+Set\+Condition}} (\mbox{\hyperlink{classJoyButton_a3602da29174aa7789efe63051e1942ab}{Set\+Change\+Condition}} condition, bool passive=false, bool update\+Active\+String=true)
+\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyControlStickModifierButton_a8e7da6e21d5247e045679c0a96b82225}{set\+Turbo\+Mode}} (\mbox{\hyperlink{classJoyButton_a66492a2ee619ab2b9c5b790365a7efe3}{Turbo\+Mode}} mode)
+\begin{DoxyCompactList}\small\item\em Set the turbo mode that the button should use. \end{DoxyCompactList}\item 
+virtual bool \mbox{\hyperlink{classJoyControlStickModifierButton_ac6b44a9c7d8ba0dc24b0bb0b0bfcc626}{is\+Part\+Real\+Axis}} ()
+\begin{DoxyCompactList}\small\item\em Check if button should be considered a part of a real controller axis. Needed for some dialogs so the program won\textquotesingle{}t have to resort to type checking. \end{DoxyCompactList}\item 
+virtual bool \mbox{\hyperlink{classJoyControlStickModifierButton_a4c15631891ed82fd503475d437cc693c}{is\+Modifier\+Button}} ()
+\item 
+virtual double \mbox{\hyperlink{classJoyControlStickModifierButton_a21a8abce0e5340778292fab50cced777}{get\+Acceleration\+Distance}} ()
+\item 
+virtual double \mbox{\hyperlink{classJoyControlStickModifierButton_a9b1b1ef20983233e1ab1328e00370aa9}{get\+Last\+Acceleration\+Distance}} ()
+\item 
+\mbox{\hyperlink{classJoyControlStick}{Joy\+Control\+Stick}} $\ast$ \mbox{\hyperlink{classJoyControlStickModifierButton_aa7e2a83d0f67450c9164586008b5cd6a}{get\+Stick}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classJoyControlStick}{Joy\+Control\+Stick}} $\ast$ \mbox{\hyperlink{classJoyControlStickModifierButton_a595cb896c1e97f7d04804f8aee5741fa}{stick}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classJoyControlStickModifierButton_adad0850c102acce162cc1076216008bf}\label{classJoyControlStickModifierButton_adad0850c102acce162cc1076216008bf}} 
+\index{JoyControlStickModifierButton@{JoyControlStickModifierButton}!JoyControlStickModifierButton@{JoyControlStickModifierButton}}
+\index{JoyControlStickModifierButton@{JoyControlStickModifierButton}!JoyControlStickModifierButton@{JoyControlStickModifierButton}}
+\doxysubsubsection{\texorpdfstring{JoyControlStickModifierButton()}{JoyControlStickModifierButton()}}
+{\footnotesize\ttfamily Joy\+Control\+Stick\+Modifier\+Button\+::\+Joy\+Control\+Stick\+Modifier\+Button (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyControlStick}{Joy\+Control\+Stick}} $\ast$}]{stick,  }\item[{int}]{originset,  }\item[{\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$}]{parent\+Set,  }\item[{Q\+Object $\ast$}]{parent }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classJoyControlStickModifierButton_a21a8abce0e5340778292fab50cced777}\label{classJoyControlStickModifierButton_a21a8abce0e5340778292fab50cced777}} 
+\index{JoyControlStickModifierButton@{JoyControlStickModifierButton}!getAccelerationDistance@{getAccelerationDistance}}
+\index{getAccelerationDistance@{getAccelerationDistance}!JoyControlStickModifierButton@{JoyControlStickModifierButton}}
+\doxysubsubsection{\texorpdfstring{getAccelerationDistance()}{getAccelerationDistance()}}
+{\footnotesize\ttfamily double Joy\+Control\+Stick\+Modifier\+Button\+::get\+Acceleration\+Distance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classJoyButton_a48369975ea4bc0d16e284b02bf4b1246}{Joy\+Button}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyControlStickModifierButton_a21a8abce0e5340778292fab50cced777_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyControlStickModifierButton_a65412dae4962e20798e45533f0b98948}\label{classJoyControlStickModifierButton_a65412dae4962e20798e45533f0b98948}} 
+\index{JoyControlStickModifierButton@{JoyControlStickModifierButton}!getDistanceFromDeadZone@{getDistanceFromDeadZone}}
+\index{getDistanceFromDeadZone@{getDistanceFromDeadZone}!JoyControlStickModifierButton@{JoyControlStickModifierButton}}
+\doxysubsubsection{\texorpdfstring{getDistanceFromDeadZone()}{getDistanceFromDeadZone()}}
+{\footnotesize\ttfamily double Joy\+Control\+Stick\+Modifier\+Button\+::get\+Distance\+From\+Dead\+Zone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Get the distance that an element is away from its assigned dead zone. 
+
+\begin{DoxyReturn}{Returns}
+Normalized distance away from dead zone 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classJoyButton_a447ec98d3ffd8b2a8668c14d2646851c}{Joy\+Button}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyControlStickModifierButton_a65412dae4962e20798e45533f0b98948_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyControlStickModifierButton_a65412dae4962e20798e45533f0b98948_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyControlStickModifierButton_a9b1b1ef20983233e1ab1328e00370aa9}\label{classJoyControlStickModifierButton_a9b1b1ef20983233e1ab1328e00370aa9}} 
+\index{JoyControlStickModifierButton@{JoyControlStickModifierButton}!getLastAccelerationDistance@{getLastAccelerationDistance}}
+\index{getLastAccelerationDistance@{getLastAccelerationDistance}!JoyControlStickModifierButton@{JoyControlStickModifierButton}}
+\doxysubsubsection{\texorpdfstring{getLastAccelerationDistance()}{getLastAccelerationDistance()}}
+{\footnotesize\ttfamily double Joy\+Control\+Stick\+Modifier\+Button\+::get\+Last\+Acceleration\+Distance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classJoyButton_a384912c63bcea6a25ab2957c7c8c23c6}{Joy\+Button}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyControlStickModifierButton_a9b1b1ef20983233e1ab1328e00370aa9_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyControlStickModifierButton_adaf7679f50f4cd6b8d0b217351c7032c}\label{classJoyControlStickModifierButton_adaf7679f50f4cd6b8d0b217351c7032c}} 
+\index{JoyControlStickModifierButton@{JoyControlStickModifierButton}!getLastMouseDistanceFromDeadZone@{getLastMouseDistanceFromDeadZone}}
+\index{getLastMouseDistanceFromDeadZone@{getLastMouseDistanceFromDeadZone}!JoyControlStickModifierButton@{JoyControlStickModifierButton}}
+\doxysubsubsection{\texorpdfstring{getLastMouseDistanceFromDeadZone()}{getLastMouseDistanceFromDeadZone()}}
+{\footnotesize\ttfamily double Joy\+Control\+Stick\+Modifier\+Button\+::get\+Last\+Mouse\+Distance\+From\+Dead\+Zone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classJoyButton_a17e7d44ff2d956493113d7312ab406dc}{Joy\+Button}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyControlStickModifierButton_adaf7679f50f4cd6b8d0b217351c7032c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyControlStickModifierButton_ac2f9e7924a72d288733c987fc3498a91}\label{classJoyControlStickModifierButton_ac2f9e7924a72d288733c987fc3498a91}} 
+\index{JoyControlStickModifierButton@{JoyControlStickModifierButton}!getMouseDistanceFromDeadZone@{getMouseDistanceFromDeadZone}}
+\index{getMouseDistanceFromDeadZone@{getMouseDistanceFromDeadZone}!JoyControlStickModifierButton@{JoyControlStickModifierButton}}
+\doxysubsubsection{\texorpdfstring{getMouseDistanceFromDeadZone()}{getMouseDistanceFromDeadZone()}}
+{\footnotesize\ttfamily double Joy\+Control\+Stick\+Modifier\+Button\+::get\+Mouse\+Distance\+From\+Dead\+Zone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Get the distance factor that should be used for mouse movement. 
+
+\begin{DoxyReturn}{Returns}
+Distance factor that should be used for mouse movement 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classJoyButton_a352acb56d462240c593e7b70bca74f55}{Joy\+Button}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyControlStickModifierButton_ac2f9e7924a72d288733c987fc3498a91_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyControlStickModifierButton_a2666f594ac56d2c9d06f74b2b07a23e4}\label{classJoyControlStickModifierButton_a2666f594ac56d2c9d06f74b2b07a23e4}} 
+\index{JoyControlStickModifierButton@{JoyControlStickModifierButton}!getPartialName@{getPartialName}}
+\index{getPartialName@{getPartialName}!JoyControlStickModifierButton@{JoyControlStickModifierButton}}
+\doxysubsubsection{\texorpdfstring{getPartialName()}{getPartialName()}}
+{\footnotesize\ttfamily Q\+String Joy\+Control\+Stick\+Modifier\+Button\+::get\+Partial\+Name (\begin{DoxyParamCaption}\item[{bool}]{force\+Full\+Format = {\ttfamily false},  }\item[{bool}]{display\+Names = {\ttfamily false} }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classJoyButton_acf2e65dcec7b0d2a8a2c21c36c489ad6}{Joy\+Button}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyControlStickModifierButton_a2666f594ac56d2c9d06f74b2b07a23e4_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyControlStickModifierButton_aa7e2a83d0f67450c9164586008b5cd6a}\label{classJoyControlStickModifierButton_aa7e2a83d0f67450c9164586008b5cd6a}} 
+\index{JoyControlStickModifierButton@{JoyControlStickModifierButton}!getStick@{getStick}}
+\index{getStick@{getStick}!JoyControlStickModifierButton@{JoyControlStickModifierButton}}
+\doxysubsubsection{\texorpdfstring{getStick()}{getStick()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyControlStick}{Joy\+Control\+Stick}} $\ast$ Joy\+Control\+Stick\+Modifier\+Button\+::get\+Stick (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classJoyControlStickModifierButton_a23ea356d5f136fc2ece3051f1c8b1031}\label{classJoyControlStickModifierButton_a23ea356d5f136fc2ece3051f1c8b1031}} 
+\index{JoyControlStickModifierButton@{JoyControlStickModifierButton}!getXmlName@{getXmlName}}
+\index{getXmlName@{getXmlName}!JoyControlStickModifierButton@{JoyControlStickModifierButton}}
+\doxysubsubsection{\texorpdfstring{getXmlName()}{getXmlName()}}
+{\footnotesize\ttfamily Q\+String Joy\+Control\+Stick\+Modifier\+Button\+::get\+Xml\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classJoyButton_ab628d2c4a5d2dd34e763d0a9c0d967c7}{Joy\+Button}}.
+
+\mbox{\Hypertarget{classJoyControlStickModifierButton_a4c15631891ed82fd503475d437cc693c}\label{classJoyControlStickModifierButton_a4c15631891ed82fd503475d437cc693c}} 
+\index{JoyControlStickModifierButton@{JoyControlStickModifierButton}!isModifierButton@{isModifierButton}}
+\index{isModifierButton@{isModifierButton}!JoyControlStickModifierButton@{JoyControlStickModifierButton}}
+\doxysubsubsection{\texorpdfstring{isModifierButton()}{isModifierButton()}}
+{\footnotesize\ttfamily bool Joy\+Control\+Stick\+Modifier\+Button\+::is\+Modifier\+Button (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classJoyButton_ad584e8d34e82b179966790f412d0a50a}{Joy\+Button}}.
+
+\mbox{\Hypertarget{classJoyControlStickModifierButton_ac6b44a9c7d8ba0dc24b0bb0b0bfcc626}\label{classJoyControlStickModifierButton_ac6b44a9c7d8ba0dc24b0bb0b0bfcc626}} 
+\index{JoyControlStickModifierButton@{JoyControlStickModifierButton}!isPartRealAxis@{isPartRealAxis}}
+\index{isPartRealAxis@{isPartRealAxis}!JoyControlStickModifierButton@{JoyControlStickModifierButton}}
+\doxysubsubsection{\texorpdfstring{isPartRealAxis()}{isPartRealAxis()}}
+{\footnotesize\ttfamily bool Joy\+Control\+Stick\+Modifier\+Button\+::is\+Part\+Real\+Axis (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Check if button should be considered a part of a real controller axis. Needed for some dialogs so the program won\textquotesingle{}t have to resort to type checking. 
+
+\begin{DoxyReturn}{Returns}
+Status of being part of a real controller axis 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classJoyButton_a77afa6c5934d2665bad6d494b812f372}{Joy\+Button}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyControlStickModifierButton_ac6b44a9c7d8ba0dc24b0bb0b0bfcc626_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyControlStickModifierButton_aa29ac1a3b21e90dc0b482bed38935654}\label{classJoyControlStickModifierButton_aa29ac1a3b21e90dc0b482bed38935654}} 
+\index{JoyControlStickModifierButton@{JoyControlStickModifierButton}!setChangeSetCondition@{setChangeSetCondition}}
+\index{setChangeSetCondition@{setChangeSetCondition}!JoyControlStickModifierButton@{JoyControlStickModifierButton}}
+\doxysubsubsection{\texorpdfstring{setChangeSetCondition()}{setChangeSetCondition()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Control\+Stick\+Modifier\+Button\+::set\+Change\+Set\+Condition (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButton_a3602da29174aa7789efe63051e1942ab}{Set\+Change\+Condition}}}]{condition,  }\item[{bool}]{passive = {\ttfamily false},  }\item[{bool}]{update\+Active\+String = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classJoyButton_a451a0eaac9ee0a8804107a8b8c6659d1}{Joy\+Button}}.
+
+\mbox{\Hypertarget{classJoyControlStickModifierButton_a8e7da6e21d5247e045679c0a96b82225}\label{classJoyControlStickModifierButton_a8e7da6e21d5247e045679c0a96b82225}} 
+\index{JoyControlStickModifierButton@{JoyControlStickModifierButton}!setTurboMode@{setTurboMode}}
+\index{setTurboMode@{setTurboMode}!JoyControlStickModifierButton@{JoyControlStickModifierButton}}
+\doxysubsubsection{\texorpdfstring{setTurboMode()}{setTurboMode()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Control\+Stick\+Modifier\+Button\+::set\+Turbo\+Mode (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButton_a66492a2ee619ab2b9c5b790365a7efe3}{Turbo\+Mode}}}]{mode }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Set the turbo mode that the button should use. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Mode} & that should be used \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classJoyButton_a248ef9e36346c126bc331edcd1f50a97}{Joy\+Button}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyControlStickModifierButton_a8e7da6e21d5247e045679c0a96b82225_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classJoyControlStickModifierButton_a595cb896c1e97f7d04804f8aee5741fa}\label{classJoyControlStickModifierButton_a595cb896c1e97f7d04804f8aee5741fa}} 
+\index{JoyControlStickModifierButton@{JoyControlStickModifierButton}!stick@{stick}}
+\index{stick@{stick}!JoyControlStickModifierButton@{JoyControlStickModifierButton}}
+\doxysubsubsection{\texorpdfstring{stick}{stick}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyControlStick}{Joy\+Control\+Stick}}$\ast$ Joy\+Control\+Stick\+Modifier\+Button\+::stick\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/antimicrox/src/joybuttontypes/\mbox{\hyperlink{joycontrolstickmodifierbutton_8h}{joycontrolstickmodifierbutton.\+h}}\item 
+/home/pawel/antimicrox/src/joybuttontypes/\mbox{\hyperlink{joycontrolstickmodifierbutton_8cpp}{joycontrolstickmodifierbutton.\+cpp}}\end{DoxyCompactItemize}

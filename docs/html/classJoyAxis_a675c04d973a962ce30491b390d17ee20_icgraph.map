@@ -1,0 +1,20 @@
+<map id="JoyAxis::getAxisName" name="JoyAxis::getAxisName">
+<area shape="rect" id="node1" title=" " alt="" coords="987,147,1143,174"/>
+<area shape="rect" id="node2" href="$classAxisEditDialog.html#a702a1718f3a1dd6b64b4474ea19b71cd" title=" " alt="" coords="490,16,655,57"/>
+<area shape="rect" id="node3" href="$classInputDevice.html#a77b9dee81f942169520b06b7cf9b297c" title=" " alt="" coords="746,111,929,152"/>
+<area shape="rect" id="node4" href="$classInputDeviceXml.html#a12bf094c5ab0ab10dae089e41fbc778c" title=" " alt="" coords="478,118,667,145"/>
+<area shape="rect" id="node7" href="$classInputDevice.html#a8714a2f5c2fa1f620e9df58c2025cd56" title=" " alt="" coords="745,228,930,269"/>
+<area shape="rect" id="node16" href="$classMouseAxisSettingsDialog.html#a0edd3909adbb929ff5337c680861505d" title=" " alt="" coords="736,293,939,335"/>
+<area shape="rect" id="node18" href="$classAxisEditDialog.html#a240d4447e6873472266af0f251a35e76" title=" " alt="" coords="736,45,939,87"/>
+<area shape="rect" id="node5" href="$classXMLConfigWriter.html#aacd0a3991eedf223f3586d33559903d4" title=" " alt="" coords="225,86,382,113"/>
+<area shape="rect" id="node6" href="$classJoyTabWidgetHelper.html#ad1754369989cbe4a3e10c8c01e3fb89b" title=" " alt="" coords="6,79,149,120"/>
+<area shape="rect" id="node8" href="$classInputDevice.html#a6ffcebba103a7db02e82c1c7f62387bf" title=" " alt="" coords="457,187,688,214"/>
+<area shape="rect" id="node11" href="$classInputDevice.html#a3f84bf17a7c2b744b68c8791080c96d3" title=" " alt="" coords="483,238,662,265"/>
+<area shape="rect" id="node9" href="$classGameController.html#afcddb9dcc5442a9746c3ff8760ea1791" title=" " alt="" coords="197,137,409,163"/>
+<area shape="rect" id="node10" href="$classJoystick.html#a9df5e53506876f3c95e84bdf6c9cbaf1" title=" " alt="" coords="241,187,366,214"/>
+<area shape="rect" id="node12" href="$classInputDeviceXml.html#a847bf9ed17b554bf87d513a1aebdcb64" title=" " alt="" coords="210,238,397,265"/>
+<area shape="rect" id="node13" href="$classGameControllerXml.html#aaa5257d4c6fe13f1d5fc51981e247c25" title=" " alt="" coords="231,289,375,331"/>
+<area shape="rect" id="node15" href="$classGameControllerXml.html#ae6ea19bdaf10425456faf9dd8495a7a3" title=" " alt="" coords="231,355,375,396"/>
+<area shape="rect" id="node14" href="$classGameControllerXml.html#a7e47256cae0d3815419bc254413777d1" title=" " alt="" coords="5,321,149,363"/>
+<area shape="rect" id="node17" href="$classMouseAxisSettingsDialog.html#a33546e4b608264ce6d2758678eb6d2e7" title=" " alt="" coords="483,293,663,335"/>
+</map>

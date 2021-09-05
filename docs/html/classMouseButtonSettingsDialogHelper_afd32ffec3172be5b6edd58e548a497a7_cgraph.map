@@ -1,0 +1,5 @@
+<map id="MouseButtonSettingsDialogHelper::updateExtraAccelerationStatus" name="MouseButtonSettingsDialogHelper::updateExtraAccelerationStatus">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,216,61"/>
+<area shape="rect" id="node2" href="$classJoyButton.html#aca69f26410f28982be9a6e952ec3c494" title=" " alt="" coords="264,13,475,54"/>
+<area shape="rect" id="node3" href="$classJoyButton.html#a77afa6c5934d2665bad6d494b812f372" title="Check if button should be considered a part of a real controller axis. Needed for some dialogs so the..." alt="" coords="523,20,699,47"/>
+</map>

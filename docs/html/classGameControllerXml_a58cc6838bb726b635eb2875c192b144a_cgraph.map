@@ -1,0 +1,6 @@
+<map id="GameControllerXml::writeXmlAxBtn" name="GameControllerXml::writeXmlAxBtn">
+<area shape="rect" id="node1" title=" " alt="" coords="5,49,149,90"/>
+<area shape="rect" id="node2" href="$classJoyButton.html#a7123f5432bda7b5b9d4b2b95bdabf4db" title=" " alt="" coords="207,5,387,32"/>
+<area shape="rect" id="node3" href="$classJoyAxis.html#a9ceda991c13da3a99868acc436ed20f3" title=" " alt="" coords="210,56,385,83"/>
+<area shape="rect" id="node4" href="$classJoyButton.html#a39c9ccaf641bb8bf50b29d4c4e04c165" title="Get a 1 indexed number of button." alt="" coords="197,107,397,133"/>
+</map>

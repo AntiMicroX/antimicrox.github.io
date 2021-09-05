@@ -1,0 +1,8 @@
+<map id="InputDevice::reInitButtons" name="InputDevice::reInitButtons">
+<area shape="rect" id="node1" title=" " alt="" coords="453,85,628,112"/>
+<area shape="rect" id="node2" href="$classInputDeviceXml.html#a847bf9ed17b554bf87d513a1aebdcb64" title=" " alt="" coords="219,5,405,32"/>
+<area shape="rect" id="node3" href="$classGameControllerXml.html#a7e47256cae0d3815419bc254413777d1" title=" " alt="" coords="16,78,160,119"/>
+<area shape="rect" id="node4" href="$classGameControllerXml.html#aaa5257d4c6fe13f1d5fc51981e247c25" title=" " alt="" coords="240,107,384,149"/>
+<area shape="rect" id="node5" href="$classJoyTabWidgetHelper.html#aef94ae0812f28f43eb891ddc210c341e" title=" " alt="" coords="241,173,383,214"/>
+<area shape="rect" id="node6" href="$classJoyTabWidgetHelper.html#acc5d7d51e925f84f9aa2936ce267f843" title=" " alt="" coords="5,173,171,214"/>
+</map>

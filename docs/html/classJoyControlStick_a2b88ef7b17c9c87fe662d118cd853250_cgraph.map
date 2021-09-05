@@ -1,0 +1,6 @@
+<map id="JoyControlStick::determineStandardModeEvent" name="JoyControlStick::determineStandardModeEvent">
+<area shape="rect" id="node1" title="Determine which stick direction buttons should be active for a standard mode stick." alt="" coords="5,39,184,80"/>
+<area shape="rect" id="node2" href="$classJoyControlStick.html#a033cec8c362b923e61ec638645e7a80c" title="Calculate the bearing (in degrees) corresponding to the current position of the X and Y axes of a sti..." alt="" coords="240,5,415,47"/>
+<area shape="rect" id="node4" href="$classJoyControlStick.html#af1d63f69041b08e3e1e086768a4c22cf" title=" " alt="" coords="232,71,423,112"/>
+<area shape="rect" id="node3" href="$classJoyAxis.html#a0580ab0df546a1c03b4e8f755ad00272" title=" " alt="" coords="471,13,667,39"/>
+</map>

@@ -1,0 +1,28 @@
+<map id="MainSettingsDialog::saveNewSettings" name="MainSettingsDialog::saveNewSettings">
+<area shape="rect" id="node1" title=" " alt="" coords="5,375,140,417"/>
+<area shape="rect" id="node2" href="$classMainSettingsDialog.html#a7da8826e7910dfd97ae68b8ac633d3f8" title=" " alt="" coords="231,342,379,383"/>
+<area shape="rect" id="node3" href="$classAntiMicroSettings.html#a4f172ffefe55eeba5afff3d54182f881" title=" " alt="" coords="522,61,655,102"/>
+<area shape="rect" id="node4" href="$classJoyButton.html#a65766cc767496485cc211a6e1511137a" title=" " alt="" coords="213,123,397,149"/>
+<area shape="rect" id="node5" href="$classJoyButton.html#adcbf2eb84178a075252fd096c5aee4e9" title=" " alt="" coords="215,174,395,215"/>
+<area shape="rect" id="node6" href="$classJoyButton.html#a17ca5850b4db9dc5dc83083533d34768" title=" " alt="" coords="195,240,415,267"/>
+<area shape="rect" id="node7" href="$namespacePadderCommon.html#a354573bde6a47232b838ceccca533b02" title=" " alt="" coords="193,291,418,317"/>
+<area shape="rect" id="node8" href="$classMainSettingsDialog.html#a2ac3157f0e50f95986221adbbb008239" title=" " alt="" coords="221,407,390,449"/>
+<area shape="rect" id="node18" href="$classJoyButton.html#a7d1de2cfa68b7d10c7ba42288b72e9e9" title="Set the gamepad poll rate to be used in the application." alt="" coords="188,524,423,551"/>
+<area shape="rect" id="node20" href="$classJoyButton.html#a4474e5e2e8c765aa5dcd68b5d7ef4b91" title="Set mouse history buffer size used for mouse smoothing." alt="" coords="198,473,413,500"/>
+<area shape="rect" id="node21" href="$classJoyButton.html#a77fcc637c78243eff0d2911e18d79933" title="Set the mouse refresh rate when a mouse slot is active." alt="" coords="196,692,415,719"/>
+<area shape="rect" id="node23" href="$classJoyButton.html#a2aace0b4e094ecc9f3642eaa90841e4f" title=" " alt="" coords="217,575,393,617"/>
+<area shape="rect" id="node24" href="$classJoyButton.html#af85f86003ec07d782d02ca515039f229" title="Set the weight modifier to use for mouse smoothing." alt="" coords="209,641,402,668"/>
+<area shape="rect" id="node25" href="$classMainSettingsDialog.html#a42978a685f72cc5ad338029a6639903b" title=" " alt="" coords="228,57,383,98"/>
+<area shape="rect" id="node26" href="$namespacePadderCommon.html#a5de97eeb52ef44a36a1caba613b7a343" title=" " alt="" coords="210,743,401,785"/>
+<area shape="rect" id="node9" href="$classMainSettingsDialog.html#a13f64f1f6b38c47b6fb5f37533dfdeb8" title=" " alt="" coords="471,298,707,339"/>
+<area shape="rect" id="node10" href="$classAutoProfileInfo.html#a79dc148898bc863eb5ceedc88d8f7638" title=" " alt="" coords="483,364,694,391"/>
+<area shape="rect" id="node11" href="$classAutoProfileInfo.html#a2c94a2f2793b09a153adbabc8c555eda" title=" " alt="" coords="511,415,667,441"/>
+<area shape="rect" id="node12" href="$classAutoProfileInfo.html#a542720df3f705eb79255b4b85af7b1a5" title=" " alt="" coords="503,466,674,507"/>
+<area shape="rect" id="node13" href="$classAutoProfileInfo.html#aba94c3fdd9e66bf8dc42a74237ff911c" title=" " alt="" coords="494,532,683,559"/>
+<area shape="rect" id="node14" href="$classAutoProfileInfo.html#a37dfba098d3c8a8e90beca36b2f3561b" title=" " alt="" coords="498,583,679,625"/>
+<area shape="rect" id="node15" href="$classAutoProfileInfo.html#a8136af0d4f8e0fcdc0f6562dd6ec9c48" title=" " alt="" coords="481,131,697,157"/>
+<area shape="rect" id="node16" href="$classAutoProfileInfo.html#a51f57cf7cda4e66b052d12e5a8879785" title=" " alt="" coords="507,181,670,208"/>
+<area shape="rect" id="node17" href="$classAutoProfileInfo.html#a553164ad155d884279b15d8533438c73" title=" " alt="" coords="507,233,671,274"/>
+<area shape="rect" id="node19" href="$classJoyButtonMouseHelper.html#ae4655a0a7f9e15f5701715e0c87fa8c7" title=" " alt="" coords="495,649,682,690"/>
+<area shape="rect" id="node22" href="$classJoyButtonMouseHelper.html#af68566bd3590fd3070cf044a61824c75" title=" " alt="" coords="482,714,695,755"/>
+</map>

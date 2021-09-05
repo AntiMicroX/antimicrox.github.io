@@ -1,0 +1,8 @@
+<map id="JoyControlStick::isDefault" name="JoyControlStick::isDefault">
+<area shape="rect" id="node1" title=" " alt="" coords="529,56,704,83"/>
+<area shape="rect" id="node2" href="$classJoyControlStick.html#a57b418a495a22ea5182e89ef4a6cf233" title="Copy slots from all stick buttons and properties from a stick onto another." alt="" coords="255,5,481,32"/>
+<area shape="rect" id="node4" href="$classSetJoystick.html#a5de4017d04f877e12df92334f41d08f3" title=" " alt="" coords="285,56,451,83"/>
+<area shape="rect" id="node6" href="$classJoyControlStick.html#a3ab1764a44e806d2d3896023f82fa3b1" title="Write the status of the properties of a stick and direction buttons to an XML stream." alt="" coords="274,107,462,133"/>
+<area shape="rect" id="node3" href="$classSetJoystick.html#a36b0da099fef84270b6cc7c76741e689" title=" " alt="" coords="5,5,207,32"/>
+<area shape="rect" id="node5" href="$classSetJoystickXml.html#a11eec051c05deac5ebe47b9582e83b6f" title=" " alt="" coords="13,56,199,83"/>
+</map>

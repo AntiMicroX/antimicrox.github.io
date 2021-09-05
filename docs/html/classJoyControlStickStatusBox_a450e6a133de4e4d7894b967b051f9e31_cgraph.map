@@ -1,0 +1,14 @@
+<map id="JoyControlStickStatusBox::drawEightWayBox" name="JoyControlStickStatusBox::drawEightWayBox">
+<area shape="rect" id="node1" title=" " alt="" coords="5,203,181,244"/>
+<area shape="rect" id="node2" href="$classJoyControlStick.html#a0e3fe034c525e212163dd8d59cef8428" title=" " alt="" coords="247,5,422,47"/>
+<area shape="rect" id="node5" href="$classJoyControlStick.html#ae042621e02d88cf4f4574b7c45029e1f" title=" " alt="" coords="247,173,422,215"/>
+<area shape="rect" id="node7" href="$classJoyControlStick.html#a2798057ca20a52307ced3f75eb5d9aaa" title="Get the assigned dead zone value." alt="" coords="235,239,435,266"/>
+<area shape="rect" id="node8" href="$classJoyControlStick.html#a19d2cb8e0f5888c4610dbfb29ffc5340" title="Get the assigned diagonal range value." alt="" coords="239,291,430,332"/>
+<area shape="rect" id="node9" href="$classJoyControlStick.html#af1d63f69041b08e3e1e086768a4c22cf" title=" " alt="" coords="239,356,430,397"/>
+<area shape="rect" id="node10" href="$classJoyControlStick.html#a037c44802b5f528144bf592ace15dc08" title=" " alt="" coords="237,422,432,449"/>
+<area shape="rect" id="node11" href="$classJoyControlStick.html#ac12ecf9bf840ecee8fa8b2873304fc66" title="Get the value for the corresponding X axis." alt="" coords="229,71,440,98"/>
+<area shape="rect" id="node12" href="$classJoyControlStick.html#ad68f8a723bdefd42af7b4317ab40371a" title="Get the value for the corresponding Y axis." alt="" coords="229,122,440,149"/>
+<area shape="rect" id="node3" href="$classJoyControlStick.html#a153940c564b3853d142059e9104f7c71" title=" " alt="" coords="499,5,673,47"/>
+<area shape="rect" id="node4" href="$classJoyAxis.html#a0580ab0df546a1c03b4e8f755ad00272" title=" " alt="" coords="488,97,684,123"/>
+<area shape="rect" id="node6" href="$classJoyControlStick.html#a474ce78a526ae11be203450f605ef5ad" title=" " alt="" coords="499,173,673,215"/>
+</map>

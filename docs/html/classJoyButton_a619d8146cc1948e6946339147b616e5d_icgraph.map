@@ -1,0 +1,11 @@
+<map id="JoyButton::getCycleResetTime" name="JoyButton::getCycleResetTime">
+<area shape="rect" id="node1" title=" " alt="" coords="487,68,689,95"/>
+<area shape="rect" id="node2" href="$classAdvanceButtonDialog.html#a4f9a1a007f50de1c3cca1403d08a0790" title=" " alt="" coords="29,23,184,65"/>
+<area shape="rect" id="node3" href="$classAdvanceButtonDialog.html#a9432e934237e71998dbd7869178bbd86" title=" " alt="" coords="256,27,439,69"/>
+<area shape="rect" id="node4" href="$classAdvanceButtonDialog.html#a21b3b496b19dffe081924d94565f7235" title=" " alt="" coords="271,93,424,134"/>
+<area shape="rect" id="node5" href="$classJoyButtonXml.html#a766e87947104bfd54fc15b96b267ebdd" title=" " alt="" coords="258,161,437,188"/>
+<area shape="rect" id="node6" href="$classGameControllerTriggerXml.html#a382a32a139351f790192dc0991dea637" title=" " alt="" coords="19,89,194,130"/>
+<area shape="rect" id="node7" href="$classJoyDPadXml.html#ac78c8fd1ad107f6a3baed4910863cb0c" title=" " alt="" coords="5,154,208,195"/>
+<area shape="rect" id="node8" href="$classSetJoystickXml.html#a11eec051c05deac5ebe47b9582e83b6f" title=" " alt="" coords="13,220,200,247"/>
+<area shape="rect" id="node9" href="$classJoyControlStick.html#a3ab1764a44e806d2d3896023f82fa3b1" title="Write the status of the properties of a stick and direction buttons to an XML stream." alt="" coords="13,271,201,297"/>
+</map>

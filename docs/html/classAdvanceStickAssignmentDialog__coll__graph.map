@@ -1,0 +1,9 @@
+<map id="AdvanceStickAssignmentDialog" name="AdvanceStickAssignmentDialog">
+<area shape="rect" id="node1" title=" " alt="" coords="5,336,213,363"/>
+<area shape="rect" id="node2" title=" " alt="" coords="53,247,123,273"/>
+<area shape="rect" id="node3" href="$classJoystick.html" title=" " alt="" coords="147,247,218,273"/>
+<area shape="rect" id="node4" href="$classInputDevice.html" title=" " alt="" coords="137,171,229,197"/>
+<area shape="rect" id="node5" title=" " alt="" coords="126,81,197,108"/>
+<area shape="rect" id="node6" href="$classAntiMicroSettings.html" title=" " alt="" coords="221,81,347,108"/>
+<area shape="rect" id="node7" title=" " alt="" coords="244,5,324,32"/>
+</map>

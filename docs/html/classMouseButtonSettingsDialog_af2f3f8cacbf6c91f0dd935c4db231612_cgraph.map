@@ -1,0 +1,10 @@
+<map id="MouseButtonSettingsDialog::changeMouseMode" name="MouseButtonSettingsDialog::changeMouseMode">
+<area shape="rect" id="node1" title=" " alt="" coords="5,96,189,137"/>
+<area shape="rect" id="node2" href="$classJoyButton.html#a77afa6c5934d2665bad6d494b812f372" title="Check if button should be considered a part of a real controller axis. Needed for some dialogs so the..." alt="" coords="497,15,673,42"/>
+<area shape="rect" id="node3" href="$classJoyButton.html#aca69f26410f28982be9a6e952ec3c494" title=" " alt="" coords="237,37,448,78"/>
+<area shape="rect" id="node4" href="$classJoyButton.html#a28224ca61d50adb1338643ae63bab3a3" title=" " alt="" coords="253,103,432,130"/>
+<area shape="rect" id="node5" href="$classSpringModeRegionPreview.html#a8d2b08d077d77697a327e2d062130cbd" title=" " alt="" coords="253,154,432,196"/>
+<area shape="rect" id="node7" href="$classSpringModeRegionPreview.html#a769d674b3f0697dee55b0a7fbfe4a48f" title=" " alt="" coords="253,220,432,261"/>
+<area shape="rect" id="node6" href="$classSpringModeRegionPreview.html#ac11ce802ca9098d5d61a1c7550e3a4f2" title=" " alt="" coords="496,154,675,196"/>
+<area shape="rect" id="node8" href="$classSpringModeRegionPreview.html#a78b54db3c38d88222b2491d21bb7daac" title=" " alt="" coords="496,220,675,261"/>
+</map>

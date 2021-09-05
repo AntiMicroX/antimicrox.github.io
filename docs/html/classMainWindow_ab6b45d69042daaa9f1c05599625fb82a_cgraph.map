@@ -1,0 +1,4 @@
+<map id="MainWindow::changeLanguage" name="MainWindow::changeLanguage">
+<area shape="rect" id="node1" title="Change language used by the application." alt="" coords="5,5,208,32"/>
+<area shape="rect" id="node2" href="$namespacePadderCommon.html#ab6c4e9957765d3fb81854deed9714d09" title="Reload main application and base Qt translation files." alt="" coords="256,5,485,32"/>
+</map>

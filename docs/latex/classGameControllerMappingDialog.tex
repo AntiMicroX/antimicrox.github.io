@@ -1,0 +1,647 @@
+\hypertarget{classGameControllerMappingDialog}{}\doxysection{Game\+Controller\+Mapping\+Dialog Class Reference}
+\label{classGameControllerMappingDialog}\index{GameControllerMappingDialog@{GameControllerMappingDialog}}
+
+
+{\ttfamily \#include $<$gamecontrollermappingdialog.\+h$>$}
+
+
+
+Inheritance diagram for Game\+Controller\+Mapping\+Dialog\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=229pt]{classGameControllerMappingDialog__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Game\+Controller\+Mapping\+Dialog\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerMappingDialog_ab40f59ac53bef7ea895eef57cf6a4d62}{mapping\+Update}} (Q\+String mapping, \mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$\mbox{\hyperlink{classGameControllerMappingDialog_a7f47823e71ccf59337ab0c1ce71edb5e}{device}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classGameControllerMappingDialog_a3b5f7c179120ccffa5c7eca5de1edafe}{Game\+Controller\+Mapping\+Dialog}} (\mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$\mbox{\hyperlink{classGameControllerMappingDialog_a7f47823e71ccf59337ab0c1ce71edb5e}{device}}, \mbox{\hyperlink{classAntiMicroSettings}{Anti\+Micro\+Settings}} $\ast$\mbox{\hyperlink{classGameControllerMappingDialog_a24314945e4462d564d9bfe5177664051}{settings}}, Q\+Widget $\ast$parent=nullptr)
+\item 
+\mbox{\hyperlink{classGameControllerMappingDialog_af5e220d6c460331fdf4ba1d72f7aadc3}{$\sim$\+Game\+Controller\+Mapping\+Dialog}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Q\+Hash$<$ int, Q\+String $>$ \mbox{\hyperlink{classGameControllerMappingDialog_a23a8cb65bcdc1c331a6b6ea34f8d63ca}{tempaliases}} = \mbox{\hyperlink{gamecontrollermappingdialog_8cpp_a412e6517c1ec24abd1f39e446d12a44e}{init\+Aliases}}()
+\item 
+static Q\+Hash$<$ S\+D\+L\+\_\+\+Game\+Controller\+Button, int $>$ \mbox{\hyperlink{classGameControllerMappingDialog_a9e043077da09d0027984c388bc80258e}{button\+Placement}} = \mbox{\hyperlink{gamecontrollermappingdialog_8cpp_a1cce98c50bc3dd551f233102572beb4c}{init\+Button\+Placement}}()
+\item 
+static Q\+Hash$<$ S\+D\+L\+\_\+\+Game\+Controller\+Axis, int $>$ \mbox{\hyperlink{classGameControllerMappingDialog_a5c3fe66e645339a7692accf2ace516b4}{axis\+Placement}} = \mbox{\hyperlink{gamecontrollermappingdialog_8cpp_a06d7c29e78418b40591d4fc5ebb1f2f9}{init\+Axis\+Placement}}()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerMappingDialog_aad4df5efd521ec044aea269a55c8ed91}{populate\+Game\+Controller\+Bindings}} (\mbox{\hyperlink{classGameController}{Game\+Controller}} $\ast$controller)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerMappingDialog_ab303cc0b92ffe2698af4a00d6b49c3cc}{remove\+Controller\+Mapping}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerMappingDialog_ae066f4c1eaab2dcbb49625577a50443b}{enable\+Device\+Connections}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerMappingDialog_a60b30c08f5f3aaa622bead8cb8339664}{disable\+Device\+Connections}} ()
+\item 
+Q\+String \mbox{\hyperlink{classGameControllerMappingDialog_a1a77b5b6f04786c2d21ad2ffa4ddab42}{generate\+S\+D\+L\+Mapping\+String}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerMappingDialog_a517f485854c777f09cb8df042381f385}{populate\+Axis\+Dead\+Zone\+Combo\+Box}} ()
+\item 
+Q\+String \mbox{\hyperlink{classGameControllerMappingDialog_abb381d0bdff1176412936a3dd4e5155a}{binding\+String}} (S\+D\+L\+\_\+\+Game\+Controller\+Button\+Bind bind)
+\item 
+Q\+List$<$ Q\+Variant $>$ \mbox{\hyperlink{classGameControllerMappingDialog_a4316f311a7f8bfdb293b714320b092f6}{binding\+Values}} (S\+D\+L\+\_\+\+Game\+Controller\+Button\+Bind bind)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerMappingDialog_a0e052745846c6f0a0db24bf2e4ed5023}{button\+Assign}} (int buttonindex)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerMappingDialog_a5d84dc1367e041feccee277aa2cefcca}{axis\+Assign}} (int axis, int value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerMappingDialog_a35b9cc27c94a29800fb8b0ab6043b3e8}{dpad\+Assign}} (int dpad, int buttonindex)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerMappingDialog_a44a1f4a7547fa03e424502851da555a1}{button\+Release}} (int buttonindex)
+\begin{DoxyCompactList}\small\item\em T\+O\+DO\+: Possibly remove. This was used for decrementing a reference count. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerMappingDialog_af62bb9249504e75fcc19311e423e0074}{axis\+Release}} (int axis, int value)
+\begin{DoxyCompactList}\small\item\em T\+O\+DO\+: Possibly remove. This was used for decrementing a reference count. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerMappingDialog_a72c276575ad4ef2fa561df5f3f435f51}{dpad\+Release}} (int dpad, int buttonindex)
+\begin{DoxyCompactList}\small\item\em T\+O\+DO\+: Possibly remove. This was used for decrementing a reference count. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerMappingDialog_a12fb7328d4a9e9579ff6eb37c76813ab}{save\+Changes}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerMappingDialog_a3969a243cd5846c91466cd663f840f07}{discard\+Mapping}} (Q\+Abstract\+Button $\ast$button)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerMappingDialog_ace4da16aa9a3bce259506d3d07c6d242}{enable\+Button\+Events}} (int \mbox{\hyperlink{lgpl-2_81_8txt_afa2765f9f647ea2e9c46055f93a44d41}{code}})
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerMappingDialog_a671de07d990d8ed2152c532630c7f6b6}{obliterate}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerMappingDialog_a2521412e6beb451645ad9d28c951ddca}{change\+Button\+Display}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerMappingDialog_ad20ddf0551450573195ee34af3267b2f}{change\+Axis\+Dead\+Zone}} (int index)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerMappingDialog_a8a3d4193180a3392dda025775aed26d3}{update\+Last\+Axis\+Line\+Edit}} (\mbox{\hyperlink{classJoyAxis}{Joy\+Axis}} $\ast$temp\+Axis, int value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerMappingDialog_ade5b53cb41c0797978bfa03fa94d843d}{update\+Last\+Axis\+Line\+Edit\+Raw}} (int index, int value)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classGameControllerMappingDialogHelper}{Game\+Controller\+Mapping\+Dialog\+Helper}} \& \mbox{\hyperlink{classGameControllerMappingDialog_aaf7f912ae3175e9405876130085cc578}{get\+Helper\+Local}} ()
+\item 
+Q\+List$<$ int $>$ \& \mbox{\hyperlink{classGameControllerMappingDialog_aef612f6ebc54a017003c46f8b4145870}{get\+Event\+Trigger\+Axes\+Local}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Ui\+::\+Game\+Controller\+Mapping\+Dialog $\ast$ \mbox{\hyperlink{classGameControllerMappingDialog_a7ab917b2a98b93699adc1df59d40f5b2}{ui}}
+\item 
+\mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$ \mbox{\hyperlink{classGameControllerMappingDialog_a7f47823e71ccf59337ab0c1ce71edb5e}{device}}
+\item 
+\mbox{\hyperlink{classAntiMicroSettings}{Anti\+Micro\+Settings}} $\ast$ \mbox{\hyperlink{classGameControllerMappingDialog_a24314945e4462d564d9bfe5177664051}{settings}}
+\item 
+int \mbox{\hyperlink{classGameControllerMappingDialog_a364fcb59c3c91a8bd576b4ae76bd1eb6}{button\+Grabs}}
+\item 
+Q\+List$<$ int $>$ \mbox{\hyperlink{classGameControllerMappingDialog_a6bfb3aa9963c38eaef372880ab5c56a3}{event\+Trigger\+Axes}}
+\item 
+\mbox{\hyperlink{classGameControllerMappingDialogHelper}{Game\+Controller\+Mapping\+Dialog\+Helper}} \mbox{\hyperlink{classGameControllerMappingDialog_afb0c4147b56d376d751c137cd47bc0e2}{helper}}
+\item 
+int \mbox{\hyperlink{classGameControllerMappingDialog_af92c53a282dc102afb7ebc1b1104349e}{current\+Dead\+Zone\+Value}}
+\item 
+bool \mbox{\hyperlink{classGameControllerMappingDialog_aa4f182706dbb0fb4481be68988b83cdd}{using\+Game\+Controller}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classGameControllerMappingDialog_a3b5f7c179120ccffa5c7eca5de1edafe}\label{classGameControllerMappingDialog_a3b5f7c179120ccffa5c7eca5de1edafe}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{GameControllerMappingDialog()}{GameControllerMappingDialog()}}
+{\footnotesize\ttfamily Game\+Controller\+Mapping\+Dialog\+::\+Game\+Controller\+Mapping\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$}]{device,  }\item[{\mbox{\hyperlink{classAntiMicroSettings}{Anti\+Micro\+Settings}} $\ast$}]{settings,  }\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_a3b5f7c179120ccffa5c7eca5de1edafe_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerMappingDialog_af5e220d6c460331fdf4ba1d72f7aadc3}\label{classGameControllerMappingDialog_af5e220d6c460331fdf4ba1d72f7aadc3}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!````~GameControllerMappingDialog@{$\sim$GameControllerMappingDialog}}
+\index{````~GameControllerMappingDialog@{$\sim$GameControllerMappingDialog}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{$\sim$GameControllerMappingDialog()}{~GameControllerMappingDialog()}}
+{\footnotesize\ttfamily Game\+Controller\+Mapping\+Dialog\+::$\sim$\+Game\+Controller\+Mapping\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classGameControllerMappingDialog_a5d84dc1367e041feccee277aa2cefcca}\label{classGameControllerMappingDialog_a5d84dc1367e041feccee277aa2cefcca}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!axisAssign@{axisAssign}}
+\index{axisAssign@{axisAssign}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{axisAssign}{axisAssign}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Mapping\+Dialog\+::axis\+Assign (\begin{DoxyParamCaption}\item[{int}]{axis,  }\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_a5d84dc1367e041feccee277aa2cefcca_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_a5d84dc1367e041feccee277aa2cefcca_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerMappingDialog_af62bb9249504e75fcc19311e423e0074}\label{classGameControllerMappingDialog_af62bb9249504e75fcc19311e423e0074}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!axisRelease@{axisRelease}}
+\index{axisRelease@{axisRelease}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{axisRelease}{axisRelease}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Mapping\+Dialog\+::axis\+Release (\begin{DoxyParamCaption}\item[{int}]{axis,  }\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+T\+O\+DO\+: Possibly remove. This was used for decrementing a reference count. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em axis} & \\
+\hline
+{\em value} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_af62bb9249504e75fcc19311e423e0074_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerMappingDialog_abb381d0bdff1176412936a3dd4e5155a}\label{classGameControllerMappingDialog_abb381d0bdff1176412936a3dd4e5155a}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!bindingString@{bindingString}}
+\index{bindingString@{bindingString}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{bindingString()}{bindingString()}}
+{\footnotesize\ttfamily Q\+String Game\+Controller\+Mapping\+Dialog\+::binding\+String (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Game\+Controller\+Button\+Bind}]{bind }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_abb381d0bdff1176412936a3dd4e5155a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerMappingDialog_a4316f311a7f8bfdb293b714320b092f6}\label{classGameControllerMappingDialog_a4316f311a7f8bfdb293b714320b092f6}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!bindingValues@{bindingValues}}
+\index{bindingValues@{bindingValues}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{bindingValues()}{bindingValues()}}
+{\footnotesize\ttfamily Q\+List$<$ Q\+Variant $>$ Game\+Controller\+Mapping\+Dialog\+::binding\+Values (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Game\+Controller\+Button\+Bind}]{bind }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_a4316f311a7f8bfdb293b714320b092f6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerMappingDialog_a0e052745846c6f0a0db24bf2e4ed5023}\label{classGameControllerMappingDialog_a0e052745846c6f0a0db24bf2e4ed5023}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!buttonAssign@{buttonAssign}}
+\index{buttonAssign@{buttonAssign}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{buttonAssign}{buttonAssign}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Mapping\+Dialog\+::button\+Assign (\begin{DoxyParamCaption}\item[{int}]{buttonindex }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_a0e052745846c6f0a0db24bf2e4ed5023_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_a0e052745846c6f0a0db24bf2e4ed5023_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerMappingDialog_a44a1f4a7547fa03e424502851da555a1}\label{classGameControllerMappingDialog_a44a1f4a7547fa03e424502851da555a1}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!buttonRelease@{buttonRelease}}
+\index{buttonRelease@{buttonRelease}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{buttonRelease}{buttonRelease}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Mapping\+Dialog\+::button\+Release (\begin{DoxyParamCaption}\item[{int}]{buttonindex }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+T\+O\+DO\+: Possibly remove. This was used for decrementing a reference count. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em buttonindex} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_a44a1f4a7547fa03e424502851da555a1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerMappingDialog_ad20ddf0551450573195ee34af3267b2f}\label{classGameControllerMappingDialog_ad20ddf0551450573195ee34af3267b2f}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!changeAxisDeadZone@{changeAxisDeadZone}}
+\index{changeAxisDeadZone@{changeAxisDeadZone}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{changeAxisDeadZone}{changeAxisDeadZone}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Mapping\+Dialog\+::change\+Axis\+Dead\+Zone (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_ad20ddf0551450573195ee34af3267b2f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerMappingDialog_a2521412e6beb451645ad9d28c951ddca}\label{classGameControllerMappingDialog_a2521412e6beb451645ad9d28c951ddca}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!changeButtonDisplay@{changeButtonDisplay}}
+\index{changeButtonDisplay@{changeButtonDisplay}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{changeButtonDisplay}{changeButtonDisplay}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Mapping\+Dialog\+::change\+Button\+Display (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_a2521412e6beb451645ad9d28c951ddca_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerMappingDialog_a60b30c08f5f3aaa622bead8cb8339664}\label{classGameControllerMappingDialog_a60b30c08f5f3aaa622bead8cb8339664}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!disableDeviceConnections@{disableDeviceConnections}}
+\index{disableDeviceConnections@{disableDeviceConnections}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{disableDeviceConnections()}{disableDeviceConnections()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Mapping\+Dialog\+::disable\+Device\+Connections (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_a60b30c08f5f3aaa622bead8cb8339664_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerMappingDialog_a3969a243cd5846c91466cd663f840f07}\label{classGameControllerMappingDialog_a3969a243cd5846c91466cd663f840f07}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!discardMapping@{discardMapping}}
+\index{discardMapping@{discardMapping}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{discardMapping}{discardMapping}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Mapping\+Dialog\+::discard\+Mapping (\begin{DoxyParamCaption}\item[{Q\+Abstract\+Button $\ast$}]{button }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_a3969a243cd5846c91466cd663f840f07_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_a3969a243cd5846c91466cd663f840f07_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerMappingDialog_a35b9cc27c94a29800fb8b0ab6043b3e8}\label{classGameControllerMappingDialog_a35b9cc27c94a29800fb8b0ab6043b3e8}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!dpadAssign@{dpadAssign}}
+\index{dpadAssign@{dpadAssign}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{dpadAssign}{dpadAssign}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Mapping\+Dialog\+::dpad\+Assign (\begin{DoxyParamCaption}\item[{int}]{dpad,  }\item[{int}]{buttonindex }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_a35b9cc27c94a29800fb8b0ab6043b3e8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_a35b9cc27c94a29800fb8b0ab6043b3e8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerMappingDialog_a72c276575ad4ef2fa561df5f3f435f51}\label{classGameControllerMappingDialog_a72c276575ad4ef2fa561df5f3f435f51}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!dpadRelease@{dpadRelease}}
+\index{dpadRelease@{dpadRelease}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{dpadRelease}{dpadRelease}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Mapping\+Dialog\+::dpad\+Release (\begin{DoxyParamCaption}\item[{int}]{dpad,  }\item[{int}]{buttonindex }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+T\+O\+DO\+: Possibly remove. This was used for decrementing a reference count. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dpad} & \\
+\hline
+{\em buttonindex} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_a72c276575ad4ef2fa561df5f3f435f51_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerMappingDialog_ace4da16aa9a3bce259506d3d07c6d242}\label{classGameControllerMappingDialog_ace4da16aa9a3bce259506d3d07c6d242}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!enableButtonEvents@{enableButtonEvents}}
+\index{enableButtonEvents@{enableButtonEvents}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{enableButtonEvents}{enableButtonEvents}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Mapping\+Dialog\+::enable\+Button\+Events (\begin{DoxyParamCaption}\item[{int}]{code }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_ace4da16aa9a3bce259506d3d07c6d242_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerMappingDialog_ae066f4c1eaab2dcbb49625577a50443b}\label{classGameControllerMappingDialog_ae066f4c1eaab2dcbb49625577a50443b}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!enableDeviceConnections@{enableDeviceConnections}}
+\index{enableDeviceConnections@{enableDeviceConnections}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{enableDeviceConnections()}{enableDeviceConnections()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Mapping\+Dialog\+::enable\+Device\+Connections (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_ae066f4c1eaab2dcbb49625577a50443b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_ae066f4c1eaab2dcbb49625577a50443b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerMappingDialog_a1a77b5b6f04786c2d21ad2ffa4ddab42}\label{classGameControllerMappingDialog_a1a77b5b6f04786c2d21ad2ffa4ddab42}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!generateSDLMappingString@{generateSDLMappingString}}
+\index{generateSDLMappingString@{generateSDLMappingString}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{generateSDLMappingString()}{generateSDLMappingString()}}
+{\footnotesize\ttfamily Q\+String Game\+Controller\+Mapping\+Dialog\+::generate\+S\+D\+L\+Mapping\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_a1a77b5b6f04786c2d21ad2ffa4ddab42_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_a1a77b5b6f04786c2d21ad2ffa4ddab42_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerMappingDialog_aef612f6ebc54a017003c46f8b4145870}\label{classGameControllerMappingDialog_aef612f6ebc54a017003c46f8b4145870}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!getEventTriggerAxesLocal@{getEventTriggerAxesLocal}}
+\index{getEventTriggerAxesLocal@{getEventTriggerAxesLocal}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{getEventTriggerAxesLocal()}{getEventTriggerAxesLocal()}}
+{\footnotesize\ttfamily Q\+List$<$ int $>$ \& Game\+Controller\+Mapping\+Dialog\+::get\+Event\+Trigger\+Axes\+Local (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_aef612f6ebc54a017003c46f8b4145870_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerMappingDialog_aaf7f912ae3175e9405876130085cc578}\label{classGameControllerMappingDialog_aaf7f912ae3175e9405876130085cc578}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!getHelperLocal@{getHelperLocal}}
+\index{getHelperLocal@{getHelperLocal}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{getHelperLocal()}{getHelperLocal()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classGameControllerMappingDialogHelper}{Game\+Controller\+Mapping\+Dialog\+Helper}} \& Game\+Controller\+Mapping\+Dialog\+::get\+Helper\+Local (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_aaf7f912ae3175e9405876130085cc578_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerMappingDialog_ab40f59ac53bef7ea895eef57cf6a4d62}\label{classGameControllerMappingDialog_ab40f59ac53bef7ea895eef57cf6a4d62}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!mappingUpdate@{mappingUpdate}}
+\index{mappingUpdate@{mappingUpdate}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{mappingUpdate}{mappingUpdate}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Mapping\+Dialog\+::mapping\+Update (\begin{DoxyParamCaption}\item[{Q\+String}]{mapping,  }\item[{\mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$}]{device }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_ab40f59ac53bef7ea895eef57cf6a4d62_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerMappingDialog_a671de07d990d8ed2152c532630c7f6b6}\label{classGameControllerMappingDialog_a671de07d990d8ed2152c532630c7f6b6}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!obliterate@{obliterate}}
+\index{obliterate@{obliterate}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{obliterate}{obliterate}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Mapping\+Dialog\+::obliterate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_a671de07d990d8ed2152c532630c7f6b6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_a671de07d990d8ed2152c532630c7f6b6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerMappingDialog_a517f485854c777f09cb8df042381f385}\label{classGameControllerMappingDialog_a517f485854c777f09cb8df042381f385}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!populateAxisDeadZoneComboBox@{populateAxisDeadZoneComboBox}}
+\index{populateAxisDeadZoneComboBox@{populateAxisDeadZoneComboBox}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{populateAxisDeadZoneComboBox()}{populateAxisDeadZoneComboBox()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Mapping\+Dialog\+::populate\+Axis\+Dead\+Zone\+Combo\+Box (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_a517f485854c777f09cb8df042381f385_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerMappingDialog_aad4df5efd521ec044aea269a55c8ed91}\label{classGameControllerMappingDialog_aad4df5efd521ec044aea269a55c8ed91}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!populateGameControllerBindings@{populateGameControllerBindings}}
+\index{populateGameControllerBindings@{populateGameControllerBindings}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{populateGameControllerBindings()}{populateGameControllerBindings()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Mapping\+Dialog\+::populate\+Game\+Controller\+Bindings (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classGameController}{Game\+Controller}} $\ast$}]{controller }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_aad4df5efd521ec044aea269a55c8ed91_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_aad4df5efd521ec044aea269a55c8ed91_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerMappingDialog_ab303cc0b92ffe2698af4a00d6b49c3cc}\label{classGameControllerMappingDialog_ab303cc0b92ffe2698af4a00d6b49c3cc}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!removeControllerMapping@{removeControllerMapping}}
+\index{removeControllerMapping@{removeControllerMapping}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{removeControllerMapping()}{removeControllerMapping()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Mapping\+Dialog\+::remove\+Controller\+Mapping (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_ab303cc0b92ffe2698af4a00d6b49c3cc_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_ab303cc0b92ffe2698af4a00d6b49c3cc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerMappingDialog_a12fb7328d4a9e9579ff6eb37c76813ab}\label{classGameControllerMappingDialog_a12fb7328d4a9e9579ff6eb37c76813ab}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!saveChanges@{saveChanges}}
+\index{saveChanges@{saveChanges}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{saveChanges}{saveChanges}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Mapping\+Dialog\+::save\+Changes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_a12fb7328d4a9e9579ff6eb37c76813ab_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_a12fb7328d4a9e9579ff6eb37c76813ab_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerMappingDialog_a8a3d4193180a3392dda025775aed26d3}\label{classGameControllerMappingDialog_a8a3d4193180a3392dda025775aed26d3}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!updateLastAxisLineEdit@{updateLastAxisLineEdit}}
+\index{updateLastAxisLineEdit@{updateLastAxisLineEdit}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{updateLastAxisLineEdit}{updateLastAxisLineEdit}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Mapping\+Dialog\+::update\+Last\+Axis\+Line\+Edit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyAxis}{Joy\+Axis}} $\ast$}]{temp\+Axis,  }\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_a8a3d4193180a3392dda025775aed26d3_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerMappingDialog_ade5b53cb41c0797978bfa03fa94d843d}\label{classGameControllerMappingDialog_ade5b53cb41c0797978bfa03fa94d843d}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!updateLastAxisLineEditRaw@{updateLastAxisLineEditRaw}}
+\index{updateLastAxisLineEditRaw@{updateLastAxisLineEditRaw}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{updateLastAxisLineEditRaw}{updateLastAxisLineEditRaw}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Mapping\+Dialog\+::update\+Last\+Axis\+Line\+Edit\+Raw (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerMappingDialog_ade5b53cb41c0797978bfa03fa94d843d_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classGameControllerMappingDialog_a5c3fe66e645339a7692accf2ace516b4}\label{classGameControllerMappingDialog_a5c3fe66e645339a7692accf2ace516b4}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!axisPlacement@{axisPlacement}}
+\index{axisPlacement@{axisPlacement}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{axisPlacement}{axisPlacement}}
+{\footnotesize\ttfamily Q\+Hash$<$ S\+D\+L\+\_\+\+Game\+Controller\+Axis, int $>$ Game\+Controller\+Mapping\+Dialog\+::axis\+Placement = \mbox{\hyperlink{gamecontrollermappingdialog_8cpp_a06d7c29e78418b40591d4fc5ebb1f2f9}{init\+Axis\+Placement}}()\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classGameControllerMappingDialog_a364fcb59c3c91a8bd576b4ae76bd1eb6}\label{classGameControllerMappingDialog_a364fcb59c3c91a8bd576b4ae76bd1eb6}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!buttonGrabs@{buttonGrabs}}
+\index{buttonGrabs@{buttonGrabs}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{buttonGrabs}{buttonGrabs}}
+{\footnotesize\ttfamily int Game\+Controller\+Mapping\+Dialog\+::button\+Grabs\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classGameControllerMappingDialog_a9e043077da09d0027984c388bc80258e}\label{classGameControllerMappingDialog_a9e043077da09d0027984c388bc80258e}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!buttonPlacement@{buttonPlacement}}
+\index{buttonPlacement@{buttonPlacement}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{buttonPlacement}{buttonPlacement}}
+{\footnotesize\ttfamily Q\+Hash$<$ S\+D\+L\+\_\+\+Game\+Controller\+Button, int $>$ Game\+Controller\+Mapping\+Dialog\+::button\+Placement = \mbox{\hyperlink{gamecontrollermappingdialog_8cpp_a1cce98c50bc3dd551f233102572beb4c}{init\+Button\+Placement}}()\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classGameControllerMappingDialog_af92c53a282dc102afb7ebc1b1104349e}\label{classGameControllerMappingDialog_af92c53a282dc102afb7ebc1b1104349e}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!currentDeadZoneValue@{currentDeadZoneValue}}
+\index{currentDeadZoneValue@{currentDeadZoneValue}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{currentDeadZoneValue}{currentDeadZoneValue}}
+{\footnotesize\ttfamily int Game\+Controller\+Mapping\+Dialog\+::current\+Dead\+Zone\+Value\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classGameControllerMappingDialog_a7f47823e71ccf59337ab0c1ce71edb5e}\label{classGameControllerMappingDialog_a7f47823e71ccf59337ab0c1ce71edb5e}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!device@{device}}
+\index{device@{device}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{device}{device}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classInputDevice}{Input\+Device}}$\ast$ Game\+Controller\+Mapping\+Dialog\+::device\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classGameControllerMappingDialog_a6bfb3aa9963c38eaef372880ab5c56a3}\label{classGameControllerMappingDialog_a6bfb3aa9963c38eaef372880ab5c56a3}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!eventTriggerAxes@{eventTriggerAxes}}
+\index{eventTriggerAxes@{eventTriggerAxes}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{eventTriggerAxes}{eventTriggerAxes}}
+{\footnotesize\ttfamily Q\+List$<$int$>$ Game\+Controller\+Mapping\+Dialog\+::event\+Trigger\+Axes\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classGameControllerMappingDialog_afb0c4147b56d376d751c137cd47bc0e2}\label{classGameControllerMappingDialog_afb0c4147b56d376d751c137cd47bc0e2}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!helper@{helper}}
+\index{helper@{helper}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{helper}{helper}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classGameControllerMappingDialogHelper}{Game\+Controller\+Mapping\+Dialog\+Helper}} Game\+Controller\+Mapping\+Dialog\+::helper\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classGameControllerMappingDialog_a24314945e4462d564d9bfe5177664051}\label{classGameControllerMappingDialog_a24314945e4462d564d9bfe5177664051}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!settings@{settings}}
+\index{settings@{settings}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{settings}{settings}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classAntiMicroSettings}{Anti\+Micro\+Settings}}$\ast$ Game\+Controller\+Mapping\+Dialog\+::settings\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classGameControllerMappingDialog_a23a8cb65bcdc1c331a6b6ea34f8d63ca}\label{classGameControllerMappingDialog_a23a8cb65bcdc1c331a6b6ea34f8d63ca}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!tempaliases@{tempaliases}}
+\index{tempaliases@{tempaliases}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{tempaliases}{tempaliases}}
+{\footnotesize\ttfamily Q\+Hash$<$ int, Q\+String $>$ Game\+Controller\+Mapping\+Dialog\+::tempaliases = \mbox{\hyperlink{gamecontrollermappingdialog_8cpp_a412e6517c1ec24abd1f39e446d12a44e}{init\+Aliases}}()\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classGameControllerMappingDialog_a7ab917b2a98b93699adc1df59d40f5b2}\label{classGameControllerMappingDialog_a7ab917b2a98b93699adc1df59d40f5b2}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!ui@{ui}}
+\index{ui@{ui}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Game\+Controller\+Mapping\+Dialog$\ast$ Game\+Controller\+Mapping\+Dialog\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classGameControllerMappingDialog_aa4f182706dbb0fb4481be68988b83cdd}\label{classGameControllerMappingDialog_aa4f182706dbb0fb4481be68988b83cdd}} 
+\index{GameControllerMappingDialog@{GameControllerMappingDialog}!usingGameController@{usingGameController}}
+\index{usingGameController@{usingGameController}!GameControllerMappingDialog@{GameControllerMappingDialog}}
+\doxysubsubsection{\texorpdfstring{usingGameController}{usingGameController}}
+{\footnotesize\ttfamily bool Game\+Controller\+Mapping\+Dialog\+::using\+Game\+Controller\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{gamecontrollermappingdialog_8h}{gamecontrollermappingdialog.\+h}}\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{gamecontrollermappingdialog_8cpp}{gamecontrollermappingdialog.\+cpp}}\end{DoxyCompactItemize}

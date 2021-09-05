@@ -1,0 +1,320 @@
+\hypertarget{classJoyDPadButton}{}\doxysection{Joy\+D\+Pad\+Button Class Reference}
+\label{classJoyDPadButton}\index{JoyDPadButton@{JoyDPadButton}}
+
+
+{\ttfamily \#include $<$joydpadbutton.\+h$>$}
+
+
+
+Inheritance diagram for Joy\+D\+Pad\+Button\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=166pt]{classJoyDPadButton__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Joy\+D\+Pad\+Button\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPadButton__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729a}{Joy\+D\+Pad\+Directions}} \{ \newline
+\mbox{\hyperlink{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aad5f3e112657fb4298587444dda82f55d}{Dpad\+Centered}} = 0, 
+\mbox{\hyperlink{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aa79a83c0bf64cc18f1a2aa840950b3aeb}{Dpad\+Up}} = 1, 
+\mbox{\hyperlink{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aaa0c07be43229ed7386c93e2bb90fc6d1}{Dpad\+Right}} = 2, 
+\mbox{\hyperlink{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aa732ef433d3564817635ea89e123b58f2}{Dpad\+Down}} = 4, 
+\newline
+\mbox{\hyperlink{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aadfbd4e90cb347cebc715569f53097d62}{Dpad\+Left}} = 8, 
+\mbox{\hyperlink{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aa34e32ea67215467bec15cad5ae38a8a2}{Dpad\+Right\+Up}} = 3, 
+\mbox{\hyperlink{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aa87e9df7d72bf788261b20d03211d3ccf}{Dpad\+Right\+Down}} = 6, 
+\mbox{\hyperlink{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aa337e44cf15eaf9cf5d8cff8c7c011259}{Dpad\+Left\+Up}} = 9, 
+\newline
+\mbox{\hyperlink{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aa2ee399e1699f69ce8ecaa22a9c8141a6}{Dpad\+Left\+Down}} = 12
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPadButton_aebe0fc163770e4f98ab9cbaeb96b4f08}{reset}} () override
+\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPadButton_adce03b9dac0e26f1601907b36bb11263}{reset}} (int index) override
+\end{DoxyCompactItemize}
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPadButton_a438b9eb036a3a4873ccbc1ad516f044b}{set\+Assignment\+Changed}} (int current\+\_\+button, int dpad\+\_\+index, int associated\+\_\+set, int mode)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classJoyDPadButton_a1cde1613ad4da837e2a43efe87f2fca0}{Joy\+D\+Pad\+Button}} (int direction, int originset, \mbox{\hyperlink{classJoyDPad}{Joy\+D\+Pad}} $\ast$dpad, \mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$parent\+Set, Q\+Object $\ast$parent=0)
+\item 
+virtual int \mbox{\hyperlink{classJoyDPadButton_ae6a39626f57db823f682ef1d028b1ef6}{get\+Real\+Joy\+Number}} () const override
+\begin{DoxyCompactList}\small\item\em Get a 1 indexed number of button. \end{DoxyCompactList}\item 
+virtual Q\+String \mbox{\hyperlink{classJoyDPadButton_a74e36e481a0463fa410a687805084010}{get\+Partial\+Name}} (bool force\+Full\+Format=false, bool display\+Names=false) const override
+\item 
+virtual Q\+String \mbox{\hyperlink{classJoyDPadButton_a688f64e2246189e86d48a9f25631e161}{get\+Xml\+Name}} () override
+\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPadButton_a17abae87cce39aa7c8356f269ce2154b}{set\+Change\+Set\+Condition}} (\mbox{\hyperlink{classJoyButton_a3602da29174aa7789efe63051e1942ab}{Set\+Change\+Condition}} condition, bool passive=false, bool update\+Active\+String=true) override
+\item 
+Q\+String \mbox{\hyperlink{classJoyDPadButton_a6af15a116cb609395e2922a99b175d35}{get\+Direction\+Name}} () const
+\item 
+int \mbox{\hyperlink{classJoyDPadButton_a2434b92ffefb4f691da1ca5c1ec9df6f}{get\+Direction}} () const
+\item 
+\mbox{\hyperlink{classJoyDPad}{Joy\+D\+Pad}} $\ast$ \mbox{\hyperlink{classJoyDPadButton_a3562e822a51b68df01e9a76267428728}{get\+D\+Pad}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classJoyDPadButton_ae5e91278efbb86be6345cedaba6d9775}{m\+\_\+direction}}
+\item 
+\mbox{\hyperlink{classJoyDPad}{Joy\+D\+Pad}} $\ast$ \mbox{\hyperlink{classJoyDPadButton_a4363742c42e3775cf648ce283d0fe2cb}{m\+\_\+dpad}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729a}\label{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729a}} 
+\index{JoyDPadButton@{JoyDPadButton}!JoyDPadDirections@{JoyDPadDirections}}
+\index{JoyDPadDirections@{JoyDPadDirections}!JoyDPadButton@{JoyDPadButton}}
+\doxysubsubsection{\texorpdfstring{JoyDPadDirections}{JoyDPadDirections}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729a}{Joy\+D\+Pad\+Button\+::\+Joy\+D\+Pad\+Directions}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{DpadCentered@{DpadCentered}!JoyDPadButton@{JoyDPadButton}}\index{JoyDPadButton@{JoyDPadButton}!DpadCentered@{DpadCentered}}}\mbox{\Hypertarget{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aad5f3e112657fb4298587444dda82f55d}\label{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aad5f3e112657fb4298587444dda82f55d}} 
+Dpad\+Centered&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{DpadUp@{DpadUp}!JoyDPadButton@{JoyDPadButton}}\index{JoyDPadButton@{JoyDPadButton}!DpadUp@{DpadUp}}}\mbox{\Hypertarget{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aa79a83c0bf64cc18f1a2aa840950b3aeb}\label{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aa79a83c0bf64cc18f1a2aa840950b3aeb}} 
+Dpad\+Up&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{DpadRight@{DpadRight}!JoyDPadButton@{JoyDPadButton}}\index{JoyDPadButton@{JoyDPadButton}!DpadRight@{DpadRight}}}\mbox{\Hypertarget{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aaa0c07be43229ed7386c93e2bb90fc6d1}\label{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aaa0c07be43229ed7386c93e2bb90fc6d1}} 
+Dpad\+Right&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{DpadDown@{DpadDown}!JoyDPadButton@{JoyDPadButton}}\index{JoyDPadButton@{JoyDPadButton}!DpadDown@{DpadDown}}}\mbox{\Hypertarget{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aa732ef433d3564817635ea89e123b58f2}\label{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aa732ef433d3564817635ea89e123b58f2}} 
+Dpad\+Down&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{DpadLeft@{DpadLeft}!JoyDPadButton@{JoyDPadButton}}\index{JoyDPadButton@{JoyDPadButton}!DpadLeft@{DpadLeft}}}\mbox{\Hypertarget{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aadfbd4e90cb347cebc715569f53097d62}\label{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aadfbd4e90cb347cebc715569f53097d62}} 
+Dpad\+Left&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{DpadRightUp@{DpadRightUp}!JoyDPadButton@{JoyDPadButton}}\index{JoyDPadButton@{JoyDPadButton}!DpadRightUp@{DpadRightUp}}}\mbox{\Hypertarget{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aa34e32ea67215467bec15cad5ae38a8a2}\label{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aa34e32ea67215467bec15cad5ae38a8a2}} 
+Dpad\+Right\+Up&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{DpadRightDown@{DpadRightDown}!JoyDPadButton@{JoyDPadButton}}\index{JoyDPadButton@{JoyDPadButton}!DpadRightDown@{DpadRightDown}}}\mbox{\Hypertarget{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aa87e9df7d72bf788261b20d03211d3ccf}\label{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aa87e9df7d72bf788261b20d03211d3ccf}} 
+Dpad\+Right\+Down&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{DpadLeftUp@{DpadLeftUp}!JoyDPadButton@{JoyDPadButton}}\index{JoyDPadButton@{JoyDPadButton}!DpadLeftUp@{DpadLeftUp}}}\mbox{\Hypertarget{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aa337e44cf15eaf9cf5d8cff8c7c011259}\label{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aa337e44cf15eaf9cf5d8cff8c7c011259}} 
+Dpad\+Left\+Up&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{DpadLeftDown@{DpadLeftDown}!JoyDPadButton@{JoyDPadButton}}\index{JoyDPadButton@{JoyDPadButton}!DpadLeftDown@{DpadLeftDown}}}\mbox{\Hypertarget{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aa2ee399e1699f69ce8ecaa22a9c8141a6}\label{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729aa2ee399e1699f69ce8ecaa22a9c8141a6}} 
+Dpad\+Left\+Down&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classJoyDPadButton_a1cde1613ad4da837e2a43efe87f2fca0}\label{classJoyDPadButton_a1cde1613ad4da837e2a43efe87f2fca0}} 
+\index{JoyDPadButton@{JoyDPadButton}!JoyDPadButton@{JoyDPadButton}}
+\index{JoyDPadButton@{JoyDPadButton}!JoyDPadButton@{JoyDPadButton}}
+\doxysubsubsection{\texorpdfstring{JoyDPadButton()}{JoyDPadButton()}}
+{\footnotesize\ttfamily Joy\+D\+Pad\+Button\+::\+Joy\+D\+Pad\+Button (\begin{DoxyParamCaption}\item[{int}]{direction,  }\item[{int}]{originset,  }\item[{\mbox{\hyperlink{classJoyDPad}{Joy\+D\+Pad}} $\ast$}]{dpad,  }\item[{\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$}]{parent\+Set,  }\item[{Q\+Object $\ast$}]{parent = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classJoyDPadButton_a2434b92ffefb4f691da1ca5c1ec9df6f}\label{classJoyDPadButton_a2434b92ffefb4f691da1ca5c1ec9df6f}} 
+\index{JoyDPadButton@{JoyDPadButton}!getDirection@{getDirection}}
+\index{getDirection@{getDirection}!JoyDPadButton@{JoyDPadButton}}
+\doxysubsubsection{\texorpdfstring{getDirection()}{getDirection()}}
+{\footnotesize\ttfamily int Joy\+D\+Pad\+Button\+::get\+Direction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPadButton_a2434b92ffefb4f691da1ca5c1ec9df6f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPadButton_a6af15a116cb609395e2922a99b175d35}\label{classJoyDPadButton_a6af15a116cb609395e2922a99b175d35}} 
+\index{JoyDPadButton@{JoyDPadButton}!getDirectionName@{getDirectionName}}
+\index{getDirectionName@{getDirectionName}!JoyDPadButton@{JoyDPadButton}}
+\doxysubsubsection{\texorpdfstring{getDirectionName()}{getDirectionName()}}
+{\footnotesize\ttfamily Q\+String Joy\+D\+Pad\+Button\+::get\+Direction\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPadButton_a6af15a116cb609395e2922a99b175d35_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPadButton_a3562e822a51b68df01e9a76267428728}\label{classJoyDPadButton_a3562e822a51b68df01e9a76267428728}} 
+\index{JoyDPadButton@{JoyDPadButton}!getDPad@{getDPad}}
+\index{getDPad@{getDPad}!JoyDPadButton@{JoyDPadButton}}
+\doxysubsubsection{\texorpdfstring{getDPad()}{getDPad()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyDPad}{Joy\+D\+Pad}} $\ast$ Joy\+D\+Pad\+Button\+::get\+D\+Pad (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPadButton_a3562e822a51b68df01e9a76267428728_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPadButton_a74e36e481a0463fa410a687805084010}\label{classJoyDPadButton_a74e36e481a0463fa410a687805084010}} 
+\index{JoyDPadButton@{JoyDPadButton}!getPartialName@{getPartialName}}
+\index{getPartialName@{getPartialName}!JoyDPadButton@{JoyDPadButton}}
+\doxysubsubsection{\texorpdfstring{getPartialName()}{getPartialName()}}
+{\footnotesize\ttfamily Q\+String Joy\+D\+Pad\+Button\+::get\+Partial\+Name (\begin{DoxyParamCaption}\item[{bool}]{force\+Full\+Format = {\ttfamily false},  }\item[{bool}]{display\+Names = {\ttfamily false} }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classJoyButton_acf2e65dcec7b0d2a8a2c21c36c489ad6}{Joy\+Button}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPadButton_a74e36e481a0463fa410a687805084010_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPadButton_ae6a39626f57db823f682ef1d028b1ef6}\label{classJoyDPadButton_ae6a39626f57db823f682ef1d028b1ef6}} 
+\index{JoyDPadButton@{JoyDPadButton}!getRealJoyNumber@{getRealJoyNumber}}
+\index{getRealJoyNumber@{getRealJoyNumber}!JoyDPadButton@{JoyDPadButton}}
+\doxysubsubsection{\texorpdfstring{getRealJoyNumber()}{getRealJoyNumber()}}
+{\footnotesize\ttfamily int Joy\+D\+Pad\+Button\+::get\+Real\+Joy\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Get a 1 indexed number of button. 
+
+\begin{DoxyReturn}{Returns}
+1 indexed button index number 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classJoyButton_a39c9ccaf641bb8bf50b29d4c4e04c165}{Joy\+Button}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPadButton_ae6a39626f57db823f682ef1d028b1ef6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPadButton_a688f64e2246189e86d48a9f25631e161}\label{classJoyDPadButton_a688f64e2246189e86d48a9f25631e161}} 
+\index{JoyDPadButton@{JoyDPadButton}!getXmlName@{getXmlName}}
+\index{getXmlName@{getXmlName}!JoyDPadButton@{JoyDPadButton}}
+\doxysubsubsection{\texorpdfstring{getXmlName()}{getXmlName()}}
+{\footnotesize\ttfamily Q\+String Joy\+D\+Pad\+Button\+::get\+Xml\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classJoyButton_ab628d2c4a5d2dd34e763d0a9c0d967c7}{Joy\+Button}}.
+
+\mbox{\Hypertarget{classJoyDPadButton_aebe0fc163770e4f98ab9cbaeb96b4f08}\label{classJoyDPadButton_aebe0fc163770e4f98ab9cbaeb96b4f08}} 
+\index{JoyDPadButton@{JoyDPadButton}!reset@{reset}}
+\index{reset@{reset}!JoyDPadButton@{JoyDPadButton}}
+\doxysubsubsection{\texorpdfstring{reset}{reset}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+Button\+::reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPadButton_aebe0fc163770e4f98ab9cbaeb96b4f08_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{classJoyDPadButton_aebe0fc163770e4f98ab9cbaeb96b4f08_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPadButton_adce03b9dac0e26f1601907b36bb11263}\label{classJoyDPadButton_adce03b9dac0e26f1601907b36bb11263}} 
+\index{JoyDPadButton@{JoyDPadButton}!reset@{reset}}
+\index{reset@{reset}!JoyDPadButton@{JoyDPadButton}}
+\doxysubsubsection{\texorpdfstring{reset}{reset}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+Button\+::reset (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPadButton_adce03b9dac0e26f1601907b36bb11263_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPadButton_a438b9eb036a3a4873ccbc1ad516f044b}\label{classJoyDPadButton_a438b9eb036a3a4873ccbc1ad516f044b}} 
+\index{JoyDPadButton@{JoyDPadButton}!setAssignmentChanged@{setAssignmentChanged}}
+\index{setAssignmentChanged@{setAssignmentChanged}!JoyDPadButton@{JoyDPadButton}}
+\doxysubsubsection{\texorpdfstring{setAssignmentChanged}{setAssignmentChanged}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+Button\+::set\+Assignment\+Changed (\begin{DoxyParamCaption}\item[{int}]{current\+\_\+button,  }\item[{int}]{dpad\+\_\+index,  }\item[{int}]{associated\+\_\+set,  }\item[{int}]{mode }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPadButton_a438b9eb036a3a4873ccbc1ad516f044b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPadButton_a17abae87cce39aa7c8356f269ce2154b}\label{classJoyDPadButton_a17abae87cce39aa7c8356f269ce2154b}} 
+\index{JoyDPadButton@{JoyDPadButton}!setChangeSetCondition@{setChangeSetCondition}}
+\index{setChangeSetCondition@{setChangeSetCondition}!JoyDPadButton@{JoyDPadButton}}
+\doxysubsubsection{\texorpdfstring{setChangeSetCondition()}{setChangeSetCondition()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+Button\+::set\+Change\+Set\+Condition (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButton_a3602da29174aa7789efe63051e1942ab}{Set\+Change\+Condition}}}]{condition,  }\item[{bool}]{passive = {\ttfamily false},  }\item[{bool}]{update\+Active\+String = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classJoyButton_a451a0eaac9ee0a8804107a8b8c6659d1}{Joy\+Button}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPadButton_a17abae87cce39aa7c8356f269ce2154b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPadButton_a17abae87cce39aa7c8356f269ce2154b_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classJoyDPadButton_ae5e91278efbb86be6345cedaba6d9775}\label{classJoyDPadButton_ae5e91278efbb86be6345cedaba6d9775}} 
+\index{JoyDPadButton@{JoyDPadButton}!m\_direction@{m\_direction}}
+\index{m\_direction@{m\_direction}!JoyDPadButton@{JoyDPadButton}}
+\doxysubsubsection{\texorpdfstring{m\_direction}{m\_direction}}
+{\footnotesize\ttfamily int Joy\+D\+Pad\+Button\+::m\+\_\+direction\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classJoyDPadButton_a4363742c42e3775cf648ce283d0fe2cb}\label{classJoyDPadButton_a4363742c42e3775cf648ce283d0fe2cb}} 
+\index{JoyDPadButton@{JoyDPadButton}!m\_dpad@{m\_dpad}}
+\index{m\_dpad@{m\_dpad}!JoyDPadButton@{JoyDPadButton}}
+\doxysubsubsection{\texorpdfstring{m\_dpad}{m\_dpad}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyDPad}{Joy\+D\+Pad}}$\ast$ Joy\+D\+Pad\+Button\+::m\+\_\+dpad\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/antimicrox/src/joybuttontypes/\mbox{\hyperlink{joydpadbutton_8h}{joydpadbutton.\+h}}\item 
+/home/pawel/antimicrox/src/joybuttontypes/\mbox{\hyperlink{joydpadbutton_8cpp}{joydpadbutton.\+cpp}}\end{DoxyCompactItemize}

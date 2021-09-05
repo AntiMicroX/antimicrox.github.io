@@ -1,0 +1,665 @@
+\hypertarget{classCommandLineUtility}{}\doxysection{Command\+Line\+Utility Class Reference}
+\label{classCommandLineUtility}\index{CommandLineUtility@{CommandLineUtility}}
+
+
+{\ttfamily \#include $<$commandlineutility.\+h$>$}
+
+
+
+Inheritance diagram for Command\+Line\+Utility\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=185pt]{classCommandLineUtility__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Command\+Line\+Utility\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=185pt]{classCommandLineUtility__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCommandLineUtility_a5b3da89149271a04232789f7dc954749}{Command\+Line\+Utility}} (Q\+Object $\ast$parent=nullptr)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classCommandLineUtility_a5aca4ba30b5aac3fc090afcc0c762337}{parse\+Arguments}} (const Q\+Application \&parsed\+\_\+app)
+\begin{DoxyCompactList}\small\item\em load and parse arguments from commandline \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classCommandLineUtility_a709adae0a157b06b6826756422f90d14}{is\+Launch\+In\+Tray\+Enabled}} ()
+\item 
+bool \mbox{\hyperlink{classCommandLineUtility_a1e34813a07c49f362d45c274df43e9ed}{is\+Tray\+Hidden}} ()
+\item 
+bool \mbox{\hyperlink{classCommandLineUtility_a8ec0f2589261d3e7c6c320ba49582a32}{has\+Profile}} ()
+\item 
+bool \mbox{\hyperlink{classCommandLineUtility_a2af1152438d91815aa5e648ba9541920}{has\+Controller\+Number}} ()
+\item 
+bool \mbox{\hyperlink{classCommandLineUtility_a2633b7d657485c065fd7b929e5738004}{has\+Controller\+ID}} ()
+\item 
+bool \mbox{\hyperlink{classCommandLineUtility_ab7674585078bc1bd6e54a476a5036267}{is\+Hidden\+Requested}} ()
+\item 
+bool \mbox{\hyperlink{classCommandLineUtility_ab6d15292a634583883c401a3cadbfa6a}{is\+Unload\+Requested}} ()
+\item 
+bool \mbox{\hyperlink{classCommandLineUtility_a13d83801f0a5326b7d44966e4c3943ff}{should\+List\+Controllers}} ()
+\item 
+bool \mbox{\hyperlink{classCommandLineUtility_ad5ca0b7e558e3fe2fcd450d882e79008}{should\+Map\+Controller}} ()
+\item 
+bool \mbox{\hyperlink{classCommandLineUtility_ac3966c94e16a72abfa6283e76dade356}{has\+Profile\+In\+Options}} ()
+\item 
+int \mbox{\hyperlink{classCommandLineUtility_a96db1e38b25c4f371e7d634011ea2312}{get\+Controller\+Number}} ()
+\item 
+int \mbox{\hyperlink{classCommandLineUtility_ae39f2a9bf870bc3824388a9ee3310b28}{get\+Start\+Set\+Number}} ()
+\item 
+int \mbox{\hyperlink{classCommandLineUtility_a8dcfb5b935e3ffae3f70edbbed03ecca}{get\+Joy\+Start\+Set\+Number}} ()
+\item 
+Q\+String \mbox{\hyperlink{classCommandLineUtility_a95c17e6603579cb9f08067f49bf776a6}{get\+Controller\+ID}} ()
+\item 
+Q\+String \mbox{\hyperlink{classCommandLineUtility_a17bf5e28dbbd4c740570fcddbcb752e1}{get\+Profile\+Location}} ()
+\item 
+Q\+String \mbox{\hyperlink{classCommandLineUtility_aa586007b0d384079381839c8a03d54b3}{get\+Event\+Generator}} ()
+\item 
+Q\+String \mbox{\hyperlink{classCommandLineUtility_aba6b64467cd8351051bac970ceba52f7}{get\+Current\+Log\+File}} ()
+\item 
+Q\+List$<$ int $>$ $\ast$ \mbox{\hyperlink{classCommandLineUtility_a4751199dd884467dabcc14f86413e605}{get\+Joy\+Start\+Set\+Number\+List}} ()
+\item 
+const Q\+List$<$ \mbox{\hyperlink{classControllerOptionsInfo}{Controller\+Options\+Info}} $>$ \& \mbox{\hyperlink{classCommandLineUtility_a78e62266b72b04743ab1fadb09f8d6e6}{get\+Controller\+Options\+List}} ()
+\item 
+bool \mbox{\hyperlink{classCommandLineUtility_aff54869ea2d53692a143c07795230b6c}{launch\+As\+Daemon}} ()
+\item 
+Q\+String \mbox{\hyperlink{classCommandLineUtility_a96ea16b44677090d55693abc2498c9d0}{get\+Display\+String}} ()
+\item 
+\mbox{\hyperlink{classLogger_ac744681e23720966b5f430ec2060da36}{Logger\+::\+Log\+Level}} \mbox{\hyperlink{classCommandLineUtility_ab7ae77d077c422505fb129a7aad2cf6c}{get\+Current\+Log\+Level}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classCommandLineUtility_a75535a5bf08ba2052675438afa0add76}{parse\+Args\+Profile}} (const Q\+Command\+Line\+Parser \&parser)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classCommandLineUtility_af98881476a783a36f68f5386fe841f9e}{parse\+Args\+Pr\+Controle}} (const Q\+Command\+Line\+Parser \&parser)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classCommandLineUtility_a510d5a0c2f2d228b752ad305010fd7d4}{parse\+Args\+Unload}} (const Q\+Command\+Line\+Parser \&parser)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classCommandLineUtility_ab1e29385d0f94ac86cf4b794b05e9b74}{parse\+Args\+Start\+Set}} (const Q\+Command\+Line\+Parser \&parser)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classCommandLineUtility_afa8df62992f1185a29bed92383f1382a}{parse\+Args\+Map}} (const Q\+Command\+Line\+Parser \&parser)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classCommandLineUtility_a1df699491cf145ac4ad5e8ddcda3cff8}{launch\+In\+Tray}}
+\item 
+bool \mbox{\hyperlink{classCommandLineUtility_ad05cb875d3c18804e5d8a055220901b4}{hide\+Tray\+Icon}}
+\item 
+bool \mbox{\hyperlink{classCommandLineUtility_a2cafa2cf12b13705fb14f87d4db3c71a}{hidden\+Request}}
+\item 
+bool \mbox{\hyperlink{classCommandLineUtility_afb2dfc044ebcdc00646b4068d4062666}{unload\+Profile}}
+\item 
+bool \mbox{\hyperlink{classCommandLineUtility_a9ab41667f3141ff752d830b44be5a5a1}{daemon\+Mode}}
+\item 
+bool \mbox{\hyperlink{classCommandLineUtility_a9868dac93453b1a8ee0583a3b7cc3e0b}{list\+Controllers}}
+\item 
+bool \mbox{\hyperlink{classCommandLineUtility_ad6ddb3e62d32c40eb0c531e77171dacb}{mapping\+Controller}}
+\item 
+int \mbox{\hyperlink{classCommandLineUtility_a99351088af18e43cfe779d77adc69f9b}{start\+Set\+Number}}
+\item 
+int \mbox{\hyperlink{classCommandLineUtility_ac1091302aaee490d638017cd51bcce48}{controller\+Number}}
+\item 
+int \mbox{\hyperlink{classCommandLineUtility_ab313a3209bc05f25d72d7e02cd4e1981}{current\+Lists\+Index}}
+\item 
+Q\+String \mbox{\hyperlink{classCommandLineUtility_ae4d59c62272b77c53202b557ba644e3d}{profile\+Location}}
+\item 
+Q\+String \mbox{\hyperlink{classCommandLineUtility_a88083fca46b386fac7cdd4767f7b0c86}{controller\+I\+D\+String}}
+\item 
+Q\+String \mbox{\hyperlink{classCommandLineUtility_aee98beab928bfe2d8cf4b18f5163c7d0}{display\+String}}
+\item 
+Q\+String \mbox{\hyperlink{classCommandLineUtility_a7e472efdc392032d7a274527e30b0f11}{event\+Generator}}
+\item 
+Q\+String \mbox{\hyperlink{classCommandLineUtility_ad86cea7a161ba9b15c526ae0110a7cec}{current\+Log\+File}}
+\item 
+\mbox{\hyperlink{classLogger_ac744681e23720966b5f430ec2060da36}{Logger\+::\+Log\+Level}} \mbox{\hyperlink{classCommandLineUtility_a5a0dd7fd5e522cd7575e90856af53dfe}{current\+Log\+Level}}
+\item 
+Q\+List$<$ \mbox{\hyperlink{classControllerOptionsInfo}{Controller\+Options\+Info}} $>$ \mbox{\hyperlink{classCommandLineUtility_a2f6f553c220cc2ebf6fd3b7a2e46b0b6}{controller\+Options\+List}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Q\+String\+List \mbox{\hyperlink{classCommandLineUtility_aff19eedf73e56eac9d04b3af00f2218a}{event\+Generators\+List}} = \mbox{\hyperlink{classEventHandlerFactory_ade5162034acc0f8683725fdb124bece0}{Event\+Handler\+Factory\+::build\+Event\+Generator\+List}}()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classCommandLineUtility_a5b3da89149271a04232789f7dc954749}\label{classCommandLineUtility_a5b3da89149271a04232789f7dc954749}} 
+\index{CommandLineUtility@{CommandLineUtility}!CommandLineUtility@{CommandLineUtility}}
+\index{CommandLineUtility@{CommandLineUtility}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{CommandLineUtility()}{CommandLineUtility()}}
+{\footnotesize\ttfamily Command\+Line\+Utility\+::\+Command\+Line\+Utility (\begin{DoxyParamCaption}\item[{Q\+Object $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{classCommandLineUtility_a5b3da89149271a04232789f7dc954749_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCommandLineUtility_a95c17e6603579cb9f08067f49bf776a6}\label{classCommandLineUtility_a95c17e6603579cb9f08067f49bf776a6}} 
+\index{CommandLineUtility@{CommandLineUtility}!getControllerID@{getControllerID}}
+\index{getControllerID@{getControllerID}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{getControllerID()}{getControllerID()}}
+{\footnotesize\ttfamily Q\+String Command\+Line\+Utility\+::get\+Controller\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCommandLineUtility_a95c17e6603579cb9f08067f49bf776a6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCommandLineUtility_a96db1e38b25c4f371e7d634011ea2312}\label{classCommandLineUtility_a96db1e38b25c4f371e7d634011ea2312}} 
+\index{CommandLineUtility@{CommandLineUtility}!getControllerNumber@{getControllerNumber}}
+\index{getControllerNumber@{getControllerNumber}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{getControllerNumber()}{getControllerNumber()}}
+{\footnotesize\ttfamily int Command\+Line\+Utility\+::get\+Controller\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCommandLineUtility_a96db1e38b25c4f371e7d634011ea2312_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCommandLineUtility_a78e62266b72b04743ab1fadb09f8d6e6}\label{classCommandLineUtility_a78e62266b72b04743ab1fadb09f8d6e6}} 
+\index{CommandLineUtility@{CommandLineUtility}!getControllerOptionsList@{getControllerOptionsList}}
+\index{getControllerOptionsList@{getControllerOptionsList}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{getControllerOptionsList()}{getControllerOptionsList()}}
+{\footnotesize\ttfamily const Q\+List$<$ \mbox{\hyperlink{classControllerOptionsInfo}{Controller\+Options\+Info}} $>$ \& Command\+Line\+Utility\+::get\+Controller\+Options\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCommandLineUtility_a78e62266b72b04743ab1fadb09f8d6e6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCommandLineUtility_aba6b64467cd8351051bac970ceba52f7}\label{classCommandLineUtility_aba6b64467cd8351051bac970ceba52f7}} 
+\index{CommandLineUtility@{CommandLineUtility}!getCurrentLogFile@{getCurrentLogFile}}
+\index{getCurrentLogFile@{getCurrentLogFile}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{getCurrentLogFile()}{getCurrentLogFile()}}
+{\footnotesize\ttfamily Q\+String Command\+Line\+Utility\+::get\+Current\+Log\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCommandLineUtility_aba6b64467cd8351051bac970ceba52f7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCommandLineUtility_ab7ae77d077c422505fb129a7aad2cf6c}\label{classCommandLineUtility_ab7ae77d077c422505fb129a7aad2cf6c}} 
+\index{CommandLineUtility@{CommandLineUtility}!getCurrentLogLevel@{getCurrentLogLevel}}
+\index{getCurrentLogLevel@{getCurrentLogLevel}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{getCurrentLogLevel()}{getCurrentLogLevel()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classLogger_ac744681e23720966b5f430ec2060da36}{Logger\+::\+Log\+Level}} Command\+Line\+Utility\+::get\+Current\+Log\+Level (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCommandLineUtility_ab7ae77d077c422505fb129a7aad2cf6c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCommandLineUtility_a96ea16b44677090d55693abc2498c9d0}\label{classCommandLineUtility_a96ea16b44677090d55693abc2498c9d0}} 
+\index{CommandLineUtility@{CommandLineUtility}!getDisplayString@{getDisplayString}}
+\index{getDisplayString@{getDisplayString}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{getDisplayString()}{getDisplayString()}}
+{\footnotesize\ttfamily Q\+String Command\+Line\+Utility\+::get\+Display\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=259pt]{classCommandLineUtility_a96ea16b44677090d55693abc2498c9d0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCommandLineUtility_aa586007b0d384079381839c8a03d54b3}\label{classCommandLineUtility_aa586007b0d384079381839c8a03d54b3}} 
+\index{CommandLineUtility@{CommandLineUtility}!getEventGenerator@{getEventGenerator}}
+\index{getEventGenerator@{getEventGenerator}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{getEventGenerator()}{getEventGenerator()}}
+{\footnotesize\ttfamily Q\+String Command\+Line\+Utility\+::get\+Event\+Generator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=259pt]{classCommandLineUtility_aa586007b0d384079381839c8a03d54b3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCommandLineUtility_a8dcfb5b935e3ffae3f70edbbed03ecca}\label{classCommandLineUtility_a8dcfb5b935e3ffae3f70edbbed03ecca}} 
+\index{CommandLineUtility@{CommandLineUtility}!getJoyStartSetNumber@{getJoyStartSetNumber}}
+\index{getJoyStartSetNumber@{getJoyStartSetNumber}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{getJoyStartSetNumber()}{getJoyStartSetNumber()}}
+{\footnotesize\ttfamily int Command\+Line\+Utility\+::get\+Joy\+Start\+Set\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classCommandLineUtility_a4751199dd884467dabcc14f86413e605}\label{classCommandLineUtility_a4751199dd884467dabcc14f86413e605}} 
+\index{CommandLineUtility@{CommandLineUtility}!getJoyStartSetNumberList@{getJoyStartSetNumberList}}
+\index{getJoyStartSetNumberList@{getJoyStartSetNumberList}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{getJoyStartSetNumberList()}{getJoyStartSetNumberList()}}
+{\footnotesize\ttfamily Q\+List$<$int$>$$\ast$ Command\+Line\+Utility\+::get\+Joy\+Start\+Set\+Number\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classCommandLineUtility_a17bf5e28dbbd4c740570fcddbcb752e1}\label{classCommandLineUtility_a17bf5e28dbbd4c740570fcddbcb752e1}} 
+\index{CommandLineUtility@{CommandLineUtility}!getProfileLocation@{getProfileLocation}}
+\index{getProfileLocation@{getProfileLocation}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{getProfileLocation()}{getProfileLocation()}}
+{\footnotesize\ttfamily Q\+String Command\+Line\+Utility\+::get\+Profile\+Location (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCommandLineUtility_a17bf5e28dbbd4c740570fcddbcb752e1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCommandLineUtility_ae39f2a9bf870bc3824388a9ee3310b28}\label{classCommandLineUtility_ae39f2a9bf870bc3824388a9ee3310b28}} 
+\index{CommandLineUtility@{CommandLineUtility}!getStartSetNumber@{getStartSetNumber}}
+\index{getStartSetNumber@{getStartSetNumber}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{getStartSetNumber()}{getStartSetNumber()}}
+{\footnotesize\ttfamily int Command\+Line\+Utility\+::get\+Start\+Set\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classCommandLineUtility_a2633b7d657485c065fd7b929e5738004}\label{classCommandLineUtility_a2633b7d657485c065fd7b929e5738004}} 
+\index{CommandLineUtility@{CommandLineUtility}!hasControllerID@{hasControllerID}}
+\index{hasControllerID@{hasControllerID}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{hasControllerID()}{hasControllerID()}}
+{\footnotesize\ttfamily bool Command\+Line\+Utility\+::has\+Controller\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCommandLineUtility_a2633b7d657485c065fd7b929e5738004_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCommandLineUtility_a2af1152438d91815aa5e648ba9541920}\label{classCommandLineUtility_a2af1152438d91815aa5e648ba9541920}} 
+\index{CommandLineUtility@{CommandLineUtility}!hasControllerNumber@{hasControllerNumber}}
+\index{hasControllerNumber@{hasControllerNumber}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{hasControllerNumber()}{hasControllerNumber()}}
+{\footnotesize\ttfamily bool Command\+Line\+Utility\+::has\+Controller\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCommandLineUtility_a2af1152438d91815aa5e648ba9541920_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCommandLineUtility_a8ec0f2589261d3e7c6c320ba49582a32}\label{classCommandLineUtility_a8ec0f2589261d3e7c6c320ba49582a32}} 
+\index{CommandLineUtility@{CommandLineUtility}!hasProfile@{hasProfile}}
+\index{hasProfile@{hasProfile}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{hasProfile()}{hasProfile()}}
+{\footnotesize\ttfamily bool Command\+Line\+Utility\+::has\+Profile (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCommandLineUtility_a8ec0f2589261d3e7c6c320ba49582a32_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCommandLineUtility_ac3966c94e16a72abfa6283e76dade356}\label{classCommandLineUtility_ac3966c94e16a72abfa6283e76dade356}} 
+\index{CommandLineUtility@{CommandLineUtility}!hasProfileInOptions@{hasProfileInOptions}}
+\index{hasProfileInOptions@{hasProfileInOptions}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{hasProfileInOptions()}{hasProfileInOptions()}}
+{\footnotesize\ttfamily bool Command\+Line\+Utility\+::has\+Profile\+In\+Options (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCommandLineUtility_ac3966c94e16a72abfa6283e76dade356_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=262pt]{classCommandLineUtility_ac3966c94e16a72abfa6283e76dade356_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCommandLineUtility_ab7674585078bc1bd6e54a476a5036267}\label{classCommandLineUtility_ab7674585078bc1bd6e54a476a5036267}} 
+\index{CommandLineUtility@{CommandLineUtility}!isHiddenRequested@{isHiddenRequested}}
+\index{isHiddenRequested@{isHiddenRequested}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{isHiddenRequested()}{isHiddenRequested()}}
+{\footnotesize\ttfamily bool Command\+Line\+Utility\+::is\+Hidden\+Requested (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCommandLineUtility_ab7674585078bc1bd6e54a476a5036267_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCommandLineUtility_a709adae0a157b06b6826756422f90d14}\label{classCommandLineUtility_a709adae0a157b06b6826756422f90d14}} 
+\index{CommandLineUtility@{CommandLineUtility}!isLaunchInTrayEnabled@{isLaunchInTrayEnabled}}
+\index{isLaunchInTrayEnabled@{isLaunchInTrayEnabled}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{isLaunchInTrayEnabled()}{isLaunchInTrayEnabled()}}
+{\footnotesize\ttfamily bool Command\+Line\+Utility\+::is\+Launch\+In\+Tray\+Enabled (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCommandLineUtility_a709adae0a157b06b6826756422f90d14_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCommandLineUtility_a1e34813a07c49f362d45c274df43e9ed}\label{classCommandLineUtility_a1e34813a07c49f362d45c274df43e9ed}} 
+\index{CommandLineUtility@{CommandLineUtility}!isTrayHidden@{isTrayHidden}}
+\index{isTrayHidden@{isTrayHidden}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{isTrayHidden()}{isTrayHidden()}}
+{\footnotesize\ttfamily bool Command\+Line\+Utility\+::is\+Tray\+Hidden (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCommandLineUtility_a1e34813a07c49f362d45c274df43e9ed_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCommandLineUtility_ab6d15292a634583883c401a3cadbfa6a}\label{classCommandLineUtility_ab6d15292a634583883c401a3cadbfa6a}} 
+\index{CommandLineUtility@{CommandLineUtility}!isUnloadRequested@{isUnloadRequested}}
+\index{isUnloadRequested@{isUnloadRequested}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{isUnloadRequested()}{isUnloadRequested()}}
+{\footnotesize\ttfamily bool Command\+Line\+Utility\+::is\+Unload\+Requested (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=261pt]{classCommandLineUtility_ab6d15292a634583883c401a3cadbfa6a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCommandLineUtility_aff54869ea2d53692a143c07795230b6c}\label{classCommandLineUtility_aff54869ea2d53692a143c07795230b6c}} 
+\index{CommandLineUtility@{CommandLineUtility}!launchAsDaemon@{launchAsDaemon}}
+\index{launchAsDaemon@{launchAsDaemon}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{launchAsDaemon()}{launchAsDaemon()}}
+{\footnotesize\ttfamily bool Command\+Line\+Utility\+::launch\+As\+Daemon (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=259pt]{classCommandLineUtility_aff54869ea2d53692a143c07795230b6c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCommandLineUtility_afa8df62992f1185a29bed92383f1382a}\label{classCommandLineUtility_afa8df62992f1185a29bed92383f1382a}} 
+\index{CommandLineUtility@{CommandLineUtility}!parseArgsMap@{parseArgsMap}}
+\index{parseArgsMap@{parseArgsMap}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{parseArgsMap()}{parseArgsMap()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Command\+Line\+Utility\+::parse\+Args\+Map (\begin{DoxyParamCaption}\item[{const Q\+Command\+Line\+Parser \&}]{parser }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCommandLineUtility_afa8df62992f1185a29bed92383f1382a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCommandLineUtility_af98881476a783a36f68f5386fe841f9e}\label{classCommandLineUtility_af98881476a783a36f68f5386fe841f9e}} 
+\index{CommandLineUtility@{CommandLineUtility}!parseArgsPrControle@{parseArgsPrControle}}
+\index{parseArgsPrControle@{parseArgsPrControle}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{parseArgsPrControle()}{parseArgsPrControle()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Command\+Line\+Utility\+::parse\+Args\+Pr\+Controle (\begin{DoxyParamCaption}\item[{const Q\+Command\+Line\+Parser \&}]{parser }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCommandLineUtility_af98881476a783a36f68f5386fe841f9e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCommandLineUtility_af98881476a783a36f68f5386fe841f9e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCommandLineUtility_a75535a5bf08ba2052675438afa0add76}\label{classCommandLineUtility_a75535a5bf08ba2052675438afa0add76}} 
+\index{CommandLineUtility@{CommandLineUtility}!parseArgsProfile@{parseArgsProfile}}
+\index{parseArgsProfile@{parseArgsProfile}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{parseArgsProfile()}{parseArgsProfile()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Command\+Line\+Utility\+::parse\+Args\+Profile (\begin{DoxyParamCaption}\item[{const Q\+Command\+Line\+Parser \&}]{parser }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=349pt]{classCommandLineUtility_a75535a5bf08ba2052675438afa0add76_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCommandLineUtility_a75535a5bf08ba2052675438afa0add76_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCommandLineUtility_ab1e29385d0f94ac86cf4b794b05e9b74}\label{classCommandLineUtility_ab1e29385d0f94ac86cf4b794b05e9b74}} 
+\index{CommandLineUtility@{CommandLineUtility}!parseArgsStartSet@{parseArgsStartSet}}
+\index{parseArgsStartSet@{parseArgsStartSet}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{parseArgsStartSet()}{parseArgsStartSet()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Command\+Line\+Utility\+::parse\+Args\+Start\+Set (\begin{DoxyParamCaption}\item[{const Q\+Command\+Line\+Parser \&}]{parser }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=349pt]{classCommandLineUtility_ab1e29385d0f94ac86cf4b794b05e9b74_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCommandLineUtility_ab1e29385d0f94ac86cf4b794b05e9b74_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCommandLineUtility_a510d5a0c2f2d228b752ad305010fd7d4}\label{classCommandLineUtility_a510d5a0c2f2d228b752ad305010fd7d4}} 
+\index{CommandLineUtility@{CommandLineUtility}!parseArgsUnload@{parseArgsUnload}}
+\index{parseArgsUnload@{parseArgsUnload}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{parseArgsUnload()}{parseArgsUnload()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Command\+Line\+Utility\+::parse\+Args\+Unload (\begin{DoxyParamCaption}\item[{const Q\+Command\+Line\+Parser \&}]{parser }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=349pt]{classCommandLineUtility_a510d5a0c2f2d228b752ad305010fd7d4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCommandLineUtility_a510d5a0c2f2d228b752ad305010fd7d4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCommandLineUtility_a5aca4ba30b5aac3fc090afcc0c762337}\label{classCommandLineUtility_a5aca4ba30b5aac3fc090afcc0c762337}} 
+\index{CommandLineUtility@{CommandLineUtility}!parseArguments@{parseArguments}}
+\index{parseArguments@{parseArguments}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{parseArguments()}{parseArguments()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Command\+Line\+Utility\+::parse\+Arguments (\begin{DoxyParamCaption}\item[{const Q\+Application \&}]{parsed\+\_\+app }\end{DoxyParamCaption})}
+
+
+
+load and parse arguments from commandline 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parsed\+\_\+app} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em std\+::runtime\+\_\+error} & -\/ in case of problems with parsing like unknown flag, wrong value etc \\
+\hline
+\end{DoxyExceptions}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCommandLineUtility_a5aca4ba30b5aac3fc090afcc0c762337_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=259pt]{classCommandLineUtility_a5aca4ba30b5aac3fc090afcc0c762337_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCommandLineUtility_a13d83801f0a5326b7d44966e4c3943ff}\label{classCommandLineUtility_a13d83801f0a5326b7d44966e4c3943ff}} 
+\index{CommandLineUtility@{CommandLineUtility}!shouldListControllers@{shouldListControllers}}
+\index{shouldListControllers@{shouldListControllers}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{shouldListControllers()}{shouldListControllers()}}
+{\footnotesize\ttfamily bool Command\+Line\+Utility\+::should\+List\+Controllers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCommandLineUtility_a13d83801f0a5326b7d44966e4c3943ff_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCommandLineUtility_ad5ca0b7e558e3fe2fcd450d882e79008}\label{classCommandLineUtility_ad5ca0b7e558e3fe2fcd450d882e79008}} 
+\index{CommandLineUtility@{CommandLineUtility}!shouldMapController@{shouldMapController}}
+\index{shouldMapController@{shouldMapController}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{shouldMapController()}{shouldMapController()}}
+{\footnotesize\ttfamily bool Command\+Line\+Utility\+::should\+Map\+Controller (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCommandLineUtility_ad5ca0b7e558e3fe2fcd450d882e79008_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classCommandLineUtility_a88083fca46b386fac7cdd4767f7b0c86}\label{classCommandLineUtility_a88083fca46b386fac7cdd4767f7b0c86}} 
+\index{CommandLineUtility@{CommandLineUtility}!controllerIDString@{controllerIDString}}
+\index{controllerIDString@{controllerIDString}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{controllerIDString}{controllerIDString}}
+{\footnotesize\ttfamily Q\+String Command\+Line\+Utility\+::controller\+I\+D\+String\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCommandLineUtility_ac1091302aaee490d638017cd51bcce48}\label{classCommandLineUtility_ac1091302aaee490d638017cd51bcce48}} 
+\index{CommandLineUtility@{CommandLineUtility}!controllerNumber@{controllerNumber}}
+\index{controllerNumber@{controllerNumber}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{controllerNumber}{controllerNumber}}
+{\footnotesize\ttfamily int Command\+Line\+Utility\+::controller\+Number\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCommandLineUtility_a2f6f553c220cc2ebf6fd3b7a2e46b0b6}\label{classCommandLineUtility_a2f6f553c220cc2ebf6fd3b7a2e46b0b6}} 
+\index{CommandLineUtility@{CommandLineUtility}!controllerOptionsList@{controllerOptionsList}}
+\index{controllerOptionsList@{controllerOptionsList}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{controllerOptionsList}{controllerOptionsList}}
+{\footnotesize\ttfamily Q\+List$<$\mbox{\hyperlink{classControllerOptionsInfo}{Controller\+Options\+Info}}$>$ Command\+Line\+Utility\+::controller\+Options\+List\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCommandLineUtility_ab313a3209bc05f25d72d7e02cd4e1981}\label{classCommandLineUtility_ab313a3209bc05f25d72d7e02cd4e1981}} 
+\index{CommandLineUtility@{CommandLineUtility}!currentListsIndex@{currentListsIndex}}
+\index{currentListsIndex@{currentListsIndex}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{currentListsIndex}{currentListsIndex}}
+{\footnotesize\ttfamily int Command\+Line\+Utility\+::current\+Lists\+Index\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCommandLineUtility_ad86cea7a161ba9b15c526ae0110a7cec}\label{classCommandLineUtility_ad86cea7a161ba9b15c526ae0110a7cec}} 
+\index{CommandLineUtility@{CommandLineUtility}!currentLogFile@{currentLogFile}}
+\index{currentLogFile@{currentLogFile}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{currentLogFile}{currentLogFile}}
+{\footnotesize\ttfamily Q\+String Command\+Line\+Utility\+::current\+Log\+File\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCommandLineUtility_a5a0dd7fd5e522cd7575e90856af53dfe}\label{classCommandLineUtility_a5a0dd7fd5e522cd7575e90856af53dfe}} 
+\index{CommandLineUtility@{CommandLineUtility}!currentLogLevel@{currentLogLevel}}
+\index{currentLogLevel@{currentLogLevel}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{currentLogLevel}{currentLogLevel}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classLogger_ac744681e23720966b5f430ec2060da36}{Logger\+::\+Log\+Level}} Command\+Line\+Utility\+::current\+Log\+Level\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCommandLineUtility_a9ab41667f3141ff752d830b44be5a5a1}\label{classCommandLineUtility_a9ab41667f3141ff752d830b44be5a5a1}} 
+\index{CommandLineUtility@{CommandLineUtility}!daemonMode@{daemonMode}}
+\index{daemonMode@{daemonMode}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{daemonMode}{daemonMode}}
+{\footnotesize\ttfamily bool Command\+Line\+Utility\+::daemon\+Mode\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCommandLineUtility_aee98beab928bfe2d8cf4b18f5163c7d0}\label{classCommandLineUtility_aee98beab928bfe2d8cf4b18f5163c7d0}} 
+\index{CommandLineUtility@{CommandLineUtility}!displayString@{displayString}}
+\index{displayString@{displayString}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{displayString}{displayString}}
+{\footnotesize\ttfamily Q\+String Command\+Line\+Utility\+::display\+String\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCommandLineUtility_a7e472efdc392032d7a274527e30b0f11}\label{classCommandLineUtility_a7e472efdc392032d7a274527e30b0f11}} 
+\index{CommandLineUtility@{CommandLineUtility}!eventGenerator@{eventGenerator}}
+\index{eventGenerator@{eventGenerator}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{eventGenerator}{eventGenerator}}
+{\footnotesize\ttfamily Q\+String Command\+Line\+Utility\+::event\+Generator\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCommandLineUtility_aff19eedf73e56eac9d04b3af00f2218a}\label{classCommandLineUtility_aff19eedf73e56eac9d04b3af00f2218a}} 
+\index{CommandLineUtility@{CommandLineUtility}!eventGeneratorsList@{eventGeneratorsList}}
+\index{eventGeneratorsList@{eventGeneratorsList}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{eventGeneratorsList}{eventGeneratorsList}}
+{\footnotesize\ttfamily Q\+String\+List Command\+Line\+Utility\+::event\+Generators\+List = \mbox{\hyperlink{classEventHandlerFactory_ade5162034acc0f8683725fdb124bece0}{Event\+Handler\+Factory\+::build\+Event\+Generator\+List}}()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCommandLineUtility_a2cafa2cf12b13705fb14f87d4db3c71a}\label{classCommandLineUtility_a2cafa2cf12b13705fb14f87d4db3c71a}} 
+\index{CommandLineUtility@{CommandLineUtility}!hiddenRequest@{hiddenRequest}}
+\index{hiddenRequest@{hiddenRequest}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{hiddenRequest}{hiddenRequest}}
+{\footnotesize\ttfamily bool Command\+Line\+Utility\+::hidden\+Request\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCommandLineUtility_ad05cb875d3c18804e5d8a055220901b4}\label{classCommandLineUtility_ad05cb875d3c18804e5d8a055220901b4}} 
+\index{CommandLineUtility@{CommandLineUtility}!hideTrayIcon@{hideTrayIcon}}
+\index{hideTrayIcon@{hideTrayIcon}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{hideTrayIcon}{hideTrayIcon}}
+{\footnotesize\ttfamily bool Command\+Line\+Utility\+::hide\+Tray\+Icon\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCommandLineUtility_a1df699491cf145ac4ad5e8ddcda3cff8}\label{classCommandLineUtility_a1df699491cf145ac4ad5e8ddcda3cff8}} 
+\index{CommandLineUtility@{CommandLineUtility}!launchInTray@{launchInTray}}
+\index{launchInTray@{launchInTray}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{launchInTray}{launchInTray}}
+{\footnotesize\ttfamily bool Command\+Line\+Utility\+::launch\+In\+Tray\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCommandLineUtility_a9868dac93453b1a8ee0583a3b7cc3e0b}\label{classCommandLineUtility_a9868dac93453b1a8ee0583a3b7cc3e0b}} 
+\index{CommandLineUtility@{CommandLineUtility}!listControllers@{listControllers}}
+\index{listControllers@{listControllers}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{listControllers}{listControllers}}
+{\footnotesize\ttfamily bool Command\+Line\+Utility\+::list\+Controllers\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCommandLineUtility_ad6ddb3e62d32c40eb0c531e77171dacb}\label{classCommandLineUtility_ad6ddb3e62d32c40eb0c531e77171dacb}} 
+\index{CommandLineUtility@{CommandLineUtility}!mappingController@{mappingController}}
+\index{mappingController@{mappingController}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{mappingController}{mappingController}}
+{\footnotesize\ttfamily bool Command\+Line\+Utility\+::mapping\+Controller\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCommandLineUtility_ae4d59c62272b77c53202b557ba644e3d}\label{classCommandLineUtility_ae4d59c62272b77c53202b557ba644e3d}} 
+\index{CommandLineUtility@{CommandLineUtility}!profileLocation@{profileLocation}}
+\index{profileLocation@{profileLocation}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{profileLocation}{profileLocation}}
+{\footnotesize\ttfamily Q\+String Command\+Line\+Utility\+::profile\+Location\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCommandLineUtility_a99351088af18e43cfe779d77adc69f9b}\label{classCommandLineUtility_a99351088af18e43cfe779d77adc69f9b}} 
+\index{CommandLineUtility@{CommandLineUtility}!startSetNumber@{startSetNumber}}
+\index{startSetNumber@{startSetNumber}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{startSetNumber}{startSetNumber}}
+{\footnotesize\ttfamily int Command\+Line\+Utility\+::start\+Set\+Number\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCommandLineUtility_afb2dfc044ebcdc00646b4068d4062666}\label{classCommandLineUtility_afb2dfc044ebcdc00646b4068d4062666}} 
+\index{CommandLineUtility@{CommandLineUtility}!unloadProfile@{unloadProfile}}
+\index{unloadProfile@{unloadProfile}!CommandLineUtility@{CommandLineUtility}}
+\doxysubsubsection{\texorpdfstring{unloadProfile}{unloadProfile}}
+{\footnotesize\ttfamily bool Command\+Line\+Utility\+::unload\+Profile\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{commandlineutility_8h}{commandlineutility.\+h}}\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{commandlineutility_8cpp}{commandlineutility.\+cpp}}\end{DoxyCompactItemize}

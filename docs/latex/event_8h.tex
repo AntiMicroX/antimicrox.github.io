@@ -1,0 +1,246 @@
+\hypertarget{event_8h}{}\doxysection{/home/pawel/antimicrox/src/event.h File Reference}
+\label{event_8h}\index{/home/pawel/antimicrox/src/event.h@{/home/pawel/antimicrox/src/event.h}}
+{\ttfamily \#include \char`\"{}common.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}joybuttonslot.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}springmousemoveinfo.\+h\char`\"{}}\newline
+Include dependency graph for event.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{event_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{event_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{event_8h_a62b42b8e69adad83d9ca62a48ce5c9df}{sendevent}} (\mbox{\hyperlink{classJoyButtonSlot}{Joy\+Button\+Slot}} $\ast$slot, bool pressed=true)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{event_8h_a255296338a55bfdcb8148bbc9a3162e3}{sendevent}} (int code1, int code2)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{event_8h_a5e5e1732efbccf0f208fdf33ddcd9030}{send\+Keyb\+Event}} (\mbox{\hyperlink{classJoyButtonSlot}{Joy\+Button\+Slot}} $\ast$slot, bool pressed=true)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{event_8h_ac385b3b72ed4aeb88785482dedaacf72}{send\+Spring\+Event\+Refactor}} (\mbox{\hyperlink{namespacePadderCommon_ab444e271c78bad17bc332a3c0ec24b3d}{Padder\+Common\+::spring\+Mode\+Info}} $\ast$full\+Spring, \mbox{\hyperlink{namespacePadderCommon_ab444e271c78bad17bc332a3c0ec24b3d}{Padder\+Common\+::spring\+Mode\+Info}} $\ast$relative\+Spring=0, int $\ast$const mouse\+PosX=0, int $\ast$const mouse\+Pos=0)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{event_8h_ab9c4ca0a65739caafc9dc8ff4ffb9ab2}{send\+Spring\+Event}} (\mbox{\hyperlink{namespacePadderCommon_ab444e271c78bad17bc332a3c0ec24b3d}{Padder\+Common\+::spring\+Mode\+Info}} $\ast$full\+Spring, \mbox{\hyperlink{namespacePadderCommon_ab444e271c78bad17bc332a3c0ec24b3d}{Padder\+Common\+::spring\+Mode\+Info}} $\ast$relative\+Spring=0, int $\ast$const mouse\+PosX=0, int $\ast$const mouse\+Pos=0)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{event_8h_a8be00db088737b65da63b6cdb5ac0f9c}{fake\+Abs\+Mouse\+Coordinates}} (double springX, double springY, int width, int height, int \&finalx, int \&finaly, int screen=-\/1)
+\item 
+Q\+String \mbox{\hyperlink{event_8h_a5d4afd531123bc0d5093ae323f20519f}{detected\+Script\+Ext}} (Q\+String file)
+\item 
+int \mbox{\hyperlink{event_8h_a0e1911cf2881699b5c7086c5e7c7d355}{X11\+Key\+Sym\+To\+Keycode}} (Q\+String key)
+\item 
+Q\+String \mbox{\hyperlink{event_8h_ad89c8bfbcf663c1d0ab4db76aadec22e}{keycode\+To\+Key\+String}} (int keycode, int alias=0)
+\item 
+int \mbox{\hyperlink{event_8h_a720e476fc47628b6581dba3eb6ce9657}{X11\+Key\+Code\+To\+X11\+Key\+Sym}} (int keycode)
+\item 
+Q\+String \mbox{\hyperlink{event_8h_a7d3de98ba1ae3d3f10e7dc8280d7180a}{keysym\+To\+Key\+String}} (int keysym, int alias=0)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{event_8h_a5d4afd531123bc0d5093ae323f20519f}\label{event_8h_a5d4afd531123bc0d5093ae323f20519f}} 
+\index{event.h@{event.h}!detectedScriptExt@{detectedScriptExt}}
+\index{detectedScriptExt@{detectedScriptExt}!event.h@{event.h}}
+\doxysubsubsection{\texorpdfstring{detectedScriptExt()}{detectedScriptExt()}}
+{\footnotesize\ttfamily Q\+String detected\+Script\+Ext (\begin{DoxyParamCaption}\item[{Q\+String}]{file }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{event_8h_a5d4afd531123bc0d5093ae323f20519f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{event_8h_a8be00db088737b65da63b6cdb5ac0f9c}\label{event_8h_a8be00db088737b65da63b6cdb5ac0f9c}} 
+\index{event.h@{event.h}!fakeAbsMouseCoordinates@{fakeAbsMouseCoordinates}}
+\index{fakeAbsMouseCoordinates@{fakeAbsMouseCoordinates}!event.h@{event.h}}
+\doxysubsubsection{\texorpdfstring{fakeAbsMouseCoordinates()}{fakeAbsMouseCoordinates()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} fake\+Abs\+Mouse\+Coordinates (\begin{DoxyParamCaption}\item[{double}]{springX,  }\item[{double}]{springY,  }\item[{int}]{width,  }\item[{int}]{height,  }\item[{int \&}]{finalx,  }\item[{int \&}]{finaly,  }\item[{int}]{screen = {\ttfamily -\/1} }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{event_8h_a8be00db088737b65da63b6cdb5ac0f9c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{event_8h_a8be00db088737b65da63b6cdb5ac0f9c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{event_8h_ad89c8bfbcf663c1d0ab4db76aadec22e}\label{event_8h_ad89c8bfbcf663c1d0ab4db76aadec22e}} 
+\index{event.h@{event.h}!keycodeToKeyString@{keycodeToKeyString}}
+\index{keycodeToKeyString@{keycodeToKeyString}!event.h@{event.h}}
+\doxysubsubsection{\texorpdfstring{keycodeToKeyString()}{keycodeToKeyString()}}
+{\footnotesize\ttfamily Q\+String keycode\+To\+Key\+String (\begin{DoxyParamCaption}\item[{int}]{keycode,  }\item[{int}]{alias = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{event_8h_ad89c8bfbcf663c1d0ab4db76aadec22e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{event_8h_ad89c8bfbcf663c1d0ab4db76aadec22e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{event_8h_a7d3de98ba1ae3d3f10e7dc8280d7180a}\label{event_8h_a7d3de98ba1ae3d3f10e7dc8280d7180a}} 
+\index{event.h@{event.h}!keysymToKeyString@{keysymToKeyString}}
+\index{keysymToKeyString@{keysymToKeyString}!event.h@{event.h}}
+\doxysubsubsection{\texorpdfstring{keysymToKeyString()}{keysymToKeyString()}}
+{\footnotesize\ttfamily Q\+String keysym\+To\+Key\+String (\begin{DoxyParamCaption}\item[{int}]{keysym,  }\item[{int}]{alias = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{event_8h_a7d3de98ba1ae3d3f10e7dc8280d7180a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{event_8h_a7d3de98ba1ae3d3f10e7dc8280d7180a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{event_8h_a255296338a55bfdcb8148bbc9a3162e3}\label{event_8h_a255296338a55bfdcb8148bbc9a3162e3}} 
+\index{event.h@{event.h}!sendevent@{sendevent}}
+\index{sendevent@{sendevent}!event.h@{event.h}}
+\doxysubsubsection{\texorpdfstring{sendevent()}{sendevent()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} sendevent (\begin{DoxyParamCaption}\item[{int}]{code1,  }\item[{int}]{code2 }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{event_8h_a255296338a55bfdcb8148bbc9a3162e3_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{event_8h_a62b42b8e69adad83d9ca62a48ce5c9df}\label{event_8h_a62b42b8e69adad83d9ca62a48ce5c9df}} 
+\index{event.h@{event.h}!sendevent@{sendevent}}
+\index{sendevent@{sendevent}!event.h@{event.h}}
+\doxysubsubsection{\texorpdfstring{sendevent()}{sendevent()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} sendevent (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButtonSlot}{Joy\+Button\+Slot}} $\ast$}]{slot,  }\item[{bool}]{pressed = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{event_8h_a62b42b8e69adad83d9ca62a48ce5c9df_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{event_8h_a62b42b8e69adad83d9ca62a48ce5c9df_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{event_8h_a5e5e1732efbccf0f208fdf33ddcd9030}\label{event_8h_a5e5e1732efbccf0f208fdf33ddcd9030}} 
+\index{event.h@{event.h}!sendKeybEvent@{sendKeybEvent}}
+\index{sendKeybEvent@{sendKeybEvent}!event.h@{event.h}}
+\doxysubsubsection{\texorpdfstring{sendKeybEvent()}{sendKeybEvent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} send\+Keyb\+Event (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButtonSlot}{Joy\+Button\+Slot}} $\ast$}]{slot,  }\item[{bool}]{pressed = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{event_8h_a5e5e1732efbccf0f208fdf33ddcd9030_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{event_8h_a5e5e1732efbccf0f208fdf33ddcd9030_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{event_8h_ab9c4ca0a65739caafc9dc8ff4ffb9ab2}\label{event_8h_ab9c4ca0a65739caafc9dc8ff4ffb9ab2}} 
+\index{event.h@{event.h}!sendSpringEvent@{sendSpringEvent}}
+\index{sendSpringEvent@{sendSpringEvent}!event.h@{event.h}}
+\doxysubsubsection{\texorpdfstring{sendSpringEvent()}{sendSpringEvent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} send\+Spring\+Event (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespacePadderCommon_ab444e271c78bad17bc332a3c0ec24b3d}{Padder\+Common\+::spring\+Mode\+Info}} $\ast$}]{full\+Spring,  }\item[{\mbox{\hyperlink{namespacePadderCommon_ab444e271c78bad17bc332a3c0ec24b3d}{Padder\+Common\+::spring\+Mode\+Info}} $\ast$}]{relative\+Spring = {\ttfamily 0},  }\item[{int $\ast$const}]{mouse\+PosX = {\ttfamily 0},  }\item[{int $\ast$const}]{mouse\+Pos = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{event_8h_ab9c4ca0a65739caafc9dc8ff4ffb9ab2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{event_8h_ab9c4ca0a65739caafc9dc8ff4ffb9ab2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{event_8h_ac385b3b72ed4aeb88785482dedaacf72}\label{event_8h_ac385b3b72ed4aeb88785482dedaacf72}} 
+\index{event.h@{event.h}!sendSpringEventRefactor@{sendSpringEventRefactor}}
+\index{sendSpringEventRefactor@{sendSpringEventRefactor}!event.h@{event.h}}
+\doxysubsubsection{\texorpdfstring{sendSpringEventRefactor()}{sendSpringEventRefactor()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} send\+Spring\+Event\+Refactor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespacePadderCommon_ab444e271c78bad17bc332a3c0ec24b3d}{Padder\+Common\+::spring\+Mode\+Info}} $\ast$}]{full\+Spring,  }\item[{\mbox{\hyperlink{namespacePadderCommon_ab444e271c78bad17bc332a3c0ec24b3d}{Padder\+Common\+::spring\+Mode\+Info}} $\ast$}]{relative\+Spring = {\ttfamily 0},  }\item[{int $\ast$const}]{mouse\+PosX = {\ttfamily 0},  }\item[{int $\ast$const}]{mouse\+Pos = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{event_8h_ac385b3b72ed4aeb88785482dedaacf72_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{event_8h_a720e476fc47628b6581dba3eb6ce9657}\label{event_8h_a720e476fc47628b6581dba3eb6ce9657}} 
+\index{event.h@{event.h}!X11KeyCodeToX11KeySym@{X11KeyCodeToX11KeySym}}
+\index{X11KeyCodeToX11KeySym@{X11KeyCodeToX11KeySym}!event.h@{event.h}}
+\doxysubsubsection{\texorpdfstring{X11KeyCodeToX11KeySym()}{X11KeyCodeToX11KeySym()}}
+{\footnotesize\ttfamily int X11\+Key\+Code\+To\+X11\+Key\+Sym (\begin{DoxyParamCaption}\item[{int}]{keycode }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{event_8h_a720e476fc47628b6581dba3eb6ce9657_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{event_8h_a720e476fc47628b6581dba3eb6ce9657_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{event_8h_a0e1911cf2881699b5c7086c5e7c7d355}\label{event_8h_a0e1911cf2881699b5c7086c5e7c7d355}} 
+\index{event.h@{event.h}!X11KeySymToKeycode@{X11KeySymToKeycode}}
+\index{X11KeySymToKeycode@{X11KeySymToKeycode}!event.h@{event.h}}
+\doxysubsubsection{\texorpdfstring{X11KeySymToKeycode()}{X11KeySymToKeycode()}}
+{\footnotesize\ttfamily int X11\+Key\+Sym\+To\+Keycode (\begin{DoxyParamCaption}\item[{Q\+String}]{key }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{event_8h_a0e1911cf2881699b5c7086c5e7c7d355_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{event_8h_a0e1911cf2881699b5c7086c5e7c7d355_icgraph}
+\end{center}
+\end{figure}

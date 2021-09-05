@@ -1,0 +1,12 @@
+<map id="JoyControlStickContextMenu::getPresetIndex" name="JoyControlStickContextMenu::getPresetIndex">
+<area shape="rect" id="node1" title=" " alt="" coords="5,141,199,182"/>
+<area shape="rect" id="node2" href="$classJoyButton.html#ae1d364dfa70f47fae3db99ffbcdea44b" title=" " alt="" coords="255,5,446,32"/>
+<area shape="rect" id="node3" href="$classJoyControlStick.html#ae57242ae6e71190d82ef4dbf31f11dd0" title="Get a pointer to the stick direction button for the desired direction." alt="" coords="255,57,447,98"/>
+<area shape="rect" id="node4" href="$classAntKeyMapper.html#acd08c44a2501edcfdb1ef8a68d534b1b" title=" " alt="" coords="259,123,442,149"/>
+<area shape="rect" id="node7" href="$classJoyButtonSlot.html#a7fa0bf6d891437a2392e47d32b746502" title=" " alt="" coords="259,173,443,200"/>
+<area shape="rect" id="node8" href="$classJoyButtonSlot.html#abed7fe134c404b403ea79c0753f6eaaf" title=" " alt="" coords="258,224,443,251"/>
+<area shape="rect" id="node9" href="$classAntKeyMapper.html#a07957c1e2baac6c4266678d89dc7c3a6" title=" " alt="" coords="247,275,455,301"/>
+<area shape="rect" id="node5" href="$classAntKeyMapper.html#abe4a434636d370a750d32a14b9a139d3" title=" " alt="" coords="519,97,719,124"/>
+<area shape="rect" id="node6" href="$antkeymapper_8cpp.html#a4f87707944cf82e8e59c85d48e24951c" title=" " alt="" coords="539,148,699,175"/>
+<area shape="rect" id="node10" href="$classQtKeyMapperBase.html#a5df0f313bce11847f8495126373e7178" title=" " alt="" coords="503,275,735,301"/>
+</map>

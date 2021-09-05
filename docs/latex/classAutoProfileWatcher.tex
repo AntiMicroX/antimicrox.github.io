@@ -1,0 +1,493 @@
+\hypertarget{classAutoProfileWatcher}{}\doxysection{Auto\+Profile\+Watcher Class Reference}
+\label{classAutoProfileWatcher}\index{AutoProfileWatcher@{AutoProfileWatcher}}
+
+
+{\ttfamily \#include $<$autoprofilewatcher.\+h$>$}
+
+
+
+Inheritance diagram for Auto\+Profile\+Watcher\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=181pt]{classAutoProfileWatcher__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Auto\+Profile\+Watcher\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=305pt]{classAutoProfileWatcher__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAutoProfileWatcher_a561af8319ef8031986ac0eaee221c6a3}{sync\+Profile\+Assignment}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAutoProfileWatcher_aeef04441dc24fcc1fbe3ac6f9188d85f}{found\+Applicable\+Profile}} (\mbox{\hyperlink{classAutoProfileInfo}{Auto\+Profile\+Info}} $\ast$info)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classAutoProfileWatcher_a6c9832eb02480c6909f49cbb05d5113c}{Auto\+Profile\+Watcher}} (\mbox{\hyperlink{classAntiMicroSettings}{Anti\+Micro\+Settings}} $\ast$\mbox{\hyperlink{classAutoProfileWatcher_ac09809d18d15178d1c81ec71349a59b5}{settings}}, Q\+Object $\ast$parent=nullptr)
+\item 
+\mbox{\hyperlink{classAutoProfileWatcher_a22fe430730ac7d15e4f3036a9d004285}{$\sim$\+Auto\+Profile\+Watcher}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAutoProfileWatcher_a3e42030d3b71933be269e7eda00d253b}{start\+Timer}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAutoProfileWatcher_ab08f83cac9bd6aaa66e250f25fe7a794}{stop\+Timer}} ()
+\item 
+Q\+List$<$ \mbox{\hyperlink{classAutoProfileInfo}{Auto\+Profile\+Info}} $\ast$ $>$ $\ast$ \mbox{\hyperlink{classAutoProfileWatcher_a5dda8ebb8a813ad72ad353e95c42c6f4}{get\+Custom\+Defaults}} ()
+\item 
+\mbox{\hyperlink{classAutoProfileInfo}{Auto\+Profile\+Info}} $\ast$ \mbox{\hyperlink{classAutoProfileWatcher_a5b371bd75a94e50230f18d458c93668b}{get\+Default\+All\+Profile}} ()
+\item 
+bool \mbox{\hyperlink{classAutoProfileWatcher_af46fb7d4c52e7ee0ab0b53bc71189f60}{is\+Unique\+I\+D\+Locked}} (Q\+String unique\+ID)
+\item 
+const Q\+Hash$<$ Q\+String, Q\+List$<$ \mbox{\hyperlink{classAutoProfileInfo}{Auto\+Profile\+Info}} $\ast$ $>$ $>$ \& \mbox{\hyperlink{classAutoProfileWatcher_a71d680e2e91636eb48082b830d4fa2af}{get\+App\+Profile\+Assignments}} ()
+\item 
+const Q\+Hash$<$ Q\+String, Q\+List$<$ \mbox{\hyperlink{classAutoProfileInfo}{Auto\+Profile\+Info}} $\ast$ $>$ $>$ \& \mbox{\hyperlink{classAutoProfileWatcher_a711ecd2e6eae6d0270271a9598305dd4}{get\+Window\+Class\+Profile\+Assignments}} ()
+\item 
+const Q\+Hash$<$ Q\+String, Q\+List$<$ \mbox{\hyperlink{classAutoProfileInfo}{Auto\+Profile\+Info}} $\ast$ $>$ $>$ \& \mbox{\hyperlink{classAutoProfileWatcher_a3eae9d4ee45d3dabd198ea94d327a857}{get\+Window\+Name\+Profile\+Assignments}} ()
+\item 
+const Q\+Hash$<$ Q\+String, \mbox{\hyperlink{classAutoProfileInfo}{Auto\+Profile\+Info}} $\ast$ $>$ \& \mbox{\hyperlink{classAutoProfileWatcher_a6f859d7413059615f203f5962dec15ea}{get\+Default\+Profile\+Assignments}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAutoProfileWatcher_a0aa9be2365817b1c1c1c80ce3ec4ee41}{disconnect\+Window\+Timer}} ()
+\item 
+static \mbox{\hyperlink{classAutoProfileWatcher}{Auto\+Profile\+Watcher}} $\ast$ \mbox{\hyperlink{classAutoProfileWatcher_ab209bd17ff3dbf899706ad1feca3b592}{get\+Auto\+Profile\+Watcher\+Instance}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static const int \mbox{\hyperlink{classAutoProfileWatcher_afee31f4777a5943503bac8fe6037fb43}{C\+H\+E\+C\+K\+T\+I\+ME}} = 500
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Q\+String \mbox{\hyperlink{classAutoProfileWatcher_a9192562fc92f52545e3c0fe663026f95}{find\+App\+Location}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAutoProfileWatcher_a271cfd222b93c64b8c079cfa8c0279d5}{clear\+Profile\+Assignments}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAutoProfileWatcher_a2e2c4fa67534c7f681d0c5455ce5e607}{conv\+To\+Unique\+I\+D\+Auto\+Prof\+Group\+Sett}} (Q\+Settings $\ast$sett, Q\+String guid\+Auto\+Prof\+Sett, Q\+String unique\+Auto\+Prof\+Sett)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAutoProfileWatcher_ae6ec8b944a048017f3e9958525ccfb62}{run\+App\+Check}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Set$<$ Q\+String $>$ \& \mbox{\hyperlink{classAutoProfileWatcher_ac8d3fde4dea7576bd0ea05913304c826}{get\+Uniqe\+I\+D\+Set\+Local}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classAntiMicroSettings}{Anti\+Micro\+Settings}} $\ast$ \mbox{\hyperlink{classAutoProfileWatcher_ac09809d18d15178d1c81ec71349a59b5}{settings}}
+\item 
+Q\+Hash$<$ Q\+String, Q\+List$<$ \mbox{\hyperlink{classAutoProfileInfo}{Auto\+Profile\+Info}} $\ast$ $>$ $>$ \mbox{\hyperlink{classAutoProfileWatcher_a4aa9f4a30df647c4480667ec594cdff0}{app\+Profile\+Assignments}}
+\item 
+Q\+Hash$<$ Q\+String, Q\+List$<$ \mbox{\hyperlink{classAutoProfileInfo}{Auto\+Profile\+Info}} $\ast$ $>$ $>$ \mbox{\hyperlink{classAutoProfileWatcher_af181f2353b58919d28ba190abb899341}{window\+Class\+Profile\+Assignments}}
+\item 
+Q\+Hash$<$ Q\+String, Q\+List$<$ \mbox{\hyperlink{classAutoProfileInfo}{Auto\+Profile\+Info}} $\ast$ $>$ $>$ \mbox{\hyperlink{classAutoProfileWatcher_a94f0c9fe0d499a167fadf8eb3e740dee}{window\+Name\+Profile\+Assignments}}
+\item 
+Q\+Hash$<$ Q\+String, \mbox{\hyperlink{classAutoProfileInfo}{Auto\+Profile\+Info}} $\ast$ $>$ \mbox{\hyperlink{classAutoProfileWatcher_aaf9fb38cb437481653264163164e1914}{default\+Profile\+Assignments}}
+\item 
+\mbox{\hyperlink{classAutoProfileInfo}{Auto\+Profile\+Info}} $\ast$ \mbox{\hyperlink{classAutoProfileWatcher_a6778ce3689eb5c326af9a5c6c910d9ac}{all\+Default\+Info}}
+\item 
+Q\+String \mbox{\hyperlink{classAutoProfileWatcher_a9a497b3b9f0e6516f95b545d1a68e85c}{current\+Application}}
+\item 
+Q\+String \mbox{\hyperlink{classAutoProfileWatcher_a2563213233b073502b7a9b69425dba9b}{current\+App\+Window\+Title}}
+\item 
+Q\+Set$<$ Q\+String $>$ \mbox{\hyperlink{classAutoProfileWatcher_a7d3772b7f949aae5f79c5898d8ca578a}{unique\+I\+D\+Set}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classAutoProfileWatcher}{Auto\+Profile\+Watcher}} $\ast$ \mbox{\hyperlink{classAutoProfileWatcher_a3d15fad5800b28664e8909315d237c64}{\+\_\+instance}} = nullptr
+\item 
+static Q\+Timer \mbox{\hyperlink{classAutoProfileWatcher_afcff0e82f42ad3eff0ad0f6f5cbff206}{check\+Window\+Timer}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classAutoProfileWatcher_a6c9832eb02480c6909f49cbb05d5113c}\label{classAutoProfileWatcher_a6c9832eb02480c6909f49cbb05d5113c}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!AutoProfileWatcher@{AutoProfileWatcher}}
+\index{AutoProfileWatcher@{AutoProfileWatcher}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{AutoProfileWatcher()}{AutoProfileWatcher()}}
+{\footnotesize\ttfamily Auto\+Profile\+Watcher\+::\+Auto\+Profile\+Watcher (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classAntiMicroSettings}{Anti\+Micro\+Settings}} $\ast$}]{settings,  }\item[{Q\+Object $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAutoProfileWatcher_a6c9832eb02480c6909f49cbb05d5113c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAutoProfileWatcher_a22fe430730ac7d15e4f3036a9d004285}\label{classAutoProfileWatcher_a22fe430730ac7d15e4f3036a9d004285}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!````~AutoProfileWatcher@{$\sim$AutoProfileWatcher}}
+\index{````~AutoProfileWatcher@{$\sim$AutoProfileWatcher}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{$\sim$AutoProfileWatcher()}{~AutoProfileWatcher()}}
+{\footnotesize\ttfamily Auto\+Profile\+Watcher\+::$\sim$\+Auto\+Profile\+Watcher (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classAutoProfileWatcher_a271cfd222b93c64b8c079cfa8c0279d5}\label{classAutoProfileWatcher_a271cfd222b93c64b8c079cfa8c0279d5}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!clearProfileAssignments@{clearProfileAssignments}}
+\index{clearProfileAssignments@{clearProfileAssignments}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{clearProfileAssignments()}{clearProfileAssignments()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Auto\+Profile\+Watcher\+::clear\+Profile\+Assignments (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAutoProfileWatcher_a271cfd222b93c64b8c079cfa8c0279d5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAutoProfileWatcher_a271cfd222b93c64b8c079cfa8c0279d5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAutoProfileWatcher_a2e2c4fa67534c7f681d0c5455ce5e607}\label{classAutoProfileWatcher_a2e2c4fa67534c7f681d0c5455ce5e607}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!convToUniqueIDAutoProfGroupSett@{convToUniqueIDAutoProfGroupSett}}
+\index{convToUniqueIDAutoProfGroupSett@{convToUniqueIDAutoProfGroupSett}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{convToUniqueIDAutoProfGroupSett()}{convToUniqueIDAutoProfGroupSett()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Auto\+Profile\+Watcher\+::conv\+To\+Unique\+I\+D\+Auto\+Prof\+Group\+Sett (\begin{DoxyParamCaption}\item[{Q\+Settings $\ast$}]{sett,  }\item[{Q\+String}]{guid\+Auto\+Prof\+Sett,  }\item[{Q\+String}]{unique\+Auto\+Prof\+Sett }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAutoProfileWatcher_a2e2c4fa67534c7f681d0c5455ce5e607_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAutoProfileWatcher_a0aa9be2365817b1c1c1c80ce3ec4ee41}\label{classAutoProfileWatcher_a0aa9be2365817b1c1c1c80ce3ec4ee41}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!disconnectWindowTimer@{disconnectWindowTimer}}
+\index{disconnectWindowTimer@{disconnectWindowTimer}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{disconnectWindowTimer()}{disconnectWindowTimer()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Auto\+Profile\+Watcher\+::disconnect\+Window\+Timer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAutoProfileWatcher_a0aa9be2365817b1c1c1c80ce3ec4ee41_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAutoProfileWatcher_a9192562fc92f52545e3c0fe663026f95}\label{classAutoProfileWatcher_a9192562fc92f52545e3c0fe663026f95}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!findAppLocation@{findAppLocation}}
+\index{findAppLocation@{findAppLocation}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{findAppLocation()}{findAppLocation()}}
+{\footnotesize\ttfamily Q\+String Auto\+Profile\+Watcher\+::find\+App\+Location (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAutoProfileWatcher_a9192562fc92f52545e3c0fe663026f95_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAutoProfileWatcher_a9192562fc92f52545e3c0fe663026f95_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAutoProfileWatcher_aeef04441dc24fcc1fbe3ac6f9188d85f}\label{classAutoProfileWatcher_aeef04441dc24fcc1fbe3ac6f9188d85f}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!foundApplicableProfile@{foundApplicableProfile}}
+\index{foundApplicableProfile@{foundApplicableProfile}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{foundApplicableProfile}{foundApplicableProfile}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Auto\+Profile\+Watcher\+::found\+Applicable\+Profile (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classAutoProfileInfo}{Auto\+Profile\+Info}} $\ast$}]{info }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAutoProfileWatcher_aeef04441dc24fcc1fbe3ac6f9188d85f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAutoProfileWatcher_a71d680e2e91636eb48082b830d4fa2af}\label{classAutoProfileWatcher_a71d680e2e91636eb48082b830d4fa2af}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!getAppProfileAssignments@{getAppProfileAssignments}}
+\index{getAppProfileAssignments@{getAppProfileAssignments}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{getAppProfileAssignments()}{getAppProfileAssignments()}}
+{\footnotesize\ttfamily const Q\+Hash$<$ Q\+String, Q\+List$<$ \mbox{\hyperlink{classAutoProfileInfo}{Auto\+Profile\+Info}} $\ast$ $>$ $>$ \& Auto\+Profile\+Watcher\+::get\+App\+Profile\+Assignments (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAutoProfileWatcher_a71d680e2e91636eb48082b830d4fa2af_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAutoProfileWatcher_ab209bd17ff3dbf899706ad1feca3b592}\label{classAutoProfileWatcher_ab209bd17ff3dbf899706ad1feca3b592}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!getAutoProfileWatcherInstance@{getAutoProfileWatcherInstance}}
+\index{getAutoProfileWatcherInstance@{getAutoProfileWatcherInstance}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{getAutoProfileWatcherInstance()}{getAutoProfileWatcherInstance()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classAutoProfileWatcher}{Auto\+Profile\+Watcher}} $\ast$ Auto\+Profile\+Watcher\+::get\+Auto\+Profile\+Watcher\+Instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAutoProfileWatcher_ab209bd17ff3dbf899706ad1feca3b592_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAutoProfileWatcher_a5dda8ebb8a813ad72ad353e95c42c6f4}\label{classAutoProfileWatcher_a5dda8ebb8a813ad72ad353e95c42c6f4}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!getCustomDefaults@{getCustomDefaults}}
+\index{getCustomDefaults@{getCustomDefaults}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{getCustomDefaults()}{getCustomDefaults()}}
+{\footnotesize\ttfamily Q\+List$<$ \mbox{\hyperlink{classAutoProfileInfo}{Auto\+Profile\+Info}} $\ast$ $>$ $\ast$ Auto\+Profile\+Watcher\+::get\+Custom\+Defaults (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAutoProfileWatcher_a5dda8ebb8a813ad72ad353e95c42c6f4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAutoProfileWatcher_a5dda8ebb8a813ad72ad353e95c42c6f4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAutoProfileWatcher_a5b371bd75a94e50230f18d458c93668b}\label{classAutoProfileWatcher_a5b371bd75a94e50230f18d458c93668b}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!getDefaultAllProfile@{getDefaultAllProfile}}
+\index{getDefaultAllProfile@{getDefaultAllProfile}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{getDefaultAllProfile()}{getDefaultAllProfile()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classAutoProfileInfo}{Auto\+Profile\+Info}} $\ast$ Auto\+Profile\+Watcher\+::get\+Default\+All\+Profile (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classAutoProfileWatcher_a6f859d7413059615f203f5962dec15ea}\label{classAutoProfileWatcher_a6f859d7413059615f203f5962dec15ea}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!getDefaultProfileAssignments@{getDefaultProfileAssignments}}
+\index{getDefaultProfileAssignments@{getDefaultProfileAssignments}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{getDefaultProfileAssignments()}{getDefaultProfileAssignments()}}
+{\footnotesize\ttfamily const Q\+Hash$<$ Q\+String, \mbox{\hyperlink{classAutoProfileInfo}{Auto\+Profile\+Info}} $\ast$ $>$ \& Auto\+Profile\+Watcher\+::get\+Default\+Profile\+Assignments (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAutoProfileWatcher_a6f859d7413059615f203f5962dec15ea_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAutoProfileWatcher_ac8d3fde4dea7576bd0ea05913304c826}\label{classAutoProfileWatcher_ac8d3fde4dea7576bd0ea05913304c826}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!getUniqeIDSetLocal@{getUniqeIDSetLocal}}
+\index{getUniqeIDSetLocal@{getUniqeIDSetLocal}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{getUniqeIDSetLocal()}{getUniqeIDSetLocal()}}
+{\footnotesize\ttfamily Q\+Set$<$ Q\+String $>$ \& Auto\+Profile\+Watcher\+::get\+Uniqe\+I\+D\+Set\+Local (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAutoProfileWatcher_ac8d3fde4dea7576bd0ea05913304c826_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAutoProfileWatcher_a711ecd2e6eae6d0270271a9598305dd4}\label{classAutoProfileWatcher_a711ecd2e6eae6d0270271a9598305dd4}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!getWindowClassProfileAssignments@{getWindowClassProfileAssignments}}
+\index{getWindowClassProfileAssignments@{getWindowClassProfileAssignments}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{getWindowClassProfileAssignments()}{getWindowClassProfileAssignments()}}
+{\footnotesize\ttfamily const Q\+Hash$<$ Q\+String, Q\+List$<$ \mbox{\hyperlink{classAutoProfileInfo}{Auto\+Profile\+Info}} $\ast$ $>$ $>$ \& Auto\+Profile\+Watcher\+::get\+Window\+Class\+Profile\+Assignments (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAutoProfileWatcher_a711ecd2e6eae6d0270271a9598305dd4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAutoProfileWatcher_a3eae9d4ee45d3dabd198ea94d327a857}\label{classAutoProfileWatcher_a3eae9d4ee45d3dabd198ea94d327a857}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!getWindowNameProfileAssignments@{getWindowNameProfileAssignments}}
+\index{getWindowNameProfileAssignments@{getWindowNameProfileAssignments}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{getWindowNameProfileAssignments()}{getWindowNameProfileAssignments()}}
+{\footnotesize\ttfamily const Q\+Hash$<$ Q\+String, Q\+List$<$ \mbox{\hyperlink{classAutoProfileInfo}{Auto\+Profile\+Info}} $\ast$ $>$ $>$ \& Auto\+Profile\+Watcher\+::get\+Window\+Name\+Profile\+Assignments (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAutoProfileWatcher_a3eae9d4ee45d3dabd198ea94d327a857_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAutoProfileWatcher_af46fb7d4c52e7ee0ab0b53bc71189f60}\label{classAutoProfileWatcher_af46fb7d4c52e7ee0ab0b53bc71189f60}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!isUniqueIDLocked@{isUniqueIDLocked}}
+\index{isUniqueIDLocked@{isUniqueIDLocked}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{isUniqueIDLocked()}{isUniqueIDLocked()}}
+{\footnotesize\ttfamily bool Auto\+Profile\+Watcher\+::is\+Unique\+I\+D\+Locked (\begin{DoxyParamCaption}\item[{Q\+String}]{unique\+ID }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{classAutoProfileWatcher_af46fb7d4c52e7ee0ab0b53bc71189f60_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAutoProfileWatcher_af46fb7d4c52e7ee0ab0b53bc71189f60_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAutoProfileWatcher_ae6ec8b944a048017f3e9958525ccfb62}\label{classAutoProfileWatcher_ae6ec8b944a048017f3e9958525ccfb62}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!runAppCheck@{runAppCheck}}
+\index{runAppCheck@{runAppCheck}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{runAppCheck}{runAppCheck}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Auto\+Profile\+Watcher\+::run\+App\+Check (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAutoProfileWatcher_ae6ec8b944a048017f3e9958525ccfb62_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{classAutoProfileWatcher_ae6ec8b944a048017f3e9958525ccfb62_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAutoProfileWatcher_a3e42030d3b71933be269e7eda00d253b}\label{classAutoProfileWatcher_a3e42030d3b71933be269e7eda00d253b}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!startTimer@{startTimer}}
+\index{startTimer@{startTimer}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{startTimer()}{startTimer()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Auto\+Profile\+Watcher\+::start\+Timer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAutoProfileWatcher_a3e42030d3b71933be269e7eda00d253b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAutoProfileWatcher_ab08f83cac9bd6aaa66e250f25fe7a794}\label{classAutoProfileWatcher_ab08f83cac9bd6aaa66e250f25fe7a794}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!stopTimer@{stopTimer}}
+\index{stopTimer@{stopTimer}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{stopTimer()}{stopTimer()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Auto\+Profile\+Watcher\+::stop\+Timer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAutoProfileWatcher_ab08f83cac9bd6aaa66e250f25fe7a794_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAutoProfileWatcher_a561af8319ef8031986ac0eaee221c6a3}\label{classAutoProfileWatcher_a561af8319ef8031986ac0eaee221c6a3}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!syncProfileAssignment@{syncProfileAssignment}}
+\index{syncProfileAssignment@{syncProfileAssignment}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{syncProfileAssignment}{syncProfileAssignment}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Auto\+Profile\+Watcher\+::sync\+Profile\+Assignment (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAutoProfileWatcher_a561af8319ef8031986ac0eaee221c6a3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAutoProfileWatcher_a561af8319ef8031986ac0eaee221c6a3_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classAutoProfileWatcher_a3d15fad5800b28664e8909315d237c64}\label{classAutoProfileWatcher_a3d15fad5800b28664e8909315d237c64}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!\_instance@{\_instance}}
+\index{\_instance@{\_instance}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{\_instance}{\_instance}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classAutoProfileWatcher}{Auto\+Profile\+Watcher}} $\ast$ Auto\+Profile\+Watcher\+::\+\_\+instance = nullptr\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classAutoProfileWatcher_a6778ce3689eb5c326af9a5c6c910d9ac}\label{classAutoProfileWatcher_a6778ce3689eb5c326af9a5c6c910d9ac}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!allDefaultInfo@{allDefaultInfo}}
+\index{allDefaultInfo@{allDefaultInfo}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{allDefaultInfo}{allDefaultInfo}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classAutoProfileInfo}{Auto\+Profile\+Info}}$\ast$ Auto\+Profile\+Watcher\+::all\+Default\+Info\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classAutoProfileWatcher_a4aa9f4a30df647c4480667ec594cdff0}\label{classAutoProfileWatcher_a4aa9f4a30df647c4480667ec594cdff0}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!appProfileAssignments@{appProfileAssignments}}
+\index{appProfileAssignments@{appProfileAssignments}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{appProfileAssignments}{appProfileAssignments}}
+{\footnotesize\ttfamily Q\+Hash$<$Q\+String, Q\+List$<$\mbox{\hyperlink{classAutoProfileInfo}{Auto\+Profile\+Info}} $\ast$$>$ $>$ Auto\+Profile\+Watcher\+::app\+Profile\+Assignments\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classAutoProfileWatcher_afee31f4777a5943503bac8fe6037fb43}\label{classAutoProfileWatcher_afee31f4777a5943503bac8fe6037fb43}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!CHECKTIME@{CHECKTIME}}
+\index{CHECKTIME@{CHECKTIME}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{CHECKTIME}{CHECKTIME}}
+{\footnotesize\ttfamily const int Auto\+Profile\+Watcher\+::\+C\+H\+E\+C\+K\+T\+I\+ME = 500\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classAutoProfileWatcher_afcff0e82f42ad3eff0ad0f6f5cbff206}\label{classAutoProfileWatcher_afcff0e82f42ad3eff0ad0f6f5cbff206}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!checkWindowTimer@{checkWindowTimer}}
+\index{checkWindowTimer@{checkWindowTimer}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{checkWindowTimer}{checkWindowTimer}}
+{\footnotesize\ttfamily Q\+Timer Auto\+Profile\+Watcher\+::check\+Window\+Timer\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classAutoProfileWatcher_a9a497b3b9f0e6516f95b545d1a68e85c}\label{classAutoProfileWatcher_a9a497b3b9f0e6516f95b545d1a68e85c}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!currentApplication@{currentApplication}}
+\index{currentApplication@{currentApplication}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{currentApplication}{currentApplication}}
+{\footnotesize\ttfamily Q\+String Auto\+Profile\+Watcher\+::current\+Application\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classAutoProfileWatcher_a2563213233b073502b7a9b69425dba9b}\label{classAutoProfileWatcher_a2563213233b073502b7a9b69425dba9b}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!currentAppWindowTitle@{currentAppWindowTitle}}
+\index{currentAppWindowTitle@{currentAppWindowTitle}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{currentAppWindowTitle}{currentAppWindowTitle}}
+{\footnotesize\ttfamily Q\+String Auto\+Profile\+Watcher\+::current\+App\+Window\+Title\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classAutoProfileWatcher_aaf9fb38cb437481653264163164e1914}\label{classAutoProfileWatcher_aaf9fb38cb437481653264163164e1914}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!defaultProfileAssignments@{defaultProfileAssignments}}
+\index{defaultProfileAssignments@{defaultProfileAssignments}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{defaultProfileAssignments}{defaultProfileAssignments}}
+{\footnotesize\ttfamily Q\+Hash$<$Q\+String, \mbox{\hyperlink{classAutoProfileInfo}{Auto\+Profile\+Info}} $\ast$$>$ Auto\+Profile\+Watcher\+::default\+Profile\+Assignments\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classAutoProfileWatcher_ac09809d18d15178d1c81ec71349a59b5}\label{classAutoProfileWatcher_ac09809d18d15178d1c81ec71349a59b5}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!settings@{settings}}
+\index{settings@{settings}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{settings}{settings}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classAntiMicroSettings}{Anti\+Micro\+Settings}}$\ast$ Auto\+Profile\+Watcher\+::settings\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classAutoProfileWatcher_a7d3772b7f949aae5f79c5898d8ca578a}\label{classAutoProfileWatcher_a7d3772b7f949aae5f79c5898d8ca578a}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!uniqueIDSet@{uniqueIDSet}}
+\index{uniqueIDSet@{uniqueIDSet}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{uniqueIDSet}{uniqueIDSet}}
+{\footnotesize\ttfamily Q\+Set$<$Q\+String$>$ Auto\+Profile\+Watcher\+::unique\+I\+D\+Set\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classAutoProfileWatcher_af181f2353b58919d28ba190abb899341}\label{classAutoProfileWatcher_af181f2353b58919d28ba190abb899341}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!windowClassProfileAssignments@{windowClassProfileAssignments}}
+\index{windowClassProfileAssignments@{windowClassProfileAssignments}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{windowClassProfileAssignments}{windowClassProfileAssignments}}
+{\footnotesize\ttfamily Q\+Hash$<$Q\+String, Q\+List$<$\mbox{\hyperlink{classAutoProfileInfo}{Auto\+Profile\+Info}} $\ast$$>$ $>$ Auto\+Profile\+Watcher\+::window\+Class\+Profile\+Assignments\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classAutoProfileWatcher_a94f0c9fe0d499a167fadf8eb3e740dee}\label{classAutoProfileWatcher_a94f0c9fe0d499a167fadf8eb3e740dee}} 
+\index{AutoProfileWatcher@{AutoProfileWatcher}!windowNameProfileAssignments@{windowNameProfileAssignments}}
+\index{windowNameProfileAssignments@{windowNameProfileAssignments}!AutoProfileWatcher@{AutoProfileWatcher}}
+\doxysubsubsection{\texorpdfstring{windowNameProfileAssignments}{windowNameProfileAssignments}}
+{\footnotesize\ttfamily Q\+Hash$<$Q\+String, Q\+List$<$\mbox{\hyperlink{classAutoProfileInfo}{Auto\+Profile\+Info}} $\ast$$>$ $>$ Auto\+Profile\+Watcher\+::window\+Name\+Profile\+Assignments\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{autoprofilewatcher_8h}{autoprofilewatcher.\+h}}\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{autoprofilewatcher_8cpp}{autoprofilewatcher.\+cpp}}\end{DoxyCompactItemize}

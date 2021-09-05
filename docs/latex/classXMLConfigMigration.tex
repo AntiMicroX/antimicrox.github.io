@@ -1,0 +1,162 @@
+\hypertarget{classXMLConfigMigration}{}\doxysection{X\+M\+L\+Config\+Migration Class Reference}
+\label{classXMLConfigMigration}\index{XMLConfigMigration@{XMLConfigMigration}}
+
+
+{\ttfamily \#include $<$xmlconfigmigration.\+h$>$}
+
+
+
+Inheritance diagram for X\+M\+L\+Config\+Migration\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=185pt]{classXMLConfigMigration__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for X\+M\+L\+Config\+Migration\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=185pt]{classXMLConfigMigration__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classXMLConfigMigration_a60c37a168932812a7ce4f2f4a109845d}{X\+M\+L\+Config\+Migration}} (Q\+Xml\+Stream\+Reader $\ast$\mbox{\hyperlink{classXMLConfigMigration_ab8796454c3dc9609c68f5ba5e9816c1b}{reader}}, Q\+Object $\ast$parent=nullptr)
+\item 
+bool \mbox{\hyperlink{classXMLConfigMigration_afd3b0b54eb5bfed80e9b92dfd1ace18c}{requires\+Migration}} ()
+\item 
+Q\+String \mbox{\hyperlink{classXMLConfigMigration_a8af9befbbce30c416f18704190dc4e35}{migrate}} ()
+\item 
+const Q\+Xml\+Stream\+Reader $\ast$ \mbox{\hyperlink{classXMLConfigMigration_a5ad55d5f527b3820a148bf2f45c3c9d6}{get\+Reader}} ()
+\item 
+int \mbox{\hyperlink{classXMLConfigMigration_a12b1c98a21e06e8188c0a9ac05146c0b}{get\+File\+Version}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Q\+String \mbox{\hyperlink{classXMLConfigMigration_a4f6957aed78af4d221496b9de500fcc9}{read\+Config\+To\+String}} ()
+\item 
+Q\+String \mbox{\hyperlink{classXMLConfigMigration_a422d184461a5aeddae8214bbd9ac99f9}{version0006\+Migration}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Xml\+Stream\+Reader $\ast$ \mbox{\hyperlink{classXMLConfigMigration_ab8796454c3dc9609c68f5ba5e9816c1b}{reader}}
+\item 
+int \mbox{\hyperlink{classXMLConfigMigration_a9b346c8a50d48dcb3570418e9e5920f0}{file\+Version}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classXMLConfigMigration_a60c37a168932812a7ce4f2f4a109845d}\label{classXMLConfigMigration_a60c37a168932812a7ce4f2f4a109845d}} 
+\index{XMLConfigMigration@{XMLConfigMigration}!XMLConfigMigration@{XMLConfigMigration}}
+\index{XMLConfigMigration@{XMLConfigMigration}!XMLConfigMigration@{XMLConfigMigration}}
+\doxysubsubsection{\texorpdfstring{XMLConfigMigration()}{XMLConfigMigration()}}
+{\footnotesize\ttfamily X\+M\+L\+Config\+Migration\+::\+X\+M\+L\+Config\+Migration (\begin{DoxyParamCaption}\item[{Q\+Xml\+Stream\+Reader $\ast$}]{reader,  }\item[{Q\+Object $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classXMLConfigMigration_a12b1c98a21e06e8188c0a9ac05146c0b}\label{classXMLConfigMigration_a12b1c98a21e06e8188c0a9ac05146c0b}} 
+\index{XMLConfigMigration@{XMLConfigMigration}!getFileVersion@{getFileVersion}}
+\index{getFileVersion@{getFileVersion}!XMLConfigMigration@{XMLConfigMigration}}
+\doxysubsubsection{\texorpdfstring{getFileVersion()}{getFileVersion()}}
+{\footnotesize\ttfamily int X\+M\+L\+Config\+Migration\+::get\+File\+Version (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classXMLConfigMigration_a5ad55d5f527b3820a148bf2f45c3c9d6}\label{classXMLConfigMigration_a5ad55d5f527b3820a148bf2f45c3c9d6}} 
+\index{XMLConfigMigration@{XMLConfigMigration}!getReader@{getReader}}
+\index{getReader@{getReader}!XMLConfigMigration@{XMLConfigMigration}}
+\doxysubsubsection{\texorpdfstring{getReader()}{getReader()}}
+{\footnotesize\ttfamily const Q\+Xml\+Stream\+Reader $\ast$ X\+M\+L\+Config\+Migration\+::get\+Reader (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classXMLConfigMigration_a8af9befbbce30c416f18704190dc4e35}\label{classXMLConfigMigration_a8af9befbbce30c416f18704190dc4e35}} 
+\index{XMLConfigMigration@{XMLConfigMigration}!migrate@{migrate}}
+\index{migrate@{migrate}!XMLConfigMigration@{XMLConfigMigration}}
+\doxysubsubsection{\texorpdfstring{migrate()}{migrate()}}
+{\footnotesize\ttfamily Q\+String X\+M\+L\+Config\+Migration\+::migrate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classXMLConfigMigration_a8af9befbbce30c416f18704190dc4e35_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classXMLConfigMigration_a8af9befbbce30c416f18704190dc4e35_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classXMLConfigMigration_a4f6957aed78af4d221496b9de500fcc9}\label{classXMLConfigMigration_a4f6957aed78af4d221496b9de500fcc9}} 
+\index{XMLConfigMigration@{XMLConfigMigration}!readConfigToString@{readConfigToString}}
+\index{readConfigToString@{readConfigToString}!XMLConfigMigration@{XMLConfigMigration}}
+\doxysubsubsection{\texorpdfstring{readConfigToString()}{readConfigToString()}}
+{\footnotesize\ttfamily Q\+String X\+M\+L\+Config\+Migration\+::read\+Config\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classXMLConfigMigration_a4f6957aed78af4d221496b9de500fcc9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classXMLConfigMigration_afd3b0b54eb5bfed80e9b92dfd1ace18c}\label{classXMLConfigMigration_afd3b0b54eb5bfed80e9b92dfd1ace18c}} 
+\index{XMLConfigMigration@{XMLConfigMigration}!requiresMigration@{requiresMigration}}
+\index{requiresMigration@{requiresMigration}!XMLConfigMigration@{XMLConfigMigration}}
+\doxysubsubsection{\texorpdfstring{requiresMigration()}{requiresMigration()}}
+{\footnotesize\ttfamily bool X\+M\+L\+Config\+Migration\+::requires\+Migration (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classXMLConfigMigration_afd3b0b54eb5bfed80e9b92dfd1ace18c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classXMLConfigMigration_a422d184461a5aeddae8214bbd9ac99f9}\label{classXMLConfigMigration_a422d184461a5aeddae8214bbd9ac99f9}} 
+\index{XMLConfigMigration@{XMLConfigMigration}!version0006Migration@{version0006Migration}}
+\index{version0006Migration@{version0006Migration}!XMLConfigMigration@{XMLConfigMigration}}
+\doxysubsubsection{\texorpdfstring{version0006Migration()}{version0006Migration()}}
+{\footnotesize\ttfamily Q\+String X\+M\+L\+Config\+Migration\+::version0006\+Migration (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classXMLConfigMigration_a422d184461a5aeddae8214bbd9ac99f9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classXMLConfigMigration_a422d184461a5aeddae8214bbd9ac99f9_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classXMLConfigMigration_a9b346c8a50d48dcb3570418e9e5920f0}\label{classXMLConfigMigration_a9b346c8a50d48dcb3570418e9e5920f0}} 
+\index{XMLConfigMigration@{XMLConfigMigration}!fileVersion@{fileVersion}}
+\index{fileVersion@{fileVersion}!XMLConfigMigration@{XMLConfigMigration}}
+\doxysubsubsection{\texorpdfstring{fileVersion}{fileVersion}}
+{\footnotesize\ttfamily int X\+M\+L\+Config\+Migration\+::file\+Version\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classXMLConfigMigration_ab8796454c3dc9609c68f5ba5e9816c1b}\label{classXMLConfigMigration_ab8796454c3dc9609c68f5ba5e9816c1b}} 
+\index{XMLConfigMigration@{XMLConfigMigration}!reader@{reader}}
+\index{reader@{reader}!XMLConfigMigration@{XMLConfigMigration}}
+\doxysubsubsection{\texorpdfstring{reader}{reader}}
+{\footnotesize\ttfamily Q\+Xml\+Stream\+Reader$\ast$ X\+M\+L\+Config\+Migration\+::reader\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{xmlconfigmigration_8h}{xmlconfigmigration.\+h}}\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{xmlconfigmigration_8cpp}{xmlconfigmigration.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,13 @@
+<map id="JoyAxis::removeControlStick" name="JoyAxis::removeControlStick">
+<area shape="rect" id="node1" title=" " alt="" coords="1033,181,1224,207"/>
+<area shape="rect" id="node2" href="$classJoyControlStick.html#a856e968760351507439829045910de04" title=" " alt="" coords="551,46,744,73"/>
+<area shape="rect" id="node6" href="$classJoyControlStick.html#a65e49d5482a540c730c39416e02c19ae" title=" " alt="" coords="565,97,729,139"/>
+<area shape="rect" id="node7" href="$classJoyControlStick.html#aed8209fad6e2b9ce62cf06c36b2d63d0" title=" " alt="" coords="565,228,729,269"/>
+<area shape="rect" id="node8" href="$classJoyAxis.html#ac51525cabe4d0ea5aafebe949cde458f" title=" " alt="" coords="805,155,972,182"/>
+<area shape="rect" id="node10" href="$classJoyAxisButton.html#a8c8633a722e2c0a226924608259221d6" title=" " alt="" coords="801,257,976,283"/>
+<area shape="rect" id="node11" href="$classJoyControlStick.html#a53368f4d9bfcd6d08d8892f01742d176" title=" " alt="" coords="792,308,985,349"/>
+<area shape="rect" id="node3" href="$classAdvanceStickAssignmentDialog.html#a3d447d0544efde715f4774ff0789b9b1" title=" " alt="" coords="287,39,503,80"/>
+<area shape="rect" id="node4" href="$classAdvanceStickAssignmentDialog.html#a0558948fa11d0753485a53d6729e1e53" title=" " alt="" coords="5,5,239,47"/>
+<area shape="rect" id="node5" href="$classAdvanceStickAssignmentDialog.html#a60498e3f0a4ade4f6644478cb78d3cbc" title=" " alt="" coords="6,71,238,112"/>
+<area shape="rect" id="node9" href="$classJoyControlStick.html#add8f98ad0df0e0dfbd6380abc4422385" title=" " alt="" coords="555,163,740,204"/>
+</map>

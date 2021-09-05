@@ -1,0 +1,6 @@
+<map id="JoyControlStick::calculateEightWayDiagonalDistanceFromDeadZone" name="JoyControlStick::calculateEightWayDiagonalDistanceFromDeadZone">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,276,80"/>
+<area shape="rect" id="node2" href="$classJoyControlStick.html#a033cec8c362b923e61ec638645e7a80c" title="Calculate the bearing (in degrees) corresponding to the current position of the X and Y axes of a sti..." alt="" coords="333,5,507,47"/>
+<area shape="rect" id="node4" href="$classJoyControlStick.html#af9c934203a22e91c53d45a2a8f356248" title="Get current radial distance of the stick position past the assigned dead zone." alt="" coords="324,71,516,112"/>
+<area shape="rect" id="node3" href="$classJoyAxis.html#a0580ab0df546a1c03b4e8f755ad00272" title=" " alt="" coords="564,46,760,73"/>
+</map>

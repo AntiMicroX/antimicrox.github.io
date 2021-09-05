@@ -1,0 +1,11 @@
+<map id="InputDevice::setStickButtonName" name="InputDevice::setStickButtonName">
+<area shape="rect" id="node1" title=" " alt="" coords="5,129,227,155"/>
+<area shape="rect" id="node2" href="$classJoyControlStick.html#ae57242ae6e71190d82ef4dbf31f11dd0" title="Get a pointer to the stick direction button for the desired direction." alt="" coords="512,5,704,47"/>
+<area shape="rect" id="node3" href="$classSetJoystick.html#a7b74d7b4a0adfc9c25cdbe4433d9b275" title=" " alt="" coords="525,71,691,98"/>
+<area shape="rect" id="node5" href="$classInputDevice.html#a1c4c65d9e509a5c3bde064871d7e1849" title=" " alt="" coords="752,210,951,237"/>
+<area shape="rect" id="node6" href="$classJoyButton.html#a5577eb227e3fd535fdcbbf395648e215" title=" " alt="" coords="279,290,459,317"/>
+<area shape="rect" id="node7" href="$classInputDevice.html#acc8b931a7b219403ecd8eae444d8534f" title=" " alt="" coords="275,121,464,163"/>
+<area shape="rect" id="node4" href="$classSetJoystick.html#a7ca499fe41a0a9841b4fe904b07cbc30" title=" " alt="" coords="775,71,927,98"/>
+<area shape="rect" id="node8" href="$classInputDevice.html#abc23a70bef37f2fc70248cd129af170b" title=" " alt="" coords="521,173,695,215"/>
+<area shape="rect" id="node9" href="$classJoyButton.html#a7123f5432bda7b5b9d4b2b95bdabf4db" title=" " alt="" coords="518,122,698,149"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="JoyControlStick::setStickDelay" name="JoyControlStick::setStickDelay">
+<area shape="rect" id="node1" title=" " alt="" coords="499,27,669,69"/>
+<area shape="rect" id="node2" href="$classJoyControlStick.html#ab6ce741115ee3d436c1a7e866abd21e6" title="Take a XML stream and set the stick and direction button properties according to the values contained..." alt="" coords="251,5,437,32"/>
+<area shape="rect" id="node4" href="$classJoyControlStickEditDialogHelper.html#aa89c6dafde2e62360d537b05f3cc19c0" title=" " alt="" coords="237,57,451,98"/>
+<area shape="rect" id="node3" href="$classSetJoystickXml.html#aa95423a01fab878cbc69bffb7f6121f3" title=" " alt="" coords="5,5,189,32"/>
+<area shape="rect" id="node5" href="$classJoyControlStickEditDialog.html#a2baa35c50ff7528a03ec6f2ba1ed657d" title=" " alt="" coords="6,57,189,98"/>
+</map>

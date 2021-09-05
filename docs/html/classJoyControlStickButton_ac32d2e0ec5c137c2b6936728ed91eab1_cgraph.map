@@ -1,0 +1,4 @@
+<map id="JoyControlStickButton::setTurboMode" name="JoyControlStickButton::setTurboMode">
+<area shape="rect" id="node1" title="Set the turbo mode that the button should use." alt="" coords="5,5,159,47"/>
+<area shape="rect" id="node2" href="$classJoyControlStickButton.html#af0379c4c2d1a1b518681be52f78cdd18" title="Check if button should be considered a part of a real controller axis. Needed for some dialogs so the..." alt="" coords="207,5,360,47"/>
+</map>

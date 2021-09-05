@@ -1,0 +1,7 @@
+<map id="QuickSetDialog::restoreHatsStates" name="QuickSetDialog::restoreHatsStates">
+<area shape="rect" id="node1" title=" " alt="" coords="5,78,195,119"/>
+<area shape="rect" id="node2" href="$classJoyDPad.html#a2f5d634341589f42960a9ecc41454112" title=" " alt="" coords="257,5,404,32"/>
+<area shape="rect" id="node3" href="$classSetJoystick.html#a2a6870a2ac3f5cc490344baf7ed2edd5" title=" " alt="" coords="259,56,402,83"/>
+<area shape="rect" id="node4" href="$classJoyButton.html#abbccee98e377453167a47b49874eeab7" title=" " alt="" coords="243,107,419,149"/>
+<area shape="rect" id="node5" href="$classJoyButton.html#aa8eaea52cff793034b943af1eb292b6c" title=" " alt="" coords="243,173,419,214"/>
+</map>

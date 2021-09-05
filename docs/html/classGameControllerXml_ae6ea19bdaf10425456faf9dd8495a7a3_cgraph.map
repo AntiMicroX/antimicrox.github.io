@@ -1,0 +1,16 @@
+<map id="GameControllerXml::readXmlNamesLong" name="GameControllerXml::readXmlNamesLong">
+<area shape="rect" id="node1" title=" " alt="" coords="5,290,149,331"/>
+<area shape="rect" id="node2" href="$classInputDevice.html#a38ee53ddc49dccd9d7b5b91a22fb1610" title=" " alt="" coords="197,184,415,210"/>
+<area shape="rect" id="node11" href="$classInputDevice.html#a3f84bf17a7c2b744b68c8791080c96d3" title=" " alt="" coords="217,381,395,408"/>
+<area shape="rect" id="node3" href="$classSetJoystick.html#a7c8f524fe045b89901ba945c5e1045cf" title=" " alt="" coords="705,272,867,298"/>
+<area shape="rect" id="node4" href="$classInputDevice.html#a1c4c65d9e509a5c3bde064871d7e1849" title=" " alt="" coords="924,330,1123,357"/>
+<area shape="rect" id="node5" href="$classJoyAxis.html#aae658e2a7b83ce73ce3d7d1ed13eabc6" title=" " alt="" coords="702,68,870,94"/>
+<area shape="rect" id="node6" href="$classJoyAxis.html#ad51d55d2a95190468209f7481eae8639" title=" " alt="" coords="703,148,869,174"/>
+<area shape="rect" id="node7" href="$classJoyButton.html#a5577eb227e3fd535fdcbbf395648e215" title=" " alt="" coords="465,154,645,181"/>
+<area shape="rect" id="node8" href="$classInputDevice.html#adaf073e157dca5d1e3325d916d6c4823" title=" " alt="" coords="463,206,648,247"/>
+<area shape="rect" id="node9" href="$classInputDevice.html#abc23a70bef37f2fc70248cd129af170b" title=" " alt="" coords="699,323,873,364"/>
+<area shape="rect" id="node10" href="$classJoyButton.html#a7123f5432bda7b5b9d4b2b95bdabf4db" title=" " alt="" coords="696,213,876,240"/>
+<area shape="rect" id="node12" href="$classJoyAxis.html#a8c5bca0c70e1cb6dffc4bfdbbfc5b8ee" title=" " alt="" coords="477,490,633,517"/>
+<area shape="rect" id="node13" href="$classInputDevice.html#a8714a2f5c2fa1f620e9df58c2025cd56" title=" " alt="" coords="463,374,648,415"/>
+<area shape="rect" id="node14" href="$classJoyAxis.html#a675c04d973a962ce30491b390d17ee20" title=" " alt="" coords="708,389,864,416"/>
+</map>

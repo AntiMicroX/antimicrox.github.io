@@ -1,0 +1,52 @@
+<map id="InputDevice::hasCalibrationThrottle" name="InputDevice::hasCalibrationThrottle">
+<area shape="rect" id="node1" title=" " alt="" coords="1532,829,1715,871"/>
+<area shape="rect" id="node2" href="$classJoyAxis.html#a9c5f69db8b88f31a1df043a00ab9d09a" title=" " alt="" coords="1325,559,1452,586"/>
+<area shape="rect" id="node37" href="$classJoyAxisXml.html#a722916013ad49036b2ad38ab8ec30484" title=" " alt="" coords="1293,953,1484,979"/>
+<area shape="rect" id="node42" href="$classSetJoystick.html#af8d7d16a13702ae29b6590db35801d14" title=" " alt="" coords="1305,837,1472,863"/>
+<area shape="rect" id="node3" href="$classJoyAxis.html#a6db16ad8451e2f2b09215385d5371151" title=" " alt="" coords="1074,552,1242,593"/>
+<area shape="rect" id="node27" href="$classSetJoystick.html#aa93108aaa5ccbf15f1b56b22ec73798b" title="Perform a release of all elements of a set. Stick and vdpad releases will be handled by the associate..." alt="" coords="1089,275,1227,302"/>
+<area shape="rect" id="node4" href="$classInputDevice.html#ae8668b4649e0439c1dd30abd72c3283e" title=" " alt="" coords="817,552,1012,593"/>
+<area shape="rect" id="node5" href="$classInputDevice.html#a65bcbfa6997970fff86e72e3a13167e0" title=" " alt="" coords="553,487,748,528"/>
+<area shape="rect" id="node6" href="$classInputDevice.html#ac34e93b3e44b08cffb86551e15bedfb4" title=" " alt="" coords="563,677,738,703"/>
+<area shape="rect" id="node12" href="$classInputDaemon.html#a0cf6bcd3287d97d75c32a3921c633a7a" title=" " alt="" coords="547,381,755,407"/>
+<area shape="rect" id="node15" href="$classInputDevice.html#aebcc4b8149c2bab8a0652323206d32bb" title=" " alt="" coords="563,552,738,593"/>
+<area shape="rect" id="node7" href="$classInputDeviceXml.html#a847bf9ed17b554bf87d513a1aebdcb64" title=" " alt="" coords="286,727,473,754"/>
+<area shape="rect" id="node8" href="$classGameControllerXml.html#a7e47256cae0d3815419bc254413777d1" title=" " alt="" coords="39,828,183,869"/>
+<area shape="rect" id="node9" href="$classGameControllerXml.html#aaa5257d4c6fe13f1d5fc51981e247c25" title=" " alt="" coords="307,829,451,871"/>
+<area shape="rect" id="node10" href="$classJoyTabWidgetHelper.html#aef94ae0812f28f43eb891ddc210c341e" title=" " alt="" coords="308,611,451,652"/>
+<area shape="rect" id="node11" href="$classJoyTabWidgetHelper.html#acc5d7d51e925f84f9aa2936ce267f843" title=" " alt="" coords="28,763,193,804"/>
+<area shape="rect" id="node13" href="$classInputDaemon.html#ad7f954b25b67cb5a84fdb1a154282bfd" title=" " alt="" coords="317,341,442,367"/>
+<area shape="rect" id="node14" href="$classInputDaemon.html#ab7c3d331123e946ed8da490dfee5c265" title=" " alt="" coords="19,306,203,333"/>
+<area shape="rect" id="node16" href="$classJoyTabWidget.html#a06a18e39e415313b9ee09c41887890ac" title=" " alt="" coords="270,559,489,586"/>
+<area shape="rect" id="node25" href="$classInputDevice.html#a6ffcebba103a7db02e82c1c7f62387bf" title=" " alt="" coords="264,442,495,469"/>
+<area shape="rect" id="node26" href="$classJoyTabWidgetHelper.html#ae69229b650b5a129cd2ae25d77975d0d" title=" " alt="" coords="308,493,451,535"/>
+<area shape="rect" id="node17" href="$classJoyTabWidget.html#aa56f32a82790b2c20d3d0fac91dc7ba1" title=" " alt="" coords="8,711,213,738"/>
+<area shape="rect" id="node18" href="$classJoyTabWidget.html#a0fa7b289e189af4815aee4038d1a82cf" title=" " alt="" coords="11,357,210,383"/>
+<area shape="rect" id="node19" href="$classJoyTabWidget.html#aecac8e959e54cf6c58745e1e4c3cd904" title=" " alt="" coords="10,407,211,434"/>
+<area shape="rect" id="node20" href="$classJoyTabWidget.html#af06455c2dba9c9e2817a23866dfc8405" title=" " alt="" coords="11,458,210,485"/>
+<area shape="rect" id="node21" href="$classJoyTabWidget.html#a6347e978f16ce9bb88d7c6cfb18021a6" title=" " alt="" coords="5,509,216,535"/>
+<area shape="rect" id="node22" href="$classJoyTabWidget.html#a89be025926664e7e539c6bb62615189c" title=" " alt="" coords="13,559,208,586"/>
+<area shape="rect" id="node23" href="$classJoyTabWidget.html#a4a0399e1afe09559bf9b28f57eeace5e" title=" " alt="" coords="7,610,215,637"/>
+<area shape="rect" id="node24" href="$classJoyTabWidget.html#a8335fc1b4951f215e5ee2a155a0d5a38" title=" " alt="" coords="11,661,210,687"/>
+<area shape="rect" id="node28" href="$classAdvanceStickAssignmentDialog.html#a86cf0001cd774ce5ccec8543b7a9a50b" title=" " alt="" coords="543,233,759,275"/>
+<area shape="rect" id="node29" href="$classButtonEditDialog.html#a3e9feede100cbb6a11c9d87659c196ea" title=" " alt="" coords="831,71,998,112"/>
+<area shape="rect" id="node30" href="$classJoystickStatusWindow.html#a96d9e83b764e14faed4c4dc275d23c45" title=" " alt="" coords="569,68,732,109"/>
+<area shape="rect" id="node31" href="$classQuickSetDialog.html#a57726006cbe2d8534f4be91a05646dd2" title=" " alt="" coords="563,304,738,345"/>
+<area shape="rect" id="node32" href="$classAdvanceStickAssignmentDialog.html#a48ade79f1dfeb93ff668ac18d0e1243f" title=" " alt="" coords="811,239,1019,280"/>
+<area shape="rect" id="node33" href="$classJoystickStatusWindow.html#a1a1c28e1d6f480c7424ba81b30b8b4f5" title=" " alt="" coords="837,5,992,47"/>
+<area shape="rect" id="node34" href="$classGameControllerMappingDialogHelper.html#a4040e6cf676fe8af751125e2928d8a35" title=" " alt="" coords="807,356,1023,397"/>
+<area shape="rect" id="node35" href="$classQuickSetDialog.html#afacbf395389ca073edf366a412c1626b" title=" " alt="" coords="810,487,1019,528"/>
+<area shape="rect" id="node36" href="$classGameControllerMappingDialogHelper.html#a7852aab5763281aa59c17f2f1da8dd31" title=" " alt="" coords="815,421,1014,463"/>
+<area shape="rect" id="node38" href="$classJoyAxisXml.html#abfcf483748d22f52a9f76d2bf23e9a3d" title=" " alt="" coords="1077,1011,1239,1038"/>
+<area shape="rect" id="node40" href="$classGameControllerTriggerXml.html#a4578ad54daf8a24231e8b0e4e09f1587" title=" " alt="" coords="1071,945,1245,987"/>
+<area shape="rect" id="node39" href="$classSetJoystickXml.html#aa95423a01fab878cbc69bffb7f6121f3" title=" " alt="" coords="823,1011,1007,1038"/>
+<area shape="rect" id="node41" href="$classGameControllerSet.html#a6b551139e353a654212d498309744025" title=" " alt="" coords="580,960,721,1001"/>
+<area shape="rect" id="node43" href="$classSetJoystick.html#adc322b55002b149c9a7432d1008b8537" title=" " alt="" coords="1095,837,1221,863"/>
+<area shape="rect" id="node44" href="$classInputDevice.html#af7b290c37a1bcae1fbd0f0274d6cf646" title=" " alt="" coords="850,778,979,805"/>
+<area shape="rect" id="node47" href="$classGameControllerSet.html#a40b9c9ac22d6fe71c15380dcbca7eb80" title=" " alt="" coords="844,829,985,871"/>
+<area shape="rect" id="node50" href="$classSetJoystick.html#ab9d47383844cb2c08581352a6c02bdab" title=" " alt="" coords="832,895,997,922"/>
+<area shape="rect" id="node45" href="$classInputDaemon.html#a70fa1dbeac61db6cc29a96cdc57a4518" title=" " alt="" coords="553,778,748,805"/>
+<area shape="rect" id="node46" href="$classInputDevice.html#a767b4db5d307c9d851affed3c7e23a30" title="Obtain current joystick element values, create new SetJoystick objects, and then transfer most recent..." alt="" coords="561,727,740,754"/>
+<area shape="rect" id="node48" href="$classGameControllerSet.html#a9d686fa2df459f7d157d60e05707f712" title=" " alt="" coords="580,895,721,936"/>
+<area shape="rect" id="node49" href="$classGameControllerSet.html#a69d798af242a07017bc0f2e2d0d8a830" title=" " alt="" coords="580,829,721,871"/>
+</map>

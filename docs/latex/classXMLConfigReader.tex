@@ -1,0 +1,277 @@
+\hypertarget{classXMLConfigReader}{}\doxysection{X\+M\+L\+Config\+Reader Class Reference}
+\label{classXMLConfigReader}\index{XMLConfigReader@{XMLConfigReader}}
+
+
+{\ttfamily \#include $<$xmlconfigreader.\+h$>$}
+
+
+
+Inheritance diagram for X\+M\+L\+Config\+Reader\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=176pt]{classXMLConfigReader__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for X\+M\+L\+Config\+Reader\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{classXMLConfigReader__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classXMLConfigReader_a525fd14f51f6045160942d9a0a1425c5}{config\+Joystick}} (\mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$joystick)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classXMLConfigReader_a29d6dbeac0b38a609d002b145d354562}{X\+M\+L\+Config\+Reader}} (Q\+Object $\ast$parent=nullptr)
+\item 
+\mbox{\hyperlink{classXMLConfigReader_a1840d8856b03fa098c415ce0639fb73c}{$\sim$\+X\+M\+L\+Config\+Reader}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classXMLConfigReader_acdda88a50acf0686f00f48738dfa6d8e}{set\+Joystick}} (\mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$joystick)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classXMLConfigReader_ad13fa69f04cc81989b85ab5a92f2b81f}{set\+File\+Name}} (Q\+String filename)
+\item 
+const Q\+String \mbox{\hyperlink{classXMLConfigReader_a9b88b1491d81f3bfc97ee700eb22c16b}{get\+Error\+String}} ()
+\item 
+bool \mbox{\hyperlink{classXMLConfigReader_a5514aaa906bc016255a4dd1bca3650b0}{has\+Error}} ()
+\item 
+bool \mbox{\hyperlink{classXMLConfigReader_af80a2c189a5d07caec8f3543765d4023}{read}} ()
+\item 
+const Q\+Xml\+Stream\+Reader $\ast$ \mbox{\hyperlink{classXMLConfigReader_aeba8fa11d1d434da2fb2e6338efe7392}{get\+Xml}} ()
+\item 
+const Q\+String \& \mbox{\hyperlink{classXMLConfigReader_a76029f959c78c4d21cdf7a0561519cd0}{get\+File\+Name}} ()
+\item 
+const Q\+File $\ast$ \mbox{\hyperlink{classXMLConfigReader_a9b0e0d250553a258b8cb3fff4e7dc17b}{get\+Config\+File}} ()
+\item 
+const \mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$ \mbox{\hyperlink{classXMLConfigReader_a13ce318c43f9c5563317b2eafa11abb6}{get\+Joystick}} ()
+\item 
+const Q\+String\+List \& \mbox{\hyperlink{classXMLConfigReader_a9a95924cb6acfa0f168e65d38ead91df}{get\+Device\+Types}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Pointer$<$ \mbox{\hyperlink{classInputDeviceXml}{Input\+Device\+Xml}} $>$ \mbox{\hyperlink{classXMLConfigReader_af2eca27ea43f3149e8dee8e8fe683dd0}{m\+\_\+joystick\+Xml}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classXMLConfigReader_a31a70c6982c186220292bfbb10734589}{init\+Device\+Types}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Xml\+Stream\+Reader $\ast$ \mbox{\hyperlink{classXMLConfigReader_a345cb486905973e4835831fc27d39056}{xml}}
+\item 
+Q\+String \mbox{\hyperlink{classXMLConfigReader_add6327a91c986d561893ae6c2903a665}{file\+Name}}
+\item 
+Q\+File $\ast$ \mbox{\hyperlink{classXMLConfigReader_a924c0b1f46ecb731ed2f642295e89cfc}{config\+File}}
+\item 
+\mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$ \mbox{\hyperlink{classXMLConfigReader_acfcdcb57c7d92c98cb3ce4b311ef64f6}{m\+\_\+joystick}}
+\item 
+Q\+String\+List \mbox{\hyperlink{classXMLConfigReader_a76f191685b00f4c4984c24f0e44adaf7}{device\+Types}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classXMLConfigReader_a29d6dbeac0b38a609d002b145d354562}\label{classXMLConfigReader_a29d6dbeac0b38a609d002b145d354562}} 
+\index{XMLConfigReader@{XMLConfigReader}!XMLConfigReader@{XMLConfigReader}}
+\index{XMLConfigReader@{XMLConfigReader}!XMLConfigReader@{XMLConfigReader}}
+\doxysubsubsection{\texorpdfstring{XMLConfigReader()}{XMLConfigReader()}}
+{\footnotesize\ttfamily X\+M\+L\+Config\+Reader\+::\+X\+M\+L\+Config\+Reader (\begin{DoxyParamCaption}\item[{Q\+Object $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classXMLConfigReader_a29d6dbeac0b38a609d002b145d354562_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classXMLConfigReader_a1840d8856b03fa098c415ce0639fb73c}\label{classXMLConfigReader_a1840d8856b03fa098c415ce0639fb73c}} 
+\index{XMLConfigReader@{XMLConfigReader}!````~XMLConfigReader@{$\sim$XMLConfigReader}}
+\index{````~XMLConfigReader@{$\sim$XMLConfigReader}!XMLConfigReader@{XMLConfigReader}}
+\doxysubsubsection{\texorpdfstring{$\sim$XMLConfigReader()}{~XMLConfigReader()}}
+{\footnotesize\ttfamily X\+M\+L\+Config\+Reader\+::$\sim$\+X\+M\+L\+Config\+Reader (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classXMLConfigReader_a525fd14f51f6045160942d9a0a1425c5}\label{classXMLConfigReader_a525fd14f51f6045160942d9a0a1425c5}} 
+\index{XMLConfigReader@{XMLConfigReader}!configJoystick@{configJoystick}}
+\index{configJoystick@{configJoystick}!XMLConfigReader@{XMLConfigReader}}
+\doxysubsubsection{\texorpdfstring{configJoystick}{configJoystick}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} X\+M\+L\+Config\+Reader\+::config\+Joystick (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$}]{joystick }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classXMLConfigReader_a525fd14f51f6045160942d9a0a1425c5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classXMLConfigReader_a525fd14f51f6045160942d9a0a1425c5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classXMLConfigReader_a9b0e0d250553a258b8cb3fff4e7dc17b}\label{classXMLConfigReader_a9b0e0d250553a258b8cb3fff4e7dc17b}} 
+\index{XMLConfigReader@{XMLConfigReader}!getConfigFile@{getConfigFile}}
+\index{getConfigFile@{getConfigFile}!XMLConfigReader@{XMLConfigReader}}
+\doxysubsubsection{\texorpdfstring{getConfigFile()}{getConfigFile()}}
+{\footnotesize\ttfamily const Q\+File $\ast$ X\+M\+L\+Config\+Reader\+::get\+Config\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classXMLConfigReader_a9a95924cb6acfa0f168e65d38ead91df}\label{classXMLConfigReader_a9a95924cb6acfa0f168e65d38ead91df}} 
+\index{XMLConfigReader@{XMLConfigReader}!getDeviceTypes@{getDeviceTypes}}
+\index{getDeviceTypes@{getDeviceTypes}!XMLConfigReader@{XMLConfigReader}}
+\doxysubsubsection{\texorpdfstring{getDeviceTypes()}{getDeviceTypes()}}
+{\footnotesize\ttfamily const Q\+String\+List \& X\+M\+L\+Config\+Reader\+::get\+Device\+Types (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classXMLConfigReader_a9b88b1491d81f3bfc97ee700eb22c16b}\label{classXMLConfigReader_a9b88b1491d81f3bfc97ee700eb22c16b}} 
+\index{XMLConfigReader@{XMLConfigReader}!getErrorString@{getErrorString}}
+\index{getErrorString@{getErrorString}!XMLConfigReader@{XMLConfigReader}}
+\doxysubsubsection{\texorpdfstring{getErrorString()}{getErrorString()}}
+{\footnotesize\ttfamily const Q\+String X\+M\+L\+Config\+Reader\+::get\+Error\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classXMLConfigReader_a9b88b1491d81f3bfc97ee700eb22c16b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classXMLConfigReader_a76029f959c78c4d21cdf7a0561519cd0}\label{classXMLConfigReader_a76029f959c78c4d21cdf7a0561519cd0}} 
+\index{XMLConfigReader@{XMLConfigReader}!getFileName@{getFileName}}
+\index{getFileName@{getFileName}!XMLConfigReader@{XMLConfigReader}}
+\doxysubsubsection{\texorpdfstring{getFileName()}{getFileName()}}
+{\footnotesize\ttfamily const Q\+String \& X\+M\+L\+Config\+Reader\+::get\+File\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classXMLConfigReader_a13ce318c43f9c5563317b2eafa11abb6}\label{classXMLConfigReader_a13ce318c43f9c5563317b2eafa11abb6}} 
+\index{XMLConfigReader@{XMLConfigReader}!getJoystick@{getJoystick}}
+\index{getJoystick@{getJoystick}!XMLConfigReader@{XMLConfigReader}}
+\doxysubsubsection{\texorpdfstring{getJoystick()}{getJoystick()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$ X\+M\+L\+Config\+Reader\+::get\+Joystick (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classXMLConfigReader_aeba8fa11d1d434da2fb2e6338efe7392}\label{classXMLConfigReader_aeba8fa11d1d434da2fb2e6338efe7392}} 
+\index{XMLConfigReader@{XMLConfigReader}!getXml@{getXml}}
+\index{getXml@{getXml}!XMLConfigReader@{XMLConfigReader}}
+\doxysubsubsection{\texorpdfstring{getXml()}{getXml()}}
+{\footnotesize\ttfamily const Q\+Xml\+Stream\+Reader $\ast$ X\+M\+L\+Config\+Reader\+::get\+Xml (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classXMLConfigReader_a5514aaa906bc016255a4dd1bca3650b0}\label{classXMLConfigReader_a5514aaa906bc016255a4dd1bca3650b0}} 
+\index{XMLConfigReader@{XMLConfigReader}!hasError@{hasError}}
+\index{hasError@{hasError}!XMLConfigReader@{XMLConfigReader}}
+\doxysubsubsection{\texorpdfstring{hasError()}{hasError()}}
+{\footnotesize\ttfamily bool X\+M\+L\+Config\+Reader\+::has\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classXMLConfigReader_a5514aaa906bc016255a4dd1bca3650b0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classXMLConfigReader_a31a70c6982c186220292bfbb10734589}\label{classXMLConfigReader_a31a70c6982c186220292bfbb10734589}} 
+\index{XMLConfigReader@{XMLConfigReader}!initDeviceTypes@{initDeviceTypes}}
+\index{initDeviceTypes@{initDeviceTypes}!XMLConfigReader@{XMLConfigReader}}
+\doxysubsubsection{\texorpdfstring{initDeviceTypes()}{initDeviceTypes()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} X\+M\+L\+Config\+Reader\+::init\+Device\+Types (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classXMLConfigReader_a31a70c6982c186220292bfbb10734589_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classXMLConfigReader_af80a2c189a5d07caec8f3543765d4023}\label{classXMLConfigReader_af80a2c189a5d07caec8f3543765d4023}} 
+\index{XMLConfigReader@{XMLConfigReader}!read@{read}}
+\index{read@{read}!XMLConfigReader@{XMLConfigReader}}
+\doxysubsubsection{\texorpdfstring{read()}{read()}}
+{\footnotesize\ttfamily bool X\+M\+L\+Config\+Reader\+::read (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classXMLConfigReader_af80a2c189a5d07caec8f3543765d4023_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classXMLConfigReader_af80a2c189a5d07caec8f3543765d4023_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classXMLConfigReader_ad13fa69f04cc81989b85ab5a92f2b81f}\label{classXMLConfigReader_ad13fa69f04cc81989b85ab5a92f2b81f}} 
+\index{XMLConfigReader@{XMLConfigReader}!setFileName@{setFileName}}
+\index{setFileName@{setFileName}!XMLConfigReader@{XMLConfigReader}}
+\doxysubsubsection{\texorpdfstring{setFileName()}{setFileName()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} X\+M\+L\+Config\+Reader\+::set\+File\+Name (\begin{DoxyParamCaption}\item[{Q\+String}]{filename }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classXMLConfigReader_ad13fa69f04cc81989b85ab5a92f2b81f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classXMLConfigReader_acdda88a50acf0686f00f48738dfa6d8e}\label{classXMLConfigReader_acdda88a50acf0686f00f48738dfa6d8e}} 
+\index{XMLConfigReader@{XMLConfigReader}!setJoystick@{setJoystick}}
+\index{setJoystick@{setJoystick}!XMLConfigReader@{XMLConfigReader}}
+\doxysubsubsection{\texorpdfstring{setJoystick()}{setJoystick()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} X\+M\+L\+Config\+Reader\+::set\+Joystick (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$}]{joystick }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classXMLConfigReader_a924c0b1f46ecb731ed2f642295e89cfc}\label{classXMLConfigReader_a924c0b1f46ecb731ed2f642295e89cfc}} 
+\index{XMLConfigReader@{XMLConfigReader}!configFile@{configFile}}
+\index{configFile@{configFile}!XMLConfigReader@{XMLConfigReader}}
+\doxysubsubsection{\texorpdfstring{configFile}{configFile}}
+{\footnotesize\ttfamily Q\+File$\ast$ X\+M\+L\+Config\+Reader\+::config\+File\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classXMLConfigReader_a76f191685b00f4c4984c24f0e44adaf7}\label{classXMLConfigReader_a76f191685b00f4c4984c24f0e44adaf7}} 
+\index{XMLConfigReader@{XMLConfigReader}!deviceTypes@{deviceTypes}}
+\index{deviceTypes@{deviceTypes}!XMLConfigReader@{XMLConfigReader}}
+\doxysubsubsection{\texorpdfstring{deviceTypes}{deviceTypes}}
+{\footnotesize\ttfamily Q\+String\+List X\+M\+L\+Config\+Reader\+::device\+Types\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classXMLConfigReader_add6327a91c986d561893ae6c2903a665}\label{classXMLConfigReader_add6327a91c986d561893ae6c2903a665}} 
+\index{XMLConfigReader@{XMLConfigReader}!fileName@{fileName}}
+\index{fileName@{fileName}!XMLConfigReader@{XMLConfigReader}}
+\doxysubsubsection{\texorpdfstring{fileName}{fileName}}
+{\footnotesize\ttfamily Q\+String X\+M\+L\+Config\+Reader\+::file\+Name\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classXMLConfigReader_acfcdcb57c7d92c98cb3ce4b311ef64f6}\label{classXMLConfigReader_acfcdcb57c7d92c98cb3ce4b311ef64f6}} 
+\index{XMLConfigReader@{XMLConfigReader}!m\_joystick@{m\_joystick}}
+\index{m\_joystick@{m\_joystick}!XMLConfigReader@{XMLConfigReader}}
+\doxysubsubsection{\texorpdfstring{m\_joystick}{m\_joystick}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classInputDevice}{Input\+Device}}$\ast$ X\+M\+L\+Config\+Reader\+::m\+\_\+joystick\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classXMLConfigReader_af2eca27ea43f3149e8dee8e8fe683dd0}\label{classXMLConfigReader_af2eca27ea43f3149e8dee8e8fe683dd0}} 
+\index{XMLConfigReader@{XMLConfigReader}!m\_joystickXml@{m\_joystickXml}}
+\index{m\_joystickXml@{m\_joystickXml}!XMLConfigReader@{XMLConfigReader}}
+\doxysubsubsection{\texorpdfstring{m\_joystickXml}{m\_joystickXml}}
+{\footnotesize\ttfamily Q\+Pointer$<$\mbox{\hyperlink{classInputDeviceXml}{Input\+Device\+Xml}}$>$ X\+M\+L\+Config\+Reader\+::m\+\_\+joystick\+Xml}
+
+\mbox{\Hypertarget{classXMLConfigReader_a345cb486905973e4835831fc27d39056}\label{classXMLConfigReader_a345cb486905973e4835831fc27d39056}} 
+\index{XMLConfigReader@{XMLConfigReader}!xml@{xml}}
+\index{xml@{xml}!XMLConfigReader@{XMLConfigReader}}
+\doxysubsubsection{\texorpdfstring{xml}{xml}}
+{\footnotesize\ttfamily Q\+Xml\+Stream\+Reader$\ast$ X\+M\+L\+Config\+Reader\+::xml\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{xmlconfigreader_8h}{xmlconfigreader.\+h}}\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{xmlconfigreader_8cpp}{xmlconfigreader.\+cpp}}\end{DoxyCompactItemize}

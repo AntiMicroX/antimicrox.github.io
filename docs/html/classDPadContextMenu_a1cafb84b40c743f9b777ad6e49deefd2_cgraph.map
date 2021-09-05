@@ -1,0 +1,5 @@
+<map id="DPadContextMenu::generateActionMode" name="DPadContextMenu::generateActionMode">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,196,47"/>
+<area shape="rect" id="node2" href="$classDPadContextMenu.html#a13e390013b02411aabc85d1e4b17891a" title="Set the appropriate mode for a DPad based on the item chosen." alt="" coords="244,13,468,39"/>
+<area shape="rect" id="node3" href="$classJoyDPad.html#ae912673a382e0ffcdd1472373ffe832b" title=" " alt="" coords="516,13,671,39"/>
+</map>

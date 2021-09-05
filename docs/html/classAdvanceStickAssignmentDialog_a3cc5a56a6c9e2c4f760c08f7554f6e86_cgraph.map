@@ -1,0 +1,17 @@
+<map id="AdvanceStickAssignmentDialog::openAssignVDPadLeft" name="AdvanceStickAssignmentDialog::openAssignVDPadLeft">
+<area shape="rect" id="node1" title=" " alt="" coords="5,213,213,254"/>
+<area shape="rect" id="node2" href="$classInputDevice.html#abc23a70bef37f2fc70248cd129af170b" title=" " alt="" coords="535,57,709,98"/>
+<area shape="rect" id="node4" href="$classSetJoystick.html#a7c8f524fe045b89901ba945c5e1045cf" title=" " alt="" coords="285,220,447,247"/>
+<area shape="rect" id="node5" href="$classSetJoystick.html#a652994327142229429b0d6f43a96103a" title=" " alt="" coords="535,173,709,200"/>
+<area shape="rect" id="node7" href="$classJoyAxis.html#aae658e2a7b83ce73ce3d7d1ed13eabc6" title=" " alt="" coords="282,271,450,297"/>
+<area shape="rect" id="node8" href="$classInputDevice.html#a4c662c7a0415e247266e6b205d064763" title=" " alt="" coords="269,17,463,44"/>
+<area shape="rect" id="node10" href="$classInputDevice.html#a8d061d1a518f77dcdecbb2ecd32e9d30" title=" " alt="" coords="261,119,471,145"/>
+<area shape="rect" id="node12" href="$classJoyAxis.html#ad51d55d2a95190468209f7481eae8639" title=" " alt="" coords="283,321,449,348"/>
+<area shape="rect" id="node13" href="$classJoyAxis.html#a0dde339f2f10bba167eb811d8f166b48" title=" " alt="" coords="274,372,458,399"/>
+<area shape="rect" id="node14" href="$classAdvanceStickAssignmentDialog.html#a2343a9b582876a16fdd062218435457c" title=" " alt="" coords="262,423,470,465"/>
+<area shape="rect" id="node3" href="$classInputDevice.html#a1c4c65d9e509a5c3bde064871d7e1849" title=" " alt="" coords="773,64,972,91"/>
+<area shape="rect" id="node6" href="$classSetJoystick.html#ac5baae46a0b3924a83b523ad89819a53" title=" " alt="" coords="793,148,953,175"/>
+<area shape="rect" id="node9" href="$classSetJoystick.html#a7e71493074ed6e796c077aab6e6688b7" title=" " alt="" coords="527,5,717,32"/>
+<area shape="rect" id="node11" href="$classSetJoystick.html#a446e296af015f6304bd7425153a4c4ae" title=" " alt="" coords="519,123,725,149"/>
+<area shape="rect" id="node15" href="$classJoyButton.html#aa659d5a0860f5047862ca0761d8d775a" title="Get 0 indexed number of button." alt="" coords="535,431,709,457"/>
+</map>

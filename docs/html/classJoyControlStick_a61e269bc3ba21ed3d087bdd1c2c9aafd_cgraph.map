@@ -1,0 +1,5 @@
+<map id="JoyControlStick::setDeadZone" name="JoyControlStick::setDeadZone">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,205,57"/>
+<area shape="rect" id="node2" href="$classJoyAxis.html#af3f311fbf20c583224c2320d1fda0226" title=" " alt="" coords="257,5,424,32"/>
+<area shape="rect" id="node3" href="$classJoyControlStick.html#a289947c34f708ce31ff20e79a17dcd67" title=" " alt="" coords="253,56,428,83"/>
+</map>

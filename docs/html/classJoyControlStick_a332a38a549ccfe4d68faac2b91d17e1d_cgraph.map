@@ -1,0 +1,6 @@
+<map id="JoyControlStick::setButtonsExtraAccelerationStatus" name="JoyControlStick::setButtonsExtraAccelerationStatus">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,191,80"/>
+<area shape="rect" id="node2" href="$classJoyControlStick.html#a79d9ede9279281b0074eca6e2d99e8ec" title=" " alt="" coords="244,5,444,47"/>
+<area shape="rect" id="node3" href="$classJoyButton.html#aca69f26410f28982be9a6e952ec3c494" title=" " alt="" coords="239,71,449,112"/>
+<area shape="rect" id="node4" href="$classJoyButton.html#a77afa6c5934d2665bad6d494b812f372" title="Check if button should be considered a part of a real controller axis. Needed for some dialogs so the..." alt="" coords="497,78,673,105"/>
+</map>

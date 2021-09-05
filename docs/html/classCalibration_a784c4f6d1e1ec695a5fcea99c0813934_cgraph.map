@@ -1,0 +1,13 @@
+<map id="Calibration::startCalibration" name="Calibration::startCalibration">
+<area shape="rect" id="node1" title="Prepares first step of calibration &#45; finding center." alt="" coords="5,157,184,184"/>
+<area shape="rect" id="node2" href="$classCalibration.html#a19d87c9098a510f9fe73a0a871e251c8" title=" " alt="" coords="725,5,895,32"/>
+<area shape="rect" id="node3" href="$classJoyControlStick.html#ae381539f8082f6b7bd761bb7e6fed196" title=" " alt="" coords="232,183,459,209"/>
+<area shape="rect" id="node4" href="$classCalibration.html#ab764fc9b8f7d08e04b7453636010862d" title="Prepares second step of calibration &#45; moving into top&#45;left corner &#45; negative values." alt="" coords="251,132,440,159"/>
+<area shape="rect" id="node10" href="$classCalibration.html#a962ad4889888aac4aa48d934df86c82d" title=" " alt="" coords="249,233,442,260"/>
+<area shape="rect" id="node11" href="$classJoyControlStick.html#a5a1c2eb10e476c90082f864b40217934" title=" " alt="" coords="244,284,447,311"/>
+<area shape="rect" id="node5" href="$classCalibration.html#a190beef4cbeb5b3be8ea8da35e356ad0" title="checks whether axes were moved at least 5 times in both ways. If not, it shows a message" alt="" coords="730,173,890,200"/>
+<area shape="rect" id="node6" href="$classCalibration.html#a6eb11836ac0eda658b5642cb154d5df5" title=" " alt="" coords="518,208,666,235"/>
+<area shape="rect" id="node7" href="$classCalibration.html#a7395207c632a902aba620462d1ff584c" title="Prepares third step of calibration &#45; moving into bottom&#45;right corner &#45; postive values." alt="" coords="507,107,677,133"/>
+<area shape="rect" id="node8" href="$classCalibration.html#a672cc0511abecfe88914a92a03d2f0f7" title=" " alt="" coords="733,123,887,149"/>
+<area shape="rect" id="node9" href="$classCalibration.html#a16632a43e8d22943fe4f720982cf3ec6" title="Creates quadratic field in a case, when max value is not equal to negative min value...." alt="" coords="727,57,893,98"/>
+</map>

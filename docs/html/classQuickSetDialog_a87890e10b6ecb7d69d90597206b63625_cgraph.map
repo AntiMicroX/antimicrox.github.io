@@ -1,0 +1,12 @@
+<map id="QuickSetDialog::connectDpadForDialog" name="QuickSetDialog::connectDpadForDialog">
+<area shape="rect" id="node1" title=" " alt="" coords="5,166,204,207"/>
+<area shape="rect" id="node2" href="$classJoyDPad.html#a2f5d634341589f42960a9ecc41454112" title=" " alt="" coords="271,5,418,32"/>
+<area shape="rect" id="node3" href="$classSetJoystick.html#a2a6870a2ac3f5cc490344baf7ed2edd5" title=" " alt="" coords="273,56,416,83"/>
+<area shape="rect" id="node4" href="$classJoyButton.html#abbccee98e377453167a47b49874eeab7" title=" " alt="" coords="257,107,433,149"/>
+<area shape="rect" id="node5" href="$classJoyDPad.html#a49c84e10ea78221ef1d42a2f986f05e8" title=" " alt="" coords="267,173,422,200"/>
+<area shape="rect" id="node6" href="$classJoyButton.html#aa659d5a0860f5047862ca0761d8d775a" title="Get 0 indexed number of button." alt="" coords="257,224,432,251"/>
+<area shape="rect" id="node7" href="$classJoyButton.html#aa8eaea52cff793034b943af1eb292b6c" title=" " alt="" coords="257,275,433,317"/>
+<area shape="rect" id="node8" href="$classQuickSetDialog.html#ac798af7932e1bd769e7f678698163380" title=" " alt="" coords="252,341,437,382"/>
+<area shape="rect" id="node9" href="$classQuickSetDialog.html#af61daea37a622937669c8043f42e70b8" title=" " alt="" coords="485,341,685,382"/>
+<area shape="rect" id="node10" href="$classButtonEditDialogHelper.html#a2160209c705906abf0510c903f432f42" title=" " alt="" coords="733,341,892,382"/>
+</map>

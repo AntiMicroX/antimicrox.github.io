@@ -1,0 +1,19 @@
+<map id="AppLaunchHelper::printControllerList" name="AppLaunchHelper::printControllerList">
+<area shape="rect" id="node1" title=" " alt="" coords="5,275,240,301"/>
+<area shape="rect" id="node2" href="$classInputDevice.html#ac48b8e2215ac8b1310d7397e45fed557" title=" " alt="" coords="304,5,491,32"/>
+<area shape="rect" id="node3" href="$classInputDevice.html#a7b713f10cafbd2d4d17802e9a6a53a75" title=" " alt="" coords="301,56,493,83"/>
+<area shape="rect" id="node8" href="$classInputDevice.html#ab370bf7bbf5f75d11f0513360d3a2dd2" title=" " alt="" coords="288,107,507,133"/>
+<area shape="rect" id="node9" href="$classInputDevice.html#aba85af39454731d948fcb47105da814c" title=" " alt="" coords="302,158,493,199"/>
+<area shape="rect" id="node10" href="$classInputDevice.html#a92a09e0e61e1ac070da1cad2070b3a27" title=" " alt="" coords="292,224,503,251"/>
+<area shape="rect" id="node11" href="$classInputDevice.html#a63e5b74091e9823064da8ce590a238a8" title=" " alt="" coords="294,275,501,301"/>
+<area shape="rect" id="node12" href="$classInputDevice.html#af398dd46ce98825fe56b36e41a13db9b" title=" " alt="" coords="292,325,503,352"/>
+<area shape="rect" id="node14" href="$classInputDevice.html#a3184377c2e251949cae1a0937aaef78c" title=" " alt="" coords="308,376,487,403"/>
+<area shape="rect" id="node15" href="$classInputDevice.html#ad2d9a268b89898a0a29b56d7af63de9e" title=" " alt="" coords="294,427,501,453"/>
+<area shape="rect" id="node16" href="$classInputDevice.html#a8de96270b8b0ff23b75974fcf9c33916" title=" " alt="" coords="301,477,493,504"/>
+<area shape="rect" id="node17" href="$classInputDevice.html#aeaf77e979b09dbd752e29b47c830737c" title="Check if device is using the SDL Game Controller API." alt="" coords="297,528,498,555"/>
+<area shape="rect" id="node4" href="$classInputDevice.html#abc23a70bef37f2fc70248cd129af170b" title=" " alt="" coords="562,19,737,61"/>
+<area shape="rect" id="node6" href="$classSetJoystick.html#ab3a314813bde0be4e3b80fd77deea968" title=" " alt="" coords="555,85,744,112"/>
+<area shape="rect" id="node5" href="$classInputDevice.html#a1c4c65d9e509a5c3bde064871d7e1849" title=" " alt="" coords="792,27,991,53"/>
+<area shape="rect" id="node7" href="$classSetJoystick.html#a2a6870a2ac3f5cc490344baf7ed2edd5" title=" " alt="" coords="820,85,963,112"/>
+<area shape="rect" id="node13" href="$classInputDevice.html#a197e76d4113e8258e6637981830dd219" title=" " alt="" coords="557,325,742,352"/>
+</map>

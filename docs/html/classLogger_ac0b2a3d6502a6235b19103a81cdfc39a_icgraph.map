@@ -1,0 +1,7 @@
+<map id="Logger::closeLogger" name="Logger::closeLogger">
+<area shape="rect" id="node1" title="Flushes output stream and closes stream if requested." alt="" coords="527,67,665,94"/>
+<area shape="rect" id="node2" href="$classLogger.html#a5fbd8b1351633453037807a8707b46d7" title=" " alt="" coords="307,42,479,69"/>
+<area shape="rect" id="node5" href="$classLogger.html#acb668a9e186a25fbaad2e4af6d1ed00a" title="Close output stream and set instance to 0." alt="" coords="335,93,451,119"/>
+<area shape="rect" id="node3" href="$classAntiMicroSettings.html#a5650eb5f8d9af851a7f58fc086b5ce27" title="applies settings from command line to logger" alt="" coords="104,5,259,47"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,42,56,69"/>
+</map>

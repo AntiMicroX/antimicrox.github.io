@@ -1,0 +1,4 @@
+<map id="JoyControlStick::calculateMouseDirectionalDistance" name="JoyControlStick::calculateMouseDirectionalDistance">
+<area shape="rect" id="node1" title="Used to calculate the distance value that should be used for mouse movement." alt="" coords="283,5,457,47"/>
+<area shape="rect" id="node2" href="$classJoyControlStickButton.html#ab1f0e0a9f9d2ba01768619401f666fff" title="Get the distance factor that should be used for mouse movement." alt="" coords="5,5,235,47"/>
+</map>

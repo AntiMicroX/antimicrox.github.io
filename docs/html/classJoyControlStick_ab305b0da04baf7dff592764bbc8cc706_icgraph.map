@@ -1,0 +1,5 @@
+<map id="JoyControlStick::getCircleAdjust" name="JoyControlStick::getCircleAdjust">
+<area shape="rect" id="node1" title="Get the current percentage of the outer square that should be ignored when performing the final axis ..." alt="" coords="459,5,633,47"/>
+<area shape="rect" id="node2" href="$classJoyControlStickEditDialog.html#a2baa35c50ff7528a03ec6f2ba1ed657d" title=" " alt="" coords="5,5,188,47"/>
+<area shape="rect" id="node3" href="$classJoyControlStickEditDialog.html#aa479f7bd7941c5be7efd683d3c0c8fd2" title=" " alt="" coords="236,35,411,76"/>
+</map>

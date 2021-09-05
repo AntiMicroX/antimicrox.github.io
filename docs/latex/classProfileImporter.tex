@@ -1,0 +1,440 @@
+\hypertarget{classProfileImporter}{}\doxysection{Profile\+Importer Class Reference}
+\label{classProfileImporter}\index{ProfileImporter@{ProfileImporter}}
+
+
+{\ttfamily \#include $<$profileimporter.\+h$>$}
+
+
+
+Inheritance diagram for Profile\+Importer\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=161pt]{classProfileImporter__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Profile\+Importer\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=248pt]{classProfileImporter__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classProfileImporter_ae5679ae4c645e81b910fe247d8292877}{Profile\+Importer}} (\mbox{\hyperlink{classAntiMicroSettings}{Anti\+Micro\+Settings}} $\ast$\mbox{\hyperlink{classProfileImporter_a8a5c2516e24ac1014331827fec0bccfc}{settings}}, Q\+Widget $\ast$parent=0)
+\item 
+\mbox{\hyperlink{classProfileImporter_a492fa03b65bf3d925a95c42874eb7426}{$\sim$\+Profile\+Importer}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classProfileImporter_ab1a3cb45f5289ca5b8b1a1ecf00143a0}{change\+Extension\+File}} (Q\+String file\+Path)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classProfileImporter_a55a4610cf36aa5dfd37e60f32569acce}{back\+Extension\+File}} (Q\+String file\+Path)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classProfileImporter_a2e8fdf18c31a1510f1ba54d2259b5a69}{open\+File}} (Q\+String \mbox{\hyperlink{classProfileImporter_a8b56bb9e8dbe8cd6d32322580f70bbfd}{imported\+File\+Path}})
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classProfileImporter_a98749a12edd3ded58bedef1cf3cfee9f}{read\+Sett\+Groups}} ()
+\item 
+const Q\+String \mbox{\hyperlink{classProfileImporter_a8b56bb9e8dbe8cd6d32322580f70bbfd}{imported\+File\+Path}} (Q\+String title, Q\+String extension\+File)
+\item 
+const Q\+String \mbox{\hyperlink{classProfileImporter_afc1cceae1ad71d273d2648c97e7c4594}{display\+Mode\+Joy\+To\+Key}} ()
+\item 
+Q\+Char \mbox{\hyperlink{classProfileImporter_a269b5fa069e4e69dc35930a3d4545671}{convert\+Hex\+To\+String\+\_\+\+Q\+Char}} (Q\+String const \&hex\+Value)
+\item 
+char \mbox{\hyperlink{classProfileImporter_aea529e5d8a5fbddbe596f69b864556c9}{convert\+Hex\+To\+String\+\_\+char}} (std\+::string const \&hex\+Value)
+\item 
+int \mbox{\hyperlink{classProfileImporter_ae399fe03408c5eef924c7700fd2fcc1d}{convert\+String\+To\+Qt\+Key}} (Q\+String const \&key\+String)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classProfileImporter_afcb37395ac30e1cd839ab97b016bc8b4}{all\+Filled}} ()
+\item 
+bool \mbox{\hyperlink{classProfileImporter_a1f15dd8ab70474a4fa536d499e42d765}{proper\+Extension}} (const Q\+String \&profile\+Path)
+\item 
+bool \mbox{\hyperlink{classProfileImporter_a39fe00cf683edda1e8fa220983aa8282}{proper\+Extension\+Sett}} (const Q\+String \&settfile\+Path)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classProfileImporter_ae22373d7e4597dc61c7e7f45c839d9fd}{set\+Display\+Mode\+Joy\+To\+Key}} (Q\+String const \&display\+Mode)
+\item 
+Q\+String \mbox{\hyperlink{classProfileImporter_a654fe23f61f753108a01802cd6e857e1}{extension\+Profile}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classProfileImporter_a54143bfdfe67f3c1e0e0e01066221812}{on\+\_\+\+Accept\+Btn\+\_\+clicked}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classProfileImporter_a163ecbe128c03124b5e46554669726c1}{on\+\_\+cancel\+Btn\+\_\+clicked}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classProfileImporter_a678b848eb45bc7c92e81a73f9efa784c}{on\+\_\+find\+Profile\+Btn\+\_\+clicked}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classProfileImporter_af5bfa34bbaf978811e325f68ff58a42e}{on\+\_\+full\+Sett\+Check\+Box\+\_\+state\+Changed}} (int state)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classProfileImporter_afc1217b49b684373639800728c6b7155}{on\+\_\+find\+Config\+Btn\+\_\+clicked}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classProfileImporter_a8226ebcfe08dc7acfcc99e168220ea42}{put\+Settings\+To\+App}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classProfileImporter_a245d52490d8ee1622bbc16136e7fb6f4}{put\+Gamecontr\+Mapping}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classProfileImporter_ad7153fbcdaba8de92ab27ff8f4795040}{rewrite\+Button\+Group}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classProfileImporter_a0b12bddffdfff487d712fb117a96177a}{put\+Settings\+From\+Joy\+To\+Key}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classProfileImporter_a25def5e6ca9030ce3467f30fb2ef6a7d}{put\+Settings\+From\+X\+Padder}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classProfileImporter_ad6cbef1368575b8b5271cb553a32b421}{put\+Settings\+From\+Pinnacle}} ()
+\item 
+Q\+String \mbox{\hyperlink{classProfileImporter_a4a036ee5ddf3748546be7c9b29a8049a}{filedialog\+Desc\+Ext}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Ui\+::\+Profile\+Importer $\ast$ \mbox{\hyperlink{classProfileImporter_a180ab83f2c98a15d56542114db77de54}{ui}}
+\item 
+Q\+Hash$<$ Q\+String, Q\+String $>$ \mbox{\hyperlink{classProfileImporter_a6c2639fe0c19c23738f92e64d5ae774c}{ant\+To\+Curr\+Gamepads}}
+\item 
+\mbox{\hyperlink{classAntiMicroSettings}{Anti\+Micro\+Settings}} $\ast$ \mbox{\hyperlink{classProfileImporter_a8a5c2516e24ac1014331827fec0bccfc}{settings}}
+\item 
+Q\+Button\+Group \mbox{\hyperlink{classProfileImporter_a0a9d68920506959b4939976bf254dd04}{radio\+Btn\+Profiles}}
+\item 
+Q\+String \mbox{\hyperlink{classProfileImporter_afc649899d38500220b7a6503bdda7acb}{chosen\+File}}
+\item 
+Q\+String \mbox{\hyperlink{classProfileImporter_a20ad1d4758a4061b2a9e9e042d0d3974}{chosen\+File\+Sett}}
+\item 
+Q\+String \mbox{\hyperlink{classProfileImporter_a58f9861ae7da4cc3c0d86607d8a98a79}{displayed\+Mode\+Joy\+To\+Key}}
+\item 
+Q\+String \mbox{\hyperlink{classProfileImporter_aa19dd8e321dadafe0381b40a2bce4bd2}{button\+Mode}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classProfileImporter_ae5679ae4c645e81b910fe247d8292877}\label{classProfileImporter_ae5679ae4c645e81b910fe247d8292877}} 
+\index{ProfileImporter@{ProfileImporter}!ProfileImporter@{ProfileImporter}}
+\index{ProfileImporter@{ProfileImporter}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{ProfileImporter()}{ProfileImporter()}}
+{\footnotesize\ttfamily Profile\+Importer\+::\+Profile\+Importer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classAntiMicroSettings}{Anti\+Micro\+Settings}} $\ast$}]{settings,  }\item[{Q\+Widget $\ast$}]{parent = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{classProfileImporter_ae5679ae4c645e81b910fe247d8292877_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classProfileImporter_a492fa03b65bf3d925a95c42874eb7426}\label{classProfileImporter_a492fa03b65bf3d925a95c42874eb7426}} 
+\index{ProfileImporter@{ProfileImporter}!````~ProfileImporter@{$\sim$ProfileImporter}}
+\index{````~ProfileImporter@{$\sim$ProfileImporter}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{$\sim$ProfileImporter()}{~ProfileImporter()}}
+{\footnotesize\ttfamily Profile\+Importer\+::$\sim$\+Profile\+Importer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classProfileImporter_afcb37395ac30e1cd839ab97b016bc8b4}\label{classProfileImporter_afcb37395ac30e1cd839ab97b016bc8b4}} 
+\index{ProfileImporter@{ProfileImporter}!allFilled@{allFilled}}
+\index{allFilled@{allFilled}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{allFilled()}{allFilled()}}
+{\footnotesize\ttfamily bool Profile\+Importer\+::all\+Filled (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{classProfileImporter_afcb37395ac30e1cd839ab97b016bc8b4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classProfileImporter_a55a4610cf36aa5dfd37e60f32569acce}\label{classProfileImporter_a55a4610cf36aa5dfd37e60f32569acce}} 
+\index{ProfileImporter@{ProfileImporter}!backExtensionFile@{backExtensionFile}}
+\index{backExtensionFile@{backExtensionFile}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{backExtensionFile()}{backExtensionFile()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Profile\+Importer\+::back\+Extension\+File (\begin{DoxyParamCaption}\item[{Q\+String}]{file\+Path }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classProfileImporter_a55a4610cf36aa5dfd37e60f32569acce_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classProfileImporter_ab1a3cb45f5289ca5b8b1a1ecf00143a0}\label{classProfileImporter_ab1a3cb45f5289ca5b8b1a1ecf00143a0}} 
+\index{ProfileImporter@{ProfileImporter}!changeExtensionFile@{changeExtensionFile}}
+\index{changeExtensionFile@{changeExtensionFile}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{changeExtensionFile()}{changeExtensionFile()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Profile\+Importer\+::change\+Extension\+File (\begin{DoxyParamCaption}\item[{Q\+String}]{file\+Path }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classProfileImporter_ab1a3cb45f5289ca5b8b1a1ecf00143a0_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classProfileImporter_aea529e5d8a5fbddbe596f69b864556c9}\label{classProfileImporter_aea529e5d8a5fbddbe596f69b864556c9}} 
+\index{ProfileImporter@{ProfileImporter}!convertHexToString\_char@{convertHexToString\_char}}
+\index{convertHexToString\_char@{convertHexToString\_char}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{convertHexToString\_char()}{convertHexToString\_char()}}
+{\footnotesize\ttfamily char Profile\+Importer\+::convert\+Hex\+To\+String\+\_\+char (\begin{DoxyParamCaption}\item[{std\+::string const \&}]{hex\+Value }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classProfileImporter_a269b5fa069e4e69dc35930a3d4545671}\label{classProfileImporter_a269b5fa069e4e69dc35930a3d4545671}} 
+\index{ProfileImporter@{ProfileImporter}!convertHexToString\_QChar@{convertHexToString\_QChar}}
+\index{convertHexToString\_QChar@{convertHexToString\_QChar}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{convertHexToString\_QChar()}{convertHexToString\_QChar()}}
+{\footnotesize\ttfamily Q\+Char Profile\+Importer\+::convert\+Hex\+To\+String\+\_\+\+Q\+Char (\begin{DoxyParamCaption}\item[{Q\+String const \&}]{hex\+Value }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classProfileImporter_ae399fe03408c5eef924c7700fd2fcc1d}\label{classProfileImporter_ae399fe03408c5eef924c7700fd2fcc1d}} 
+\index{ProfileImporter@{ProfileImporter}!convertStringToQtKey@{convertStringToQtKey}}
+\index{convertStringToQtKey@{convertStringToQtKey}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{convertStringToQtKey()}{convertStringToQtKey()}}
+{\footnotesize\ttfamily int Profile\+Importer\+::convert\+String\+To\+Qt\+Key (\begin{DoxyParamCaption}\item[{Q\+String const \&}]{key\+String }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classProfileImporter_afc1cceae1ad71d273d2648c97e7c4594}\label{classProfileImporter_afc1cceae1ad71d273d2648c97e7c4594}} 
+\index{ProfileImporter@{ProfileImporter}!displayModeJoyToKey@{displayModeJoyToKey}}
+\index{displayModeJoyToKey@{displayModeJoyToKey}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{displayModeJoyToKey()}{displayModeJoyToKey()}}
+{\footnotesize\ttfamily const Q\+String Profile\+Importer\+::display\+Mode\+Joy\+To\+Key (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classProfileImporter_a654fe23f61f753108a01802cd6e857e1}\label{classProfileImporter_a654fe23f61f753108a01802cd6e857e1}} 
+\index{ProfileImporter@{ProfileImporter}!extensionProfile@{extensionProfile}}
+\index{extensionProfile@{extensionProfile}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{extensionProfile()}{extensionProfile()}}
+{\footnotesize\ttfamily Q\+String Profile\+Importer\+::extension\+Profile (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classProfileImporter_a654fe23f61f753108a01802cd6e857e1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classProfileImporter_a4a036ee5ddf3748546be7c9b29a8049a}\label{classProfileImporter_a4a036ee5ddf3748546be7c9b29a8049a}} 
+\index{ProfileImporter@{ProfileImporter}!filedialogDescExt@{filedialogDescExt}}
+\index{filedialogDescExt@{filedialogDescExt}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{filedialogDescExt()}{filedialogDescExt()}}
+{\footnotesize\ttfamily Q\+String Profile\+Importer\+::filedialog\+Desc\+Ext (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classProfileImporter_a4a036ee5ddf3748546be7c9b29a8049a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classProfileImporter_a8b56bb9e8dbe8cd6d32322580f70bbfd}\label{classProfileImporter_a8b56bb9e8dbe8cd6d32322580f70bbfd}} 
+\index{ProfileImporter@{ProfileImporter}!importedFilePath@{importedFilePath}}
+\index{importedFilePath@{importedFilePath}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{importedFilePath()}{importedFilePath()}}
+{\footnotesize\ttfamily const Q\+String Profile\+Importer\+::imported\+File\+Path (\begin{DoxyParamCaption}\item[{Q\+String}]{title,  }\item[{Q\+String}]{extension\+File }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classProfileImporter_a8b56bb9e8dbe8cd6d32322580f70bbfd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classProfileImporter_a54143bfdfe67f3c1e0e0e01066221812}\label{classProfileImporter_a54143bfdfe67f3c1e0e0e01066221812}} 
+\index{ProfileImporter@{ProfileImporter}!on\_AcceptBtn\_clicked@{on\_AcceptBtn\_clicked}}
+\index{on\_AcceptBtn\_clicked@{on\_AcceptBtn\_clicked}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{on\_AcceptBtn\_clicked}{on\_AcceptBtn\_clicked}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Profile\+Importer\+::on\+\_\+\+Accept\+Btn\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{classProfileImporter_a54143bfdfe67f3c1e0e0e01066221812_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classProfileImporter_a163ecbe128c03124b5e46554669726c1}\label{classProfileImporter_a163ecbe128c03124b5e46554669726c1}} 
+\index{ProfileImporter@{ProfileImporter}!on\_cancelBtn\_clicked@{on\_cancelBtn\_clicked}}
+\index{on\_cancelBtn\_clicked@{on\_cancelBtn\_clicked}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{on\_cancelBtn\_clicked}{on\_cancelBtn\_clicked}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Profile\+Importer\+::on\+\_\+cancel\+Btn\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{classProfileImporter_afc1217b49b684373639800728c6b7155}\label{classProfileImporter_afc1217b49b684373639800728c6b7155}} 
+\index{ProfileImporter@{ProfileImporter}!on\_findConfigBtn\_clicked@{on\_findConfigBtn\_clicked}}
+\index{on\_findConfigBtn\_clicked@{on\_findConfigBtn\_clicked}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{on\_findConfigBtn\_clicked}{on\_findConfigBtn\_clicked}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Profile\+Importer\+::on\+\_\+find\+Config\+Btn\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classProfileImporter_afc1217b49b684373639800728c6b7155_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classProfileImporter_a678b848eb45bc7c92e81a73f9efa784c}\label{classProfileImporter_a678b848eb45bc7c92e81a73f9efa784c}} 
+\index{ProfileImporter@{ProfileImporter}!on\_findProfileBtn\_clicked@{on\_findProfileBtn\_clicked}}
+\index{on\_findProfileBtn\_clicked@{on\_findProfileBtn\_clicked}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{on\_findProfileBtn\_clicked}{on\_findProfileBtn\_clicked}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Profile\+Importer\+::on\+\_\+find\+Profile\+Btn\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classProfileImporter_a678b848eb45bc7c92e81a73f9efa784c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classProfileImporter_af5bfa34bbaf978811e325f68ff58a42e}\label{classProfileImporter_af5bfa34bbaf978811e325f68ff58a42e}} 
+\index{ProfileImporter@{ProfileImporter}!on\_fullSettCheckBox\_stateChanged@{on\_fullSettCheckBox\_stateChanged}}
+\index{on\_fullSettCheckBox\_stateChanged@{on\_fullSettCheckBox\_stateChanged}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{on\_fullSettCheckBox\_stateChanged}{on\_fullSettCheckBox\_stateChanged}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Profile\+Importer\+::on\+\_\+full\+Sett\+Check\+Box\+\_\+state\+Changed (\begin{DoxyParamCaption}\item[{int}]{state }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+\mbox{\Hypertarget{classProfileImporter_a2e8fdf18c31a1510f1ba54d2259b5a69}\label{classProfileImporter_a2e8fdf18c31a1510f1ba54d2259b5a69}} 
+\index{ProfileImporter@{ProfileImporter}!openFile@{openFile}}
+\index{openFile@{openFile}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{openFile()}{openFile()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Profile\+Importer\+::open\+File (\begin{DoxyParamCaption}\item[{Q\+String}]{imported\+File\+Path }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classProfileImporter_a2e8fdf18c31a1510f1ba54d2259b5a69_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classProfileImporter_a1f15dd8ab70474a4fa536d499e42d765}\label{classProfileImporter_a1f15dd8ab70474a4fa536d499e42d765}} 
+\index{ProfileImporter@{ProfileImporter}!properExtension@{properExtension}}
+\index{properExtension@{properExtension}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{properExtension()}{properExtension()}}
+{\footnotesize\ttfamily bool Profile\+Importer\+::proper\+Extension (\begin{DoxyParamCaption}\item[{const Q\+String \&}]{profile\+Path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classProfileImporter_a1f15dd8ab70474a4fa536d499e42d765_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classProfileImporter_a39fe00cf683edda1e8fa220983aa8282}\label{classProfileImporter_a39fe00cf683edda1e8fa220983aa8282}} 
+\index{ProfileImporter@{ProfileImporter}!properExtensionSett@{properExtensionSett}}
+\index{properExtensionSett@{properExtensionSett}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{properExtensionSett()}{properExtensionSett()}}
+{\footnotesize\ttfamily bool Profile\+Importer\+::proper\+Extension\+Sett (\begin{DoxyParamCaption}\item[{const Q\+String \&}]{settfile\+Path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classProfileImporter_a39fe00cf683edda1e8fa220983aa8282_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classProfileImporter_a245d52490d8ee1622bbc16136e7fb6f4}\label{classProfileImporter_a245d52490d8ee1622bbc16136e7fb6f4}} 
+\index{ProfileImporter@{ProfileImporter}!putGamecontrMapping@{putGamecontrMapping}}
+\index{putGamecontrMapping@{putGamecontrMapping}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{putGamecontrMapping()}{putGamecontrMapping()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Profile\+Importer\+::put\+Gamecontr\+Mapping (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classProfileImporter_a0b12bddffdfff487d712fb117a96177a}\label{classProfileImporter_a0b12bddffdfff487d712fb117a96177a}} 
+\index{ProfileImporter@{ProfileImporter}!putSettingsFromJoyToKey@{putSettingsFromJoyToKey}}
+\index{putSettingsFromJoyToKey@{putSettingsFromJoyToKey}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{putSettingsFromJoyToKey()}{putSettingsFromJoyToKey()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Profile\+Importer\+::put\+Settings\+From\+Joy\+To\+Key (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classProfileImporter_ad6cbef1368575b8b5271cb553a32b421}\label{classProfileImporter_ad6cbef1368575b8b5271cb553a32b421}} 
+\index{ProfileImporter@{ProfileImporter}!putSettingsFromPinnacle@{putSettingsFromPinnacle}}
+\index{putSettingsFromPinnacle@{putSettingsFromPinnacle}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{putSettingsFromPinnacle()}{putSettingsFromPinnacle()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Profile\+Importer\+::put\+Settings\+From\+Pinnacle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classProfileImporter_a25def5e6ca9030ce3467f30fb2ef6a7d}\label{classProfileImporter_a25def5e6ca9030ce3467f30fb2ef6a7d}} 
+\index{ProfileImporter@{ProfileImporter}!putSettingsFromXPadder@{putSettingsFromXPadder}}
+\index{putSettingsFromXPadder@{putSettingsFromXPadder}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{putSettingsFromXPadder()}{putSettingsFromXPadder()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Profile\+Importer\+::put\+Settings\+From\+X\+Padder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classProfileImporter_a8226ebcfe08dc7acfcc99e168220ea42}\label{classProfileImporter_a8226ebcfe08dc7acfcc99e168220ea42}} 
+\index{ProfileImporter@{ProfileImporter}!putSettingsToApp@{putSettingsToApp}}
+\index{putSettingsToApp@{putSettingsToApp}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{putSettingsToApp()}{putSettingsToApp()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Profile\+Importer\+::put\+Settings\+To\+App (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classProfileImporter_a98749a12edd3ded58bedef1cf3cfee9f}\label{classProfileImporter_a98749a12edd3ded58bedef1cf3cfee9f}} 
+\index{ProfileImporter@{ProfileImporter}!readSettGroups@{readSettGroups}}
+\index{readSettGroups@{readSettGroups}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{readSettGroups()}{readSettGroups()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Profile\+Importer\+::read\+Sett\+Groups (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classProfileImporter_ad7153fbcdaba8de92ab27ff8f4795040}\label{classProfileImporter_ad7153fbcdaba8de92ab27ff8f4795040}} 
+\index{ProfileImporter@{ProfileImporter}!rewriteButtonGroup@{rewriteButtonGroup}}
+\index{rewriteButtonGroup@{rewriteButtonGroup}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{rewriteButtonGroup()}{rewriteButtonGroup()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Profile\+Importer\+::rewrite\+Button\+Group (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{classProfileImporter_ad7153fbcdaba8de92ab27ff8f4795040_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classProfileImporter_ae22373d7e4597dc61c7e7f45c839d9fd}\label{classProfileImporter_ae22373d7e4597dc61c7e7f45c839d9fd}} 
+\index{ProfileImporter@{ProfileImporter}!setDisplayModeJoyToKey@{setDisplayModeJoyToKey}}
+\index{setDisplayModeJoyToKey@{setDisplayModeJoyToKey}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{setDisplayModeJoyToKey()}{setDisplayModeJoyToKey()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Profile\+Importer\+::set\+Display\+Mode\+Joy\+To\+Key (\begin{DoxyParamCaption}\item[{Q\+String const \&}]{display\+Mode }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classProfileImporter_a6c2639fe0c19c23738f92e64d5ae774c}\label{classProfileImporter_a6c2639fe0c19c23738f92e64d5ae774c}} 
+\index{ProfileImporter@{ProfileImporter}!antToCurrGamepads@{antToCurrGamepads}}
+\index{antToCurrGamepads@{antToCurrGamepads}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{antToCurrGamepads}{antToCurrGamepads}}
+{\footnotesize\ttfamily Q\+Hash$<$Q\+String, Q\+String$>$ Profile\+Importer\+::ant\+To\+Curr\+Gamepads\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classProfileImporter_aa19dd8e321dadafe0381b40a2bce4bd2}\label{classProfileImporter_aa19dd8e321dadafe0381b40a2bce4bd2}} 
+\index{ProfileImporter@{ProfileImporter}!buttonMode@{buttonMode}}
+\index{buttonMode@{buttonMode}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{buttonMode}{buttonMode}}
+{\footnotesize\ttfamily Q\+String Profile\+Importer\+::button\+Mode\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classProfileImporter_afc649899d38500220b7a6503bdda7acb}\label{classProfileImporter_afc649899d38500220b7a6503bdda7acb}} 
+\index{ProfileImporter@{ProfileImporter}!chosenFile@{chosenFile}}
+\index{chosenFile@{chosenFile}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{chosenFile}{chosenFile}}
+{\footnotesize\ttfamily Q\+String Profile\+Importer\+::chosen\+File\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classProfileImporter_a20ad1d4758a4061b2a9e9e042d0d3974}\label{classProfileImporter_a20ad1d4758a4061b2a9e9e042d0d3974}} 
+\index{ProfileImporter@{ProfileImporter}!chosenFileSett@{chosenFileSett}}
+\index{chosenFileSett@{chosenFileSett}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{chosenFileSett}{chosenFileSett}}
+{\footnotesize\ttfamily Q\+String Profile\+Importer\+::chosen\+File\+Sett\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classProfileImporter_a58f9861ae7da4cc3c0d86607d8a98a79}\label{classProfileImporter_a58f9861ae7da4cc3c0d86607d8a98a79}} 
+\index{ProfileImporter@{ProfileImporter}!displayedModeJoyToKey@{displayedModeJoyToKey}}
+\index{displayedModeJoyToKey@{displayedModeJoyToKey}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{displayedModeJoyToKey}{displayedModeJoyToKey}}
+{\footnotesize\ttfamily Q\+String Profile\+Importer\+::displayed\+Mode\+Joy\+To\+Key\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classProfileImporter_a0a9d68920506959b4939976bf254dd04}\label{classProfileImporter_a0a9d68920506959b4939976bf254dd04}} 
+\index{ProfileImporter@{ProfileImporter}!radioBtnProfiles@{radioBtnProfiles}}
+\index{radioBtnProfiles@{radioBtnProfiles}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{radioBtnProfiles}{radioBtnProfiles}}
+{\footnotesize\ttfamily Q\+Button\+Group Profile\+Importer\+::radio\+Btn\+Profiles\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classProfileImporter_a8a5c2516e24ac1014331827fec0bccfc}\label{classProfileImporter_a8a5c2516e24ac1014331827fec0bccfc}} 
+\index{ProfileImporter@{ProfileImporter}!settings@{settings}}
+\index{settings@{settings}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{settings}{settings}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classAntiMicroSettings}{Anti\+Micro\+Settings}}$\ast$ Profile\+Importer\+::settings\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classProfileImporter_a180ab83f2c98a15d56542114db77de54}\label{classProfileImporter_a180ab83f2c98a15d56542114db77de54}} 
+\index{ProfileImporter@{ProfileImporter}!ui@{ui}}
+\index{ui@{ui}!ProfileImporter@{ProfileImporter}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Profile\+Importer$\ast$ Profile\+Importer\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{profileimporter_8h}{profileimporter.\+h}}\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{profileimporter_8cpp}{profileimporter.\+cpp}}\end{DoxyCompactItemize}

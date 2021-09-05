@@ -1,0 +1,1458 @@
+\hypertarget{classJoyDPad}{}\doxysection{Joy\+D\+Pad Class Reference}
+\label{classJoyDPad}\index{JoyDPad@{JoyDPad}}
+
+
+{\ttfamily \#include $<$joydpad.\+h$>$}
+
+
+
+Inheritance diagram for Joy\+D\+Pad\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=190pt]{classJoyDPad__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Joy\+D\+Pad\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{classJoyDPad_ad5eb508d94e7de8880c33b4a08d2a5a2}{Joy\+Mode}} \{ \mbox{\hyperlink{classJoyDPad_ad5eb508d94e7de8880c33b4a08d2a5a2afd9dbef4415c084244bb13dee4d4e5e8}{Standard\+Mode}} = 0, 
+\mbox{\hyperlink{classJoyDPad_ad5eb508d94e7de8880c33b4a08d2a5a2a210488598d423c00f70d8f0d4e338019}{Eight\+Way\+Mode}}, 
+\mbox{\hyperlink{classJoyDPad_ad5eb508d94e7de8880c33b4a08d2a5a2a30c47440e0ffc502e39be097732b1d53}{Four\+Way\+Cardinal}}, 
+\mbox{\hyperlink{classJoyDPad_ad5eb508d94e7de8880c33b4a08d2a5a2af894b7a8405a09ac4893f11be56c034f}{Four\+Way\+Diagonal}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_a0892468175ee5ae8e21d0d3a2958eb75}{set\+D\+Pad\+Name}} (Q\+String temp\+Name)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_a33201ba0864060d79943696b369ee3d0}{set\+Buttons\+Spring\+Relative\+Status}} (bool value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_af6ce40c6bed6e6ceb12b2060014d818c}{set\+D\+Pad\+Delay}} (int value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_ab8af58218742db8297018253e56be941}{set\+Buttons\+Easing\+Duration}} (double value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_a2a26dcd4549281492b085f58296f77d6}{establish\+Property\+Updated\+Connection}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_a6579c0ba6c948542825a8415ecc30a3e}{disconnect\+Property\+Updated\+Connection}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_a4bf1289844f0e4c7537a6f0021c6662a}{active}} (int value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_ac13be0949c8eed6f55ca25920f06b960}{released}} (int value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_aa77d0bf75d7d1f1d2db5256db2e10f50}{dpad\+Name\+Changed}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_a4a4af1c2d852f4eab81829896713367e}{dpad\+Delay\+Changed}} (int value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_a1db40c71508768b2ad1472dfd5444c26}{joy\+Mode\+Changed}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_a628d1a553aa0acf58bc12b3bb7e9a671}{property\+Updated}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classJoyDPad_a10f75107588bfe924d270b5151c374e8}{Joy\+D\+Pad}} (int index, int originset, \mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$parent\+Set, Q\+Object $\ast$parent)
+\item 
+\mbox{\hyperlink{classJoyDPad_a8b3567d7f1a2f7b22053578a668e8c7b}{$\sim$\+Joy\+D\+Pad}} ()
+\item 
+\mbox{\hyperlink{classJoyDPadButton}{Joy\+D\+Pad\+Button}} $\ast$ \mbox{\hyperlink{classJoyDPad_a5e31e9bf9edfcc87b69d389dbe9d2ea9}{get\+Joy\+Button}} (int index\+\_\+local)
+\item 
+Q\+Hash$<$ int, \mbox{\hyperlink{classJoyDPadButton}{Joy\+D\+Pad\+Button}} $\ast$ $>$ $\ast$ \mbox{\hyperlink{classJoyDPad_a208a8dec4c87c992cb15705b2a4e4bbb}{get\+Joy\+Buttons}} ()
+\item 
+int \mbox{\hyperlink{classJoyDPad_aacfc91b263be22419a610c023b407c28}{get\+Current\+Direction}} ()
+\item 
+int \mbox{\hyperlink{classJoyDPad_aa46c910612c3a5dba2def75d0c2e811d}{get\+Joy\+Number}} ()
+\item 
+int \mbox{\hyperlink{classJoyDPad_a089e9a69356d82336da47361bfc94b63}{get\+Index}} ()
+\item 
+int \mbox{\hyperlink{classJoyDPad_a71703ba2086819e224bd3bb053e66315}{get\+Real\+Joy\+Number}} ()
+\item 
+virtual Q\+String \mbox{\hyperlink{classJoyDPad_a8c00a13f8997177eb6c1261901081169}{get\+Name}} (bool full\+Force\+Format=false, bool display\+Names=false)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_ac660764f3e958b5c1cf9da1a5d2f2398}{joy\+Event}} (int value, bool ignoresets=false)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_a4c0c94c54a34e3fbb0460c3b5db81f5b}{queue\+Pending\+Event}} (int value, bool ignoresets=false)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_a640159e6d6d1cc955e74b95b3f45834c}{activate\+Pending\+Event}} ()
+\item 
+bool \mbox{\hyperlink{classJoyDPad_a0c62d470eb5f14bdcbd67a51e15892d3}{has\+Pending\+Event}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_a161f5ef35cd1df44b96f2e12b398ba03}{clear\+Pending\+Event}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_ae912673a382e0ffcdd1472373ffe832b}{set\+Joy\+Mode}} (\mbox{\hyperlink{classJoyDPad_ad5eb508d94e7de8880c33b4a08d2a5a2}{Joy\+Mode}} mode)
+\item 
+\mbox{\hyperlink{classJoyDPad_ad5eb508d94e7de8880c33b4a08d2a5a2}{Joy\+Mode}} \mbox{\hyperlink{classJoyDPad_a49c84e10ea78221ef1d42a2f986f05e8}{get\+Joy\+Mode}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_aa20b65bef79d9e80894a9be835b441c1}{release\+Button\+Events}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_a16141810b2675be301c8f17f5d85df35}{set\+Buttons\+Mouse\+Mode}} (\mbox{\hyperlink{classJoyButton_a446f2d6cbca378687cf8babb3028b427}{Joy\+Button\+::\+Joy\+Mouse\+Movement\+Mode}} mode)
+\item 
+bool \mbox{\hyperlink{classJoyDPad_a7b674ffb6fd19a79821d36f57559dd05}{has\+Same\+Buttons\+Mouse\+Mode}} ()
+\item 
+\mbox{\hyperlink{classJoyButton_a446f2d6cbca378687cf8babb3028b427}{Joy\+Button\+::\+Joy\+Mouse\+Movement\+Mode}} \mbox{\hyperlink{classJoyDPad_a97c266bf8ed61a46e4b28763a8600b9c}{get\+Buttons\+Preset\+Mouse\+Mode}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_a71c017ff05d79f5b54cfef648d333a43}{set\+Buttons\+Mouse\+Curve}} (\mbox{\hyperlink{classJoyButton_a82158c2f018dfe990a82d273baf3a838}{Joy\+Button\+::\+Joy\+Mouse\+Curve}} mouse\+Curve)
+\item 
+bool \mbox{\hyperlink{classJoyDPad_ae80be85f9d07de9831c25fbcdef74435}{has\+Same\+Buttons\+Mouse\+Curve}} ()
+\item 
+\mbox{\hyperlink{classJoyButton_a82158c2f018dfe990a82d273baf3a838}{Joy\+Button\+::\+Joy\+Mouse\+Curve}} \mbox{\hyperlink{classJoyDPad_a722fc66bb8d37b33bbd7428097ca5e87}{get\+Buttons\+Preset\+Mouse\+Curve}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_a155353a48732ebfab8dab8d9e3be14f5}{set\+Buttons\+Spring\+Width}} (int value)
+\item 
+int \mbox{\hyperlink{classJoyDPad_ad1638afc0dcb1b0e8d4b6f3437dc1500}{get\+Buttons\+Preset\+Spring\+Width}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_ac2c481f80732eef621d521115255ff64}{set\+Buttons\+Spring\+Height}} (int value)
+\item 
+int \mbox{\hyperlink{classJoyDPad_a6cecd2ad02ab688232c1a0b7f5f409c0}{get\+Buttons\+Preset\+Spring\+Height}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_acc343dad148487a16a4c39ff1b41eef9}{set\+Buttons\+Sensitivity}} (double value)
+\item 
+double \mbox{\hyperlink{classJoyDPad_ab9aff31791b13e46b86c3d48fc6d6120}{get\+Buttons\+Preset\+Sensitivity}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_a53a0298cc9b532d667ffb75405924d73}{set\+Buttons\+Wheel\+SpeedX}} (int value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_af829358b03e72b2348903dbe98e1ae1c}{set\+Buttons\+Wheel\+SpeedY}} (int value)
+\item 
+const Q\+String \mbox{\hyperlink{classJoyDPad_a45b740263205203bd20f34e375f40ac2}{get\+Dpad\+Name}} ()
+\item 
+const Q\+String \mbox{\hyperlink{classJoyDPad_a56bbead27e9c6f7167eaad13740e80b1}{get\+Default\+Dpad\+Name}} ()
+\item 
+virtual bool \mbox{\hyperlink{classJoyDPad_a47fdbc27e27a579c445487871d39d2bc}{is\+Default}} ()
+\item 
+Q\+Hash$<$ int, \mbox{\hyperlink{classJoyDPadButton}{Joy\+D\+Pad\+Button}} $\ast$ $>$ $\ast$ \mbox{\hyperlink{classJoyDPad_a2f5d634341589f42960a9ecc41454112}{get\+Buttons}} ()
+\item 
+virtual Q\+String \mbox{\hyperlink{classJoyDPad_aa386be14807e2d63106acaa35e5c539c}{get\+Xml\+Name}} ()
+\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_a7cd0b461c99bfcb99e7d6dc49d641e53}{set\+Default\+D\+Pad\+Name}} (Q\+String tempname)
+\item 
+virtual Q\+String \mbox{\hyperlink{classJoyDPad_a892bdee9aa6187942a5b95f827bca9e7}{get\+Default\+D\+Pad\+Name}} ()
+\item 
+\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$ \mbox{\hyperlink{classJoyDPad_a0101f057cf5bfc971812c6497439ab79}{get\+Parent\+Set}} ()
+\item 
+bool \mbox{\hyperlink{classJoyDPad_a5c10cb88c9a0756be186cc5cc18ad341}{has\+Slots\+Assigned}} ()
+\item 
+bool \mbox{\hyperlink{classJoyDPad_a20e4100b10190828486a8b6674f9d7cd}{is\+Relative\+Spring}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_ad7787a985beddc065f2818df29fd5b77}{copy\+Assignments}} (\mbox{\hyperlink{classJoyDPad}{Joy\+D\+Pad}} $\ast$dest\+D\+Pad)
+\item 
+int \mbox{\hyperlink{classJoyDPad_a642b801fba7ca92115b95eb6d0d95b52}{get\+D\+Pad\+Delay}} ()
+\item 
+double \mbox{\hyperlink{classJoyDPad_a49e8b7e480c4d4597815fcec65cc0112}{get\+Buttons\+Easing\+Duration}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_af25535647967f25606f7432047fc88c7}{set\+Buttons\+Spring\+Dead\+Circle\+Multiplier}} (int value)
+\item 
+int \mbox{\hyperlink{classJoyDPad_a89fe10b4ca2c7ecddcb372f659fc1dcb}{get\+Buttons\+Spring\+Dead\+Circle\+Multiplier}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_a78408a77db3e1eb1b5e2e8c828270e58}{set\+Buttons\+Extra\+Acceleration\+Curve}} (\mbox{\hyperlink{classJoyButton_a81cd310753932a72e3a377ba64f13e40}{Joy\+Button\+::\+Joy\+Extra\+Acceleration\+Curve}} curve)
+\item 
+\mbox{\hyperlink{classJoyButton_a81cd310753932a72e3a377ba64f13e40}{Joy\+Button\+::\+Joy\+Extra\+Acceleration\+Curve}} \mbox{\hyperlink{classJoyDPad_aab3df2ad40eacaed9f1f9c5b4f415321}{get\+Buttons\+Extra\+Acceleration\+Curve}} ()
+\item 
+Q\+Hash$<$ int, \mbox{\hyperlink{classJoyDPadButton}{Joy\+D\+Pad\+Button}} $\ast$ $>$ \mbox{\hyperlink{classJoyDPad_a4dcb714f1a34520dd2c20c87cc4ddf0c}{get\+Direction\+Buttons}} (\mbox{\hyperlink{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729a}{Joy\+D\+Pad\+Button\+::\+Joy\+D\+Pad\+Directions}} direction)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_a149825c6d416c115672abb16b3ee86a7}{set\+Dir\+Buttons\+Update\+Init\+Accel}} (\mbox{\hyperlink{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729a}{Joy\+D\+Pad\+Button\+::\+Joy\+D\+Pad\+Directions}} direction, bool state)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_a186804e6136416d445240e79c9329284}{copy\+Last\+Distance\+Values}} (\mbox{\hyperlink{classJoyDPad}{Joy\+D\+Pad}} $\ast$src\+D\+Pad)
+\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_a2b41cc51a860cc9b1475938c16da5dba}{event\+Reset}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_a34741c739ea51b8a4116be258667054c}{populate\+Buttons}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_a1f5c5db45f36b205d1c4a43f1616950a}{create\+Desk\+Event}} (bool ignoresets=false)
+\item 
+Q\+Hash$<$ int, \mbox{\hyperlink{classJoyDPadButton}{Joy\+D\+Pad\+Button}} $\ast$ $>$ \mbox{\hyperlink{classJoyDPad_a5f5921607d183f4f221f3a4f97249d8e}{get\+Applicable\+Buttons}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyDPad_adfcee6e2b57a7e643c74c26159a32997}{dpad\+Direction\+Change\+Event}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Hash$<$ int, \mbox{\hyperlink{classJoyDPadButton}{Joy\+D\+Pad\+Button}} $\ast$ $>$ \mbox{\hyperlink{classJoyDPad_ae5c98c3a1be207d91f5fd6f2a5fe37ec}{buttons}}
+\item 
+\mbox{\hyperlink{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729a}{Joy\+D\+Pad\+Button\+::\+Joy\+D\+Pad\+Directions}} \mbox{\hyperlink{classJoyDPad_a6f851957f8b8702f1cf84eb9a5cb6b1d}{prev\+Direction}}
+\item 
+\mbox{\hyperlink{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729a}{Joy\+D\+Pad\+Button\+::\+Joy\+D\+Pad\+Directions}} \mbox{\hyperlink{classJoyDPad_ae0bd782083dcd1abd065e2c01478feee}{pending\+Direction}}
+\item 
+\mbox{\hyperlink{classJoyDPadButton}{Joy\+D\+Pad\+Button}} $\ast$ \mbox{\hyperlink{classJoyDPad_a83f9724b4502cfa5fca4a315e5f506b0}{active\+Diagonal\+Button}}
+\item 
+Q\+String \mbox{\hyperlink{classJoyDPad_aabfd8317dc56eb3af72679eb205f181d}{dpad\+Name}}
+\item 
+Q\+String \mbox{\hyperlink{classJoyDPad_a1bd2221006047313109b3c05b2fdf196}{default\+D\+Pad\+Name}}
+\item 
+\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$ \mbox{\hyperlink{classJoyDPad_a1c1854b38da8062ee473ac57ad1d5751}{m\+\_\+parent\+Set}}
+\item 
+Q\+Timer \mbox{\hyperlink{classJoyDPad_a2b1d6eaa880be294ad14fd7113f57b35}{direction\+Delay\+Timer}}
+\item 
+\mbox{\hyperlink{classJoyDPad_ad5eb508d94e7de8880c33b4a08d2a5a2}{Joy\+Mode}} \mbox{\hyperlink{classJoyDPad_a5f775847843410e6299b7657452f071f}{current\+Mode}}
+\item 
+int \mbox{\hyperlink{classJoyDPad_aa6ea976bc1cd78ca83f1bd8fb5bca334}{m\+\_\+index}}
+\item 
+int \mbox{\hyperlink{classJoyDPad_a5cf1a8d67b86400d6d98b12a337dd058}{m\+\_\+originset}}
+\item 
+int \mbox{\hyperlink{classJoyDPad_a39480de1273731b5e4fb17971044f882}{dpad\+Delay}}
+\item 
+int \mbox{\hyperlink{classJoyDPad_abeec1ac67316a9e4ff3255c146531035}{pending\+Event\+Direction}}
+\item 
+bool \mbox{\hyperlink{classJoyDPad_afa92929c4cdb052bb07fc35909dc85c9}{pending\+Event}}
+\item 
+bool \mbox{\hyperlink{classJoyDPad_adbddfb2c75c5c51edc1f1edfe1df3989}{pending\+Ignore\+Sets}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{classJoyDPad_ad5eb508d94e7de8880c33b4a08d2a5a2}\label{classJoyDPad_ad5eb508d94e7de8880c33b4a08d2a5a2}} 
+\index{JoyDPad@{JoyDPad}!JoyMode@{JoyMode}}
+\index{JoyMode@{JoyMode}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{JoyMode}{JoyMode}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{classJoyDPad_ad5eb508d94e7de8880c33b4a08d2a5a2}{Joy\+D\+Pad\+::\+Joy\+Mode}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{StandardMode@{StandardMode}!JoyDPad@{JoyDPad}}\index{JoyDPad@{JoyDPad}!StandardMode@{StandardMode}}}\mbox{\Hypertarget{classJoyDPad_ad5eb508d94e7de8880c33b4a08d2a5a2afd9dbef4415c084244bb13dee4d4e5e8}\label{classJoyDPad_ad5eb508d94e7de8880c33b4a08d2a5a2afd9dbef4415c084244bb13dee4d4e5e8}} 
+Standard\+Mode&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EightWayMode@{EightWayMode}!JoyDPad@{JoyDPad}}\index{JoyDPad@{JoyDPad}!EightWayMode@{EightWayMode}}}\mbox{\Hypertarget{classJoyDPad_ad5eb508d94e7de8880c33b4a08d2a5a2a210488598d423c00f70d8f0d4e338019}\label{classJoyDPad_ad5eb508d94e7de8880c33b4a08d2a5a2a210488598d423c00f70d8f0d4e338019}} 
+Eight\+Way\+Mode&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{FourWayCardinal@{FourWayCardinal}!JoyDPad@{JoyDPad}}\index{JoyDPad@{JoyDPad}!FourWayCardinal@{FourWayCardinal}}}\mbox{\Hypertarget{classJoyDPad_ad5eb508d94e7de8880c33b4a08d2a5a2a30c47440e0ffc502e39be097732b1d53}\label{classJoyDPad_ad5eb508d94e7de8880c33b4a08d2a5a2a30c47440e0ffc502e39be097732b1d53}} 
+Four\+Way\+Cardinal&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{FourWayDiagonal@{FourWayDiagonal}!JoyDPad@{JoyDPad}}\index{JoyDPad@{JoyDPad}!FourWayDiagonal@{FourWayDiagonal}}}\mbox{\Hypertarget{classJoyDPad_ad5eb508d94e7de8880c33b4a08d2a5a2af894b7a8405a09ac4893f11be56c034f}\label{classJoyDPad_ad5eb508d94e7de8880c33b4a08d2a5a2af894b7a8405a09ac4893f11be56c034f}} 
+Four\+Way\+Diagonal&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classJoyDPad_a10f75107588bfe924d270b5151c374e8}\label{classJoyDPad_a10f75107588bfe924d270b5151c374e8}} 
+\index{JoyDPad@{JoyDPad}!JoyDPad@{JoyDPad}}
+\index{JoyDPad@{JoyDPad}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{JoyDPad()}{JoyDPad()}}
+{\footnotesize\ttfamily Joy\+D\+Pad\+::\+Joy\+D\+Pad (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{int}]{originset,  }\item[{\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$}]{parent\+Set,  }\item[{Q\+Object $\ast$}]{parent }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a10f75107588bfe924d270b5151c374e8_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a8b3567d7f1a2f7b22053578a668e8c7b}\label{classJoyDPad_a8b3567d7f1a2f7b22053578a668e8c7b}} 
+\index{JoyDPad@{JoyDPad}!````~JoyDPad@{$\sim$JoyDPad}}
+\index{````~JoyDPad@{$\sim$JoyDPad}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{$\sim$JoyDPad()}{~JoyDPad()}}
+{\footnotesize\ttfamily Joy\+D\+Pad\+::$\sim$\+Joy\+D\+Pad (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classJoyDPad_a640159e6d6d1cc955e74b95b3f45834c}\label{classJoyDPad_a640159e6d6d1cc955e74b95b3f45834c}} 
+\index{JoyDPad@{JoyDPad}!activatePendingEvent@{activatePendingEvent}}
+\index{activatePendingEvent@{activatePendingEvent}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{activatePendingEvent()}{activatePendingEvent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::activate\+Pending\+Event (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a640159e6d6d1cc955e74b95b3f45834c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a640159e6d6d1cc955e74b95b3f45834c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a4bf1289844f0e4c7537a6f0021c6662a}\label{classJoyDPad_a4bf1289844f0e4c7537a6f0021c6662a}} 
+\index{JoyDPad@{JoyDPad}!active@{active}}
+\index{active@{active}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{active}{active}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::active (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a4bf1289844f0e4c7537a6f0021c6662a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a161f5ef35cd1df44b96f2e12b398ba03}\label{classJoyDPad_a161f5ef35cd1df44b96f2e12b398ba03}} 
+\index{JoyDPad@{JoyDPad}!clearPendingEvent@{clearPendingEvent}}
+\index{clearPendingEvent@{clearPendingEvent}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{clearPendingEvent()}{clearPendingEvent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::clear\+Pending\+Event (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a161f5ef35cd1df44b96f2e12b398ba03_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_ad7787a985beddc065f2818df29fd5b77}\label{classJoyDPad_ad7787a985beddc065f2818df29fd5b77}} 
+\index{JoyDPad@{JoyDPad}!copyAssignments@{copyAssignments}}
+\index{copyAssignments@{copyAssignments}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{copyAssignments()}{copyAssignments()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::copy\+Assignments (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyDPad}{Joy\+D\+Pad}} $\ast$}]{dest\+D\+Pad }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_ad7787a985beddc065f2818df29fd5b77_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_ad7787a985beddc065f2818df29fd5b77_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a186804e6136416d445240e79c9329284}\label{classJoyDPad_a186804e6136416d445240e79c9329284}} 
+\index{JoyDPad@{JoyDPad}!copyLastDistanceValues@{copyLastDistanceValues}}
+\index{copyLastDistanceValues@{copyLastDistanceValues}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{copyLastDistanceValues()}{copyLastDistanceValues()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::copy\+Last\+Distance\+Values (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyDPad}{Joy\+D\+Pad}} $\ast$}]{src\+D\+Pad }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a186804e6136416d445240e79c9329284_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a186804e6136416d445240e79c9329284_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a1f5c5db45f36b205d1c4a43f1616950a}\label{classJoyDPad_a1f5c5db45f36b205d1c4a43f1616950a}} 
+\index{JoyDPad@{JoyDPad}!createDeskEvent@{createDeskEvent}}
+\index{createDeskEvent@{createDeskEvent}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{createDeskEvent()}{createDeskEvent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::create\+Desk\+Event (\begin{DoxyParamCaption}\item[{bool}]{ignoresets = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a1f5c5db45f36b205d1c4a43f1616950a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a1f5c5db45f36b205d1c4a43f1616950a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a6579c0ba6c948542825a8415ecc30a3e}\label{classJoyDPad_a6579c0ba6c948542825a8415ecc30a3e}} 
+\index{JoyDPad@{JoyDPad}!disconnectPropertyUpdatedConnection@{disconnectPropertyUpdatedConnection}}
+\index{disconnectPropertyUpdatedConnection@{disconnectPropertyUpdatedConnection}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{disconnectPropertyUpdatedConnection}{disconnectPropertyUpdatedConnection}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::disconnect\+Property\+Updated\+Connection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a6579c0ba6c948542825a8415ecc30a3e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a4a4af1c2d852f4eab81829896713367e}\label{classJoyDPad_a4a4af1c2d852f4eab81829896713367e}} 
+\index{JoyDPad@{JoyDPad}!dpadDelayChanged@{dpadDelayChanged}}
+\index{dpadDelayChanged@{dpadDelayChanged}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{dpadDelayChanged}{dpadDelayChanged}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::dpad\+Delay\+Changed (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a4a4af1c2d852f4eab81829896713367e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_adfcee6e2b57a7e643c74c26159a32997}\label{classJoyDPad_adfcee6e2b57a7e643c74c26159a32997}} 
+\index{JoyDPad@{JoyDPad}!dpadDirectionChangeEvent@{dpadDirectionChangeEvent}}
+\index{dpadDirectionChangeEvent@{dpadDirectionChangeEvent}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{dpadDirectionChangeEvent}{dpadDirectionChangeEvent}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::dpad\+Direction\+Change\+Event (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_adfcee6e2b57a7e643c74c26159a32997_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_adfcee6e2b57a7e643c74c26159a32997_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_aa77d0bf75d7d1f1d2db5256db2e10f50}\label{classJoyDPad_aa77d0bf75d7d1f1d2db5256db2e10f50}} 
+\index{JoyDPad@{JoyDPad}!dpadNameChanged@{dpadNameChanged}}
+\index{dpadNameChanged@{dpadNameChanged}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{dpadNameChanged}{dpadNameChanged}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::dpad\+Name\+Changed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_aa77d0bf75d7d1f1d2db5256db2e10f50_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a2a26dcd4549281492b085f58296f77d6}\label{classJoyDPad_a2a26dcd4549281492b085f58296f77d6}} 
+\index{JoyDPad@{JoyDPad}!establishPropertyUpdatedConnection@{establishPropertyUpdatedConnection}}
+\index{establishPropertyUpdatedConnection@{establishPropertyUpdatedConnection}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{establishPropertyUpdatedConnection}{establishPropertyUpdatedConnection}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::establish\+Property\+Updated\+Connection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a2a26dcd4549281492b085f58296f77d6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a2a26dcd4549281492b085f58296f77d6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a2b41cc51a860cc9b1475938c16da5dba}\label{classJoyDPad_a2b41cc51a860cc9b1475938c16da5dba}} 
+\index{JoyDPad@{JoyDPad}!eventReset@{eventReset}}
+\index{eventReset@{eventReset}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{eventReset()}{eventReset()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::event\+Reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a2b41cc51a860cc9b1475938c16da5dba_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a2b41cc51a860cc9b1475938c16da5dba_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a5f5921607d183f4f221f3a4f97249d8e}\label{classJoyDPad_a5f5921607d183f4f221f3a4f97249d8e}} 
+\index{JoyDPad@{JoyDPad}!getApplicableButtons@{getApplicableButtons}}
+\index{getApplicableButtons@{getApplicableButtons}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{getApplicableButtons()}{getApplicableButtons()}}
+{\footnotesize\ttfamily Q\+Hash$<$ int, \mbox{\hyperlink{classJoyDPadButton}{Joy\+D\+Pad\+Button}} $\ast$ $>$ Joy\+D\+Pad\+::get\+Applicable\+Buttons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a5f5921607d183f4f221f3a4f97249d8e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a2f5d634341589f42960a9ecc41454112}\label{classJoyDPad_a2f5d634341589f42960a9ecc41454112}} 
+\index{JoyDPad@{JoyDPad}!getButtons@{getButtons}}
+\index{getButtons@{getButtons}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{getButtons()}{getButtons()}}
+{\footnotesize\ttfamily Q\+Hash$<$ int, \mbox{\hyperlink{classJoyDPadButton}{Joy\+D\+Pad\+Button}} $\ast$ $>$ $\ast$ Joy\+D\+Pad\+::get\+Buttons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a2f5d634341589f42960a9ecc41454112_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a49e8b7e480c4d4597815fcec65cc0112}\label{classJoyDPad_a49e8b7e480c4d4597815fcec65cc0112}} 
+\index{JoyDPad@{JoyDPad}!getButtonsEasingDuration@{getButtonsEasingDuration}}
+\index{getButtonsEasingDuration@{getButtonsEasingDuration}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{getButtonsEasingDuration()}{getButtonsEasingDuration()}}
+{\footnotesize\ttfamily double Joy\+D\+Pad\+::get\+Buttons\+Easing\+Duration (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a49e8b7e480c4d4597815fcec65cc0112_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a49e8b7e480c4d4597815fcec65cc0112_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_aab3df2ad40eacaed9f1f9c5b4f415321}\label{classJoyDPad_aab3df2ad40eacaed9f1f9c5b4f415321}} 
+\index{JoyDPad@{JoyDPad}!getButtonsExtraAccelerationCurve@{getButtonsExtraAccelerationCurve}}
+\index{getButtonsExtraAccelerationCurve@{getButtonsExtraAccelerationCurve}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{getButtonsExtraAccelerationCurve()}{getButtonsExtraAccelerationCurve()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyButton_a81cd310753932a72e3a377ba64f13e40}{Joy\+Button\+::\+Joy\+Extra\+Acceleration\+Curve}} Joy\+D\+Pad\+::get\+Buttons\+Extra\+Acceleration\+Curve (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_aab3df2ad40eacaed9f1f9c5b4f415321_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_aab3df2ad40eacaed9f1f9c5b4f415321_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a722fc66bb8d37b33bbd7428097ca5e87}\label{classJoyDPad_a722fc66bb8d37b33bbd7428097ca5e87}} 
+\index{JoyDPad@{JoyDPad}!getButtonsPresetMouseCurve@{getButtonsPresetMouseCurve}}
+\index{getButtonsPresetMouseCurve@{getButtonsPresetMouseCurve}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{getButtonsPresetMouseCurve()}{getButtonsPresetMouseCurve()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyButton_a82158c2f018dfe990a82d273baf3a838}{Joy\+Button\+::\+Joy\+Mouse\+Curve}} Joy\+D\+Pad\+::get\+Buttons\+Preset\+Mouse\+Curve (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a722fc66bb8d37b33bbd7428097ca5e87_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a722fc66bb8d37b33bbd7428097ca5e87_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a97c266bf8ed61a46e4b28763a8600b9c}\label{classJoyDPad_a97c266bf8ed61a46e4b28763a8600b9c}} 
+\index{JoyDPad@{JoyDPad}!getButtonsPresetMouseMode@{getButtonsPresetMouseMode}}
+\index{getButtonsPresetMouseMode@{getButtonsPresetMouseMode}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{getButtonsPresetMouseMode()}{getButtonsPresetMouseMode()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyButton_a446f2d6cbca378687cf8babb3028b427}{Joy\+Button\+::\+Joy\+Mouse\+Movement\+Mode}} Joy\+D\+Pad\+::get\+Buttons\+Preset\+Mouse\+Mode (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a97c266bf8ed61a46e4b28763a8600b9c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a97c266bf8ed61a46e4b28763a8600b9c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_ab9aff31791b13e46b86c3d48fc6d6120}\label{classJoyDPad_ab9aff31791b13e46b86c3d48fc6d6120}} 
+\index{JoyDPad@{JoyDPad}!getButtonsPresetSensitivity@{getButtonsPresetSensitivity}}
+\index{getButtonsPresetSensitivity@{getButtonsPresetSensitivity}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{getButtonsPresetSensitivity()}{getButtonsPresetSensitivity()}}
+{\footnotesize\ttfamily double Joy\+D\+Pad\+::get\+Buttons\+Preset\+Sensitivity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_ab9aff31791b13e46b86c3d48fc6d6120_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_ab9aff31791b13e46b86c3d48fc6d6120_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a6cecd2ad02ab688232c1a0b7f5f409c0}\label{classJoyDPad_a6cecd2ad02ab688232c1a0b7f5f409c0}} 
+\index{JoyDPad@{JoyDPad}!getButtonsPresetSpringHeight@{getButtonsPresetSpringHeight}}
+\index{getButtonsPresetSpringHeight@{getButtonsPresetSpringHeight}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{getButtonsPresetSpringHeight()}{getButtonsPresetSpringHeight()}}
+{\footnotesize\ttfamily int Joy\+D\+Pad\+::get\+Buttons\+Preset\+Spring\+Height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a6cecd2ad02ab688232c1a0b7f5f409c0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a6cecd2ad02ab688232c1a0b7f5f409c0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_ad1638afc0dcb1b0e8d4b6f3437dc1500}\label{classJoyDPad_ad1638afc0dcb1b0e8d4b6f3437dc1500}} 
+\index{JoyDPad@{JoyDPad}!getButtonsPresetSpringWidth@{getButtonsPresetSpringWidth}}
+\index{getButtonsPresetSpringWidth@{getButtonsPresetSpringWidth}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{getButtonsPresetSpringWidth()}{getButtonsPresetSpringWidth()}}
+{\footnotesize\ttfamily int Joy\+D\+Pad\+::get\+Buttons\+Preset\+Spring\+Width (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_ad1638afc0dcb1b0e8d4b6f3437dc1500_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_ad1638afc0dcb1b0e8d4b6f3437dc1500_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a89fe10b4ca2c7ecddcb372f659fc1dcb}\label{classJoyDPad_a89fe10b4ca2c7ecddcb372f659fc1dcb}} 
+\index{JoyDPad@{JoyDPad}!getButtonsSpringDeadCircleMultiplier@{getButtonsSpringDeadCircleMultiplier}}
+\index{getButtonsSpringDeadCircleMultiplier@{getButtonsSpringDeadCircleMultiplier}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{getButtonsSpringDeadCircleMultiplier()}{getButtonsSpringDeadCircleMultiplier()}}
+{\footnotesize\ttfamily int Joy\+D\+Pad\+::get\+Buttons\+Spring\+Dead\+Circle\+Multiplier (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a89fe10b4ca2c7ecddcb372f659fc1dcb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a89fe10b4ca2c7ecddcb372f659fc1dcb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_aacfc91b263be22419a610c023b407c28}\label{classJoyDPad_aacfc91b263be22419a610c023b407c28}} 
+\index{JoyDPad@{JoyDPad}!getCurrentDirection@{getCurrentDirection}}
+\index{getCurrentDirection@{getCurrentDirection}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{getCurrentDirection()}{getCurrentDirection()}}
+{\footnotesize\ttfamily int Joy\+D\+Pad\+::get\+Current\+Direction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_aacfc91b263be22419a610c023b407c28_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a56bbead27e9c6f7167eaad13740e80b1}\label{classJoyDPad_a56bbead27e9c6f7167eaad13740e80b1}} 
+\index{JoyDPad@{JoyDPad}!getDefaultDpadName@{getDefaultDpadName}}
+\index{getDefaultDpadName@{getDefaultDpadName}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{getDefaultDpadName()}{getDefaultDpadName()}}
+{\footnotesize\ttfamily const Q\+String Joy\+D\+Pad\+::get\+Default\+Dpad\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a56bbead27e9c6f7167eaad13740e80b1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a892bdee9aa6187942a5b95f827bca9e7}\label{classJoyDPad_a892bdee9aa6187942a5b95f827bca9e7}} 
+\index{JoyDPad@{JoyDPad}!getDefaultDPadName@{getDefaultDPadName}}
+\index{getDefaultDPadName@{getDefaultDPadName}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{getDefaultDPadName()}{getDefaultDPadName()}}
+{\footnotesize\ttfamily Q\+String Joy\+D\+Pad\+::get\+Default\+D\+Pad\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{classJoyDPad_a4dcb714f1a34520dd2c20c87cc4ddf0c}\label{classJoyDPad_a4dcb714f1a34520dd2c20c87cc4ddf0c}} 
+\index{JoyDPad@{JoyDPad}!getDirectionButtons@{getDirectionButtons}}
+\index{getDirectionButtons@{getDirectionButtons}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{getDirectionButtons()}{getDirectionButtons()}}
+{\footnotesize\ttfamily Q\+Hash$<$ int, \mbox{\hyperlink{classJoyDPadButton}{Joy\+D\+Pad\+Button}} $\ast$ $>$ Joy\+D\+Pad\+::get\+Direction\+Buttons (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729a}{Joy\+D\+Pad\+Button\+::\+Joy\+D\+Pad\+Directions}}}]{direction }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a4dcb714f1a34520dd2c20c87cc4ddf0c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a642b801fba7ca92115b95eb6d0d95b52}\label{classJoyDPad_a642b801fba7ca92115b95eb6d0d95b52}} 
+\index{JoyDPad@{JoyDPad}!getDPadDelay@{getDPadDelay}}
+\index{getDPadDelay@{getDPadDelay}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{getDPadDelay()}{getDPadDelay()}}
+{\footnotesize\ttfamily int Joy\+D\+Pad\+::get\+D\+Pad\+Delay (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a642b801fba7ca92115b95eb6d0d95b52_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a45b740263205203bd20f34e375f40ac2}\label{classJoyDPad_a45b740263205203bd20f34e375f40ac2}} 
+\index{JoyDPad@{JoyDPad}!getDpadName@{getDpadName}}
+\index{getDpadName@{getDpadName}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{getDpadName()}{getDpadName()}}
+{\footnotesize\ttfamily const Q\+String Joy\+D\+Pad\+::get\+Dpad\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a45b740263205203bd20f34e375f40ac2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a089e9a69356d82336da47361bfc94b63}\label{classJoyDPad_a089e9a69356d82336da47361bfc94b63}} 
+\index{JoyDPad@{JoyDPad}!getIndex@{getIndex}}
+\index{getIndex@{getIndex}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{getIndex()}{getIndex()}}
+{\footnotesize\ttfamily int Joy\+D\+Pad\+::get\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a089e9a69356d82336da47361bfc94b63_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a5e31e9bf9edfcc87b69d389dbe9d2ea9}\label{classJoyDPad_a5e31e9bf9edfcc87b69d389dbe9d2ea9}} 
+\index{JoyDPad@{JoyDPad}!getJoyButton@{getJoyButton}}
+\index{getJoyButton@{getJoyButton}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{getJoyButton()}{getJoyButton()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyDPadButton}{Joy\+D\+Pad\+Button}} $\ast$ Joy\+D\+Pad\+::get\+Joy\+Button (\begin{DoxyParamCaption}\item[{int}]{index\+\_\+local }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a5e31e9bf9edfcc87b69d389dbe9d2ea9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a208a8dec4c87c992cb15705b2a4e4bbb}\label{classJoyDPad_a208a8dec4c87c992cb15705b2a4e4bbb}} 
+\index{JoyDPad@{JoyDPad}!getJoyButtons@{getJoyButtons}}
+\index{getJoyButtons@{getJoyButtons}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{getJoyButtons()}{getJoyButtons()}}
+{\footnotesize\ttfamily Q\+Hash$<$ int, \mbox{\hyperlink{classJoyDPadButton}{Joy\+D\+Pad\+Button}} $\ast$ $>$ $\ast$ Joy\+D\+Pad\+::get\+Joy\+Buttons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a208a8dec4c87c992cb15705b2a4e4bbb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a49c84e10ea78221ef1d42a2f986f05e8}\label{classJoyDPad_a49c84e10ea78221ef1d42a2f986f05e8}} 
+\index{JoyDPad@{JoyDPad}!getJoyMode@{getJoyMode}}
+\index{getJoyMode@{getJoyMode}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{getJoyMode()}{getJoyMode()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyDPad_ad5eb508d94e7de8880c33b4a08d2a5a2}{Joy\+D\+Pad\+::\+Joy\+Mode}} Joy\+D\+Pad\+::get\+Joy\+Mode (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a49c84e10ea78221ef1d42a2f986f05e8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_aa46c910612c3a5dba2def75d0c2e811d}\label{classJoyDPad_aa46c910612c3a5dba2def75d0c2e811d}} 
+\index{JoyDPad@{JoyDPad}!getJoyNumber@{getJoyNumber}}
+\index{getJoyNumber@{getJoyNumber}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{getJoyNumber()}{getJoyNumber()}}
+{\footnotesize\ttfamily int Joy\+D\+Pad\+::get\+Joy\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_aa46c910612c3a5dba2def75d0c2e811d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a8c00a13f8997177eb6c1261901081169}\label{classJoyDPad_a8c00a13f8997177eb6c1261901081169}} 
+\index{JoyDPad@{JoyDPad}!getName@{getName}}
+\index{getName@{getName}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily Q\+String Joy\+D\+Pad\+::get\+Name (\begin{DoxyParamCaption}\item[{bool}]{full\+Force\+Format = {\ttfamily false},  }\item[{bool}]{display\+Names = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classVDPad_a42e3e226c3080939428095a12856b9a9}{V\+D\+Pad}}, and \mbox{\hyperlink{classGameControllerDPad_a415e52bdfdd12bd742a86b2237f6e11a}{Game\+Controller\+D\+Pad}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a8c00a13f8997177eb6c1261901081169_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a8c00a13f8997177eb6c1261901081169_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a0101f057cf5bfc971812c6497439ab79}\label{classJoyDPad_a0101f057cf5bfc971812c6497439ab79}} 
+\index{JoyDPad@{JoyDPad}!getParentSet@{getParentSet}}
+\index{getParentSet@{getParentSet}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{getParentSet()}{getParentSet()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$ Joy\+D\+Pad\+::get\+Parent\+Set (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a0101f057cf5bfc971812c6497439ab79_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a71703ba2086819e224bd3bb053e66315}\label{classJoyDPad_a71703ba2086819e224bd3bb053e66315}} 
+\index{JoyDPad@{JoyDPad}!getRealJoyNumber@{getRealJoyNumber}}
+\index{getRealJoyNumber@{getRealJoyNumber}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{getRealJoyNumber()}{getRealJoyNumber()}}
+{\footnotesize\ttfamily int Joy\+D\+Pad\+::get\+Real\+Joy\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a71703ba2086819e224bd3bb053e66315_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_aa386be14807e2d63106acaa35e5c539c}\label{classJoyDPad_aa386be14807e2d63106acaa35e5c539c}} 
+\index{JoyDPad@{JoyDPad}!getXmlName@{getXmlName}}
+\index{getXmlName@{getXmlName}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{getXmlName()}{getXmlName()}}
+{\footnotesize\ttfamily Q\+String Joy\+D\+Pad\+::get\+Xml\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classVDPad_a2891a9635fadb47e56254fd146344391}{V\+D\+Pad}}, and \mbox{\hyperlink{classGameControllerDPad_af06cd2cc0f4aeb181020baf1149535b4}{Game\+Controller\+D\+Pad}}.
+
+\mbox{\Hypertarget{classJoyDPad_a0c62d470eb5f14bdcbd67a51e15892d3}\label{classJoyDPad_a0c62d470eb5f14bdcbd67a51e15892d3}} 
+\index{JoyDPad@{JoyDPad}!hasPendingEvent@{hasPendingEvent}}
+\index{hasPendingEvent@{hasPendingEvent}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{hasPendingEvent()}{hasPendingEvent()}}
+{\footnotesize\ttfamily bool Joy\+D\+Pad\+::has\+Pending\+Event (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a0c62d470eb5f14bdcbd67a51e15892d3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_ae80be85f9d07de9831c25fbcdef74435}\label{classJoyDPad_ae80be85f9d07de9831c25fbcdef74435}} 
+\index{JoyDPad@{JoyDPad}!hasSameButtonsMouseCurve@{hasSameButtonsMouseCurve}}
+\index{hasSameButtonsMouseCurve@{hasSameButtonsMouseCurve}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{hasSameButtonsMouseCurve()}{hasSameButtonsMouseCurve()}}
+{\footnotesize\ttfamily bool Joy\+D\+Pad\+::has\+Same\+Buttons\+Mouse\+Curve (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_ae80be85f9d07de9831c25fbcdef74435_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a7b674ffb6fd19a79821d36f57559dd05}\label{classJoyDPad_a7b674ffb6fd19a79821d36f57559dd05}} 
+\index{JoyDPad@{JoyDPad}!hasSameButtonsMouseMode@{hasSameButtonsMouseMode}}
+\index{hasSameButtonsMouseMode@{hasSameButtonsMouseMode}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{hasSameButtonsMouseMode()}{hasSameButtonsMouseMode()}}
+{\footnotesize\ttfamily bool Joy\+D\+Pad\+::has\+Same\+Buttons\+Mouse\+Mode (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a7b674ffb6fd19a79821d36f57559dd05_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a7b674ffb6fd19a79821d36f57559dd05_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a5c10cb88c9a0756be186cc5cc18ad341}\label{classJoyDPad_a5c10cb88c9a0756be186cc5cc18ad341}} 
+\index{JoyDPad@{JoyDPad}!hasSlotsAssigned@{hasSlotsAssigned}}
+\index{hasSlotsAssigned@{hasSlotsAssigned}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{hasSlotsAssigned()}{hasSlotsAssigned()}}
+{\footnotesize\ttfamily bool Joy\+D\+Pad\+::has\+Slots\+Assigned (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a5c10cb88c9a0756be186cc5cc18ad341_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a5c10cb88c9a0756be186cc5cc18ad341_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a47fdbc27e27a579c445487871d39d2bc}\label{classJoyDPad_a47fdbc27e27a579c445487871d39d2bc}} 
+\index{JoyDPad@{JoyDPad}!isDefault@{isDefault}}
+\index{isDefault@{isDefault}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{isDefault()}{isDefault()}}
+{\footnotesize\ttfamily bool Joy\+D\+Pad\+::is\+Default (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a47fdbc27e27a579c445487871d39d2bc_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a47fdbc27e27a579c445487871d39d2bc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a20e4100b10190828486a8b6674f9d7cd}\label{classJoyDPad_a20e4100b10190828486a8b6674f9d7cd}} 
+\index{JoyDPad@{JoyDPad}!isRelativeSpring@{isRelativeSpring}}
+\index{isRelativeSpring@{isRelativeSpring}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{isRelativeSpring()}{isRelativeSpring()}}
+{\footnotesize\ttfamily bool Joy\+D\+Pad\+::is\+Relative\+Spring (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a20e4100b10190828486a8b6674f9d7cd_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a20e4100b10190828486a8b6674f9d7cd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_ac660764f3e958b5c1cf9da1a5d2f2398}\label{classJoyDPad_ac660764f3e958b5c1cf9da1a5d2f2398}} 
+\index{JoyDPad@{JoyDPad}!joyEvent@{joyEvent}}
+\index{joyEvent@{joyEvent}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{joyEvent()}{joyEvent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::joy\+Event (\begin{DoxyParamCaption}\item[{int}]{value,  }\item[{bool}]{ignoresets = {\ttfamily false} }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_ac660764f3e958b5c1cf9da1a5d2f2398_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_ac660764f3e958b5c1cf9da1a5d2f2398_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a1db40c71508768b2ad1472dfd5444c26}\label{classJoyDPad_a1db40c71508768b2ad1472dfd5444c26}} 
+\index{JoyDPad@{JoyDPad}!joyModeChanged@{joyModeChanged}}
+\index{joyModeChanged@{joyModeChanged}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{joyModeChanged}{joyModeChanged}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::joy\+Mode\+Changed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a1db40c71508768b2ad1472dfd5444c26_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a34741c739ea51b8a4116be258667054c}\label{classJoyDPad_a34741c739ea51b8a4116be258667054c}} 
+\index{JoyDPad@{JoyDPad}!populateButtons@{populateButtons}}
+\index{populateButtons@{populateButtons}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{populateButtons()}{populateButtons()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::populate\+Buttons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a34741c739ea51b8a4116be258667054c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a628d1a553aa0acf58bc12b3bb7e9a671}\label{classJoyDPad_a628d1a553aa0acf58bc12b3bb7e9a671}} 
+\index{JoyDPad@{JoyDPad}!propertyUpdated@{propertyUpdated}}
+\index{propertyUpdated@{propertyUpdated}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{propertyUpdated}{propertyUpdated}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::property\+Updated (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a628d1a553aa0acf58bc12b3bb7e9a671_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a4c0c94c54a34e3fbb0460c3b5db81f5b}\label{classJoyDPad_a4c0c94c54a34e3fbb0460c3b5db81f5b}} 
+\index{JoyDPad@{JoyDPad}!queuePendingEvent@{queuePendingEvent}}
+\index{queuePendingEvent@{queuePendingEvent}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{queuePendingEvent()}{queuePendingEvent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::queue\+Pending\+Event (\begin{DoxyParamCaption}\item[{int}]{value,  }\item[{bool}]{ignoresets = {\ttfamily false} }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a4c0c94c54a34e3fbb0460c3b5db81f5b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_aa20b65bef79d9e80894a9be835b441c1}\label{classJoyDPad_aa20b65bef79d9e80894a9be835b441c1}} 
+\index{JoyDPad@{JoyDPad}!releaseButtonEvents@{releaseButtonEvents}}
+\index{releaseButtonEvents@{releaseButtonEvents}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{releaseButtonEvents()}{releaseButtonEvents()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::release\+Button\+Events (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_aa20b65bef79d9e80894a9be835b441c1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_aa20b65bef79d9e80894a9be835b441c1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_ac13be0949c8eed6f55ca25920f06b960}\label{classJoyDPad_ac13be0949c8eed6f55ca25920f06b960}} 
+\index{JoyDPad@{JoyDPad}!released@{released}}
+\index{released@{released}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{released}{released}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::released (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_ac13be0949c8eed6f55ca25920f06b960_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_ab8af58218742db8297018253e56be941}\label{classJoyDPad_ab8af58218742db8297018253e56be941}} 
+\index{JoyDPad@{JoyDPad}!setButtonsEasingDuration@{setButtonsEasingDuration}}
+\index{setButtonsEasingDuration@{setButtonsEasingDuration}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{setButtonsEasingDuration}{setButtonsEasingDuration}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::set\+Buttons\+Easing\+Duration (\begin{DoxyParamCaption}\item[{double}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_ab8af58218742db8297018253e56be941_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_ab8af58218742db8297018253e56be941_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a78408a77db3e1eb1b5e2e8c828270e58}\label{classJoyDPad_a78408a77db3e1eb1b5e2e8c828270e58}} 
+\index{JoyDPad@{JoyDPad}!setButtonsExtraAccelerationCurve@{setButtonsExtraAccelerationCurve}}
+\index{setButtonsExtraAccelerationCurve@{setButtonsExtraAccelerationCurve}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{setButtonsExtraAccelerationCurve()}{setButtonsExtraAccelerationCurve()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::set\+Buttons\+Extra\+Acceleration\+Curve (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButton_a81cd310753932a72e3a377ba64f13e40}{Joy\+Button\+::\+Joy\+Extra\+Acceleration\+Curve}}}]{curve }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a78408a77db3e1eb1b5e2e8c828270e58_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a78408a77db3e1eb1b5e2e8c828270e58_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a71c017ff05d79f5b54cfef648d333a43}\label{classJoyDPad_a71c017ff05d79f5b54cfef648d333a43}} 
+\index{JoyDPad@{JoyDPad}!setButtonsMouseCurve@{setButtonsMouseCurve}}
+\index{setButtonsMouseCurve@{setButtonsMouseCurve}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{setButtonsMouseCurve()}{setButtonsMouseCurve()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::set\+Buttons\+Mouse\+Curve (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButton_a82158c2f018dfe990a82d273baf3a838}{Joy\+Button\+::\+Joy\+Mouse\+Curve}}}]{mouse\+Curve }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a71c017ff05d79f5b54cfef648d333a43_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a71c017ff05d79f5b54cfef648d333a43_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a16141810b2675be301c8f17f5d85df35}\label{classJoyDPad_a16141810b2675be301c8f17f5d85df35}} 
+\index{JoyDPad@{JoyDPad}!setButtonsMouseMode@{setButtonsMouseMode}}
+\index{setButtonsMouseMode@{setButtonsMouseMode}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{setButtonsMouseMode()}{setButtonsMouseMode()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::set\+Buttons\+Mouse\+Mode (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButton_a446f2d6cbca378687cf8babb3028b427}{Joy\+Button\+::\+Joy\+Mouse\+Movement\+Mode}}}]{mode }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a16141810b2675be301c8f17f5d85df35_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a16141810b2675be301c8f17f5d85df35_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_acc343dad148487a16a4c39ff1b41eef9}\label{classJoyDPad_acc343dad148487a16a4c39ff1b41eef9}} 
+\index{JoyDPad@{JoyDPad}!setButtonsSensitivity@{setButtonsSensitivity}}
+\index{setButtonsSensitivity@{setButtonsSensitivity}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{setButtonsSensitivity()}{setButtonsSensitivity()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::set\+Buttons\+Sensitivity (\begin{DoxyParamCaption}\item[{double}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_acc343dad148487a16a4c39ff1b41eef9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_acc343dad148487a16a4c39ff1b41eef9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_af25535647967f25606f7432047fc88c7}\label{classJoyDPad_af25535647967f25606f7432047fc88c7}} 
+\index{JoyDPad@{JoyDPad}!setButtonsSpringDeadCircleMultiplier@{setButtonsSpringDeadCircleMultiplier}}
+\index{setButtonsSpringDeadCircleMultiplier@{setButtonsSpringDeadCircleMultiplier}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{setButtonsSpringDeadCircleMultiplier()}{setButtonsSpringDeadCircleMultiplier()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::set\+Buttons\+Spring\+Dead\+Circle\+Multiplier (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_af25535647967f25606f7432047fc88c7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_af25535647967f25606f7432047fc88c7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_ac2c481f80732eef621d521115255ff64}\label{classJoyDPad_ac2c481f80732eef621d521115255ff64}} 
+\index{JoyDPad@{JoyDPad}!setButtonsSpringHeight@{setButtonsSpringHeight}}
+\index{setButtonsSpringHeight@{setButtonsSpringHeight}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{setButtonsSpringHeight()}{setButtonsSpringHeight()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::set\+Buttons\+Spring\+Height (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_ac2c481f80732eef621d521115255ff64_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_ac2c481f80732eef621d521115255ff64_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a33201ba0864060d79943696b369ee3d0}\label{classJoyDPad_a33201ba0864060d79943696b369ee3d0}} 
+\index{JoyDPad@{JoyDPad}!setButtonsSpringRelativeStatus@{setButtonsSpringRelativeStatus}}
+\index{setButtonsSpringRelativeStatus@{setButtonsSpringRelativeStatus}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{setButtonsSpringRelativeStatus}{setButtonsSpringRelativeStatus}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::set\+Buttons\+Spring\+Relative\+Status (\begin{DoxyParamCaption}\item[{bool}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a33201ba0864060d79943696b369ee3d0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a33201ba0864060d79943696b369ee3d0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a155353a48732ebfab8dab8d9e3be14f5}\label{classJoyDPad_a155353a48732ebfab8dab8d9e3be14f5}} 
+\index{JoyDPad@{JoyDPad}!setButtonsSpringWidth@{setButtonsSpringWidth}}
+\index{setButtonsSpringWidth@{setButtonsSpringWidth}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{setButtonsSpringWidth()}{setButtonsSpringWidth()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::set\+Buttons\+Spring\+Width (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a155353a48732ebfab8dab8d9e3be14f5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a155353a48732ebfab8dab8d9e3be14f5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a53a0298cc9b532d667ffb75405924d73}\label{classJoyDPad_a53a0298cc9b532d667ffb75405924d73}} 
+\index{JoyDPad@{JoyDPad}!setButtonsWheelSpeedX@{setButtonsWheelSpeedX}}
+\index{setButtonsWheelSpeedX@{setButtonsWheelSpeedX}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{setButtonsWheelSpeedX()}{setButtonsWheelSpeedX()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::set\+Buttons\+Wheel\+SpeedX (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a53a0298cc9b532d667ffb75405924d73_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a53a0298cc9b532d667ffb75405924d73_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_af829358b03e72b2348903dbe98e1ae1c}\label{classJoyDPad_af829358b03e72b2348903dbe98e1ae1c}} 
+\index{JoyDPad@{JoyDPad}!setButtonsWheelSpeedY@{setButtonsWheelSpeedY}}
+\index{setButtonsWheelSpeedY@{setButtonsWheelSpeedY}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{setButtonsWheelSpeedY()}{setButtonsWheelSpeedY()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::set\+Buttons\+Wheel\+SpeedY (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_af829358b03e72b2348903dbe98e1ae1c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_af829358b03e72b2348903dbe98e1ae1c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a7cd0b461c99bfcb99e7d6dc49d641e53}\label{classJoyDPad_a7cd0b461c99bfcb99e7d6dc49d641e53}} 
+\index{JoyDPad@{JoyDPad}!setDefaultDPadName@{setDefaultDPadName}}
+\index{setDefaultDPadName@{setDefaultDPadName}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{setDefaultDPadName()}{setDefaultDPadName()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::set\+Default\+D\+Pad\+Name (\begin{DoxyParamCaption}\item[{Q\+String}]{tempname }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a7cd0b461c99bfcb99e7d6dc49d641e53_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a149825c6d416c115672abb16b3ee86a7}\label{classJoyDPad_a149825c6d416c115672abb16b3ee86a7}} 
+\index{JoyDPad@{JoyDPad}!setDirButtonsUpdateInitAccel@{setDirButtonsUpdateInitAccel}}
+\index{setDirButtonsUpdateInitAccel@{setDirButtonsUpdateInitAccel}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{setDirButtonsUpdateInitAccel()}{setDirButtonsUpdateInitAccel()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::set\+Dir\+Buttons\+Update\+Init\+Accel (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729a}{Joy\+D\+Pad\+Button\+::\+Joy\+D\+Pad\+Directions}}}]{direction,  }\item[{bool}]{state }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a149825c6d416c115672abb16b3ee86a7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a149825c6d416c115672abb16b3ee86a7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_af6ce40c6bed6e6ceb12b2060014d818c}\label{classJoyDPad_af6ce40c6bed6e6ceb12b2060014d818c}} 
+\index{JoyDPad@{JoyDPad}!setDPadDelay@{setDPadDelay}}
+\index{setDPadDelay@{setDPadDelay}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{setDPadDelay}{setDPadDelay}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::set\+D\+Pad\+Delay (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_af6ce40c6bed6e6ceb12b2060014d818c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_a0892468175ee5ae8e21d0d3a2958eb75}\label{classJoyDPad_a0892468175ee5ae8e21d0d3a2958eb75}} 
+\index{JoyDPad@{JoyDPad}!setDPadName@{setDPadName}}
+\index{setDPadName@{setDPadName}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{setDPadName}{setDPadName}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::set\+D\+Pad\+Name (\begin{DoxyParamCaption}\item[{Q\+String}]{temp\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_a0892468175ee5ae8e21d0d3a2958eb75_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyDPad_ae912673a382e0ffcdd1472373ffe832b}\label{classJoyDPad_ae912673a382e0ffcdd1472373ffe832b}} 
+\index{JoyDPad@{JoyDPad}!setJoyMode@{setJoyMode}}
+\index{setJoyMode@{setJoyMode}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{setJoyMode()}{setJoyMode()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+D\+Pad\+::set\+Joy\+Mode (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyDPad_ad5eb508d94e7de8880c33b4a08d2a5a2}{Joy\+Mode}}}]{mode }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyDPad_ae912673a382e0ffcdd1472373ffe832b_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classJoyDPad_a83f9724b4502cfa5fca4a315e5f506b0}\label{classJoyDPad_a83f9724b4502cfa5fca4a315e5f506b0}} 
+\index{JoyDPad@{JoyDPad}!activeDiagonalButton@{activeDiagonalButton}}
+\index{activeDiagonalButton@{activeDiagonalButton}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{activeDiagonalButton}{activeDiagonalButton}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyDPadButton}{Joy\+D\+Pad\+Button}}$\ast$ Joy\+D\+Pad\+::active\+Diagonal\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classJoyDPad_ae5c98c3a1be207d91f5fd6f2a5fe37ec}\label{classJoyDPad_ae5c98c3a1be207d91f5fd6f2a5fe37ec}} 
+\index{JoyDPad@{JoyDPad}!buttons@{buttons}}
+\index{buttons@{buttons}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{buttons}{buttons}}
+{\footnotesize\ttfamily Q\+Hash$<$int, \mbox{\hyperlink{classJoyDPadButton}{Joy\+D\+Pad\+Button}} $\ast$$>$ Joy\+D\+Pad\+::buttons\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classJoyDPad_a5f775847843410e6299b7657452f071f}\label{classJoyDPad_a5f775847843410e6299b7657452f071f}} 
+\index{JoyDPad@{JoyDPad}!currentMode@{currentMode}}
+\index{currentMode@{currentMode}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{currentMode}{currentMode}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyDPad_ad5eb508d94e7de8880c33b4a08d2a5a2}{Joy\+Mode}} Joy\+D\+Pad\+::current\+Mode\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classJoyDPad_a1bd2221006047313109b3c05b2fdf196}\label{classJoyDPad_a1bd2221006047313109b3c05b2fdf196}} 
+\index{JoyDPad@{JoyDPad}!defaultDPadName@{defaultDPadName}}
+\index{defaultDPadName@{defaultDPadName}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{defaultDPadName}{defaultDPadName}}
+{\footnotesize\ttfamily Q\+String Joy\+D\+Pad\+::default\+D\+Pad\+Name\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classJoyDPad_a2b1d6eaa880be294ad14fd7113f57b35}\label{classJoyDPad_a2b1d6eaa880be294ad14fd7113f57b35}} 
+\index{JoyDPad@{JoyDPad}!directionDelayTimer@{directionDelayTimer}}
+\index{directionDelayTimer@{directionDelayTimer}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{directionDelayTimer}{directionDelayTimer}}
+{\footnotesize\ttfamily Q\+Timer Joy\+D\+Pad\+::direction\+Delay\+Timer\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classJoyDPad_a39480de1273731b5e4fb17971044f882}\label{classJoyDPad_a39480de1273731b5e4fb17971044f882}} 
+\index{JoyDPad@{JoyDPad}!dpadDelay@{dpadDelay}}
+\index{dpadDelay@{dpadDelay}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{dpadDelay}{dpadDelay}}
+{\footnotesize\ttfamily int Joy\+D\+Pad\+::dpad\+Delay\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classJoyDPad_aabfd8317dc56eb3af72679eb205f181d}\label{classJoyDPad_aabfd8317dc56eb3af72679eb205f181d}} 
+\index{JoyDPad@{JoyDPad}!dpadName@{dpadName}}
+\index{dpadName@{dpadName}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{dpadName}{dpadName}}
+{\footnotesize\ttfamily Q\+String Joy\+D\+Pad\+::dpad\+Name\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classJoyDPad_aa6ea976bc1cd78ca83f1bd8fb5bca334}\label{classJoyDPad_aa6ea976bc1cd78ca83f1bd8fb5bca334}} 
+\index{JoyDPad@{JoyDPad}!m\_index@{m\_index}}
+\index{m\_index@{m\_index}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{m\_index}{m\_index}}
+{\footnotesize\ttfamily int Joy\+D\+Pad\+::m\+\_\+index\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classJoyDPad_a5cf1a8d67b86400d6d98b12a337dd058}\label{classJoyDPad_a5cf1a8d67b86400d6d98b12a337dd058}} 
+\index{JoyDPad@{JoyDPad}!m\_originset@{m\_originset}}
+\index{m\_originset@{m\_originset}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{m\_originset}{m\_originset}}
+{\footnotesize\ttfamily int Joy\+D\+Pad\+::m\+\_\+originset\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classJoyDPad_a1c1854b38da8062ee473ac57ad1d5751}\label{classJoyDPad_a1c1854b38da8062ee473ac57ad1d5751}} 
+\index{JoyDPad@{JoyDPad}!m\_parentSet@{m\_parentSet}}
+\index{m\_parentSet@{m\_parentSet}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{m\_parentSet}{m\_parentSet}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classSetJoystick}{Set\+Joystick}}$\ast$ Joy\+D\+Pad\+::m\+\_\+parent\+Set\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classJoyDPad_ae0bd782083dcd1abd065e2c01478feee}\label{classJoyDPad_ae0bd782083dcd1abd065e2c01478feee}} 
+\index{JoyDPad@{JoyDPad}!pendingDirection@{pendingDirection}}
+\index{pendingDirection@{pendingDirection}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{pendingDirection}{pendingDirection}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729a}{Joy\+D\+Pad\+Button\+::\+Joy\+D\+Pad\+Directions}} Joy\+D\+Pad\+::pending\+Direction\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classJoyDPad_afa92929c4cdb052bb07fc35909dc85c9}\label{classJoyDPad_afa92929c4cdb052bb07fc35909dc85c9}} 
+\index{JoyDPad@{JoyDPad}!pendingEvent@{pendingEvent}}
+\index{pendingEvent@{pendingEvent}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{pendingEvent}{pendingEvent}}
+{\footnotesize\ttfamily bool Joy\+D\+Pad\+::pending\+Event\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classJoyDPad_abeec1ac67316a9e4ff3255c146531035}\label{classJoyDPad_abeec1ac67316a9e4ff3255c146531035}} 
+\index{JoyDPad@{JoyDPad}!pendingEventDirection@{pendingEventDirection}}
+\index{pendingEventDirection@{pendingEventDirection}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{pendingEventDirection}{pendingEventDirection}}
+{\footnotesize\ttfamily int Joy\+D\+Pad\+::pending\+Event\+Direction\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classJoyDPad_adbddfb2c75c5c51edc1f1edfe1df3989}\label{classJoyDPad_adbddfb2c75c5c51edc1f1edfe1df3989}} 
+\index{JoyDPad@{JoyDPad}!pendingIgnoreSets@{pendingIgnoreSets}}
+\index{pendingIgnoreSets@{pendingIgnoreSets}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{pendingIgnoreSets}{pendingIgnoreSets}}
+{\footnotesize\ttfamily bool Joy\+D\+Pad\+::pending\+Ignore\+Sets\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classJoyDPad_a6f851957f8b8702f1cf84eb9a5cb6b1d}\label{classJoyDPad_a6f851957f8b8702f1cf84eb9a5cb6b1d}} 
+\index{JoyDPad@{JoyDPad}!prevDirection@{prevDirection}}
+\index{prevDirection@{prevDirection}!JoyDPad@{JoyDPad}}
+\doxysubsubsection{\texorpdfstring{prevDirection}{prevDirection}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729a}{Joy\+D\+Pad\+Button\+::\+Joy\+D\+Pad\+Directions}} Joy\+D\+Pad\+::prev\+Direction\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{joydpad_8h}{joydpad.\+h}}\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{joydpad_8cpp}{joydpad.\+cpp}}\end{DoxyCompactItemize}

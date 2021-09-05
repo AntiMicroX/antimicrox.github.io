@@ -1,0 +1,10 @@
+<map id="InputDevice::updateSetDPadNames" name="InputDevice::updateSetDPadNames">
+<area shape="rect" id="node1" title=" " alt="" coords="5,115,197,156"/>
+<area shape="rect" id="node2" href="$classInputDevice.html#abc23a70bef37f2fc70248cd129af170b" title=" " alt="" coords="251,5,426,47"/>
+<area shape="rect" id="node4" href="$classJoyDPad.html#a45b740263205203bd20f34e375f40ac2" title=" " alt="" coords="255,71,423,98"/>
+<area shape="rect" id="node5" href="$classSetJoystick.html#a5071c4bc7bdb1b0601b60b807a235818" title=" " alt="" coords="495,173,664,199"/>
+<area shape="rect" id="node7" href="$classInputDevice.html#a10249ceee0fa8439d3e25c5fd64502cd" title=" " alt="" coords="245,122,432,149"/>
+<area shape="rect" id="node3" href="$classInputDevice.html#a1c4c65d9e509a5c3bde064871d7e1849" title=" " alt="" coords="480,42,679,69"/>
+<area shape="rect" id="node6" href="$classSetJoystick.html#a2a6870a2ac3f5cc490344baf7ed2edd5" title=" " alt="" coords="727,173,869,199"/>
+<area shape="rect" id="node8" href="$classJoyDPad.html#a0892468175ee5ae8e21d0d3a2958eb75" title=" " alt="" coords="494,122,665,149"/>
+</map>

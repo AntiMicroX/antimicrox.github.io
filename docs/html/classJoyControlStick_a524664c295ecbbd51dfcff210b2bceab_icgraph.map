@@ -1,0 +1,6 @@
+<map id="JoyControlStick::getCalibrationSummary" name="JoyControlStick::getCalibrationSummary">
+<area shape="rect" id="node1" title=" " alt="" coords="243,49,444,90"/>
+<area shape="rect" id="node2" href="$classCalibration.html#a27a8dcaa8bc1ae3ebf2da993b29a4e2e" title=" " alt="" coords="24,5,176,32"/>
+<area shape="rect" id="node3" href="$classCalibration.html#a67756310429bca0aa53d0a9a42a6caca" title="Creates progress bars for axes and creates connections." alt="" coords="5,56,195,83"/>
+<area shape="rect" id="node4" href="$classJoyControlStick.html#a3ab1764a44e806d2d3896023f82fa3b1" title="Write the status of the properties of a stick and direction buttons to an XML stream." alt="" coords="6,107,194,133"/>
+</map>

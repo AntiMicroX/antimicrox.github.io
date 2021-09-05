@@ -1,0 +1,9 @@
+<map id="JoyButtonWidget::generateLabel" name="JoyButtonWidget::generateLabel">
+<area shape="rect" id="node1" title=" " alt="" coords="5,64,185,105"/>
+<area shape="rect" id="node2" href="$classJoyButton.html#ab227ec29550f974ac09dd1f891c93440" title=" " alt="" coords="233,42,376,69"/>
+<area shape="rect" id="node7" href="$classFlashButtonWidget.html#aff41eff76f8396ff1b9e2539d680c4cf" title=" " alt="" coords="234,93,375,135"/>
+<area shape="rect" id="node3" href="$classJoyButton.html#a075d1d6380be607fcf69994f0d941afe" title=" " alt="" coords="430,5,598,47"/>
+<area shape="rect" id="node5" href="$classJoyButton.html#acf2e65dcec7b0d2a8a2c21c36c489ad6" title=" " alt="" coords="424,71,604,98"/>
+<area shape="rect" id="node4" href="$classJoyButton.html#a1b49d9ab85f0d5d128e2eca616747018" title=" " alt="" coords="667,5,837,47"/>
+<area shape="rect" id="node6" href="$classJoyButton.html#a39c9ccaf641bb8bf50b29d4c4e04c165" title="Get a 1 indexed number of button." alt="" coords="652,71,852,98"/>
+</map>

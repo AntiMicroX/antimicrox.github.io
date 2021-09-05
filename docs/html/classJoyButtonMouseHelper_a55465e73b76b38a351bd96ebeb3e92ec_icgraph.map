@@ -1,0 +1,11 @@
+<map id="JoyButtonMouseHelper::gamepadRefreshRateUpdated" name="JoyButtonMouseHelper::gamepadRefreshRateUpdated">
+<area shape="rect" id="node1" title=" " alt="" coords="1123,68,1327,109"/>
+<area shape="rect" id="node2" href="$classJoyButtonMouseHelper.html#ae4655a0a7f9e15f5701715e0c87fa8c7" title=" " alt="" coords="888,39,1075,80"/>
+<area shape="rect" id="node9" href="$classInputDaemon.html#ab7c3d331123e946ed8da490dfee5c265" title=" " alt="" coords="889,105,1073,131"/>
+<area shape="rect" id="node3" href="$classJoyButton.html#a7d1de2cfa68b7d10c7ba42288b72e9e9" title="Set the gamepad poll rate to be used in the application." alt="" coords="605,46,840,73"/>
+<area shape="rect" id="node4" href="$classAppLaunchHelper.html#a3e71e64a159717dac8d285b28b45b9d2" title=" " alt="" coords="327,5,557,47"/>
+<area shape="rect" id="node7" href="$classMainSettingsDialog.html#a07b54c6c80f72c4c5b28b32a58cbcca6" title=" " alt="" coords="375,71,509,112"/>
+<area shape="rect" id="node5" href="$classAppLaunchHelper.html#ab38c79745e55b3c4665c5b29a5d57a0f" title=" " alt="" coords="104,5,279,47"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,13,56,39"/>
+<area shape="rect" id="node8" href="$classMainSettingsDialog.html#aeee272ff5482aca59310558ffdb9ebbe" title=" " alt="" coords="120,71,263,112"/>
+</map>

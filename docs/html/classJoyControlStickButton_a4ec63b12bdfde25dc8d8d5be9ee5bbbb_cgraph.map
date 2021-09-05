@@ -1,0 +1,11 @@
+<map id="JoyControlStickButton::getCurrentSpringDeadCircle" name="JoyControlStickButton::getCurrentSpringDeadCircle">
+<area shape="rect" id="node1" title=" " alt="" coords="5,97,199,138"/>
+<area shape="rect" id="node2" href="$classJoyControlStick.html#adc7f1ec205b3951e973ae9a44609e197" title=" " alt="" coords="247,48,424,89"/>
+<area shape="rect" id="node8" href="$classJoyControlStick.html#a35a83aade124012d5181a739f421ff0b" title=" " alt="" coords="247,129,424,170"/>
+<area shape="rect" id="node3" href="$classJoyControlStick.html#ac6fc21b89fe06fed5bc9434b38fe65ff" title=" " alt="" coords="478,30,653,72"/>
+<area shape="rect" id="node5" href="$classJoyAxis.html#a0580ab0df546a1c03b4e8f755ad00272" title=" " alt="" coords="945,55,1141,82"/>
+<area shape="rect" id="node7" href="$classJoyAxis.html#ac5fab6f5b5159f85843c97032f669c8b" title=" " alt="" coords="472,96,659,137"/>
+<area shape="rect" id="node4" href="$classJoyControlStick.html#a9a9a23ba2fd1d4304e759a2de2985a69" title="Calculate the current direction of the stick based on the values of the X and Y axes and the current ..." alt="" coords="715,48,889,89"/>
+<area shape="rect" id="node6" href="$classJoyControlStick.html#af1d63f69041b08e3e1e086768a4c22cf" title=" " alt="" coords="707,129,897,170"/>
+<area shape="rect" id="node9" href="$classJoyControlStick.html#a43fbe48eb9346deff4cf7264d36912c9" title=" " alt="" coords="478,161,653,202"/>
+</map>

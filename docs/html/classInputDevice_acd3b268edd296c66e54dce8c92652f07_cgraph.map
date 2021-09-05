@@ -1,0 +1,11 @@
+<map id="InputDevice::propogateSetAxisThrottleChange" name="InputDevice::propogateSetAxisThrottleChange">
+<area shape="rect" id="node1" title=" " alt="" coords="5,74,183,115"/>
+<area shape="rect" id="node2" href="$classSetJoystick.html#a7c8f524fe045b89901ba945c5e1045cf" title=" " alt="" coords="249,5,411,32"/>
+<area shape="rect" id="node3" href="$classInputDevice.html#a1c4c65d9e509a5c3bde064871d7e1849" title=" " alt="" coords="231,56,429,83"/>
+<area shape="rect" id="node4" href="$classJoyAxis.html#a01dfb4ec2c2e85304a479f21b9cffe49" title=" " alt="" coords="261,107,399,133"/>
+<area shape="rect" id="node5" href="$classJoyAxis.html#aa4be4a311b6656e63eacfdde5ce6861a" title="Set throttle value for axis." alt="" coords="261,157,399,184"/>
+<area shape="rect" id="node6" href="$classJoyAxis.html#a211c80f9aa20fa22c8f91a5cdcb0831a" title=" " alt="" coords="477,157,627,184"/>
+<area shape="rect" id="node7" href="$classJoyAxis.html#a06d99d722b314998440165a01b0f87b3" title=" " alt="" coords="675,150,855,191"/>
+<area shape="rect" id="node8" href="$classJoyAxis.html#af3f311fbf20c583224c2320d1fda0226" title=" " alt="" coords="903,131,1069,157"/>
+<area shape="rect" id="node9" href="$classJoyAxis.html#aff06f563278beb621285f65fb33b784a" title=" " alt="" coords="905,185,1067,212"/>
+</map>

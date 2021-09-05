@@ -1,0 +1,7 @@
+<map id="GameControllerMappingDialog::updateLastAxisLineEdit" name="GameControllerMappingDialog::updateLastAxisLineEdit">
+<area shape="rect" id="node1" title=" " alt="" coords="5,89,204,131"/>
+<area shape="rect" id="node2" href="$classGameController.html#a3565a85b9d311dbda454ac2d3f375614" title=" " alt="" coords="253,5,452,47"/>
+<area shape="rect" id="node3" href="$classJoyAxis.html#afddf7399e2086fda738fe588f5e7d7cd" title=" " alt="" coords="289,71,416,98"/>
+<area shape="rect" id="node4" href="$classJoyAxis.html#a9ceda991c13da3a99868acc436ed20f3" title=" " alt="" coords="265,122,440,149"/>
+<area shape="rect" id="node5" href="$classInputDevice.html#aeaf77e979b09dbd752e29b47c830737c" title="Check if device is using the SDL Game Controller API." alt="" coords="252,173,453,199"/>
+</map>

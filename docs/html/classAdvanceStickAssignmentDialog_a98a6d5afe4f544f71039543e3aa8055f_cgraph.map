@@ -1,0 +1,9 @@
+<map id="AdvanceStickAssignmentDialog::refreshVDPadConf" name="AdvanceStickAssignmentDialog::refreshVDPadConf">
+<area shape="rect" id="node1" title=" " alt="" coords="5,125,213,166"/>
+<area shape="rect" id="node2" href="$classJoyAxisButton.html#a8b73356f8efc91ad97e2c281b3603cc8" title=" " alt="" coords="282,5,441,32"/>
+<area shape="rect" id="node3" href="$classJoyButton.html#aa659d5a0860f5047862ca0761d8d775a" title="Get 0 indexed number of button." alt="" coords="274,56,449,83"/>
+<area shape="rect" id="node4" href="$classJoyAxis.html#a9ceda991c13da3a99868acc436ed20f3" title=" " alt="" coords="274,107,449,133"/>
+<area shape="rect" id="node5" href="$classJoyButton.html#a39c9ccaf641bb8bf50b29d4c4e04c165" title="Get a 1 indexed number of button." alt="" coords="261,157,461,184"/>
+<area shape="rect" id="node6" href="$classJoyButton.html#a20f9edd1da56435ce38da78f19eed411" title=" " alt="" coords="287,208,436,235"/>
+<area shape="rect" id="node7" href="$classVDPad.html#abf6c1b6613ad561aceb7998a7006a74f" title=" " alt="" coords="281,259,442,285"/>
+</map>

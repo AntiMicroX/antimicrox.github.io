@@ -1,0 +1,1265 @@
+\hypertarget{classAdvanceButtonDialog}{}\doxysection{Advance\+Button\+Dialog Class Reference}
+\label{classAdvanceButtonDialog}\index{AdvanceButtonDialog@{AdvanceButtonDialog}}
+
+
+{\ttfamily \#include $<$advancebuttondialog.\+h$>$}
+
+
+
+Inheritance diagram for Advance\+Button\+Dialog\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=190pt]{classAdvanceButtonDialog__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Advance\+Button\+Dialog\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a437fdaa04ca6082ebb7416cf7ac4e6b5}{place\+New\+Slot}} (\mbox{\hyperlink{classJoyButtonSlot}{Joy\+Button\+Slot}} $\ast$slot)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_aa97a397aca5e36a6b580309e04ac3a9d}{clear\+All\+Slots}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a550730c79bd4130b440df9527b4bfd13}{toggle\+Changed}} (bool state)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_aa3b7bc1e9cbc0c582ead433a8d5210fc}{turbo\+Changed}} (bool state)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a4113d445669142105e86b546979ac258}{slots\+Changed}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_ab110a9792e569c7eaee4f085082fea11}{turbo\+Button\+Enabled\+Change}} (bool state)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classAdvanceButtonDialog_a4f9a1a007f50de1c3cca1403d08a0790}{Advance\+Button\+Dialog}} (\mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$button, Q\+Widget $\ast$parent=0)
+\item 
+\mbox{\hyperlink{classAdvanceButtonDialog_acf06789f4b400a431214227d7ca72d65}{Advance\+Button\+Dialog}} (Q\+Widget $\ast$parent=0)
+\item 
+\mbox{\hyperlink{classAdvanceButtonDialog_a1737cd6548c703298b31d7b230ab7bcd}{$\sim$\+Advance\+Button\+Dialog}} ()
+\item 
+int \mbox{\hyperlink{classAdvanceButtonDialog_a4271483f81cb9b96c91bfaabcd6cb8c7}{get\+Old\+Row}} () const
+\item 
+\mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$ \mbox{\hyperlink{classAdvanceButtonDialog_ac503caa9dfb0a99742a78d82773b7911}{get\+Button}} () const
+\item 
+const \mbox{\hyperlink{classAdvanceButtonDialogHelper}{Advance\+Button\+Dialog\+Helper}} \& \mbox{\hyperlink{classAdvanceButtonDialog_a0f905c8179075d6ef70dd58473907635}{get\+Helper}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_ab72e06536fc36f403249d7f48a925a82}{connect\+Button\+Events}} (\mbox{\hyperlink{classSimpleKeyGrabberButton}{Simple\+Key\+Grabber\+Button}} $\ast$button)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_ab0a69a5cf232c47a8cbdef5141d1bd9b}{append\+Blank\+Key\+Grabber}} ()
+\item 
+int \mbox{\hyperlink{classAdvanceButtonDialog_ab5a53a366b15d6ba40214e74fe3ecd49}{action\+Time\+Convert}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_aeb24c0b3026ce45fd97cab431d4b6040}{change\+Turbo\+For\+Sequences}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a279b0af28d1f20ff69e4592403157f3a}{fill\+Time\+Combo\+Boxes}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a31876eda1370e7e4190f02c8c5863755}{refresh\+Time\+Combo\+Boxes}} (\mbox{\hyperlink{classJoyButtonSlot}{Joy\+Button\+Slot}} $\ast$slot)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a371dbf9d2c49e736d8e7d8fba3739aff}{update\+Window\+Title\+Button\+Name}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a9432e934237e71998dbd7869178bbd86}{populate\+Auto\+Reset\+Interval}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_addf68258b6fb4eeae4dde34fc0fb92e7}{disconnect\+Time\+Boxes\+Events}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_ae845213154214835f35b01653c3c8cd6}{connect\+Time\+Boxes\+Events}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a634243c95c88918cdb195f5417a585fa}{reset\+Time\+Boxes}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_ada165d95c3dfa589d22dcc8d79c43819}{populate\+Set\+Selection\+Combo\+Box}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a1013147913c991d6b379341f2d0b6e91}{populate\+Slot\+Set\+Selection\+Combo\+Box}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_aa47c1edae8c226f0c025a1103259b9e7}{find\+Turbo\+Mode\+Combo\+Index}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a537e84c8a495aa615b417b3851b59b62}{show\+Select\+Profile\+Wind}} (Q\+List\+Widget\+Item $\ast$item, Q\+String \&first\+Choice\+Profile)
+\item 
+bool \mbox{\hyperlink{classAdvanceButtonDialog_a1b4960ecedf49d2d621e99584643a03b}{any\+Selected\+Not\+Keyb\+Slot}} ()
+\item 
+bool \mbox{\hyperlink{classAdvanceButtonDialog_ae89498c3d635abf288adfcc859333f64}{selected\+Not\+Mix\+Slot}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546}{Slot\+Type\+Combo\+Index}} \{ \newline
+\mbox{\hyperlink{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a29a6f6d11d0fb1d570f9eb74b494a763}{K\+B\+Mouse\+Slot}} = 0, 
+\mbox{\hyperlink{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a5c37a2cc3c27a97b5d1f70d4e53d02d0}{Cycle\+Slot}}, 
+\mbox{\hyperlink{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546aa58f15c96308d0422e3870c2ae839c46}{Delay\+Slot}}, 
+\mbox{\hyperlink{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a9403945962d5a33b8900318f3e6df9b8}{Distance\+Slot}}, 
+\newline
+\mbox{\hyperlink{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546ad4f908dc6f5845677aacc48326cfb63f}{Execute\+Slot}}, 
+\mbox{\hyperlink{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a97644900a44392abd1a5a229b2dcd09a}{Hold\+Slot}}, 
+\mbox{\hyperlink{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a5b29b51be0b913f082191bcee36b8e8e}{Load\+Slot}}, 
+\mbox{\hyperlink{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a3196444b2a9be46f44fe5fed0a9db05e}{Mouse\+Mod\+Slot}}, 
+\newline
+\mbox{\hyperlink{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a7ed217d2e5d3f5b89f6d963832ca0e65}{Pause\+Slot}}, 
+\mbox{\hyperlink{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a35090040d7c8f0df279a3816d0d08197}{Press\+Time\+Slot}}, 
+\mbox{\hyperlink{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a687f4483bb937bfa8d0619e3fa66c069}{Release\+Slot}}, 
+\mbox{\hyperlink{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a0cbc8c4dd7f6ab9c1d5ca28fa284d18f}{Set\+Change\+Slot}}, 
+\newline
+\mbox{\hyperlink{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a075dc39c170768b831086086751c8577}{Text\+Entry}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a4877876a166c691f88668cf1e951dd62}{change\+Turbo\+Text}} (int value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_ae63fa37078d1cded118c903eb9ccf24d}{update\+Turbo\+Interval\+Value}} (int value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a64efeb2a6c8cf0ea259bb02c0f96080d}{check\+Turbo\+Setting}} (bool state)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a5284c1fc58683ba8649b1811d615e71c}{update\+Slots\+Scroll\+Area}} (int value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a5e7b569639f67d97fdcf89f6733f4421}{delete\+Slot}} (bool show\+Warning=true)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a973a9cf7b58950cda18e39fdffb87e09}{insert\+Slot}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_ad40bcfad2f4380b746002defc689a2b6}{join\+Slot}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_adde227692a4a5abc4f4e9cc027ba5866}{split\+Slot}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a9a53f03e9d1da8abc0d59c7e1d06f2fa}{insert\+Cycle\+Slot}} (Q\+List\+Widget\+Item $\ast$item)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a2efe6c11e48224ea986a09e05bc96353}{insert\+Text\+Entry\+Slot}} (Q\+List\+Widget\+Item $\ast$item)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a3f6402907f85d2edb4bfbb77a2381882}{insert\+Execute\+Slot}} (Q\+List\+Widget\+Item $\ast$item, Q\+String\+List \&prev\+Exec\+And\+Args)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_abe36139fad204573dc1b0ea0e38f169d}{update\+Action\+Time\+Label}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_aa9ce9cbd457fb41cbea00da74c01334b}{update\+Set\+Selection}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a5aed7f9d23471bcfca1a6595cb4e4391}{check\+Turbo\+Interval\+Value}} (int value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a31e78ce60334e0bcef5dad4cd43ee1e9}{perform\+Stats\+Widget\+Refresh}} (Q\+List\+Widget\+Item $\ast$item)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_aec7b800bbe03360bef5ec50c7699be12}{check\+Slot\+Time\+Update}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a289c7e5a38da6675e6ae2dd1b333c81e}{check\+Slot\+Mouse\+Mod\+Update}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_af758d9978d99adab296ebd584020fa1b}{check\+Slot\+Distance\+Update}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a7fa5ece36cbdc4d0f2c74690b15e6527}{check\+Slot\+Set\+Change\+Update}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_af13a1cc1753b08c8864764a0f3e3874f}{check\+Cycle\+Reset\+Widget\+Status}} (bool enabled)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a2242fea1619c2f5048b2d55b4a934384}{set\+Button\+Cycle\+Reset\+Interval}} (double value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a21b3b496b19dffe081924d94565f7235}{set\+Button\+Cycle\+Reset}} (bool enabled)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a147bdc81b9bdeecf5f523971141bc6a3}{set\+Button\+Turbo\+Mode}} (int value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_af8430c4a355c90c657d69a44a85e6b84}{show\+Select\+Profile\+Window}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a748455fb1694f4c4dd4d050288c95e17}{show\+Find\+Executable\+Window}} (bool)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_af0c4b941cd40e3ad42ec0b8728a425ee}{change\+Slot\+Type\+Display}} (int index)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_aaba3ea701a19efabafc0595758d5edcf}{change\+Slot\+Help\+Text}} (int index)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classAdvanceButtonDialogHelper}{Advance\+Button\+Dialog\+Helper}} \& \mbox{\hyperlink{classAdvanceButtonDialog_a712f0e70100d438c9705146ddff1f0fb}{get\+Helper\+Local}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classAdvanceButtonDialog_a86ab584db16c039fde480a23cce5dfde}{insert\+Kind\+Of\+Slot}} (Q\+List\+Widget\+Item $\ast$item, int slot\+Property, \mbox{\hyperlink{classJoyButtonSlot_ae87eeb7a82527da7bcd4579616bd22c8}{Joy\+Button\+Slot\+::\+Joy\+Slot\+Input\+Action}} input\+Action)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Ui\+::\+Advance\+Button\+Dialog $\ast$ \mbox{\hyperlink{classAdvanceButtonDialog_a468cfe3f61d23bf766aa0b8279d23481}{ui}}
+\item 
+int \mbox{\hyperlink{classAdvanceButtonDialog_a30a64b1fddbf5382b754e69673b5bdd0}{old\+Row}}
+\item 
+\mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$ \mbox{\hyperlink{classAdvanceButtonDialog_a84a9b1a830c74950b67fdeb0a93ff986}{m\+\_\+button}}
+\item 
+\mbox{\hyperlink{classAdvanceButtonDialogHelper}{Advance\+Button\+Dialog\+Helper}} \mbox{\hyperlink{classAdvanceButtonDialog_a07be3adf3e559f99021f2d85fc9244dc}{helper}}
+\item 
+Q\+Read\+Write\+Lock \mbox{\hyperlink{classAdvanceButtonDialog_ac4cdaa708d78d6568d747c1461e956b9}{join\+Lock}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546}\label{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!SlotTypeComboIndex@{SlotTypeComboIndex}}
+\index{SlotTypeComboIndex@{SlotTypeComboIndex}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{SlotTypeComboIndex}{SlotTypeComboIndex}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546}{Advance\+Button\+Dialog\+::\+Slot\+Type\+Combo\+Index}}\hspace{0.3cm}{\ttfamily [private]}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{KBMouseSlot@{KBMouseSlot}!AdvanceButtonDialog@{AdvanceButtonDialog}}\index{AdvanceButtonDialog@{AdvanceButtonDialog}!KBMouseSlot@{KBMouseSlot}}}\mbox{\Hypertarget{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a29a6f6d11d0fb1d570f9eb74b494a763}\label{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a29a6f6d11d0fb1d570f9eb74b494a763}} 
+K\+B\+Mouse\+Slot&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{CycleSlot@{CycleSlot}!AdvanceButtonDialog@{AdvanceButtonDialog}}\index{AdvanceButtonDialog@{AdvanceButtonDialog}!CycleSlot@{CycleSlot}}}\mbox{\Hypertarget{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a5c37a2cc3c27a97b5d1f70d4e53d02d0}\label{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a5c37a2cc3c27a97b5d1f70d4e53d02d0}} 
+Cycle\+Slot&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{DelaySlot@{DelaySlot}!AdvanceButtonDialog@{AdvanceButtonDialog}}\index{AdvanceButtonDialog@{AdvanceButtonDialog}!DelaySlot@{DelaySlot}}}\mbox{\Hypertarget{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546aa58f15c96308d0422e3870c2ae839c46}\label{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546aa58f15c96308d0422e3870c2ae839c46}} 
+Delay\+Slot&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{DistanceSlot@{DistanceSlot}!AdvanceButtonDialog@{AdvanceButtonDialog}}\index{AdvanceButtonDialog@{AdvanceButtonDialog}!DistanceSlot@{DistanceSlot}}}\mbox{\Hypertarget{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a9403945962d5a33b8900318f3e6df9b8}\label{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a9403945962d5a33b8900318f3e6df9b8}} 
+Distance\+Slot&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ExecuteSlot@{ExecuteSlot}!AdvanceButtonDialog@{AdvanceButtonDialog}}\index{AdvanceButtonDialog@{AdvanceButtonDialog}!ExecuteSlot@{ExecuteSlot}}}\mbox{\Hypertarget{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546ad4f908dc6f5845677aacc48326cfb63f}\label{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546ad4f908dc6f5845677aacc48326cfb63f}} 
+Execute\+Slot&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{HoldSlot@{HoldSlot}!AdvanceButtonDialog@{AdvanceButtonDialog}}\index{AdvanceButtonDialog@{AdvanceButtonDialog}!HoldSlot@{HoldSlot}}}\mbox{\Hypertarget{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a97644900a44392abd1a5a229b2dcd09a}\label{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a97644900a44392abd1a5a229b2dcd09a}} 
+Hold\+Slot&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LoadSlot@{LoadSlot}!AdvanceButtonDialog@{AdvanceButtonDialog}}\index{AdvanceButtonDialog@{AdvanceButtonDialog}!LoadSlot@{LoadSlot}}}\mbox{\Hypertarget{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a5b29b51be0b913f082191bcee36b8e8e}\label{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a5b29b51be0b913f082191bcee36b8e8e}} 
+Load\+Slot&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{MouseModSlot@{MouseModSlot}!AdvanceButtonDialog@{AdvanceButtonDialog}}\index{AdvanceButtonDialog@{AdvanceButtonDialog}!MouseModSlot@{MouseModSlot}}}\mbox{\Hypertarget{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a3196444b2a9be46f44fe5fed0a9db05e}\label{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a3196444b2a9be46f44fe5fed0a9db05e}} 
+Mouse\+Mod\+Slot&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PauseSlot@{PauseSlot}!AdvanceButtonDialog@{AdvanceButtonDialog}}\index{AdvanceButtonDialog@{AdvanceButtonDialog}!PauseSlot@{PauseSlot}}}\mbox{\Hypertarget{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a7ed217d2e5d3f5b89f6d963832ca0e65}\label{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a7ed217d2e5d3f5b89f6d963832ca0e65}} 
+Pause\+Slot&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PressTimeSlot@{PressTimeSlot}!AdvanceButtonDialog@{AdvanceButtonDialog}}\index{AdvanceButtonDialog@{AdvanceButtonDialog}!PressTimeSlot@{PressTimeSlot}}}\mbox{\Hypertarget{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a35090040d7c8f0df279a3816d0d08197}\label{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a35090040d7c8f0df279a3816d0d08197}} 
+Press\+Time\+Slot&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ReleaseSlot@{ReleaseSlot}!AdvanceButtonDialog@{AdvanceButtonDialog}}\index{AdvanceButtonDialog@{AdvanceButtonDialog}!ReleaseSlot@{ReleaseSlot}}}\mbox{\Hypertarget{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a687f4483bb937bfa8d0619e3fa66c069}\label{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a687f4483bb937bfa8d0619e3fa66c069}} 
+Release\+Slot&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SetChangeSlot@{SetChangeSlot}!AdvanceButtonDialog@{AdvanceButtonDialog}}\index{AdvanceButtonDialog@{AdvanceButtonDialog}!SetChangeSlot@{SetChangeSlot}}}\mbox{\Hypertarget{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a0cbc8c4dd7f6ab9c1d5ca28fa284d18f}\label{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a0cbc8c4dd7f6ab9c1d5ca28fa284d18f}} 
+Set\+Change\+Slot&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{TextEntry@{TextEntry}!AdvanceButtonDialog@{AdvanceButtonDialog}}\index{AdvanceButtonDialog@{AdvanceButtonDialog}!TextEntry@{TextEntry}}}\mbox{\Hypertarget{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a075dc39c170768b831086086751c8577}\label{classAdvanceButtonDialog_a51a25a492460b459e33a1e9ed537b546a075dc39c170768b831086086751c8577}} 
+Text\+Entry&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a4f9a1a007f50de1c3cca1403d08a0790}\label{classAdvanceButtonDialog_a4f9a1a007f50de1c3cca1403d08a0790}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{AdvanceButtonDialog()}{AdvanceButtonDialog()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Advance\+Button\+Dialog\+::\+Advance\+Button\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$}]{button,  }\item[{Q\+Widget $\ast$}]{parent = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+\mbox{\Hypertarget{classAdvanceButtonDialog_acf06789f4b400a431214227d7ca72d65}\label{classAdvanceButtonDialog_acf06789f4b400a431214227d7ca72d65}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{AdvanceButtonDialog()}{AdvanceButtonDialog()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Advance\+Button\+Dialog\+::\+Advance\+Button\+Dialog (\begin{DoxyParamCaption}\item[{Q\+Widget $\ast$}]{parent = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classAdvanceButtonDialog_a1737cd6548c703298b31d7b230ab7bcd}\label{classAdvanceButtonDialog_a1737cd6548c703298b31d7b230ab7bcd}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!````~AdvanceButtonDialog@{$\sim$AdvanceButtonDialog}}
+\index{````~AdvanceButtonDialog@{$\sim$AdvanceButtonDialog}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{$\sim$AdvanceButtonDialog()}{~AdvanceButtonDialog()}}
+{\footnotesize\ttfamily Advance\+Button\+Dialog\+::$\sim$\+Advance\+Button\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classAdvanceButtonDialog_ab5a53a366b15d6ba40214e74fe3ecd49}\label{classAdvanceButtonDialog_ab5a53a366b15d6ba40214e74fe3ecd49}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!actionTimeConvert@{actionTimeConvert}}
+\index{actionTimeConvert@{actionTimeConvert}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{actionTimeConvert()}{actionTimeConvert()}}
+{\footnotesize\ttfamily int Advance\+Button\+Dialog\+::action\+Time\+Convert (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_ab5a53a366b15d6ba40214e74fe3ecd49_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a1b4960ecedf49d2d621e99584643a03b}\label{classAdvanceButtonDialog_a1b4960ecedf49d2d621e99584643a03b}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!anySelectedNotKeybSlot@{anySelectedNotKeybSlot}}
+\index{anySelectedNotKeybSlot@{anySelectedNotKeybSlot}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{anySelectedNotKeybSlot()}{anySelectedNotKeybSlot()}}
+{\footnotesize\ttfamily bool Advance\+Button\+Dialog\+::any\+Selected\+Not\+Keyb\+Slot (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a1b4960ecedf49d2d621e99584643a03b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_ab0a69a5cf232c47a8cbdef5141d1bd9b}\label{classAdvanceButtonDialog_ab0a69a5cf232c47a8cbdef5141d1bd9b}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!appendBlankKeyGrabber@{appendBlankKeyGrabber}}
+\index{appendBlankKeyGrabber@{appendBlankKeyGrabber}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{appendBlankKeyGrabber()}{appendBlankKeyGrabber()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::append\+Blank\+Key\+Grabber (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_ab0a69a5cf232c47a8cbdef5141d1bd9b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_ab0a69a5cf232c47a8cbdef5141d1bd9b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_aaba3ea701a19efabafc0595758d5edcf}\label{classAdvanceButtonDialog_aaba3ea701a19efabafc0595758d5edcf}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!changeSlotHelpText@{changeSlotHelpText}}
+\index{changeSlotHelpText@{changeSlotHelpText}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{changeSlotHelpText}{changeSlotHelpText}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::change\+Slot\+Help\+Text (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{classAdvanceButtonDialog_aaba3ea701a19efabafc0595758d5edcf_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_af0c4b941cd40e3ad42ec0b8728a425ee}\label{classAdvanceButtonDialog_af0c4b941cd40e3ad42ec0b8728a425ee}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!changeSlotTypeDisplay@{changeSlotTypeDisplay}}
+\index{changeSlotTypeDisplay@{changeSlotTypeDisplay}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{changeSlotTypeDisplay}{changeSlotTypeDisplay}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::change\+Slot\+Type\+Display (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_af0c4b941cd40e3ad42ec0b8728a425ee_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_aeb24c0b3026ce45fd97cab431d4b6040}\label{classAdvanceButtonDialog_aeb24c0b3026ce45fd97cab431d4b6040}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!changeTurboForSequences@{changeTurboForSequences}}
+\index{changeTurboForSequences@{changeTurboForSequences}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{changeTurboForSequences()}{changeTurboForSequences()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::change\+Turbo\+For\+Sequences (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_aeb24c0b3026ce45fd97cab431d4b6040_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_aeb24c0b3026ce45fd97cab431d4b6040_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a4877876a166c691f88668cf1e951dd62}\label{classAdvanceButtonDialog_a4877876a166c691f88668cf1e951dd62}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!changeTurboText@{changeTurboText}}
+\index{changeTurboText@{changeTurboText}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{changeTurboText}{changeTurboText}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::change\+Turbo\+Text (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a4877876a166c691f88668cf1e951dd62_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_af13a1cc1753b08c8864764a0f3e3874f}\label{classAdvanceButtonDialog_af13a1cc1753b08c8864764a0f3e3874f}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!checkCycleResetWidgetStatus@{checkCycleResetWidgetStatus}}
+\index{checkCycleResetWidgetStatus@{checkCycleResetWidgetStatus}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{checkCycleResetWidgetStatus}{checkCycleResetWidgetStatus}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::check\+Cycle\+Reset\+Widget\+Status (\begin{DoxyParamCaption}\item[{bool}]{enabled }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_af13a1cc1753b08c8864764a0f3e3874f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_af758d9978d99adab296ebd584020fa1b}\label{classAdvanceButtonDialog_af758d9978d99adab296ebd584020fa1b}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!checkSlotDistanceUpdate@{checkSlotDistanceUpdate}}
+\index{checkSlotDistanceUpdate@{checkSlotDistanceUpdate}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{checkSlotDistanceUpdate}{checkSlotDistanceUpdate}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::check\+Slot\+Distance\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_af758d9978d99adab296ebd584020fa1b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_af758d9978d99adab296ebd584020fa1b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a289c7e5a38da6675e6ae2dd1b333c81e}\label{classAdvanceButtonDialog_a289c7e5a38da6675e6ae2dd1b333c81e}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!checkSlotMouseModUpdate@{checkSlotMouseModUpdate}}
+\index{checkSlotMouseModUpdate@{checkSlotMouseModUpdate}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{checkSlotMouseModUpdate}{checkSlotMouseModUpdate}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::check\+Slot\+Mouse\+Mod\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a289c7e5a38da6675e6ae2dd1b333c81e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a289c7e5a38da6675e6ae2dd1b333c81e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a7fa5ece36cbdc4d0f2c74690b15e6527}\label{classAdvanceButtonDialog_a7fa5ece36cbdc4d0f2c74690b15e6527}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!checkSlotSetChangeUpdate@{checkSlotSetChangeUpdate}}
+\index{checkSlotSetChangeUpdate@{checkSlotSetChangeUpdate}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{checkSlotSetChangeUpdate}{checkSlotSetChangeUpdate}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::check\+Slot\+Set\+Change\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a7fa5ece36cbdc4d0f2c74690b15e6527_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a7fa5ece36cbdc4d0f2c74690b15e6527_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_aec7b800bbe03360bef5ec50c7699be12}\label{classAdvanceButtonDialog_aec7b800bbe03360bef5ec50c7699be12}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!checkSlotTimeUpdate@{checkSlotTimeUpdate}}
+\index{checkSlotTimeUpdate@{checkSlotTimeUpdate}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{checkSlotTimeUpdate}{checkSlotTimeUpdate}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::check\+Slot\+Time\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_aec7b800bbe03360bef5ec50c7699be12_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_aec7b800bbe03360bef5ec50c7699be12_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a5aed7f9d23471bcfca1a6595cb4e4391}\label{classAdvanceButtonDialog_a5aed7f9d23471bcfca1a6595cb4e4391}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!checkTurboIntervalValue@{checkTurboIntervalValue}}
+\index{checkTurboIntervalValue@{checkTurboIntervalValue}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{checkTurboIntervalValue}{checkTurboIntervalValue}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::check\+Turbo\+Interval\+Value (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a5aed7f9d23471bcfca1a6595cb4e4391_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a5aed7f9d23471bcfca1a6595cb4e4391_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a64efeb2a6c8cf0ea259bb02c0f96080d}\label{classAdvanceButtonDialog_a64efeb2a6c8cf0ea259bb02c0f96080d}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!checkTurboSetting@{checkTurboSetting}}
+\index{checkTurboSetting@{checkTurboSetting}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{checkTurboSetting}{checkTurboSetting}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::check\+Turbo\+Setting (\begin{DoxyParamCaption}\item[{bool}]{state }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a64efeb2a6c8cf0ea259bb02c0f96080d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{classAdvanceButtonDialog_a64efeb2a6c8cf0ea259bb02c0f96080d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_aa97a397aca5e36a6b580309e04ac3a9d}\label{classAdvanceButtonDialog_aa97a397aca5e36a6b580309e04ac3a9d}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!clearAllSlots@{clearAllSlots}}
+\index{clearAllSlots@{clearAllSlots}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{clearAllSlots}{clearAllSlots}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::clear\+All\+Slots (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_aa97a397aca5e36a6b580309e04ac3a9d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_aa97a397aca5e36a6b580309e04ac3a9d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_ab72e06536fc36f403249d7f48a925a82}\label{classAdvanceButtonDialog_ab72e06536fc36f403249d7f48a925a82}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!connectButtonEvents@{connectButtonEvents}}
+\index{connectButtonEvents@{connectButtonEvents}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{connectButtonEvents()}{connectButtonEvents()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::connect\+Button\+Events (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSimpleKeyGrabberButton}{Simple\+Key\+Grabber\+Button}} $\ast$}]{button }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_ab72e06536fc36f403249d7f48a925a82_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_ab72e06536fc36f403249d7f48a925a82_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_ae845213154214835f35b01653c3c8cd6}\label{classAdvanceButtonDialog_ae845213154214835f35b01653c3c8cd6}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!connectTimeBoxesEvents@{connectTimeBoxesEvents}}
+\index{connectTimeBoxesEvents@{connectTimeBoxesEvents}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{connectTimeBoxesEvents()}{connectTimeBoxesEvents()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::connect\+Time\+Boxes\+Events (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_ae845213154214835f35b01653c3c8cd6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_ae845213154214835f35b01653c3c8cd6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a5e7b569639f67d97fdcf89f6733f4421}\label{classAdvanceButtonDialog_a5e7b569639f67d97fdcf89f6733f4421}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!deleteSlot@{deleteSlot}}
+\index{deleteSlot@{deleteSlot}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{deleteSlot}{deleteSlot}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::delete\+Slot (\begin{DoxyParamCaption}\item[{bool}]{show\+Warning = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a5e7b569639f67d97fdcf89f6733f4421_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a5e7b569639f67d97fdcf89f6733f4421_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_addf68258b6fb4eeae4dde34fc0fb92e7}\label{classAdvanceButtonDialog_addf68258b6fb4eeae4dde34fc0fb92e7}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!disconnectTimeBoxesEvents@{disconnectTimeBoxesEvents}}
+\index{disconnectTimeBoxesEvents@{disconnectTimeBoxesEvents}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{disconnectTimeBoxesEvents()}{disconnectTimeBoxesEvents()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::disconnect\+Time\+Boxes\+Events (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_addf68258b6fb4eeae4dde34fc0fb92e7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_addf68258b6fb4eeae4dde34fc0fb92e7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a279b0af28d1f20ff69e4592403157f3a}\label{classAdvanceButtonDialog_a279b0af28d1f20ff69e4592403157f3a}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!fillTimeComboBoxes@{fillTimeComboBoxes}}
+\index{fillTimeComboBoxes@{fillTimeComboBoxes}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{fillTimeComboBoxes()}{fillTimeComboBoxes()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::fill\+Time\+Combo\+Boxes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=345pt]{classAdvanceButtonDialog_a279b0af28d1f20ff69e4592403157f3a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_aa47c1edae8c226f0c025a1103259b9e7}\label{classAdvanceButtonDialog_aa47c1edae8c226f0c025a1103259b9e7}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!findTurboModeComboIndex@{findTurboModeComboIndex}}
+\index{findTurboModeComboIndex@{findTurboModeComboIndex}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{findTurboModeComboIndex()}{findTurboModeComboIndex()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::find\+Turbo\+Mode\+Combo\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_aa47c1edae8c226f0c025a1103259b9e7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_aa47c1edae8c226f0c025a1103259b9e7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_ac503caa9dfb0a99742a78d82773b7911}\label{classAdvanceButtonDialog_ac503caa9dfb0a99742a78d82773b7911}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!getButton@{getButton}}
+\index{getButton@{getButton}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{getButton()}{getButton()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$ Advance\+Button\+Dialog\+::get\+Button (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classAdvanceButtonDialog_a0f905c8179075d6ef70dd58473907635}\label{classAdvanceButtonDialog_a0f905c8179075d6ef70dd58473907635}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!getHelper@{getHelper}}
+\index{getHelper@{getHelper}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{getHelper()}{getHelper()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classAdvanceButtonDialogHelper}{Advance\+Button\+Dialog\+Helper}} \& Advance\+Button\+Dialog\+::get\+Helper (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classAdvanceButtonDialog_a712f0e70100d438c9705146ddff1f0fb}\label{classAdvanceButtonDialog_a712f0e70100d438c9705146ddff1f0fb}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!getHelperLocal@{getHelperLocal}}
+\index{getHelperLocal@{getHelperLocal}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{getHelperLocal()}{getHelperLocal()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classAdvanceButtonDialogHelper}{Advance\+Button\+Dialog\+Helper}} \& Advance\+Button\+Dialog\+::get\+Helper\+Local (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{classAdvanceButtonDialog_a712f0e70100d438c9705146ddff1f0fb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a4271483f81cb9b96c91bfaabcd6cb8c7}\label{classAdvanceButtonDialog_a4271483f81cb9b96c91bfaabcd6cb8c7}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!getOldRow@{getOldRow}}
+\index{getOldRow@{getOldRow}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{getOldRow()}{getOldRow()}}
+{\footnotesize\ttfamily int Advance\+Button\+Dialog\+::get\+Old\+Row (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classAdvanceButtonDialog_a9a53f03e9d1da8abc0d59c7e1d06f2fa}\label{classAdvanceButtonDialog_a9a53f03e9d1da8abc0d59c7e1d06f2fa}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!insertCycleSlot@{insertCycleSlot}}
+\index{insertCycleSlot@{insertCycleSlot}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{insertCycleSlot}{insertCycleSlot}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::insert\+Cycle\+Slot (\begin{DoxyParamCaption}\item[{Q\+List\+Widget\+Item $\ast$}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a9a53f03e9d1da8abc0d59c7e1d06f2fa_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a9a53f03e9d1da8abc0d59c7e1d06f2fa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a3f6402907f85d2edb4bfbb77a2381882}\label{classAdvanceButtonDialog_a3f6402907f85d2edb4bfbb77a2381882}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!insertExecuteSlot@{insertExecuteSlot}}
+\index{insertExecuteSlot@{insertExecuteSlot}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{insertExecuteSlot}{insertExecuteSlot}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::insert\+Execute\+Slot (\begin{DoxyParamCaption}\item[{Q\+List\+Widget\+Item $\ast$}]{item,  }\item[{Q\+String\+List \&}]{prev\+Exec\+And\+Args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a3f6402907f85d2edb4bfbb77a2381882_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a3f6402907f85d2edb4bfbb77a2381882_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a86ab584db16c039fde480a23cce5dfde}\label{classAdvanceButtonDialog_a86ab584db16c039fde480a23cce5dfde}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!insertKindOfSlot@{insertKindOfSlot}}
+\index{insertKindOfSlot@{insertKindOfSlot}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{insertKindOfSlot()}{insertKindOfSlot()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::insert\+Kind\+Of\+Slot (\begin{DoxyParamCaption}\item[{Q\+List\+Widget\+Item $\ast$}]{item,  }\item[{int}]{slot\+Property,  }\item[{\mbox{\hyperlink{classJoyButtonSlot_ae87eeb7a82527da7bcd4579616bd22c8}{Joy\+Button\+Slot\+::\+Joy\+Slot\+Input\+Action}}}]{input\+Action }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a86ab584db16c039fde480a23cce5dfde_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a86ab584db16c039fde480a23cce5dfde_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a973a9cf7b58950cda18e39fdffb87e09}\label{classAdvanceButtonDialog_a973a9cf7b58950cda18e39fdffb87e09}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!insertSlot@{insertSlot}}
+\index{insertSlot@{insertSlot}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{insertSlot}{insertSlot}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::insert\+Slot (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a973a9cf7b58950cda18e39fdffb87e09_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a973a9cf7b58950cda18e39fdffb87e09_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a2efe6c11e48224ea986a09e05bc96353}\label{classAdvanceButtonDialog_a2efe6c11e48224ea986a09e05bc96353}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!insertTextEntrySlot@{insertTextEntrySlot}}
+\index{insertTextEntrySlot@{insertTextEntrySlot}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{insertTextEntrySlot}{insertTextEntrySlot}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::insert\+Text\+Entry\+Slot (\begin{DoxyParamCaption}\item[{Q\+List\+Widget\+Item $\ast$}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a2efe6c11e48224ea986a09e05bc96353_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a2efe6c11e48224ea986a09e05bc96353_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_ad40bcfad2f4380b746002defc689a2b6}\label{classAdvanceButtonDialog_ad40bcfad2f4380b746002defc689a2b6}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!joinSlot@{joinSlot}}
+\index{joinSlot@{joinSlot}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{joinSlot}{joinSlot}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::join\+Slot (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_ad40bcfad2f4380b746002defc689a2b6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{classAdvanceButtonDialog_ad40bcfad2f4380b746002defc689a2b6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a31e78ce60334e0bcef5dad4cd43ee1e9}\label{classAdvanceButtonDialog_a31e78ce60334e0bcef5dad4cd43ee1e9}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!performStatsWidgetRefresh@{performStatsWidgetRefresh}}
+\index{performStatsWidgetRefresh@{performStatsWidgetRefresh}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{performStatsWidgetRefresh}{performStatsWidgetRefresh}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::perform\+Stats\+Widget\+Refresh (\begin{DoxyParamCaption}\item[{Q\+List\+Widget\+Item $\ast$}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a31e78ce60334e0bcef5dad4cd43ee1e9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a31e78ce60334e0bcef5dad4cd43ee1e9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a437fdaa04ca6082ebb7416cf7ac4e6b5}\label{classAdvanceButtonDialog_a437fdaa04ca6082ebb7416cf7ac4e6b5}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!placeNewSlot@{placeNewSlot}}
+\index{placeNewSlot@{placeNewSlot}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{placeNewSlot}{placeNewSlot}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::place\+New\+Slot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButtonSlot}{Joy\+Button\+Slot}} $\ast$}]{slot }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a437fdaa04ca6082ebb7416cf7ac4e6b5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a437fdaa04ca6082ebb7416cf7ac4e6b5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a9432e934237e71998dbd7869178bbd86}\label{classAdvanceButtonDialog_a9432e934237e71998dbd7869178bbd86}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!populateAutoResetInterval@{populateAutoResetInterval}}
+\index{populateAutoResetInterval@{populateAutoResetInterval}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{populateAutoResetInterval()}{populateAutoResetInterval()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::populate\+Auto\+Reset\+Interval (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a9432e934237e71998dbd7869178bbd86_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a9432e934237e71998dbd7869178bbd86_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_ada165d95c3dfa589d22dcc8d79c43819}\label{classAdvanceButtonDialog_ada165d95c3dfa589d22dcc8d79c43819}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!populateSetSelectionComboBox@{populateSetSelectionComboBox}}
+\index{populateSetSelectionComboBox@{populateSetSelectionComboBox}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{populateSetSelectionComboBox()}{populateSetSelectionComboBox()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::populate\+Set\+Selection\+Combo\+Box (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_ada165d95c3dfa589d22dcc8d79c43819_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_ada165d95c3dfa589d22dcc8d79c43819_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a1013147913c991d6b379341f2d0b6e91}\label{classAdvanceButtonDialog_a1013147913c991d6b379341f2d0b6e91}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!populateSlotSetSelectionComboBox@{populateSlotSetSelectionComboBox}}
+\index{populateSlotSetSelectionComboBox@{populateSlotSetSelectionComboBox}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{populateSlotSetSelectionComboBox()}{populateSlotSetSelectionComboBox()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::populate\+Slot\+Set\+Selection\+Combo\+Box (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a1013147913c991d6b379341f2d0b6e91_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a1013147913c991d6b379341f2d0b6e91_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a31876eda1370e7e4190f02c8c5863755}\label{classAdvanceButtonDialog_a31876eda1370e7e4190f02c8c5863755}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!refreshTimeComboBoxes@{refreshTimeComboBoxes}}
+\index{refreshTimeComboBoxes@{refreshTimeComboBoxes}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{refreshTimeComboBoxes()}{refreshTimeComboBoxes()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::refresh\+Time\+Combo\+Boxes (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButtonSlot}{Joy\+Button\+Slot}} $\ast$}]{slot }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a31876eda1370e7e4190f02c8c5863755_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a31876eda1370e7e4190f02c8c5863755_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a634243c95c88918cdb195f5417a585fa}\label{classAdvanceButtonDialog_a634243c95c88918cdb195f5417a585fa}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!resetTimeBoxes@{resetTimeBoxes}}
+\index{resetTimeBoxes@{resetTimeBoxes}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{resetTimeBoxes()}{resetTimeBoxes()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::reset\+Time\+Boxes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a634243c95c88918cdb195f5417a585fa_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_ae89498c3d635abf288adfcc859333f64}\label{classAdvanceButtonDialog_ae89498c3d635abf288adfcc859333f64}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!selectedNotMixSlot@{selectedNotMixSlot}}
+\index{selectedNotMixSlot@{selectedNotMixSlot}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{selectedNotMixSlot()}{selectedNotMixSlot()}}
+{\footnotesize\ttfamily bool Advance\+Button\+Dialog\+::selected\+Not\+Mix\+Slot (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_ae89498c3d635abf288adfcc859333f64_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a21b3b496b19dffe081924d94565f7235}\label{classAdvanceButtonDialog_a21b3b496b19dffe081924d94565f7235}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!setButtonCycleReset@{setButtonCycleReset}}
+\index{setButtonCycleReset@{setButtonCycleReset}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{setButtonCycleReset}{setButtonCycleReset}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::set\+Button\+Cycle\+Reset (\begin{DoxyParamCaption}\item[{bool}]{enabled }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a21b3b496b19dffe081924d94565f7235_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{classAdvanceButtonDialog_a21b3b496b19dffe081924d94565f7235_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a2242fea1619c2f5048b2d55b4a934384}\label{classAdvanceButtonDialog_a2242fea1619c2f5048b2d55b4a934384}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!setButtonCycleResetInterval@{setButtonCycleResetInterval}}
+\index{setButtonCycleResetInterval@{setButtonCycleResetInterval}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{setButtonCycleResetInterval}{setButtonCycleResetInterval}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::set\+Button\+Cycle\+Reset\+Interval (\begin{DoxyParamCaption}\item[{double}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a2242fea1619c2f5048b2d55b4a934384_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a2242fea1619c2f5048b2d55b4a934384_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a147bdc81b9bdeecf5f523971141bc6a3}\label{classAdvanceButtonDialog_a147bdc81b9bdeecf5f523971141bc6a3}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!setButtonTurboMode@{setButtonTurboMode}}
+\index{setButtonTurboMode@{setButtonTurboMode}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{setButtonTurboMode}{setButtonTurboMode}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::set\+Button\+Turbo\+Mode (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a147bdc81b9bdeecf5f523971141bc6a3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=345pt]{classAdvanceButtonDialog_a147bdc81b9bdeecf5f523971141bc6a3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a748455fb1694f4c4dd4d050288c95e17}\label{classAdvanceButtonDialog_a748455fb1694f4c4dd4d050288c95e17}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!showFindExecutableWindow@{showFindExecutableWindow}}
+\index{showFindExecutableWindow@{showFindExecutableWindow}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{showFindExecutableWindow}{showFindExecutableWindow}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::show\+Find\+Executable\+Window (\begin{DoxyParamCaption}\item[{bool}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a748455fb1694f4c4dd4d050288c95e17_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a537e84c8a495aa615b417b3851b59b62}\label{classAdvanceButtonDialog_a537e84c8a495aa615b417b3851b59b62}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!showSelectProfileWind@{showSelectProfileWind}}
+\index{showSelectProfileWind@{showSelectProfileWind}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{showSelectProfileWind()}{showSelectProfileWind()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::show\+Select\+Profile\+Wind (\begin{DoxyParamCaption}\item[{Q\+List\+Widget\+Item $\ast$}]{item,  }\item[{Q\+String \&}]{first\+Choice\+Profile }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a537e84c8a495aa615b417b3851b59b62_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a537e84c8a495aa615b417b3851b59b62_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_af8430c4a355c90c657d69a44a85e6b84}\label{classAdvanceButtonDialog_af8430c4a355c90c657d69a44a85e6b84}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!showSelectProfileWindow@{showSelectProfileWindow}}
+\index{showSelectProfileWindow@{showSelectProfileWindow}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{showSelectProfileWindow}{showSelectProfileWindow}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::show\+Select\+Profile\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_af8430c4a355c90c657d69a44a85e6b84_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_af8430c4a355c90c657d69a44a85e6b84_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a4113d445669142105e86b546979ac258}\label{classAdvanceButtonDialog_a4113d445669142105e86b546979ac258}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!slotsChanged@{slotsChanged}}
+\index{slotsChanged@{slotsChanged}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{slotsChanged}{slotsChanged}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::slots\+Changed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a4113d445669142105e86b546979ac258_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_adde227692a4a5abc4f4e9cc027ba5866}\label{classAdvanceButtonDialog_adde227692a4a5abc4f4e9cc027ba5866}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!splitSlot@{splitSlot}}
+\index{splitSlot@{splitSlot}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{splitSlot}{splitSlot}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::split\+Slot (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_adde227692a4a5abc4f4e9cc027ba5866_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{classAdvanceButtonDialog_adde227692a4a5abc4f4e9cc027ba5866_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a550730c79bd4130b440df9527b4bfd13}\label{classAdvanceButtonDialog_a550730c79bd4130b440df9527b4bfd13}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!toggleChanged@{toggleChanged}}
+\index{toggleChanged@{toggleChanged}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{toggleChanged}{toggleChanged}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::toggle\+Changed (\begin{DoxyParamCaption}\item[{bool}]{state }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+\mbox{\Hypertarget{classAdvanceButtonDialog_ab110a9792e569c7eaee4f085082fea11}\label{classAdvanceButtonDialog_ab110a9792e569c7eaee4f085082fea11}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!turboButtonEnabledChange@{turboButtonEnabledChange}}
+\index{turboButtonEnabledChange@{turboButtonEnabledChange}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{turboButtonEnabledChange}{turboButtonEnabledChange}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::turbo\+Button\+Enabled\+Change (\begin{DoxyParamCaption}\item[{bool}]{state }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_ab110a9792e569c7eaee4f085082fea11_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_aa3b7bc1e9cbc0c582ead433a8d5210fc}\label{classAdvanceButtonDialog_aa3b7bc1e9cbc0c582ead433a8d5210fc}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!turboChanged@{turboChanged}}
+\index{turboChanged@{turboChanged}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{turboChanged}{turboChanged}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::turbo\+Changed (\begin{DoxyParamCaption}\item[{bool}]{state }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_aa3b7bc1e9cbc0c582ead433a8d5210fc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_abe36139fad204573dc1b0ea0e38f169d}\label{classAdvanceButtonDialog_abe36139fad204573dc1b0ea0e38f169d}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!updateActionTimeLabel@{updateActionTimeLabel}}
+\index{updateActionTimeLabel@{updateActionTimeLabel}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{updateActionTimeLabel}{updateActionTimeLabel}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::update\+Action\+Time\+Label (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_abe36139fad204573dc1b0ea0e38f169d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_abe36139fad204573dc1b0ea0e38f169d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_aa9ce9cbd457fb41cbea00da74c01334b}\label{classAdvanceButtonDialog_aa9ce9cbd457fb41cbea00da74c01334b}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!updateSetSelection@{updateSetSelection}}
+\index{updateSetSelection@{updateSetSelection}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{updateSetSelection}{updateSetSelection}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::update\+Set\+Selection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_aa9ce9cbd457fb41cbea00da74c01334b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{classAdvanceButtonDialog_aa9ce9cbd457fb41cbea00da74c01334b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a5284c1fc58683ba8649b1811d615e71c}\label{classAdvanceButtonDialog_a5284c1fc58683ba8649b1811d615e71c}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!updateSlotsScrollArea@{updateSlotsScrollArea}}
+\index{updateSlotsScrollArea@{updateSlotsScrollArea}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{updateSlotsScrollArea}{updateSlotsScrollArea}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::update\+Slots\+Scroll\+Area (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a5284c1fc58683ba8649b1811d615e71c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a5284c1fc58683ba8649b1811d615e71c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_ae63fa37078d1cded118c903eb9ccf24d}\label{classAdvanceButtonDialog_ae63fa37078d1cded118c903eb9ccf24d}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!updateTurboIntervalValue@{updateTurboIntervalValue}}
+\index{updateTurboIntervalValue@{updateTurboIntervalValue}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{updateTurboIntervalValue}{updateTurboIntervalValue}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::update\+Turbo\+Interval\+Value (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_ae63fa37078d1cded118c903eb9ccf24d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_ae63fa37078d1cded118c903eb9ccf24d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a371dbf9d2c49e736d8e7d8fba3739aff}\label{classAdvanceButtonDialog_a371dbf9d2c49e736d8e7d8fba3739aff}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!updateWindowTitleButtonName@{updateWindowTitleButtonName}}
+\index{updateWindowTitleButtonName@{updateWindowTitleButtonName}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{updateWindowTitleButtonName()}{updateWindowTitleButtonName()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Advance\+Button\+Dialog\+::update\+Window\+Title\+Button\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a371dbf9d2c49e736d8e7d8fba3739aff_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classAdvanceButtonDialog_a371dbf9d2c49e736d8e7d8fba3739aff_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classAdvanceButtonDialog_a07be3adf3e559f99021f2d85fc9244dc}\label{classAdvanceButtonDialog_a07be3adf3e559f99021f2d85fc9244dc}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!helper@{helper}}
+\index{helper@{helper}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{helper}{helper}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classAdvanceButtonDialogHelper}{Advance\+Button\+Dialog\+Helper}} Advance\+Button\+Dialog\+::helper\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classAdvanceButtonDialog_ac4cdaa708d78d6568d747c1461e956b9}\label{classAdvanceButtonDialog_ac4cdaa708d78d6568d747c1461e956b9}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!joinLock@{joinLock}}
+\index{joinLock@{joinLock}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{joinLock}{joinLock}}
+{\footnotesize\ttfamily Q\+Read\+Write\+Lock Advance\+Button\+Dialog\+::join\+Lock\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classAdvanceButtonDialog_a84a9b1a830c74950b67fdeb0a93ff986}\label{classAdvanceButtonDialog_a84a9b1a830c74950b67fdeb0a93ff986}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!m\_button@{m\_button}}
+\index{m\_button@{m\_button}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{m\_button}{m\_button}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyButton}{Joy\+Button}}$\ast$ Advance\+Button\+Dialog\+::m\+\_\+button\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classAdvanceButtonDialog_a30a64b1fddbf5382b754e69673b5bdd0}\label{classAdvanceButtonDialog_a30a64b1fddbf5382b754e69673b5bdd0}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!oldRow@{oldRow}}
+\index{oldRow@{oldRow}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{oldRow}{oldRow}}
+{\footnotesize\ttfamily int Advance\+Button\+Dialog\+::old\+Row\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classAdvanceButtonDialog_a468cfe3f61d23bf766aa0b8279d23481}\label{classAdvanceButtonDialog_a468cfe3f61d23bf766aa0b8279d23481}} 
+\index{AdvanceButtonDialog@{AdvanceButtonDialog}!ui@{ui}}
+\index{ui@{ui}!AdvanceButtonDialog@{AdvanceButtonDialog}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Advance\+Button\+Dialog$\ast$ Advance\+Button\+Dialog\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{advancebuttondialog_8h}{advancebuttondialog.\+h}}\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{advancebuttondialog_8cpp}{advancebuttondialog.\+cpp}}\end{DoxyCompactItemize}

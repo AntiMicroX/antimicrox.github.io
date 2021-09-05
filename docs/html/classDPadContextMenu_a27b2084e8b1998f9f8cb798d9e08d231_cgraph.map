@@ -1,0 +1,12 @@
+<map id="DPadContextMenu::getPresetIndex" name="DPadContextMenu::getPresetIndex">
+<area shape="rect" id="node1" title="Find the appropriate menu item index for the currently assigned slots that are assigned to a DPad." alt="" coords="5,125,203,166"/>
+<area shape="rect" id="node2" href="$classJoyButton.html#ae1d364dfa70f47fae3db99ffbcdea44b" title=" " alt="" coords="259,5,450,32"/>
+<area shape="rect" id="node3" href="$classAntKeyMapper.html#acd08c44a2501edcfdb1ef8a68d534b1b" title=" " alt="" coords="263,56,446,83"/>
+<area shape="rect" id="node6" href="$classJoyDPad.html#a5e31e9bf9edfcc87b69d389dbe9d2ea9" title=" " alt="" coords="274,107,435,133"/>
+<area shape="rect" id="node7" href="$classJoyButtonSlot.html#a7fa0bf6d891437a2392e47d32b746502" title=" " alt="" coords="263,157,447,184"/>
+<area shape="rect" id="node8" href="$classJoyButtonSlot.html#abed7fe134c404b403ea79c0753f6eaaf" title=" " alt="" coords="262,208,447,235"/>
+<area shape="rect" id="node9" href="$classAntKeyMapper.html#a07957c1e2baac6c4266678d89dc7c3a6" title=" " alt="" coords="251,259,459,285"/>
+<area shape="rect" id="node4" href="$classAntKeyMapper.html#abe4a434636d370a750d32a14b9a139d3" title=" " alt="" coords="523,31,723,57"/>
+<area shape="rect" id="node5" href="$antkeymapper_8cpp.html#a4f87707944cf82e8e59c85d48e24951c" title=" " alt="" coords="543,81,703,108"/>
+<area shape="rect" id="node10" href="$classQtKeyMapperBase.html#a5df0f313bce11847f8495126373e7178" title=" " alt="" coords="507,259,739,285"/>
+</map>

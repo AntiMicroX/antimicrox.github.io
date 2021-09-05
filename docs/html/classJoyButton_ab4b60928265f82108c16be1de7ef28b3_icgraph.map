@@ -1,0 +1,14 @@
+<map id="JoyButton::getMinAccelThreshold" name="JoyButton::getMinAccelThreshold">
+<area shape="rect" id="node1" title=" " alt="" coords="819,119,1037,146"/>
+<area shape="rect" id="node2" href="$classMouseAxisSettingsDialog.html#ae8ac5a108493386e3db8379c7257fe79" title=" " alt="" coords="540,9,771,51"/>
+<area shape="rect" id="node4" href="$classJoyControlStick.html#a12d054793547e7400a59aaca1adfc931" title=" " alt="" coords="563,79,748,120"/>
+<area shape="rect" id="node7" href="$classMouseButtonSettingsDialog.html#a181bfdf388907056ec492d58d85f5d34" title=" " alt="" coords="559,144,751,185"/>
+<area shape="rect" id="node8" href="$classJoyButtonXml.html#a766e87947104bfd54fc15b96b267ebdd" title=" " alt="" coords="566,225,745,251"/>
+<area shape="rect" id="node3" href="$classMouseAxisSettingsDialog.html#a33546e4b608264ce6d2758678eb6d2e7" title=" " alt="" coords="296,5,476,47"/>
+<area shape="rect" id="node5" href="$classMouseControlStickSettingsDialog.html#a4c85c0aa3ba9262c3fc996fc25811670" title=" " alt="" coords="280,71,492,127"/>
+<area shape="rect" id="node6" href="$classMouseControlStickSettingsDialog.html#aac9d5ef09dced4cee0df95d99ae13369" title=" " alt="" coords="5,71,232,127"/>
+<area shape="rect" id="node9" href="$classGameControllerTriggerXml.html#a382a32a139351f790192dc0991dea637" title=" " alt="" coords="299,152,473,193"/>
+<area shape="rect" id="node10" href="$classJoyDPadXml.html#ac78c8fd1ad107f6a3baed4910863cb0c" title=" " alt="" coords="285,217,487,259"/>
+<area shape="rect" id="node11" href="$classSetJoystickXml.html#a11eec051c05deac5ebe47b9582e83b6f" title=" " alt="" coords="293,283,479,310"/>
+<area shape="rect" id="node12" href="$classJoyControlStick.html#a3ab1764a44e806d2d3896023f82fa3b1" title="Write the status of the properties of a stick and direction buttons to an XML stream." alt="" coords="292,334,480,361"/>
+</map>

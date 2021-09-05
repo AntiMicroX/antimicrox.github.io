@@ -1,0 +1,341 @@
+\hypertarget{classDPadPushButtonGroup}{}\doxysection{D\+Pad\+Push\+Button\+Group Class Reference}
+\label{classDPadPushButtonGroup}\index{DPadPushButtonGroup@{DPadPushButtonGroup}}
+
+
+{\ttfamily \#include $<$dpadpushbuttongroup.\+h$>$}
+
+
+
+Inheritance diagram for D\+Pad\+Push\+Button\+Group\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=199pt]{classDPadPushButtonGroup__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for D\+Pad\+Push\+Button\+Group\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDPadPushButtonGroup__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classDPadPushButtonGroup_ac03e4d0f8b2e169fe3222739598543cd}{change\+Button\+Layout}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classDPadPushButtonGroup_ab975b21b521f675088ee68394b7f29df}{toggle\+Name\+Display}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classDPadPushButtonGroup_a18c27a7832a94c3b9d0e1e3c0f3a2851}{button\+Slot\+Changed}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classDPadPushButtonGroup_aa7e7b7b0873d1d2528657e6dc5f6ae2a}{D\+Pad\+Push\+Button\+Group}} (\mbox{\hyperlink{classJoyDPad}{Joy\+D\+Pad}} $\ast$\mbox{\hyperlink{classDPadPushButtonGroup_a0e162f17a5d82dc0147ac31e2489a290}{dpad}}, bool \mbox{\hyperlink{classDPadPushButtonGroup_a0db01fb0e9dfe147d844eb1842e76050}{keypad\+Unlocked}}, bool \mbox{\hyperlink{classDPadPushButtonGroup_a239ba42cc6ef90e0691859e4bda2775d}{display\+Names}}=false, Q\+Widget $\ast$parent=nullptr)
+\item 
+\mbox{\hyperlink{classJoyDPad}{Joy\+D\+Pad}} $\ast$ \mbox{\hyperlink{classDPadPushButtonGroup_a7dc9b18d6e1a48051a5a014d4f484189}{get\+D\+Pad}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classDPadPushButtonGroup_aee9a764b8e351c4e7cfe4cbc8d9167af}{generate\+Buttons}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classDPadPushButtonGroup_aa1687920eaeb158af7d1c4e20d5fa317}{propogate\+Slots\+Changed}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classDPadPushButtonGroup_a74fc4e4e542e261b2430124b56d5ac07}{open\+D\+Pad\+Button\+Dialog}} (\mbox{\hyperlink{classJoyButtonWidget}{Joy\+Button\+Widget}} $\ast$button\+Widget)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classDPadPushButtonGroup_acbe2cb9aabbfc7595c7964111935228e}{show\+D\+Pad\+Dialog}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classJoyDPadButtonWidget}{Joy\+D\+Pad\+Button\+Widget}} $\ast$ \mbox{\hyperlink{classDPadPushButtonGroup_ad1df6bca89fd9b715a063a0f3a817792}{generate\+Btn\+For\+Grid}} (Q\+Hash$<$ int, \mbox{\hyperlink{classJoyDPadButton}{Joy\+D\+Pad\+Button}} $\ast$ $>$ $\ast$buttons, int dpad\+Direction, int cell\+Row, int cell\+Col)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classJoyDPad}{Joy\+D\+Pad}} $\ast$ \mbox{\hyperlink{classDPadPushButtonGroup_a0e162f17a5d82dc0147ac31e2489a290}{dpad}}
+\item 
+bool \mbox{\hyperlink{classDPadPushButtonGroup_a0db01fb0e9dfe147d844eb1842e76050}{keypad\+Unlocked}}
+\item 
+bool \mbox{\hyperlink{classDPadPushButtonGroup_a239ba42cc6ef90e0691859e4bda2775d}{display\+Names}}
+\item 
+\mbox{\hyperlink{classJoyDPadButtonWidget}{Joy\+D\+Pad\+Button\+Widget}} $\ast$ \mbox{\hyperlink{classDPadPushButtonGroup_a24e15e653c4892c6b3c8211240700354}{up\+Button}}
+\item 
+\mbox{\hyperlink{classJoyDPadButtonWidget}{Joy\+D\+Pad\+Button\+Widget}} $\ast$ \mbox{\hyperlink{classDPadPushButtonGroup_a7be444a85f5663bb2b7deb93a7698142}{down\+Button}}
+\item 
+\mbox{\hyperlink{classJoyDPadButtonWidget}{Joy\+D\+Pad\+Button\+Widget}} $\ast$ \mbox{\hyperlink{classDPadPushButtonGroup_a2f1a2a9ae7a649a5d54cfd0e534d58ef}{left\+Button}}
+\item 
+\mbox{\hyperlink{classJoyDPadButtonWidget}{Joy\+D\+Pad\+Button\+Widget}} $\ast$ \mbox{\hyperlink{classDPadPushButtonGroup_a9fa2434723f7f775d24ca0ce7f580b00}{right\+Button}}
+\item 
+\mbox{\hyperlink{classJoyDPadButtonWidget}{Joy\+D\+Pad\+Button\+Widget}} $\ast$ \mbox{\hyperlink{classDPadPushButtonGroup_a69ece1a383f47a8d3a5ab2a84d12e3e2}{up\+Left\+Button}}
+\item 
+\mbox{\hyperlink{classJoyDPadButtonWidget}{Joy\+D\+Pad\+Button\+Widget}} $\ast$ \mbox{\hyperlink{classDPadPushButtonGroup_aab8a71b058904d08a694810e91814683}{up\+Right\+Button}}
+\item 
+\mbox{\hyperlink{classJoyDPadButtonWidget}{Joy\+D\+Pad\+Button\+Widget}} $\ast$ \mbox{\hyperlink{classDPadPushButtonGroup_a7be1e77e45cafff1135c56665a55b566}{down\+Left\+Button}}
+\item 
+\mbox{\hyperlink{classJoyDPadButtonWidget}{Joy\+D\+Pad\+Button\+Widget}} $\ast$ \mbox{\hyperlink{classDPadPushButtonGroup_a2cf94a15e2fa4a5ff8fa3d1daf7ab5ce}{down\+Right\+Button}}
+\item 
+\mbox{\hyperlink{classDPadPushButton}{D\+Pad\+Push\+Button}} $\ast$ \mbox{\hyperlink{classDPadPushButtonGroup_aa2391ac5bdf2810a5407b0456a23216d}{dpad\+Widget}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classDPadPushButtonGroup_aa7e7b7b0873d1d2528657e6dc5f6ae2a}\label{classDPadPushButtonGroup_aa7e7b7b0873d1d2528657e6dc5f6ae2a}} 
+\index{DPadPushButtonGroup@{DPadPushButtonGroup}!DPadPushButtonGroup@{DPadPushButtonGroup}}
+\index{DPadPushButtonGroup@{DPadPushButtonGroup}!DPadPushButtonGroup@{DPadPushButtonGroup}}
+\doxysubsubsection{\texorpdfstring{DPadPushButtonGroup()}{DPadPushButtonGroup()}}
+{\footnotesize\ttfamily D\+Pad\+Push\+Button\+Group\+::\+D\+Pad\+Push\+Button\+Group (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyDPad}{Joy\+D\+Pad}} $\ast$}]{dpad,  }\item[{bool}]{keypad\+Unlocked,  }\item[{bool}]{display\+Names = {\ttfamily false},  }\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDPadPushButtonGroup_aa7e7b7b0873d1d2528657e6dc5f6ae2a_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDPadPushButtonGroup_a18c27a7832a94c3b9d0e1e3c0f3a2851}\label{classDPadPushButtonGroup_a18c27a7832a94c3b9d0e1e3c0f3a2851}} 
+\index{DPadPushButtonGroup@{DPadPushButtonGroup}!buttonSlotChanged@{buttonSlotChanged}}
+\index{buttonSlotChanged@{buttonSlotChanged}!DPadPushButtonGroup@{DPadPushButtonGroup}}
+\doxysubsubsection{\texorpdfstring{buttonSlotChanged}{buttonSlotChanged}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} D\+Pad\+Push\+Button\+Group\+::button\+Slot\+Changed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDPadPushButtonGroup_a18c27a7832a94c3b9d0e1e3c0f3a2851_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classDPadPushButtonGroup_ac03e4d0f8b2e169fe3222739598543cd}\label{classDPadPushButtonGroup_ac03e4d0f8b2e169fe3222739598543cd}} 
+\index{DPadPushButtonGroup@{DPadPushButtonGroup}!changeButtonLayout@{changeButtonLayout}}
+\index{changeButtonLayout@{changeButtonLayout}!DPadPushButtonGroup@{DPadPushButtonGroup}}
+\doxysubsubsection{\texorpdfstring{changeButtonLayout}{changeButtonLayout}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} D\+Pad\+Push\+Button\+Group\+::change\+Button\+Layout (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDPadPushButtonGroup_ac03e4d0f8b2e169fe3222739598543cd_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDPadPushButtonGroup_ac03e4d0f8b2e169fe3222739598543cd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classDPadPushButtonGroup_ad1df6bca89fd9b715a063a0f3a817792}\label{classDPadPushButtonGroup_ad1df6bca89fd9b715a063a0f3a817792}} 
+\index{DPadPushButtonGroup@{DPadPushButtonGroup}!generateBtnForGrid@{generateBtnForGrid}}
+\index{generateBtnForGrid@{generateBtnForGrid}!DPadPushButtonGroup@{DPadPushButtonGroup}}
+\doxysubsubsection{\texorpdfstring{generateBtnForGrid()}{generateBtnForGrid()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyDPadButtonWidget}{Joy\+D\+Pad\+Button\+Widget}} $\ast$ D\+Pad\+Push\+Button\+Group\+::generate\+Btn\+For\+Grid (\begin{DoxyParamCaption}\item[{Q\+Hash$<$ int, \mbox{\hyperlink{classJoyDPadButton}{Joy\+D\+Pad\+Button}} $\ast$ $>$ $\ast$}]{buttons,  }\item[{int}]{dpad\+Direction,  }\item[{int}]{cell\+Row,  }\item[{int}]{cell\+Col }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDPadPushButtonGroup_ad1df6bca89fd9b715a063a0f3a817792_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDPadPushButtonGroup_ad1df6bca89fd9b715a063a0f3a817792_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classDPadPushButtonGroup_aee9a764b8e351c4e7cfe4cbc8d9167af}\label{classDPadPushButtonGroup_aee9a764b8e351c4e7cfe4cbc8d9167af}} 
+\index{DPadPushButtonGroup@{DPadPushButtonGroup}!generateButtons@{generateButtons}}
+\index{generateButtons@{generateButtons}!DPadPushButtonGroup@{DPadPushButtonGroup}}
+\doxysubsubsection{\texorpdfstring{generateButtons()}{generateButtons()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} D\+Pad\+Push\+Button\+Group\+::generate\+Buttons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDPadPushButtonGroup_aee9a764b8e351c4e7cfe4cbc8d9167af_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDPadPushButtonGroup_aee9a764b8e351c4e7cfe4cbc8d9167af_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classDPadPushButtonGroup_a7dc9b18d6e1a48051a5a014d4f484189}\label{classDPadPushButtonGroup_a7dc9b18d6e1a48051a5a014d4f484189}} 
+\index{DPadPushButtonGroup@{DPadPushButtonGroup}!getDPad@{getDPad}}
+\index{getDPad@{getDPad}!DPadPushButtonGroup@{DPadPushButtonGroup}}
+\doxysubsubsection{\texorpdfstring{getDPad()}{getDPad()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyDPad}{Joy\+D\+Pad}} $\ast$ D\+Pad\+Push\+Button\+Group\+::get\+D\+Pad (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDPadPushButtonGroup_a7dc9b18d6e1a48051a5a014d4f484189_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classDPadPushButtonGroup_a74fc4e4e542e261b2430124b56d5ac07}\label{classDPadPushButtonGroup_a74fc4e4e542e261b2430124b56d5ac07}} 
+\index{DPadPushButtonGroup@{DPadPushButtonGroup}!openDPadButtonDialog@{openDPadButtonDialog}}
+\index{openDPadButtonDialog@{openDPadButtonDialog}!DPadPushButtonGroup@{DPadPushButtonGroup}}
+\doxysubsubsection{\texorpdfstring{openDPadButtonDialog}{openDPadButtonDialog}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} D\+Pad\+Push\+Button\+Group\+::open\+D\+Pad\+Button\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButtonWidget}{Joy\+Button\+Widget}} $\ast$}]{button\+Widget }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDPadPushButtonGroup_a74fc4e4e542e261b2430124b56d5ac07_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDPadPushButtonGroup_a74fc4e4e542e261b2430124b56d5ac07_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classDPadPushButtonGroup_aa1687920eaeb158af7d1c4e20d5fa317}\label{classDPadPushButtonGroup_aa1687920eaeb158af7d1c4e20d5fa317}} 
+\index{DPadPushButtonGroup@{DPadPushButtonGroup}!propogateSlotsChanged@{propogateSlotsChanged}}
+\index{propogateSlotsChanged@{propogateSlotsChanged}!DPadPushButtonGroup@{DPadPushButtonGroup}}
+\doxysubsubsection{\texorpdfstring{propogateSlotsChanged}{propogateSlotsChanged}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} D\+Pad\+Push\+Button\+Group\+::propogate\+Slots\+Changed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDPadPushButtonGroup_aa1687920eaeb158af7d1c4e20d5fa317_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classDPadPushButtonGroup_acbe2cb9aabbfc7595c7964111935228e}\label{classDPadPushButtonGroup_acbe2cb9aabbfc7595c7964111935228e}} 
+\index{DPadPushButtonGroup@{DPadPushButtonGroup}!showDPadDialog@{showDPadDialog}}
+\index{showDPadDialog@{showDPadDialog}!DPadPushButtonGroup@{DPadPushButtonGroup}}
+\doxysubsubsection{\texorpdfstring{showDPadDialog}{showDPadDialog}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} D\+Pad\+Push\+Button\+Group\+::show\+D\+Pad\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDPadPushButtonGroup_acbe2cb9aabbfc7595c7964111935228e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classDPadPushButtonGroup_ab975b21b521f675088ee68394b7f29df}\label{classDPadPushButtonGroup_ab975b21b521f675088ee68394b7f29df}} 
+\index{DPadPushButtonGroup@{DPadPushButtonGroup}!toggleNameDisplay@{toggleNameDisplay}}
+\index{toggleNameDisplay@{toggleNameDisplay}!DPadPushButtonGroup@{DPadPushButtonGroup}}
+\doxysubsubsection{\texorpdfstring{toggleNameDisplay}{toggleNameDisplay}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} D\+Pad\+Push\+Button\+Group\+::toggle\+Name\+Display (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDPadPushButtonGroup_ab975b21b521f675088ee68394b7f29df_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDPadPushButtonGroup_ab975b21b521f675088ee68394b7f29df_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classDPadPushButtonGroup_a239ba42cc6ef90e0691859e4bda2775d}\label{classDPadPushButtonGroup_a239ba42cc6ef90e0691859e4bda2775d}} 
+\index{DPadPushButtonGroup@{DPadPushButtonGroup}!displayNames@{displayNames}}
+\index{displayNames@{displayNames}!DPadPushButtonGroup@{DPadPushButtonGroup}}
+\doxysubsubsection{\texorpdfstring{displayNames}{displayNames}}
+{\footnotesize\ttfamily bool D\+Pad\+Push\+Button\+Group\+::display\+Names\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classDPadPushButtonGroup_a7be444a85f5663bb2b7deb93a7698142}\label{classDPadPushButtonGroup_a7be444a85f5663bb2b7deb93a7698142}} 
+\index{DPadPushButtonGroup@{DPadPushButtonGroup}!downButton@{downButton}}
+\index{downButton@{downButton}!DPadPushButtonGroup@{DPadPushButtonGroup}}
+\doxysubsubsection{\texorpdfstring{downButton}{downButton}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyDPadButtonWidget}{Joy\+D\+Pad\+Button\+Widget}}$\ast$ D\+Pad\+Push\+Button\+Group\+::down\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classDPadPushButtonGroup_a7be1e77e45cafff1135c56665a55b566}\label{classDPadPushButtonGroup_a7be1e77e45cafff1135c56665a55b566}} 
+\index{DPadPushButtonGroup@{DPadPushButtonGroup}!downLeftButton@{downLeftButton}}
+\index{downLeftButton@{downLeftButton}!DPadPushButtonGroup@{DPadPushButtonGroup}}
+\doxysubsubsection{\texorpdfstring{downLeftButton}{downLeftButton}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyDPadButtonWidget}{Joy\+D\+Pad\+Button\+Widget}}$\ast$ D\+Pad\+Push\+Button\+Group\+::down\+Left\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classDPadPushButtonGroup_a2cf94a15e2fa4a5ff8fa3d1daf7ab5ce}\label{classDPadPushButtonGroup_a2cf94a15e2fa4a5ff8fa3d1daf7ab5ce}} 
+\index{DPadPushButtonGroup@{DPadPushButtonGroup}!downRightButton@{downRightButton}}
+\index{downRightButton@{downRightButton}!DPadPushButtonGroup@{DPadPushButtonGroup}}
+\doxysubsubsection{\texorpdfstring{downRightButton}{downRightButton}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyDPadButtonWidget}{Joy\+D\+Pad\+Button\+Widget}}$\ast$ D\+Pad\+Push\+Button\+Group\+::down\+Right\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classDPadPushButtonGroup_a0e162f17a5d82dc0147ac31e2489a290}\label{classDPadPushButtonGroup_a0e162f17a5d82dc0147ac31e2489a290}} 
+\index{DPadPushButtonGroup@{DPadPushButtonGroup}!dpad@{dpad}}
+\index{dpad@{dpad}!DPadPushButtonGroup@{DPadPushButtonGroup}}
+\doxysubsubsection{\texorpdfstring{dpad}{dpad}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyDPad}{Joy\+D\+Pad}}$\ast$ D\+Pad\+Push\+Button\+Group\+::dpad\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classDPadPushButtonGroup_aa2391ac5bdf2810a5407b0456a23216d}\label{classDPadPushButtonGroup_aa2391ac5bdf2810a5407b0456a23216d}} 
+\index{DPadPushButtonGroup@{DPadPushButtonGroup}!dpadWidget@{dpadWidget}}
+\index{dpadWidget@{dpadWidget}!DPadPushButtonGroup@{DPadPushButtonGroup}}
+\doxysubsubsection{\texorpdfstring{dpadWidget}{dpadWidget}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classDPadPushButton}{D\+Pad\+Push\+Button}}$\ast$ D\+Pad\+Push\+Button\+Group\+::dpad\+Widget\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classDPadPushButtonGroup_a0db01fb0e9dfe147d844eb1842e76050}\label{classDPadPushButtonGroup_a0db01fb0e9dfe147d844eb1842e76050}} 
+\index{DPadPushButtonGroup@{DPadPushButtonGroup}!keypadUnlocked@{keypadUnlocked}}
+\index{keypadUnlocked@{keypadUnlocked}!DPadPushButtonGroup@{DPadPushButtonGroup}}
+\doxysubsubsection{\texorpdfstring{keypadUnlocked}{keypadUnlocked}}
+{\footnotesize\ttfamily bool D\+Pad\+Push\+Button\+Group\+::keypad\+Unlocked\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classDPadPushButtonGroup_a2f1a2a9ae7a649a5d54cfd0e534d58ef}\label{classDPadPushButtonGroup_a2f1a2a9ae7a649a5d54cfd0e534d58ef}} 
+\index{DPadPushButtonGroup@{DPadPushButtonGroup}!leftButton@{leftButton}}
+\index{leftButton@{leftButton}!DPadPushButtonGroup@{DPadPushButtonGroup}}
+\doxysubsubsection{\texorpdfstring{leftButton}{leftButton}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyDPadButtonWidget}{Joy\+D\+Pad\+Button\+Widget}}$\ast$ D\+Pad\+Push\+Button\+Group\+::left\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classDPadPushButtonGroup_a9fa2434723f7f775d24ca0ce7f580b00}\label{classDPadPushButtonGroup_a9fa2434723f7f775d24ca0ce7f580b00}} 
+\index{DPadPushButtonGroup@{DPadPushButtonGroup}!rightButton@{rightButton}}
+\index{rightButton@{rightButton}!DPadPushButtonGroup@{DPadPushButtonGroup}}
+\doxysubsubsection{\texorpdfstring{rightButton}{rightButton}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyDPadButtonWidget}{Joy\+D\+Pad\+Button\+Widget}}$\ast$ D\+Pad\+Push\+Button\+Group\+::right\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classDPadPushButtonGroup_a24e15e653c4892c6b3c8211240700354}\label{classDPadPushButtonGroup_a24e15e653c4892c6b3c8211240700354}} 
+\index{DPadPushButtonGroup@{DPadPushButtonGroup}!upButton@{upButton}}
+\index{upButton@{upButton}!DPadPushButtonGroup@{DPadPushButtonGroup}}
+\doxysubsubsection{\texorpdfstring{upButton}{upButton}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyDPadButtonWidget}{Joy\+D\+Pad\+Button\+Widget}}$\ast$ D\+Pad\+Push\+Button\+Group\+::up\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classDPadPushButtonGroup_a69ece1a383f47a8d3a5ab2a84d12e3e2}\label{classDPadPushButtonGroup_a69ece1a383f47a8d3a5ab2a84d12e3e2}} 
+\index{DPadPushButtonGroup@{DPadPushButtonGroup}!upLeftButton@{upLeftButton}}
+\index{upLeftButton@{upLeftButton}!DPadPushButtonGroup@{DPadPushButtonGroup}}
+\doxysubsubsection{\texorpdfstring{upLeftButton}{upLeftButton}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyDPadButtonWidget}{Joy\+D\+Pad\+Button\+Widget}}$\ast$ D\+Pad\+Push\+Button\+Group\+::up\+Left\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classDPadPushButtonGroup_aab8a71b058904d08a694810e91814683}\label{classDPadPushButtonGroup_aab8a71b058904d08a694810e91814683}} 
+\index{DPadPushButtonGroup@{DPadPushButtonGroup}!upRightButton@{upRightButton}}
+\index{upRightButton@{upRightButton}!DPadPushButtonGroup@{DPadPushButtonGroup}}
+\doxysubsubsection{\texorpdfstring{upRightButton}{upRightButton}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyDPadButtonWidget}{Joy\+D\+Pad\+Button\+Widget}}$\ast$ D\+Pad\+Push\+Button\+Group\+::up\+Right\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{dpadpushbuttongroup_8h}{dpadpushbuttongroup.\+h}}\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{dpadpushbuttongroup_8cpp}{dpadpushbuttongroup.\+cpp}}\end{DoxyCompactItemize}

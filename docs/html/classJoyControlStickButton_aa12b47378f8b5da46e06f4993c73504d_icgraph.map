@@ -1,0 +1,8 @@
+<map id="JoyControlStickButton::getRealJoyNumber" name="JoyControlStickButton::getRealJoyNumber">
+<area shape="rect" id="node1" title="Get a 1 indexed number of button." alt="" coords="639,35,792,76"/>
+<area shape="rect" id="node2" href="$classInputDeviceXml.html#a12bf094c5ab0ab10dae089e41fbc778c" title=" " alt="" coords="401,13,591,39"/>
+<area shape="rect" id="node5" href="$classGameControllerXml.html#a930e9b49e3543488adfb92b4e82dd9ca" title=" " alt="" coords="424,64,568,105"/>
+<area shape="rect" id="node3" href="$classXMLConfigWriter.html#aacd0a3991eedf223f3586d33559903d4" title=" " alt="" coords="196,13,353,39"/>
+<area shape="rect" id="node4" href="$classJoyTabWidgetHelper.html#ad1754369989cbe4a3e10c8c01e3fb89b" title=" " alt="" coords="5,5,148,47"/>
+<area shape="rect" id="node6" href="$classGameControllerXml.html#ac87bc51a0dcdb01143d969a732b5188f" title=" " alt="" coords="203,64,347,105"/>
+</map>

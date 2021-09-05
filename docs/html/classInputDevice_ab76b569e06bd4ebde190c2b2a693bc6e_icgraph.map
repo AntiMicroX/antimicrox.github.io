@@ -1,0 +1,4 @@
+<map id="InputDevice::isRelevantUniqueID" name="InputDevice::isRelevantUniqueID">
+<area shape="rect" id="node1" title="Check if GUID passed matches the expected GUID for a device. Needed for xinput GUID abstraction." alt="" coords="235,13,449,39"/>
+<area shape="rect" id="node2" href="$classGameController.html#aa304c247aa13b7e534ad2b025ef4371c" title="Check if GUID passed matches the expected GUID for a device. Needed for xinput GUID abstraction." alt="" coords="5,5,187,47"/>
+</map>

@@ -1,0 +1,255 @@
+\hypertarget{classJoyTabWidgetHelper}{}\doxysection{Joy\+Tab\+Widget\+Helper Class Reference}
+\label{classJoyTabWidgetHelper}\index{JoyTabWidgetHelper@{JoyTabWidgetHelper}}
+
+
+{\ttfamily \#include $<$joytabwidgethelper.\+h$>$}
+
+
+
+Inheritance diagram for Joy\+Tab\+Widget\+Helper\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=187pt]{classJoyTabWidgetHelper__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Joy\+Tab\+Widget\+Helper\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyTabWidgetHelper__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classJoyTabWidgetHelper_ae69229b650b5a129cd2ae25d77975d0d}{read\+Config\+File}} (Q\+String filepath)
+\item 
+bool \mbox{\hyperlink{classJoyTabWidgetHelper_aab77bfeea124b5610b21540c5c95e681}{read\+Config\+File\+With\+Revert}} (Q\+String filepath)
+\item 
+bool \mbox{\hyperlink{classJoyTabWidgetHelper_ad1754369989cbe4a3e10c8c01e3fb89b}{write\+Config\+File}} (Q\+String filepath)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyTabWidgetHelper_aef94ae0812f28f43eb891ddc210c341e}{re\+Init\+Device}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyTabWidgetHelper_acc5d7d51e925f84f9aa2936ce267f843}{re\+Init\+Device\+With\+Revert}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classJoyTabWidgetHelper_ac772c071e858dc44c8fa44915f95d6f2}{Joy\+Tab\+Widget\+Helper}} (\mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$\mbox{\hyperlink{classJoyTabWidgetHelper_a80b88e0942deae3d2aa1c3b263523223}{device}}, Q\+Object $\ast$parent=nullptr)
+\item 
+\mbox{\hyperlink{classJoyTabWidgetHelper_a51e58ffe95509819731e91fafa59c0ef}{$\sim$\+Joy\+Tab\+Widget\+Helper}} ()
+\item 
+bool \mbox{\hyperlink{classJoyTabWidgetHelper_a84c2bc452fbe339f6113bae695762c4c}{has\+Reader}} ()
+\item 
+\mbox{\hyperlink{classXMLConfigReader}{X\+M\+L\+Config\+Reader}} $\ast$ \mbox{\hyperlink{classJoyTabWidgetHelper_a857c341b0e8f54ea5a53fce448f997b6}{get\+Reader}} ()
+\item 
+bool \mbox{\hyperlink{classJoyTabWidgetHelper_a39ebc30493a7e90909df90a85bf4d20a}{has\+Writer}} ()
+\item 
+\mbox{\hyperlink{classXMLConfigWriter}{X\+M\+L\+Config\+Writer}} $\ast$ \mbox{\hyperlink{classJoyTabWidgetHelper_a1dbf3bdff92c7adfbc25bb71ac9939dd}{get\+Writer}} ()
+\item 
+bool \mbox{\hyperlink{classJoyTabWidgetHelper_acb30f0f0763970a84f34f45ab21225e5}{has\+Error}} ()
+\item 
+Q\+String \mbox{\hyperlink{classJoyTabWidgetHelper_a8cf8a62adba0a11e231215e021d4de1f}{get\+Error\+String}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$ \mbox{\hyperlink{classJoyTabWidgetHelper_a80b88e0942deae3d2aa1c3b263523223}{device}}
+\item 
+\mbox{\hyperlink{classXMLConfigReader}{X\+M\+L\+Config\+Reader}} $\ast$ \mbox{\hyperlink{classJoyTabWidgetHelper_aa9c6d1abbc4cf8ded816f96fadd83f27}{reader}}
+\item 
+\mbox{\hyperlink{classXMLConfigWriter}{X\+M\+L\+Config\+Writer}} $\ast$ \mbox{\hyperlink{classJoyTabWidgetHelper_a78f512f6e29959e09e042596b1a78fe7}{writer}}
+\item 
+bool \mbox{\hyperlink{classJoyTabWidgetHelper_a6bc2092cf78128c7781b8d4f8f99386c}{error\+Occurred}}
+\item 
+Q\+String \mbox{\hyperlink{classJoyTabWidgetHelper_a3b40ae86bf28f518fd1a4b0a4bb1d2eb}{last\+Error\+String}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classJoyTabWidgetHelper_ac772c071e858dc44c8fa44915f95d6f2}\label{classJoyTabWidgetHelper_ac772c071e858dc44c8fa44915f95d6f2}} 
+\index{JoyTabWidgetHelper@{JoyTabWidgetHelper}!JoyTabWidgetHelper@{JoyTabWidgetHelper}}
+\index{JoyTabWidgetHelper@{JoyTabWidgetHelper}!JoyTabWidgetHelper@{JoyTabWidgetHelper}}
+\doxysubsubsection{\texorpdfstring{JoyTabWidgetHelper()}{JoyTabWidgetHelper()}}
+{\footnotesize\ttfamily Joy\+Tab\+Widget\+Helper\+::\+Joy\+Tab\+Widget\+Helper (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$}]{device,  }\item[{Q\+Object $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+\mbox{\Hypertarget{classJoyTabWidgetHelper_a51e58ffe95509819731e91fafa59c0ef}\label{classJoyTabWidgetHelper_a51e58ffe95509819731e91fafa59c0ef}} 
+\index{JoyTabWidgetHelper@{JoyTabWidgetHelper}!````~JoyTabWidgetHelper@{$\sim$JoyTabWidgetHelper}}
+\index{````~JoyTabWidgetHelper@{$\sim$JoyTabWidgetHelper}!JoyTabWidgetHelper@{JoyTabWidgetHelper}}
+\doxysubsubsection{\texorpdfstring{$\sim$JoyTabWidgetHelper()}{~JoyTabWidgetHelper()}}
+{\footnotesize\ttfamily Joy\+Tab\+Widget\+Helper\+::$\sim$\+Joy\+Tab\+Widget\+Helper (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classJoyTabWidgetHelper_a8cf8a62adba0a11e231215e021d4de1f}\label{classJoyTabWidgetHelper_a8cf8a62adba0a11e231215e021d4de1f}} 
+\index{JoyTabWidgetHelper@{JoyTabWidgetHelper}!getErrorString@{getErrorString}}
+\index{getErrorString@{getErrorString}!JoyTabWidgetHelper@{JoyTabWidgetHelper}}
+\doxysubsubsection{\texorpdfstring{getErrorString()}{getErrorString()}}
+{\footnotesize\ttfamily Q\+String Joy\+Tab\+Widget\+Helper\+::get\+Error\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classJoyTabWidgetHelper_a857c341b0e8f54ea5a53fce448f997b6}\label{classJoyTabWidgetHelper_a857c341b0e8f54ea5a53fce448f997b6}} 
+\index{JoyTabWidgetHelper@{JoyTabWidgetHelper}!getReader@{getReader}}
+\index{getReader@{getReader}!JoyTabWidgetHelper@{JoyTabWidgetHelper}}
+\doxysubsubsection{\texorpdfstring{getReader()}{getReader()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classXMLConfigReader}{X\+M\+L\+Config\+Reader}} $\ast$ Joy\+Tab\+Widget\+Helper\+::get\+Reader (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyTabWidgetHelper_a857c341b0e8f54ea5a53fce448f997b6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyTabWidgetHelper_a1dbf3bdff92c7adfbc25bb71ac9939dd}\label{classJoyTabWidgetHelper_a1dbf3bdff92c7adfbc25bb71ac9939dd}} 
+\index{JoyTabWidgetHelper@{JoyTabWidgetHelper}!getWriter@{getWriter}}
+\index{getWriter@{getWriter}!JoyTabWidgetHelper@{JoyTabWidgetHelper}}
+\doxysubsubsection{\texorpdfstring{getWriter()}{getWriter()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classXMLConfigWriter}{X\+M\+L\+Config\+Writer}} $\ast$ Joy\+Tab\+Widget\+Helper\+::get\+Writer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyTabWidgetHelper_a1dbf3bdff92c7adfbc25bb71ac9939dd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyTabWidgetHelper_acb30f0f0763970a84f34f45ab21225e5}\label{classJoyTabWidgetHelper_acb30f0f0763970a84f34f45ab21225e5}} 
+\index{JoyTabWidgetHelper@{JoyTabWidgetHelper}!hasError@{hasError}}
+\index{hasError@{hasError}!JoyTabWidgetHelper@{JoyTabWidgetHelper}}
+\doxysubsubsection{\texorpdfstring{hasError()}{hasError()}}
+{\footnotesize\ttfamily bool Joy\+Tab\+Widget\+Helper\+::has\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classJoyTabWidgetHelper_a84c2bc452fbe339f6113bae695762c4c}\label{classJoyTabWidgetHelper_a84c2bc452fbe339f6113bae695762c4c}} 
+\index{JoyTabWidgetHelper@{JoyTabWidgetHelper}!hasReader@{hasReader}}
+\index{hasReader@{hasReader}!JoyTabWidgetHelper@{JoyTabWidgetHelper}}
+\doxysubsubsection{\texorpdfstring{hasReader()}{hasReader()}}
+{\footnotesize\ttfamily bool Joy\+Tab\+Widget\+Helper\+::has\+Reader (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classJoyTabWidgetHelper_a39ebc30493a7e90909df90a85bf4d20a}\label{classJoyTabWidgetHelper_a39ebc30493a7e90909df90a85bf4d20a}} 
+\index{JoyTabWidgetHelper@{JoyTabWidgetHelper}!hasWriter@{hasWriter}}
+\index{hasWriter@{hasWriter}!JoyTabWidgetHelper@{JoyTabWidgetHelper}}
+\doxysubsubsection{\texorpdfstring{hasWriter()}{hasWriter()}}
+{\footnotesize\ttfamily bool Joy\+Tab\+Widget\+Helper\+::has\+Writer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classJoyTabWidgetHelper_ae69229b650b5a129cd2ae25d77975d0d}\label{classJoyTabWidgetHelper_ae69229b650b5a129cd2ae25d77975d0d}} 
+\index{JoyTabWidgetHelper@{JoyTabWidgetHelper}!readConfigFile@{readConfigFile}}
+\index{readConfigFile@{readConfigFile}!JoyTabWidgetHelper@{JoyTabWidgetHelper}}
+\doxysubsubsection{\texorpdfstring{readConfigFile}{readConfigFile}}
+{\footnotesize\ttfamily bool Joy\+Tab\+Widget\+Helper\+::read\+Config\+File (\begin{DoxyParamCaption}\item[{Q\+String}]{filepath }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classJoyTabWidgetHelper_ae69229b650b5a129cd2ae25d77975d0d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyTabWidgetHelper_ae69229b650b5a129cd2ae25d77975d0d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyTabWidgetHelper_aab77bfeea124b5610b21540c5c95e681}\label{classJoyTabWidgetHelper_aab77bfeea124b5610b21540c5c95e681}} 
+\index{JoyTabWidgetHelper@{JoyTabWidgetHelper}!readConfigFileWithRevert@{readConfigFileWithRevert}}
+\index{readConfigFileWithRevert@{readConfigFileWithRevert}!JoyTabWidgetHelper@{JoyTabWidgetHelper}}
+\doxysubsubsection{\texorpdfstring{readConfigFileWithRevert}{readConfigFileWithRevert}}
+{\footnotesize\ttfamily bool Joy\+Tab\+Widget\+Helper\+::read\+Config\+File\+With\+Revert (\begin{DoxyParamCaption}\item[{Q\+String}]{filepath }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classJoyTabWidgetHelper_aab77bfeea124b5610b21540c5c95e681_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyTabWidgetHelper_aef94ae0812f28f43eb891ddc210c341e}\label{classJoyTabWidgetHelper_aef94ae0812f28f43eb891ddc210c341e}} 
+\index{JoyTabWidgetHelper@{JoyTabWidgetHelper}!reInitDevice@{reInitDevice}}
+\index{reInitDevice@{reInitDevice}!JoyTabWidgetHelper@{JoyTabWidgetHelper}}
+\doxysubsubsection{\texorpdfstring{reInitDevice}{reInitDevice}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Tab\+Widget\+Helper\+::re\+Init\+Device (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classJoyTabWidgetHelper_aef94ae0812f28f43eb891ddc210c341e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{classJoyTabWidgetHelper_aef94ae0812f28f43eb891ddc210c341e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyTabWidgetHelper_acc5d7d51e925f84f9aa2936ce267f843}\label{classJoyTabWidgetHelper_acc5d7d51e925f84f9aa2936ce267f843}} 
+\index{JoyTabWidgetHelper@{JoyTabWidgetHelper}!reInitDeviceWithRevert@{reInitDeviceWithRevert}}
+\index{reInitDeviceWithRevert@{reInitDeviceWithRevert}!JoyTabWidgetHelper@{JoyTabWidgetHelper}}
+\doxysubsubsection{\texorpdfstring{reInitDeviceWithRevert}{reInitDeviceWithRevert}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Tab\+Widget\+Helper\+::re\+Init\+Device\+With\+Revert (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classJoyTabWidgetHelper_acc5d7d51e925f84f9aa2936ce267f843_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyTabWidgetHelper_ad1754369989cbe4a3e10c8c01e3fb89b}\label{classJoyTabWidgetHelper_ad1754369989cbe4a3e10c8c01e3fb89b}} 
+\index{JoyTabWidgetHelper@{JoyTabWidgetHelper}!writeConfigFile@{writeConfigFile}}
+\index{writeConfigFile@{writeConfigFile}!JoyTabWidgetHelper@{JoyTabWidgetHelper}}
+\doxysubsubsection{\texorpdfstring{writeConfigFile}{writeConfigFile}}
+{\footnotesize\ttfamily bool Joy\+Tab\+Widget\+Helper\+::write\+Config\+File (\begin{DoxyParamCaption}\item[{Q\+String}]{filepath }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyTabWidgetHelper_ad1754369989cbe4a3e10c8c01e3fb89b_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classJoyTabWidgetHelper_a80b88e0942deae3d2aa1c3b263523223}\label{classJoyTabWidgetHelper_a80b88e0942deae3d2aa1c3b263523223}} 
+\index{JoyTabWidgetHelper@{JoyTabWidgetHelper}!device@{device}}
+\index{device@{device}!JoyTabWidgetHelper@{JoyTabWidgetHelper}}
+\doxysubsubsection{\texorpdfstring{device}{device}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classInputDevice}{Input\+Device}}$\ast$ Joy\+Tab\+Widget\+Helper\+::device\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classJoyTabWidgetHelper_a6bc2092cf78128c7781b8d4f8f99386c}\label{classJoyTabWidgetHelper_a6bc2092cf78128c7781b8d4f8f99386c}} 
+\index{JoyTabWidgetHelper@{JoyTabWidgetHelper}!errorOccurred@{errorOccurred}}
+\index{errorOccurred@{errorOccurred}!JoyTabWidgetHelper@{JoyTabWidgetHelper}}
+\doxysubsubsection{\texorpdfstring{errorOccurred}{errorOccurred}}
+{\footnotesize\ttfamily bool Joy\+Tab\+Widget\+Helper\+::error\+Occurred\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classJoyTabWidgetHelper_a3b40ae86bf28f518fd1a4b0a4bb1d2eb}\label{classJoyTabWidgetHelper_a3b40ae86bf28f518fd1a4b0a4bb1d2eb}} 
+\index{JoyTabWidgetHelper@{JoyTabWidgetHelper}!lastErrorString@{lastErrorString}}
+\index{lastErrorString@{lastErrorString}!JoyTabWidgetHelper@{JoyTabWidgetHelper}}
+\doxysubsubsection{\texorpdfstring{lastErrorString}{lastErrorString}}
+{\footnotesize\ttfamily Q\+String Joy\+Tab\+Widget\+Helper\+::last\+Error\+String\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classJoyTabWidgetHelper_aa9c6d1abbc4cf8ded816f96fadd83f27}\label{classJoyTabWidgetHelper_aa9c6d1abbc4cf8ded816f96fadd83f27}} 
+\index{JoyTabWidgetHelper@{JoyTabWidgetHelper}!reader@{reader}}
+\index{reader@{reader}!JoyTabWidgetHelper@{JoyTabWidgetHelper}}
+\doxysubsubsection{\texorpdfstring{reader}{reader}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classXMLConfigReader}{X\+M\+L\+Config\+Reader}}$\ast$ Joy\+Tab\+Widget\+Helper\+::reader\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classJoyTabWidgetHelper_a78f512f6e29959e09e042596b1a78fe7}\label{classJoyTabWidgetHelper_a78f512f6e29959e09e042596b1a78fe7}} 
+\index{JoyTabWidgetHelper@{JoyTabWidgetHelper}!writer@{writer}}
+\index{writer@{writer}!JoyTabWidgetHelper@{JoyTabWidgetHelper}}
+\doxysubsubsection{\texorpdfstring{writer}{writer}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classXMLConfigWriter}{X\+M\+L\+Config\+Writer}}$\ast$ Joy\+Tab\+Widget\+Helper\+::writer\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/antimicrox/src/uihelpers/\mbox{\hyperlink{joytabwidgethelper_8h}{joytabwidgethelper.\+h}}\item 
+/home/pawel/antimicrox/src/uihelpers/\mbox{\hyperlink{joytabwidgethelper_8cpp}{joytabwidgethelper.\+cpp}}\end{DoxyCompactItemize}

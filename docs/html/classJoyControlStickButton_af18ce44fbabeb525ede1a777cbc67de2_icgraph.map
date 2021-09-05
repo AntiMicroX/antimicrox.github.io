@@ -1,0 +1,7 @@
+<map id="JoyControlStickButton::setChangeSetCondition" name="JoyControlStickButton::setChangeSetCondition">
+<area shape="rect" id="node1" title=" " alt="" coords="784,23,952,65"/>
+<area shape="rect" id="node2" href="$classInputDevice.html#a5aa8a74d0cc3739e08e6f753dc6df9cd" title=" " alt="" coords="544,23,736,65"/>
+<area shape="rect" id="node3" href="$classInputDevice.html#a6ffcebba103a7db02e82c1c7f62387bf" title=" " alt="" coords="265,31,496,57"/>
+<area shape="rect" id="node4" href="$classGameController.html#afcddb9dcc5442a9746c3ff8760ea1791" title=" " alt="" coords="5,5,217,32"/>
+<area shape="rect" id="node5" href="$classJoystick.html#a9df5e53506876f3c95e84bdf6c9cbaf1" title=" " alt="" coords="49,56,174,83"/>
+</map>

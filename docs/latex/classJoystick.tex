@@ -1,0 +1,311 @@
+\hypertarget{classJoystick}{}\doxysection{Joystick Class Reference}
+\label{classJoystick}\index{Joystick@{Joystick}}
+
+
+{\ttfamily \#include $<$joystick.\+h$>$}
+
+
+
+Inheritance diagram for Joystick\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=149pt]{classJoystick__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Joystick\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{classJoystick__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classJoystick_a9df5e53506876f3c95e84bdf6c9cbaf1}{Joystick}} (S\+D\+L\+\_\+\+Joystick $\ast$joyhandle, int device\+Index, \mbox{\hyperlink{classAntiMicroSettings}{Anti\+Micro\+Settings}} $\ast$settings, Q\+Object $\ast$parent)
+\item 
+virtual Q\+String \mbox{\hyperlink{classJoystick_ab86010ddc8c532599da4963725afb0a8}{get\+Name}} () override
+\item 
+virtual Q\+String \mbox{\hyperlink{classJoystick_a6b7440f9feb0ab57b2272f33dac5516d}{get\+S\+D\+L\+Name}} () override
+\item 
+virtual Q\+String \mbox{\hyperlink{classJoystick_a380e5b9f5fac87e6d16c082228928e95}{get\+G\+U\+I\+D\+String}} () override
+\item 
+virtual Q\+String \mbox{\hyperlink{classJoystick_a54292e0beae6be610d7554c6aba5c61f}{get\+Unique\+I\+D\+String}} () override
+\item 
+virtual Q\+String \mbox{\hyperlink{classJoystick_af7521a48df3f5e1e69e6e7f1edafcdf0}{get\+Vendor\+String}} () override
+\item 
+virtual Q\+String \mbox{\hyperlink{classJoystick_aca90acf568543ad555f8428440700df2}{get\+Product\+I\+D\+String}} () override
+\item 
+virtual Q\+String \mbox{\hyperlink{classJoystick_a6d7b8999ae4f32e53baa3e230d3045aa}{get\+Product\+Version}} () override
+\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoystick_a05849d70c693aab55b126260d7397074}{close\+S\+D\+L\+Device}} () override
+\item 
+virtual S\+D\+L\+\_\+\+Joystick\+ID \mbox{\hyperlink{classJoystick_a0e7203d24bbb377e1ec1b99c6421f1a2}{get\+S\+D\+L\+Joystick\+ID}} () override
+\item 
+virtual int \mbox{\hyperlink{classJoystick_ac89540b2881bacc6cb6bf0e0e998ddbc}{get\+Number\+Raw\+Buttons}} () override
+\item 
+virtual int \mbox{\hyperlink{classJoystick_a63cca9c959b6f4e2479262d400ee9344}{get\+Number\+Raw\+Axes}} () override
+\item 
+virtual int \mbox{\hyperlink{classJoystick_aeb666ff74ca0b5b28f365aeb5ee96004}{get\+Number\+Raw\+Hats}} () override
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoystick_af84b6414f72424a92b9d9f87c31d2c73}{set\+Counter\+Uniques}} (int counter) override
+\item 
+S\+D\+L\+\_\+\+Joystick $\ast$ \mbox{\hyperlink{classJoystick_a6709aa72d810e01c3fb5798828318d64}{get\+Joyhandle}} () const
+\item 
+virtual Q\+String \mbox{\hyperlink{classJoystick_a8917b1a7bafd80adcccd04b5461d4263}{get\+Xml\+Name}} () override
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+S\+D\+L\+\_\+\+Joystick $\ast$ \mbox{\hyperlink{classJoystick_a6fbed0986e27016cf420cbe5328e251b}{m\+\_\+joyhandle}}
+\item 
+S\+D\+L\+\_\+\+Game\+Controller $\ast$ \mbox{\hyperlink{classJoystick_ac85a952331209b15038c4ce5afa937d2}{controller}}
+\item 
+S\+D\+L\+\_\+\+Joystick\+ID \mbox{\hyperlink{classJoystick_ab153ed897cf56c2899cdf22e57ad9b25}{joystick\+ID}}
+\item 
+int \mbox{\hyperlink{classJoystick_a025089831e66a5bd20c34ccc7ac4b594}{counter\+Uniques}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classJoystick_a9df5e53506876f3c95e84bdf6c9cbaf1}\label{classJoystick_a9df5e53506876f3c95e84bdf6c9cbaf1}} 
+\index{Joystick@{Joystick}!Joystick@{Joystick}}
+\index{Joystick@{Joystick}!Joystick@{Joystick}}
+\doxysubsubsection{\texorpdfstring{Joystick()}{Joystick()}}
+{\footnotesize\ttfamily Joystick\+::\+Joystick (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Joystick $\ast$}]{joyhandle,  }\item[{int}]{device\+Index,  }\item[{\mbox{\hyperlink{classAntiMicroSettings}{Anti\+Micro\+Settings}} $\ast$}]{settings,  }\item[{Q\+Object $\ast$}]{parent }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classJoystick_a9df5e53506876f3c95e84bdf6c9cbaf1_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classJoystick_a05849d70c693aab55b126260d7397074}\label{classJoystick_a05849d70c693aab55b126260d7397074}} 
+\index{Joystick@{Joystick}!closeSDLDevice@{closeSDLDevice}}
+\index{closeSDLDevice@{closeSDLDevice}!Joystick@{Joystick}}
+\doxysubsubsection{\texorpdfstring{closeSDLDevice()}{closeSDLDevice()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joystick\+::close\+S\+D\+L\+Device (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classInputDevice_a742f2b9fe5f01464cb5351c042c76c8c}{Input\+Device}}.
+
+\mbox{\Hypertarget{classJoystick_a380e5b9f5fac87e6d16c082228928e95}\label{classJoystick_a380e5b9f5fac87e6d16c082228928e95}} 
+\index{Joystick@{Joystick}!getGUIDString@{getGUIDString}}
+\index{getGUIDString@{getGUIDString}!Joystick@{Joystick}}
+\doxysubsubsection{\texorpdfstring{getGUIDString()}{getGUIDString()}}
+{\footnotesize\ttfamily Q\+String Joystick\+::get\+G\+U\+I\+D\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classInputDevice_ac48b8e2215ac8b1310d7397e45fed557}{Input\+Device}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoystick_a380e5b9f5fac87e6d16c082228928e95_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoystick_a6709aa72d810e01c3fb5798828318d64}\label{classJoystick_a6709aa72d810e01c3fb5798828318d64}} 
+\index{Joystick@{Joystick}!getJoyhandle@{getJoyhandle}}
+\index{getJoyhandle@{getJoyhandle}!Joystick@{Joystick}}
+\doxysubsubsection{\texorpdfstring{getJoyhandle()}{getJoyhandle()}}
+{\footnotesize\ttfamily S\+D\+L\+\_\+\+Joystick $\ast$ Joystick\+::get\+Joyhandle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classJoystick_ab86010ddc8c532599da4963725afb0a8}\label{classJoystick_ab86010ddc8c532599da4963725afb0a8}} 
+\index{Joystick@{Joystick}!getName@{getName}}
+\index{getName@{getName}!Joystick@{Joystick}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily Q\+String Joystick\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classInputDevice_a21f76b23650db2edd90f8f4b6951845a}{Input\+Device}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoystick_ab86010ddc8c532599da4963725afb0a8_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoystick_a63cca9c959b6f4e2479262d400ee9344}\label{classJoystick_a63cca9c959b6f4e2479262d400ee9344}} 
+\index{Joystick@{Joystick}!getNumberRawAxes@{getNumberRawAxes}}
+\index{getNumberRawAxes@{getNumberRawAxes}!Joystick@{Joystick}}
+\doxysubsubsection{\texorpdfstring{getNumberRawAxes()}{getNumberRawAxes()}}
+{\footnotesize\ttfamily int Joystick\+::get\+Number\+Raw\+Axes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classInputDevice_ab370bf7bbf5f75d11f0513360d3a2dd2}{Input\+Device}}.
+
+\mbox{\Hypertarget{classJoystick_ac89540b2881bacc6cb6bf0e0e998ddbc}\label{classJoystick_ac89540b2881bacc6cb6bf0e0e998ddbc}} 
+\index{Joystick@{Joystick}!getNumberRawButtons@{getNumberRawButtons}}
+\index{getNumberRawButtons@{getNumberRawButtons}!Joystick@{Joystick}}
+\doxysubsubsection{\texorpdfstring{getNumberRawButtons()}{getNumberRawButtons()}}
+{\footnotesize\ttfamily int Joystick\+::get\+Number\+Raw\+Buttons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classInputDevice_aba85af39454731d948fcb47105da814c}{Input\+Device}}.
+
+\mbox{\Hypertarget{classJoystick_aeb666ff74ca0b5b28f365aeb5ee96004}\label{classJoystick_aeb666ff74ca0b5b28f365aeb5ee96004}} 
+\index{Joystick@{Joystick}!getNumberRawHats@{getNumberRawHats}}
+\index{getNumberRawHats@{getNumberRawHats}!Joystick@{Joystick}}
+\doxysubsubsection{\texorpdfstring{getNumberRawHats()}{getNumberRawHats()}}
+{\footnotesize\ttfamily int Joystick\+::get\+Number\+Raw\+Hats (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classInputDevice_acfaadd312a041e0295d41637034ec2c2}{Input\+Device}}.
+
+\mbox{\Hypertarget{classJoystick_aca90acf568543ad555f8428440700df2}\label{classJoystick_aca90acf568543ad555f8428440700df2}} 
+\index{Joystick@{Joystick}!getProductIDString@{getProductIDString}}
+\index{getProductIDString@{getProductIDString}!Joystick@{Joystick}}
+\doxysubsubsection{\texorpdfstring{getProductIDString()}{getProductIDString()}}
+{\footnotesize\ttfamily Q\+String Joystick\+::get\+Product\+I\+D\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classInputDevice_a92a09e0e61e1ac070da1cad2070b3a27}{Input\+Device}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoystick_aca90acf568543ad555f8428440700df2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoystick_a6d7b8999ae4f32e53baa3e230d3045aa}\label{classJoystick_a6d7b8999ae4f32e53baa3e230d3045aa}} 
+\index{Joystick@{Joystick}!getProductVersion@{getProductVersion}}
+\index{getProductVersion@{getProductVersion}!Joystick@{Joystick}}
+\doxysubsubsection{\texorpdfstring{getProductVersion()}{getProductVersion()}}
+{\footnotesize\ttfamily Q\+String Joystick\+::get\+Product\+Version (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classInputDevice_a63e5b74091e9823064da8ce590a238a8}{Input\+Device}}.
+
+\mbox{\Hypertarget{classJoystick_a0e7203d24bbb377e1ec1b99c6421f1a2}\label{classJoystick_a0e7203d24bbb377e1ec1b99c6421f1a2}} 
+\index{Joystick@{Joystick}!getSDLJoystickID@{getSDLJoystickID}}
+\index{getSDLJoystickID@{getSDLJoystickID}!Joystick@{Joystick}}
+\doxysubsubsection{\texorpdfstring{getSDLJoystickID()}{getSDLJoystickID()}}
+{\footnotesize\ttfamily S\+D\+L\+\_\+\+Joystick\+ID Joystick\+::get\+S\+D\+L\+Joystick\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classInputDevice_a10a2388bfb4b6d6183752f837dfe4638}{Input\+Device}}.
+
+\mbox{\Hypertarget{classJoystick_a6b7440f9feb0ab57b2272f33dac5516d}\label{classJoystick_a6b7440f9feb0ab57b2272f33dac5516d}} 
+\index{Joystick@{Joystick}!getSDLName@{getSDLName}}
+\index{getSDLName@{getSDLName}!Joystick@{Joystick}}
+\doxysubsubsection{\texorpdfstring{getSDLName()}{getSDLName()}}
+{\footnotesize\ttfamily Q\+String Joystick\+::get\+S\+D\+L\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classInputDevice_a3184377c2e251949cae1a0937aaef78c}{Input\+Device}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoystick_a6b7440f9feb0ab57b2272f33dac5516d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoystick_a54292e0beae6be610d7554c6aba5c61f}\label{classJoystick_a54292e0beae6be610d7554c6aba5c61f}} 
+\index{Joystick@{Joystick}!getUniqueIDString@{getUniqueIDString}}
+\index{getUniqueIDString@{getUniqueIDString}!Joystick@{Joystick}}
+\doxysubsubsection{\texorpdfstring{getUniqueIDString()}{getUniqueIDString()}}
+{\footnotesize\ttfamily Q\+String Joystick\+::get\+Unique\+I\+D\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classInputDevice_ad2d9a268b89898a0a29b56d7af63de9e}{Input\+Device}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoystick_a54292e0beae6be610d7554c6aba5c61f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoystick_af7521a48df3f5e1e69e6e7f1edafcdf0}\label{classJoystick_af7521a48df3f5e1e69e6e7f1edafcdf0}} 
+\index{Joystick@{Joystick}!getVendorString@{getVendorString}}
+\index{getVendorString@{getVendorString}!Joystick@{Joystick}}
+\doxysubsubsection{\texorpdfstring{getVendorString()}{getVendorString()}}
+{\footnotesize\ttfamily Q\+String Joystick\+::get\+Vendor\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classInputDevice_a8de96270b8b0ff23b75974fcf9c33916}{Input\+Device}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoystick_af7521a48df3f5e1e69e6e7f1edafcdf0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoystick_a8917b1a7bafd80adcccd04b5461d4263}\label{classJoystick_a8917b1a7bafd80adcccd04b5461d4263}} 
+\index{Joystick@{Joystick}!getXmlName@{getXmlName}}
+\index{getXmlName@{getXmlName}!Joystick@{Joystick}}
+\doxysubsubsection{\texorpdfstring{getXmlName()}{getXmlName()}}
+{\footnotesize\ttfamily Q\+String Joystick\+::get\+Xml\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classInputDevice_af5979229986986d33ecaded6a67f7881}{Input\+Device}}.
+
+\mbox{\Hypertarget{classJoystick_af84b6414f72424a92b9d9f87c31d2c73}\label{classJoystick_af84b6414f72424a92b9d9f87c31d2c73}} 
+\index{Joystick@{Joystick}!setCounterUniques@{setCounterUniques}}
+\index{setCounterUniques@{setCounterUniques}!Joystick@{Joystick}}
+\doxysubsubsection{\texorpdfstring{setCounterUniques()}{setCounterUniques()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joystick\+::set\+Counter\+Uniques (\begin{DoxyParamCaption}\item[{int}]{counter }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classInputDevice_a7d8e142be352358af00edb36b6ac01a2}{Input\+Device}}.
+
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classJoystick_ac85a952331209b15038c4ce5afa937d2}\label{classJoystick_ac85a952331209b15038c4ce5afa937d2}} 
+\index{Joystick@{Joystick}!controller@{controller}}
+\index{controller@{controller}!Joystick@{Joystick}}
+\doxysubsubsection{\texorpdfstring{controller}{controller}}
+{\footnotesize\ttfamily S\+D\+L\+\_\+\+Game\+Controller$\ast$ Joystick\+::controller\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classJoystick_a025089831e66a5bd20c34ccc7ac4b594}\label{classJoystick_a025089831e66a5bd20c34ccc7ac4b594}} 
+\index{Joystick@{Joystick}!counterUniques@{counterUniques}}
+\index{counterUniques@{counterUniques}!Joystick@{Joystick}}
+\doxysubsubsection{\texorpdfstring{counterUniques}{counterUniques}}
+{\footnotesize\ttfamily int Joystick\+::counter\+Uniques\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classJoystick_ab153ed897cf56c2899cdf22e57ad9b25}\label{classJoystick_ab153ed897cf56c2899cdf22e57ad9b25}} 
+\index{Joystick@{Joystick}!joystickID@{joystickID}}
+\index{joystickID@{joystickID}!Joystick@{Joystick}}
+\doxysubsubsection{\texorpdfstring{joystickID}{joystickID}}
+{\footnotesize\ttfamily S\+D\+L\+\_\+\+Joystick\+ID Joystick\+::joystick\+ID\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classJoystick_a6fbed0986e27016cf420cbe5328e251b}\label{classJoystick_a6fbed0986e27016cf420cbe5328e251b}} 
+\index{Joystick@{Joystick}!m\_joyhandle@{m\_joyhandle}}
+\index{m\_joyhandle@{m\_joyhandle}!Joystick@{Joystick}}
+\doxysubsubsection{\texorpdfstring{m\_joyhandle}{m\_joyhandle}}
+{\footnotesize\ttfamily S\+D\+L\+\_\+\+Joystick$\ast$ Joystick\+::m\+\_\+joyhandle\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{joystick_8h}{joystick.\+h}}\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{joystick_8cpp}{joystick.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,11 @@
+<map id="JoyControlStick::maxZoneChanged" name="JoyControlStick::maxZoneChanged">
+<area shape="rect" id="node1" title=" " alt="" coords="956,49,1133,90"/>
+<area shape="rect" id="node2" href="$classJoyControlStick.html#aa236bf1eb5e70e282a47bde20c4ef6a3" title=" " alt="" coords="713,56,908,83"/>
+<area shape="rect" id="node3" href="$classJoyControlStick.html#ab6ce741115ee3d436c1a7e866abd21e6" title="Take a XML stream and set the stick and direction button properties according to the values contained..." alt="" coords="478,5,663,32"/>
+<area shape="rect" id="node5" href="$classCalibration.html#a8e5394c1bbe44565c442c313ca284ace" title=" " alt="" coords="476,56,665,83"/>
+<area shape="rect" id="node7" href="$classCalibration.html#a61d733b70d5fd8a60c8f98e50469ed0e" title="Updates variables contents and shows message." alt="" coords="487,107,654,133"/>
+<area shape="rect" id="node4" href="$classSetJoystickXml.html#aa95423a01fab878cbc69bffb7f6121f3" title=" " alt="" coords="225,5,409,32"/>
+<area shape="rect" id="node6" href="$classCalibration.html#aac3cc29daae69f616489ddd29407f6fe" title="Resets memory of all variables to default, updates window and shows message." alt="" coords="233,56,401,83"/>
+<area shape="rect" id="node8" href="$classCalibration.html#a27a8dcaa8bc1ae3ebf2da993b29a4e2e" title=" " alt="" coords="5,132,157,159"/>
+<area shape="rect" id="node9" href="$classCalibration.html#a7d5b82418dba451e1b59bef20f2890d2" title="Initializes widget for moving axes (animations) and changes storing data for variables." alt="" coords="205,157,428,184"/>
+</map>

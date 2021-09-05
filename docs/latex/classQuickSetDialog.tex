@@ -1,0 +1,592 @@
+\hypertarget{classQuickSetDialog}{}\doxysection{Quick\+Set\+Dialog Class Reference}
+\label{classQuickSetDialog}\index{QuickSetDialog@{QuickSetDialog}}
+
+
+{\ttfamily \#include $<$quicksetdialog.\+h$>$}
+
+
+
+Inheritance diagram for Quick\+Set\+Dialog\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=165pt]{classQuickSetDialog__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Quick\+Set\+Dialog\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classQuickSetDialog_a57726006cbe2d8534f4be91a05646dd2}{Quick\+Set\+Dialog}} (\mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$\mbox{\hyperlink{classQuickSetDialog_ab71ff93178c7aa910bad7fff99be2935}{joystick}}, Q\+Widget $\ast$parent=nullptr)
+\item 
+\mbox{\hyperlink{classQuickSetDialog_a524c363dab8fac9758adbbb314d64888}{Quick\+Set\+Dialog}} (\mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$\mbox{\hyperlink{classQuickSetDialog_ab71ff93178c7aa910bad7fff99be2935}{joystick}}, \mbox{\hyperlink{classButtonEditDialogHelper}{Button\+Edit\+Dialog\+Helper}} $\ast$\mbox{\hyperlink{classQuickSetDialog_a78efa1404ca26bf7d929c966efe7d394}{helper}}, const char $\ast$\mbox{\hyperlink{classQuickSetDialog_a2ec5e2b9413393ef3a3d0b2928fe5acf}{invoke\+String}}, int \mbox{\hyperlink{classQuickSetDialog_a4b99c66ffd44821f296ec0d9d2502280}{code}}, int \mbox{\hyperlink{classQuickSetDialog_ae57c64dd03a336e366ba3d1351292328}{alias}}, int \mbox{\hyperlink{classQuickSetDialog_aa0a9f118bbfafdf88a5686e5b709c608}{index}}, \mbox{\hyperlink{classJoyButtonSlot_ae87eeb7a82527da7bcd4579616bd22c8}{Joy\+Button\+Slot\+::\+Joy\+Slot\+Input\+Action}} \mbox{\hyperlink{classQuickSetDialog_ad362987d25f70009ea960009c29c7514}{mode}}, bool \mbox{\hyperlink{classQuickSetDialog_a7131a8621b663214fa65f7a8be1558c5}{with\+Clear}}, bool \mbox{\hyperlink{classQuickSetDialog_a388976e939cd24678f3a22254d6d76f2}{with\+True}}, Q\+Widget $\ast$parent=nullptr)
+\item 
+\mbox{\hyperlink{classQuickSetDialog_afab917ae5fb128aade8256637937eaf9}{$\sim$\+Quick\+Set\+Dialog}} ()
+\item 
+\mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$ \mbox{\hyperlink{classQuickSetDialog_a6999eeac1d5729196462849d67a0f394}{get\+Last\+Pressed\+Button}} () const
+\item 
+\mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$ \mbox{\hyperlink{classQuickSetDialog_a79f0ac8329a585e415e7e5cbe2add103}{get\+Joystick}} () const
+\item 
+Q\+Dialog $\ast$ \mbox{\hyperlink{classQuickSetDialog_a8f9deccd670f8ca0672ca4e015e783b1}{get\+Current\+Button\+Dialog}} () const
+\item 
+const char $\ast$ \mbox{\hyperlink{classQuickSetDialog_aa151d15e0b29bd4e4797d163dd6da4fb}{get\+Invoke\+String}} () const
+\item 
+\mbox{\hyperlink{classButtonEditDialogHelper}{Button\+Edit\+Dialog\+Helper}} $\ast$ \mbox{\hyperlink{classQuickSetDialog_a7093952d543efbc2f9ccf66e0e38956c}{get\+Helper}} () const
+\item 
+\mbox{\hyperlink{classJoyButtonSlot_ae87eeb7a82527da7bcd4579616bd22c8}{Joy\+Button\+Slot\+::\+Joy\+Slot\+Input\+Action}} \mbox{\hyperlink{classQuickSetDialog_af3bb1d8fd4133e7f0b9ac57f04aca776}{get\+Mode}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classQuickSetDialog_acbf347f1a8cb27a6385245ef205e3e13}{show\+Axis\+Button\+Dialog}} (\mbox{\hyperlink{classJoyAxisButton}{Joy\+Axis\+Button}} $\ast$joybtn)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classQuickSetDialog_abc94158041ae6895da77662156b64591}{show\+Button\+Dialog}} (\mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$joybtn)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classQuickSetDialog_ad2dbc145f771f61cad3736c044dfa249}{show\+Stick\+Button\+Dialog}} (\mbox{\hyperlink{classJoyControlStickButton}{Joy\+Control\+Stick\+Button}} $\ast$joyctrlstickbtn)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classQuickSetDialog_ac798af7932e1bd769e7f678698163380}{show\+D\+Pad\+Button\+Dialog}} (\mbox{\hyperlink{classJoyDPadButton}{Joy\+D\+Pad\+Button}} $\ast$joydpadbtn)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classQuickSetDialog_afacbf395389ca073edf366a412c1626b}{restore\+Joystick\+State}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classQuickSetDialog_af61daea37a622937669c8043f42e70b8}{invoke\+Method\+Last\+Btn}} (\mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$last\+Joy\+Btn, Qt\+::\+Connection\+Type conn\+Type\+For\+Alias, Qt\+::\+Connection\+Type conn\+Type\+For\+Nothing, Qt\+::\+Connection\+Type conn\+Type\+For\+All, bool possible\+Axis\+Action=false)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classQuickSetDialog_a6cb2f3680e402fa619ce7612a40d7821}{restore\+Sticks\+States}} (\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$currentset)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classQuickSetDialog_ab93f6d0b9dce90e205857c4606b9c892}{restore\+Axes\+States}} (\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$currentset)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classQuickSetDialog_a9dacccdfb79512422a11108b6a617cb8}{restore\+Hats\+States}} (\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$currentset)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classQuickSetDialog_a91064b30a7a6f8241d732d70740bd884}{restore\+V\+D\+Pads\+States}} (\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$currentset)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classQuickSetDialog_ab0004078f6cdb6714ca492de8d820f18}{restore\+Buttons\+States}} (\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$currentset)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classQuickSetDialog_a1aab64d84f8e7fe3403ce792468d96bb}{connect\+Sticks\+For\+Dialog}} (\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$currentset)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classQuickSetDialog_a07fd82f8f1876081285948af84d3fdfa}{connect\+Axes\+For\+Dialog}} (\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$currentset)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classQuickSetDialog_a87890e10b6ecb7d69d90597206b63625}{connect\+Dpad\+For\+Dialog}} (\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$currentset)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classQuickSetDialog_aeb73ff69d1eaa456ec7d8971465e4670}{connect\+V\+Dpad\+For\+Dialog}} (\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$currentset)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classQuickSetDialog_aecc56c37a7b9b387e3ea4afb8637596a}{connect\+Btn\+For\+Dialog}} (\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$currentset)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Ui\+::\+Quick\+Set\+Dialog $\ast$ \mbox{\hyperlink{classQuickSetDialog_a6b08b477b6f05e08f721838e4b78c588}{ui}}
+\item 
+\mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$ \mbox{\hyperlink{classQuickSetDialog_ab71ff93178c7aa910bad7fff99be2935}{joystick}}
+\item 
+Q\+Dialog $\ast$ \mbox{\hyperlink{classQuickSetDialog_a362e2be42a7b54723b1b7aa5d1ceb81c}{current\+Button\+Dialog}}
+\item 
+\mbox{\hyperlink{classButtonEditDialogHelper}{Button\+Edit\+Dialog\+Helper}} $\ast$ \mbox{\hyperlink{classQuickSetDialog_a78efa1404ca26bf7d929c966efe7d394}{helper}}
+\item 
+\mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$ \mbox{\hyperlink{classQuickSetDialog_ae0ad6696418a7a23a0a7f7958ff88f0e}{last\+Button}}
+\item 
+const char $\ast$ \mbox{\hyperlink{classQuickSetDialog_a2ec5e2b9413393ef3a3d0b2928fe5acf}{invoke\+String}}
+\item 
+int \mbox{\hyperlink{classQuickSetDialog_a4b99c66ffd44821f296ec0d9d2502280}{code}}
+\item 
+int \mbox{\hyperlink{classQuickSetDialog_ae57c64dd03a336e366ba3d1351292328}{alias}}
+\item 
+int \mbox{\hyperlink{classQuickSetDialog_aa0a9f118bbfafdf88a5686e5b709c608}{index}}
+\item 
+\mbox{\hyperlink{classJoyButtonSlot_ae87eeb7a82527da7bcd4579616bd22c8}{Joy\+Button\+Slot\+::\+Joy\+Slot\+Input\+Action}} \mbox{\hyperlink{classQuickSetDialog_ad362987d25f70009ea960009c29c7514}{mode}}
+\item 
+bool \mbox{\hyperlink{classQuickSetDialog_a7131a8621b663214fa65f7a8be1558c5}{with\+Clear}}
+\item 
+bool \mbox{\hyperlink{classQuickSetDialog_a388976e939cd24678f3a22254d6d76f2}{with\+True}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classQuickSetDialog_a57726006cbe2d8534f4be91a05646dd2}\label{classQuickSetDialog_a57726006cbe2d8534f4be91a05646dd2}} 
+\index{QuickSetDialog@{QuickSetDialog}!QuickSetDialog@{QuickSetDialog}}
+\index{QuickSetDialog@{QuickSetDialog}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{QuickSetDialog()}{QuickSetDialog()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Quick\+Set\+Dialog\+::\+Quick\+Set\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$}]{joystick,  }\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_a57726006cbe2d8534f4be91a05646dd2_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classQuickSetDialog_a524c363dab8fac9758adbbb314d64888}\label{classQuickSetDialog_a524c363dab8fac9758adbbb314d64888}} 
+\index{QuickSetDialog@{QuickSetDialog}!QuickSetDialog@{QuickSetDialog}}
+\index{QuickSetDialog@{QuickSetDialog}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{QuickSetDialog()}{QuickSetDialog()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Quick\+Set\+Dialog\+::\+Quick\+Set\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$}]{joystick,  }\item[{\mbox{\hyperlink{classButtonEditDialogHelper}{Button\+Edit\+Dialog\+Helper}} $\ast$}]{helper,  }\item[{const char $\ast$}]{invoke\+String,  }\item[{int}]{code,  }\item[{int}]{alias,  }\item[{int}]{index,  }\item[{\mbox{\hyperlink{classJoyButtonSlot_ae87eeb7a82527da7bcd4579616bd22c8}{Joy\+Button\+Slot\+::\+Joy\+Slot\+Input\+Action}}}]{mode,  }\item[{bool}]{with\+Clear,  }\item[{bool}]{with\+True,  }\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_a524c363dab8fac9758adbbb314d64888_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classQuickSetDialog_afab917ae5fb128aade8256637937eaf9}\label{classQuickSetDialog_afab917ae5fb128aade8256637937eaf9}} 
+\index{QuickSetDialog@{QuickSetDialog}!````~QuickSetDialog@{$\sim$QuickSetDialog}}
+\index{````~QuickSetDialog@{$\sim$QuickSetDialog}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{$\sim$QuickSetDialog()}{~QuickSetDialog()}}
+{\footnotesize\ttfamily Quick\+Set\+Dialog\+::$\sim$\+Quick\+Set\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classQuickSetDialog_a07fd82f8f1876081285948af84d3fdfa}\label{classQuickSetDialog_a07fd82f8f1876081285948af84d3fdfa}} 
+\index{QuickSetDialog@{QuickSetDialog}!connectAxesForDialog@{connectAxesForDialog}}
+\index{connectAxesForDialog@{connectAxesForDialog}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{connectAxesForDialog()}{connectAxesForDialog()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Quick\+Set\+Dialog\+::connect\+Axes\+For\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$}]{currentset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_a07fd82f8f1876081285948af84d3fdfa_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_a07fd82f8f1876081285948af84d3fdfa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classQuickSetDialog_aecc56c37a7b9b387e3ea4afb8637596a}\label{classQuickSetDialog_aecc56c37a7b9b387e3ea4afb8637596a}} 
+\index{QuickSetDialog@{QuickSetDialog}!connectBtnForDialog@{connectBtnForDialog}}
+\index{connectBtnForDialog@{connectBtnForDialog}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{connectBtnForDialog()}{connectBtnForDialog()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Quick\+Set\+Dialog\+::connect\+Btn\+For\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$}]{currentset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_aecc56c37a7b9b387e3ea4afb8637596a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_aecc56c37a7b9b387e3ea4afb8637596a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classQuickSetDialog_a87890e10b6ecb7d69d90597206b63625}\label{classQuickSetDialog_a87890e10b6ecb7d69d90597206b63625}} 
+\index{QuickSetDialog@{QuickSetDialog}!connectDpadForDialog@{connectDpadForDialog}}
+\index{connectDpadForDialog@{connectDpadForDialog}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{connectDpadForDialog()}{connectDpadForDialog()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Quick\+Set\+Dialog\+::connect\+Dpad\+For\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$}]{currentset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_a87890e10b6ecb7d69d90597206b63625_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_a87890e10b6ecb7d69d90597206b63625_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classQuickSetDialog_a1aab64d84f8e7fe3403ce792468d96bb}\label{classQuickSetDialog_a1aab64d84f8e7fe3403ce792468d96bb}} 
+\index{QuickSetDialog@{QuickSetDialog}!connectSticksForDialog@{connectSticksForDialog}}
+\index{connectSticksForDialog@{connectSticksForDialog}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{connectSticksForDialog()}{connectSticksForDialog()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Quick\+Set\+Dialog\+::connect\+Sticks\+For\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$}]{currentset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_a1aab64d84f8e7fe3403ce792468d96bb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_a1aab64d84f8e7fe3403ce792468d96bb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classQuickSetDialog_aeb73ff69d1eaa456ec7d8971465e4670}\label{classQuickSetDialog_aeb73ff69d1eaa456ec7d8971465e4670}} 
+\index{QuickSetDialog@{QuickSetDialog}!connectVDpadForDialog@{connectVDpadForDialog}}
+\index{connectVDpadForDialog@{connectVDpadForDialog}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{connectVDpadForDialog()}{connectVDpadForDialog()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Quick\+Set\+Dialog\+::connect\+V\+Dpad\+For\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$}]{currentset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_aeb73ff69d1eaa456ec7d8971465e4670_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_aeb73ff69d1eaa456ec7d8971465e4670_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classQuickSetDialog_a8f9deccd670f8ca0672ca4e015e783b1}\label{classQuickSetDialog_a8f9deccd670f8ca0672ca4e015e783b1}} 
+\index{QuickSetDialog@{QuickSetDialog}!getCurrentButtonDialog@{getCurrentButtonDialog}}
+\index{getCurrentButtonDialog@{getCurrentButtonDialog}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{getCurrentButtonDialog()}{getCurrentButtonDialog()}}
+{\footnotesize\ttfamily Q\+Dialog $\ast$ Quick\+Set\+Dialog\+::get\+Current\+Button\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classQuickSetDialog_a7093952d543efbc2f9ccf66e0e38956c}\label{classQuickSetDialog_a7093952d543efbc2f9ccf66e0e38956c}} 
+\index{QuickSetDialog@{QuickSetDialog}!getHelper@{getHelper}}
+\index{getHelper@{getHelper}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{getHelper()}{getHelper()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classButtonEditDialogHelper}{Button\+Edit\+Dialog\+Helper}} $\ast$ Quick\+Set\+Dialog\+::get\+Helper (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classQuickSetDialog_aa151d15e0b29bd4e4797d163dd6da4fb}\label{classQuickSetDialog_aa151d15e0b29bd4e4797d163dd6da4fb}} 
+\index{QuickSetDialog@{QuickSetDialog}!getInvokeString@{getInvokeString}}
+\index{getInvokeString@{getInvokeString}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{getInvokeString()}{getInvokeString()}}
+{\footnotesize\ttfamily const char $\ast$ Quick\+Set\+Dialog\+::get\+Invoke\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classQuickSetDialog_a79f0ac8329a585e415e7e5cbe2add103}\label{classQuickSetDialog_a79f0ac8329a585e415e7e5cbe2add103}} 
+\index{QuickSetDialog@{QuickSetDialog}!getJoystick@{getJoystick}}
+\index{getJoystick@{getJoystick}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{getJoystick()}{getJoystick()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$ Quick\+Set\+Dialog\+::get\+Joystick (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classQuickSetDialog_a6999eeac1d5729196462849d67a0f394}\label{classQuickSetDialog_a6999eeac1d5729196462849d67a0f394}} 
+\index{QuickSetDialog@{QuickSetDialog}!getLastPressedButton@{getLastPressedButton}}
+\index{getLastPressedButton@{getLastPressedButton}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{getLastPressedButton()}{getLastPressedButton()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$ Quick\+Set\+Dialog\+::get\+Last\+Pressed\+Button (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_a6999eeac1d5729196462849d67a0f394_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classQuickSetDialog_af3bb1d8fd4133e7f0b9ac57f04aca776}\label{classQuickSetDialog_af3bb1d8fd4133e7f0b9ac57f04aca776}} 
+\index{QuickSetDialog@{QuickSetDialog}!getMode@{getMode}}
+\index{getMode@{getMode}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{getMode()}{getMode()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyButtonSlot_ae87eeb7a82527da7bcd4579616bd22c8}{Joy\+Button\+Slot\+::\+Joy\+Slot\+Input\+Action}} Quick\+Set\+Dialog\+::get\+Mode (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classQuickSetDialog_af61daea37a622937669c8043f42e70b8}\label{classQuickSetDialog_af61daea37a622937669c8043f42e70b8}} 
+\index{QuickSetDialog@{QuickSetDialog}!invokeMethodLastBtn@{invokeMethodLastBtn}}
+\index{invokeMethodLastBtn@{invokeMethodLastBtn}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{invokeMethodLastBtn()}{invokeMethodLastBtn()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Quick\+Set\+Dialog\+::invoke\+Method\+Last\+Btn (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$}]{last\+Joy\+Btn,  }\item[{Qt\+::\+Connection\+Type}]{conn\+Type\+For\+Alias,  }\item[{Qt\+::\+Connection\+Type}]{conn\+Type\+For\+Nothing,  }\item[{Qt\+::\+Connection\+Type}]{conn\+Type\+For\+All,  }\item[{bool}]{possible\+Axis\+Action = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_af61daea37a622937669c8043f42e70b8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_af61daea37a622937669c8043f42e70b8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classQuickSetDialog_ab93f6d0b9dce90e205857c4606b9c892}\label{classQuickSetDialog_ab93f6d0b9dce90e205857c4606b9c892}} 
+\index{QuickSetDialog@{QuickSetDialog}!restoreAxesStates@{restoreAxesStates}}
+\index{restoreAxesStates@{restoreAxesStates}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{restoreAxesStates()}{restoreAxesStates()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Quick\+Set\+Dialog\+::restore\+Axes\+States (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$}]{currentset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_ab93f6d0b9dce90e205857c4606b9c892_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_ab93f6d0b9dce90e205857c4606b9c892_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classQuickSetDialog_ab0004078f6cdb6714ca492de8d820f18}\label{classQuickSetDialog_ab0004078f6cdb6714ca492de8d820f18}} 
+\index{QuickSetDialog@{QuickSetDialog}!restoreButtonsStates@{restoreButtonsStates}}
+\index{restoreButtonsStates@{restoreButtonsStates}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{restoreButtonsStates()}{restoreButtonsStates()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Quick\+Set\+Dialog\+::restore\+Buttons\+States (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$}]{currentset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_ab0004078f6cdb6714ca492de8d820f18_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_ab0004078f6cdb6714ca492de8d820f18_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classQuickSetDialog_a9dacccdfb79512422a11108b6a617cb8}\label{classQuickSetDialog_a9dacccdfb79512422a11108b6a617cb8}} 
+\index{QuickSetDialog@{QuickSetDialog}!restoreHatsStates@{restoreHatsStates}}
+\index{restoreHatsStates@{restoreHatsStates}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{restoreHatsStates()}{restoreHatsStates()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Quick\+Set\+Dialog\+::restore\+Hats\+States (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$}]{currentset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_a9dacccdfb79512422a11108b6a617cb8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_a9dacccdfb79512422a11108b6a617cb8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classQuickSetDialog_afacbf395389ca073edf366a412c1626b}\label{classQuickSetDialog_afacbf395389ca073edf366a412c1626b}} 
+\index{QuickSetDialog@{QuickSetDialog}!restoreJoystickState@{restoreJoystickState}}
+\index{restoreJoystickState@{restoreJoystickState}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{restoreJoystickState}{restoreJoystickState}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Quick\+Set\+Dialog\+::restore\+Joystick\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_afacbf395389ca073edf366a412c1626b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_afacbf395389ca073edf366a412c1626b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classQuickSetDialog_a6cb2f3680e402fa619ce7612a40d7821}\label{classQuickSetDialog_a6cb2f3680e402fa619ce7612a40d7821}} 
+\index{QuickSetDialog@{QuickSetDialog}!restoreSticksStates@{restoreSticksStates}}
+\index{restoreSticksStates@{restoreSticksStates}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{restoreSticksStates()}{restoreSticksStates()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Quick\+Set\+Dialog\+::restore\+Sticks\+States (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$}]{currentset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_a6cb2f3680e402fa619ce7612a40d7821_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_a6cb2f3680e402fa619ce7612a40d7821_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classQuickSetDialog_a91064b30a7a6f8241d732d70740bd884}\label{classQuickSetDialog_a91064b30a7a6f8241d732d70740bd884}} 
+\index{QuickSetDialog@{QuickSetDialog}!restoreVDPadsStates@{restoreVDPadsStates}}
+\index{restoreVDPadsStates@{restoreVDPadsStates}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{restoreVDPadsStates()}{restoreVDPadsStates()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Quick\+Set\+Dialog\+::restore\+V\+D\+Pads\+States (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$}]{currentset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_a91064b30a7a6f8241d732d70740bd884_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_a91064b30a7a6f8241d732d70740bd884_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classQuickSetDialog_acbf347f1a8cb27a6385245ef205e3e13}\label{classQuickSetDialog_acbf347f1a8cb27a6385245ef205e3e13}} 
+\index{QuickSetDialog@{QuickSetDialog}!showAxisButtonDialog@{showAxisButtonDialog}}
+\index{showAxisButtonDialog@{showAxisButtonDialog}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{showAxisButtonDialog}{showAxisButtonDialog}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Quick\+Set\+Dialog\+::show\+Axis\+Button\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyAxisButton}{Joy\+Axis\+Button}} $\ast$}]{joybtn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_acbf347f1a8cb27a6385245ef205e3e13_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_acbf347f1a8cb27a6385245ef205e3e13_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classQuickSetDialog_abc94158041ae6895da77662156b64591}\label{classQuickSetDialog_abc94158041ae6895da77662156b64591}} 
+\index{QuickSetDialog@{QuickSetDialog}!showButtonDialog@{showButtonDialog}}
+\index{showButtonDialog@{showButtonDialog}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{showButtonDialog}{showButtonDialog}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Quick\+Set\+Dialog\+::show\+Button\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$}]{joybtn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_abc94158041ae6895da77662156b64591_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_abc94158041ae6895da77662156b64591_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classQuickSetDialog_ac798af7932e1bd769e7f678698163380}\label{classQuickSetDialog_ac798af7932e1bd769e7f678698163380}} 
+\index{QuickSetDialog@{QuickSetDialog}!showDPadButtonDialog@{showDPadButtonDialog}}
+\index{showDPadButtonDialog@{showDPadButtonDialog}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{showDPadButtonDialog}{showDPadButtonDialog}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Quick\+Set\+Dialog\+::show\+D\+Pad\+Button\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyDPadButton}{Joy\+D\+Pad\+Button}} $\ast$}]{joydpadbtn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_ac798af7932e1bd769e7f678698163380_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_ac798af7932e1bd769e7f678698163380_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classQuickSetDialog_ad2dbc145f771f61cad3736c044dfa249}\label{classQuickSetDialog_ad2dbc145f771f61cad3736c044dfa249}} 
+\index{QuickSetDialog@{QuickSetDialog}!showStickButtonDialog@{showStickButtonDialog}}
+\index{showStickButtonDialog@{showStickButtonDialog}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{showStickButtonDialog}{showStickButtonDialog}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Quick\+Set\+Dialog\+::show\+Stick\+Button\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyControlStickButton}{Joy\+Control\+Stick\+Button}} $\ast$}]{joyctrlstickbtn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_ad2dbc145f771f61cad3736c044dfa249_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classQuickSetDialog_ad2dbc145f771f61cad3736c044dfa249_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classQuickSetDialog_ae57c64dd03a336e366ba3d1351292328}\label{classQuickSetDialog_ae57c64dd03a336e366ba3d1351292328}} 
+\index{QuickSetDialog@{QuickSetDialog}!alias@{alias}}
+\index{alias@{alias}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{alias}{alias}}
+{\footnotesize\ttfamily int Quick\+Set\+Dialog\+::alias\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classQuickSetDialog_a4b99c66ffd44821f296ec0d9d2502280}\label{classQuickSetDialog_a4b99c66ffd44821f296ec0d9d2502280}} 
+\index{QuickSetDialog@{QuickSetDialog}!code@{code}}
+\index{code@{code}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{code}{code}}
+{\footnotesize\ttfamily int Quick\+Set\+Dialog\+::code\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classQuickSetDialog_a362e2be42a7b54723b1b7aa5d1ceb81c}\label{classQuickSetDialog_a362e2be42a7b54723b1b7aa5d1ceb81c}} 
+\index{QuickSetDialog@{QuickSetDialog}!currentButtonDialog@{currentButtonDialog}}
+\index{currentButtonDialog@{currentButtonDialog}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{currentButtonDialog}{currentButtonDialog}}
+{\footnotesize\ttfamily Q\+Dialog$\ast$ Quick\+Set\+Dialog\+::current\+Button\+Dialog\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classQuickSetDialog_a78efa1404ca26bf7d929c966efe7d394}\label{classQuickSetDialog_a78efa1404ca26bf7d929c966efe7d394}} 
+\index{QuickSetDialog@{QuickSetDialog}!helper@{helper}}
+\index{helper@{helper}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{helper}{helper}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classButtonEditDialogHelper}{Button\+Edit\+Dialog\+Helper}}$\ast$ Quick\+Set\+Dialog\+::helper\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classQuickSetDialog_aa0a9f118bbfafdf88a5686e5b709c608}\label{classQuickSetDialog_aa0a9f118bbfafdf88a5686e5b709c608}} 
+\index{QuickSetDialog@{QuickSetDialog}!index@{index}}
+\index{index@{index}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{index}{index}}
+{\footnotesize\ttfamily int Quick\+Set\+Dialog\+::index\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classQuickSetDialog_a2ec5e2b9413393ef3a3d0b2928fe5acf}\label{classQuickSetDialog_a2ec5e2b9413393ef3a3d0b2928fe5acf}} 
+\index{QuickSetDialog@{QuickSetDialog}!invokeString@{invokeString}}
+\index{invokeString@{invokeString}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{invokeString}{invokeString}}
+{\footnotesize\ttfamily const char$\ast$ Quick\+Set\+Dialog\+::invoke\+String\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classQuickSetDialog_ab71ff93178c7aa910bad7fff99be2935}\label{classQuickSetDialog_ab71ff93178c7aa910bad7fff99be2935}} 
+\index{QuickSetDialog@{QuickSetDialog}!joystick@{joystick}}
+\index{joystick@{joystick}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{joystick}{joystick}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classInputDevice}{Input\+Device}}$\ast$ Quick\+Set\+Dialog\+::joystick\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classQuickSetDialog_ae0ad6696418a7a23a0a7f7958ff88f0e}\label{classQuickSetDialog_ae0ad6696418a7a23a0a7f7958ff88f0e}} 
+\index{QuickSetDialog@{QuickSetDialog}!lastButton@{lastButton}}
+\index{lastButton@{lastButton}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{lastButton}{lastButton}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyButton}{Joy\+Button}}$\ast$ Quick\+Set\+Dialog\+::last\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classQuickSetDialog_ad362987d25f70009ea960009c29c7514}\label{classQuickSetDialog_ad362987d25f70009ea960009c29c7514}} 
+\index{QuickSetDialog@{QuickSetDialog}!mode@{mode}}
+\index{mode@{mode}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{mode}{mode}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyButtonSlot_ae87eeb7a82527da7bcd4579616bd22c8}{Joy\+Button\+Slot\+::\+Joy\+Slot\+Input\+Action}} Quick\+Set\+Dialog\+::mode\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classQuickSetDialog_a6b08b477b6f05e08f721838e4b78c588}\label{classQuickSetDialog_a6b08b477b6f05e08f721838e4b78c588}} 
+\index{QuickSetDialog@{QuickSetDialog}!ui@{ui}}
+\index{ui@{ui}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Quick\+Set\+Dialog$\ast$ Quick\+Set\+Dialog\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classQuickSetDialog_a7131a8621b663214fa65f7a8be1558c5}\label{classQuickSetDialog_a7131a8621b663214fa65f7a8be1558c5}} 
+\index{QuickSetDialog@{QuickSetDialog}!withClear@{withClear}}
+\index{withClear@{withClear}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{withClear}{withClear}}
+{\footnotesize\ttfamily bool Quick\+Set\+Dialog\+::with\+Clear\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classQuickSetDialog_a388976e939cd24678f3a22254d6d76f2}\label{classQuickSetDialog_a388976e939cd24678f3a22254d6d76f2}} 
+\index{QuickSetDialog@{QuickSetDialog}!withTrue@{withTrue}}
+\index{withTrue@{withTrue}!QuickSetDialog@{QuickSetDialog}}
+\doxysubsubsection{\texorpdfstring{withTrue}{withTrue}}
+{\footnotesize\ttfamily bool Quick\+Set\+Dialog\+::with\+True\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{quicksetdialog_8h}{quicksetdialog.\+h}}\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{quicksetdialog_8cpp}{quicksetdialog.\+cpp}}\end{DoxyCompactItemize}

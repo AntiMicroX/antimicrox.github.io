@@ -1,0 +1,254 @@
+\hypertarget{classCapturedWindowInfoDialog}{}\doxysection{Captured\+Window\+Info\+Dialog Class Reference}
+\label{classCapturedWindowInfoDialog}\index{CapturedWindowInfoDialog@{CapturedWindowInfoDialog}}
+
+
+{\ttfamily \#include $<$capturedwindowinfodialog.\+h$>$}
+
+
+
+Inheritance diagram for Captured\+Window\+Info\+Dialog\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=215pt]{classCapturedWindowInfoDialog__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Captured\+Window\+Info\+Dialog\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=215pt]{classCapturedWindowInfoDialog__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \{ \mbox{\hyperlink{classCapturedWindowInfoDialog_ae950b6217958ded1416adb43bb5360a1acb39efc0c4870afc8f3e998e05f0ca10}{Window\+None}} = 0, 
+\mbox{\hyperlink{classCapturedWindowInfoDialog_ae950b6217958ded1416adb43bb5360a1abb8ed0906f5e16e4f68c02b8063e13f4}{Window\+Class}} = (1 $<$$<$ 0), 
+\mbox{\hyperlink{classCapturedWindowInfoDialog_ae950b6217958ded1416adb43bb5360a1ac11e105377a182388c13353f7f9c6220}{Window\+Name}} = (1 $<$$<$ 1), 
+\mbox{\hyperlink{classCapturedWindowInfoDialog_ae950b6217958ded1416adb43bb5360a1a94ac2891e394432d8accea0d7ab28617}{Window\+Path}} = (1 $<$$<$ 2)
+ \}
+\item 
+typedef int \mbox{\hyperlink{classCapturedWindowInfoDialog_ad2b67406aa6d8b949b29afd367cf7d56}{Captured\+Window\+Option}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCapturedWindowInfoDialog_afadb9b4bbaec10e076a5ab94495194c6}{Captured\+Window\+Info\+Dialog}} (long window, Q\+Widget $\ast$parent=nullptr)
+\item 
+\mbox{\hyperlink{classCapturedWindowInfoDialog_aef87c1c6a0b9740c39b6488a88f2f3b0}{$\sim$\+Captured\+Window\+Info\+Dialog}} ()
+\item 
+Q\+String \mbox{\hyperlink{classCapturedWindowInfoDialog_ab2d91ee6fba008c437256fed547fd3c4}{get\+Window\+Class}} ()
+\item 
+Q\+String \mbox{\hyperlink{classCapturedWindowInfoDialog_a7093a286ca8fac8160979fa91e56700a}{get\+Window\+Name}} ()
+\item 
+Q\+String \mbox{\hyperlink{classCapturedWindowInfoDialog_a754c68068cabd48e5d5f65c627014785}{get\+Window\+Path}} ()
+\item 
+bool \mbox{\hyperlink{classCapturedWindowInfoDialog_aef9a63e65cb029f83e780cd7a928999e}{use\+Full\+Window\+Path}} ()
+\item 
+\mbox{\hyperlink{classCapturedWindowInfoDialog_ad2b67406aa6d8b949b29afd367cf7d56}{Captured\+Window\+Option}} \mbox{\hyperlink{classCapturedWindowInfoDialog_ac3d240fb4abed8fdc56674a194cb7a83}{get\+Selected\+Options}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classCapturedWindowInfoDialog_ad05efeb53b02ab866dc20e6b275c9d3e}{populate\+Option}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Ui\+::\+Captured\+Window\+Info\+Dialog $\ast$ \mbox{\hyperlink{classCapturedWindowInfoDialog_a852b693aa035c8e62317e6fc9271cf34}{ui}}
+\item 
+\mbox{\hyperlink{classCapturedWindowInfoDialog_ad2b67406aa6d8b949b29afd367cf7d56}{Captured\+Window\+Option}} \mbox{\hyperlink{classCapturedWindowInfoDialog_ad38476842a9643a6977eafdd4b5488a6}{selected\+Match}}
+\item 
+Q\+String \mbox{\hyperlink{classCapturedWindowInfoDialog_a7c5f6f616de7ba29d6896edce0b43ad1}{win\+Class}}
+\item 
+Q\+String \mbox{\hyperlink{classCapturedWindowInfoDialog_a8b3549139b4e1d153d812edde0483512}{win\+Name}}
+\item 
+Q\+String \mbox{\hyperlink{classCapturedWindowInfoDialog_a974001c2d28cdc8b88be3b8cef69db73}{win\+Path}}
+\item 
+bool \mbox{\hyperlink{classCapturedWindowInfoDialog_a9b203371f3acafa68414b81be61f034d}{full\+Win\+Path}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Typedef Documentation}
+\mbox{\Hypertarget{classCapturedWindowInfoDialog_ad2b67406aa6d8b949b29afd367cf7d56}\label{classCapturedWindowInfoDialog_ad2b67406aa6d8b949b29afd367cf7d56}} 
+\index{CapturedWindowInfoDialog@{CapturedWindowInfoDialog}!CapturedWindowOption@{CapturedWindowOption}}
+\index{CapturedWindowOption@{CapturedWindowOption}!CapturedWindowInfoDialog@{CapturedWindowInfoDialog}}
+\doxysubsubsection{\texorpdfstring{CapturedWindowOption}{CapturedWindowOption}}
+{\footnotesize\ttfamily typedef int \mbox{\hyperlink{classCapturedWindowInfoDialog_ad2b67406aa6d8b949b29afd367cf7d56}{Captured\+Window\+Info\+Dialog\+::\+Captured\+Window\+Option}}}
+
+
+
+\doxysubsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{classCapturedWindowInfoDialog_ae950b6217958ded1416adb43bb5360a1}\label{classCapturedWindowInfoDialog_ae950b6217958ded1416adb43bb5360a1}} 
+\doxysubsubsection{\texorpdfstring{anonymous enum}{anonymous enum}}
+{\footnotesize\ttfamily anonymous enum}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{WindowNone@{WindowNone}!CapturedWindowInfoDialog@{CapturedWindowInfoDialog}}\index{CapturedWindowInfoDialog@{CapturedWindowInfoDialog}!WindowNone@{WindowNone}}}\mbox{\Hypertarget{classCapturedWindowInfoDialog_ae950b6217958ded1416adb43bb5360a1acb39efc0c4870afc8f3e998e05f0ca10}\label{classCapturedWindowInfoDialog_ae950b6217958ded1416adb43bb5360a1acb39efc0c4870afc8f3e998e05f0ca10}} 
+Window\+None&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{WindowClass@{WindowClass}!CapturedWindowInfoDialog@{CapturedWindowInfoDialog}}\index{CapturedWindowInfoDialog@{CapturedWindowInfoDialog}!WindowClass@{WindowClass}}}\mbox{\Hypertarget{classCapturedWindowInfoDialog_ae950b6217958ded1416adb43bb5360a1abb8ed0906f5e16e4f68c02b8063e13f4}\label{classCapturedWindowInfoDialog_ae950b6217958ded1416adb43bb5360a1abb8ed0906f5e16e4f68c02b8063e13f4}} 
+Window\+Class&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{WindowName@{WindowName}!CapturedWindowInfoDialog@{CapturedWindowInfoDialog}}\index{CapturedWindowInfoDialog@{CapturedWindowInfoDialog}!WindowName@{WindowName}}}\mbox{\Hypertarget{classCapturedWindowInfoDialog_ae950b6217958ded1416adb43bb5360a1ac11e105377a182388c13353f7f9c6220}\label{classCapturedWindowInfoDialog_ae950b6217958ded1416adb43bb5360a1ac11e105377a182388c13353f7f9c6220}} 
+Window\+Name&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{WindowPath@{WindowPath}!CapturedWindowInfoDialog@{CapturedWindowInfoDialog}}\index{CapturedWindowInfoDialog@{CapturedWindowInfoDialog}!WindowPath@{WindowPath}}}\mbox{\Hypertarget{classCapturedWindowInfoDialog_ae950b6217958ded1416adb43bb5360a1a94ac2891e394432d8accea0d7ab28617}\label{classCapturedWindowInfoDialog_ae950b6217958ded1416adb43bb5360a1a94ac2891e394432d8accea0d7ab28617}} 
+Window\+Path&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classCapturedWindowInfoDialog_afadb9b4bbaec10e076a5ab94495194c6}\label{classCapturedWindowInfoDialog_afadb9b4bbaec10e076a5ab94495194c6}} 
+\index{CapturedWindowInfoDialog@{CapturedWindowInfoDialog}!CapturedWindowInfoDialog@{CapturedWindowInfoDialog}}
+\index{CapturedWindowInfoDialog@{CapturedWindowInfoDialog}!CapturedWindowInfoDialog@{CapturedWindowInfoDialog}}
+\doxysubsubsection{\texorpdfstring{CapturedWindowInfoDialog()}{CapturedWindowInfoDialog()}}
+{\footnotesize\ttfamily Captured\+Window\+Info\+Dialog\+::\+Captured\+Window\+Info\+Dialog (\begin{DoxyParamCaption}\item[{long}]{window,  }\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCapturedWindowInfoDialog_afadb9b4bbaec10e076a5ab94495194c6_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCapturedWindowInfoDialog_aef87c1c6a0b9740c39b6488a88f2f3b0}\label{classCapturedWindowInfoDialog_aef87c1c6a0b9740c39b6488a88f2f3b0}} 
+\index{CapturedWindowInfoDialog@{CapturedWindowInfoDialog}!````~CapturedWindowInfoDialog@{$\sim$CapturedWindowInfoDialog}}
+\index{````~CapturedWindowInfoDialog@{$\sim$CapturedWindowInfoDialog}!CapturedWindowInfoDialog@{CapturedWindowInfoDialog}}
+\doxysubsubsection{\texorpdfstring{$\sim$CapturedWindowInfoDialog()}{~CapturedWindowInfoDialog()}}
+{\footnotesize\ttfamily Captured\+Window\+Info\+Dialog\+::$\sim$\+Captured\+Window\+Info\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCapturedWindowInfoDialog_ac3d240fb4abed8fdc56674a194cb7a83}\label{classCapturedWindowInfoDialog_ac3d240fb4abed8fdc56674a194cb7a83}} 
+\index{CapturedWindowInfoDialog@{CapturedWindowInfoDialog}!getSelectedOptions@{getSelectedOptions}}
+\index{getSelectedOptions@{getSelectedOptions}!CapturedWindowInfoDialog@{CapturedWindowInfoDialog}}
+\doxysubsubsection{\texorpdfstring{getSelectedOptions()}{getSelectedOptions()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classCapturedWindowInfoDialog_ad2b67406aa6d8b949b29afd367cf7d56}{Captured\+Window\+Info\+Dialog\+::\+Captured\+Window\+Option}} Captured\+Window\+Info\+Dialog\+::get\+Selected\+Options (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCapturedWindowInfoDialog_ac3d240fb4abed8fdc56674a194cb7a83_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCapturedWindowInfoDialog_ab2d91ee6fba008c437256fed547fd3c4}\label{classCapturedWindowInfoDialog_ab2d91ee6fba008c437256fed547fd3c4}} 
+\index{CapturedWindowInfoDialog@{CapturedWindowInfoDialog}!getWindowClass@{getWindowClass}}
+\index{getWindowClass@{getWindowClass}!CapturedWindowInfoDialog@{CapturedWindowInfoDialog}}
+\doxysubsubsection{\texorpdfstring{getWindowClass()}{getWindowClass()}}
+{\footnotesize\ttfamily Q\+String Captured\+Window\+Info\+Dialog\+::get\+Window\+Class (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCapturedWindowInfoDialog_ab2d91ee6fba008c437256fed547fd3c4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCapturedWindowInfoDialog_a7093a286ca8fac8160979fa91e56700a}\label{classCapturedWindowInfoDialog_a7093a286ca8fac8160979fa91e56700a}} 
+\index{CapturedWindowInfoDialog@{CapturedWindowInfoDialog}!getWindowName@{getWindowName}}
+\index{getWindowName@{getWindowName}!CapturedWindowInfoDialog@{CapturedWindowInfoDialog}}
+\doxysubsubsection{\texorpdfstring{getWindowName()}{getWindowName()}}
+{\footnotesize\ttfamily Q\+String Captured\+Window\+Info\+Dialog\+::get\+Window\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCapturedWindowInfoDialog_a7093a286ca8fac8160979fa91e56700a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCapturedWindowInfoDialog_a754c68068cabd48e5d5f65c627014785}\label{classCapturedWindowInfoDialog_a754c68068cabd48e5d5f65c627014785}} 
+\index{CapturedWindowInfoDialog@{CapturedWindowInfoDialog}!getWindowPath@{getWindowPath}}
+\index{getWindowPath@{getWindowPath}!CapturedWindowInfoDialog@{CapturedWindowInfoDialog}}
+\doxysubsubsection{\texorpdfstring{getWindowPath()}{getWindowPath()}}
+{\footnotesize\ttfamily Q\+String Captured\+Window\+Info\+Dialog\+::get\+Window\+Path (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCapturedWindowInfoDialog_a754c68068cabd48e5d5f65c627014785_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCapturedWindowInfoDialog_ad05efeb53b02ab866dc20e6b275c9d3e}\label{classCapturedWindowInfoDialog_ad05efeb53b02ab866dc20e6b275c9d3e}} 
+\index{CapturedWindowInfoDialog@{CapturedWindowInfoDialog}!populateOption@{populateOption}}
+\index{populateOption@{populateOption}!CapturedWindowInfoDialog@{CapturedWindowInfoDialog}}
+\doxysubsubsection{\texorpdfstring{populateOption}{populateOption}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Captured\+Window\+Info\+Dialog\+::populate\+Option (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCapturedWindowInfoDialog_ad05efeb53b02ab866dc20e6b275c9d3e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCapturedWindowInfoDialog_aef9a63e65cb029f83e780cd7a928999e}\label{classCapturedWindowInfoDialog_aef9a63e65cb029f83e780cd7a928999e}} 
+\index{CapturedWindowInfoDialog@{CapturedWindowInfoDialog}!useFullWindowPath@{useFullWindowPath}}
+\index{useFullWindowPath@{useFullWindowPath}!CapturedWindowInfoDialog@{CapturedWindowInfoDialog}}
+\doxysubsubsection{\texorpdfstring{useFullWindowPath()}{useFullWindowPath()}}
+{\footnotesize\ttfamily bool Captured\+Window\+Info\+Dialog\+::use\+Full\+Window\+Path (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCapturedWindowInfoDialog_aef9a63e65cb029f83e780cd7a928999e_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classCapturedWindowInfoDialog_a9b203371f3acafa68414b81be61f034d}\label{classCapturedWindowInfoDialog_a9b203371f3acafa68414b81be61f034d}} 
+\index{CapturedWindowInfoDialog@{CapturedWindowInfoDialog}!fullWinPath@{fullWinPath}}
+\index{fullWinPath@{fullWinPath}!CapturedWindowInfoDialog@{CapturedWindowInfoDialog}}
+\doxysubsubsection{\texorpdfstring{fullWinPath}{fullWinPath}}
+{\footnotesize\ttfamily bool Captured\+Window\+Info\+Dialog\+::full\+Win\+Path\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCapturedWindowInfoDialog_ad38476842a9643a6977eafdd4b5488a6}\label{classCapturedWindowInfoDialog_ad38476842a9643a6977eafdd4b5488a6}} 
+\index{CapturedWindowInfoDialog@{CapturedWindowInfoDialog}!selectedMatch@{selectedMatch}}
+\index{selectedMatch@{selectedMatch}!CapturedWindowInfoDialog@{CapturedWindowInfoDialog}}
+\doxysubsubsection{\texorpdfstring{selectedMatch}{selectedMatch}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classCapturedWindowInfoDialog_ad2b67406aa6d8b949b29afd367cf7d56}{Captured\+Window\+Option}} Captured\+Window\+Info\+Dialog\+::selected\+Match\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCapturedWindowInfoDialog_a852b693aa035c8e62317e6fc9271cf34}\label{classCapturedWindowInfoDialog_a852b693aa035c8e62317e6fc9271cf34}} 
+\index{CapturedWindowInfoDialog@{CapturedWindowInfoDialog}!ui@{ui}}
+\index{ui@{ui}!CapturedWindowInfoDialog@{CapturedWindowInfoDialog}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Captured\+Window\+Info\+Dialog$\ast$ Captured\+Window\+Info\+Dialog\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCapturedWindowInfoDialog_a7c5f6f616de7ba29d6896edce0b43ad1}\label{classCapturedWindowInfoDialog_a7c5f6f616de7ba29d6896edce0b43ad1}} 
+\index{CapturedWindowInfoDialog@{CapturedWindowInfoDialog}!winClass@{winClass}}
+\index{winClass@{winClass}!CapturedWindowInfoDialog@{CapturedWindowInfoDialog}}
+\doxysubsubsection{\texorpdfstring{winClass}{winClass}}
+{\footnotesize\ttfamily Q\+String Captured\+Window\+Info\+Dialog\+::win\+Class\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCapturedWindowInfoDialog_a8b3549139b4e1d153d812edde0483512}\label{classCapturedWindowInfoDialog_a8b3549139b4e1d153d812edde0483512}} 
+\index{CapturedWindowInfoDialog@{CapturedWindowInfoDialog}!winName@{winName}}
+\index{winName@{winName}!CapturedWindowInfoDialog@{CapturedWindowInfoDialog}}
+\doxysubsubsection{\texorpdfstring{winName}{winName}}
+{\footnotesize\ttfamily Q\+String Captured\+Window\+Info\+Dialog\+::win\+Name\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCapturedWindowInfoDialog_a974001c2d28cdc8b88be3b8cef69db73}\label{classCapturedWindowInfoDialog_a974001c2d28cdc8b88be3b8cef69db73}} 
+\index{CapturedWindowInfoDialog@{CapturedWindowInfoDialog}!winPath@{winPath}}
+\index{winPath@{winPath}!CapturedWindowInfoDialog@{CapturedWindowInfoDialog}}
+\doxysubsubsection{\texorpdfstring{winPath}{winPath}}
+{\footnotesize\ttfamily Q\+String Captured\+Window\+Info\+Dialog\+::win\+Path\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{capturedwindowinfodialog_8h}{capturedwindowinfodialog.\+h}}\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{capturedwindowinfodialog_8cpp}{capturedwindowinfodialog.\+cpp}}\end{DoxyCompactItemize}

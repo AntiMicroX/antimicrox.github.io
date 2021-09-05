@@ -1,0 +1,12 @@
+<map id="InputDevice::setVDPadName" name="InputDevice::setVDPadName">
+<area shape="rect" id="node1" title=" " alt="" coords="793,123,988,149"/>
+<area shape="rect" id="node2" href="$classInputDeviceXml.html#a847bf9ed17b554bf87d513a1aebdcb64" title=" " alt="" coords="551,5,738,32"/>
+<area shape="rect" id="node3" href="$classGameControllerXml.html#af727b41e5437fef842cd30dc5095ba9e" title=" " alt="" coords="553,57,737,98"/>
+<area shape="rect" id="node6" href="$classGameControllerXml.html#a6cc4ca448e7b6462630d535f75f3a96b" title=" " alt="" coords="309,115,453,157"/>
+<area shape="rect" id="node7" href="$classInputDevice.html#a9e31db2616040d7ed9e5f0a1b10cbab8" title=" " alt="" coords="544,174,745,215"/>
+<area shape="rect" id="node4" href="$classGameControllerXml.html#aaa5257d4c6fe13f1d5fc51981e247c25" title=" " alt="" coords="309,50,453,91"/>
+<area shape="rect" id="node5" href="$classGameControllerXml.html#a7e47256cae0d3815419bc254413777d1" title=" " alt="" coords="39,70,183,111"/>
+<area shape="rect" id="node8" href="$classInputDevice.html#a6ffcebba103a7db02e82c1c7f62387bf" title=" " alt="" coords="265,181,496,208"/>
+<area shape="rect" id="node9" href="$classGameController.html#afcddb9dcc5442a9746c3ff8760ea1791" title=" " alt="" coords="5,156,217,183"/>
+<area shape="rect" id="node10" href="$classJoystick.html#a9df5e53506876f3c95e84bdf6c9cbaf1" title=" " alt="" coords="49,207,174,233"/>
+</map>

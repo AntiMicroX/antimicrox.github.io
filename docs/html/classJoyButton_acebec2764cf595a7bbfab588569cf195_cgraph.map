@@ -1,0 +1,19 @@
+<map id="JoyButton::moveMouseCursor" name="JoyButton::moveMouseCursor">
+<area shape="rect" id="node1" title="Take cursor mouse information provided by all buttons and send a cursor mode mouse event to the displ..." alt="" coords="5,229,204,255"/>
+<area shape="rect" id="node2" href="$classJoyButton.html#a699f062ddf1b266d5ccfc88dd70d9666" title=" " alt="" coords="260,153,459,179"/>
+<area shape="rect" id="node3" href="$classJoyButton.html#af33b4a6f64f9dcac7450eed7ad2697e1" title=" " alt="" coords="252,203,467,230"/>
+<area shape="rect" id="node4" href="$classJoyButtonSlot.html#ab0658ac4e6648852de5f9b622e4c2d25" title=" " alt="" coords="253,254,465,281"/>
+<area shape="rect" id="node5" href="$event_8cpp.html#a42a7842a656f2dfc8b8545391502de03" title=" " alt="" coords="319,305,400,331"/>
+<area shape="rect" id="node6" href="$event_8cpp.html#a5d4afd531123bc0d5093ae323f20519f" title=" " alt="" coords="561,86,688,113"/>
+<area shape="rect" id="node7" href="$classJoyButtonSlot.html#a9f38f6c91eeb67ec4b9ad46a535ceeef" title=" " alt="" coords="531,137,719,163"/>
+<area shape="rect" id="node8" href="$classEventHandlerFactory.html#a90ce153a19fbb91128bd52eb083ce271" title=" " alt="" coords="552,188,697,229"/>
+<area shape="rect" id="node11" href="$classEventHandlerFactory.html#a4c13007f0ece5bf881080c9c04f1f20d" title=" " alt="" coords="999,129,1144,171"/>
+<area shape="rect" id="node13" href="$classJoyButtonSlot.html#abed7fe134c404b403ea79c0753f6eaaf" title=" " alt="" coords="532,305,717,331"/>
+<area shape="rect" id="node14" href="$classJoyButtonSlot.html#a1e38b923aa69abbcfb9abb008e692444" title=" " alt="" coords="533,355,716,382"/>
+<area shape="rect" id="node15" href="$classBaseEventHandler.html#afd723bd1451d78a34976642783026c40" title=" " alt="" coords="515,407,735,448"/>
+<area shape="rect" id="node16" href="$classBaseEventHandler.html#a068ae99c4210979beb9e397960f33641" title=" " alt="" coords="522,472,727,513"/>
+<area shape="rect" id="node17" href="$classBaseEventHandler.html#a9474d07cb2e38dca07ffac6f08a161ed" title=" " alt="" coords="529,537,720,579"/>
+<area shape="rect" id="node9" href="$classEventHandlerFactory.html#ade5162034acc0f8683725fdb124bece0" title=" " alt="" coords="783,5,951,47"/>
+<area shape="rect" id="node10" href="$classEventHandlerFactory.html#a2f843293b2ea47271fc7bd99bd871fa6" title=" " alt="" coords="790,71,943,112"/>
+<area shape="rect" id="node12" href="$classEventHandlerFactory.html#afa5ca0171c70b1a24f92b5c8dd00dc92" title=" " alt="" coords="794,188,939,229"/>
+</map>

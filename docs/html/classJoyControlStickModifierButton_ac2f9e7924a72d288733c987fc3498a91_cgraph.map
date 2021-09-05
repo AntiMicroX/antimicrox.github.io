@@ -1,0 +1,9 @@
+<map id="JoyControlStickModifierButton::getMouseDistanceFromDeadZone" name="JoyControlStickModifierButton::getMouseDistanceFromDeadZone">
+<area shape="rect" id="node1" title="Get the distance factor that should be used for mouse movement." alt="" coords="5,71,235,112"/>
+<area shape="rect" id="node2" href="$classJoyControlStickModifierButton.html#a65412dae4962e20798e45533f0b98948" title="Get the distance that an element is away from its assigned dead zone." alt="" coords="283,71,481,112"/>
+<area shape="rect" id="node3" href="$classJoyControlStick.html#a5b043c1100b4d83df1858b028820e70c" title="Used to calculate the distance value that should be used for keyboard events and distance slots." alt="" coords="529,71,704,112"/>
+<area shape="rect" id="node4" href="$classJoyControlStick.html#a0898d3ba1c5f94781f8fd2df1b30c674" title="Get distance of the X axis past the assigned dead zone." alt="" coords="761,5,935,47"/>
+<area shape="rect" id="node6" href="$classJoyControlStick.html#a42462afc22445206967b92b08c30995b" title="Get distance of the Y axis past the assigned dead zone." alt="" coords="761,71,935,112"/>
+<area shape="rect" id="node7" href="$classJoyControlStick.html#af9c934203a22e91c53d45a2a8f356248" title="Get current radial distance of the stick position past the assigned dead zone." alt="" coords="752,136,944,177"/>
+<area shape="rect" id="node5" href="$classJoyAxis.html#a0580ab0df546a1c03b4e8f755ad00272" title=" " alt="" coords="992,78,1188,105"/>
+</map>

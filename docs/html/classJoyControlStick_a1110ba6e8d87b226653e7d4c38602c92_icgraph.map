@@ -1,0 +1,9 @@
+<map id="JoyControlStick::calculateEightWayDiagonalDistanceFromDeadZone" name="JoyControlStick::calculateEightWayDiagonalDistanceFromDeadZone">
+<area shape="rect" id="node1" title=" " alt="" coords="556,71,827,112"/>
+<area shape="rect" id="node2" href="$classJoyControlStick.html#afb2b5e5e03f384d3d0533518baedf7ab" title=" " alt="" coords="321,5,495,47"/>
+<area shape="rect" id="node4" href="$classJoyControlStick.html#acbf146b02dd22b8970e90580dbac5a61" title=" " alt="" coords="308,71,508,112"/>
+<area shape="rect" id="node6" href="$classJoyControlStick.html#a8d8449aae58887816a8662e79a233ad1" title="Used to calculate the distance value that should be used for mouse movement." alt="" coords="321,136,495,177"/>
+<area shape="rect" id="node3" href="$classJoyControlStickModifierButton.html#adaf7679f50f4cd6b8d0b217351c7032c" title=" " alt="" coords="5,5,260,47"/>
+<area shape="rect" id="node5" href="$classJoyControlStickButton.html#a3fde8ac631cd01ff73e1e13b4317330c" title=" " alt="" coords="5,71,260,112"/>
+<area shape="rect" id="node7" href="$classJoyControlStickButton.html#ab1f0e0a9f9d2ba01768619401f666fff" title="Get the distance factor that should be used for mouse movement." alt="" coords="18,136,247,177"/>
+</map>

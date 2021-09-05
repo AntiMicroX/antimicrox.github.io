@@ -1,0 +1,214 @@
+\hypertarget{classGameControllerTrigger}{}\doxysection{Game\+Controller\+Trigger Class Reference}
+\label{classGameControllerTrigger}\index{GameControllerTrigger@{GameControllerTrigger}}
+
+
+{\ttfamily \#include $<$gamecontrollertrigger.\+h$>$}
+
+
+
+Inheritance diagram for Game\+Controller\+Trigger\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=194pt]{classGameControllerTrigger__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Game\+Controller\+Trigger\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerTrigger__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerTrigger_a9a377b27df224a6eeddea986c0b1cf4d}{reset}} ()
+\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerTrigger_ab63a97404553aedc7cac20b65df5b763}{reset}} (int index)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classGameControllerTrigger_a29c6221684b8eb4b3a4017ed93c6e866}{Game\+Controller\+Trigger}} (int index, int originset, \mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$parent\+Set, Q\+Object $\ast$parent=nullptr)
+\item 
+virtual Q\+String \mbox{\hyperlink{classGameControllerTrigger_ac69da08d4ca21858436bf9ccc80b7df0}{get\+Xml\+Name}} ()
+\item 
+virtual Q\+String \mbox{\hyperlink{classGameControllerTrigger_a8ff76c6adb45c685fb35443e78dc9b33}{get\+Partial\+Name}} (bool force\+Full\+Format, bool display\+Names)
+\item 
+virtual int \mbox{\hyperlink{classGameControllerTrigger_a62d813c0b93ae8b9e14e8887f4d38461}{get\+Default\+Dead\+Zone}} ()
+\item 
+virtual int \mbox{\hyperlink{classGameControllerTrigger_a3c6a81312158ea4e056b65d88968d1af}{get\+Default\+Max\+Zone}} ()
+\item 
+virtual \mbox{\hyperlink{classJoyAxis_a7e459c55c342481732d5c63301c5080d}{Throttle\+Types}} \mbox{\hyperlink{classGameControllerTrigger_a5e278d225208c849341a5b2df2f31d34}{get\+Default\+Throttle}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static const \mbox{\hyperlink{classJoyAxis_a7e459c55c342481732d5c63301c5080d}{Throttle\+Types}} \mbox{\hyperlink{classGameControllerTrigger_a79cb3de4a1ed495af3590cb254e24f3f}{D\+E\+F\+A\+U\+L\+T\+T\+H\+R\+O\+T\+T\+LE}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerTrigger_abfde3c0a5d3bacf59188fd8c81968642}{correct\+Joystick\+Throttle}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classGameControllerTrigger_a29c6221684b8eb4b3a4017ed93c6e866}\label{classGameControllerTrigger_a29c6221684b8eb4b3a4017ed93c6e866}} 
+\index{GameControllerTrigger@{GameControllerTrigger}!GameControllerTrigger@{GameControllerTrigger}}
+\index{GameControllerTrigger@{GameControllerTrigger}!GameControllerTrigger@{GameControllerTrigger}}
+\doxysubsubsection{\texorpdfstring{GameControllerTrigger()}{GameControllerTrigger()}}
+{\footnotesize\ttfamily Game\+Controller\+Trigger\+::\+Game\+Controller\+Trigger (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{int}]{originset,  }\item[{\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$}]{parent\+Set,  }\item[{Q\+Object $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerTrigger_a29c6221684b8eb4b3a4017ed93c6e866_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classGameControllerTrigger_abfde3c0a5d3bacf59188fd8c81968642}\label{classGameControllerTrigger_abfde3c0a5d3bacf59188fd8c81968642}} 
+\index{GameControllerTrigger@{GameControllerTrigger}!correctJoystickThrottle@{correctJoystickThrottle}}
+\index{correctJoystickThrottle@{correctJoystickThrottle}!GameControllerTrigger@{GameControllerTrigger}}
+\doxysubsubsection{\texorpdfstring{correctJoystickThrottle()}{correctJoystickThrottle()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Trigger\+::correct\+Joystick\+Throttle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerTrigger_abfde3c0a5d3bacf59188fd8c81968642_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerTrigger_a62d813c0b93ae8b9e14e8887f4d38461}\label{classGameControllerTrigger_a62d813c0b93ae8b9e14e8887f4d38461}} 
+\index{GameControllerTrigger@{GameControllerTrigger}!getDefaultDeadZone@{getDefaultDeadZone}}
+\index{getDefaultDeadZone@{getDefaultDeadZone}!GameControllerTrigger@{GameControllerTrigger}}
+\doxysubsubsection{\texorpdfstring{getDefaultDeadZone()}{getDefaultDeadZone()}}
+{\footnotesize\ttfamily int Game\+Controller\+Trigger\+::get\+Default\+Dead\+Zone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classJoyAxis_a8552b6736231d1611c8809602e189d68}{Joy\+Axis}}.
+
+\mbox{\Hypertarget{classGameControllerTrigger_a3c6a81312158ea4e056b65d88968d1af}\label{classGameControllerTrigger_a3c6a81312158ea4e056b65d88968d1af}} 
+\index{GameControllerTrigger@{GameControllerTrigger}!getDefaultMaxZone@{getDefaultMaxZone}}
+\index{getDefaultMaxZone@{getDefaultMaxZone}!GameControllerTrigger@{GameControllerTrigger}}
+\doxysubsubsection{\texorpdfstring{getDefaultMaxZone()}{getDefaultMaxZone()}}
+{\footnotesize\ttfamily int Game\+Controller\+Trigger\+::get\+Default\+Max\+Zone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classJoyAxis_a61149f5541d5dc820ae2a04a6ca9af68}{Joy\+Axis}}.
+
+\mbox{\Hypertarget{classGameControllerTrigger_a5e278d225208c849341a5b2df2f31d34}\label{classGameControllerTrigger_a5e278d225208c849341a5b2df2f31d34}} 
+\index{GameControllerTrigger@{GameControllerTrigger}!getDefaultThrottle@{getDefaultThrottle}}
+\index{getDefaultThrottle@{getDefaultThrottle}!GameControllerTrigger@{GameControllerTrigger}}
+\doxysubsubsection{\texorpdfstring{getDefaultThrottle()}{getDefaultThrottle()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyAxis_a7e459c55c342481732d5c63301c5080d}{Joy\+Axis\+::\+Throttle\+Types}} Game\+Controller\+Trigger\+::get\+Default\+Throttle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classJoyAxis_a4fe327d03fb5834f59271f404fbe4ba1}{Joy\+Axis}}.
+
+\mbox{\Hypertarget{classGameControllerTrigger_a8ff76c6adb45c685fb35443e78dc9b33}\label{classGameControllerTrigger_a8ff76c6adb45c685fb35443e78dc9b33}} 
+\index{GameControllerTrigger@{GameControllerTrigger}!getPartialName@{getPartialName}}
+\index{getPartialName@{getPartialName}!GameControllerTrigger@{GameControllerTrigger}}
+\doxysubsubsection{\texorpdfstring{getPartialName()}{getPartialName()}}
+{\footnotesize\ttfamily Q\+String Game\+Controller\+Trigger\+::get\+Partial\+Name (\begin{DoxyParamCaption}\item[{bool}]{force\+Full\+Format,  }\item[{bool}]{display\+Names }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classJoyAxis_a96710fb06ec9e989cd71ffce4ee7ca57}{Joy\+Axis}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerTrigger_a8ff76c6adb45c685fb35443e78dc9b33_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerTrigger_ac69da08d4ca21858436bf9ccc80b7df0}\label{classGameControllerTrigger_ac69da08d4ca21858436bf9ccc80b7df0}} 
+\index{GameControllerTrigger@{GameControllerTrigger}!getXmlName@{getXmlName}}
+\index{getXmlName@{getXmlName}!GameControllerTrigger@{GameControllerTrigger}}
+\doxysubsubsection{\texorpdfstring{getXmlName()}{getXmlName()}}
+{\footnotesize\ttfamily Q\+String Game\+Controller\+Trigger\+::get\+Xml\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classJoyAxis_a04c3b7b172ad46013382e36ad7b65691}{Joy\+Axis}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerTrigger_ac69da08d4ca21858436bf9ccc80b7df0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerTrigger_a9a377b27df224a6eeddea986c0b1cf4d}\label{classGameControllerTrigger_a9a377b27df224a6eeddea986c0b1cf4d}} 
+\index{GameControllerTrigger@{GameControllerTrigger}!reset@{reset}}
+\index{reset@{reset}!GameControllerTrigger@{GameControllerTrigger}}
+\doxysubsubsection{\texorpdfstring{reset}{reset}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Trigger\+::reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerTrigger_a9a377b27df224a6eeddea986c0b1cf4d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerTrigger_a9a377b27df224a6eeddea986c0b1cf4d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerTrigger_ab63a97404553aedc7cac20b65df5b763}\label{classGameControllerTrigger_ab63a97404553aedc7cac20b65df5b763}} 
+\index{GameControllerTrigger@{GameControllerTrigger}!reset@{reset}}
+\index{reset@{reset}!GameControllerTrigger@{GameControllerTrigger}}
+\doxysubsubsection{\texorpdfstring{reset}{reset}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Trigger\+::reset (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=194pt]{classGameControllerTrigger_ab63a97404553aedc7cac20b65df5b763_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=194pt]{classGameControllerTrigger_ab63a97404553aedc7cac20b65df5b763_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classGameControllerTrigger_a79cb3de4a1ed495af3590cb254e24f3f}\label{classGameControllerTrigger_a79cb3de4a1ed495af3590cb254e24f3f}} 
+\index{GameControllerTrigger@{GameControllerTrigger}!DEFAULTTHROTTLE@{DEFAULTTHROTTLE}}
+\index{DEFAULTTHROTTLE@{DEFAULTTHROTTLE}!GameControllerTrigger@{GameControllerTrigger}}
+\doxysubsubsection{\texorpdfstring{DEFAULTTHROTTLE}{DEFAULTTHROTTLE}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classJoyAxis_a7e459c55c342481732d5c63301c5080d}{Game\+Controller\+Trigger\+::\+Throttle\+Types}} Game\+Controller\+Trigger\+::\+D\+E\+F\+A\+U\+L\+T\+T\+H\+R\+O\+T\+T\+LE\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{    \mbox{\hyperlink{classJoyAxis_a7e459c55c342481732d5c63301c5080da249834f35076ca21376e84f1bdf592a8}{GameControllerTrigger::PositiveHalfThrottle}}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/antimicrox/src/gamecontroller/\mbox{\hyperlink{gamecontrollertrigger_8h}{gamecontrollertrigger.\+h}}\item 
+/home/pawel/antimicrox/src/gamecontroller/\mbox{\hyperlink{gamecontrollertrigger_8cpp}{gamecontrollertrigger.\+cpp}}\end{DoxyCompactItemize}

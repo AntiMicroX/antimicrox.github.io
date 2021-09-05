@@ -1,0 +1,9 @@
+<map id="GameControllerTrigger::correctJoystickThrottle" name="GameControllerTrigger::correctJoystickThrottle">
+<area shape="rect" id="node1" title=" " alt="" coords="5,64,168,105"/>
+<area shape="rect" id="node2" href="$classJoyAxis.html#a06d99d722b314998440165a01b0f87b3" title=" " alt="" coords="608,5,788,47"/>
+<area shape="rect" id="node5" href="$classJoyAxis.html#acb36ca26562c203a587fbb937f168200" title=" " alt="" coords="600,173,796,199"/>
+<area shape="rect" id="node6" href="$classJoyAxis.html#aa4be4a311b6656e63eacfdde5ce6861a" title="Set throttle value for axis." alt="" coords="216,71,355,98"/>
+<area shape="rect" id="node3" href="$classJoyAxis.html#af3f311fbf20c583224c2320d1fda0226" title=" " alt="" coords="844,71,1011,98"/>
+<area shape="rect" id="node4" href="$classJoyAxis.html#aff06f563278beb621285f65fb33b784a" title=" " alt="" coords="847,122,1008,149"/>
+<area shape="rect" id="node7" href="$classJoyAxis.html#a211c80f9aa20fa22c8f91a5cdcb0831a" title=" " alt="" coords="403,71,552,98"/>
+</map>

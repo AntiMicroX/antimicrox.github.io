@@ -1,0 +1,350 @@
+\hypertarget{classGameControllerXml}{}\doxysection{Game\+Controller\+Xml Class Reference}
+\label{classGameControllerXml}\index{GameControllerXml@{GameControllerXml}}
+
+
+{\ttfamily \#include $<$gamecontrollerxml.\+h$>$}
+
+
+
+Inheritance diagram for Game\+Controller\+Xml\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=182pt]{classGameControllerXml__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Game\+Controller\+Xml\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=286pt]{classGameControllerXml__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerXml_a7e47256cae0d3815419bc254413777d1}{read\+Config}} (Q\+Xml\+Stream\+Reader $\ast$xml) override
+\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerXml_ac87bc51a0dcdb01143d969a732b5188f}{write\+Config}} (Q\+Xml\+Stream\+Writer $\ast$xml) override
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classGameControllerXml_a1b3622e7d3320074bae1058251cfd009}{Game\+Controller\+Xml}} (\mbox{\hyperlink{classGameController}{Game\+Controller}} $\ast$game\+Controller, Q\+Object $\ast$parent=nullptr)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerXml_aaa5257d4c6fe13f1d5fc51981e247c25}{read\+Joystick\+Config}} (Q\+Xml\+Stream\+Reader $\ast$xml)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerXml_a2ea0df8c20f07dd3ee8fa765acd3bdcc}{write\+Xml\+For\+Buttons}} (\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$temp\+Set, Q\+Xml\+Stream\+Writer $\ast$xml)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerXml_a43ba30d58802f57ca877b5c85ec1e018}{write\+Xml\+For\+Axes}} (\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$temp\+Set, Q\+Xml\+Stream\+Writer $\ast$xml)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerXml_a58cc6838bb726b635eb2875c192b144a}{write\+Xml\+Ax\+Btn}} (\mbox{\hyperlink{classJoyAxis}{Joy\+Axis}} $\ast$axis, \mbox{\hyperlink{classJoyAxisButton}{Joy\+Axis\+Button}} $\ast$naxisbutton, Q\+Xml\+Stream\+Writer $\ast$xml)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerXml_a930e9b49e3543488adfb92b4e82dd9ca}{write\+Xml\+For\+Sticks}} (\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$temp\+Set, Q\+Xml\+Stream\+Writer $\ast$xml)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerXml_a24aeb787738fab230de3d4dc80adee26}{write\+Xml\+For\+V\+Dpad}} (Q\+Xml\+Stream\+Writer $\ast$xml)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerXml_a6cc4ca448e7b6462630d535f75f3a96b}{read\+Xml\+Names\+Short}} (Q\+String name, Q\+Xml\+Stream\+Reader $\ast$xml)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerXml_ae5f862960b70f00d38eb26f94e8d9cba}{read\+Xml\+Names\+Middle}} (Q\+String name, Q\+Xml\+Stream\+Reader $\ast$xml)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerXml_ae6ea19bdaf10425456faf9dd8495a7a3}{read\+Xml\+Names\+Long}} (Q\+String name, Q\+Xml\+Stream\+Reader $\ast$xml)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerXml_af727b41e5437fef842cd30dc5095ba9e}{read\+Joystick\+Config\+Xml\+Long}} (Q\+List$<$ S\+D\+L\+\_\+\+Game\+Controller\+Button\+Bind $>$ \&hat\+Buttons, bool \&dpad\+Name\+Exists, bool \&vdpad\+Name\+Exists, Q\+Xml\+Stream\+Reader $\ast$xml)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerXml_a7023a716ebcc9e73e38fe8b8bab1a34d}{assign\+Variables}} (Q\+Xml\+Stream\+Reader $\ast$xml, int \&index, int \&button\+Index, Q\+String \&temp, bool button\+Decreased)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classGameControllerXml_aea3b8ea7ab18538f76c025c909f7de20}{assign\+Variables\+Short}} (Q\+Xml\+Stream\+Reader $\ast$xml, int \&index, Q\+String \&temp)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classGameController}{Game\+Controller}} $\ast$ \mbox{\hyperlink{classGameControllerXml_aacb6016cd2bbd9c809ba86d20b587d85}{m\+\_\+game\+Controller}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classGameControllerXml_a1b3622e7d3320074bae1058251cfd009}\label{classGameControllerXml_a1b3622e7d3320074bae1058251cfd009}} 
+\index{GameControllerXml@{GameControllerXml}!GameControllerXml@{GameControllerXml}}
+\index{GameControllerXml@{GameControllerXml}!GameControllerXml@{GameControllerXml}}
+\doxysubsubsection{\texorpdfstring{GameControllerXml()}{GameControllerXml()}}
+{\footnotesize\ttfamily Game\+Controller\+Xml\+::\+Game\+Controller\+Xml (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classGameController}{Game\+Controller}} $\ast$}]{game\+Controller,  }\item[{Q\+Object $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classGameControllerXml_a7023a716ebcc9e73e38fe8b8bab1a34d}\label{classGameControllerXml_a7023a716ebcc9e73e38fe8b8bab1a34d}} 
+\index{GameControllerXml@{GameControllerXml}!assignVariables@{assignVariables}}
+\index{assignVariables@{assignVariables}!GameControllerXml@{GameControllerXml}}
+\doxysubsubsection{\texorpdfstring{assignVariables()}{assignVariables()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Xml\+::assign\+Variables (\begin{DoxyParamCaption}\item[{Q\+Xml\+Stream\+Reader $\ast$}]{xml,  }\item[{int \&}]{index,  }\item[{int \&}]{button\+Index,  }\item[{Q\+String \&}]{temp,  }\item[{bool}]{button\+Decreased }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerXml_a7023a716ebcc9e73e38fe8b8bab1a34d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerXml_aea3b8ea7ab18538f76c025c909f7de20}\label{classGameControllerXml_aea3b8ea7ab18538f76c025c909f7de20}} 
+\index{GameControllerXml@{GameControllerXml}!assignVariablesShort@{assignVariablesShort}}
+\index{assignVariablesShort@{assignVariablesShort}!GameControllerXml@{GameControllerXml}}
+\doxysubsubsection{\texorpdfstring{assignVariablesShort()}{assignVariablesShort()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Xml\+::assign\+Variables\+Short (\begin{DoxyParamCaption}\item[{Q\+Xml\+Stream\+Reader $\ast$}]{xml,  }\item[{int \&}]{index,  }\item[{Q\+String \&}]{temp }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerXml_aea3b8ea7ab18538f76c025c909f7de20_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerXml_a7e47256cae0d3815419bc254413777d1}\label{classGameControllerXml_a7e47256cae0d3815419bc254413777d1}} 
+\index{GameControllerXml@{GameControllerXml}!readConfig@{readConfig}}
+\index{readConfig@{readConfig}!GameControllerXml@{GameControllerXml}}
+\doxysubsubsection{\texorpdfstring{readConfig}{readConfig}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Xml\+::read\+Config (\begin{DoxyParamCaption}\item[{Q\+Xml\+Stream\+Reader $\ast$}]{xml }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerXml_a7e47256cae0d3815419bc254413777d1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerXml_aaa5257d4c6fe13f1d5fc51981e247c25}\label{classGameControllerXml_aaa5257d4c6fe13f1d5fc51981e247c25}} 
+\index{GameControllerXml@{GameControllerXml}!readJoystickConfig@{readJoystickConfig}}
+\index{readJoystickConfig@{readJoystickConfig}!GameControllerXml@{GameControllerXml}}
+\doxysubsubsection{\texorpdfstring{readJoystickConfig()}{readJoystickConfig()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Xml\+::read\+Joystick\+Config (\begin{DoxyParamCaption}\item[{Q\+Xml\+Stream\+Reader $\ast$}]{xml }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classGameControllerXml_aaa5257d4c6fe13f1d5fc51981e247c25_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=332pt]{classGameControllerXml_aaa5257d4c6fe13f1d5fc51981e247c25_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerXml_af727b41e5437fef842cd30dc5095ba9e}\label{classGameControllerXml_af727b41e5437fef842cd30dc5095ba9e}} 
+\index{GameControllerXml@{GameControllerXml}!readJoystickConfigXmlLong@{readJoystickConfigXmlLong}}
+\index{readJoystickConfigXmlLong@{readJoystickConfigXmlLong}!GameControllerXml@{GameControllerXml}}
+\doxysubsubsection{\texorpdfstring{readJoystickConfigXmlLong()}{readJoystickConfigXmlLong()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Xml\+::read\+Joystick\+Config\+Xml\+Long (\begin{DoxyParamCaption}\item[{Q\+List$<$ S\+D\+L\+\_\+\+Game\+Controller\+Button\+Bind $>$ \&}]{hat\+Buttons,  }\item[{bool \&}]{dpad\+Name\+Exists,  }\item[{bool \&}]{vdpad\+Name\+Exists,  }\item[{Q\+Xml\+Stream\+Reader $\ast$}]{xml }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerXml_af727b41e5437fef842cd30dc5095ba9e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerXml_af727b41e5437fef842cd30dc5095ba9e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerXml_ae6ea19bdaf10425456faf9dd8495a7a3}\label{classGameControllerXml_ae6ea19bdaf10425456faf9dd8495a7a3}} 
+\index{GameControllerXml@{GameControllerXml}!readXmlNamesLong@{readXmlNamesLong}}
+\index{readXmlNamesLong@{readXmlNamesLong}!GameControllerXml@{GameControllerXml}}
+\doxysubsubsection{\texorpdfstring{readXmlNamesLong()}{readXmlNamesLong()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Xml\+::read\+Xml\+Names\+Long (\begin{DoxyParamCaption}\item[{Q\+String}]{name,  }\item[{Q\+Xml\+Stream\+Reader $\ast$}]{xml }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerXml_ae6ea19bdaf10425456faf9dd8495a7a3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=332pt]{classGameControllerXml_ae6ea19bdaf10425456faf9dd8495a7a3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerXml_ae5f862960b70f00d38eb26f94e8d9cba}\label{classGameControllerXml_ae5f862960b70f00d38eb26f94e8d9cba}} 
+\index{GameControllerXml@{GameControllerXml}!readXmlNamesMiddle@{readXmlNamesMiddle}}
+\index{readXmlNamesMiddle@{readXmlNamesMiddle}!GameControllerXml@{GameControllerXml}}
+\doxysubsubsection{\texorpdfstring{readXmlNamesMiddle()}{readXmlNamesMiddle()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Xml\+::read\+Xml\+Names\+Middle (\begin{DoxyParamCaption}\item[{Q\+String}]{name,  }\item[{Q\+Xml\+Stream\+Reader $\ast$}]{xml }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerXml_ae5f862960b70f00d38eb26f94e8d9cba_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{classGameControllerXml_ae5f862960b70f00d38eb26f94e8d9cba_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerXml_a6cc4ca448e7b6462630d535f75f3a96b}\label{classGameControllerXml_a6cc4ca448e7b6462630d535f75f3a96b}} 
+\index{GameControllerXml@{GameControllerXml}!readXmlNamesShort@{readXmlNamesShort}}
+\index{readXmlNamesShort@{readXmlNamesShort}!GameControllerXml@{GameControllerXml}}
+\doxysubsubsection{\texorpdfstring{readXmlNamesShort()}{readXmlNamesShort()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Xml\+::read\+Xml\+Names\+Short (\begin{DoxyParamCaption}\item[{Q\+String}]{name,  }\item[{Q\+Xml\+Stream\+Reader $\ast$}]{xml }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerXml_a6cc4ca448e7b6462630d535f75f3a96b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=332pt]{classGameControllerXml_a6cc4ca448e7b6462630d535f75f3a96b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerXml_ac87bc51a0dcdb01143d969a732b5188f}\label{classGameControllerXml_ac87bc51a0dcdb01143d969a732b5188f}} 
+\index{GameControllerXml@{GameControllerXml}!writeConfig@{writeConfig}}
+\index{writeConfig@{writeConfig}!GameControllerXml@{GameControllerXml}}
+\doxysubsubsection{\texorpdfstring{writeConfig}{writeConfig}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Xml\+::write\+Config (\begin{DoxyParamCaption}\item[{Q\+Xml\+Stream\+Writer $\ast$}]{xml }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerXml_ac87bc51a0dcdb01143d969a732b5188f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerXml_a58cc6838bb726b635eb2875c192b144a}\label{classGameControllerXml_a58cc6838bb726b635eb2875c192b144a}} 
+\index{GameControllerXml@{GameControllerXml}!writeXmlAxBtn@{writeXmlAxBtn}}
+\index{writeXmlAxBtn@{writeXmlAxBtn}!GameControllerXml@{GameControllerXml}}
+\doxysubsubsection{\texorpdfstring{writeXmlAxBtn()}{writeXmlAxBtn()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Xml\+::write\+Xml\+Ax\+Btn (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyAxis}{Joy\+Axis}} $\ast$}]{axis,  }\item[{\mbox{\hyperlink{classJoyAxisButton}{Joy\+Axis\+Button}} $\ast$}]{naxisbutton,  }\item[{Q\+Xml\+Stream\+Writer $\ast$}]{xml }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerXml_a58cc6838bb726b635eb2875c192b144a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerXml_a58cc6838bb726b635eb2875c192b144a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerXml_a43ba30d58802f57ca877b5c85ec1e018}\label{classGameControllerXml_a43ba30d58802f57ca877b5c85ec1e018}} 
+\index{GameControllerXml@{GameControllerXml}!writeXmlForAxes@{writeXmlForAxes}}
+\index{writeXmlForAxes@{writeXmlForAxes}!GameControllerXml@{GameControllerXml}}
+\doxysubsubsection{\texorpdfstring{writeXmlForAxes()}{writeXmlForAxes()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Xml\+::write\+Xml\+For\+Axes (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$}]{temp\+Set,  }\item[{Q\+Xml\+Stream\+Writer $\ast$}]{xml }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerXml_a43ba30d58802f57ca877b5c85ec1e018_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=332pt]{classGameControllerXml_a43ba30d58802f57ca877b5c85ec1e018_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerXml_a2ea0df8c20f07dd3ee8fa765acd3bdcc}\label{classGameControllerXml_a2ea0df8c20f07dd3ee8fa765acd3bdcc}} 
+\index{GameControllerXml@{GameControllerXml}!writeXmlForButtons@{writeXmlForButtons}}
+\index{writeXmlForButtons@{writeXmlForButtons}!GameControllerXml@{GameControllerXml}}
+\doxysubsubsection{\texorpdfstring{writeXmlForButtons()}{writeXmlForButtons()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Xml\+::write\+Xml\+For\+Buttons (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$}]{temp\+Set,  }\item[{Q\+Xml\+Stream\+Writer $\ast$}]{xml }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{classGameControllerXml_a2ea0df8c20f07dd3ee8fa765acd3bdcc_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=332pt]{classGameControllerXml_a2ea0df8c20f07dd3ee8fa765acd3bdcc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerXml_a930e9b49e3543488adfb92b4e82dd9ca}\label{classGameControllerXml_a930e9b49e3543488adfb92b4e82dd9ca}} 
+\index{GameControllerXml@{GameControllerXml}!writeXmlForSticks@{writeXmlForSticks}}
+\index{writeXmlForSticks@{writeXmlForSticks}!GameControllerXml@{GameControllerXml}}
+\doxysubsubsection{\texorpdfstring{writeXmlForSticks()}{writeXmlForSticks()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Xml\+::write\+Xml\+For\+Sticks (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$}]{temp\+Set,  }\item[{Q\+Xml\+Stream\+Writer $\ast$}]{xml }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerXml_a930e9b49e3543488adfb92b4e82dd9ca_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=332pt]{classGameControllerXml_a930e9b49e3543488adfb92b4e82dd9ca_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameControllerXml_a24aeb787738fab230de3d4dc80adee26}\label{classGameControllerXml_a24aeb787738fab230de3d4dc80adee26}} 
+\index{GameControllerXml@{GameControllerXml}!writeXmlForVDpad@{writeXmlForVDpad}}
+\index{writeXmlForVDpad@{writeXmlForVDpad}!GameControllerXml@{GameControllerXml}}
+\doxysubsubsection{\texorpdfstring{writeXmlForVDpad()}{writeXmlForVDpad()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Game\+Controller\+Xml\+::write\+Xml\+For\+V\+Dpad (\begin{DoxyParamCaption}\item[{Q\+Xml\+Stream\+Writer $\ast$}]{xml }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameControllerXml_a24aeb787738fab230de3d4dc80adee26_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=332pt]{classGameControllerXml_a24aeb787738fab230de3d4dc80adee26_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classGameControllerXml_aacb6016cd2bbd9c809ba86d20b587d85}\label{classGameControllerXml_aacb6016cd2bbd9c809ba86d20b587d85}} 
+\index{GameControllerXml@{GameControllerXml}!m\_gameController@{m\_gameController}}
+\index{m\_gameController@{m\_gameController}!GameControllerXml@{GameControllerXml}}
+\doxysubsubsection{\texorpdfstring{m\_gameController}{m\_gameController}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classGameController}{Game\+Controller}}$\ast$ Game\+Controller\+Xml\+::m\+\_\+game\+Controller\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/antimicrox/src/gamecontroller/xml/\mbox{\hyperlink{gamecontrollerxml_8h}{gamecontrollerxml.\+h}}\item 
+/home/pawel/antimicrox/src/gamecontroller/xml/\mbox{\hyperlink{gamecontrollerxml_8cpp}{gamecontrollerxml.\+cpp}}\end{DoxyCompactItemize}

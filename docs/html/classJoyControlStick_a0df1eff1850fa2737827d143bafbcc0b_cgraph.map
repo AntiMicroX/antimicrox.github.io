@@ -1,0 +1,6 @@
+<map id="JoyControlStick::determineFourWayCardinalEvent" name="JoyControlStick::determineFourWayCardinalEvent">
+<area shape="rect" id="node1" title="Determine which cardinal stick direction button should be active when using a four way cardinal stick..." alt="" coords="5,39,184,80"/>
+<area shape="rect" id="node2" href="$classJoyControlStick.html#a033cec8c362b923e61ec638645e7a80c" title="Calculate the bearing (in degrees) corresponding to the current position of the X and Y axes of a sti..." alt="" coords="232,5,407,47"/>
+<area shape="rect" id="node4" href="$classJoyControlStick.html#a6c28e2288006e90d9c81f4869f933b21" title=" " alt="" coords="236,71,403,112"/>
+<area shape="rect" id="node3" href="$classJoyAxis.html#a0580ab0df546a1c03b4e8f755ad00272" title=" " alt="" coords="455,13,651,39"/>
+</map>

@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['value_2928',['value',['../struct__SDL__JoystickAxisInfo.html#aaf6211438f1582105a16568d4ac535bf',1,'_SDL_JoystickAxisInfo']]],
+  ['vdpad_2929',['VDPad',['../classGlobalVariables_1_1VDPad.html',1,'GlobalVariables::VDPad'],['../classVDPad.html',1,'VDPad'],['../classVDPad.html#a482f602aacaf8b20d53b221b4a6aee94',1,'VDPad::VDPad(int index, int originset, SetJoystick *parentSet, QObject *parent)'],['../classVDPad.html#a4838575faa1434d3265bc60c85676e0b',1,'VDPad::VDPad(JoyButton *upButton, JoyButton *downButton, JoyButton *leftButton, JoyButton *rightButton, int index, int originset, SetJoystick *parentSet, QObject *parent)']]],
+  ['vdpad_2ecpp_2930',['vdpad.cpp',['../vdpad_8cpp.html',1,'']]],
+  ['vdpad_2eh_2931',['vdpad.h',['../vdpad_8h.html',1,'']]],
+  ['vdpadconfigurationchanged_2932',['vdpadConfigurationChanged',['../classAdvanceStickAssignmentDialog.html#a056d9362a16ac8aa497e30f6589f55e8',1,'AdvanceStickAssignmentDialog']]],
+  ['vdpadpassevent_2933',['vdpadPassEvent',['../classJoyButton.html#a9a7e651c64b30bf748ac14e0a03955ee',1,'JoyButton']]],
+  ['vdpads_2934',['vdpads',['../classSetJoystick.html#a49bc902075b34e697057b4d6610616c4',1,'SetJoystick']]],
+  ['version_2935',['Version',['../lgpl-2_81_8txt.html#a956344f548ba7529fd443d1bd393940b',1,'Version():&#160;lgpl-2.1.txt'],['../lgpl-3_80_8txt.html#a956344f548ba7529fd443d1bd393940b',1,'Version():&#160;lgpl-3.0.txt'],['../lgpl-2_81_8txt.html#a12136ab41a8aa67f0858137868a55106',1,'version():&#160;lgpl-2.1.txt']]],
+  ['version0006migration_2936',['version0006Migration',['../classXMLConfigMigration.html#a422d184461a5aeddae8214bbd9ac99f9',1,'XMLConfigMigration']]],
+  ['verticallayout_2937',['verticalLayout',['../classJoyTabWidget.html#aefc738b3d2e806ab8d4b4e546a0fd06b',1,'JoyTabWidget']]],
+  ['verticalspacer_5f2_2938',['verticalSpacer_2',['../classJoyTabWidget.html#a7bfdda9b8cd73326cb1faef67ba5ceb4',1,'JoyTabWidget']]],
+  ['verticalspacer_5f3_2939',['verticalSpacer_3',['../classJoyTabWidget.html#ae0628224b5bed8a334905556a7c17e9f',1,'JoyTabWidget']]],
+  ['virtkeytocharkeyinfo_2940',['virtkeyToCharKeyInfo',['../classQtKeyMapperBase.html#a95c383bfec8f3f957105be83b0b79085',1,'QtKeyMapperBase']]],
+  ['virtkeytoqtkeyhash_2941',['virtKeyToQtKeyHash',['../classQtKeyMapperBase.html#a13f4c09d6f55dc1a6396c227750f407e',1,'QtKeyMapperBase']]],
+  ['virtualkey_2942',['virtualkey',['../structQtKeyMapperBase_1_1__charKeyInformation.html#a28cfebb9510b2cafc07aba8d27c15634',1,'QtKeyMapperBase::_charKeyInformation']]],
+  ['virtualkeyboardmousewidget_2943',['VirtualKeyboardMouseWidget',['../classVirtualKeyboardMouseWidget.html',1,'VirtualKeyboardMouseWidget'],['../classVirtualKeyboardMouseWidget.html#a5117686d29ac16c0d1f947da9ba7b7a4',1,'VirtualKeyboardMouseWidget::VirtualKeyboardMouseWidget(InputDevice *joystick, ButtonEditDialogHelper *helper, bool isNumKeypad, QuickSetDialog *quickSetDialog=nullptr, JoyButton *button=nullptr, QWidget *parent=nullptr)'],['../classVirtualKeyboardMouseWidget.html#a4702f70a82aace8866b1005c2852051f',1,'VirtualKeyboardMouseWidget::VirtualKeyboardMouseWidget(bool isNumKeypad, QWidget *parent=nullptr)']]],
+  ['virtualkeyboardmousewidget_2ecpp_2944',['virtualkeyboardmousewidget.cpp',['../virtualkeyboardmousewidget_8cpp.html',1,'']]],
+  ['virtualkeyboardmousewidget_2eh_2945',['virtualkeyboardmousewidget.h',['../virtualkeyboardmousewidget_8h.html',1,'']]],
+  ['virtualkeypushbutton_2946',['VirtualKeyPushButton',['../classVirtualKeyPushButton.html',1,'VirtualKeyPushButton'],['../classVirtualKeyPushButton.html#a74da413e3983df7fe256e5950f97da7b',1,'VirtualKeyPushButton::VirtualKeyPushButton()']]],
+  ['virtualkeypushbutton_2ecpp_2947',['virtualkeypushbutton.cpp',['../virtualkeypushbutton_8cpp.html',1,'']]],
+  ['virtualkeypushbutton_2eh_2948',['virtualkeypushbutton.h',['../virtualkeypushbutton_8h.html',1,'']]],
+  ['virtualmousepushbutton_2949',['VirtualMousePushButton',['../classVirtualMousePushButton.html',1,'VirtualMousePushButton'],['../classVirtualMousePushButton.html#af2fb97fe4f04f89cc69abc3615c7c1ca',1,'VirtualMousePushButton::VirtualMousePushButton()']]],
+  ['virtualmousepushbutton_2ecpp_2950',['virtualmousepushbutton.cpp',['../virtualmousepushbutton_8cpp.html',1,'']]],
+  ['virtualmousepushbutton_2eh_2951',['virtualmousepushbutton.h',['../virtualmousepushbutton_8h.html',1,'']]],
+  ['void_2952',['void',['../lgpl-2_81_8txt.html#a3b083519fd2b41d83363afcfd5ebad9d',1,'lgpl-2.1.txt']]]
+];

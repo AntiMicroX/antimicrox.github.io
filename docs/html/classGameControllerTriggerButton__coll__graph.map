@@ -1,0 +1,24 @@
+<map id="GameControllerTriggerButton" name="GameControllerTriggerButton">
+<area shape="rect" id="node1" title=" " alt="" coords="60,124,251,151"/>
+<area shape="rect" id="node2" href="$classJoyAxisButton.html" title=" " alt="" coords="118,5,225,32"/>
+<area shape="rect" id="node10" href="$classJoyAxis.html" title=" " alt="" coords="276,124,345,151"/>
+<area shape="rect" id="node3" href="$classJoyGradientButton.html" title=" " alt="" coords="292,756,422,783"/>
+<area shape="rect" id="node13" href="$classJoyControlStickModifierButton.html" title=" " alt="" coords="31,875,230,901"/>
+<area shape="rect" id="node14" href="$classJoyControlStickButton.html" title=" " alt="" coords="254,875,407,901"/>
+<area shape="rect" id="node4" href="$classJoyButton.html" title=" " alt="" coords="818,667,899,693"/>
+<area shape="rect" id="node15" href="$classJoyButtonXml.html" title=" " alt="" coords="806,756,910,783"/>
+<area shape="rect" id="node22" href="$classJoyDPadButton.html" title=" " alt="" coords="668,756,782,783"/>
+<area shape="rect" id="node5" title=" " alt="" coords="787,5,858,32"/>
+<area shape="rect" id="node6" href="$classJoyButtonMouseHelper.html" title=" " alt="" coords="996,175,1155,201"/>
+<area shape="rect" id="node8" href="$classSetJoystickXml.html" title=" " alt="" coords="699,327,812,353"/>
+<area shape="rect" id="node9" href="$classJoyAxisXml.html" title=" " alt="" coords="518,225,610,252"/>
+<area shape="rect" id="node11" href="$classJoyControlStick.html" title=" " alt="" coords="142,756,257,783"/>
+<area shape="rect" id="node16" href="$classInputDevice.html" title=" " alt="" coords="578,327,670,353"/>
+<area shape="rect" id="node19" href="$classJoyButtonSlot.html" title=" " alt="" coords="868,276,972,303"/>
+<area shape="rect" id="node21" href="$classJoyDPad.html" title=" " alt="" coords="611,875,687,901"/>
+<area shape="rect" id="node7" href="$classSetJoystick.html" title=" " alt="" coords="560,577,650,604"/>
+<area shape="rect" id="node12" href="$classJoyStickDirectionsType.html" title=" " alt="" coords="110,667,270,693"/>
+<area shape="rect" id="node17" href="$classAntiMicroSettings.html" title=" " alt="" coords="634,225,760,252"/>
+<area shape="rect" id="node18" title=" " alt="" coords="657,124,737,151"/>
+<area shape="rect" id="node20" href="$classVDPad.html" title=" " alt="" coords="768,951,832,977"/>
+</map>

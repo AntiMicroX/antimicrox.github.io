@@ -1,0 +1,52 @@
+<map id="JoyButton::propertyUpdated" name="JoyButton::propertyUpdated">
+<area shape="rect" id="node1" title=" " alt="" coords="807,1329,993,1356"/>
+<area shape="rect" id="node2" href="$classJoyButton.html#a5f380246b40f29a3349500b8efc2f997" title="Copy assignments and properties from one button to another. Used for set copying." alt="" coords="547,83,741,109"/>
+<area shape="rect" id="node7" href="$classJoyButton.html#a75f988f8139e41d21581db6716afbf27" title=" " alt="" coords="543,227,745,269"/>
+<area shape="rect" id="node10" href="$classJoyButton.html#a08206c3d636852749ad6e1bb731de4fa" title=" " alt="" coords="549,381,739,422"/>
+<area shape="rect" id="node14" href="$classJoyAxisWidget.html#af03b84951f7731c7e4a773d66c6fe414" title=" " alt="" coords="265,535,471,561"/>
+<area shape="rect" id="node16" href="$classJoyButtonWidget.html#aeeb6cb187733cbf7c9f1c5a0fe8f7b34" title=" " alt="" coords="549,498,739,539"/>
+<area shape="rect" id="node17" href="$classJoyControlStickButtonPushButton.html#a5542b1bc905c0a35639b4731083852fa" title=" " alt="" coords="529,564,759,620"/>
+<area shape="rect" id="node18" href="$classJoyButton.html#a5d54d4e5143589a6d22f40dbba5b3cd0" title=" " alt="" coords="557,644,731,671"/>
+<area shape="rect" id="node20" href="$classJoyButton.html#a8c448fa3d079ea5bd1c5bb4effee45e5" title=" " alt="" coords="559,695,729,737"/>
+<area shape="rect" id="node21" href="$classJoyButton.html#a969806c0f13266a805d639097078303e" title=" " alt="" coords="555,761,733,788"/>
+<area shape="rect" id="node22" href="$classJoyControlStickButtonPushButton.html#a28f9f016a547897a32cd108d4864d91b" title=" " alt="" coords="553,813,735,854"/>
+<area shape="rect" id="node23" href="$classJoyButton.html#a5577eb227e3fd535fdcbbf395648e215" title=" " alt="" coords="554,879,734,905"/>
+<area shape="rect" id="node24" href="$classJoyDPadButton.html#a17abae87cce39aa7c8356f269ce2154b" title=" " alt="" coords="275,929,461,970"/>
+<area shape="rect" id="node25" href="$classJoyAxisButton.html#a739f27b3f9c6714869cade651c62aa00" title=" " alt="" coords="279,995,457,1037"/>
+<area shape="rect" id="node26" href="$classJoyControlStickButton.html#af18ce44fbabeb525ede1a777cbc67de2" title=" " alt="" coords="284,1063,452,1105"/>
+<area shape="rect" id="node27" href="$classJoyButton.html#a451a0eaac9ee0a8804107a8b8c6659d1" title=" " alt="" coords="255,1131,481,1157"/>
+<area shape="rect" id="node28" href="$classJoyButton.html#af7ffbb38754f3f898935e6cc975ebb6a" title=" " alt="" coords="531,1031,757,1057"/>
+<area shape="rect" id="node29" href="$classJoyButton.html#a725256449033a456c65eee07159f5cba" title=" " alt="" coords="557,1183,731,1225"/>
+<area shape="rect" id="node30" href="$classJoyButton.html#ae2cf7d7b14cd56c0cde9b2a573f49d05" title=" " alt="" coords="543,1249,745,1276"/>
+<area shape="rect" id="node31" href="$classJoyButton.html#afd7d3140abdc30b8f1572add36409919" title=" " alt="" coords="546,1300,742,1327"/>
+<area shape="rect" id="node32" href="$classJoyButton.html#a9c9b250fd48631ca1632a9ad8562c040" title=" " alt="" coords="539,1351,749,1393"/>
+<area shape="rect" id="node33" href="$classJoyButton.html#a4cfa85119a700d9d99fd19461bd952a1" title=" " alt="" coords="539,1417,749,1458"/>
+<area shape="rect" id="node34" href="$classJoyButton.html#aca69f26410f28982be9a6e952ec3c494" title=" " alt="" coords="539,1482,749,1523"/>
+<area shape="rect" id="node35" href="$classJoyButton.html#af266fab916c5aad7ff91413c0239340f" title=" " alt="" coords="533,1548,755,1575"/>
+<area shape="rect" id="node36" href="$classJoyButton.html#a89b6b5b57ffe55c871447466b37b5df6" title=" " alt="" coords="553,1599,735,1625"/>
+<area shape="rect" id="node37" href="$classJoyButton.html#a28224ca61d50adb1338643ae63bab3a3" title=" " alt="" coords="555,1649,733,1676"/>
+<area shape="rect" id="node38" href="$classJoyButton.html#aefd93c829a4c316a3b1e11dd8499f9ed" title=" " alt="" coords="548,1700,740,1727"/>
+<area shape="rect" id="node39" href="$classJoyButton.html#a89f7b0307899674a9d36ba8d2a56f95c" title=" " alt="" coords="548,1751,740,1777"/>
+<area shape="rect" id="node40" href="$classJoyButton.html#a79db0e0cc11d3a55497a51701f9abcd0" title=" " alt="" coords="560,1801,728,1828"/>
+<area shape="rect" id="node41" href="$classJoyButton.html#a835d1f839a755c87758d7cc67b933d9f" title=" " alt="" coords="557,1903,731,1945"/>
+<area shape="rect" id="node42" href="$classJoyButton.html#a05d1bf3c01aeaa6c28b207ae42740be5" title=" " alt="" coords="273,1874,463,1915"/>
+<area shape="rect" id="node43" href="$classJoyButton.html#a9def8a4e4664baa01f38f6c25bee5c59" title=" " alt="" coords="553,1969,735,1996"/>
+<area shape="rect" id="node44" href="$classJoyButton.html#a5adef3dd0e7043373b3cf67a24351532" title=" " alt="" coords="555,2020,733,2047"/>
+<area shape="rect" id="node45" href="$classJoyButton.html#a2fce9ef1fe8b843d32a01faced10e7e9" title=" " alt="" coords="559,2071,729,2113"/>
+<area shape="rect" id="node46" href="$classJoyButton.html#a3850d1fdd6cac80b3ca0c0b3d2bfe6a6" title=" " alt="" coords="571,2137,717,2164"/>
+<area shape="rect" id="node47" href="$classJoyButton.html#a42d517ef696229862b238c52c4ff345c" title=" " alt="" coords="553,2239,735,2265"/>
+<area shape="rect" id="node48" href="$classJoyButton.html#a0750530dac3901ece7c78c19d15e0d54" title=" " alt="" coords="286,2239,450,2265"/>
+<area shape="rect" id="node49" href="$classJoyButton.html#ad152d22f7f7d8ea561f363d43903e059" title=" " alt="" coords="569,2289,719,2316"/>
+<area shape="rect" id="node50" href="$classJoyButton.html#a7f76ad6c68868cd464b66b5963689332" title=" " alt="" coords="553,2340,735,2367"/>
+<area shape="rect" id="node3" href="$classJoyControlStick.html#a57b418a495a22ea5182e89ef4a6cf233" title="Copy slots from all stick buttons and properties from a stick onto another." alt="" coords="255,32,481,59"/>
+<area shape="rect" id="node4" href="$classSetJoystick.html#a36b0da099fef84270b6cc7c76741e689" title=" " alt="" coords="5,57,207,84"/>
+<area shape="rect" id="node5" href="$classJoyDPad.html#ad7787a985beddc065f2818df29fd5b77" title=" " alt="" coords="274,83,462,109"/>
+<area shape="rect" id="node6" href="$classJoyAxis.html#a854637def50e6ef091c87ee78e7dbb58" title=" " alt="" coords="277,133,459,160"/>
+<area shape="rect" id="node8" href="$classJoyTabWidget.html#aa0dbd4380f021acc39af89f4bfe064e7" title=" " alt="" coords="258,184,478,211"/>
+<area shape="rect" id="node9" href="$classJoyButton.html#a0d10908f5a06ca73366ca988d985933b" title=" " alt="" coords="284,235,452,261"/>
+<area shape="rect" id="node11" href="$classJoyTabWidget.html#a02c71b1d40a6b60dd5aff9b2bbbf210a" title=" " alt="" coords="273,417,463,444"/>
+<area shape="rect" id="node12" href="$classDPadPushButtonGroup.html#ad1df6bca89fd9b715a063a0f3a817792" title=" " alt="" coords="289,469,447,510"/>
+<area shape="rect" id="node13" href="$classStickPushButtonGroup.html#a056e9f27f67795a752ce67be2f3ebf56" title=" " alt="" coords="291,286,445,327"/>
+<area shape="rect" id="node15" href="$classJoyControlStickEditDialog.html#a2baa35c50ff7528a03ec6f2ba1ed657d" title=" " alt="" coords="277,351,459,393"/>
+<area shape="rect" id="node19" href="$classJoyAxis.html#a8df3e761cbf9876ab5a3db30c1a02fc3" title=" " alt="" coords="284,644,452,671"/>
+</map>

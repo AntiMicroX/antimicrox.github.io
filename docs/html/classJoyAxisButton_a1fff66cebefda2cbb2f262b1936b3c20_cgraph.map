@@ -1,0 +1,4 @@
+<map id="JoyAxisButton::setTurboMode" name="JoyAxisButton::setTurboMode">
+<area shape="rect" id="node1" title="Set the turbo mode that the button should use." alt="" coords="5,5,204,32"/>
+<area shape="rect" id="node2" href="$classJoyAxisButton.html#a2a5db00f1ca54f97230e25be2e13ab3a" title="Check if button should be considered a part of a real controller axis. Needed for some dialogs so the..." alt="" coords="252,5,455,32"/>
+</map>

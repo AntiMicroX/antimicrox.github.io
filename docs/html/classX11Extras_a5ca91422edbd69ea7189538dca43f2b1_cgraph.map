@@ -1,0 +1,7 @@
+<map id="X11Extras::getApplicationPid" name="X11Extras::getApplicationPid">
+<area shape="rect" id="node1" title="Check window and any parents for the window property &quot;_NET_WM_PID&quot;." alt="" coords="5,71,197,98"/>
+<area shape="rect" id="node2" href="$classX11Extras.html#a9affa85055348376e96413c5c526947d" title=" " alt="" coords="262,5,438,47"/>
+<area shape="rect" id="node3" href="$classX11Extras.html#a643c95dc1de8eb073a0accb41619fe83" title="Get display instance." alt="" coords="503,71,635,98"/>
+<area shape="rect" id="node4" href="$classX11Extras.html#a44556cc9630d8685f1978b258c40679d" title=" " alt="" coords="245,122,455,149"/>
+<area shape="rect" id="node5" href="$x11extras_8cpp.html#abd96e3a47ad21173e08bc83e90a98fda" title=" " alt="" coords="523,122,614,149"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="DPadContextMenu::generateActionPreset" name="DPadContextMenu::generateActionPreset">
+<area shape="rect" id="node1" title=" " alt="" coords="784,5,975,47"/>
+<area shape="rect" id="node2" href="$classDPadContextMenu.html#abb058d792c1ba0c3c74cb849b4390b62" title="Generate the context menu that will be shown to a user when the person right clicks on the DPad setti..." alt="" coords="536,13,736,39"/>
+<area shape="rect" id="node3" href="$classDPadPushButton.html#ac4bf738d749acdff3e9c2b74fe2ea6dd" title=" " alt="" coords="248,13,488,39"/>
+<area shape="rect" id="node4" href="$classDPadPushButton.html#a8cfc7a74ee5086c8a6d5f887329946c6" title=" " alt="" coords="5,5,200,47"/>
+</map>

@@ -1,0 +1,2122 @@
+\hypertarget{classJoyAxis}{}\doxysection{Joy\+Axis Class Reference}
+\label{classJoyAxis}\index{JoyAxis@{JoyAxis}}
+
+
+{\ttfamily \#include $<$joyaxis.\+h$>$}
+
+
+
+Inheritance diagram for Joy\+Axis\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=194pt]{classJoyAxis__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Joy\+Axis\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{classJoyAxis_a7e459c55c342481732d5c63301c5080d}{Throttle\+Types}} \{ \newline
+\mbox{\hyperlink{classJoyAxis_a7e459c55c342481732d5c63301c5080da3ae61b4f8d444aa4201d7a252956701d}{Negative\+Half\+Throttle}} = -\/2, 
+\mbox{\hyperlink{classJoyAxis_a7e459c55c342481732d5c63301c5080da26896e016df8ece463207b00885cc712}{Negative\+Throttle}} = -\/1, 
+\mbox{\hyperlink{classJoyAxis_a7e459c55c342481732d5c63301c5080da5e55c6ee7d428101ccbb02d96c06132b}{Normal\+Throttle}} = 0, 
+\mbox{\hyperlink{classJoyAxis_a7e459c55c342481732d5c63301c5080da59efda1dce8c10082c62d91e5fa4ef6f}{Positive\+Throttle}} = 1, 
+\newline
+\mbox{\hyperlink{classJoyAxis_a7e459c55c342481732d5c63301c5080da249834f35076ca21376e84f1bdf592a8}{Positive\+Half\+Throttle}} = 2
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a9e0633e04b88d2eecb10c8cf9599a86e}{reset}} ()
+\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a62d21dc1238df0c8e221365a434efe50}{reset}} (int index)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_aedaf52e633241269baa64317398bd897}{propogate\+Throttle\+Change}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a368b17910df9a49089bd6f46cab2ff1c}{set\+Dead\+Zone}} (int value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_ad57d8fa2942d408ed534a348962ae72c}{set\+Max\+Zone\+Value}} (int value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a8c5bca0c70e1cb6dffc4bfdbbfc5b8ee}{set\+Axis\+Name}} (Q\+String temp\+Name)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a3f34e190dc6817fc6eca428c2118a3da}{set\+Buttons\+Spring\+Relative\+Status}} (bool value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a5ab74d320efaec601fc1129d5766e60e}{set\+Buttons\+Easing\+Duration}} (double value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_ac5ff6fa9b248c890b805cca11a7c9cd5}{establish\+Property\+Updated\+Connection}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_adfc4d225aa1dbd3408d22ab20ad72ba3}{disconnect\+Property\+Updated\+Connection}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_abc686c5ea33ed35e474c75348fda188f}{active}} (int value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a04fec447c55c30473f7206458e04dca6}{released}} (int value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_adcf6e9d9da196bd689b2bfda7cd09ab0}{moved}} (int value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a7f45ebe537eb06602a10616bbede5734}{throttle\+Change\+Propogated}} (int index)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_aa4a59be160684251db79afe32d9aa3f0}{throttle\+Changed}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_ab314eee8cf0f42a5ec4f4114dc5009f0}{axis\+Name\+Changed}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a6ef384b558f88cd5a2b478ffdad409bf}{property\+Updated}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classJoyAxis_a6123cf3edbb03ad45f114c333cdfd5f4}{Joy\+Axis}} (int index, int originset, \mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$parent\+Set, Q\+Object $\ast$parent)
+\item 
+\mbox{\hyperlink{classJoyAxis_a3e8aa5f4ba3afb8959ddd2d153a5fff1}{$\sim$\+Joy\+Axis}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a9c5f69db8b88f31a1df043a00ab9d09a}{joy\+Event}} (int value, bool ignoresets=false, bool update\+Last\+Values=true)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_ac060a3703ce33d35256e66aaa60b930b}{queue\+Pending\+Event}} (int value, bool ignoresets=false, bool update\+Last\+Values=true)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a6db16ad8451e2f2b09215385d5371151}{activate\+Pending\+Event}} ()
+\item 
+bool \mbox{\hyperlink{classJoyAxis_a25bb39da433882082512abb86f193950}{has\+Pending\+Event}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a0d9bf261c1ed60e5ed7846e8871d4c81}{clear\+Pending\+Event}} ()
+\item 
+bool \mbox{\hyperlink{classJoyAxis_aec8483db205a707cece118ea48cd7072}{in\+Dead\+Zone}} (int value)
+\item 
+virtual Q\+String \mbox{\hyperlink{classJoyAxis_a955d16488b3807bd9d34e88e5df05cd2}{get\+Name}} (bool force\+Full\+Format=false, bool display\+Names=false)
+\item 
+virtual Q\+String \mbox{\hyperlink{classJoyAxis_a96710fb06ec9e989cd71ffce4ee7ca57}{get\+Partial\+Name}} (bool force\+Full\+Format=false, bool display\+Names=false)
+\item 
+virtual Q\+String \mbox{\hyperlink{classJoyAxis_a04c3b7b172ad46013382e36ad7b65691}{get\+Xml\+Name}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a165a62d8a472910452663a2619fd84d2}{set\+Index}} (int index)
+\item 
+int \mbox{\hyperlink{classJoyAxis_afddf7399e2086fda738fe588f5e7d7cd}{get\+Index}} ()
+\item 
+int \mbox{\hyperlink{classJoyAxis_a9ceda991c13da3a99868acc436ed20f3}{get\+Real\+Joy\+Index}} ()
+\item 
+\mbox{\hyperlink{classJoyAxisButton}{Joy\+Axis\+Button}} $\ast$ \mbox{\hyperlink{classJoyAxis_ad51d55d2a95190468209f7481eae8639}{get\+P\+Axis\+Button}} ()
+\item 
+\mbox{\hyperlink{classJoyAxisButton}{Joy\+Axis\+Button}} $\ast$ \mbox{\hyperlink{classJoyAxis_aae658e2a7b83ce73ce3d7d1ed13eabc6}{get\+N\+Axis\+Button}} ()
+\item 
+int \mbox{\hyperlink{classJoyAxis_aed3d513f19658dbe4a20b3df9858c3fe}{get\+Dead\+Zone}} ()
+\item 
+int \mbox{\hyperlink{classJoyAxis_aa083ec407f4510348833e3a7f5964892}{get\+Max\+Zone\+Value}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_aa4be4a311b6656e63eacfdde5ce6861a}{set\+Throttle}} (int value)
+\begin{DoxyCompactList}\small\item\em Set throttle value for axis. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a38eb99eb11dced53e58c8dc1d92f63bb}{set\+Initial\+Throttle}} (int value)
+\begin{DoxyCompactList}\small\item\em Set the initial calibrated throttle based on the first event passed by S\+DL. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a91976d2688346e4270237afb57462dcf}{update\+Current\+Throttled\+Value}} (int new\+Value)
+\item 
+int \mbox{\hyperlink{classJoyAxis_a01dfb4ec2c2e85304a479f21b9cffe49}{get\+Throttle}} ()
+\item 
+int \mbox{\hyperlink{classJoyAxis_a008d02f0aad335db5600137bdad725bf}{get\+Current\+Throttled\+Value}} ()
+\item 
+int \mbox{\hyperlink{classJoyAxis_a0580ab0df546a1c03b4e8f755ad00272}{get\+Current\+Raw\+Value}} ()
+\item 
+int \mbox{\hyperlink{classJoyAxis_a04bb9e15b6c99f5e5559b1804eac74c8}{get\+Current\+Throttled\+Dead\+Value}} ()
+\item 
+int \mbox{\hyperlink{classJoyAxis_a26e2606a8916cfd5fe8f4fc15c7dc886}{get\+Currently\+Assigned\+Set}} ()
+\item 
+\mbox{\hyperlink{classJoyAxisButton}{Joy\+Axis\+Button}} $\ast$ \mbox{\hyperlink{classJoyAxis_a9a4983bcdfce9620851a33d9a69343fa}{get\+Axis\+Button\+By\+Value}} (int value)
+\item 
+double \mbox{\hyperlink{classJoyAxis_ae168fbb214a184fcb41a6ab6b27e8f4e}{get\+Distance\+From\+Dead\+Zone}} ()
+\item 
+double \mbox{\hyperlink{classJoyAxis_a8551187dd68b7b43773fbc90be47c075}{get\+Distance\+From\+Dead\+Zone}} (int value)
+\item 
+double \mbox{\hyperlink{classJoyAxis_af8a07986f0254ba66021537e07c1ad4f}{get\+Raw\+Distance}} (int value)
+\begin{DoxyCompactList}\small\item\em Get the current value for an axis in either direction converted to the range of -\/1.\+0 to 1.\+0. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_ac51525cabe4d0ea5aafebe949cde458f}{set\+Control\+Stick}} (\mbox{\hyperlink{classJoyControlStick}{Joy\+Control\+Stick}} $\ast$stick)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_aa013bcc6b2391c594f043f8fe0f9b1f2}{remove\+Control\+Stick}} (bool perform\+Release=true)
+\item 
+bool \mbox{\hyperlink{classJoyAxis_a0dde339f2f10bba167eb811d8f166b48}{is\+Part\+Control\+Stick}} ()
+\item 
+\mbox{\hyperlink{classJoyControlStick}{Joy\+Control\+Stick}} $\ast$ \mbox{\hyperlink{classJoyAxis_aab45765fe830d471bcc8f79a1637625b}{get\+Control\+Stick}} ()
+\item 
+bool \mbox{\hyperlink{classJoyAxis_ade3f676e79979cc6ccf6761692222fa1}{has\+Control\+Of\+Buttons}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a8df3e761cbf9876ab5a3db30c1a02fc3}{remove\+V\+D\+Pads}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a1d88b64f64042f2b6f3ceccf07a6a8fa}{set\+Buttons\+Mouse\+Mode}} (\mbox{\hyperlink{classJoyButton_a446f2d6cbca378687cf8babb3028b427}{Joy\+Button\+::\+Joy\+Mouse\+Movement\+Mode}} mode)
+\item 
+bool \mbox{\hyperlink{classJoyAxis_a58a670328abc2da48f29b24781f4c6e4}{has\+Same\+Buttons\+Mouse\+Mode}} ()
+\item 
+\mbox{\hyperlink{classJoyButton_a446f2d6cbca378687cf8babb3028b427}{Joy\+Button\+::\+Joy\+Mouse\+Movement\+Mode}} \mbox{\hyperlink{classJoyAxis_aa5476524f6367d414b5b703962bcb27a}{get\+Buttons\+Preset\+Mouse\+Mode}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a315180f565380b300761891abcc61932}{set\+Buttons\+Mouse\+Curve}} (\mbox{\hyperlink{classJoyButton_a82158c2f018dfe990a82d273baf3a838}{Joy\+Button\+::\+Joy\+Mouse\+Curve}} mouse\+Curve)
+\item 
+bool \mbox{\hyperlink{classJoyAxis_a359044a1fd7a3909cee8d87f02d4453f}{has\+Same\+Buttons\+Mouse\+Curve}} ()
+\item 
+\mbox{\hyperlink{classJoyButton_a82158c2f018dfe990a82d273baf3a838}{Joy\+Button\+::\+Joy\+Mouse\+Curve}} \mbox{\hyperlink{classJoyAxis_a3bde4162e0a945278df1bee28c832dde}{get\+Buttons\+Preset\+Mouse\+Curve}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a49f70f585de01ea1fd7230da452ce30b}{set\+Buttons\+Spring\+Width}} (int value)
+\item 
+int \mbox{\hyperlink{classJoyAxis_ad05f889312a786e37b23deebbd99a56a}{get\+Buttons\+Preset\+Spring\+Width}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_ada8cd7758cc5f1312ae935c16562cd50}{set\+Buttons\+Spring\+Height}} (int value)
+\item 
+int \mbox{\hyperlink{classJoyAxis_ac390a678ef368dbe7bcd245c6ec757af}{get\+Buttons\+Preset\+Spring\+Height}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a99172341327cdb8878068498eaa9159f}{set\+Buttons\+Sensitivity}} (double value)
+\item 
+double \mbox{\hyperlink{classJoyAxis_a188bb4d46a6421333076be71efbcc3aa}{get\+Buttons\+Preset\+Sensitivity}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_ab145a2d884c3a8fb5c4dffaa1e8d95f0}{set\+Buttons\+Wheel\+SpeedX}} (int value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a429c4d81ef067652a91e1fe1d19b3e89}{set\+Buttons\+Wheel\+SpeedY}} (int value)
+\item 
+double \mbox{\hyperlink{classJoyAxis_a6a79fed2fb23ec6e81c94624d97ca76f}{get\+Buttons\+Easing\+Duration}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a61fe6ae50c84ef21acffdfd6fa5072cf}{set\+Axis\+Min\+Cal}} (int value)
+\item 
+int \mbox{\hyperlink{classJoyAxis_aff06f563278beb621285f65fb33b784a}{get\+Axis\+Min\+Cal}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_aab753bd485ff29063c90d37bdbd79328}{set\+Axis\+Max\+Cal}} (int value)
+\item 
+int \mbox{\hyperlink{classJoyAxis_af3f311fbf20c583224c2320d1fda0226}{get\+Axis\+Max\+Cal}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a084d8b9cc9e5142d58c24a14a86609bc}{set\+Axis\+Center\+Cal}} (int value)
+\item 
+int \mbox{\hyperlink{classJoyAxis_a26589df69d77c57cf8721c1739fa0a11}{get\+Axis\+Center\+Cal}} ()
+\item 
+virtual Q\+String \mbox{\hyperlink{classJoyAxis_a675c04d973a962ce30491b390d17ee20}{get\+Axis\+Name}} ()
+\item 
+virtual int \mbox{\hyperlink{classJoyAxis_a8552b6736231d1611c8809602e189d68}{get\+Default\+Dead\+Zone}} ()
+\item 
+virtual int \mbox{\hyperlink{classJoyAxis_a61149f5541d5dc820ae2a04a6ca9af68}{get\+Default\+Max\+Zone}} ()
+\item 
+virtual \mbox{\hyperlink{classJoyAxis_a7e459c55c342481732d5c63301c5080d}{Throttle\+Types}} \mbox{\hyperlink{classJoyAxis_a4fe327d03fb5834f59271f404fbe4ba1}{get\+Default\+Throttle}} ()
+\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_aa39b67a2a1bc5eb7843b40c791764298}{set\+Default\+Axis\+Name}} (Q\+String tempname)
+\item 
+virtual Q\+String \mbox{\hyperlink{classJoyAxis_a313cf7c345d06a3804f6f4acdbfdd33e}{get\+Default\+Axis\+Name}} ()
+\item 
+\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$ \mbox{\hyperlink{classJoyAxis_a12c4147c5f4a320aee710f8753263aa6}{get\+Parent\+Set}} ()
+\item 
+virtual bool \mbox{\hyperlink{classJoyAxis_ad614a1d4afe02119dfbd787ee89be66e}{is\+Default}} ()
+\item 
+bool \mbox{\hyperlink{classJoyAxis_a48414a544c8ac8bb9523f8ead79158f7}{is\+Relative\+Spring}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a854637def50e6ef091c87ee78e7dbb58}{copy\+Assignments}} (\mbox{\hyperlink{classJoyAxis}{Joy\+Axis}} $\ast$dest\+Axis)
+\item 
+int \mbox{\hyperlink{classJoyAxis_a6ed704ce0c9da777cbb5c694a9ed2238}{get\+Last\+Known\+Throttle\+Value}} ()
+\item 
+int \mbox{\hyperlink{classJoyAxis_ac5fab6f5b5159f85843c97032f669c8b}{get\+Last\+Known\+Raw\+Value}} ()
+\item 
+int \mbox{\hyperlink{classJoyAxis_aa49646bc8774617f05a0b118707b0e38}{get\+Proper\+Release\+Value}} ()
+\begin{DoxyCompactList}\small\item\em Determine an appropriate release value for an axis depending on the current throttle setting being used. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_acb36ca26562c203a587fbb937f168200}{set\+Current\+Raw\+Value}} (int value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a7f68690368cbd2b4b8ca14bf845d7879}{copy\+Raw\+Values}} (\mbox{\hyperlink{classJoyAxis}{Joy\+Axis}} $\ast$src\+Axis)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a47423d14d0ab97a74e5fa8c53b3bed5e}{copy\+Throttled\+Values}} (\mbox{\hyperlink{classJoyAxis}{Joy\+Axis}} $\ast$src\+Axis)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a92b0f661ec36b01a058fc290907d27b5}{set\+Extra\+Acceleration\+Curve}} (\mbox{\hyperlink{classJoyButton_a81cd310753932a72e3a377ba64f13e40}{Joy\+Button\+::\+Joy\+Extra\+Acceleration\+Curve}} curve)
+\item 
+\mbox{\hyperlink{classJoyButton_a81cd310753932a72e3a377ba64f13e40}{Joy\+Button\+::\+Joy\+Extra\+Acceleration\+Curve}} \mbox{\hyperlink{classJoyAxis_a314e7d5c998c307458aa36039d6f3155}{get\+Extra\+Acceleration\+Curve}} ()
+\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_afdab5ac18d52b640d58355ca48b69e09}{event\+Reset}} ()
+\item 
+int \mbox{\hyperlink{classJoyAxis_a06d99d722b314998440165a01b0f87b3}{calculate\+Throttled\+Value}} (int value)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static const \mbox{\hyperlink{classJoyAxis_a7e459c55c342481732d5c63301c5080d}{Throttle\+Types}} \mbox{\hyperlink{classJoyAxis_acc94d25bde6aff4694619141b5a2929c}{D\+E\+F\+A\+U\+L\+T\+T\+H\+R\+O\+T\+T\+LE}} = \mbox{\hyperlink{classJoyAxis_a7e459c55c342481732d5c63301c5080da5e55c6ee7d428101ccbb02d96c06132b}{Joy\+Axis\+::\+Normal\+Throttle}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a0e85739f3da15defbb1ad9ffb7def2d9}{create\+Desk\+Event}} (bool ignoresets=false)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a211c80f9aa20fa22c8f91a5cdcb0831a}{adjust\+Range}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_a365e03ea3bbfc5c099fe04dedc4d0ad7}{perform\+Calibration}} (int value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_aeceeef14f2a92dad67aed5d07b2669d0}{stick\+Pass\+Event}} (int value, bool ignoresets=false, bool update\+Last\+Values=true)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classJoyAxisButton}{Joy\+Axis\+Button}} $\ast$ \mbox{\hyperlink{classJoyAxis_a75651326e730a6e1eebc58fa1cb26e44}{paxisbutton}}
+\item 
+\mbox{\hyperlink{classJoyAxisButton}{Joy\+Axis\+Button}} $\ast$ \mbox{\hyperlink{classJoyAxis_aff6406ca0181ce04ab0e6cd50da2905f}{naxisbutton}}
+\item 
+Q\+String \mbox{\hyperlink{classJoyAxis_ad3a2f5ed8f17dbe2a3b15df747c3a085}{axis\+Name}}
+\item 
+Q\+String \mbox{\hyperlink{classJoyAxis_a6b07cc45a606a3046e3fb3a15e80c423}{default\+Axis\+Name}}
+\item 
+int \mbox{\hyperlink{classJoyAxis_afad9925c0bc7b762d38410dc02b69476}{throttle}}
+\item 
+int \mbox{\hyperlink{classJoyAxis_a699d8c4e7462fec79ca02868098bd42d}{dead\+Zone}}
+\item 
+int \mbox{\hyperlink{classJoyAxis_adb319713b28c42b98b9d7b51c9ba3020}{max\+Zone\+Value}}
+\item 
+int \mbox{\hyperlink{classJoyAxis_a34d37c530ba561af336aebca2e1bacd4}{current\+Raw\+Value}}
+\item 
+int \mbox{\hyperlink{classJoyAxis_a08e038cd8cea4ea4c29e237f207ae440}{current\+Throttled\+Value}}
+\item 
+int \mbox{\hyperlink{classJoyAxis_a30a603e069ccdeb1604494f272d5db78}{current\+Throttled\+Dead\+Value}}
+\item 
+int \mbox{\hyperlink{classJoyAxis_a42487ce8dae77e6fa0b7b5e0c12a09df}{m\+\_\+index}}
+\item 
+int \mbox{\hyperlink{classJoyAxis_a455242245c612ebfe0053f7265be01fb}{axis\+\_\+center\+\_\+cal}}
+\item 
+int \mbox{\hyperlink{classJoyAxis_a3287e2abd170616a68a79e04c23c9602}{axis\+\_\+min\+\_\+cal}}
+\item 
+int \mbox{\hyperlink{classJoyAxis_a790820c50c382a0d08bb51cda87fe86f}{axis\+\_\+max\+\_\+cal}}
+\item 
+int \mbox{\hyperlink{classJoyAxis_aa094260ac81cf39d06effeff6c87fd84}{last\+Known\+Thottled\+Value}}
+\item 
+int \mbox{\hyperlink{classJoyAxis_a7bbc1b9840389c20fedb6cca86dcfb0b}{last\+Known\+Raw\+Value}}
+\item 
+int \mbox{\hyperlink{classJoyAxis_a3ff48472228926375b8bdb9211fbe779}{pending\+Value}}
+\item 
+bool \mbox{\hyperlink{classJoyAxis_a9987aa4202245b3fc7d6f4b9cc064301}{is\+Active}}
+\item 
+bool \mbox{\hyperlink{classJoyAxis_a5522f91c7b1be37d812cd8580adab540}{pending\+Event}}
+\item 
+bool \mbox{\hyperlink{classJoyAxis_a76a0895c81355b22f5769027cf36a859}{pending\+Ignore\+Sets}}
+\item 
+bool \mbox{\hyperlink{classJoyAxis_ac6349b49917259b8422ec7cbe14bd971}{event\+Active}}
+\item 
+\mbox{\hyperlink{classJoyAxisButton}{Joy\+Axis\+Button}} $\ast$ \mbox{\hyperlink{classJoyAxis_a3675e7209f766abefc73b0152f4bc6a2}{active\+Button}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classJoyAxis_afce1f31390f589a417e9c70f47bd7187}{reset\+Private\+Vars}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classJoyAxis_a7bdccea13ae30c0c64dd645a30ee069e}{m\+\_\+originset}}
+\item 
+\mbox{\hyperlink{classJoyControlStick}{Joy\+Control\+Stick}} $\ast$ \mbox{\hyperlink{classJoyAxis_a827890886194525662ee5d85f4c48cb1}{m\+\_\+stick}}
+\item 
+\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$ \mbox{\hyperlink{classJoyAxis_a1da916c7cd605158eabf9c79cf10843e}{m\+\_\+parent\+Set}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{classJoyAxis_a7e459c55c342481732d5c63301c5080d}\label{classJoyAxis_a7e459c55c342481732d5c63301c5080d}} 
+\index{JoyAxis@{JoyAxis}!ThrottleTypes@{ThrottleTypes}}
+\index{ThrottleTypes@{ThrottleTypes}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{ThrottleTypes}{ThrottleTypes}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{classJoyAxis_a7e459c55c342481732d5c63301c5080d}{Joy\+Axis\+::\+Throttle\+Types}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{NegativeHalfThrottle@{NegativeHalfThrottle}!JoyAxis@{JoyAxis}}\index{JoyAxis@{JoyAxis}!NegativeHalfThrottle@{NegativeHalfThrottle}}}\mbox{\Hypertarget{classJoyAxis_a7e459c55c342481732d5c63301c5080da3ae61b4f8d444aa4201d7a252956701d}\label{classJoyAxis_a7e459c55c342481732d5c63301c5080da3ae61b4f8d444aa4201d7a252956701d}} 
+Negative\+Half\+Throttle&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{NegativeThrottle@{NegativeThrottle}!JoyAxis@{JoyAxis}}\index{JoyAxis@{JoyAxis}!NegativeThrottle@{NegativeThrottle}}}\mbox{\Hypertarget{classJoyAxis_a7e459c55c342481732d5c63301c5080da26896e016df8ece463207b00885cc712}\label{classJoyAxis_a7e459c55c342481732d5c63301c5080da26896e016df8ece463207b00885cc712}} 
+Negative\+Throttle&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{NormalThrottle@{NormalThrottle}!JoyAxis@{JoyAxis}}\index{JoyAxis@{JoyAxis}!NormalThrottle@{NormalThrottle}}}\mbox{\Hypertarget{classJoyAxis_a7e459c55c342481732d5c63301c5080da5e55c6ee7d428101ccbb02d96c06132b}\label{classJoyAxis_a7e459c55c342481732d5c63301c5080da5e55c6ee7d428101ccbb02d96c06132b}} 
+Normal\+Throttle&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PositiveThrottle@{PositiveThrottle}!JoyAxis@{JoyAxis}}\index{JoyAxis@{JoyAxis}!PositiveThrottle@{PositiveThrottle}}}\mbox{\Hypertarget{classJoyAxis_a7e459c55c342481732d5c63301c5080da59efda1dce8c10082c62d91e5fa4ef6f}\label{classJoyAxis_a7e459c55c342481732d5c63301c5080da59efda1dce8c10082c62d91e5fa4ef6f}} 
+Positive\+Throttle&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PositiveHalfThrottle@{PositiveHalfThrottle}!JoyAxis@{JoyAxis}}\index{JoyAxis@{JoyAxis}!PositiveHalfThrottle@{PositiveHalfThrottle}}}\mbox{\Hypertarget{classJoyAxis_a7e459c55c342481732d5c63301c5080da249834f35076ca21376e84f1bdf592a8}\label{classJoyAxis_a7e459c55c342481732d5c63301c5080da249834f35076ca21376e84f1bdf592a8}} 
+Positive\+Half\+Throttle&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classJoyAxis_a6123cf3edbb03ad45f114c333cdfd5f4}\label{classJoyAxis_a6123cf3edbb03ad45f114c333cdfd5f4}} 
+\index{JoyAxis@{JoyAxis}!JoyAxis@{JoyAxis}}
+\index{JoyAxis@{JoyAxis}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{JoyAxis()}{JoyAxis()}}
+{\footnotesize\ttfamily Joy\+Axis\+::\+Joy\+Axis (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{int}]{originset,  }\item[{\mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$}]{parent\+Set,  }\item[{Q\+Object $\ast$}]{parent }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a6123cf3edbb03ad45f114c333cdfd5f4_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a3e8aa5f4ba3afb8959ddd2d153a5fff1}\label{classJoyAxis_a3e8aa5f4ba3afb8959ddd2d153a5fff1}} 
+\index{JoyAxis@{JoyAxis}!````~JoyAxis@{$\sim$JoyAxis}}
+\index{````~JoyAxis@{$\sim$JoyAxis}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{$\sim$JoyAxis()}{~JoyAxis()}}
+{\footnotesize\ttfamily Joy\+Axis\+::$\sim$\+Joy\+Axis (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a3e8aa5f4ba3afb8959ddd2d153a5fff1_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classJoyAxis_a6db16ad8451e2f2b09215385d5371151}\label{classJoyAxis_a6db16ad8451e2f2b09215385d5371151}} 
+\index{JoyAxis@{JoyAxis}!activatePendingEvent@{activatePendingEvent}}
+\index{activatePendingEvent@{activatePendingEvent}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{activatePendingEvent()}{activatePendingEvent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::activate\+Pending\+Event (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a6db16ad8451e2f2b09215385d5371151_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a6db16ad8451e2f2b09215385d5371151_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_abc686c5ea33ed35e474c75348fda188f}\label{classJoyAxis_abc686c5ea33ed35e474c75348fda188f}} 
+\index{JoyAxis@{JoyAxis}!active@{active}}
+\index{active@{active}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{active}{active}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::active (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_abc686c5ea33ed35e474c75348fda188f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a211c80f9aa20fa22c8f91a5cdcb0831a}\label{classJoyAxis_a211c80f9aa20fa22c8f91a5cdcb0831a}} 
+\index{JoyAxis@{JoyAxis}!adjustRange@{adjustRange}}
+\index{adjustRange@{adjustRange}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{adjustRange()}{adjustRange()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::adjust\+Range (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a211c80f9aa20fa22c8f91a5cdcb0831a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a211c80f9aa20fa22c8f91a5cdcb0831a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_ab314eee8cf0f42a5ec4f4114dc5009f0}\label{classJoyAxis_ab314eee8cf0f42a5ec4f4114dc5009f0}} 
+\index{JoyAxis@{JoyAxis}!axisNameChanged@{axisNameChanged}}
+\index{axisNameChanged@{axisNameChanged}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{axisNameChanged}{axisNameChanged}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::axis\+Name\+Changed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_ab314eee8cf0f42a5ec4f4114dc5009f0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a06d99d722b314998440165a01b0f87b3}\label{classJoyAxis_a06d99d722b314998440165a01b0f87b3}} 
+\index{JoyAxis@{JoyAxis}!calculateThrottledValue@{calculateThrottledValue}}
+\index{calculateThrottledValue@{calculateThrottledValue}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{calculateThrottledValue()}{calculateThrottledValue()}}
+{\footnotesize\ttfamily int Joy\+Axis\+::calculate\+Throttled\+Value (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a06d99d722b314998440165a01b0f87b3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a06d99d722b314998440165a01b0f87b3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a0d9bf261c1ed60e5ed7846e8871d4c81}\label{classJoyAxis_a0d9bf261c1ed60e5ed7846e8871d4c81}} 
+\index{JoyAxis@{JoyAxis}!clearPendingEvent@{clearPendingEvent}}
+\index{clearPendingEvent@{clearPendingEvent}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{clearPendingEvent()}{clearPendingEvent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::clear\+Pending\+Event (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a0d9bf261c1ed60e5ed7846e8871d4c81_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a854637def50e6ef091c87ee78e7dbb58}\label{classJoyAxis_a854637def50e6ef091c87ee78e7dbb58}} 
+\index{JoyAxis@{JoyAxis}!copyAssignments@{copyAssignments}}
+\index{copyAssignments@{copyAssignments}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{copyAssignments()}{copyAssignments()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::copy\+Assignments (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyAxis}{Joy\+Axis}} $\ast$}]{dest\+Axis }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a854637def50e6ef091c87ee78e7dbb58_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a854637def50e6ef091c87ee78e7dbb58_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a7f68690368cbd2b4b8ca14bf845d7879}\label{classJoyAxis_a7f68690368cbd2b4b8ca14bf845d7879}} 
+\index{JoyAxis@{JoyAxis}!copyRawValues@{copyRawValues}}
+\index{copyRawValues@{copyRawValues}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{copyRawValues()}{copyRawValues()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::copy\+Raw\+Values (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyAxis}{Joy\+Axis}} $\ast$}]{src\+Axis }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a7f68690368cbd2b4b8ca14bf845d7879_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a47423d14d0ab97a74e5fa8c53b3bed5e}\label{classJoyAxis_a47423d14d0ab97a74e5fa8c53b3bed5e}} 
+\index{JoyAxis@{JoyAxis}!copyThrottledValues@{copyThrottledValues}}
+\index{copyThrottledValues@{copyThrottledValues}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{copyThrottledValues()}{copyThrottledValues()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::copy\+Throttled\+Values (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyAxis}{Joy\+Axis}} $\ast$}]{src\+Axis }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a47423d14d0ab97a74e5fa8c53b3bed5e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a0e85739f3da15defbb1ad9ffb7def2d9}\label{classJoyAxis_a0e85739f3da15defbb1ad9ffb7def2d9}} 
+\index{JoyAxis@{JoyAxis}!createDeskEvent@{createDeskEvent}}
+\index{createDeskEvent@{createDeskEvent}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{createDeskEvent()}{createDeskEvent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::create\+Desk\+Event (\begin{DoxyParamCaption}\item[{bool}]{ignoresets = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a0e85739f3da15defbb1ad9ffb7def2d9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a0e85739f3da15defbb1ad9ffb7def2d9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_adfc4d225aa1dbd3408d22ab20ad72ba3}\label{classJoyAxis_adfc4d225aa1dbd3408d22ab20ad72ba3}} 
+\index{JoyAxis@{JoyAxis}!disconnectPropertyUpdatedConnection@{disconnectPropertyUpdatedConnection}}
+\index{disconnectPropertyUpdatedConnection@{disconnectPropertyUpdatedConnection}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{disconnectPropertyUpdatedConnection}{disconnectPropertyUpdatedConnection}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::disconnect\+Property\+Updated\+Connection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_adfc4d225aa1dbd3408d22ab20ad72ba3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_adfc4d225aa1dbd3408d22ab20ad72ba3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_ac5ff6fa9b248c890b805cca11a7c9cd5}\label{classJoyAxis_ac5ff6fa9b248c890b805cca11a7c9cd5}} 
+\index{JoyAxis@{JoyAxis}!establishPropertyUpdatedConnection@{establishPropertyUpdatedConnection}}
+\index{establishPropertyUpdatedConnection@{establishPropertyUpdatedConnection}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{establishPropertyUpdatedConnection}{establishPropertyUpdatedConnection}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::establish\+Property\+Updated\+Connection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_ac5ff6fa9b248c890b805cca11a7c9cd5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_ac5ff6fa9b248c890b805cca11a7c9cd5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_afdab5ac18d52b640d58355ca48b69e09}\label{classJoyAxis_afdab5ac18d52b640d58355ca48b69e09}} 
+\index{JoyAxis@{JoyAxis}!eventReset@{eventReset}}
+\index{eventReset@{eventReset}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{eventReset()}{eventReset()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::event\+Reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_afdab5ac18d52b640d58355ca48b69e09_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_afdab5ac18d52b640d58355ca48b69e09_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a9a4983bcdfce9620851a33d9a69343fa}\label{classJoyAxis_a9a4983bcdfce9620851a33d9a69343fa}} 
+\index{JoyAxis@{JoyAxis}!getAxisButtonByValue@{getAxisButtonByValue}}
+\index{getAxisButtonByValue@{getAxisButtonByValue}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getAxisButtonByValue()}{getAxisButtonByValue()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyAxisButton}{Joy\+Axis\+Button}} $\ast$ Joy\+Axis\+::get\+Axis\+Button\+By\+Value (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a9a4983bcdfce9620851a33d9a69343fa_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a9a4983bcdfce9620851a33d9a69343fa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a26589df69d77c57cf8721c1739fa0a11}\label{classJoyAxis_a26589df69d77c57cf8721c1739fa0a11}} 
+\index{JoyAxis@{JoyAxis}!getAxisCenterCal@{getAxisCenterCal}}
+\index{getAxisCenterCal@{getAxisCenterCal}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getAxisCenterCal()}{getAxisCenterCal()}}
+{\footnotesize\ttfamily int Joy\+Axis\+::get\+Axis\+Center\+Cal (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a26589df69d77c57cf8721c1739fa0a11_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_af3f311fbf20c583224c2320d1fda0226}\label{classJoyAxis_af3f311fbf20c583224c2320d1fda0226}} 
+\index{JoyAxis@{JoyAxis}!getAxisMaxCal@{getAxisMaxCal}}
+\index{getAxisMaxCal@{getAxisMaxCal}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getAxisMaxCal()}{getAxisMaxCal()}}
+{\footnotesize\ttfamily int Joy\+Axis\+::get\+Axis\+Max\+Cal (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_af3f311fbf20c583224c2320d1fda0226_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_aff06f563278beb621285f65fb33b784a}\label{classJoyAxis_aff06f563278beb621285f65fb33b784a}} 
+\index{JoyAxis@{JoyAxis}!getAxisMinCal@{getAxisMinCal}}
+\index{getAxisMinCal@{getAxisMinCal}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getAxisMinCal()}{getAxisMinCal()}}
+{\footnotesize\ttfamily int Joy\+Axis\+::get\+Axis\+Min\+Cal (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_aff06f563278beb621285f65fb33b784a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a675c04d973a962ce30491b390d17ee20}\label{classJoyAxis_a675c04d973a962ce30491b390d17ee20}} 
+\index{JoyAxis@{JoyAxis}!getAxisName@{getAxisName}}
+\index{getAxisName@{getAxisName}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getAxisName()}{getAxisName()}}
+{\footnotesize\ttfamily Q\+String Joy\+Axis\+::get\+Axis\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a675c04d973a962ce30491b390d17ee20_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a6a79fed2fb23ec6e81c94624d97ca76f}\label{classJoyAxis_a6a79fed2fb23ec6e81c94624d97ca76f}} 
+\index{JoyAxis@{JoyAxis}!getButtonsEasingDuration@{getButtonsEasingDuration}}
+\index{getButtonsEasingDuration@{getButtonsEasingDuration}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getButtonsEasingDuration()}{getButtonsEasingDuration()}}
+{\footnotesize\ttfamily double Joy\+Axis\+::get\+Buttons\+Easing\+Duration (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a6a79fed2fb23ec6e81c94624d97ca76f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a6a79fed2fb23ec6e81c94624d97ca76f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a3bde4162e0a945278df1bee28c832dde}\label{classJoyAxis_a3bde4162e0a945278df1bee28c832dde}} 
+\index{JoyAxis@{JoyAxis}!getButtonsPresetMouseCurve@{getButtonsPresetMouseCurve}}
+\index{getButtonsPresetMouseCurve@{getButtonsPresetMouseCurve}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getButtonsPresetMouseCurve()}{getButtonsPresetMouseCurve()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyButton_a82158c2f018dfe990a82d273baf3a838}{Joy\+Button\+::\+Joy\+Mouse\+Curve}} Joy\+Axis\+::get\+Buttons\+Preset\+Mouse\+Curve (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a3bde4162e0a945278df1bee28c832dde_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a3bde4162e0a945278df1bee28c832dde_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_aa5476524f6367d414b5b703962bcb27a}\label{classJoyAxis_aa5476524f6367d414b5b703962bcb27a}} 
+\index{JoyAxis@{JoyAxis}!getButtonsPresetMouseMode@{getButtonsPresetMouseMode}}
+\index{getButtonsPresetMouseMode@{getButtonsPresetMouseMode}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getButtonsPresetMouseMode()}{getButtonsPresetMouseMode()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyButton_a446f2d6cbca378687cf8babb3028b427}{Joy\+Button\+::\+Joy\+Mouse\+Movement\+Mode}} Joy\+Axis\+::get\+Buttons\+Preset\+Mouse\+Mode (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_aa5476524f6367d414b5b703962bcb27a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_aa5476524f6367d414b5b703962bcb27a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a188bb4d46a6421333076be71efbcc3aa}\label{classJoyAxis_a188bb4d46a6421333076be71efbcc3aa}} 
+\index{JoyAxis@{JoyAxis}!getButtonsPresetSensitivity@{getButtonsPresetSensitivity}}
+\index{getButtonsPresetSensitivity@{getButtonsPresetSensitivity}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getButtonsPresetSensitivity()}{getButtonsPresetSensitivity()}}
+{\footnotesize\ttfamily double Joy\+Axis\+::get\+Buttons\+Preset\+Sensitivity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a188bb4d46a6421333076be71efbcc3aa_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a188bb4d46a6421333076be71efbcc3aa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_ac390a678ef368dbe7bcd245c6ec757af}\label{classJoyAxis_ac390a678ef368dbe7bcd245c6ec757af}} 
+\index{JoyAxis@{JoyAxis}!getButtonsPresetSpringHeight@{getButtonsPresetSpringHeight}}
+\index{getButtonsPresetSpringHeight@{getButtonsPresetSpringHeight}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getButtonsPresetSpringHeight()}{getButtonsPresetSpringHeight()}}
+{\footnotesize\ttfamily int Joy\+Axis\+::get\+Buttons\+Preset\+Spring\+Height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_ac390a678ef368dbe7bcd245c6ec757af_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_ac390a678ef368dbe7bcd245c6ec757af_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_ad05f889312a786e37b23deebbd99a56a}\label{classJoyAxis_ad05f889312a786e37b23deebbd99a56a}} 
+\index{JoyAxis@{JoyAxis}!getButtonsPresetSpringWidth@{getButtonsPresetSpringWidth}}
+\index{getButtonsPresetSpringWidth@{getButtonsPresetSpringWidth}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getButtonsPresetSpringWidth()}{getButtonsPresetSpringWidth()}}
+{\footnotesize\ttfamily int Joy\+Axis\+::get\+Buttons\+Preset\+Spring\+Width (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_ad05f889312a786e37b23deebbd99a56a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_ad05f889312a786e37b23deebbd99a56a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_aab45765fe830d471bcc8f79a1637625b}\label{classJoyAxis_aab45765fe830d471bcc8f79a1637625b}} 
+\index{JoyAxis@{JoyAxis}!getControlStick@{getControlStick}}
+\index{getControlStick@{getControlStick}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getControlStick()}{getControlStick()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyControlStick}{Joy\+Control\+Stick}} $\ast$ Joy\+Axis\+::get\+Control\+Stick (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classJoyAxis_a26e2606a8916cfd5fe8f4fc15c7dc886}\label{classJoyAxis_a26e2606a8916cfd5fe8f4fc15c7dc886}} 
+\index{JoyAxis@{JoyAxis}!getCurrentlyAssignedSet@{getCurrentlyAssignedSet}}
+\index{getCurrentlyAssignedSet@{getCurrentlyAssignedSet}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getCurrentlyAssignedSet()}{getCurrentlyAssignedSet()}}
+{\footnotesize\ttfamily int Joy\+Axis\+::get\+Currently\+Assigned\+Set (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a26e2606a8916cfd5fe8f4fc15c7dc886_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a0580ab0df546a1c03b4e8f755ad00272}\label{classJoyAxis_a0580ab0df546a1c03b4e8f755ad00272}} 
+\index{JoyAxis@{JoyAxis}!getCurrentRawValue@{getCurrentRawValue}}
+\index{getCurrentRawValue@{getCurrentRawValue}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getCurrentRawValue()}{getCurrentRawValue()}}
+{\footnotesize\ttfamily int Joy\+Axis\+::get\+Current\+Raw\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classJoyAxis_a0580ab0df546a1c03b4e8f755ad00272_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a04bb9e15b6c99f5e5559b1804eac74c8}\label{classJoyAxis_a04bb9e15b6c99f5e5559b1804eac74c8}} 
+\index{JoyAxis@{JoyAxis}!getCurrentThrottledDeadValue@{getCurrentThrottledDeadValue}}
+\index{getCurrentThrottledDeadValue@{getCurrentThrottledDeadValue}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getCurrentThrottledDeadValue()}{getCurrentThrottledDeadValue()}}
+{\footnotesize\ttfamily int Joy\+Axis\+::get\+Current\+Throttled\+Dead\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a04bb9e15b6c99f5e5559b1804eac74c8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a008d02f0aad335db5600137bdad725bf}\label{classJoyAxis_a008d02f0aad335db5600137bdad725bf}} 
+\index{JoyAxis@{JoyAxis}!getCurrentThrottledValue@{getCurrentThrottledValue}}
+\index{getCurrentThrottledValue@{getCurrentThrottledValue}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getCurrentThrottledValue()}{getCurrentThrottledValue()}}
+{\footnotesize\ttfamily int Joy\+Axis\+::get\+Current\+Throttled\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a008d02f0aad335db5600137bdad725bf_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_aed3d513f19658dbe4a20b3df9858c3fe}\label{classJoyAxis_aed3d513f19658dbe4a20b3df9858c3fe}} 
+\index{JoyAxis@{JoyAxis}!getDeadZone@{getDeadZone}}
+\index{getDeadZone@{getDeadZone}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getDeadZone()}{getDeadZone()}}
+{\footnotesize\ttfamily int Joy\+Axis\+::get\+Dead\+Zone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_aed3d513f19658dbe4a20b3df9858c3fe_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a313cf7c345d06a3804f6f4acdbfdd33e}\label{classJoyAxis_a313cf7c345d06a3804f6f4acdbfdd33e}} 
+\index{JoyAxis@{JoyAxis}!getDefaultAxisName@{getDefaultAxisName}}
+\index{getDefaultAxisName@{getDefaultAxisName}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getDefaultAxisName()}{getDefaultAxisName()}}
+{\footnotesize\ttfamily Q\+String Joy\+Axis\+::get\+Default\+Axis\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{classJoyAxis_a8552b6736231d1611c8809602e189d68}\label{classJoyAxis_a8552b6736231d1611c8809602e189d68}} 
+\index{JoyAxis@{JoyAxis}!getDefaultDeadZone@{getDefaultDeadZone}}
+\index{getDefaultDeadZone@{getDefaultDeadZone}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getDefaultDeadZone()}{getDefaultDeadZone()}}
+{\footnotesize\ttfamily int Joy\+Axis\+::get\+Default\+Dead\+Zone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classGameControllerTrigger_a62d813c0b93ae8b9e14e8887f4d38461}{Game\+Controller\+Trigger}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a8552b6736231d1611c8809602e189d68_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a61149f5541d5dc820ae2a04a6ca9af68}\label{classJoyAxis_a61149f5541d5dc820ae2a04a6ca9af68}} 
+\index{JoyAxis@{JoyAxis}!getDefaultMaxZone@{getDefaultMaxZone}}
+\index{getDefaultMaxZone@{getDefaultMaxZone}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getDefaultMaxZone()}{getDefaultMaxZone()}}
+{\footnotesize\ttfamily int Joy\+Axis\+::get\+Default\+Max\+Zone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classGameControllerTrigger_a3c6a81312158ea4e056b65d88968d1af}{Game\+Controller\+Trigger}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a61149f5541d5dc820ae2a04a6ca9af68_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a4fe327d03fb5834f59271f404fbe4ba1}\label{classJoyAxis_a4fe327d03fb5834f59271f404fbe4ba1}} 
+\index{JoyAxis@{JoyAxis}!getDefaultThrottle@{getDefaultThrottle}}
+\index{getDefaultThrottle@{getDefaultThrottle}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getDefaultThrottle()}{getDefaultThrottle()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyAxis_a7e459c55c342481732d5c63301c5080d}{Joy\+Axis\+::\+Throttle\+Types}} Joy\+Axis\+::get\+Default\+Throttle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classGameControllerTrigger_a5e278d225208c849341a5b2df2f31d34}{Game\+Controller\+Trigger}}.
+
+\mbox{\Hypertarget{classJoyAxis_ae168fbb214a184fcb41a6ab6b27e8f4e}\label{classJoyAxis_ae168fbb214a184fcb41a6ab6b27e8f4e}} 
+\index{JoyAxis@{JoyAxis}!getDistanceFromDeadZone@{getDistanceFromDeadZone}}
+\index{getDistanceFromDeadZone@{getDistanceFromDeadZone}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getDistanceFromDeadZone()}{getDistanceFromDeadZone()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily double Joy\+Axis\+::get\+Distance\+From\+Dead\+Zone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_ae168fbb214a184fcb41a6ab6b27e8f4e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a8551187dd68b7b43773fbc90be47c075}\label{classJoyAxis_a8551187dd68b7b43773fbc90be47c075}} 
+\index{JoyAxis@{JoyAxis}!getDistanceFromDeadZone@{getDistanceFromDeadZone}}
+\index{getDistanceFromDeadZone@{getDistanceFromDeadZone}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getDistanceFromDeadZone()}{getDistanceFromDeadZone()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily double Joy\+Axis\+::get\+Distance\+From\+Dead\+Zone (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classJoyAxis_a314e7d5c998c307458aa36039d6f3155}\label{classJoyAxis_a314e7d5c998c307458aa36039d6f3155}} 
+\index{JoyAxis@{JoyAxis}!getExtraAccelerationCurve@{getExtraAccelerationCurve}}
+\index{getExtraAccelerationCurve@{getExtraAccelerationCurve}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getExtraAccelerationCurve()}{getExtraAccelerationCurve()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyButton_a81cd310753932a72e3a377ba64f13e40}{Joy\+Button\+::\+Joy\+Extra\+Acceleration\+Curve}} Joy\+Axis\+::get\+Extra\+Acceleration\+Curve (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a314e7d5c998c307458aa36039d6f3155_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_afddf7399e2086fda738fe588f5e7d7cd}\label{classJoyAxis_afddf7399e2086fda738fe588f5e7d7cd}} 
+\index{JoyAxis@{JoyAxis}!getIndex@{getIndex}}
+\index{getIndex@{getIndex}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getIndex()}{getIndex()}}
+{\footnotesize\ttfamily int Joy\+Axis\+::get\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_afddf7399e2086fda738fe588f5e7d7cd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_ac5fab6f5b5159f85843c97032f669c8b}\label{classJoyAxis_ac5fab6f5b5159f85843c97032f669c8b}} 
+\index{JoyAxis@{JoyAxis}!getLastKnownRawValue@{getLastKnownRawValue}}
+\index{getLastKnownRawValue@{getLastKnownRawValue}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getLastKnownRawValue()}{getLastKnownRawValue()}}
+{\footnotesize\ttfamily int Joy\+Axis\+::get\+Last\+Known\+Raw\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_ac5fab6f5b5159f85843c97032f669c8b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a6ed704ce0c9da777cbb5c694a9ed2238}\label{classJoyAxis_a6ed704ce0c9da777cbb5c694a9ed2238}} 
+\index{JoyAxis@{JoyAxis}!getLastKnownThrottleValue@{getLastKnownThrottleValue}}
+\index{getLastKnownThrottleValue@{getLastKnownThrottleValue}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getLastKnownThrottleValue()}{getLastKnownThrottleValue()}}
+{\footnotesize\ttfamily int Joy\+Axis\+::get\+Last\+Known\+Throttle\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a6ed704ce0c9da777cbb5c694a9ed2238_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_aa083ec407f4510348833e3a7f5964892}\label{classJoyAxis_aa083ec407f4510348833e3a7f5964892}} 
+\index{JoyAxis@{JoyAxis}!getMaxZoneValue@{getMaxZoneValue}}
+\index{getMaxZoneValue@{getMaxZoneValue}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getMaxZoneValue()}{getMaxZoneValue()}}
+{\footnotesize\ttfamily int Joy\+Axis\+::get\+Max\+Zone\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_aa083ec407f4510348833e3a7f5964892_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a955d16488b3807bd9d34e88e5df05cd2}\label{classJoyAxis_a955d16488b3807bd9d34e88e5df05cd2}} 
+\index{JoyAxis@{JoyAxis}!getName@{getName}}
+\index{getName@{getName}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily Q\+String Joy\+Axis\+::get\+Name (\begin{DoxyParamCaption}\item[{bool}]{force\+Full\+Format = {\ttfamily false},  }\item[{bool}]{display\+Names = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a955d16488b3807bd9d34e88e5df05cd2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a955d16488b3807bd9d34e88e5df05cd2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_aae658e2a7b83ce73ce3d7d1ed13eabc6}\label{classJoyAxis_aae658e2a7b83ce73ce3d7d1ed13eabc6}} 
+\index{JoyAxis@{JoyAxis}!getNAxisButton@{getNAxisButton}}
+\index{getNAxisButton@{getNAxisButton}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getNAxisButton()}{getNAxisButton()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyAxisButton}{Joy\+Axis\+Button}} $\ast$ Joy\+Axis\+::get\+N\+Axis\+Button (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classJoyAxis_a12c4147c5f4a320aee710f8753263aa6}\label{classJoyAxis_a12c4147c5f4a320aee710f8753263aa6}} 
+\index{JoyAxis@{JoyAxis}!getParentSet@{getParentSet}}
+\index{getParentSet@{getParentSet}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getParentSet()}{getParentSet()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classSetJoystick}{Set\+Joystick}} $\ast$ Joy\+Axis\+::get\+Parent\+Set (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a12c4147c5f4a320aee710f8753263aa6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a96710fb06ec9e989cd71ffce4ee7ca57}\label{classJoyAxis_a96710fb06ec9e989cd71ffce4ee7ca57}} 
+\index{JoyAxis@{JoyAxis}!getPartialName@{getPartialName}}
+\index{getPartialName@{getPartialName}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getPartialName()}{getPartialName()}}
+{\footnotesize\ttfamily Q\+String Joy\+Axis\+::get\+Partial\+Name (\begin{DoxyParamCaption}\item[{bool}]{force\+Full\+Format = {\ttfamily false},  }\item[{bool}]{display\+Names = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classGameControllerTrigger_a8ff76c6adb45c685fb35443e78dc9b33}{Game\+Controller\+Trigger}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a96710fb06ec9e989cd71ffce4ee7ca57_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a96710fb06ec9e989cd71ffce4ee7ca57_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_ad51d55d2a95190468209f7481eae8639}\label{classJoyAxis_ad51d55d2a95190468209f7481eae8639}} 
+\index{JoyAxis@{JoyAxis}!getPAxisButton@{getPAxisButton}}
+\index{getPAxisButton@{getPAxisButton}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getPAxisButton()}{getPAxisButton()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyAxisButton}{Joy\+Axis\+Button}} $\ast$ Joy\+Axis\+::get\+P\+Axis\+Button (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classJoyAxis_aa49646bc8774617f05a0b118707b0e38}\label{classJoyAxis_aa49646bc8774617f05a0b118707b0e38}} 
+\index{JoyAxis@{JoyAxis}!getProperReleaseValue@{getProperReleaseValue}}
+\index{getProperReleaseValue@{getProperReleaseValue}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getProperReleaseValue()}{getProperReleaseValue()}}
+{\footnotesize\ttfamily int Joy\+Axis\+::get\+Proper\+Release\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Determine an appropriate release value for an axis depending on the current throttle setting being used. 
+
+\begin{DoxyReturn}{Returns}
+Release value for an axis 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_aa49646bc8774617f05a0b118707b0e38_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_aa49646bc8774617f05a0b118707b0e38_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_af8a07986f0254ba66021537e07c1ad4f}\label{classJoyAxis_af8a07986f0254ba66021537e07c1ad4f}} 
+\index{JoyAxis@{JoyAxis}!getRawDistance@{getRawDistance}}
+\index{getRawDistance@{getRawDistance}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getRawDistance()}{getRawDistance()}}
+{\footnotesize\ttfamily double Joy\+Axis\+::get\+Raw\+Distance (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+
+
+Get the current value for an axis in either direction converted to the range of -\/1.\+0 to 1.\+0. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Current} & interger value of the axis \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Axis value in the range of -\/1.\+0 to 1.\+0 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_af8a07986f0254ba66021537e07c1ad4f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a9ceda991c13da3a99868acc436ed20f3}\label{classJoyAxis_a9ceda991c13da3a99868acc436ed20f3}} 
+\index{JoyAxis@{JoyAxis}!getRealJoyIndex@{getRealJoyIndex}}
+\index{getRealJoyIndex@{getRealJoyIndex}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getRealJoyIndex()}{getRealJoyIndex()}}
+{\footnotesize\ttfamily int Joy\+Axis\+::get\+Real\+Joy\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a9ceda991c13da3a99868acc436ed20f3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a01dfb4ec2c2e85304a479f21b9cffe49}\label{classJoyAxis_a01dfb4ec2c2e85304a479f21b9cffe49}} 
+\index{JoyAxis@{JoyAxis}!getThrottle@{getThrottle}}
+\index{getThrottle@{getThrottle}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getThrottle()}{getThrottle()}}
+{\footnotesize\ttfamily int Joy\+Axis\+::get\+Throttle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a01dfb4ec2c2e85304a479f21b9cffe49_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a04c3b7b172ad46013382e36ad7b65691}\label{classJoyAxis_a04c3b7b172ad46013382e36ad7b65691}} 
+\index{JoyAxis@{JoyAxis}!getXmlName@{getXmlName}}
+\index{getXmlName@{getXmlName}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{getXmlName()}{getXmlName()}}
+{\footnotesize\ttfamily Q\+String Joy\+Axis\+::get\+Xml\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classGameControllerTrigger_ac69da08d4ca21858436bf9ccc80b7df0}{Game\+Controller\+Trigger}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a04c3b7b172ad46013382e36ad7b65691_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_ade3f676e79979cc6ccf6761692222fa1}\label{classJoyAxis_ade3f676e79979cc6ccf6761692222fa1}} 
+\index{JoyAxis@{JoyAxis}!hasControlOfButtons@{hasControlOfButtons}}
+\index{hasControlOfButtons@{hasControlOfButtons}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{hasControlOfButtons()}{hasControlOfButtons()}}
+{\footnotesize\ttfamily bool Joy\+Axis\+::has\+Control\+Of\+Buttons (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_ade3f676e79979cc6ccf6761692222fa1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_ade3f676e79979cc6ccf6761692222fa1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a25bb39da433882082512abb86f193950}\label{classJoyAxis_a25bb39da433882082512abb86f193950}} 
+\index{JoyAxis@{JoyAxis}!hasPendingEvent@{hasPendingEvent}}
+\index{hasPendingEvent@{hasPendingEvent}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{hasPendingEvent()}{hasPendingEvent()}}
+{\footnotesize\ttfamily bool Joy\+Axis\+::has\+Pending\+Event (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a25bb39da433882082512abb86f193950_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a359044a1fd7a3909cee8d87f02d4453f}\label{classJoyAxis_a359044a1fd7a3909cee8d87f02d4453f}} 
+\index{JoyAxis@{JoyAxis}!hasSameButtonsMouseCurve@{hasSameButtonsMouseCurve}}
+\index{hasSameButtonsMouseCurve@{hasSameButtonsMouseCurve}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{hasSameButtonsMouseCurve()}{hasSameButtonsMouseCurve()}}
+{\footnotesize\ttfamily bool Joy\+Axis\+::has\+Same\+Buttons\+Mouse\+Curve (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a359044a1fd7a3909cee8d87f02d4453f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a58a670328abc2da48f29b24781f4c6e4}\label{classJoyAxis_a58a670328abc2da48f29b24781f4c6e4}} 
+\index{JoyAxis@{JoyAxis}!hasSameButtonsMouseMode@{hasSameButtonsMouseMode}}
+\index{hasSameButtonsMouseMode@{hasSameButtonsMouseMode}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{hasSameButtonsMouseMode()}{hasSameButtonsMouseMode()}}
+{\footnotesize\ttfamily bool Joy\+Axis\+::has\+Same\+Buttons\+Mouse\+Mode (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a58a670328abc2da48f29b24781f4c6e4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a58a670328abc2da48f29b24781f4c6e4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_aec8483db205a707cece118ea48cd7072}\label{classJoyAxis_aec8483db205a707cece118ea48cd7072}} 
+\index{JoyAxis@{JoyAxis}!inDeadZone@{inDeadZone}}
+\index{inDeadZone@{inDeadZone}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{inDeadZone()}{inDeadZone()}}
+{\footnotesize\ttfamily bool Joy\+Axis\+::in\+Dead\+Zone (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_aec8483db205a707cece118ea48cd7072_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_aec8483db205a707cece118ea48cd7072_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_ad614a1d4afe02119dfbd787ee89be66e}\label{classJoyAxis_ad614a1d4afe02119dfbd787ee89be66e}} 
+\index{JoyAxis@{JoyAxis}!isDefault@{isDefault}}
+\index{isDefault@{isDefault}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{isDefault()}{isDefault()}}
+{\footnotesize\ttfamily bool Joy\+Axis\+::is\+Default (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_ad614a1d4afe02119dfbd787ee89be66e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_ad614a1d4afe02119dfbd787ee89be66e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a0dde339f2f10bba167eb811d8f166b48}\label{classJoyAxis_a0dde339f2f10bba167eb811d8f166b48}} 
+\index{JoyAxis@{JoyAxis}!isPartControlStick@{isPartControlStick}}
+\index{isPartControlStick@{isPartControlStick}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{isPartControlStick()}{isPartControlStick()}}
+{\footnotesize\ttfamily bool Joy\+Axis\+::is\+Part\+Control\+Stick (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a0dde339f2f10bba167eb811d8f166b48_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a48414a544c8ac8bb9523f8ead79158f7}\label{classJoyAxis_a48414a544c8ac8bb9523f8ead79158f7}} 
+\index{JoyAxis@{JoyAxis}!isRelativeSpring@{isRelativeSpring}}
+\index{isRelativeSpring@{isRelativeSpring}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{isRelativeSpring()}{isRelativeSpring()}}
+{\footnotesize\ttfamily bool Joy\+Axis\+::is\+Relative\+Spring (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a48414a544c8ac8bb9523f8ead79158f7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a48414a544c8ac8bb9523f8ead79158f7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a9c5f69db8b88f31a1df043a00ab9d09a}\label{classJoyAxis_a9c5f69db8b88f31a1df043a00ab9d09a}} 
+\index{JoyAxis@{JoyAxis}!joyEvent@{joyEvent}}
+\index{joyEvent@{joyEvent}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{joyEvent()}{joyEvent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::joy\+Event (\begin{DoxyParamCaption}\item[{int}]{value,  }\item[{bool}]{ignoresets = {\ttfamily false},  }\item[{bool}]{update\+Last\+Values = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a9c5f69db8b88f31a1df043a00ab9d09a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a9c5f69db8b88f31a1df043a00ab9d09a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_adcf6e9d9da196bd689b2bfda7cd09ab0}\label{classJoyAxis_adcf6e9d9da196bd689b2bfda7cd09ab0}} 
+\index{JoyAxis@{JoyAxis}!moved@{moved}}
+\index{moved@{moved}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{moved}{moved}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::moved (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_adcf6e9d9da196bd689b2bfda7cd09ab0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a365e03ea3bbfc5c099fe04dedc4d0ad7}\label{classJoyAxis_a365e03ea3bbfc5c099fe04dedc4d0ad7}} 
+\index{JoyAxis@{JoyAxis}!performCalibration@{performCalibration}}
+\index{performCalibration@{performCalibration}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{performCalibration()}{performCalibration()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::perform\+Calibration (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a365e03ea3bbfc5c099fe04dedc4d0ad7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a365e03ea3bbfc5c099fe04dedc4d0ad7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a6ef384b558f88cd5a2b478ffdad409bf}\label{classJoyAxis_a6ef384b558f88cd5a2b478ffdad409bf}} 
+\index{JoyAxis@{JoyAxis}!propertyUpdated@{propertyUpdated}}
+\index{propertyUpdated@{propertyUpdated}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{propertyUpdated}{propertyUpdated}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::property\+Updated (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a6ef384b558f88cd5a2b478ffdad409bf_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_aedaf52e633241269baa64317398bd897}\label{classJoyAxis_aedaf52e633241269baa64317398bd897}} 
+\index{JoyAxis@{JoyAxis}!propogateThrottleChange@{propogateThrottleChange}}
+\index{propogateThrottleChange@{propogateThrottleChange}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{propogateThrottleChange}{propogateThrottleChange}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::propogate\+Throttle\+Change (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_aedaf52e633241269baa64317398bd897_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_ac060a3703ce33d35256e66aaa60b930b}\label{classJoyAxis_ac060a3703ce33d35256e66aaa60b930b}} 
+\index{JoyAxis@{JoyAxis}!queuePendingEvent@{queuePendingEvent}}
+\index{queuePendingEvent@{queuePendingEvent}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{queuePendingEvent()}{queuePendingEvent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::queue\+Pending\+Event (\begin{DoxyParamCaption}\item[{int}]{value,  }\item[{bool}]{ignoresets = {\ttfamily false},  }\item[{bool}]{update\+Last\+Values = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_ac060a3703ce33d35256e66aaa60b930b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_ac060a3703ce33d35256e66aaa60b930b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a04fec447c55c30473f7206458e04dca6}\label{classJoyAxis_a04fec447c55c30473f7206458e04dca6}} 
+\index{JoyAxis@{JoyAxis}!released@{released}}
+\index{released@{released}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{released}{released}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::released (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a04fec447c55c30473f7206458e04dca6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_aa013bcc6b2391c594f043f8fe0f9b1f2}\label{classJoyAxis_aa013bcc6b2391c594f043f8fe0f9b1f2}} 
+\index{JoyAxis@{JoyAxis}!removeControlStick@{removeControlStick}}
+\index{removeControlStick@{removeControlStick}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{removeControlStick()}{removeControlStick()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::remove\+Control\+Stick (\begin{DoxyParamCaption}\item[{bool}]{perform\+Release = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_aa013bcc6b2391c594f043f8fe0f9b1f2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_aa013bcc6b2391c594f043f8fe0f9b1f2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a8df3e761cbf9876ab5a3db30c1a02fc3}\label{classJoyAxis_a8df3e761cbf9876ab5a3db30c1a02fc3}} 
+\index{JoyAxis@{JoyAxis}!removeVDPads@{removeVDPads}}
+\index{removeVDPads@{removeVDPads}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{removeVDPads()}{removeVDPads()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::remove\+V\+D\+Pads (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a8df3e761cbf9876ab5a3db30c1a02fc3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a8df3e761cbf9876ab5a3db30c1a02fc3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a9e0633e04b88d2eecb10c8cf9599a86e}\label{classJoyAxis_a9e0633e04b88d2eecb10c8cf9599a86e}} 
+\index{JoyAxis@{JoyAxis}!reset@{reset}}
+\index{reset@{reset}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{reset}{reset}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a9e0633e04b88d2eecb10c8cf9599a86e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a9e0633e04b88d2eecb10c8cf9599a86e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a62d21dc1238df0c8e221365a434efe50}\label{classJoyAxis_a62d21dc1238df0c8e221365a434efe50}} 
+\index{JoyAxis@{JoyAxis}!reset@{reset}}
+\index{reset@{reset}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{reset}{reset}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::reset (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a62d21dc1238df0c8e221365a434efe50_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_afce1f31390f589a417e9c70f47bd7187}\label{classJoyAxis_afce1f31390f589a417e9c70f47bd7187}} 
+\index{JoyAxis@{JoyAxis}!resetPrivateVars@{resetPrivateVars}}
+\index{resetPrivateVars@{resetPrivateVars}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{resetPrivateVars()}{resetPrivateVars()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::reset\+Private\+Vars (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_afce1f31390f589a417e9c70f47bd7187_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_afce1f31390f589a417e9c70f47bd7187_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a084d8b9cc9e5142d58c24a14a86609bc}\label{classJoyAxis_a084d8b9cc9e5142d58c24a14a86609bc}} 
+\index{JoyAxis@{JoyAxis}!setAxisCenterCal@{setAxisCenterCal}}
+\index{setAxisCenterCal@{setAxisCenterCal}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{setAxisCenterCal()}{setAxisCenterCal()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::set\+Axis\+Center\+Cal (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a084d8b9cc9e5142d58c24a14a86609bc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_aab753bd485ff29063c90d37bdbd79328}\label{classJoyAxis_aab753bd485ff29063c90d37bdbd79328}} 
+\index{JoyAxis@{JoyAxis}!setAxisMaxCal@{setAxisMaxCal}}
+\index{setAxisMaxCal@{setAxisMaxCal}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{setAxisMaxCal()}{setAxisMaxCal()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::set\+Axis\+Max\+Cal (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_aab753bd485ff29063c90d37bdbd79328_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a61fe6ae50c84ef21acffdfd6fa5072cf}\label{classJoyAxis_a61fe6ae50c84ef21acffdfd6fa5072cf}} 
+\index{JoyAxis@{JoyAxis}!setAxisMinCal@{setAxisMinCal}}
+\index{setAxisMinCal@{setAxisMinCal}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{setAxisMinCal()}{setAxisMinCal()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::set\+Axis\+Min\+Cal (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a61fe6ae50c84ef21acffdfd6fa5072cf_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a8c5bca0c70e1cb6dffc4bfdbbfc5b8ee}\label{classJoyAxis_a8c5bca0c70e1cb6dffc4bfdbbfc5b8ee}} 
+\index{JoyAxis@{JoyAxis}!setAxisName@{setAxisName}}
+\index{setAxisName@{setAxisName}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{setAxisName}{setAxisName}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::set\+Axis\+Name (\begin{DoxyParamCaption}\item[{Q\+String}]{temp\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a8c5bca0c70e1cb6dffc4bfdbbfc5b8ee_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a5ab74d320efaec601fc1129d5766e60e}\label{classJoyAxis_a5ab74d320efaec601fc1129d5766e60e}} 
+\index{JoyAxis@{JoyAxis}!setButtonsEasingDuration@{setButtonsEasingDuration}}
+\index{setButtonsEasingDuration@{setButtonsEasingDuration}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{setButtonsEasingDuration}{setButtonsEasingDuration}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::set\+Buttons\+Easing\+Duration (\begin{DoxyParamCaption}\item[{double}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a5ab74d320efaec601fc1129d5766e60e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a5ab74d320efaec601fc1129d5766e60e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a315180f565380b300761891abcc61932}\label{classJoyAxis_a315180f565380b300761891abcc61932}} 
+\index{JoyAxis@{JoyAxis}!setButtonsMouseCurve@{setButtonsMouseCurve}}
+\index{setButtonsMouseCurve@{setButtonsMouseCurve}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{setButtonsMouseCurve()}{setButtonsMouseCurve()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::set\+Buttons\+Mouse\+Curve (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButton_a82158c2f018dfe990a82d273baf3a838}{Joy\+Button\+::\+Joy\+Mouse\+Curve}}}]{mouse\+Curve }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a315180f565380b300761891abcc61932_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a315180f565380b300761891abcc61932_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a1d88b64f64042f2b6f3ceccf07a6a8fa}\label{classJoyAxis_a1d88b64f64042f2b6f3ceccf07a6a8fa}} 
+\index{JoyAxis@{JoyAxis}!setButtonsMouseMode@{setButtonsMouseMode}}
+\index{setButtonsMouseMode@{setButtonsMouseMode}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{setButtonsMouseMode()}{setButtonsMouseMode()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::set\+Buttons\+Mouse\+Mode (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButton_a446f2d6cbca378687cf8babb3028b427}{Joy\+Button\+::\+Joy\+Mouse\+Movement\+Mode}}}]{mode }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a1d88b64f64042f2b6f3ceccf07a6a8fa_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a1d88b64f64042f2b6f3ceccf07a6a8fa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a99172341327cdb8878068498eaa9159f}\label{classJoyAxis_a99172341327cdb8878068498eaa9159f}} 
+\index{JoyAxis@{JoyAxis}!setButtonsSensitivity@{setButtonsSensitivity}}
+\index{setButtonsSensitivity@{setButtonsSensitivity}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{setButtonsSensitivity()}{setButtonsSensitivity()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::set\+Buttons\+Sensitivity (\begin{DoxyParamCaption}\item[{double}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a99172341327cdb8878068498eaa9159f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a99172341327cdb8878068498eaa9159f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_ada8cd7758cc5f1312ae935c16562cd50}\label{classJoyAxis_ada8cd7758cc5f1312ae935c16562cd50}} 
+\index{JoyAxis@{JoyAxis}!setButtonsSpringHeight@{setButtonsSpringHeight}}
+\index{setButtonsSpringHeight@{setButtonsSpringHeight}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{setButtonsSpringHeight()}{setButtonsSpringHeight()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::set\+Buttons\+Spring\+Height (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_ada8cd7758cc5f1312ae935c16562cd50_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_ada8cd7758cc5f1312ae935c16562cd50_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a3f34e190dc6817fc6eca428c2118a3da}\label{classJoyAxis_a3f34e190dc6817fc6eca428c2118a3da}} 
+\index{JoyAxis@{JoyAxis}!setButtonsSpringRelativeStatus@{setButtonsSpringRelativeStatus}}
+\index{setButtonsSpringRelativeStatus@{setButtonsSpringRelativeStatus}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{setButtonsSpringRelativeStatus}{setButtonsSpringRelativeStatus}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::set\+Buttons\+Spring\+Relative\+Status (\begin{DoxyParamCaption}\item[{bool}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a3f34e190dc6817fc6eca428c2118a3da_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a3f34e190dc6817fc6eca428c2118a3da_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a49f70f585de01ea1fd7230da452ce30b}\label{classJoyAxis_a49f70f585de01ea1fd7230da452ce30b}} 
+\index{JoyAxis@{JoyAxis}!setButtonsSpringWidth@{setButtonsSpringWidth}}
+\index{setButtonsSpringWidth@{setButtonsSpringWidth}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{setButtonsSpringWidth()}{setButtonsSpringWidth()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::set\+Buttons\+Spring\+Width (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a49f70f585de01ea1fd7230da452ce30b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a49f70f585de01ea1fd7230da452ce30b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_ab145a2d884c3a8fb5c4dffaa1e8d95f0}\label{classJoyAxis_ab145a2d884c3a8fb5c4dffaa1e8d95f0}} 
+\index{JoyAxis@{JoyAxis}!setButtonsWheelSpeedX@{setButtonsWheelSpeedX}}
+\index{setButtonsWheelSpeedX@{setButtonsWheelSpeedX}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{setButtonsWheelSpeedX()}{setButtonsWheelSpeedX()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::set\+Buttons\+Wheel\+SpeedX (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_ab145a2d884c3a8fb5c4dffaa1e8d95f0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_ab145a2d884c3a8fb5c4dffaa1e8d95f0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a429c4d81ef067652a91e1fe1d19b3e89}\label{classJoyAxis_a429c4d81ef067652a91e1fe1d19b3e89}} 
+\index{JoyAxis@{JoyAxis}!setButtonsWheelSpeedY@{setButtonsWheelSpeedY}}
+\index{setButtonsWheelSpeedY@{setButtonsWheelSpeedY}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{setButtonsWheelSpeedY()}{setButtonsWheelSpeedY()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::set\+Buttons\+Wheel\+SpeedY (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a429c4d81ef067652a91e1fe1d19b3e89_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a429c4d81ef067652a91e1fe1d19b3e89_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_ac51525cabe4d0ea5aafebe949cde458f}\label{classJoyAxis_ac51525cabe4d0ea5aafebe949cde458f}} 
+\index{JoyAxis@{JoyAxis}!setControlStick@{setControlStick}}
+\index{setControlStick@{setControlStick}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{setControlStick()}{setControlStick()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::set\+Control\+Stick (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyControlStick}{Joy\+Control\+Stick}} $\ast$}]{stick }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_ac51525cabe4d0ea5aafebe949cde458f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_ac51525cabe4d0ea5aafebe949cde458f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_acb36ca26562c203a587fbb937f168200}\label{classJoyAxis_acb36ca26562c203a587fbb937f168200}} 
+\index{JoyAxis@{JoyAxis}!setCurrentRawValue@{setCurrentRawValue}}
+\index{setCurrentRawValue@{setCurrentRawValue}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{setCurrentRawValue()}{setCurrentRawValue()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::set\+Current\+Raw\+Value (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_acb36ca26562c203a587fbb937f168200_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_acb36ca26562c203a587fbb937f168200_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a368b17910df9a49089bd6f46cab2ff1c}\label{classJoyAxis_a368b17910df9a49089bd6f46cab2ff1c}} 
+\index{JoyAxis@{JoyAxis}!setDeadZone@{setDeadZone}}
+\index{setDeadZone@{setDeadZone}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{setDeadZone}{setDeadZone}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::set\+Dead\+Zone (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a368b17910df9a49089bd6f46cab2ff1c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_aa39b67a2a1bc5eb7843b40c791764298}\label{classJoyAxis_aa39b67a2a1bc5eb7843b40c791764298}} 
+\index{JoyAxis@{JoyAxis}!setDefaultAxisName@{setDefaultAxisName}}
+\index{setDefaultAxisName@{setDefaultAxisName}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{setDefaultAxisName()}{setDefaultAxisName()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::set\+Default\+Axis\+Name (\begin{DoxyParamCaption}\item[{Q\+String}]{tempname }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_aa39b67a2a1bc5eb7843b40c791764298_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a92b0f661ec36b01a058fc290907d27b5}\label{classJoyAxis_a92b0f661ec36b01a058fc290907d27b5}} 
+\index{JoyAxis@{JoyAxis}!setExtraAccelerationCurve@{setExtraAccelerationCurve}}
+\index{setExtraAccelerationCurve@{setExtraAccelerationCurve}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{setExtraAccelerationCurve()}{setExtraAccelerationCurve()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::set\+Extra\+Acceleration\+Curve (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButton_a81cd310753932a72e3a377ba64f13e40}{Joy\+Button\+::\+Joy\+Extra\+Acceleration\+Curve}}}]{curve }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a92b0f661ec36b01a058fc290907d27b5_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a165a62d8a472910452663a2619fd84d2}\label{classJoyAxis_a165a62d8a472910452663a2619fd84d2}} 
+\index{JoyAxis@{JoyAxis}!setIndex@{setIndex}}
+\index{setIndex@{setIndex}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{setIndex()}{setIndex()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::set\+Index (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classJoyAxis_a38eb99eb11dced53e58c8dc1d92f63bb}\label{classJoyAxis_a38eb99eb11dced53e58c8dc1d92f63bb}} 
+\index{JoyAxis@{JoyAxis}!setInitialThrottle@{setInitialThrottle}}
+\index{setInitialThrottle@{setInitialThrottle}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{setInitialThrottle()}{setInitialThrottle()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::set\+Initial\+Throttle (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+
+
+Set the initial calibrated throttle based on the first event passed by S\+DL. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Current} & value for axis. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a38eb99eb11dced53e58c8dc1d92f63bb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a38eb99eb11dced53e58c8dc1d92f63bb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_ad57d8fa2942d408ed534a348962ae72c}\label{classJoyAxis_ad57d8fa2942d408ed534a348962ae72c}} 
+\index{JoyAxis@{JoyAxis}!setMaxZoneValue@{setMaxZoneValue}}
+\index{setMaxZoneValue@{setMaxZoneValue}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{setMaxZoneValue}{setMaxZoneValue}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::set\+Max\+Zone\+Value (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_ad57d8fa2942d408ed534a348962ae72c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_ad57d8fa2942d408ed534a348962ae72c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_aa4be4a311b6656e63eacfdde5ce6861a}\label{classJoyAxis_aa4be4a311b6656e63eacfdde5ce6861a}} 
+\index{JoyAxis@{JoyAxis}!setThrottle@{setThrottle}}
+\index{setThrottle@{setThrottle}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{setThrottle()}{setThrottle()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::set\+Throttle (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+
+
+Set throttle value for axis. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Current} & value for axis. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_aa4be4a311b6656e63eacfdde5ce6861a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_aa4be4a311b6656e63eacfdde5ce6861a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_aeceeef14f2a92dad67aed5d07b2669d0}\label{classJoyAxis_aeceeef14f2a92dad67aed5d07b2669d0}} 
+\index{JoyAxis@{JoyAxis}!stickPassEvent@{stickPassEvent}}
+\index{stickPassEvent@{stickPassEvent}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{stickPassEvent()}{stickPassEvent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::stick\+Pass\+Event (\begin{DoxyParamCaption}\item[{int}]{value,  }\item[{bool}]{ignoresets = {\ttfamily false},  }\item[{bool}]{update\+Last\+Values = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_aeceeef14f2a92dad67aed5d07b2669d0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_aeceeef14f2a92dad67aed5d07b2669d0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_aa4a59be160684251db79afe32d9aa3f0}\label{classJoyAxis_aa4a59be160684251db79afe32d9aa3f0}} 
+\index{JoyAxis@{JoyAxis}!throttleChanged@{throttleChanged}}
+\index{throttleChanged@{throttleChanged}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{throttleChanged}{throttleChanged}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::throttle\+Changed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_aa4a59be160684251db79afe32d9aa3f0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a7f45ebe537eb06602a10616bbede5734}\label{classJoyAxis_a7f45ebe537eb06602a10616bbede5734}} 
+\index{JoyAxis@{JoyAxis}!throttleChangePropogated@{throttleChangePropogated}}
+\index{throttleChangePropogated@{throttleChangePropogated}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{throttleChangePropogated}{throttleChangePropogated}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::throttle\+Change\+Propogated (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a7f45ebe537eb06602a10616bbede5734_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classJoyAxis_a91976d2688346e4270237afb57462dcf}\label{classJoyAxis_a91976d2688346e4270237afb57462dcf}} 
+\index{JoyAxis@{JoyAxis}!updateCurrentThrottledValue@{updateCurrentThrottledValue}}
+\index{updateCurrentThrottledValue@{updateCurrentThrottledValue}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{updateCurrentThrottledValue()}{updateCurrentThrottledValue()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Joy\+Axis\+::update\+Current\+Throttled\+Value (\begin{DoxyParamCaption}\item[{int}]{new\+Value }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classJoyAxis_a91976d2688346e4270237afb57462dcf_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classJoyAxis_a3675e7209f766abefc73b0152f4bc6a2}\label{classJoyAxis_a3675e7209f766abefc73b0152f4bc6a2}} 
+\index{JoyAxis@{JoyAxis}!activeButton@{activeButton}}
+\index{activeButton@{activeButton}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{activeButton}{activeButton}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyAxisButton}{Joy\+Axis\+Button}}$\ast$ Joy\+Axis\+::active\+Button\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classJoyAxis_a455242245c612ebfe0053f7265be01fb}\label{classJoyAxis_a455242245c612ebfe0053f7265be01fb}} 
+\index{JoyAxis@{JoyAxis}!axis\_center\_cal@{axis\_center\_cal}}
+\index{axis\_center\_cal@{axis\_center\_cal}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{axis\_center\_cal}{axis\_center\_cal}}
+{\footnotesize\ttfamily int Joy\+Axis\+::axis\+\_\+center\+\_\+cal\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classJoyAxis_a790820c50c382a0d08bb51cda87fe86f}\label{classJoyAxis_a790820c50c382a0d08bb51cda87fe86f}} 
+\index{JoyAxis@{JoyAxis}!axis\_max\_cal@{axis\_max\_cal}}
+\index{axis\_max\_cal@{axis\_max\_cal}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{axis\_max\_cal}{axis\_max\_cal}}
+{\footnotesize\ttfamily int Joy\+Axis\+::axis\+\_\+max\+\_\+cal\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classJoyAxis_a3287e2abd170616a68a79e04c23c9602}\label{classJoyAxis_a3287e2abd170616a68a79e04c23c9602}} 
+\index{JoyAxis@{JoyAxis}!axis\_min\_cal@{axis\_min\_cal}}
+\index{axis\_min\_cal@{axis\_min\_cal}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{axis\_min\_cal}{axis\_min\_cal}}
+{\footnotesize\ttfamily int Joy\+Axis\+::axis\+\_\+min\+\_\+cal\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classJoyAxis_ad3a2f5ed8f17dbe2a3b15df747c3a085}\label{classJoyAxis_ad3a2f5ed8f17dbe2a3b15df747c3a085}} 
+\index{JoyAxis@{JoyAxis}!axisName@{axisName}}
+\index{axisName@{axisName}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{axisName}{axisName}}
+{\footnotesize\ttfamily Q\+String Joy\+Axis\+::axis\+Name\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classJoyAxis_a34d37c530ba561af336aebca2e1bacd4}\label{classJoyAxis_a34d37c530ba561af336aebca2e1bacd4}} 
+\index{JoyAxis@{JoyAxis}!currentRawValue@{currentRawValue}}
+\index{currentRawValue@{currentRawValue}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{currentRawValue}{currentRawValue}}
+{\footnotesize\ttfamily int Joy\+Axis\+::current\+Raw\+Value\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classJoyAxis_a30a603e069ccdeb1604494f272d5db78}\label{classJoyAxis_a30a603e069ccdeb1604494f272d5db78}} 
+\index{JoyAxis@{JoyAxis}!currentThrottledDeadValue@{currentThrottledDeadValue}}
+\index{currentThrottledDeadValue@{currentThrottledDeadValue}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{currentThrottledDeadValue}{currentThrottledDeadValue}}
+{\footnotesize\ttfamily int Joy\+Axis\+::current\+Throttled\+Dead\+Value\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classJoyAxis_a08e038cd8cea4ea4c29e237f207ae440}\label{classJoyAxis_a08e038cd8cea4ea4c29e237f207ae440}} 
+\index{JoyAxis@{JoyAxis}!currentThrottledValue@{currentThrottledValue}}
+\index{currentThrottledValue@{currentThrottledValue}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{currentThrottledValue}{currentThrottledValue}}
+{\footnotesize\ttfamily int Joy\+Axis\+::current\+Throttled\+Value\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classJoyAxis_a699d8c4e7462fec79ca02868098bd42d}\label{classJoyAxis_a699d8c4e7462fec79ca02868098bd42d}} 
+\index{JoyAxis@{JoyAxis}!deadZone@{deadZone}}
+\index{deadZone@{deadZone}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{deadZone}{deadZone}}
+{\footnotesize\ttfamily int Joy\+Axis\+::dead\+Zone\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classJoyAxis_a6b07cc45a606a3046e3fb3a15e80c423}\label{classJoyAxis_a6b07cc45a606a3046e3fb3a15e80c423}} 
+\index{JoyAxis@{JoyAxis}!defaultAxisName@{defaultAxisName}}
+\index{defaultAxisName@{defaultAxisName}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{defaultAxisName}{defaultAxisName}}
+{\footnotesize\ttfamily Q\+String Joy\+Axis\+::default\+Axis\+Name\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classJoyAxis_acc94d25bde6aff4694619141b5a2929c}\label{classJoyAxis_acc94d25bde6aff4694619141b5a2929c}} 
+\index{JoyAxis@{JoyAxis}!DEFAULTTHROTTLE@{DEFAULTTHROTTLE}}
+\index{DEFAULTTHROTTLE@{DEFAULTTHROTTLE}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{DEFAULTTHROTTLE}{DEFAULTTHROTTLE}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classJoyAxis_a7e459c55c342481732d5c63301c5080d}{Joy\+Axis\+::\+Throttle\+Types}} Joy\+Axis\+::\+D\+E\+F\+A\+U\+L\+T\+T\+H\+R\+O\+T\+T\+LE = \mbox{\hyperlink{classJoyAxis_a7e459c55c342481732d5c63301c5080da5e55c6ee7d428101ccbb02d96c06132b}{Joy\+Axis\+::\+Normal\+Throttle}}\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{classJoyAxis_ac6349b49917259b8422ec7cbe14bd971}\label{classJoyAxis_ac6349b49917259b8422ec7cbe14bd971}} 
+\index{JoyAxis@{JoyAxis}!eventActive@{eventActive}}
+\index{eventActive@{eventActive}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{eventActive}{eventActive}}
+{\footnotesize\ttfamily bool Joy\+Axis\+::event\+Active\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classJoyAxis_a9987aa4202245b3fc7d6f4b9cc064301}\label{classJoyAxis_a9987aa4202245b3fc7d6f4b9cc064301}} 
+\index{JoyAxis@{JoyAxis}!isActive@{isActive}}
+\index{isActive@{isActive}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{isActive}{isActive}}
+{\footnotesize\ttfamily bool Joy\+Axis\+::is\+Active\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classJoyAxis_a7bbc1b9840389c20fedb6cca86dcfb0b}\label{classJoyAxis_a7bbc1b9840389c20fedb6cca86dcfb0b}} 
+\index{JoyAxis@{JoyAxis}!lastKnownRawValue@{lastKnownRawValue}}
+\index{lastKnownRawValue@{lastKnownRawValue}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{lastKnownRawValue}{lastKnownRawValue}}
+{\footnotesize\ttfamily int Joy\+Axis\+::last\+Known\+Raw\+Value\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classJoyAxis_aa094260ac81cf39d06effeff6c87fd84}\label{classJoyAxis_aa094260ac81cf39d06effeff6c87fd84}} 
+\index{JoyAxis@{JoyAxis}!lastKnownThottledValue@{lastKnownThottledValue}}
+\index{lastKnownThottledValue@{lastKnownThottledValue}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{lastKnownThottledValue}{lastKnownThottledValue}}
+{\footnotesize\ttfamily int Joy\+Axis\+::last\+Known\+Thottled\+Value\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classJoyAxis_a42487ce8dae77e6fa0b7b5e0c12a09df}\label{classJoyAxis_a42487ce8dae77e6fa0b7b5e0c12a09df}} 
+\index{JoyAxis@{JoyAxis}!m\_index@{m\_index}}
+\index{m\_index@{m\_index}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{m\_index}{m\_index}}
+{\footnotesize\ttfamily int Joy\+Axis\+::m\+\_\+index\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classJoyAxis_a7bdccea13ae30c0c64dd645a30ee069e}\label{classJoyAxis_a7bdccea13ae30c0c64dd645a30ee069e}} 
+\index{JoyAxis@{JoyAxis}!m\_originset@{m\_originset}}
+\index{m\_originset@{m\_originset}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{m\_originset}{m\_originset}}
+{\footnotesize\ttfamily int Joy\+Axis\+::m\+\_\+originset\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classJoyAxis_a1da916c7cd605158eabf9c79cf10843e}\label{classJoyAxis_a1da916c7cd605158eabf9c79cf10843e}} 
+\index{JoyAxis@{JoyAxis}!m\_parentSet@{m\_parentSet}}
+\index{m\_parentSet@{m\_parentSet}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{m\_parentSet}{m\_parentSet}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classSetJoystick}{Set\+Joystick}}$\ast$ Joy\+Axis\+::m\+\_\+parent\+Set\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classJoyAxis_a827890886194525662ee5d85f4c48cb1}\label{classJoyAxis_a827890886194525662ee5d85f4c48cb1}} 
+\index{JoyAxis@{JoyAxis}!m\_stick@{m\_stick}}
+\index{m\_stick@{m\_stick}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{m\_stick}{m\_stick}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyControlStick}{Joy\+Control\+Stick}}$\ast$ Joy\+Axis\+::m\+\_\+stick\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classJoyAxis_adb319713b28c42b98b9d7b51c9ba3020}\label{classJoyAxis_adb319713b28c42b98b9d7b51c9ba3020}} 
+\index{JoyAxis@{JoyAxis}!maxZoneValue@{maxZoneValue}}
+\index{maxZoneValue@{maxZoneValue}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{maxZoneValue}{maxZoneValue}}
+{\footnotesize\ttfamily int Joy\+Axis\+::max\+Zone\+Value\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classJoyAxis_aff6406ca0181ce04ab0e6cd50da2905f}\label{classJoyAxis_aff6406ca0181ce04ab0e6cd50da2905f}} 
+\index{JoyAxis@{JoyAxis}!naxisbutton@{naxisbutton}}
+\index{naxisbutton@{naxisbutton}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{naxisbutton}{naxisbutton}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyAxisButton}{Joy\+Axis\+Button}}$\ast$ Joy\+Axis\+::naxisbutton\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classJoyAxis_a75651326e730a6e1eebc58fa1cb26e44}\label{classJoyAxis_a75651326e730a6e1eebc58fa1cb26e44}} 
+\index{JoyAxis@{JoyAxis}!paxisbutton@{paxisbutton}}
+\index{paxisbutton@{paxisbutton}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{paxisbutton}{paxisbutton}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyAxisButton}{Joy\+Axis\+Button}}$\ast$ Joy\+Axis\+::paxisbutton\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classJoyAxis_a5522f91c7b1be37d812cd8580adab540}\label{classJoyAxis_a5522f91c7b1be37d812cd8580adab540}} 
+\index{JoyAxis@{JoyAxis}!pendingEvent@{pendingEvent}}
+\index{pendingEvent@{pendingEvent}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{pendingEvent}{pendingEvent}}
+{\footnotesize\ttfamily bool Joy\+Axis\+::pending\+Event\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classJoyAxis_a76a0895c81355b22f5769027cf36a859}\label{classJoyAxis_a76a0895c81355b22f5769027cf36a859}} 
+\index{JoyAxis@{JoyAxis}!pendingIgnoreSets@{pendingIgnoreSets}}
+\index{pendingIgnoreSets@{pendingIgnoreSets}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{pendingIgnoreSets}{pendingIgnoreSets}}
+{\footnotesize\ttfamily bool Joy\+Axis\+::pending\+Ignore\+Sets\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classJoyAxis_a3ff48472228926375b8bdb9211fbe779}\label{classJoyAxis_a3ff48472228926375b8bdb9211fbe779}} 
+\index{JoyAxis@{JoyAxis}!pendingValue@{pendingValue}}
+\index{pendingValue@{pendingValue}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{pendingValue}{pendingValue}}
+{\footnotesize\ttfamily int Joy\+Axis\+::pending\+Value\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classJoyAxis_afad9925c0bc7b762d38410dc02b69476}\label{classJoyAxis_afad9925c0bc7b762d38410dc02b69476}} 
+\index{JoyAxis@{JoyAxis}!throttle@{throttle}}
+\index{throttle@{throttle}!JoyAxis@{JoyAxis}}
+\doxysubsubsection{\texorpdfstring{throttle}{throttle}}
+{\footnotesize\ttfamily int Joy\+Axis\+::throttle\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{joyaxis_8h}{joyaxis.\+h}}\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{joyaxis_8cpp}{joyaxis.\+cpp}}\end{DoxyCompactItemize}

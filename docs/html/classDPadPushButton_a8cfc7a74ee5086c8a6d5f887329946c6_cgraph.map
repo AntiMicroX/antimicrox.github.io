@@ -1,0 +1,31 @@
+<map id="DPadPushButton::DPadPushButton" name="DPadPushButton::DPadPushButton">
+<area shape="rect" id="node1" title=" " alt="" coords="5,144,200,185"/>
+<area shape="rect" id="node2" href="$classDPadPushButton.html#ae599ad623929aecc8d506400b6343efb" title=" " alt="" coords="261,126,475,153"/>
+<area shape="rect" id="node5" href="$classFlashButtonWidget.html#a14c9ecbbd3dfaef78b78371e17aac539" title=" " alt="" coords="297,24,439,65"/>
+<area shape="rect" id="node7" href="$classDPadPushButton.html#ac4bf738d749acdff3e9c2b74fe2ea6dd" title=" " alt="" coords="248,231,488,258"/>
+<area shape="rect" id="node28" href="$classDPadPushButton.html#a18853778b19ca118357e7e2bf30830f0" title=" " alt="" coords="279,177,457,203"/>
+<area shape="rect" id="node3" href="$classFlashButtonWidget.html#ad8d71480fd154aad271af693af681394" title=" " alt="" coords="565,136,707,177"/>
+<area shape="rect" id="node4" href="$classFlashButtonWidget.html#a84af4cf2103d6f054e117915850199ec" title=" " alt="" coords="565,71,707,112"/>
+<area shape="rect" id="node6" href="$classFlashButtonWidget.html#a15b2a9c645747d9f1f8368389da5830a" title=" " alt="" coords="565,5,707,47"/>
+<area shape="rect" id="node8" href="$classDPadContextMenu.html#abb058d792c1ba0c3c74cb849b4390b62" title="Generate the context menu that will be shown to a user when the person right clicks on the DPad setti..." alt="" coords="536,253,736,279"/>
+<area shape="rect" id="node9" href="$classDPadContextMenu.html#a1cafb84b40c743f9b777ad6e49deefd2" title=" " alt="" coords="793,111,983,152"/>
+<area shape="rect" id="node12" href="$classDPadContextMenu.html#ae176816ed8b0f6674040628c02f6ef58" title=" " alt="" coords="793,187,983,228"/>
+<area shape="rect" id="node18" href="$classJoyDPad.html#a49c84e10ea78221ef1d42a2f986f05e8" title=" " alt="" coords="1351,259,1505,286"/>
+<area shape="rect" id="node20" href="$classDPadContextMenu.html#a27b2084e8b1998f9f8cb798d9e08d231" title="Find the appropriate menu item index for the currently assigned slots that are assigned to a DPad." alt="" coords="789,372,987,413"/>
+<area shape="rect" id="node27" href="$classDPadContextMenu.html#a4fa051d72cad843a148e49a91e56c019" title="Open a mouse settings dialog for changing the mouse speed settings for all DPad buttons." alt="" coords="784,437,992,479"/>
+<area shape="rect" id="node10" href="$classDPadContextMenu.html#a13e390013b02411aabc85d1e4b17891a" title="Set the appropriate mode for a DPad based on the item chosen." alt="" coords="1040,97,1264,123"/>
+<area shape="rect" id="node11" href="$classJoyDPad.html#ae912673a382e0ffcdd1472373ffe832b" title=" " alt="" coords="1351,91,1505,118"/>
+<area shape="rect" id="node13" href="$classDPadContextMenu.html#a40550e6245c2c82666d52ca4e7e66f67" title="Assign the appropriate slots to DPad buttons based on the preset item that was chosen." alt="" coords="1056,187,1248,228"/>
+<area shape="rect" id="node14" href="$classDPadContextMenu.html#a60b40fa686979a820b816eae259cf52d" title=" " alt="" coords="1329,142,1527,169"/>
+<area shape="rect" id="node15" href="$classAntKeyMapper.html#acd08c44a2501edcfdb1ef8a68d534b1b" title=" " alt="" coords="1337,358,1519,385"/>
+<area shape="rect" id="node19" href="$classDPadContextMenuHelper.html#a454c25195ce9a77495ce74e388929561" title=" " alt="" coords="1343,193,1513,235"/>
+<area shape="rect" id="node16" href="$classAntKeyMapper.html#abe4a434636d370a750d32a14b9a139d3" title=" " alt="" coords="1592,333,1792,359"/>
+<area shape="rect" id="node17" href="$antkeymapper_8cpp.html#a4f87707944cf82e8e59c85d48e24951c" title=" " alt="" coords="1612,383,1772,410"/>
+<area shape="rect" id="node21" href="$classJoyButton.html#ae1d364dfa70f47fae3db99ffbcdea44b" title=" " alt="" coords="1057,506,1247,533"/>
+<area shape="rect" id="node22" href="$classJoyDPad.html#a5e31e9bf9edfcc87b69d389dbe9d2ea9" title=" " alt="" coords="1071,557,1233,583"/>
+<area shape="rect" id="node23" href="$classJoyButtonSlot.html#a7fa0bf6d891437a2392e47d32b746502" title=" " alt="" coords="1060,303,1244,330"/>
+<area shape="rect" id="node24" href="$classJoyButtonSlot.html#abed7fe134c404b403ea79c0753f6eaaf" title=" " alt="" coords="1059,354,1245,381"/>
+<area shape="rect" id="node25" href="$classAntKeyMapper.html#a07957c1e2baac6c4266678d89dc7c3a6" title=" " alt="" coords="1048,455,1256,482"/>
+<area shape="rect" id="node26" href="$classQtKeyMapperBase.html#a5df0f313bce11847f8495126373e7178" title=" " alt="" coords="1312,455,1544,482"/>
+<area shape="rect" id="node29" href="$classJoyDPad.html#aacfc91b263be22419a610c023b407c28" title=" " alt="" coords="537,202,735,229"/>
+</map>

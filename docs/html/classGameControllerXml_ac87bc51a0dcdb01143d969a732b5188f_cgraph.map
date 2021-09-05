@@ -1,0 +1,28 @@
+<map id="GameControllerXml::writeConfig" name="GameControllerXml::writeConfig">
+<area shape="rect" id="node1" title=" " alt="" coords="5,413,149,454"/>
+<area shape="rect" id="node2" href="$classInputDevice.html#abc23a70bef37f2fc70248cd129af170b" title=" " alt="" coords="461,55,636,97"/>
+<area shape="rect" id="node3" href="$classInputDevice.html#a1c4c65d9e509a5c3bde064871d7e1849" title=" " alt="" coords="717,33,916,60"/>
+<area shape="rect" id="node4" href="$classInputDevice.html#a15ce72c69139dfded93523e17d48c7ab" title=" " alt="" coords="207,413,388,454"/>
+<area shape="rect" id="node5" href="$classInputDevice.html#a0e5ec1f9ff969ada1f54b4a71020f54c" title=" " alt="" coords="202,479,393,505"/>
+<area shape="rect" id="node6" href="$classGameController.html#ad3a3fd36ba06e7260eba3327b96f3281" title=" " alt="" coords="197,529,397,556"/>
+<area shape="rect" id="node7" href="$classGameController.html#ae21dd53c1aedd51100013998d4b4ee5b" title=" " alt="" coords="207,581,387,622"/>
+<area shape="rect" id="node12" href="$classGameController.html#a06d987ad3d6e2979a4e1b7d9c4a91b0f" title=" " alt="" coords="199,647,396,673"/>
+<area shape="rect" id="node13" href="$classGameControllerXml.html#a43ba30d58802f57ca877b5c85ec1e018" title=" " alt="" coords="225,179,369,221"/>
+<area shape="rect" id="node19" href="$classGameControllerXml.html#a2ea0df8c20f07dd3ee8fa765acd3bdcc" title=" " alt="" coords="225,698,369,739"/>
+<area shape="rect" id="node21" href="$classGameControllerXml.html#a930e9b49e3543488adfb92b4e82dd9ca" title=" " alt="" coords="225,347,369,389"/>
+<area shape="rect" id="node24" href="$classGameControllerXml.html#a24aeb787738fab230de3d4dc80adee26" title=" " alt="" coords="225,282,369,323"/>
+<area shape="rect" id="node8" href="$classGameController.html#a3b9a02f01cf262b0fc0d683804f7e7dc" title=" " alt="" coords="445,581,652,622"/>
+<area shape="rect" id="node9" href="$classGameController.html#ae91ab30a326f043cb9ccb5e7531f7283" title=" " alt="" coords="700,529,933,556"/>
+<area shape="rect" id="node10" href="$classGameController.html#ab0541272658f9b96ddd7a9581fd5246c" title=" " alt="" coords="711,581,922,622"/>
+<area shape="rect" id="node11" href="$classGameController.html#a434290eeff7371a8fd94e2e939484202" title=" " alt="" coords="714,646,919,687"/>
+<area shape="rect" id="node14" href="$classSetJoystick.html#a4d1b6543ec53dd06992f77c0b89a5532" title=" " alt="" coords="477,187,621,213"/>
+<area shape="rect" id="node15" href="$classGameControllerXml.html#a58cc6838bb726b635eb2875c192b144a" title=" " alt="" coords="477,121,621,162"/>
+<area shape="rect" id="node16" href="$classJoyButton.html#a7123f5432bda7b5b9d4b2b95bdabf4db" title=" " alt="" coords="727,237,907,264"/>
+<area shape="rect" id="node17" href="$classJoyAxis.html#a9ceda991c13da3a99868acc436ed20f3" title=" " alt="" coords="729,157,904,184"/>
+<area shape="rect" id="node18" href="$classJoyButton.html#a39c9ccaf641bb8bf50b29d4c4e04c165" title="Get a 1 indexed number of button." alt="" coords="717,107,917,133"/>
+<area shape="rect" id="node20" href="$classSetJoystick.html#ac5baae46a0b3924a83b523ad89819a53" title=" " alt="" coords="469,705,629,732"/>
+<area shape="rect" id="node22" href="$classJoyControlStickButton.html#aa12b47378f8b5da46e06f4993c73504d" title="Get a 1 indexed number of button." alt="" coords="472,457,625,498"/>
+<area shape="rect" id="node23" href="$classSetJoystick.html#a7ca499fe41a0a9841b4fe904b07cbc30" title=" " alt="" coords="473,523,625,549"/>
+<area shape="rect" id="node25" href="$classJoyDPadButton.html#ae6a39626f57db823f682ef1d028b1ef6" title="Get a 1 indexed number of button." alt="" coords="455,289,642,330"/>
+<area shape="rect" id="node26" href="$classSetJoystick.html#ad859311bfde76dbdaac274cb5ede63d6" title=" " alt="" coords="469,355,628,381"/>
+</map>

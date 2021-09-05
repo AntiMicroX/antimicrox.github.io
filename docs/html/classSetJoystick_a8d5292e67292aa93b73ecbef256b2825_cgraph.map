@@ -1,0 +1,17 @@
+<map id="SetJoystick::enableHatConnections" name="SetJoystick::enableHatConnections">
+<area shape="rect" id="node1" title=" " alt="" coords="5,242,235,269"/>
+<area shape="rect" id="node2" href="$classInputDevice.html#af6beab81d96c93a17301b0b01f9e3356" title=" " alt="" coords="514,188,710,229"/>
+<area shape="rect" id="node5" href="$classInputDevice.html#a319d498ebdfa04d092dcba9434542fb4" title=" " alt="" coords="505,123,719,164"/>
+<area shape="rect" id="node6" href="$classJoyDPad.html#a208a8dec4c87c992cb15705b2a4e4bbb" title=" " alt="" coords="286,343,454,370"/>
+<area shape="rect" id="node7" href="$classSetJoystick.html#aeb069bf5f9e89bf2fb7dc73d89b5fbbd" title=" " alt="" coords="283,395,457,436"/>
+<area shape="rect" id="node8" href="$classSetJoystick.html#a17495b4d632a78b0cec26230c7922e36" title=" " alt="" coords="283,460,457,501"/>
+<area shape="rect" id="node9" href="$classSetJoystick.html#a34909d7126daa4494789b77ce86dea27" title=" " alt="" coords="525,319,699,360"/>
+<area shape="rect" id="node12" href="$classSetJoystick.html#aceb96e8f8440c878aafdfa74ed46679d" title=" " alt="" coords="525,5,699,47"/>
+<area shape="rect" id="node14" href="$classSetJoystick.html#a979ed0c246f09523b8f4480898148cf6" title=" " alt="" coords="525,253,699,295"/>
+<area shape="rect" id="node15" href="$classSetJoystick.html#ad4f4284bef2a9379684d155421aa51bb" title=" " alt="" coords="283,64,457,105"/>
+<area shape="rect" id="node3" href="$classJoyDPadButton.html#a3562e822a51b68df01e9a76267428728" title=" " alt="" coords="768,195,941,222"/>
+<area shape="rect" id="node4" href="$classJoyDPad.html#a089e9a69356d82336da47361bfc94b63" title=" " alt="" coords="787,137,922,163"/>
+<area shape="rect" id="node10" href="$classJoyButton.html#aa1eb52e9cce61ac403f9b451c512f197" title=" " alt="" coords="767,323,943,350"/>
+<area shape="rect" id="node11" href="$classJoyButton.html#abbccee98e377453167a47b49874eeab7" title=" " alt="" coords="767,256,943,297"/>
+<area shape="rect" id="node13" href="$classJoyButton.html#aa659d5a0860f5047862ca0761d8d775a" title="Get 0 indexed number of button." alt="" coords="767,13,942,39"/>
+</map>

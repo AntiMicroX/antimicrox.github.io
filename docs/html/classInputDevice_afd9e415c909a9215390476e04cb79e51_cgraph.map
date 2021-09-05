@@ -1,0 +1,11 @@
+<map id="InputDevice::setVDPadButtonName" name="InputDevice::setVDPadButtonName">
+<area shape="rect" id="node1" title=" " alt="" coords="5,89,239,116"/>
+<area shape="rect" id="node2" href="$classJoyDPad.html#a5e31e9bf9edfcc87b69d389dbe9d2ea9" title=" " alt="" coords="545,30,707,57"/>
+<area shape="rect" id="node3" href="$classInputDevice.html#a1c4c65d9e509a5c3bde064871d7e1849" title=" " alt="" coords="764,34,963,61"/>
+<area shape="rect" id="node4" href="$classSetJoystick.html#abcdc88c96a95fb0f5d8a721582d22851" title=" " alt="" coords="547,198,705,225"/>
+<area shape="rect" id="node6" href="$classJoyButton.html#a5577eb227e3fd535fdcbbf395648e215" title=" " alt="" coords="297,148,477,174"/>
+<area shape="rect" id="node7" href="$classInputDevice.html#ac45d96f574a4b1c64b93932e49711377" title=" " alt="" coords="287,82,488,123"/>
+<area shape="rect" id="node5" href="$classSetJoystick.html#ad859311bfde76dbdaac274cb5ede63d6" title=" " alt="" coords="784,198,943,225"/>
+<area shape="rect" id="node8" href="$classInputDevice.html#abc23a70bef37f2fc70248cd129af170b" title=" " alt="" coords="539,82,713,123"/>
+<area shape="rect" id="node9" href="$classJoyButton.html#a7123f5432bda7b5b9d4b2b95bdabf4db" title=" " alt="" coords="536,148,716,174"/>
+</map>

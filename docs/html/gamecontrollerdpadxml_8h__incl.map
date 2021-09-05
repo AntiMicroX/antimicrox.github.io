@@ -1,0 +1,25 @@
+<map id="/home/pawel/antimicrox/src/gamecontroller/xml/gamecontrollerdpadxml.h" name="/home/pawel/antimicrox/src/gamecontroller/xml/gamecontrollerdpadxml.h">
+<area shape="rect" id="node1" title=" " alt="" coords="835,5,1006,61"/>
+<area shape="rect" id="node2" href="$vdpad_8h.html" title=" " alt="" coords="851,109,919,136"/>
+<area shape="rect" id="node23" href="$joydpadxml_8h.html" title=" " alt="" coords="1247,184,1371,211"/>
+<area shape="rect" id="node3" href="$joydpad_8h.html" title=" " alt="" coords="845,184,924,211"/>
+<area shape="rect" id="node12" title=" " alt="" coords="5,483,79,509"/>
+<area shape="rect" id="node4" href="$joydpadbutton_8h.html" title=" " alt="" coords="783,259,986,285"/>
+<area shape="rect" id="node5" href="$joybutton_8h.html" title=" " alt="" coords="841,333,928,360"/>
+<area shape="rect" id="node6" href="$globalvariables_8h.html" title=" " alt="" coords="1388,408,1507,435"/>
+<area shape="rect" id="node9" href="$joybuttonmousehelper_8h.html" title=" " alt="" coords="1203,408,1363,435"/>
+<area shape="rect" id="node10" href="$joybuttonslot_8h.html" title=" " alt="" coords="211,408,318,435"/>
+<area shape="rect" id="node16" href="$springmousemoveinfo_8h.html" title=" " alt="" coords="343,408,501,435"/>
+<area shape="rect" id="node17" title=" " alt="" coords="525,408,641,435"/>
+<area shape="rect" id="node18" title=" " alt="" coords="665,408,736,435"/>
+<area shape="rect" id="node19" title=" " alt="" coords="761,408,881,435"/>
+<area shape="rect" id="node20" title=" " alt="" coords="905,408,992,435"/>
+<area shape="rect" id="node21" title=" " alt="" coords="1017,408,1089,435"/>
+<area shape="rect" id="node22" title=" " alt="" coords="1113,408,1179,435"/>
+<area shape="rect" id="node7" title=" " alt="" coords="1421,483,1474,509"/>
+<area shape="rect" id="node8" title=" " alt="" coords="1287,483,1357,509"/>
+<area shape="rect" id="node11" title=" " alt="" coords="290,483,402,509"/>
+<area shape="rect" id="node13" title=" " alt="" coords="426,483,487,509"/>
+<area shape="rect" id="node14" title=" " alt="" coords="511,483,583,509"/>
+<area shape="rect" id="node15" title=" " alt="" coords="103,483,266,509"/>
+</map>

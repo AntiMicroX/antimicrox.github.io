@@ -1,0 +1,6 @@
+<map id="JoyControlStick::populateButtons" name="JoyControlStick::populateButtons">
+<area shape="rect" id="node1" title="Populate the virtual buttons assigned to an analog stick." alt="" coords="5,5,176,47"/>
+<area shape="rect" id="node2" href="$classJoyControlStick.html#a206ddd9d2d353588f0491881dc07d307" title=" " alt="" coords="224,5,395,47"/>
+<area shape="rect" id="node3" href="$classJoyControlStick.html#a368fdbc00c4a4a9cf3f3e49d6736da65" title="Get pointer to the set that a stick belongs to." alt="" coords="443,13,641,39"/>
+<area shape="rect" id="node4" href="$classJoyAxis.html#a12c4147c5f4a320aee710f8753263aa6" title=" " alt="" coords="689,13,843,39"/>
+</map>

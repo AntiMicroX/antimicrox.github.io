@@ -1,0 +1,162 @@
+\hypertarget{classDPadEditDialogHelper}{}\doxysection{D\+Pad\+Edit\+Dialog\+Helper Class Reference}
+\label{classDPadEditDialogHelper}\index{DPadEditDialogHelper@{DPadEditDialogHelper}}
+
+
+{\ttfamily \#include $<$dpadeditdialoghelper.\+h$>$}
+
+
+
+Inheritance diagram for D\+Pad\+Edit\+Dialog\+Helper\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=195pt]{classDPadEditDialogHelper__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for D\+Pad\+Edit\+Dialog\+Helper\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDPadEditDialogHelper__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classDPadEditDialogHelper_a15e31302f41da2df05eec55810fc9b1e}{set\+From\+Pending\+Slots}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classDPadEditDialogHelper_add08a863a14dee0fed6c437c4b2f5631}{clear\+Buttons\+Slots\+Event\+Reset}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classDPadEditDialogHelper_af839176999246b6d73ee93ab5164e70b}{update\+Joy\+D\+Pad\+Delay}} (int value)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classDPadEditDialogHelper_aade6392386404ac67e65dd5d7184b40d}{D\+Pad\+Edit\+Dialog\+Helper}} (\mbox{\hyperlink{classJoyDPad}{Joy\+D\+Pad}} $\ast$\mbox{\hyperlink{classDPadEditDialogHelper_acbed09d51c7ed19c707f60b4686617b1}{dpad}}, Q\+Object $\ast$parent=nullptr)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classDPadEditDialogHelper_aae1190365377795cfb83ebe07d04e523}{set\+Pending\+Slots}} (Q\+Hash$<$ \mbox{\hyperlink{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729a}{Joy\+D\+Pad\+Button\+::\+Joy\+D\+Pad\+Directions}}, \mbox{\hyperlink{classJoyButtonSlot}{Joy\+Button\+Slot}} $\ast$ $>$ $\ast$temp\+Slots)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classDPadEditDialogHelper_a383c6de6e12f743d47560286be47cf94}{clear\+Pending\+Slots}} ()
+\item 
+const Q\+Hash$<$ \mbox{\hyperlink{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729a}{Joy\+D\+Pad\+Button\+::\+Joy\+D\+Pad\+Directions}}, \mbox{\hyperlink{classJoyButtonSlot}{Joy\+Button\+Slot}} $\ast$ $>$ \& \mbox{\hyperlink{classDPadEditDialogHelper_a7fa056bbcd30b7fa8d56ae1cc9952f04}{get\+Pending\+Slots}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classJoyDPad}{Joy\+D\+Pad}} $\ast$ \mbox{\hyperlink{classDPadEditDialogHelper_acbed09d51c7ed19c707f60b4686617b1}{dpad}}
+\item 
+Q\+Hash$<$ \mbox{\hyperlink{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729a}{Joy\+D\+Pad\+Button\+::\+Joy\+D\+Pad\+Directions}}, \mbox{\hyperlink{classJoyButtonSlot}{Joy\+Button\+Slot}} $\ast$ $>$ \mbox{\hyperlink{classDPadEditDialogHelper_a68a24c6744ed6baa814dff50554ca08f}{pending\+Slots}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classDPadEditDialogHelper_aade6392386404ac67e65dd5d7184b40d}\label{classDPadEditDialogHelper_aade6392386404ac67e65dd5d7184b40d}} 
+\index{DPadEditDialogHelper@{DPadEditDialogHelper}!DPadEditDialogHelper@{DPadEditDialogHelper}}
+\index{DPadEditDialogHelper@{DPadEditDialogHelper}!DPadEditDialogHelper@{DPadEditDialogHelper}}
+\doxysubsubsection{\texorpdfstring{DPadEditDialogHelper()}{DPadEditDialogHelper()}}
+{\footnotesize\ttfamily D\+Pad\+Edit\+Dialog\+Helper\+::\+D\+Pad\+Edit\+Dialog\+Helper (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyDPad}{Joy\+D\+Pad}} $\ast$}]{dpad,  }\item[{Q\+Object $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDPadEditDialogHelper_add08a863a14dee0fed6c437c4b2f5631}\label{classDPadEditDialogHelper_add08a863a14dee0fed6c437c4b2f5631}} 
+\index{DPadEditDialogHelper@{DPadEditDialogHelper}!clearButtonsSlotsEventReset@{clearButtonsSlotsEventReset}}
+\index{clearButtonsSlotsEventReset@{clearButtonsSlotsEventReset}!DPadEditDialogHelper@{DPadEditDialogHelper}}
+\doxysubsubsection{\texorpdfstring{clearButtonsSlotsEventReset}{clearButtonsSlotsEventReset}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} D\+Pad\+Edit\+Dialog\+Helper\+::clear\+Buttons\+Slots\+Event\+Reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDPadEditDialogHelper_add08a863a14dee0fed6c437c4b2f5631_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classDPadEditDialogHelper_a383c6de6e12f743d47560286be47cf94}\label{classDPadEditDialogHelper_a383c6de6e12f743d47560286be47cf94}} 
+\index{DPadEditDialogHelper@{DPadEditDialogHelper}!clearPendingSlots@{clearPendingSlots}}
+\index{clearPendingSlots@{clearPendingSlots}!DPadEditDialogHelper@{DPadEditDialogHelper}}
+\doxysubsubsection{\texorpdfstring{clearPendingSlots()}{clearPendingSlots()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} D\+Pad\+Edit\+Dialog\+Helper\+::clear\+Pending\+Slots (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classDPadEditDialogHelper_a7fa056bbcd30b7fa8d56ae1cc9952f04}\label{classDPadEditDialogHelper_a7fa056bbcd30b7fa8d56ae1cc9952f04}} 
+\index{DPadEditDialogHelper@{DPadEditDialogHelper}!getPendingSlots@{getPendingSlots}}
+\index{getPendingSlots@{getPendingSlots}!DPadEditDialogHelper@{DPadEditDialogHelper}}
+\doxysubsubsection{\texorpdfstring{getPendingSlots()}{getPendingSlots()}}
+{\footnotesize\ttfamily const Q\+Hash$<$ \mbox{\hyperlink{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729a}{Joy\+D\+Pad\+Button\+::\+Joy\+D\+Pad\+Directions}}, \mbox{\hyperlink{classJoyButtonSlot}{Joy\+Button\+Slot}} $\ast$ $>$ \& D\+Pad\+Edit\+Dialog\+Helper\+::get\+Pending\+Slots (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{classDPadEditDialogHelper_a7fa056bbcd30b7fa8d56ae1cc9952f04_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classDPadEditDialogHelper_a15e31302f41da2df05eec55810fc9b1e}\label{classDPadEditDialogHelper_a15e31302f41da2df05eec55810fc9b1e}} 
+\index{DPadEditDialogHelper@{DPadEditDialogHelper}!setFromPendingSlots@{setFromPendingSlots}}
+\index{setFromPendingSlots@{setFromPendingSlots}!DPadEditDialogHelper@{DPadEditDialogHelper}}
+\doxysubsubsection{\texorpdfstring{setFromPendingSlots}{setFromPendingSlots}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} D\+Pad\+Edit\+Dialog\+Helper\+::set\+From\+Pending\+Slots (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDPadEditDialogHelper_a15e31302f41da2df05eec55810fc9b1e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classDPadEditDialogHelper_aae1190365377795cfb83ebe07d04e523}\label{classDPadEditDialogHelper_aae1190365377795cfb83ebe07d04e523}} 
+\index{DPadEditDialogHelper@{DPadEditDialogHelper}!setPendingSlots@{setPendingSlots}}
+\index{setPendingSlots@{setPendingSlots}!DPadEditDialogHelper@{DPadEditDialogHelper}}
+\doxysubsubsection{\texorpdfstring{setPendingSlots()}{setPendingSlots()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} D\+Pad\+Edit\+Dialog\+Helper\+::set\+Pending\+Slots (\begin{DoxyParamCaption}\item[{Q\+Hash$<$ \mbox{\hyperlink{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729a}{Joy\+D\+Pad\+Button\+::\+Joy\+D\+Pad\+Directions}}, \mbox{\hyperlink{classJoyButtonSlot}{Joy\+Button\+Slot}} $\ast$ $>$ $\ast$}]{temp\+Slots }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDPadEditDialogHelper_aae1190365377795cfb83ebe07d04e523_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classDPadEditDialogHelper_af839176999246b6d73ee93ab5164e70b}\label{classDPadEditDialogHelper_af839176999246b6d73ee93ab5164e70b}} 
+\index{DPadEditDialogHelper@{DPadEditDialogHelper}!updateJoyDPadDelay@{updateJoyDPadDelay}}
+\index{updateJoyDPadDelay@{updateJoyDPadDelay}!DPadEditDialogHelper@{DPadEditDialogHelper}}
+\doxysubsubsection{\texorpdfstring{updateJoyDPadDelay}{updateJoyDPadDelay}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} D\+Pad\+Edit\+Dialog\+Helper\+::update\+Joy\+D\+Pad\+Delay (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDPadEditDialogHelper_af839176999246b6d73ee93ab5164e70b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDPadEditDialogHelper_af839176999246b6d73ee93ab5164e70b_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classDPadEditDialogHelper_acbed09d51c7ed19c707f60b4686617b1}\label{classDPadEditDialogHelper_acbed09d51c7ed19c707f60b4686617b1}} 
+\index{DPadEditDialogHelper@{DPadEditDialogHelper}!dpad@{dpad}}
+\index{dpad@{dpad}!DPadEditDialogHelper@{DPadEditDialogHelper}}
+\doxysubsubsection{\texorpdfstring{dpad}{dpad}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyDPad}{Joy\+D\+Pad}}$\ast$ D\+Pad\+Edit\+Dialog\+Helper\+::dpad\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classDPadEditDialogHelper_a68a24c6744ed6baa814dff50554ca08f}\label{classDPadEditDialogHelper_a68a24c6744ed6baa814dff50554ca08f}} 
+\index{DPadEditDialogHelper@{DPadEditDialogHelper}!pendingSlots@{pendingSlots}}
+\index{pendingSlots@{pendingSlots}!DPadEditDialogHelper@{DPadEditDialogHelper}}
+\doxysubsubsection{\texorpdfstring{pendingSlots}{pendingSlots}}
+{\footnotesize\ttfamily Q\+Hash$<$\mbox{\hyperlink{classJoyDPadButton_ac5b01ca435b220c1aeaad96b4a65729a}{Joy\+D\+Pad\+Button\+::\+Joy\+D\+Pad\+Directions}}, \mbox{\hyperlink{classJoyButtonSlot}{Joy\+Button\+Slot}} $\ast$$>$ D\+Pad\+Edit\+Dialog\+Helper\+::pending\+Slots\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/antimicrox/src/uihelpers/\mbox{\hyperlink{dpadeditdialoghelper_8h}{dpadeditdialoghelper.\+h}}\item 
+/home/pawel/antimicrox/src/uihelpers/\mbox{\hyperlink{dpadeditdialoghelper_8cpp}{dpadeditdialoghelper.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,21 @@
+<map id="MouseSettingsDialog::MouseSettingsDialog" name="MouseSettingsDialog::MouseSettingsDialog">
+<area shape="rect" id="node1" title=" " alt="" coords="5,440,160,481"/>
+<area shape="rect" id="node2" href="$classMouseSettingsDialog.html#a7c8d20e99f60956ab88d9b1267eed678" title=" " alt="" coords="216,5,425,47"/>
+<area shape="rect" id="node3" href="$classMouseSettingsDialog.html#adfc7da33bed8e4cc8bb6af6bf5de8901" title=" " alt="" coords="491,42,682,98"/>
+<area shape="rect" id="node5" href="$classMouseSettingsDialog.html#aa4950d5644d83623e3c3e0f8d6974636" title=" " alt="" coords="487,123,686,164"/>
+<area shape="rect" id="node6" href="$classMouseSettingsDialog.html#a2c50aa11cdd3d1c30a8b86cbb5fb6d65" title=" " alt="" coords="225,341,416,383"/>
+<area shape="rect" id="node7" href="$classMouseSettingsDialog.html#ae5ae04231b70ec5703a7e17adf6e628c" title=" " alt="" coords="217,407,424,448"/>
+<area shape="rect" id="node8" href="$classMouseSettingsDialog.html#a3abc667e10a4719a9cd30a880bb8a885" title=" " alt="" coords="231,472,410,513"/>
+<area shape="rect" id="node9" href="$classJoyButton.html#a65766cc767496485cc211a6e1511137a" title=" " alt="" coords="229,538,413,565"/>
+<area shape="rect" id="node10" href="$classMouseSettingsDialog.html#aef61059506b1f7e3a6099484ca91e49f" title=" " alt="" coords="243,589,398,631"/>
+<area shape="rect" id="node11" href="$classMouseSettingsDialog.html#abec3bd3d5cc2908867575d79be6a756a" title=" " alt="" coords="208,224,433,265"/>
+<area shape="rect" id="node12" href="$classMouseSettingsDialog.html#af14064886083c5e4379787ecd993c3e8" title=" " alt="" coords="481,189,692,245"/>
+<area shape="rect" id="node14" href="$classMouseSettingsDialog.html#a0c696d56f5ccd41c0e548147e211bdd3" title=" " alt="" coords="489,269,685,325"/>
+<area shape="rect" id="node15" href="$classMouseSettingsDialog.html#a166142382e643461cad7684ee63d9f63" title=" " alt="" coords="247,655,394,696"/>
+<area shape="rect" id="node16" href="$classMouseSettingsDialog.html#a58c433279b5a51e0728f89ef203815de" title="Update mouse status labels with cursor mouse information provided by an InputDevice." alt="" coords="209,720,433,761"/>
+<area shape="rect" id="node17" href="$classMouseSettingsDialog.html#abda47e01bae4c1103b6f893b7afa280a" title="Update mouse status labels with spring mouse information provided by an InputDevice." alt="" coords="210,785,431,827"/>
+<area shape="rect" id="node18" href="$classMouseSettingsDialog.html#ae2c2ce7213d8ca52a13b27368d98a633" title=" " alt="" coords="220,851,421,907"/>
+<area shape="rect" id="node19" href="$classMouseSettingsDialog.html#a51ea0022f0bcbc88f4b644d3e0fc4d63" title=" " alt="" coords="227,931,414,987"/>
+<area shape="rect" id="node4" href="$classMouseSettingsDialog.html#a7adbe7521ee56d97cf8c38efc39f4b6c" title=" " alt="" coords="740,160,913,201"/>
+<area shape="rect" id="node13" href="$classJoyButton.html#aaef7a531d7db8ddffcb1cc8f016fc1a2" title="Calculate maximum mouse speed when using a given mouse curve." alt="" coords="742,232,911,273"/>
+</map>

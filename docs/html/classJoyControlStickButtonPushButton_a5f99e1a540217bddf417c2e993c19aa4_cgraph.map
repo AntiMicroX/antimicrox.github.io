@@ -1,0 +1,12 @@
+<map id="JoyControlStickButtonPushButton::generateLabel" name="JoyControlStickButtonPushButton::generateLabel">
+<area shape="rect" id="node1" title="Generate the string that will be displayed on the button." alt="" coords="5,90,188,131"/>
+<area shape="rect" id="node2" href="$classJoyButton.html#a2dc48e4d0de59b87938f5c0489d6e198" title=" " alt="" coords="262,39,441,65"/>
+<area shape="rect" id="node3" href="$classJoyControlStickButton.html#a86579104005fc594de94d9bc126fb4e9" title=" " alt="" coords="236,90,467,131"/>
+<area shape="rect" id="node10" href="$classFlashButtonWidget.html#aff41eff76f8396ff1b9e2539d680c4cf" title=" " alt="" coords="281,155,422,197"/>
+<area shape="rect" id="node4" href="$classJoyButton.html#aa1eb52e9cce61ac403f9b451c512f197" title=" " alt="" coords="520,5,696,32"/>
+<area shape="rect" id="node5" href="$classJoyButton.html#a075d1d6380be607fcf69994f0d941afe" title=" " alt="" coords="524,57,692,98"/>
+<area shape="rect" id="node7" href="$classJoyControlStick.html#a81da76522d4f12f081c169f0a0365996" title=" " alt="" coords="515,122,701,163"/>
+<area shape="rect" id="node8" href="$classJoyButton.html#a224d30d26392925857317fc5c68afaae" title=" " alt="" coords="520,188,696,215"/>
+<area shape="rect" id="node6" href="$classJoyButton.html#a1b49d9ab85f0d5d128e2eca616747018" title=" " alt="" coords="751,57,921,98"/>
+<area shape="rect" id="node9" href="$classJoyButton.html#a64f1660931aea2fa8df1bf5e313c05ba" title=" " alt="" coords="749,188,923,215"/>
+</map>

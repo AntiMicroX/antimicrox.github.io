@@ -1,0 +1,9 @@
+<map id="JoyGradientButton" name="JoyGradientButton">
+<area shape="rect" id="node1" title=" " alt="" coords="190,155,321,181"/>
+<area shape="rect" id="node4" href="$classJoyAxisButton.html" title=" " alt="" coords="47,229,154,256"/>
+<area shape="rect" id="node6" href="$classJoyControlStickButton.html" title=" " alt="" coords="179,229,332,256"/>
+<area shape="rect" id="node7" href="$classJoyControlStickModifierButton.html" title=" " alt="" coords="356,229,555,256"/>
+<area shape="rect" id="node2" href="$classJoyButton.html" title=" " alt="" coords="215,80,296,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="220,5,291,32"/>
+<area shape="rect" id="node5" href="$classGameControllerTriggerButton.html" title=" " alt="" coords="5,304,196,331"/>
+</map>

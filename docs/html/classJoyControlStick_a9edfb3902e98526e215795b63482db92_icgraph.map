@@ -1,0 +1,4 @@
+<map id="JoyControlStick::deleteButtons" name="JoyControlStick::deleteButtons">
+<area shape="rect" id="node1" title="Delete stick direction buttons and stick modifier button." alt="" coords="216,13,419,39"/>
+<area shape="rect" id="node2" href="$classJoyControlStick.html#a5a7efb7f014fda77da422cc0c7282530" title="Delete old stick direction buttons and create new stick direction buttons." alt="" coords="5,5,168,47"/>
+</map>

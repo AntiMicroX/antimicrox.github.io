@@ -1,0 +1,9 @@
+<map id="JoyControlStick::calculateLastDirectionalDistance" name="JoyControlStick::calculateLastDirectionalDistance">
+<area shape="rect" id="node1" title=" " alt="" coords="5,136,180,177"/>
+<area shape="rect" id="node2" href="$classJoyControlStick.html#a1110ba6e8d87b226653e7d4c38602c92" title=" " alt="" coords="228,5,499,47"/>
+<area shape="rect" id="node4" href="$classJoyControlStick.html#a9a9a23ba2fd1d4304e759a2de2985a69" title="Calculate the current direction of the stick based on the values of the X and Y axes and the current ..." alt="" coords="276,71,451,112"/>
+<area shape="rect" id="node5" href="$classJoyControlStick.html#a0898d3ba1c5f94781f8fd2df1b30c674" title="Get distance of the X axis past the assigned dead zone." alt="" coords="276,136,451,177"/>
+<area shape="rect" id="node6" href="$classJoyControlStick.html#a42462afc22445206967b92b08c30995b" title="Get distance of the Y axis past the assigned dead zone." alt="" coords="276,201,451,243"/>
+<area shape="rect" id="node7" href="$classJoyAxis.html#a6ed704ce0c9da777cbb5c694a9ed2238" title=" " alt="" coords="262,267,465,308"/>
+<area shape="rect" id="node3" href="$classJoyAxis.html#a0580ab0df546a1c03b4e8f755ad00272" title=" " alt="" coords="547,111,743,138"/>
+</map>

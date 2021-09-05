@@ -1,0 +1,12 @@
+<map id="JoyControlStickButton::getLastAccelerationDistance" name="JoyControlStickButton::getLastAccelerationDistance">
+<area shape="rect" id="node1" title=" " alt="" coords="5,168,203,209"/>
+<area shape="rect" id="node2" href="$classJoyControlStick.html#ac5b937badd1c088bec283d00e97cdb54" title=" " alt="" coords="251,168,460,209"/>
+<area shape="rect" id="node3" href="$classJoyControlStick.html#ae90f62171258764a4d5840fa7af02c57" title=" " alt="" coords="511,37,692,79"/>
+<area shape="rect" id="node7" href="$classJoyControlStick.html#a382e793296ce44f3382df46cc571b88a" title=" " alt="" coords="514,103,689,144"/>
+<area shape="rect" id="node8" href="$classJoyControlStick.html#a1938cd9ca4c5da529ab5fb7edd9674df" title=" " alt="" coords="514,168,689,209"/>
+<area shape="rect" id="node9" href="$classJoyButton.html#aa659d5a0860f5047862ca0761d8d775a" title="Get 0 indexed number of button." alt="" coords="514,234,689,261"/>
+<area shape="rect" id="node10" href="$classJoyAxis.html#ac5fab6f5b5159f85843c97032f669c8b" title=" " alt="" coords="508,285,695,327"/>
+<area shape="rect" id="node4" href="$classJoyControlStick.html#a033cec8c362b923e61ec638645e7a80c" title="Calculate the bearing (in degrees) corresponding to the current position of the X and Y axes of a sti..." alt="" coords="743,5,918,47"/>
+<area shape="rect" id="node6" href="$classJoyControlStick.html#af4ceb950523eedb36857e695d259d383" title=" " alt="" coords="743,71,919,112"/>
+<area shape="rect" id="node5" href="$classJoyAxis.html#a0580ab0df546a1c03b4e8f755ad00272" title=" " alt="" coords="967,13,1163,39"/>
+</map>

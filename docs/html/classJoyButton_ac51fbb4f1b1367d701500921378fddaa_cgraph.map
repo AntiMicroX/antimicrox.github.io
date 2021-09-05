@@ -1,0 +1,22 @@
+<map id="JoyButton::mouseEvent" name="JoyButton::mouseEvent">
+<area shape="rect" id="node1" title="Calculate mouse movement coordinates for mouse movement slots currently active." alt="" coords="5,417,167,443"/>
+<area shape="rect" id="node2" href="$classJoyButton.html#a48369975ea4bc0d16e284b02bf4b1246" title=" " alt="" coords="239,5,417,47"/>
+<area shape="rect" id="node4" href="$classJoyButton.html#a64f1660931aea2fa8df1bf5e313c05ba" title=" " alt="" coords="241,71,415,98"/>
+<area shape="rect" id="node5" href="$classJoyButtonSlot.html#a5a832589b803608127a43ae8f46fcba3" title=" " alt="" coords="229,122,427,149"/>
+<area shape="rect" id="node6" href="$classJoyButton.html#ad107fc4d6e2725fd5b09a2412c18b1e3" title=" " alt="" coords="237,173,419,199"/>
+<area shape="rect" id="node7" href="$classJoyButtonSlot.html#a7bbef93617207feab540c1cbe51b9de1" title=" " alt="" coords="217,223,439,250"/>
+<area shape="rect" id="node8" href="$classJoyButton.html#a352acb56d462240c593e7b70bca74f55" title="Get the distance factor that should be used for mouse movement." alt="" coords="229,275,427,316"/>
+<area shape="rect" id="node9" href="$classJoyButtonSlot.html#ab0658ac4e6648852de5f9b622e4c2d25" title=" " alt="" coords="222,341,434,367"/>
+<area shape="rect" id="node10" href="$classJoyButton.html#a581ec2c6d19bb51b2dd5bbe0f4da50fb" title=" " alt="" coords="239,391,417,418"/>
+<area shape="rect" id="node11" href="$classJoyButtonSlot.html#a7fa0bf6d891437a2392e47d32b746502" title=" " alt="" coords="236,442,420,469"/>
+<area shape="rect" id="node12" href="$classJoyButtonSlot.html#a1f7351201dc2bb94562ec98e3fbcf137" title=" " alt="" coords="229,493,427,519"/>
+<area shape="rect" id="node13" href="$classJoyButton.html#a77afa6c5934d2665bad6d494b812f372" title="Check if button should be considered a part of a real controller axis. Needed for some dialogs so the..." alt="" coords="240,543,416,570"/>
+<area shape="rect" id="node14" href="$classJoyButtonSlot.html#a62b0c4b9a9c5e72ab31d2ce9b7a776fb" title=" " alt="" coords="237,594,419,621"/>
+<area shape="rect" id="node15" href="$classJoyButton.html#ae5ca5356352f7bf2ade64fc42bc92a85" title=" " alt="" coords="239,645,417,687"/>
+<area shape="rect" id="node18" href="$classJoyButtonSlot.html#afeedd345cee7fc0f154dcc1cd3db480b" title=" " alt="" coords="243,711,413,752"/>
+<area shape="rect" id="node19" href="$classJoyButton.html#a056b480fe5132bb36d65d22de0fe9934" title=" " alt="" coords="222,777,434,803"/>
+<area shape="rect" id="node20" href="$classJoyButton.html#a258948e91868a4d7c7e256d4959645f7" title=" " alt="" coords="215,827,441,854"/>
+<area shape="rect" id="node3" href="$classJoyButton.html#a447ec98d3ffd8b2a8668c14d2646851c" title="Get the distance that an element is away from its assigned dead zone." alt="" coords="489,140,679,181"/>
+<area shape="rect" id="node16" href="$classJoyButtonMouseHelper.html#aa6e3c03cba675d1d5836c6f063187a46" title=" " alt="" coords="505,613,663,655"/>
+<area shape="rect" id="node17" href="$classJoyButtonMouseHelper.html#a61767df14a44c8a7bd59bb881e708ebb" title=" " alt="" coords="505,679,663,720"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="JoyAxisButton::getDistanceFromDeadZone" name="JoyAxisButton::getDistanceFromDeadZone">
+<area shape="rect" id="node1" title="Get the distance that an element is away from its assigned dead zone." alt="" coords="5,5,191,47"/>
+<area shape="rect" id="node2" href="$classJoyAxis.html#ae168fbb214a184fcb41a6ab6b27e8f4e" title=" " alt="" coords="239,5,416,47"/>
+</map>

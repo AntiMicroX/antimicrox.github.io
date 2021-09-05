@@ -1,0 +1,219 @@
+\hypertarget{classXMLConfigWriter}{}\doxysection{X\+M\+L\+Config\+Writer Class Reference}
+\label{classXMLConfigWriter}\index{XMLConfigWriter@{XMLConfigWriter}}
+
+
+{\ttfamily \#include $<$xmlconfigwriter.\+h$>$}
+
+
+
+Inheritance diagram for X\+M\+L\+Config\+Writer\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=171pt]{classXMLConfigWriter__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for X\+M\+L\+Config\+Writer\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=276pt]{classXMLConfigWriter__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classXMLConfigWriter_aacd0a3991eedf223f3586d33559903d4}{write}} (\mbox{\hyperlink{classInputDeviceXml}{Input\+Device\+Xml}} $\ast$joystick\+Xml)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classXMLConfigWriter_a12cf175e77083882862b8da76a441a72}{X\+M\+L\+Config\+Writer}} (Q\+Object $\ast$parent=nullptr)
+\item 
+\mbox{\hyperlink{classXMLConfigWriter_aba167b9bee2ea3b4e787e3c848614886}{$\sim$\+X\+M\+L\+Config\+Writer}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classXMLConfigWriter_a52b1d631f675a567cbf1ba5cc2b00c68}{set\+File\+Name}} (Q\+String filename)
+\item 
+bool \mbox{\hyperlink{classXMLConfigWriter_a844560cce8f8481db23360534b6b31bb}{has\+Error}} ()
+\item 
+const Q\+String \mbox{\hyperlink{classXMLConfigWriter_a7fa9aad6594ffe202c0008799b12cbc3}{get\+Error\+String}} ()
+\item 
+const Q\+Xml\+Stream\+Writer $\ast$ \mbox{\hyperlink{classXMLConfigWriter_ac4f6babd0be5c9113572978b9c5a3b50}{get\+Xml}} ()
+\item 
+const Q\+String \& \mbox{\hyperlink{classXMLConfigWriter_a1ccb9e7e27ab5a0c6a06bb12be4b94ea}{get\+File\+Name}} ()
+\item 
+const Q\+File $\ast$ \mbox{\hyperlink{classXMLConfigWriter_afdcdebd9673d27a0f6db42ee0cb571a1}{get\+Config\+File}} ()
+\item 
+const \mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$ \mbox{\hyperlink{classXMLConfigWriter_a9a79a099085c22abc078687adaea151d}{get\+Joystick}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Xml\+Stream\+Writer $\ast$ \mbox{\hyperlink{classXMLConfigWriter_a10b5d2363ad7f1d459dadff0acef0f7e}{xml}}
+\item 
+Q\+String \mbox{\hyperlink{classXMLConfigWriter_a67485e78a18c5453d97d5f46523fe938}{file\+Name}}
+\item 
+Q\+File $\ast$ \mbox{\hyperlink{classXMLConfigWriter_a1bea4b3372a54d0f8759c71a497b0395}{config\+File}}
+\item 
+\mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$ \mbox{\hyperlink{classXMLConfigWriter_aee4ff7cf0efaf575823924d31f10f643}{m\+\_\+joystick}}
+\item 
+\mbox{\hyperlink{classInputDeviceXml}{Input\+Device\+Xml}} $\ast$ \mbox{\hyperlink{classXMLConfigWriter_a4f6030056166dd298b8954ae0c913a4e}{m\+\_\+joystick\+Xml}}
+\item 
+bool \mbox{\hyperlink{classXMLConfigWriter_ace814b1f46db96bc113b07999db6f3cf}{writer\+Error}}
+\item 
+Q\+String \mbox{\hyperlink{classXMLConfigWriter_ae1487aa24dc239971c1b11b45a21cc48}{writer\+Error\+String}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classXMLConfigWriter_a12cf175e77083882862b8da76a441a72}\label{classXMLConfigWriter_a12cf175e77083882862b8da76a441a72}} 
+\index{XMLConfigWriter@{XMLConfigWriter}!XMLConfigWriter@{XMLConfigWriter}}
+\index{XMLConfigWriter@{XMLConfigWriter}!XMLConfigWriter@{XMLConfigWriter}}
+\doxysubsubsection{\texorpdfstring{XMLConfigWriter()}{XMLConfigWriter()}}
+{\footnotesize\ttfamily X\+M\+L\+Config\+Writer\+::\+X\+M\+L\+Config\+Writer (\begin{DoxyParamCaption}\item[{Q\+Object $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+\mbox{\Hypertarget{classXMLConfigWriter_aba167b9bee2ea3b4e787e3c848614886}\label{classXMLConfigWriter_aba167b9bee2ea3b4e787e3c848614886}} 
+\index{XMLConfigWriter@{XMLConfigWriter}!````~XMLConfigWriter@{$\sim$XMLConfigWriter}}
+\index{````~XMLConfigWriter@{$\sim$XMLConfigWriter}!XMLConfigWriter@{XMLConfigWriter}}
+\doxysubsubsection{\texorpdfstring{$\sim$XMLConfigWriter()}{~XMLConfigWriter()}}
+{\footnotesize\ttfamily X\+M\+L\+Config\+Writer\+::$\sim$\+X\+M\+L\+Config\+Writer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classXMLConfigWriter_afdcdebd9673d27a0f6db42ee0cb571a1}\label{classXMLConfigWriter_afdcdebd9673d27a0f6db42ee0cb571a1}} 
+\index{XMLConfigWriter@{XMLConfigWriter}!getConfigFile@{getConfigFile}}
+\index{getConfigFile@{getConfigFile}!XMLConfigWriter@{XMLConfigWriter}}
+\doxysubsubsection{\texorpdfstring{getConfigFile()}{getConfigFile()}}
+{\footnotesize\ttfamily const Q\+File $\ast$ X\+M\+L\+Config\+Writer\+::get\+Config\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classXMLConfigWriter_a7fa9aad6594ffe202c0008799b12cbc3}\label{classXMLConfigWriter_a7fa9aad6594ffe202c0008799b12cbc3}} 
+\index{XMLConfigWriter@{XMLConfigWriter}!getErrorString@{getErrorString}}
+\index{getErrorString@{getErrorString}!XMLConfigWriter@{XMLConfigWriter}}
+\doxysubsubsection{\texorpdfstring{getErrorString()}{getErrorString()}}
+{\footnotesize\ttfamily const Q\+String X\+M\+L\+Config\+Writer\+::get\+Error\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classXMLConfigWriter_a7fa9aad6594ffe202c0008799b12cbc3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classXMLConfigWriter_a1ccb9e7e27ab5a0c6a06bb12be4b94ea}\label{classXMLConfigWriter_a1ccb9e7e27ab5a0c6a06bb12be4b94ea}} 
+\index{XMLConfigWriter@{XMLConfigWriter}!getFileName@{getFileName}}
+\index{getFileName@{getFileName}!XMLConfigWriter@{XMLConfigWriter}}
+\doxysubsubsection{\texorpdfstring{getFileName()}{getFileName()}}
+{\footnotesize\ttfamily const Q\+String \& X\+M\+L\+Config\+Writer\+::get\+File\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classXMLConfigWriter_a9a79a099085c22abc078687adaea151d}\label{classXMLConfigWriter_a9a79a099085c22abc078687adaea151d}} 
+\index{XMLConfigWriter@{XMLConfigWriter}!getJoystick@{getJoystick}}
+\index{getJoystick@{getJoystick}!XMLConfigWriter@{XMLConfigWriter}}
+\doxysubsubsection{\texorpdfstring{getJoystick()}{getJoystick()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$ X\+M\+L\+Config\+Writer\+::get\+Joystick (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classXMLConfigWriter_ac4f6babd0be5c9113572978b9c5a3b50}\label{classXMLConfigWriter_ac4f6babd0be5c9113572978b9c5a3b50}} 
+\index{XMLConfigWriter@{XMLConfigWriter}!getXml@{getXml}}
+\index{getXml@{getXml}!XMLConfigWriter@{XMLConfigWriter}}
+\doxysubsubsection{\texorpdfstring{getXml()}{getXml()}}
+{\footnotesize\ttfamily const Q\+Xml\+Stream\+Writer $\ast$ X\+M\+L\+Config\+Writer\+::get\+Xml (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classXMLConfigWriter_a844560cce8f8481db23360534b6b31bb}\label{classXMLConfigWriter_a844560cce8f8481db23360534b6b31bb}} 
+\index{XMLConfigWriter@{XMLConfigWriter}!hasError@{hasError}}
+\index{hasError@{hasError}!XMLConfigWriter@{XMLConfigWriter}}
+\doxysubsubsection{\texorpdfstring{hasError()}{hasError()}}
+{\footnotesize\ttfamily bool X\+M\+L\+Config\+Writer\+::has\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classXMLConfigWriter_a844560cce8f8481db23360534b6b31bb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classXMLConfigWriter_a52b1d631f675a567cbf1ba5cc2b00c68}\label{classXMLConfigWriter_a52b1d631f675a567cbf1ba5cc2b00c68}} 
+\index{XMLConfigWriter@{XMLConfigWriter}!setFileName@{setFileName}}
+\index{setFileName@{setFileName}!XMLConfigWriter@{XMLConfigWriter}}
+\doxysubsubsection{\texorpdfstring{setFileName()}{setFileName()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} X\+M\+L\+Config\+Writer\+::set\+File\+Name (\begin{DoxyParamCaption}\item[{Q\+String}]{filename }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classXMLConfigWriter_a52b1d631f675a567cbf1ba5cc2b00c68_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classXMLConfigWriter_aacd0a3991eedf223f3586d33559903d4}\label{classXMLConfigWriter_aacd0a3991eedf223f3586d33559903d4}} 
+\index{XMLConfigWriter@{XMLConfigWriter}!write@{write}}
+\index{write@{write}!XMLConfigWriter@{XMLConfigWriter}}
+\doxysubsubsection{\texorpdfstring{write}{write}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} X\+M\+L\+Config\+Writer\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classInputDeviceXml}{Input\+Device\+Xml}} $\ast$}]{joystick\+Xml }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classXMLConfigWriter_aacd0a3991eedf223f3586d33559903d4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{classXMLConfigWriter_aacd0a3991eedf223f3586d33559903d4_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classXMLConfigWriter_a1bea4b3372a54d0f8759c71a497b0395}\label{classXMLConfigWriter_a1bea4b3372a54d0f8759c71a497b0395}} 
+\index{XMLConfigWriter@{XMLConfigWriter}!configFile@{configFile}}
+\index{configFile@{configFile}!XMLConfigWriter@{XMLConfigWriter}}
+\doxysubsubsection{\texorpdfstring{configFile}{configFile}}
+{\footnotesize\ttfamily Q\+File$\ast$ X\+M\+L\+Config\+Writer\+::config\+File\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classXMLConfigWriter_a67485e78a18c5453d97d5f46523fe938}\label{classXMLConfigWriter_a67485e78a18c5453d97d5f46523fe938}} 
+\index{XMLConfigWriter@{XMLConfigWriter}!fileName@{fileName}}
+\index{fileName@{fileName}!XMLConfigWriter@{XMLConfigWriter}}
+\doxysubsubsection{\texorpdfstring{fileName}{fileName}}
+{\footnotesize\ttfamily Q\+String X\+M\+L\+Config\+Writer\+::file\+Name\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classXMLConfigWriter_aee4ff7cf0efaf575823924d31f10f643}\label{classXMLConfigWriter_aee4ff7cf0efaf575823924d31f10f643}} 
+\index{XMLConfigWriter@{XMLConfigWriter}!m\_joystick@{m\_joystick}}
+\index{m\_joystick@{m\_joystick}!XMLConfigWriter@{XMLConfigWriter}}
+\doxysubsubsection{\texorpdfstring{m\_joystick}{m\_joystick}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classInputDevice}{Input\+Device}}$\ast$ X\+M\+L\+Config\+Writer\+::m\+\_\+joystick\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classXMLConfigWriter_a4f6030056166dd298b8954ae0c913a4e}\label{classXMLConfigWriter_a4f6030056166dd298b8954ae0c913a4e}} 
+\index{XMLConfigWriter@{XMLConfigWriter}!m\_joystickXml@{m\_joystickXml}}
+\index{m\_joystickXml@{m\_joystickXml}!XMLConfigWriter@{XMLConfigWriter}}
+\doxysubsubsection{\texorpdfstring{m\_joystickXml}{m\_joystickXml}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classInputDeviceXml}{Input\+Device\+Xml}}$\ast$ X\+M\+L\+Config\+Writer\+::m\+\_\+joystick\+Xml\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classXMLConfigWriter_ace814b1f46db96bc113b07999db6f3cf}\label{classXMLConfigWriter_ace814b1f46db96bc113b07999db6f3cf}} 
+\index{XMLConfigWriter@{XMLConfigWriter}!writerError@{writerError}}
+\index{writerError@{writerError}!XMLConfigWriter@{XMLConfigWriter}}
+\doxysubsubsection{\texorpdfstring{writerError}{writerError}}
+{\footnotesize\ttfamily bool X\+M\+L\+Config\+Writer\+::writer\+Error\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classXMLConfigWriter_ae1487aa24dc239971c1b11b45a21cc48}\label{classXMLConfigWriter_ae1487aa24dc239971c1b11b45a21cc48}} 
+\index{XMLConfigWriter@{XMLConfigWriter}!writerErrorString@{writerErrorString}}
+\index{writerErrorString@{writerErrorString}!XMLConfigWriter@{XMLConfigWriter}}
+\doxysubsubsection{\texorpdfstring{writerErrorString}{writerErrorString}}
+{\footnotesize\ttfamily Q\+String X\+M\+L\+Config\+Writer\+::writer\+Error\+String\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classXMLConfigWriter_a10b5d2363ad7f1d459dadff0acef0f7e}\label{classXMLConfigWriter_a10b5d2363ad7f1d459dadff0acef0f7e}} 
+\index{XMLConfigWriter@{XMLConfigWriter}!xml@{xml}}
+\index{xml@{xml}!XMLConfigWriter@{XMLConfigWriter}}
+\doxysubsubsection{\texorpdfstring{xml}{xml}}
+{\footnotesize\ttfamily Q\+Xml\+Stream\+Writer$\ast$ X\+M\+L\+Config\+Writer\+::xml\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{xmlconfigwriter_8h}{xmlconfigwriter.\+h}}\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{xmlconfigwriter_8cpp}{xmlconfigwriter.\+cpp}}\end{DoxyCompactItemize}

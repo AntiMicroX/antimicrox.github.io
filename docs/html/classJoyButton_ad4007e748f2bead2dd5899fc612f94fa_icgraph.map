@@ -1,0 +1,14 @@
+<map id="JoyButton::getExtraAccelerationMultiplier" name="JoyButton::getExtraAccelerationMultiplier">
+<area shape="rect" id="node1" title=" " alt="" coords="791,119,1001,161"/>
+<area shape="rect" id="node2" href="$classMouseAxisSettingsDialog.html#a8bd692b61a824feb33f77f737c8896a2" title=" " alt="" coords="554,5,739,61"/>
+<area shape="rect" id="node4" href="$classJoyControlStick.html#a27aa5c2f4c3349900c64fdce65d7c53d" title=" " alt="" coords="554,86,739,127"/>
+<area shape="rect" id="node7" href="$classMouseButtonSettingsDialog.html#a181bfdf388907056ec492d58d85f5d34" title=" " alt="" coords="551,151,743,193"/>
+<area shape="rect" id="node8" href="$classJoyButtonXml.html#a766e87947104bfd54fc15b96b267ebdd" title=" " alt="" coords="557,232,736,259"/>
+<area shape="rect" id="node3" href="$classMouseAxisSettingsDialog.html#a33546e4b608264ce6d2758678eb6d2e7" title=" " alt="" coords="301,13,481,54"/>
+<area shape="rect" id="node5" href="$classMouseControlStickSettingsDialog.html#a29f5ad65a1f29117f9c694a14003fbac" title=" " alt="" coords="280,79,503,135"/>
+<area shape="rect" id="node6" href="$classMouseControlStickSettingsDialog.html#aac9d5ef09dced4cee0df95d99ae13369" title=" " alt="" coords="5,79,232,135"/>
+<area shape="rect" id="node9" href="$classGameControllerTriggerXml.html#a382a32a139351f790192dc0991dea637" title=" " alt="" coords="304,159,479,201"/>
+<area shape="rect" id="node10" href="$classJoyDPadXml.html#ac78c8fd1ad107f6a3baed4910863cb0c" title=" " alt="" coords="290,225,493,266"/>
+<area shape="rect" id="node11" href="$classSetJoystickXml.html#a11eec051c05deac5ebe47b9582e83b6f" title=" " alt="" coords="298,291,485,317"/>
+<area shape="rect" id="node12" href="$classJoyControlStick.html#a3ab1764a44e806d2d3896023f82fa3b1" title="Write the status of the properties of a stick and direction buttons to an XML stream." alt="" coords="297,341,485,368"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="JoyButton::getSpringHeight" name="JoyButton::getSpringHeight">
+<area shape="rect" id="node1" title=" " alt="" coords="764,143,947,170"/>
+<area shape="rect" id="node2" href="$classMouseButtonSettingsDialog.html#ab3bbeba1dc9c46e98b6b53469baadb6e" title=" " alt="" coords="531,5,715,47"/>
+<area shape="rect" id="node4" href="$classJoyDPad.html#a6cecd2ad02ab688232c1a0b7f5f409c0" title=" " alt="" coords="531,71,716,112"/>
+<area shape="rect" id="node7" href="$classJoyAxis.html#ac390a678ef368dbe7bcd245c6ec757af" title=" " alt="" coords="534,136,713,177"/>
+<area shape="rect" id="node10" href="$classJoyControlStick.html#aedd94b70fb4753e91b1ac84f63d25a54" title=" " alt="" coords="531,201,716,243"/>
+<area shape="rect" id="node13" href="$classJoyButtonXml.html#a766e87947104bfd54fc15b96b267ebdd" title=" " alt="" coords="534,339,713,366"/>
+<area shape="rect" id="node3" href="$classMouseButtonSettingsDialog.html#a181bfdf388907056ec492d58d85f5d34" title=" " alt="" coords="285,5,477,47"/>
+<area shape="rect" id="node5" href="$classMouseDPadSettingsDialog.html#a9e18b35e7b6209e7376e1120e08d4c15" title=" " alt="" coords="292,71,471,112"/>
+<area shape="rect" id="node6" href="$classMouseDPadSettingsDialog.html#a51ae7b4e5b371e35d4f470787f5fc846" title=" " alt="" coords="25,71,212,112"/>
+<area shape="rect" id="node8" href="$classMouseAxisSettingsDialog.html#a778cbc9429ffec00c23ff3a24fc19c9f" title=" " alt="" coords="295,136,467,177"/>
+<area shape="rect" id="node9" href="$classMouseAxisSettingsDialog.html#a33546e4b608264ce6d2758678eb6d2e7" title=" " alt="" coords="29,136,209,177"/>
+<area shape="rect" id="node11" href="$classMouseControlStickSettingsDialog.html#a19e49b55bbd1e00bb815f7ceb1f3ea8f" title=" " alt="" coords="284,201,479,243"/>
+<area shape="rect" id="node12" href="$classMouseControlStickSettingsDialog.html#aac9d5ef09dced4cee0df95d99ae13369" title=" " alt="" coords="5,202,232,258"/>
+<area shape="rect" id="node14" href="$classGameControllerTriggerXml.html#a382a32a139351f790192dc0991dea637" title=" " alt="" coords="294,267,469,308"/>
+<area shape="rect" id="node15" href="$classJoyDPadXml.html#ac78c8fd1ad107f6a3baed4910863cb0c" title=" " alt="" coords="280,332,483,373"/>
+<area shape="rect" id="node16" href="$classSetJoystickXml.html#a11eec051c05deac5ebe47b9582e83b6f" title=" " alt="" coords="288,398,475,425"/>
+<area shape="rect" id="node17" href="$classJoyControlStick.html#a3ab1764a44e806d2d3896023f82fa3b1" title="Write the status of the properties of a stick and direction buttons to an XML stream." alt="" coords="287,449,475,475"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="JoyControlStick::establishPropertyUpdatedConnection" name="JoyControlStick::establishPropertyUpdatedConnection">
+<area shape="rect" id="node1" title=" " alt="" coords="5,23,192,65"/>
+<area shape="rect" id="node2" href="$classJoyControlStick.html#a368fdbc00c4a4a9cf3f3e49d6736da65" title="Get pointer to the set that a stick belongs to." alt="" coords="240,5,439,32"/>
+<area shape="rect" id="node4" href="$classInputDevice.html#af5b2520af7b76ff18bf3c79c02e73569" title=" " alt="" coords="253,56,425,83"/>
+<area shape="rect" id="node3" href="$classJoyAxis.html#a12c4147c5f4a320aee710f8753263aa6" title=" " alt="" coords="487,5,640,32"/>
+</map>

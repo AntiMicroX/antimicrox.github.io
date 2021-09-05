@@ -1,0 +1,73 @@
+\hypertarget{qtwinkeymapper_8cpp}{}\doxysection{/home/pawel/antimicrox/src/qtwinkeymapper.cpp File Reference}
+\label{qtwinkeymapper_8cpp}\index{/home/pawel/antimicrox/src/qtwinkeymapper.cpp@{/home/pawel/antimicrox/src/qtwinkeymapper.cpp}}
+{\ttfamily \#include $<$qt\+\_\+windows.\+h$>$}\newline
+{\ttfamily \#include $<$Q\+Hash\+Iterator$>$}\newline
+{\ttfamily \#include \char`\"{}qtwinkeymapper.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}winextras.\+h\char`\"{}}\newline
+Include dependency graph for qtwinkeymapper.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{qtwinkeymapper_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Q\+Hash$<$ unsigned int, unsigned int $>$ \mbox{\hyperlink{qtwinkeymapper_8cpp_a6d9bab4a2166b32b7587420a4f6e9ad1}{init\+Dynamic\+Key\+Mapping}} ()
+\item 
+static Q\+Hash$<$ Q\+String, unsigned int $>$ \mbox{\hyperlink{qtwinkeymapper_8cpp_adfc0d67ed2559f71bbef891aac70199b}{int\+Char\+To\+Qt\+Key}} ()
+\item 
+static Q\+Hash$<$ Q\+String, unsigned int $>$ \mbox{\hyperlink{qtwinkeymapper_8cpp_a8853c7ce43f7f28b4b08ca18464bd99e}{init\+Dead\+Key\+To\+Qt\+Key}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+static Q\+Hash$<$ unsigned int, unsigned int $>$ \mbox{\hyperlink{qtwinkeymapper_8cpp_a69d21a3c9866c8df576f89a7697bc19c}{dynamic\+O\+E\+M\+To\+Qt\+Key\+Hash}} = \mbox{\hyperlink{qtwinkeymapper_8cpp_a6d9bab4a2166b32b7587420a4f6e9ad1}{init\+Dynamic\+Key\+Mapping}}()
+\item 
+static Q\+Hash$<$ Q\+String, unsigned int $>$ \mbox{\hyperlink{qtwinkeymapper_8cpp_a598ae2d096fe529284e511c29e1b45c6}{char\+To\+Qt\+Key\+Hash}} = \mbox{\hyperlink{qtwinkeymapper_8cpp_adfc0d67ed2559f71bbef891aac70199b}{int\+Char\+To\+Qt\+Key}}()
+\item 
+static Q\+Hash$<$ Q\+String, unsigned int $>$ \mbox{\hyperlink{qtwinkeymapper_8cpp_aa8a14414f49d26d19201c7b9895dcdf4}{dead\+Key\+To\+Qt\+Key\+Hash}} = \mbox{\hyperlink{qtwinkeymapper_8cpp_a8853c7ce43f7f28b4b08ca18464bd99e}{init\+Dead\+Key\+To\+Qt\+Key}}()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{qtwinkeymapper_8cpp_a8853c7ce43f7f28b4b08ca18464bd99e}\label{qtwinkeymapper_8cpp_a8853c7ce43f7f28b4b08ca18464bd99e}} 
+\index{qtwinkeymapper.cpp@{qtwinkeymapper.cpp}!initDeadKeyToQtKey@{initDeadKeyToQtKey}}
+\index{initDeadKeyToQtKey@{initDeadKeyToQtKey}!qtwinkeymapper.cpp@{qtwinkeymapper.cpp}}
+\doxysubsubsection{\texorpdfstring{initDeadKeyToQtKey()}{initDeadKeyToQtKey()}}
+{\footnotesize\ttfamily static Q\+Hash$<$Q\+String, unsigned int$>$ init\+Dead\+Key\+To\+Qt\+Key (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{qtwinkeymapper_8cpp_a6d9bab4a2166b32b7587420a4f6e9ad1}\label{qtwinkeymapper_8cpp_a6d9bab4a2166b32b7587420a4f6e9ad1}} 
+\index{qtwinkeymapper.cpp@{qtwinkeymapper.cpp}!initDynamicKeyMapping@{initDynamicKeyMapping}}
+\index{initDynamicKeyMapping@{initDynamicKeyMapping}!qtwinkeymapper.cpp@{qtwinkeymapper.cpp}}
+\doxysubsubsection{\texorpdfstring{initDynamicKeyMapping()}{initDynamicKeyMapping()}}
+{\footnotesize\ttfamily static Q\+Hash$<$unsigned int, unsigned int$>$ init\+Dynamic\+Key\+Mapping (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{qtwinkeymapper_8cpp_adfc0d67ed2559f71bbef891aac70199b}\label{qtwinkeymapper_8cpp_adfc0d67ed2559f71bbef891aac70199b}} 
+\index{qtwinkeymapper.cpp@{qtwinkeymapper.cpp}!intCharToQtKey@{intCharToQtKey}}
+\index{intCharToQtKey@{intCharToQtKey}!qtwinkeymapper.cpp@{qtwinkeymapper.cpp}}
+\doxysubsubsection{\texorpdfstring{intCharToQtKey()}{intCharToQtKey()}}
+{\footnotesize\ttfamily static Q\+Hash$<$Q\+String, unsigned int$>$ int\+Char\+To\+Qt\+Key (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{qtwinkeymapper_8cpp_a598ae2d096fe529284e511c29e1b45c6}\label{qtwinkeymapper_8cpp_a598ae2d096fe529284e511c29e1b45c6}} 
+\index{qtwinkeymapper.cpp@{qtwinkeymapper.cpp}!charToQtKeyHash@{charToQtKeyHash}}
+\index{charToQtKeyHash@{charToQtKeyHash}!qtwinkeymapper.cpp@{qtwinkeymapper.cpp}}
+\doxysubsubsection{\texorpdfstring{charToQtKeyHash}{charToQtKeyHash}}
+{\footnotesize\ttfamily Q\+Hash$<$Q\+String, unsigned int$>$ char\+To\+Qt\+Key\+Hash = \mbox{\hyperlink{qtwinkeymapper_8cpp_adfc0d67ed2559f71bbef891aac70199b}{int\+Char\+To\+Qt\+Key}}()\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{qtwinkeymapper_8cpp_aa8a14414f49d26d19201c7b9895dcdf4}\label{qtwinkeymapper_8cpp_aa8a14414f49d26d19201c7b9895dcdf4}} 
+\index{qtwinkeymapper.cpp@{qtwinkeymapper.cpp}!deadKeyToQtKeyHash@{deadKeyToQtKeyHash}}
+\index{deadKeyToQtKeyHash@{deadKeyToQtKeyHash}!qtwinkeymapper.cpp@{qtwinkeymapper.cpp}}
+\doxysubsubsection{\texorpdfstring{deadKeyToQtKeyHash}{deadKeyToQtKeyHash}}
+{\footnotesize\ttfamily Q\+Hash$<$Q\+String, unsigned int$>$ dead\+Key\+To\+Qt\+Key\+Hash = \mbox{\hyperlink{qtwinkeymapper_8cpp_a8853c7ce43f7f28b4b08ca18464bd99e}{init\+Dead\+Key\+To\+Qt\+Key}}()\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{qtwinkeymapper_8cpp_a69d21a3c9866c8df576f89a7697bc19c}\label{qtwinkeymapper_8cpp_a69d21a3c9866c8df576f89a7697bc19c}} 
+\index{qtwinkeymapper.cpp@{qtwinkeymapper.cpp}!dynamicOEMToQtKeyHash@{dynamicOEMToQtKeyHash}}
+\index{dynamicOEMToQtKeyHash@{dynamicOEMToQtKeyHash}!qtwinkeymapper.cpp@{qtwinkeymapper.cpp}}
+\doxysubsubsection{\texorpdfstring{dynamicOEMToQtKeyHash}{dynamicOEMToQtKeyHash}}
+{\footnotesize\ttfamily Q\+Hash$<$unsigned int, unsigned int$>$ dynamic\+O\+E\+M\+To\+Qt\+Key\+Hash = \mbox{\hyperlink{qtwinkeymapper_8cpp_a6d9bab4a2166b32b7587420a4f6e9ad1}{init\+Dynamic\+Key\+Mapping}}()\hspace{0.3cm}{\ttfamily [static]}}
+

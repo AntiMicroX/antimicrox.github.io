@@ -1,0 +1,5 @@
+<map id="SDLEventReader::haltServices" name="SDLEventReader::haltServices">
+<area shape="rect" id="node1" title="Method to block activity on the SDLEventReader object and its thread event loop." alt="" coords="5,35,208,61"/>
+<area shape="rect" id="node2" href="$namespacePadderCommon.html#a354573bde6a47232b838ceccca533b02" title=" " alt="" coords="256,5,481,32"/>
+<area shape="rect" id="node3" href="$namespacePadderCommon.html#a5de97eeb52ef44a36a1caba613b7a343" title=" " alt="" coords="273,57,464,98"/>
+</map>

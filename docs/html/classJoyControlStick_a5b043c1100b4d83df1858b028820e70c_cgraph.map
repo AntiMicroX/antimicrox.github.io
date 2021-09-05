@@ -1,0 +1,7 @@
+<map id="JoyControlStick::calculateDirectionalDistance" name="JoyControlStick::calculateDirectionalDistance">
+<area shape="rect" id="node1" title="Used to calculate the distance value that should be used for keyboard events and distance slots." alt="" coords="5,71,180,112"/>
+<area shape="rect" id="node2" href="$classJoyControlStick.html#a0898d3ba1c5f94781f8fd2df1b30c674" title="Get distance of the X axis past the assigned dead zone." alt="" coords="237,5,411,47"/>
+<area shape="rect" id="node4" href="$classJoyControlStick.html#a42462afc22445206967b92b08c30995b" title="Get distance of the Y axis past the assigned dead zone." alt="" coords="237,71,411,112"/>
+<area shape="rect" id="node5" href="$classJoyControlStick.html#af9c934203a22e91c53d45a2a8f356248" title="Get current radial distance of the stick position past the assigned dead zone." alt="" coords="228,136,420,177"/>
+<area shape="rect" id="node3" href="$classJoyAxis.html#a0580ab0df546a1c03b4e8f755ad00272" title=" " alt="" coords="468,78,664,105"/>
+</map>

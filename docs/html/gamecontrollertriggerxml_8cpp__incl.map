@@ -1,0 +1,33 @@
+<map id="/home/pawel/antimicrox/src/gamecontroller/xml/gamecontrollertriggerxml.cpp" name="/home/pawel/antimicrox/src/gamecontroller/xml/gamecontrollertriggerxml.cpp">
+<area shape="rect" id="node1" title=" " alt="" coords="1242,5,1437,61"/>
+<area shape="rect" id="node2" href="$gamecontrollertriggerxml_8h.html" title=" " alt="" coords="779,109,956,136"/>
+<area shape="rect" id="node3" href="$joyaxisxml_8h.html" title=" " alt="" coords="427,333,547,360"/>
+<area shape="rect" id="node6" href="$gamecontrollertrigger_8h.html" title=" " alt="" coords="1057,109,1301,136"/>
+<area shape="rect" id="node26" href="$gamecontrollertriggerbutton_8h.html" title=" " alt="" coords="879,184,1160,211"/>
+<area shape="rect" id="node27" href="$joybuttonxml_8h.html" title=" " alt="" coords="1597,259,1729,285"/>
+<area shape="rect" id="node28" title=" " alt="" coords="1377,109,1565,136"/>
+<area shape="rect" id="node29" title=" " alt="" coords="1589,109,1660,136"/>
+<area shape="rect" id="node30" title=" " alt="" coords="1685,109,1823,136"/>
+<area shape="rect" id="node31" title=" " alt="" coords="1847,109,1978,136"/>
+<area shape="rect" id="node4" title=" " alt="" coords="1271,557,1341,584"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,557,79,584"/>
+<area shape="rect" id="node7" href="$joyaxis_8h.html" title=" " alt="" coords="1206,184,1281,211"/>
+<area shape="rect" id="node8" title=" " alt="" coords="1483,557,1537,584"/>
+<area shape="rect" id="node9" href="$joyaxisbutton_8h.html" title=" " alt="" coords="920,259,1119,285"/>
+<area shape="rect" id="node10" href="$joygradientbutton_8h.html" title=" " alt="" coords="788,333,1008,360"/>
+<area shape="rect" id="node11" href="$joybutton_8h.html" title=" " alt="" coords="803,408,889,435"/>
+<area shape="rect" id="node12" href="$globalvariables_8h.html" title=" " alt="" coords="1403,483,1521,509"/>
+<area shape="rect" id="node13" href="$joybuttonmousehelper_8h.html" title=" " alt="" coords="1167,483,1327,509"/>
+<area shape="rect" id="node14" href="$joybuttonslot_8h.html" title=" " alt="" coords="126,483,233,509"/>
+<area shape="rect" id="node19" href="$springmousemoveinfo_8h.html" title=" " alt="" coords="605,483,764,509"/>
+<area shape="rect" id="node20" title=" " alt="" coords="788,483,904,509"/>
+<area shape="rect" id="node21" title=" " alt="" coords="928,483,999,509"/>
+<area shape="rect" id="node22" title=" " alt="" coords="1023,483,1143,509"/>
+<area shape="rect" id="node23" title=" " alt="" coords="308,483,395,509"/>
+<area shape="rect" id="node24" title=" " alt="" coords="419,483,491,509"/>
+<area shape="rect" id="node25" title=" " alt="" coords="516,483,581,509"/>
+<area shape="rect" id="node15" title=" " alt="" coords="471,557,583,584"/>
+<area shape="rect" id="node16" title=" " alt="" coords="103,557,165,584"/>
+<area shape="rect" id="node17" title=" " alt="" coords="189,557,261,584"/>
+<area shape="rect" id="node18" title=" " alt="" coords="285,557,447,584"/>
+</map>

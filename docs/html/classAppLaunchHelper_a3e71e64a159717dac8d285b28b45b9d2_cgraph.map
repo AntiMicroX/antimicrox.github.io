@@ -1,0 +1,6 @@
+<map id="AppLaunchHelper::changeGamepadPollRate" name="AppLaunchHelper::changeGamepadPollRate">
+<area shape="rect" id="node1" title=" " alt="" coords="5,23,236,65"/>
+<area shape="rect" id="node2" href="$classJoyButton.html#a65766cc767496485cc211a6e1511137a" title=" " alt="" coords="309,5,493,32"/>
+<area shape="rect" id="node3" href="$classJoyButton.html#a7d1de2cfa68b7d10c7ba42288b72e9e9" title="Set the gamepad poll rate to be used in the application." alt="" coords="284,56,519,83"/>
+<area shape="rect" id="node4" href="$classJoyButtonMouseHelper.html#ae4655a0a7f9e15f5701715e0c87fa8c7" title=" " alt="" coords="567,49,753,90"/>
+</map>

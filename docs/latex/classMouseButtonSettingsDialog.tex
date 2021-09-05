@@ -1,0 +1,416 @@
+\hypertarget{classMouseButtonSettingsDialog}{}\doxysection{Mouse\+Button\+Settings\+Dialog Class Reference}
+\label{classMouseButtonSettingsDialog}\index{MouseButtonSettingsDialog@{MouseButtonSettingsDialog}}
+
+
+{\ttfamily \#include $<$mousebuttonsettingsdialog.\+h$>$}
+
+
+
+Inheritance diagram for Mouse\+Button\+Settings\+Dialog\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{classMouseButtonSettingsDialog__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Mouse\+Button\+Settings\+Dialog\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classMouseButtonSettingsDialog_af2f3f8cacbf6c91f0dd935c4db231612}{change\+Mouse\+Mode}} (int index)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classMouseButtonSettingsDialog_a63822a92010aa61f62d22413b6b16e1b}{change\+Mouse\+Curve}} (int index)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classMouseButtonSettingsDialog_a4ccdbcee03e3d868b213f45a7bc02bea}{update\+Config\+Horizontal\+Speed}} (int value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classMouseButtonSettingsDialog_a86f70f8fc7555ca44356d171e33333ea}{update\+Config\+Vertical\+Speed}} (int value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classMouseButtonSettingsDialog_a99c0407e2f8afcf348ac683bca423ec6}{update\+Spring\+Width}} (int value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classMouseButtonSettingsDialog_a8f46871223acfdb08a2e0cd1721b086f}{update\+Spring\+Height}} (int value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classMouseButtonSettingsDialog_a196bee0cd8ac4b8a591c946daf522dab}{update\+Sensitivity}} (double value)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classMouseButtonSettingsDialog_a0c37f18a3f4a0544925f1867ddaeca0c}{update\+Acceleration\+Curve\+Preset\+Combo\+Box}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classMouseButtonSettingsDialog_a181bfdf388907056ec492d58d85f5d34}{Mouse\+Button\+Settings\+Dialog}} (\mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$\mbox{\hyperlink{classMouseButtonSettingsDialog_a4f356603b9a5bc5e472f95455d78a1bb}{button}}, Q\+Widget $\ast$parent=nullptr)
+\item 
+\mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$ \mbox{\hyperlink{classMouseButtonSettingsDialog_a7f9aaa66e54af8c5676d6afad40a50e2}{get\+Button}} () const
+\item 
+\mbox{\hyperlink{classSpringModeRegionPreview}{Spring\+Mode\+Region\+Preview}} $\ast$ \mbox{\hyperlink{classMouseButtonSettingsDialog_a66a0d36bf906957e6c7e898f455e813f}{get\+Spring\+Preview\+Widget}} () const
+\item 
+const \mbox{\hyperlink{classMouseButtonSettingsDialogHelper}{Mouse\+Button\+Settings\+Dialog\+Helper}} \& \mbox{\hyperlink{classMouseButtonSettingsDialog_a7d50f4a132da6583233b9486906dad10}{get\+Helper}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classMouseButtonSettingsDialog_aa410dc4a95ebe7784c375e963567c6de}{select\+Current\+Mouse\+Mode\+Preset}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classMouseButtonSettingsDialog_ab3bbeba1dc9c46e98b6b53469baadb6e}{calculate\+Spring\+Preset}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classMouseButtonSettingsDialog_a80a3a1605d5cf324e1f865d538e9ab16}{calculate\+Mouse\+Speed\+Preset}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classMouseButtonSettingsDialog_a2f23599f16d802415aa8ea016341199b}{update\+Window\+Title\+Button\+Name}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classMouseButtonSettingsDialog_ae15a5e00ae65fffde35a6f298e971e6b}{calculate\+Extra\+Acceleration\+Curve}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classMouseButtonSettingsDialog_a6d35401be722032c8035dab325b8bdbc}{update\+Extra\+Acceleration\+Curve}} (int index)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classMouseButtonSettingsDialogHelper}{Mouse\+Button\+Settings\+Dialog\+Helper}} \& \mbox{\hyperlink{classMouseButtonSettingsDialog_a1b828fb574ef5b332f2731536f458e39}{get\+Helper\+Local}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$ \mbox{\hyperlink{classMouseButtonSettingsDialog_a4f356603b9a5bc5e472f95455d78a1bb}{button}}
+\item 
+\mbox{\hyperlink{classSpringModeRegionPreview}{Spring\+Mode\+Region\+Preview}} $\ast$ \mbox{\hyperlink{classMouseButtonSettingsDialog_ad38ae616a0ad186d983de88bafa313bc}{spring\+Preview\+Widget}}
+\item 
+\mbox{\hyperlink{classMouseButtonSettingsDialogHelper}{Mouse\+Button\+Settings\+Dialog\+Helper}} \mbox{\hyperlink{classMouseButtonSettingsDialog_a1c8fdcf50f506b31a0f00b4f536f8d09}{helper}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classMouseButtonSettingsDialog_a181bfdf388907056ec492d58d85f5d34}\label{classMouseButtonSettingsDialog_a181bfdf388907056ec492d58d85f5d34}} 
+\index{MouseButtonSettingsDialog@{MouseButtonSettingsDialog}!MouseButtonSettingsDialog@{MouseButtonSettingsDialog}}
+\index{MouseButtonSettingsDialog@{MouseButtonSettingsDialog}!MouseButtonSettingsDialog@{MouseButtonSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{MouseButtonSettingsDialog()}{MouseButtonSettingsDialog()}}
+{\footnotesize\ttfamily Mouse\+Button\+Settings\+Dialog\+::\+Mouse\+Button\+Settings\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$}]{button,  }\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classMouseButtonSettingsDialog_a181bfdf388907056ec492d58d85f5d34_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classMouseButtonSettingsDialog_ae15a5e00ae65fffde35a6f298e971e6b}\label{classMouseButtonSettingsDialog_ae15a5e00ae65fffde35a6f298e971e6b}} 
+\index{MouseButtonSettingsDialog@{MouseButtonSettingsDialog}!calculateExtraAccelerationCurve@{calculateExtraAccelerationCurve}}
+\index{calculateExtraAccelerationCurve@{calculateExtraAccelerationCurve}!MouseButtonSettingsDialog@{MouseButtonSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{calculateExtraAccelerationCurve()}{calculateExtraAccelerationCurve()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Mouse\+Button\+Settings\+Dialog\+::calculate\+Extra\+Acceleration\+Curve (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog_ae15a5e00ae65fffde35a6f298e971e6b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog_ae15a5e00ae65fffde35a6f298e971e6b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMouseButtonSettingsDialog_a80a3a1605d5cf324e1f865d538e9ab16}\label{classMouseButtonSettingsDialog_a80a3a1605d5cf324e1f865d538e9ab16}} 
+\index{MouseButtonSettingsDialog@{MouseButtonSettingsDialog}!calculateMouseSpeedPreset@{calculateMouseSpeedPreset}}
+\index{calculateMouseSpeedPreset@{calculateMouseSpeedPreset}!MouseButtonSettingsDialog@{MouseButtonSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{calculateMouseSpeedPreset()}{calculateMouseSpeedPreset()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Mouse\+Button\+Settings\+Dialog\+::calculate\+Mouse\+Speed\+Preset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog_a80a3a1605d5cf324e1f865d538e9ab16_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog_a80a3a1605d5cf324e1f865d538e9ab16_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMouseButtonSettingsDialog_ab3bbeba1dc9c46e98b6b53469baadb6e}\label{classMouseButtonSettingsDialog_ab3bbeba1dc9c46e98b6b53469baadb6e}} 
+\index{MouseButtonSettingsDialog@{MouseButtonSettingsDialog}!calculateSpringPreset@{calculateSpringPreset}}
+\index{calculateSpringPreset@{calculateSpringPreset}!MouseButtonSettingsDialog@{MouseButtonSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{calculateSpringPreset()}{calculateSpringPreset()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Mouse\+Button\+Settings\+Dialog\+::calculate\+Spring\+Preset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog_ab3bbeba1dc9c46e98b6b53469baadb6e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog_ab3bbeba1dc9c46e98b6b53469baadb6e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMouseButtonSettingsDialog_a63822a92010aa61f62d22413b6b16e1b}\label{classMouseButtonSettingsDialog_a63822a92010aa61f62d22413b6b16e1b}} 
+\index{MouseButtonSettingsDialog@{MouseButtonSettingsDialog}!changeMouseCurve@{changeMouseCurve}}
+\index{changeMouseCurve@{changeMouseCurve}!MouseButtonSettingsDialog@{MouseButtonSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{changeMouseCurve}{changeMouseCurve}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Mouse\+Button\+Settings\+Dialog\+::change\+Mouse\+Curve (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog_a63822a92010aa61f62d22413b6b16e1b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog_a63822a92010aa61f62d22413b6b16e1b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMouseButtonSettingsDialog_af2f3f8cacbf6c91f0dd935c4db231612}\label{classMouseButtonSettingsDialog_af2f3f8cacbf6c91f0dd935c4db231612}} 
+\index{MouseButtonSettingsDialog@{MouseButtonSettingsDialog}!changeMouseMode@{changeMouseMode}}
+\index{changeMouseMode@{changeMouseMode}!MouseButtonSettingsDialog@{MouseButtonSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{changeMouseMode}{changeMouseMode}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Mouse\+Button\+Settings\+Dialog\+::change\+Mouse\+Mode (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog_af2f3f8cacbf6c91f0dd935c4db231612_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog_af2f3f8cacbf6c91f0dd935c4db231612_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMouseButtonSettingsDialog_a7f9aaa66e54af8c5676d6afad40a50e2}\label{classMouseButtonSettingsDialog_a7f9aaa66e54af8c5676d6afad40a50e2}} 
+\index{MouseButtonSettingsDialog@{MouseButtonSettingsDialog}!getButton@{getButton}}
+\index{getButton@{getButton}!MouseButtonSettingsDialog@{MouseButtonSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{getButton()}{getButton()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$ Mouse\+Button\+Settings\+Dialog\+::get\+Button (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classMouseButtonSettingsDialog_a7d50f4a132da6583233b9486906dad10}\label{classMouseButtonSettingsDialog_a7d50f4a132da6583233b9486906dad10}} 
+\index{MouseButtonSettingsDialog@{MouseButtonSettingsDialog}!getHelper@{getHelper}}
+\index{getHelper@{getHelper}!MouseButtonSettingsDialog@{MouseButtonSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{getHelper()}{getHelper()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classMouseButtonSettingsDialogHelper}{Mouse\+Button\+Settings\+Dialog\+Helper}} \& Mouse\+Button\+Settings\+Dialog\+::get\+Helper (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classMouseButtonSettingsDialog_a1b828fb574ef5b332f2731536f458e39}\label{classMouseButtonSettingsDialog_a1b828fb574ef5b332f2731536f458e39}} 
+\index{MouseButtonSettingsDialog@{MouseButtonSettingsDialog}!getHelperLocal@{getHelperLocal}}
+\index{getHelperLocal@{getHelperLocal}!MouseButtonSettingsDialog@{MouseButtonSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{getHelperLocal()}{getHelperLocal()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classMouseButtonSettingsDialogHelper}{Mouse\+Button\+Settings\+Dialog\+Helper}} \& Mouse\+Button\+Settings\+Dialog\+::get\+Helper\+Local (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog_a1b828fb574ef5b332f2731536f458e39_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMouseButtonSettingsDialog_a66a0d36bf906957e6c7e898f455e813f}\label{classMouseButtonSettingsDialog_a66a0d36bf906957e6c7e898f455e813f}} 
+\index{MouseButtonSettingsDialog@{MouseButtonSettingsDialog}!getSpringPreviewWidget@{getSpringPreviewWidget}}
+\index{getSpringPreviewWidget@{getSpringPreviewWidget}!MouseButtonSettingsDialog@{MouseButtonSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{getSpringPreviewWidget()}{getSpringPreviewWidget()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classSpringModeRegionPreview}{Spring\+Mode\+Region\+Preview}} $\ast$ Mouse\+Button\+Settings\+Dialog\+::get\+Spring\+Preview\+Widget (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classMouseButtonSettingsDialog_aa410dc4a95ebe7784c375e963567c6de}\label{classMouseButtonSettingsDialog_aa410dc4a95ebe7784c375e963567c6de}} 
+\index{MouseButtonSettingsDialog@{MouseButtonSettingsDialog}!selectCurrentMouseModePreset@{selectCurrentMouseModePreset}}
+\index{selectCurrentMouseModePreset@{selectCurrentMouseModePreset}!MouseButtonSettingsDialog@{MouseButtonSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{selectCurrentMouseModePreset()}{selectCurrentMouseModePreset()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Mouse\+Button\+Settings\+Dialog\+::select\+Current\+Mouse\+Mode\+Preset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog_aa410dc4a95ebe7784c375e963567c6de_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog_aa410dc4a95ebe7784c375e963567c6de_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMouseButtonSettingsDialog_a0c37f18a3f4a0544925f1867ddaeca0c}\label{classMouseButtonSettingsDialog_a0c37f18a3f4a0544925f1867ddaeca0c}} 
+\index{MouseButtonSettingsDialog@{MouseButtonSettingsDialog}!updateAccelerationCurvePresetComboBox@{updateAccelerationCurvePresetComboBox}}
+\index{updateAccelerationCurvePresetComboBox@{updateAccelerationCurvePresetComboBox}!MouseButtonSettingsDialog@{MouseButtonSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{updateAccelerationCurvePresetComboBox}{updateAccelerationCurvePresetComboBox}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Mouse\+Button\+Settings\+Dialog\+::update\+Acceleration\+Curve\+Preset\+Combo\+Box (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog_a0c37f18a3f4a0544925f1867ddaeca0c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog_a0c37f18a3f4a0544925f1867ddaeca0c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMouseButtonSettingsDialog_a4ccdbcee03e3d868b213f45a7bc02bea}\label{classMouseButtonSettingsDialog_a4ccdbcee03e3d868b213f45a7bc02bea}} 
+\index{MouseButtonSettingsDialog@{MouseButtonSettingsDialog}!updateConfigHorizontalSpeed@{updateConfigHorizontalSpeed}}
+\index{updateConfigHorizontalSpeed@{updateConfigHorizontalSpeed}!MouseButtonSettingsDialog@{MouseButtonSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{updateConfigHorizontalSpeed}{updateConfigHorizontalSpeed}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Mouse\+Button\+Settings\+Dialog\+::update\+Config\+Horizontal\+Speed (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog_a4ccdbcee03e3d868b213f45a7bc02bea_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMouseButtonSettingsDialog_a86f70f8fc7555ca44356d171e33333ea}\label{classMouseButtonSettingsDialog_a86f70f8fc7555ca44356d171e33333ea}} 
+\index{MouseButtonSettingsDialog@{MouseButtonSettingsDialog}!updateConfigVerticalSpeed@{updateConfigVerticalSpeed}}
+\index{updateConfigVerticalSpeed@{updateConfigVerticalSpeed}!MouseButtonSettingsDialog@{MouseButtonSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{updateConfigVerticalSpeed}{updateConfigVerticalSpeed}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Mouse\+Button\+Settings\+Dialog\+::update\+Config\+Vertical\+Speed (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog_a86f70f8fc7555ca44356d171e33333ea_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMouseButtonSettingsDialog_a6d35401be722032c8035dab325b8bdbc}\label{classMouseButtonSettingsDialog_a6d35401be722032c8035dab325b8bdbc}} 
+\index{MouseButtonSettingsDialog@{MouseButtonSettingsDialog}!updateExtraAccelerationCurve@{updateExtraAccelerationCurve}}
+\index{updateExtraAccelerationCurve@{updateExtraAccelerationCurve}!MouseButtonSettingsDialog@{MouseButtonSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{updateExtraAccelerationCurve}{updateExtraAccelerationCurve}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Mouse\+Button\+Settings\+Dialog\+::update\+Extra\+Acceleration\+Curve (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog_a6d35401be722032c8035dab325b8bdbc_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog_a6d35401be722032c8035dab325b8bdbc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMouseButtonSettingsDialog_a196bee0cd8ac4b8a591c946daf522dab}\label{classMouseButtonSettingsDialog_a196bee0cd8ac4b8a591c946daf522dab}} 
+\index{MouseButtonSettingsDialog@{MouseButtonSettingsDialog}!updateSensitivity@{updateSensitivity}}
+\index{updateSensitivity@{updateSensitivity}!MouseButtonSettingsDialog@{MouseButtonSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{updateSensitivity}{updateSensitivity}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Mouse\+Button\+Settings\+Dialog\+::update\+Sensitivity (\begin{DoxyParamCaption}\item[{double}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog_a196bee0cd8ac4b8a591c946daf522dab_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog_a196bee0cd8ac4b8a591c946daf522dab_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMouseButtonSettingsDialog_a8f46871223acfdb08a2e0cd1721b086f}\label{classMouseButtonSettingsDialog_a8f46871223acfdb08a2e0cd1721b086f}} 
+\index{MouseButtonSettingsDialog@{MouseButtonSettingsDialog}!updateSpringHeight@{updateSpringHeight}}
+\index{updateSpringHeight@{updateSpringHeight}!MouseButtonSettingsDialog@{MouseButtonSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{updateSpringHeight}{updateSpringHeight}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Mouse\+Button\+Settings\+Dialog\+::update\+Spring\+Height (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog_a8f46871223acfdb08a2e0cd1721b086f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMouseButtonSettingsDialog_a99c0407e2f8afcf348ac683bca423ec6}\label{classMouseButtonSettingsDialog_a99c0407e2f8afcf348ac683bca423ec6}} 
+\index{MouseButtonSettingsDialog@{MouseButtonSettingsDialog}!updateSpringWidth@{updateSpringWidth}}
+\index{updateSpringWidth@{updateSpringWidth}!MouseButtonSettingsDialog@{MouseButtonSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{updateSpringWidth}{updateSpringWidth}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Mouse\+Button\+Settings\+Dialog\+::update\+Spring\+Width (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog_a99c0407e2f8afcf348ac683bca423ec6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classMouseButtonSettingsDialog_a2f23599f16d802415aa8ea016341199b}\label{classMouseButtonSettingsDialog_a2f23599f16d802415aa8ea016341199b}} 
+\index{MouseButtonSettingsDialog@{MouseButtonSettingsDialog}!updateWindowTitleButtonName@{updateWindowTitleButtonName}}
+\index{updateWindowTitleButtonName@{updateWindowTitleButtonName}!MouseButtonSettingsDialog@{MouseButtonSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{updateWindowTitleButtonName()}{updateWindowTitleButtonName()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Mouse\+Button\+Settings\+Dialog\+::update\+Window\+Title\+Button\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog_a2f23599f16d802415aa8ea016341199b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classMouseButtonSettingsDialog_a2f23599f16d802415aa8ea016341199b_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classMouseButtonSettingsDialog_a4f356603b9a5bc5e472f95455d78a1bb}\label{classMouseButtonSettingsDialog_a4f356603b9a5bc5e472f95455d78a1bb}} 
+\index{MouseButtonSettingsDialog@{MouseButtonSettingsDialog}!button@{button}}
+\index{button@{button}!MouseButtonSettingsDialog@{MouseButtonSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{button}{button}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyButton}{Joy\+Button}}$\ast$ Mouse\+Button\+Settings\+Dialog\+::button\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classMouseButtonSettingsDialog_a1c8fdcf50f506b31a0f00b4f536f8d09}\label{classMouseButtonSettingsDialog_a1c8fdcf50f506b31a0f00b4f536f8d09}} 
+\index{MouseButtonSettingsDialog@{MouseButtonSettingsDialog}!helper@{helper}}
+\index{helper@{helper}!MouseButtonSettingsDialog@{MouseButtonSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{helper}{helper}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classMouseButtonSettingsDialogHelper}{Mouse\+Button\+Settings\+Dialog\+Helper}} Mouse\+Button\+Settings\+Dialog\+::helper\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classMouseButtonSettingsDialog_ad38ae616a0ad186d983de88bafa313bc}\label{classMouseButtonSettingsDialog_ad38ae616a0ad186d983de88bafa313bc}} 
+\index{MouseButtonSettingsDialog@{MouseButtonSettingsDialog}!springPreviewWidget@{springPreviewWidget}}
+\index{springPreviewWidget@{springPreviewWidget}!MouseButtonSettingsDialog@{MouseButtonSettingsDialog}}
+\doxysubsubsection{\texorpdfstring{springPreviewWidget}{springPreviewWidget}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classSpringModeRegionPreview}{Spring\+Mode\+Region\+Preview}}$\ast$ Mouse\+Button\+Settings\+Dialog\+::spring\+Preview\+Widget\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/antimicrox/src/mousedialog/\mbox{\hyperlink{mousebuttonsettingsdialog_8h}{mousebuttonsettingsdialog.\+h}}\item 
+/home/pawel/antimicrox/src/mousedialog/\mbox{\hyperlink{mousebuttonsettingsdialog_8cpp}{mousebuttonsettingsdialog.\+cpp}}\end{DoxyCompactItemize}

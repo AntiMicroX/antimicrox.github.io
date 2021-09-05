@@ -1,0 +1,11 @@
+<map id="InputDaemon::addInputDevice" name="InputDaemon::addInputDevice">
+<area shape="rect" id="node1" title=" " alt="" coords="5,159,204,186"/>
+<area shape="rect" id="node2" href="$classInputDaemon.html#a1518b0defd68ae40f18735f22cbe717e" title=" " alt="" coords="252,5,459,47"/>
+<area shape="rect" id="node3" href="$classInputDaemon.html#a3ef328c9a60fe354fda90eb396c8f31b" title=" " alt="" coords="271,71,439,98"/>
+<area shape="rect" id="node4" href="$classAntiMicroSettings.html#a4f172ffefe55eeba5afff3d54182f881" title=" " alt="" coords="289,123,422,164"/>
+<area shape="rect" id="node5" href="$classInputDaemon.html#a80e732bfe962966009eecb2156575af1" title=" " alt="" coords="515,196,723,237"/>
+<area shape="rect" id="node6" href="$classSDLEventReader.html#a1c33e74e1c8363dc7e839c7f3a98a25a" title="Method to block activity on the SDLEventReader object and its thread event loop." alt="" coords="254,306,457,333"/>
+<area shape="rect" id="node9" href="$classInputDaemon.html#a2479784aa7e332c900a20b3e661260eb" title=" " alt="" coords="264,240,447,281"/>
+<area shape="rect" id="node7" href="$namespacePadderCommon.html#a354573bde6a47232b838ceccca533b02" title=" " alt="" coords="507,291,732,318"/>
+<area shape="rect" id="node8" href="$namespacePadderCommon.html#a5de97eeb52ef44a36a1caba613b7a343" title=" " alt="" coords="524,343,715,384"/>
+</map>

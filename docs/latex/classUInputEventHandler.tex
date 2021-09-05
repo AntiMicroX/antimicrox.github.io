@@ -1,0 +1,633 @@
+\hypertarget{classUInputEventHandler}{}\doxysection{U\+Input\+Event\+Handler Class Reference}
+\label{classUInputEventHandler}\index{UInputEventHandler@{UInputEventHandler}}
+
+
+{\ttfamily \#include $<$uinputeventhandler.\+h$>$}
+
+
+
+Inheritance diagram for U\+Input\+Event\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=184pt]{classUInputEventHandler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for U\+Input\+Event\+Handler\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=184pt]{classUInputEventHandler__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classUInputEventHandler_a3d3d6d6fc1664e1129861bfed91ccedf}{U\+Input\+Event\+Handler}} (Q\+Object $\ast$parent=nullptr)
+\item 
+\mbox{\hyperlink{classUInputEventHandler_a51fa355b4b0e614dfa7cffd1c566aa8a}{$\sim$\+U\+Input\+Event\+Handler}} ()
+\item 
+virtual bool \mbox{\hyperlink{classUInputEventHandler_ac320b85fe151b5cc6f47d9fd853ecd8d}{init}} () override
+\begin{DoxyCompactList}\small\item\em Initialize keyboard and mouse virtual devices. Each device will use its own file handle with various codes set to distinquish the two devices. \end{DoxyCompactList}\item 
+virtual bool \mbox{\hyperlink{classUInputEventHandler_a560e164e4edd9fac762565be235bcd15}{cleanup}} () override
+\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classUInputEventHandler_a86d9fad5709b20721c166693925144ba}{send\+Keyboard\+Event}} (\mbox{\hyperlink{classJoyButtonSlot}{Joy\+Button\+Slot}} $\ast$slot, bool pressed) override
+\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classUInputEventHandler_a1f3bdecee2237c6fd6d93ba00058fa7d}{send\+Mouse\+Button\+Event}} (\mbox{\hyperlink{classJoyButtonSlot}{Joy\+Button\+Slot}} $\ast$slot, bool pressed) override
+\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classUInputEventHandler_a5e8f8a059421c94e8879fb078a2b3016}{send\+Mouse\+Event}} (int x\+Dis, int y\+Dis) override
+\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classUInputEventHandler_a73f8343b9072de4649b7c41316d0641a}{send\+Mouse\+Abs\+Event}} (int x\+Dis, int y\+Dis, int screen) override
+\begin{DoxyCompactList}\small\item\em Do nothing by default. Useful for child classes to define behavior. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classUInputEventHandler_a904564c73d32751fe861347ceb46ab34}{send\+Mouse\+Spring\+Event}} (int x\+Dis, int y\+Dis, int width, int height) override
+\begin{DoxyCompactList}\small\item\em Do nothing by default. Useful for child classes to define behavior. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classUInputEventHandler_a5facbd4f9526a69e686240e5737ebc9c}{send\+Mouse\+Spring\+Event}} (int x\+Dis, int y\+Dis) override
+\begin{DoxyCompactList}\small\item\em Do nothing by default. Useful for child classes to define behavior. \end{DoxyCompactList}\item 
+virtual Q\+String \mbox{\hyperlink{classUInputEventHandler_a6ec7f4722af0ce4622e03a4e08c68c4b}{get\+Name}} () override
+\item 
+virtual Q\+String \mbox{\hyperlink{classUInputEventHandler_aab0e570767e68e9660ee89d2e975a1ef}{get\+Identifier}} () override
+\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classUInputEventHandler_a62a1f01ffad23c167426913930e7e219}{print\+Post\+Messages}} () override
+\begin{DoxyCompactList}\small\item\em Print extra help messages to stdout. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classUInputEventHandler_ae7f56462de69c74e7f2add96434a5313}{send\+Text\+Entry\+Event}} (Q\+String maintext) override
+\item 
+int \mbox{\hyperlink{classUInputEventHandler_abec2e4f89045b06a49cd808ff99dcdbe}{get\+Keyboard\+File\+Handler}} ()
+\item 
+int \mbox{\hyperlink{classUInputEventHandler_a3cb6e387e249b2c036f2838939e72abe}{get\+Mouse\+File\+Handler}} ()
+\item 
+int \mbox{\hyperlink{classUInputEventHandler_acd2c7d316fd0e8ac4ca046c8c2544a35}{get\+Spring\+Mouse\+File\+Handler}} ()
+\item 
+const Q\+String \mbox{\hyperlink{classUInputEventHandler_a86867edbc38fb48ad311eecde2b67210}{get\+Uinput\+Device\+Location}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classUInputEventHandler_a076134dafa5e0472ca4c615a20737672}{open\+U\+Input\+Handle}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classUInputEventHandler_aab335f94aaff8721a14ed24b3ded9078}{set\+Keyboard\+Events}} (int filehandle)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classUInputEventHandler_a7511a7298893884521cd1f4fa34f8029}{set\+Rel\+Mouse\+Events}} (int filehandle)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classUInputEventHandler_aea5bde6f49cc57dd750093255968a72f}{set\+Spring\+Mouse\+Events}} (int filehandle)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classUInputEventHandler_aab266ae14da1e5808f778d7be8296537}{populate\+Key\+Codes}} (int filehandle)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classUInputEventHandler_a95c4ba94d5c71605cc9ba3549aef6fc9}{create\+U\+Input\+Keyboard\+Device}} (int filehandle)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classUInputEventHandler_a1c98d6c9a7b22c82b1b0652ff965cc69}{create\+U\+Input\+Mouse\+Device}} (int filehandle)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classUInputEventHandler_a17160c34d3042786e51604581a4dde60}{create\+U\+Input\+Spring\+Mouse\+Device}} (int filehandle)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classUInputEventHandler_a21649f035e732e5713dbb1fc7b46710d}{close\+U\+Input\+Device}} (int filehandle)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classUInputEventHandler_aa04ce5a2e42124cf21a2872ee4511918}{write\+\_\+uinput\+\_\+event}} (int filehandle, int type, int \mbox{\hyperlink{lgpl-2_81_8txt_afa2765f9f647ea2e9c46055f93a44d41}{code}}, int value, bool syn=true)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classUInputEventHandler_a791e0dd22cd62bdfc3729ff95b1b66c7}{cleanup\+Uinput\+Ev\+Hand}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classUInputEventHandler_abd71760acc51be1442f4f8e2edc9a79d}{test\+And\+Append}} (bool tested, Q\+List$<$ unsigned int $>$ \&temp\+List, unsigned int key)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classUInputEventHandler_a44098c5bcbf2e42f31646b12775814c0}{init\+Device}} (int \&device, Q\+String name, bool \&result)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classUInputEventHandler_ace705029831bb8c66795666d208d24c0}{keyboard\+File\+Handler}}
+\item 
+int \mbox{\hyperlink{classUInputEventHandler_aa3cade3a77e61ab057530e85aa486afd}{mouse\+File\+Handler}}
+\item 
+int \mbox{\hyperlink{classUInputEventHandler_ae3e8406e44ab85a06f016d13eabbc862}{spring\+Mouse\+File\+Handler}}
+\item 
+Q\+String \mbox{\hyperlink{classUInputEventHandler_aa4f5cfc11b866a907412d13b7744eead}{uinput\+Device\+Location}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classUInputEventHandler_a3d3d6d6fc1664e1129861bfed91ccedf}\label{classUInputEventHandler_a3d3d6d6fc1664e1129861bfed91ccedf}} 
+\index{UInputEventHandler@{UInputEventHandler}!UInputEventHandler@{UInputEventHandler}}
+\index{UInputEventHandler@{UInputEventHandler}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{UInputEventHandler()}{UInputEventHandler()}}
+{\footnotesize\ttfamily U\+Input\+Event\+Handler\+::\+U\+Input\+Event\+Handler (\begin{DoxyParamCaption}\item[{Q\+Object $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+\mbox{\Hypertarget{classUInputEventHandler_a51fa355b4b0e614dfa7cffd1c566aa8a}\label{classUInputEventHandler_a51fa355b4b0e614dfa7cffd1c566aa8a}} 
+\index{UInputEventHandler@{UInputEventHandler}!````~UInputEventHandler@{$\sim$UInputEventHandler}}
+\index{````~UInputEventHandler@{$\sim$UInputEventHandler}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{$\sim$UInputEventHandler()}{~UInputEventHandler()}}
+{\footnotesize\ttfamily U\+Input\+Event\+Handler\+::$\sim$\+U\+Input\+Event\+Handler (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUInputEventHandler_a51fa355b4b0e614dfa7cffd1c566aa8a_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classUInputEventHandler_a560e164e4edd9fac762565be235bcd15}\label{classUInputEventHandler_a560e164e4edd9fac762565be235bcd15}} 
+\index{UInputEventHandler@{UInputEventHandler}!cleanup@{cleanup}}
+\index{cleanup@{cleanup}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{cleanup()}{cleanup()}}
+{\footnotesize\ttfamily bool U\+Input\+Event\+Handler\+::cleanup (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classBaseEventHandler_a74ab713c4cd522d977d384f637b2ffbe}{Base\+Event\+Handler}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUInputEventHandler_a560e164e4edd9fac762565be235bcd15_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUInputEventHandler_a791e0dd22cd62bdfc3729ff95b1b66c7}\label{classUInputEventHandler_a791e0dd22cd62bdfc3729ff95b1b66c7}} 
+\index{UInputEventHandler@{UInputEventHandler}!cleanupUinputEvHand@{cleanupUinputEvHand}}
+\index{cleanupUinputEvHand@{cleanupUinputEvHand}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{cleanupUinputEvHand()}{cleanupUinputEvHand()}}
+{\footnotesize\ttfamily bool U\+Input\+Event\+Handler\+::cleanup\+Uinput\+Ev\+Hand (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{classUInputEventHandler_a791e0dd22cd62bdfc3729ff95b1b66c7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUInputEventHandler_a791e0dd22cd62bdfc3729ff95b1b66c7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUInputEventHandler_a21649f035e732e5713dbb1fc7b46710d}\label{classUInputEventHandler_a21649f035e732e5713dbb1fc7b46710d}} 
+\index{UInputEventHandler@{UInputEventHandler}!closeUInputDevice@{closeUInputDevice}}
+\index{closeUInputDevice@{closeUInputDevice}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{closeUInputDevice()}{closeUInputDevice()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} U\+Input\+Event\+Handler\+::close\+U\+Input\+Device (\begin{DoxyParamCaption}\item[{int}]{filehandle }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUInputEventHandler_a21649f035e732e5713dbb1fc7b46710d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUInputEventHandler_a95c4ba94d5c71605cc9ba3549aef6fc9}\label{classUInputEventHandler_a95c4ba94d5c71605cc9ba3549aef6fc9}} 
+\index{UInputEventHandler@{UInputEventHandler}!createUInputKeyboardDevice@{createUInputKeyboardDevice}}
+\index{createUInputKeyboardDevice@{createUInputKeyboardDevice}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{createUInputKeyboardDevice()}{createUInputKeyboardDevice()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} U\+Input\+Event\+Handler\+::create\+U\+Input\+Keyboard\+Device (\begin{DoxyParamCaption}\item[{int}]{filehandle }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUInputEventHandler_a95c4ba94d5c71605cc9ba3549aef6fc9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUInputEventHandler_a1c98d6c9a7b22c82b1b0652ff965cc69}\label{classUInputEventHandler_a1c98d6c9a7b22c82b1b0652ff965cc69}} 
+\index{UInputEventHandler@{UInputEventHandler}!createUInputMouseDevice@{createUInputMouseDevice}}
+\index{createUInputMouseDevice@{createUInputMouseDevice}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{createUInputMouseDevice()}{createUInputMouseDevice()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} U\+Input\+Event\+Handler\+::create\+U\+Input\+Mouse\+Device (\begin{DoxyParamCaption}\item[{int}]{filehandle }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUInputEventHandler_a1c98d6c9a7b22c82b1b0652ff965cc69_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUInputEventHandler_a17160c34d3042786e51604581a4dde60}\label{classUInputEventHandler_a17160c34d3042786e51604581a4dde60}} 
+\index{UInputEventHandler@{UInputEventHandler}!createUInputSpringMouseDevice@{createUInputSpringMouseDevice}}
+\index{createUInputSpringMouseDevice@{createUInputSpringMouseDevice}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{createUInputSpringMouseDevice()}{createUInputSpringMouseDevice()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} U\+Input\+Event\+Handler\+::create\+U\+Input\+Spring\+Mouse\+Device (\begin{DoxyParamCaption}\item[{int}]{filehandle }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUInputEventHandler_a17160c34d3042786e51604581a4dde60_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUInputEventHandler_aab0e570767e68e9660ee89d2e975a1ef}\label{classUInputEventHandler_aab0e570767e68e9660ee89d2e975a1ef}} 
+\index{UInputEventHandler@{UInputEventHandler}!getIdentifier@{getIdentifier}}
+\index{getIdentifier@{getIdentifier}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{getIdentifier()}{getIdentifier()}}
+{\footnotesize\ttfamily Q\+String U\+Input\+Event\+Handler\+::get\+Identifier (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classBaseEventHandler_a9a014e472ec57408d16b8b5eed964e90}{Base\+Event\+Handler}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{classUInputEventHandler_aab0e570767e68e9660ee89d2e975a1ef_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUInputEventHandler_abec2e4f89045b06a49cd808ff99dcdbe}\label{classUInputEventHandler_abec2e4f89045b06a49cd808ff99dcdbe}} 
+\index{UInputEventHandler@{UInputEventHandler}!getKeyboardFileHandler@{getKeyboardFileHandler}}
+\index{getKeyboardFileHandler@{getKeyboardFileHandler}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{getKeyboardFileHandler()}{getKeyboardFileHandler()}}
+{\footnotesize\ttfamily int U\+Input\+Event\+Handler\+::get\+Keyboard\+File\+Handler (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classUInputEventHandler_a3cb6e387e249b2c036f2838939e72abe}\label{classUInputEventHandler_a3cb6e387e249b2c036f2838939e72abe}} 
+\index{UInputEventHandler@{UInputEventHandler}!getMouseFileHandler@{getMouseFileHandler}}
+\index{getMouseFileHandler@{getMouseFileHandler}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{getMouseFileHandler()}{getMouseFileHandler()}}
+{\footnotesize\ttfamily int U\+Input\+Event\+Handler\+::get\+Mouse\+File\+Handler (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classUInputEventHandler_a6ec7f4722af0ce4622e03a4e08c68c4b}\label{classUInputEventHandler_a6ec7f4722af0ce4622e03a4e08c68c4b}} 
+\index{UInputEventHandler@{UInputEventHandler}!getName@{getName}}
+\index{getName@{getName}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily Q\+String U\+Input\+Event\+Handler\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classBaseEventHandler_a5e12d8db74c331459884d757e53b11f3}{Base\+Event\+Handler}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{classUInputEventHandler_a6ec7f4722af0ce4622e03a4e08c68c4b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUInputEventHandler_acd2c7d316fd0e8ac4ca046c8c2544a35}\label{classUInputEventHandler_acd2c7d316fd0e8ac4ca046c8c2544a35}} 
+\index{UInputEventHandler@{UInputEventHandler}!getSpringMouseFileHandler@{getSpringMouseFileHandler}}
+\index{getSpringMouseFileHandler@{getSpringMouseFileHandler}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{getSpringMouseFileHandler()}{getSpringMouseFileHandler()}}
+{\footnotesize\ttfamily int U\+Input\+Event\+Handler\+::get\+Spring\+Mouse\+File\+Handler (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classUInputEventHandler_a86867edbc38fb48ad311eecde2b67210}\label{classUInputEventHandler_a86867edbc38fb48ad311eecde2b67210}} 
+\index{UInputEventHandler@{UInputEventHandler}!getUinputDeviceLocation@{getUinputDeviceLocation}}
+\index{getUinputDeviceLocation@{getUinputDeviceLocation}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{getUinputDeviceLocation()}{getUinputDeviceLocation()}}
+{\footnotesize\ttfamily const Q\+String U\+Input\+Event\+Handler\+::get\+Uinput\+Device\+Location (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classUInputEventHandler_ac320b85fe151b5cc6f47d9fd853ecd8d}\label{classUInputEventHandler_ac320b85fe151b5cc6f47d9fd853ecd8d}} 
+\index{UInputEventHandler@{UInputEventHandler}!init@{init}}
+\index{init@{init}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily bool U\+Input\+Event\+Handler\+::init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Initialize keyboard and mouse virtual devices. Each device will use its own file handle with various codes set to distinquish the two devices. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classBaseEventHandler_a342884bf1df992b25d87f2649a2ebd34}{Base\+Event\+Handler}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUInputEventHandler_ac320b85fe151b5cc6f47d9fd853ecd8d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUInputEventHandler_a44098c5bcbf2e42f31646b12775814c0}\label{classUInputEventHandler_a44098c5bcbf2e42f31646b12775814c0}} 
+\index{UInputEventHandler@{UInputEventHandler}!initDevice@{initDevice}}
+\index{initDevice@{initDevice}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{initDevice()}{initDevice()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} U\+Input\+Event\+Handler\+::init\+Device (\begin{DoxyParamCaption}\item[{int \&}]{device,  }\item[{Q\+String}]{name,  }\item[{bool \&}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUInputEventHandler_a44098c5bcbf2e42f31646b12775814c0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{classUInputEventHandler_a44098c5bcbf2e42f31646b12775814c0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUInputEventHandler_a076134dafa5e0472ca4c615a20737672}\label{classUInputEventHandler_a076134dafa5e0472ca4c615a20737672}} 
+\index{UInputEventHandler@{UInputEventHandler}!openUInputHandle@{openUInputHandle}}
+\index{openUInputHandle@{openUInputHandle}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{openUInputHandle()}{openUInputHandle()}}
+{\footnotesize\ttfamily int U\+Input\+Event\+Handler\+::open\+U\+Input\+Handle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUInputEventHandler_a076134dafa5e0472ca4c615a20737672_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUInputEventHandler_aab266ae14da1e5808f778d7be8296537}\label{classUInputEventHandler_aab266ae14da1e5808f778d7be8296537}} 
+\index{UInputEventHandler@{UInputEventHandler}!populateKeyCodes@{populateKeyCodes}}
+\index{populateKeyCodes@{populateKeyCodes}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{populateKeyCodes()}{populateKeyCodes()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} U\+Input\+Event\+Handler\+::populate\+Key\+Codes (\begin{DoxyParamCaption}\item[{int}]{filehandle }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUInputEventHandler_aab266ae14da1e5808f778d7be8296537_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUInputEventHandler_a62a1f01ffad23c167426913930e7e219}\label{classUInputEventHandler_a62a1f01ffad23c167426913930e7e219}} 
+\index{UInputEventHandler@{UInputEventHandler}!printPostMessages@{printPostMessages}}
+\index{printPostMessages@{printPostMessages}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{printPostMessages()}{printPostMessages()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} U\+Input\+Event\+Handler\+::print\+Post\+Messages (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Print extra help messages to stdout. 
+
+
+
+Reimplemented from \mbox{\hyperlink{classBaseEventHandler_a7251806c258fbf17204a503873665459}{Base\+Event\+Handler}}.
+
+\mbox{\Hypertarget{classUInputEventHandler_a86d9fad5709b20721c166693925144ba}\label{classUInputEventHandler_a86d9fad5709b20721c166693925144ba}} 
+\index{UInputEventHandler@{UInputEventHandler}!sendKeyboardEvent@{sendKeyboardEvent}}
+\index{sendKeyboardEvent@{sendKeyboardEvent}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{sendKeyboardEvent()}{sendKeyboardEvent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} U\+Input\+Event\+Handler\+::send\+Keyboard\+Event (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButtonSlot}{Joy\+Button\+Slot}} $\ast$}]{slot,  }\item[{bool}]{pressed }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classBaseEventHandler_afd723bd1451d78a34976642783026c40}{Base\+Event\+Handler}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUInputEventHandler_a86d9fad5709b20721c166693925144ba_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUInputEventHandler_a73f8343b9072de4649b7c41316d0641a}\label{classUInputEventHandler_a73f8343b9072de4649b7c41316d0641a}} 
+\index{UInputEventHandler@{UInputEventHandler}!sendMouseAbsEvent@{sendMouseAbsEvent}}
+\index{sendMouseAbsEvent@{sendMouseAbsEvent}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{sendMouseAbsEvent()}{sendMouseAbsEvent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} U\+Input\+Event\+Handler\+::send\+Mouse\+Abs\+Event (\begin{DoxyParamCaption}\item[{int}]{x\+Dis,  }\item[{int}]{y\+Dis,  }\item[{int}]{screen }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Do nothing by default. Useful for child classes to define behavior. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Displacement} & of X coordinate \\
+\hline
+{\em Displacement} & of Y coordinate \\
+\hline
+{\em Screen} & number or -\/1 to use default \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classBaseEventHandler_a40a02bef908bd0f86f9625a58cc697b7}{Base\+Event\+Handler}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{classUInputEventHandler_a73f8343b9072de4649b7c41316d0641a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUInputEventHandler_a73f8343b9072de4649b7c41316d0641a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUInputEventHandler_a1f3bdecee2237c6fd6d93ba00058fa7d}\label{classUInputEventHandler_a1f3bdecee2237c6fd6d93ba00058fa7d}} 
+\index{UInputEventHandler@{UInputEventHandler}!sendMouseButtonEvent@{sendMouseButtonEvent}}
+\index{sendMouseButtonEvent@{sendMouseButtonEvent}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{sendMouseButtonEvent()}{sendMouseButtonEvent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} U\+Input\+Event\+Handler\+::send\+Mouse\+Button\+Event (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButtonSlot}{Joy\+Button\+Slot}} $\ast$}]{slot,  }\item[{bool}]{pressed }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classBaseEventHandler_a068ae99c4210979beb9e397960f33641}{Base\+Event\+Handler}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUInputEventHandler_a1f3bdecee2237c6fd6d93ba00058fa7d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUInputEventHandler_a5e8f8a059421c94e8879fb078a2b3016}\label{classUInputEventHandler_a5e8f8a059421c94e8879fb078a2b3016}} 
+\index{UInputEventHandler@{UInputEventHandler}!sendMouseEvent@{sendMouseEvent}}
+\index{sendMouseEvent@{sendMouseEvent}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{sendMouseEvent()}{sendMouseEvent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} U\+Input\+Event\+Handler\+::send\+Mouse\+Event (\begin{DoxyParamCaption}\item[{int}]{x\+Dis,  }\item[{int}]{y\+Dis }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classBaseEventHandler_aa79baec050fe242ee44ed4b8f87714e6}{Base\+Event\+Handler}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{classUInputEventHandler_a5e8f8a059421c94e8879fb078a2b3016_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUInputEventHandler_a5facbd4f9526a69e686240e5737ebc9c}\label{classUInputEventHandler_a5facbd4f9526a69e686240e5737ebc9c}} 
+\index{UInputEventHandler@{UInputEventHandler}!sendMouseSpringEvent@{sendMouseSpringEvent}}
+\index{sendMouseSpringEvent@{sendMouseSpringEvent}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{sendMouseSpringEvent()}{sendMouseSpringEvent()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} U\+Input\+Event\+Handler\+::send\+Mouse\+Spring\+Event (\begin{DoxyParamCaption}\item[{int}]{x\+Dis,  }\item[{int}]{y\+Dis }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Do nothing by default. Useful for child classes to define behavior. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Displacement} & of X coordinate \\
+\hline
+{\em Displacement} & of Y coordinate \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classBaseEventHandler_a78f9aea17a4744fa32133eea8def23a6}{Base\+Event\+Handler}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUInputEventHandler_a5facbd4f9526a69e686240e5737ebc9c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUInputEventHandler_a904564c73d32751fe861347ceb46ab34}\label{classUInputEventHandler_a904564c73d32751fe861347ceb46ab34}} 
+\index{UInputEventHandler@{UInputEventHandler}!sendMouseSpringEvent@{sendMouseSpringEvent}}
+\index{sendMouseSpringEvent@{sendMouseSpringEvent}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{sendMouseSpringEvent()}{sendMouseSpringEvent()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} U\+Input\+Event\+Handler\+::send\+Mouse\+Spring\+Event (\begin{DoxyParamCaption}\item[{int}]{x\+Dis,  }\item[{int}]{y\+Dis,  }\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Do nothing by default. Useful for child classes to define behavior. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Displacement} & of X coordinate \\
+\hline
+{\em Displacement} & of Y coordinate \\
+\hline
+{\em Bounding} & box width \\
+\hline
+{\em Bounding} & box height \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classBaseEventHandler_a6b337790de6e8b78e7abccc2a8a36ba5}{Base\+Event\+Handler}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUInputEventHandler_a904564c73d32751fe861347ceb46ab34_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUInputEventHandler_ae7f56462de69c74e7f2add96434a5313}\label{classUInputEventHandler_ae7f56462de69c74e7f2add96434a5313}} 
+\index{UInputEventHandler@{UInputEventHandler}!sendTextEntryEvent@{sendTextEntryEvent}}
+\index{sendTextEntryEvent@{sendTextEntryEvent}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{sendTextEntryEvent()}{sendTextEntryEvent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} U\+Input\+Event\+Handler\+::send\+Text\+Entry\+Event (\begin{DoxyParamCaption}\item[{Q\+String}]{maintext }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classBaseEventHandler_a9474d07cb2e38dca07ffac6f08a161ed}{Base\+Event\+Handler}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUInputEventHandler_ae7f56462de69c74e7f2add96434a5313_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUInputEventHandler_aab335f94aaff8721a14ed24b3ded9078}\label{classUInputEventHandler_aab335f94aaff8721a14ed24b3ded9078}} 
+\index{UInputEventHandler@{UInputEventHandler}!setKeyboardEvents@{setKeyboardEvents}}
+\index{setKeyboardEvents@{setKeyboardEvents}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{setKeyboardEvents()}{setKeyboardEvents()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} U\+Input\+Event\+Handler\+::set\+Keyboard\+Events (\begin{DoxyParamCaption}\item[{int}]{filehandle }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUInputEventHandler_aab335f94aaff8721a14ed24b3ded9078_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUInputEventHandler_a7511a7298893884521cd1f4fa34f8029}\label{classUInputEventHandler_a7511a7298893884521cd1f4fa34f8029}} 
+\index{UInputEventHandler@{UInputEventHandler}!setRelMouseEvents@{setRelMouseEvents}}
+\index{setRelMouseEvents@{setRelMouseEvents}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{setRelMouseEvents()}{setRelMouseEvents()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} U\+Input\+Event\+Handler\+::set\+Rel\+Mouse\+Events (\begin{DoxyParamCaption}\item[{int}]{filehandle }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUInputEventHandler_a7511a7298893884521cd1f4fa34f8029_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUInputEventHandler_aea5bde6f49cc57dd750093255968a72f}\label{classUInputEventHandler_aea5bde6f49cc57dd750093255968a72f}} 
+\index{UInputEventHandler@{UInputEventHandler}!setSpringMouseEvents@{setSpringMouseEvents}}
+\index{setSpringMouseEvents@{setSpringMouseEvents}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{setSpringMouseEvents()}{setSpringMouseEvents()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} U\+Input\+Event\+Handler\+::set\+Spring\+Mouse\+Events (\begin{DoxyParamCaption}\item[{int}]{filehandle }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUInputEventHandler_aea5bde6f49cc57dd750093255968a72f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUInputEventHandler_abd71760acc51be1442f4f8e2edc9a79d}\label{classUInputEventHandler_abd71760acc51be1442f4f8e2edc9a79d}} 
+\index{UInputEventHandler@{UInputEventHandler}!testAndAppend@{testAndAppend}}
+\index{testAndAppend@{testAndAppend}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{testAndAppend()}{testAndAppend()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} U\+Input\+Event\+Handler\+::test\+And\+Append (\begin{DoxyParamCaption}\item[{bool}]{tested,  }\item[{Q\+List$<$ unsigned int $>$ \&}]{temp\+List,  }\item[{unsigned int}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{classUInputEventHandler_abd71760acc51be1442f4f8e2edc9a79d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{classUInputEventHandler_abd71760acc51be1442f4f8e2edc9a79d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classUInputEventHandler_aa04ce5a2e42124cf21a2872ee4511918}\label{classUInputEventHandler_aa04ce5a2e42124cf21a2872ee4511918}} 
+\index{UInputEventHandler@{UInputEventHandler}!write\_uinput\_event@{write\_uinput\_event}}
+\index{write\_uinput\_event@{write\_uinput\_event}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{write\_uinput\_event()}{write\_uinput\_event()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} U\+Input\+Event\+Handler\+::write\+\_\+uinput\+\_\+event (\begin{DoxyParamCaption}\item[{int}]{filehandle,  }\item[{int}]{type,  }\item[{int}]{code,  }\item[{int}]{value,  }\item[{bool}]{syn = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classUInputEventHandler_aa04ce5a2e42124cf21a2872ee4511918_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classUInputEventHandler_ace705029831bb8c66795666d208d24c0}\label{classUInputEventHandler_ace705029831bb8c66795666d208d24c0}} 
+\index{UInputEventHandler@{UInputEventHandler}!keyboardFileHandler@{keyboardFileHandler}}
+\index{keyboardFileHandler@{keyboardFileHandler}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{keyboardFileHandler}{keyboardFileHandler}}
+{\footnotesize\ttfamily int U\+Input\+Event\+Handler\+::keyboard\+File\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classUInputEventHandler_aa3cade3a77e61ab057530e85aa486afd}\label{classUInputEventHandler_aa3cade3a77e61ab057530e85aa486afd}} 
+\index{UInputEventHandler@{UInputEventHandler}!mouseFileHandler@{mouseFileHandler}}
+\index{mouseFileHandler@{mouseFileHandler}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{mouseFileHandler}{mouseFileHandler}}
+{\footnotesize\ttfamily int U\+Input\+Event\+Handler\+::mouse\+File\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classUInputEventHandler_ae3e8406e44ab85a06f016d13eabbc862}\label{classUInputEventHandler_ae3e8406e44ab85a06f016d13eabbc862}} 
+\index{UInputEventHandler@{UInputEventHandler}!springMouseFileHandler@{springMouseFileHandler}}
+\index{springMouseFileHandler@{springMouseFileHandler}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{springMouseFileHandler}{springMouseFileHandler}}
+{\footnotesize\ttfamily int U\+Input\+Event\+Handler\+::spring\+Mouse\+File\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classUInputEventHandler_aa4f5cfc11b866a907412d13b7744eead}\label{classUInputEventHandler_aa4f5cfc11b866a907412d13b7744eead}} 
+\index{UInputEventHandler@{UInputEventHandler}!uinputDeviceLocation@{uinputDeviceLocation}}
+\index{uinputDeviceLocation@{uinputDeviceLocation}!UInputEventHandler@{UInputEventHandler}}
+\doxysubsubsection{\texorpdfstring{uinputDeviceLocation}{uinputDeviceLocation}}
+{\footnotesize\ttfamily Q\+String U\+Input\+Event\+Handler\+::uinput\+Device\+Location\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/antimicrox/src/eventhandlers/\mbox{\hyperlink{uinputeventhandler_8h}{uinputeventhandler.\+h}}\item 
+/home/pawel/antimicrox/src/eventhandlers/\mbox{\hyperlink{uinputeventhandler_8cpp}{uinputeventhandler.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,5 @@
+<map id="AppLaunchHelper::enablePossibleMouseSmoothing" name="AppLaunchHelper::enablePossibleMouseSmoothing">
+<area shape="rect" id="node1" title=" " alt="" coords="5,23,227,65"/>
+<area shape="rect" id="node2" href="$classJoyButton.html#a4474e5e2e8c765aa5dcd68b5d7ef4b91" title="Set mouse history buffer size used for mouse smoothing." alt="" coords="275,5,489,32"/>
+<area shape="rect" id="node3" href="$classJoyButton.html#af85f86003ec07d782d02ca515039f229" title="Set the weight modifier to use for mouse smoothing." alt="" coords="285,56,479,83"/>
+</map>

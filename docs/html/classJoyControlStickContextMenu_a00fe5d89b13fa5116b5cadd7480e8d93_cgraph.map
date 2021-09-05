@@ -1,0 +1,11 @@
+<map id="JoyControlStickContextMenu::setStickPreset" name="JoyControlStickContextMenu::setStickPreset">
+<area shape="rect" id="node1" title=" " alt="" coords="5,144,199,185"/>
+<area shape="rect" id="node2" href="$classJoyControlStickContextMenu.html#ad2bcaf30656d4ef472d20e55b43a4f0d" title=" " alt="" coords="247,5,440,47"/>
+<area shape="rect" id="node3" href="$classAntKeyMapper.html#acd08c44a2501edcfdb1ef8a68d534b1b" title=" " alt="" coords="252,71,435,98"/>
+<area shape="rect" id="node6" href="$classJoyControlStick.html#af2228e6ed7156093dd5140e53000a918" title=" " alt="" coords="247,122,440,149"/>
+<area shape="rect" id="node7" href="$classJoyControlStick.html#abf2153ee9f2364f55640feb2a6ca60d6" title="Set the diagonal range value for a stick." alt="" coords="248,173,439,215"/>
+<area shape="rect" id="node8" href="$classJoyControlStick.html#a7979a689bc339467288892614fffed13" title=" " alt="" coords="247,239,440,266"/>
+<area shape="rect" id="node9" href="$classJoyControlStickContextMenuHelper.html#adfdb19d552a70502449f88a5e0ad6a41" title=" " alt="" coords="247,291,440,332"/>
+<area shape="rect" id="node4" href="$classAntKeyMapper.html#abe4a434636d370a750d32a14b9a139d3" title=" " alt="" coords="488,46,688,73"/>
+<area shape="rect" id="node5" href="$antkeymapper_8cpp.html#a4f87707944cf82e8e59c85d48e24951c" title=" " alt="" coords="508,97,668,123"/>
+</map>

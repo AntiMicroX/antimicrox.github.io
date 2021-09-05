@@ -1,0 +1,5 @@
+<map id="JoyControlStickPushButton::tryFlash" name="JoyControlStickPushButton::tryFlash">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,188,80"/>
+<area shape="rect" id="node2" href="$classFlashButtonWidget.html#ad8d71480fd154aad271af693af681394" title=" " alt="" coords="257,5,398,47"/>
+<area shape="rect" id="node3" href="$classJoyControlStick.html#a6558903feba928443b415f33089beef8" title="Get the value for the currently active stick direction." alt="" coords="236,71,419,112"/>
+</map>

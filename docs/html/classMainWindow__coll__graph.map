@@ -1,0 +1,12 @@
+<map id="MainWindow" name="MainWindow">
+<area shape="rect" id="node1" title=" " alt="" coords="282,272,379,299"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,183,112,209"/>
+<area shape="rect" id="node3" href="$classAutoProfileWatcher.html" title=" " alt="" coords="263,183,398,209"/>
+<area shape="rect" id="node4" title=" " alt="" coords="226,5,297,32"/>
+<area shape="rect" id="node5" href="$classAutoProfileInfo.html" title=" " alt="" coords="207,81,315,108"/>
+<area shape="rect" id="node8" href="$classCommandLineUtility.html" title=" " alt="" coords="90,132,230,159"/>
+<area shape="rect" id="node6" href="$classAntiMicroSettings.html" title=" " alt="" coords="435,81,560,108"/>
+<area shape="rect" id="node7" title=" " alt="" coords="457,5,537,32"/>
+<area shape="rect" id="node9" href="$classAboutDialog.html" title=" " alt="" coords="625,183,719,209"/>
+<area shape="rect" id="node10" title=" " alt="" coords="637,81,707,108"/>
+</map>

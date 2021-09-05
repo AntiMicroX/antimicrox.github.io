@@ -1,0 +1,54 @@
+\hypertarget{uinputeventhandler_8cpp}{}\doxysection{/home/pawel/antimicrox/src/eventhandlers/uinputeventhandler.cpp File Reference}
+\label{uinputeventhandler_8cpp}\index{/home/pawel/antimicrox/src/eventhandlers/uinputeventhandler.cpp@{/home/pawel/antimicrox/src/eventhandlers/uinputeventhandler.cpp}}
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include $<$fcntl.\+h$>$}\newline
+{\ttfamily \#include $<$linux/input.\+h$>$}\newline
+{\ttfamily \#include $<$linux/uinput.\+h$>$}\newline
+{\ttfamily \#include $<$unistd.\+h$>$}\newline
+{\ttfamily \#include $<$Q\+Debug$>$}\newline
+{\ttfamily \#include $<$Q\+File\+Info$>$}\newline
+{\ttfamily \#include $<$Q\+String\+List$>$}\newline
+{\ttfamily \#include $<$Q\+String\+List\+Iterator$>$}\newline
+{\ttfamily \#include $<$Q\+Timer$>$}\newline
+{\ttfamily \#include $<$antkeymapper.\+h$>$}\newline
+{\ttfamily \#include $<$common.\+h$>$}\newline
+{\ttfamily \#include $<$joybuttonslot.\+h$>$}\newline
+{\ttfamily \#include $<$logger.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}uinputeventhandler.\+h\char`\"{}}\newline
+Include dependency graph for uinputeventhandler.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{uinputeventhandler_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+static const Q\+String \mbox{\hyperlink{uinputeventhandler_8cpp_acfc9da81c8cb2f4cbbc48202097adf61}{mouse\+Device\+Name}} = Padder\+Common\+::mouse\+Device\+Name
+\item 
+static const Q\+String \mbox{\hyperlink{uinputeventhandler_8cpp_a1f4f38656aa4e006beb03ed10903949b}{keyboard\+Device\+Name}} = Padder\+Common\+::keyboard\+Device\+Name
+\item 
+static const Q\+String \mbox{\hyperlink{uinputeventhandler_8cpp_a24a98bb7622a3c32e65403742376cb9c}{spring\+Mouse\+Device\+Name}} = Padder\+Common\+::spring\+Mouse\+Device\+Name
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{uinputeventhandler_8cpp_a1f4f38656aa4e006beb03ed10903949b}\label{uinputeventhandler_8cpp_a1f4f38656aa4e006beb03ed10903949b}} 
+\index{uinputeventhandler.cpp@{uinputeventhandler.cpp}!keyboardDeviceName@{keyboardDeviceName}}
+\index{keyboardDeviceName@{keyboardDeviceName}!uinputeventhandler.cpp@{uinputeventhandler.cpp}}
+\doxysubsubsection{\texorpdfstring{keyboardDeviceName}{keyboardDeviceName}}
+{\footnotesize\ttfamily const Q\+String keyboard\+Device\+Name = Padder\+Common\+::keyboard\+Device\+Name\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{uinputeventhandler_8cpp_acfc9da81c8cb2f4cbbc48202097adf61}\label{uinputeventhandler_8cpp_acfc9da81c8cb2f4cbbc48202097adf61}} 
+\index{uinputeventhandler.cpp@{uinputeventhandler.cpp}!mouseDeviceName@{mouseDeviceName}}
+\index{mouseDeviceName@{mouseDeviceName}!uinputeventhandler.cpp@{uinputeventhandler.cpp}}
+\doxysubsubsection{\texorpdfstring{mouseDeviceName}{mouseDeviceName}}
+{\footnotesize\ttfamily const Q\+String mouse\+Device\+Name = Padder\+Common\+::mouse\+Device\+Name\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{uinputeventhandler_8cpp_a24a98bb7622a3c32e65403742376cb9c}\label{uinputeventhandler_8cpp_a24a98bb7622a3c32e65403742376cb9c}} 
+\index{uinputeventhandler.cpp@{uinputeventhandler.cpp}!springMouseDeviceName@{springMouseDeviceName}}
+\index{springMouseDeviceName@{springMouseDeviceName}!uinputeventhandler.cpp@{uinputeventhandler.cpp}}
+\doxysubsubsection{\texorpdfstring{springMouseDeviceName}{springMouseDeviceName}}
+{\footnotesize\ttfamily const Q\+String spring\+Mouse\+Device\+Name = Padder\+Common\+::spring\+Mouse\+Device\+Name\hspace{0.3cm}{\ttfamily [static]}}
+

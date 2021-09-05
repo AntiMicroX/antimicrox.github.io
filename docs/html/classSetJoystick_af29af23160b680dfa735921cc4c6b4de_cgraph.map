@@ -1,0 +1,6 @@
+<map id="SetJoystick::propogateSetStickButtonRelease" name="SetJoystick::propogateSetStickButtonRelease">
+<area shape="rect" id="node1" title=" " alt="" coords="5,64,180,105"/>
+<area shape="rect" id="node2" href="$classJoyButton.html#abbccee98e377453167a47b49874eeab7" title=" " alt="" coords="228,5,404,47"/>
+<area shape="rect" id="node3" href="$classJoyControlStick.html#a2bf34c9768e9975e311a1ea8918468b1" title=" " alt="" coords="230,71,402,98"/>
+<area shape="rect" id="node4" href="$classJoyControlStickButton.html#a9dc9e9c5b8811ef41a0cde33c5af649e" title=" " alt="" coords="239,123,393,164"/>
+</map>

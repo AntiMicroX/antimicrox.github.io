@@ -1,0 +1,665 @@
+\hypertarget{classButtonEditDialog}{}\doxysection{Button\+Edit\+Dialog Class Reference}
+\label{classButtonEditDialog}\index{ButtonEditDialog@{ButtonEditDialog}}
+
+
+{\ttfamily \#include $<$buttoneditdialog.\+h$>$}
+
+
+
+Inheritance diagram for Button\+Edit\+Dialog\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=170pt]{classButtonEditDialog__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Button\+Edit\+Dialog\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classButtonEditDialog_a6238028f7a1f610e65e19197030d353f}{advanced\+Dialog\+Opened}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classButtonEditDialog_a1aaf303d0e9f9c581aa93986b4f32f3d}{send\+Temp\+Slot\+To\+Advanced}} (\mbox{\hyperlink{classJoyButtonSlot}{Joy\+Button\+Slot}} $\ast$tempslot)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classButtonEditDialog_a966a6fb5f4956b07a88e0c00ad984f68}{key\+Grabbed}} (\mbox{\hyperlink{classJoyButtonSlot}{Joy\+Button\+Slot}} $\ast$tempslot)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classButtonEditDialog_a091dcac0203bd45c34da204da675a18f}{selection\+Cleared}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classButtonEditDialog_a1298376fb2fb98538ed77afc09f61fba}{selection\+Finished}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classButtonEditDialog_a4430396354988490afd363e7f3cbe39a}{button\+Dialog\+Closed}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classButtonEditDialog_a0016da2aa8e376b6df5f7eb7051ef1c3}{Button\+Edit\+Dialog}} (\mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$button, \mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$\mbox{\hyperlink{classButtonEditDialog_a660eb476492fcc46b337b94a0fc6cf3a}{joystick}}, bool is\+Num\+Keypad, Q\+Widget $\ast$parent=nullptr)
+\item 
+\mbox{\hyperlink{classButtonEditDialog_a3e9feede100cbb6a11c9d87659c196ea}{Button\+Edit\+Dialog}} (\mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$\mbox{\hyperlink{classButtonEditDialog_a660eb476492fcc46b337b94a0fc6cf3a}{joystick}}, bool is\+Num\+Keypad, Q\+Widget $\ast$parent=nullptr)
+\item 
+\mbox{\hyperlink{classButtonEditDialog_a3e31b805a18b568ca243e15382ced2ba}{Button\+Edit\+Dialog}} (Q\+Widget $\ast$parent=0)
+\item 
+\mbox{\hyperlink{classButtonEditDialog_afce57fff9ac0619fd5ac9b9de1aafb7b}{$\sim$\+Button\+Edit\+Dialog}} ()
+\item 
+\mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$ \mbox{\hyperlink{classButtonEditDialog_a7252dc49dd11648a4e62b2c002badcb6}{get\+Last\+Joy\+Button}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classButtonEditDialog_ad841ad92d4de8c0b04529d2e4d29b7ab}{set\+Up\+Last\+Joy\+Button}} (\mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classButtonEditDialog_a82f6d5a24f90b015034e1a3985c410b8}{refresh\+For\+Last\+Btn}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classButtonEditDialog_a0d0a0661cdbbe242cc9b9e11ad08eaed}{invoke\+Method\+Last\+Btn}} (\mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$last\+Joy\+Btn, \mbox{\hyperlink{classButtonEditDialogHelper}{Button\+Edit\+Dialog\+Helper}} $\ast$\mbox{\hyperlink{classButtonEditDialog_a90bc505aef2e76c9fe8f822cdc12f811}{helper}}, const char $\ast$invoke\+String, int \mbox{\hyperlink{lgpl-2_81_8txt_afa2765f9f647ea2e9c46055f93a44d41}{code}}, int alias, int index, \mbox{\hyperlink{classJoyButtonSlot_ae87eeb7a82527da7bcd4579616bd22c8}{Joy\+Button\+Slot\+::\+Joy\+Slot\+Input\+Action}} mode, bool with\+Clear, bool with\+True, Qt\+::\+Connection\+Type conn\+Type\+For\+Alias, Qt\+::\+Connection\+Type conn\+Type\+For\+Nothing, Qt\+::\+Connection\+Type conn\+Type\+For\+All)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classButtonEditDialog}{Button\+Edit\+Dialog}} $\ast$ \mbox{\hyperlink{classButtonEditDialog_af8126f12b4a9a65a316a335288e8cb79}{get\+Instance}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classButtonEditDialog_aa9469772bd8abc88407492e2c9385687}{key\+Release\+Event}} (Q\+Key\+Event $\ast$event)
+\item 
+virtual \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classButtonEditDialog_ab0b0b687528c0dd798317b5a34b02947}{key\+Press\+Event}} (Q\+Key\+Event $\ast$event)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classButtonEditDialog_a70b199304a9e842bff9cc50ca6c48abb}{nullify\+Dialog\+Pointer}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classButtonEditDialog_a88d97effdbddb77cc830fe0376e425ff}{refresh\+Slot\+Summary\+Label}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classButtonEditDialog_a8761efdb619e7f904c1e58c87c020ddd}{change\+Toggle\+Setting}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classButtonEditDialog_a9bb42cfdf707a132e167b382f15c1324}{change\+Turbo\+Setting}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classButtonEditDialog_ade8d1ee4ae03d1080932a70c8170d488}{open\+Advanced\+Dialog}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classButtonEditDialog_a7b7f4ddddf1b67c7883cc03d7469987f}{closed\+Advanced\+Dialog}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classButtonEditDialog_aed42bcab312b02768501578c3738d279}{create\+Temp\+Slot}} (int keycode, int alias)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classButtonEditDialog_ac8bbe0345e4355b87c0bf80802c0235d}{check\+Turbo\+Setting}} (bool state)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classButtonEditDialog_a251428b24ee7435f73dd3bf9b90f6908}{set\+Turbo\+Button\+Enabled}} (bool state)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classButtonEditDialog_a3f4f84fb02db14ed369dfa2cbe3eb9de}{process\+Slot\+Assignment}} (\mbox{\hyperlink{classJoyButtonSlot}{Joy\+Button\+Slot}} $\ast$tempslot)
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classButtonEditDialog_a030ab7a7e3a0116aa1dfac0bd72d5f85}{clear\+Button\+Slots}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classButtonEditDialog_aec43fa70732aaa9b4a57fef25eb2bfed}{send\+Selection\+Finished}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classButtonEditDialog_a0057dab454e3f52eeab3e3ba1fd336e0}{update\+Window\+Title\+Button\+Name}} ()
+\item 
+\mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} \mbox{\hyperlink{classButtonEditDialog_a969a7c8b0246fcbab82e0ac675c1fdfe}{check\+For\+Keyboard\+Widget\+Focus}} (Q\+Widget $\ast$old, Q\+Widget $\ast$now)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classButtonEditDialogHelper}{Button\+Edit\+Dialog\+Helper}} \& \mbox{\hyperlink{classButtonEditDialog_ad7c6cfe101366460599f3739316a49e8}{get\+Helper\+Local}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classButtonEditDialogHelper}{Button\+Edit\+Dialog\+Helper}} \mbox{\hyperlink{classButtonEditDialog_a90bc505aef2e76c9fe8f822cdc12f811}{helper}}
+\item 
+Ui\+::\+Button\+Edit\+Dialog $\ast$ \mbox{\hyperlink{classButtonEditDialog_ae4f7345d810ab5e718b231071890466f}{ui}}
+\item 
+Q\+Elapsed\+Timer \mbox{\hyperlink{classButtonEditDialog_a0b4cc0853d46daff40c6f6bb00f1834c}{button\+Event\+Interval}}
+\item 
+\mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$ \mbox{\hyperlink{classButtonEditDialog_a660eb476492fcc46b337b94a0fc6cf3a}{joystick}}
+\item 
+\mbox{\hyperlink{classQuickSetDialog}{Quick\+Set\+Dialog}} $\ast$ \mbox{\hyperlink{classButtonEditDialog_a133c13bffec73dcfd4047599b554e980}{current\+Quick\+Dialog}}
+\item 
+bool \mbox{\hyperlink{classButtonEditDialog_aa221722104932dabd4aaa92b2a51d66f}{ignore\+Release}}
+\item 
+bool \mbox{\hyperlink{classButtonEditDialog_a2a09ac4a2c262f4f2fe4239dcda1a926}{without\+Quick\+Set\+Dialog}}
+\item 
+bool \mbox{\hyperlink{classButtonEditDialog_abbd25bd7afc9b15abcfd7e2dcc84a385}{m\+\_\+is\+Num\+Keypad}}
+\item 
+\mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$ \mbox{\hyperlink{classButtonEditDialog_a83a69c061f27d7f34fc4abd06d2608e6}{last\+Joy\+Button}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classButtonEditDialog}{Button\+Edit\+Dialog}} $\ast$ \mbox{\hyperlink{classButtonEditDialog_ad0226b98a811561d406503a2d6b64e2a}{instance}} = nullptr
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classButtonEditDialog_a0016da2aa8e376b6df5f7eb7051ef1c3}\label{classButtonEditDialog_a0016da2aa8e376b6df5f7eb7051ef1c3}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!ButtonEditDialog@{ButtonEditDialog}}
+\index{ButtonEditDialog@{ButtonEditDialog}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{ButtonEditDialog()}{ButtonEditDialog()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Button\+Edit\+Dialog\+::\+Button\+Edit\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$}]{button,  }\item[{\mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$}]{joystick,  }\item[{bool}]{is\+Num\+Keypad,  }\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a0016da2aa8e376b6df5f7eb7051ef1c3_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_a3e9feede100cbb6a11c9d87659c196ea}\label{classButtonEditDialog_a3e9feede100cbb6a11c9d87659c196ea}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!ButtonEditDialog@{ButtonEditDialog}}
+\index{ButtonEditDialog@{ButtonEditDialog}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{ButtonEditDialog()}{ButtonEditDialog()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Button\+Edit\+Dialog\+::\+Button\+Edit\+Dialog (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classInputDevice}{Input\+Device}} $\ast$}]{joystick,  }\item[{bool}]{is\+Num\+Keypad,  }\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a3e9feede100cbb6a11c9d87659c196ea_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_a3e31b805a18b568ca243e15382ced2ba}\label{classButtonEditDialog_a3e31b805a18b568ca243e15382ced2ba}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!ButtonEditDialog@{ButtonEditDialog}}
+\index{ButtonEditDialog@{ButtonEditDialog}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{ButtonEditDialog()}{ButtonEditDialog()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Button\+Edit\+Dialog\+::\+Button\+Edit\+Dialog (\begin{DoxyParamCaption}\item[{Q\+Widget $\ast$}]{parent = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classButtonEditDialog_afce57fff9ac0619fd5ac9b9de1aafb7b}\label{classButtonEditDialog_afce57fff9ac0619fd5ac9b9de1aafb7b}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!````~ButtonEditDialog@{$\sim$ButtonEditDialog}}
+\index{````~ButtonEditDialog@{$\sim$ButtonEditDialog}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{$\sim$ButtonEditDialog()}{~ButtonEditDialog()}}
+{\footnotesize\ttfamily Button\+Edit\+Dialog\+::$\sim$\+Button\+Edit\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classButtonEditDialog_a6238028f7a1f610e65e19197030d353f}\label{classButtonEditDialog_a6238028f7a1f610e65e19197030d353f}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!advancedDialogOpened@{advancedDialogOpened}}
+\index{advancedDialogOpened@{advancedDialogOpened}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{advancedDialogOpened}{advancedDialogOpened}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Button\+Edit\+Dialog\+::advanced\+Dialog\+Opened (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a6238028f7a1f610e65e19197030d353f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_a4430396354988490afd363e7f3cbe39a}\label{classButtonEditDialog_a4430396354988490afd363e7f3cbe39a}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!buttonDialogClosed@{buttonDialogClosed}}
+\index{buttonDialogClosed@{buttonDialogClosed}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{buttonDialogClosed}{buttonDialogClosed}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Button\+Edit\+Dialog\+::button\+Dialog\+Closed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a4430396354988490afd363e7f3cbe39a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_a8761efdb619e7f904c1e58c87c020ddd}\label{classButtonEditDialog_a8761efdb619e7f904c1e58c87c020ddd}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!changeToggleSetting@{changeToggleSetting}}
+\index{changeToggleSetting@{changeToggleSetting}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{changeToggleSetting}{changeToggleSetting}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Button\+Edit\+Dialog\+::change\+Toggle\+Setting (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a8761efdb619e7f904c1e58c87c020ddd_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a8761efdb619e7f904c1e58c87c020ddd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_a9bb42cfdf707a132e167b382f15c1324}\label{classButtonEditDialog_a9bb42cfdf707a132e167b382f15c1324}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!changeTurboSetting@{changeTurboSetting}}
+\index{changeTurboSetting@{changeTurboSetting}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{changeTurboSetting}{changeTurboSetting}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Button\+Edit\+Dialog\+::change\+Turbo\+Setting (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a9bb42cfdf707a132e167b382f15c1324_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a9bb42cfdf707a132e167b382f15c1324_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_a969a7c8b0246fcbab82e0ac675c1fdfe}\label{classButtonEditDialog_a969a7c8b0246fcbab82e0ac675c1fdfe}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!checkForKeyboardWidgetFocus@{checkForKeyboardWidgetFocus}}
+\index{checkForKeyboardWidgetFocus@{checkForKeyboardWidgetFocus}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{checkForKeyboardWidgetFocus}{checkForKeyboardWidgetFocus}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Button\+Edit\+Dialog\+::check\+For\+Keyboard\+Widget\+Focus (\begin{DoxyParamCaption}\item[{Q\+Widget $\ast$}]{old,  }\item[{Q\+Widget $\ast$}]{now }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a969a7c8b0246fcbab82e0ac675c1fdfe_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_ac8bbe0345e4355b87c0bf80802c0235d}\label{classButtonEditDialog_ac8bbe0345e4355b87c0bf80802c0235d}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!checkTurboSetting@{checkTurboSetting}}
+\index{checkTurboSetting@{checkTurboSetting}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{checkTurboSetting}{checkTurboSetting}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Button\+Edit\+Dialog\+::check\+Turbo\+Setting (\begin{DoxyParamCaption}\item[{bool}]{state }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_ac8bbe0345e4355b87c0bf80802c0235d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_ac8bbe0345e4355b87c0bf80802c0235d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_a030ab7a7e3a0116aa1dfac0bd72d5f85}\label{classButtonEditDialog_a030ab7a7e3a0116aa1dfac0bd72d5f85}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!clearButtonSlots@{clearButtonSlots}}
+\index{clearButtonSlots@{clearButtonSlots}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{clearButtonSlots}{clearButtonSlots}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Button\+Edit\+Dialog\+::clear\+Button\+Slots (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a030ab7a7e3a0116aa1dfac0bd72d5f85_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_a7b7f4ddddf1b67c7883cc03d7469987f}\label{classButtonEditDialog_a7b7f4ddddf1b67c7883cc03d7469987f}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!closedAdvancedDialog@{closedAdvancedDialog}}
+\index{closedAdvancedDialog@{closedAdvancedDialog}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{closedAdvancedDialog}{closedAdvancedDialog}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Button\+Edit\+Dialog\+::closed\+Advanced\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a7b7f4ddddf1b67c7883cc03d7469987f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a7b7f4ddddf1b67c7883cc03d7469987f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_aed42bcab312b02768501578c3738d279}\label{classButtonEditDialog_aed42bcab312b02768501578c3738d279}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!createTempSlot@{createTempSlot}}
+\index{createTempSlot@{createTempSlot}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{createTempSlot}{createTempSlot}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Button\+Edit\+Dialog\+::create\+Temp\+Slot (\begin{DoxyParamCaption}\item[{int}]{keycode,  }\item[{int}]{alias }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_aed42bcab312b02768501578c3738d279_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_ad7c6cfe101366460599f3739316a49e8}\label{classButtonEditDialog_ad7c6cfe101366460599f3739316a49e8}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!getHelperLocal@{getHelperLocal}}
+\index{getHelperLocal@{getHelperLocal}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{getHelperLocal()}{getHelperLocal()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classButtonEditDialogHelper}{Button\+Edit\+Dialog\+Helper}} \& Button\+Edit\+Dialog\+::get\+Helper\+Local (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classButtonEditDialog_af8126f12b4a9a65a316a335288e8cb79}\label{classButtonEditDialog_af8126f12b4a9a65a316a335288e8cb79}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!getInstance@{getInstance}}
+\index{getInstance@{getInstance}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{getInstance()}{getInstance()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classButtonEditDialog}{Button\+Edit\+Dialog}} $\ast$ Button\+Edit\+Dialog\+::get\+Instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_af8126f12b4a9a65a316a335288e8cb79_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_a7252dc49dd11648a4e62b2c002badcb6}\label{classButtonEditDialog_a7252dc49dd11648a4e62b2c002badcb6}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!getLastJoyButton@{getLastJoyButton}}
+\index{getLastJoyButton@{getLastJoyButton}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{getLastJoyButton()}{getLastJoyButton()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$ Button\+Edit\+Dialog\+::get\+Last\+Joy\+Button (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classButtonEditDialog_a0d0a0661cdbbe242cc9b9e11ad08eaed}\label{classButtonEditDialog_a0d0a0661cdbbe242cc9b9e11ad08eaed}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!invokeMethodLastBtn@{invokeMethodLastBtn}}
+\index{invokeMethodLastBtn@{invokeMethodLastBtn}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{invokeMethodLastBtn()}{invokeMethodLastBtn()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Button\+Edit\+Dialog\+::invoke\+Method\+Last\+Btn (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$}]{last\+Joy\+Btn,  }\item[{\mbox{\hyperlink{classButtonEditDialogHelper}{Button\+Edit\+Dialog\+Helper}} $\ast$}]{helper,  }\item[{const char $\ast$}]{invoke\+String,  }\item[{int}]{code,  }\item[{int}]{alias,  }\item[{int}]{index,  }\item[{\mbox{\hyperlink{classJoyButtonSlot_ae87eeb7a82527da7bcd4579616bd22c8}{Joy\+Button\+Slot\+::\+Joy\+Slot\+Input\+Action}}}]{mode,  }\item[{bool}]{with\+Clear,  }\item[{bool}]{with\+True,  }\item[{Qt\+::\+Connection\+Type}]{conn\+Type\+For\+Alias,  }\item[{Qt\+::\+Connection\+Type}]{conn\+Type\+For\+Nothing,  }\item[{Qt\+::\+Connection\+Type}]{conn\+Type\+For\+All }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a0d0a0661cdbbe242cc9b9e11ad08eaed_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a0d0a0661cdbbe242cc9b9e11ad08eaed_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_a966a6fb5f4956b07a88e0c00ad984f68}\label{classButtonEditDialog_a966a6fb5f4956b07a88e0c00ad984f68}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!keyGrabbed@{keyGrabbed}}
+\index{keyGrabbed@{keyGrabbed}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{keyGrabbed}{keyGrabbed}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Button\+Edit\+Dialog\+::key\+Grabbed (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButtonSlot}{Joy\+Button\+Slot}} $\ast$}]{tempslot }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a966a6fb5f4956b07a88e0c00ad984f68_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_ab0b0b687528c0dd798317b5a34b02947}\label{classButtonEditDialog_ab0b0b687528c0dd798317b5a34b02947}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!keyPressEvent@{keyPressEvent}}
+\index{keyPressEvent@{keyPressEvent}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{keyPressEvent()}{keyPressEvent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Button\+Edit\+Dialog\+::key\+Press\+Event (\begin{DoxyParamCaption}\item[{Q\+Key\+Event $\ast$}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{classButtonEditDialog_aa9469772bd8abc88407492e2c9385687}\label{classButtonEditDialog_aa9469772bd8abc88407492e2c9385687}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!keyReleaseEvent@{keyReleaseEvent}}
+\index{keyReleaseEvent@{keyReleaseEvent}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{keyReleaseEvent()}{keyReleaseEvent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Button\+Edit\+Dialog\+::key\+Release\+Event (\begin{DoxyParamCaption}\item[{Q\+Key\+Event $\ast$}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_aa9469772bd8abc88407492e2c9385687_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_a70b199304a9e842bff9cc50ca6c48abb}\label{classButtonEditDialog_a70b199304a9e842bff9cc50ca6c48abb}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!nullifyDialogPointer@{nullifyDialogPointer}}
+\index{nullifyDialogPointer@{nullifyDialogPointer}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{nullifyDialogPointer}{nullifyDialogPointer}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Button\+Edit\+Dialog\+::nullify\+Dialog\+Pointer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a70b199304a9e842bff9cc50ca6c48abb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a70b199304a9e842bff9cc50ca6c48abb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_ade8d1ee4ae03d1080932a70c8170d488}\label{classButtonEditDialog_ade8d1ee4ae03d1080932a70c8170d488}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!openAdvancedDialog@{openAdvancedDialog}}
+\index{openAdvancedDialog@{openAdvancedDialog}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{openAdvancedDialog}{openAdvancedDialog}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Button\+Edit\+Dialog\+::open\+Advanced\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_ade8d1ee4ae03d1080932a70c8170d488_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_ade8d1ee4ae03d1080932a70c8170d488_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_a3f4f84fb02db14ed369dfa2cbe3eb9de}\label{classButtonEditDialog_a3f4f84fb02db14ed369dfa2cbe3eb9de}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!processSlotAssignment@{processSlotAssignment}}
+\index{processSlotAssignment@{processSlotAssignment}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{processSlotAssignment}{processSlotAssignment}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Button\+Edit\+Dialog\+::process\+Slot\+Assignment (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButtonSlot}{Joy\+Button\+Slot}} $\ast$}]{tempslot }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a3f4f84fb02db14ed369dfa2cbe3eb9de_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a3f4f84fb02db14ed369dfa2cbe3eb9de_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_a82f6d5a24f90b015034e1a3985c410b8}\label{classButtonEditDialog_a82f6d5a24f90b015034e1a3985c410b8}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!refreshForLastBtn@{refreshForLastBtn}}
+\index{refreshForLastBtn@{refreshForLastBtn}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{refreshForLastBtn()}{refreshForLastBtn()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Button\+Edit\+Dialog\+::refresh\+For\+Last\+Btn (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a82f6d5a24f90b015034e1a3985c410b8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a82f6d5a24f90b015034e1a3985c410b8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_a88d97effdbddb77cc830fe0376e425ff}\label{classButtonEditDialog_a88d97effdbddb77cc830fe0376e425ff}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!refreshSlotSummaryLabel@{refreshSlotSummaryLabel}}
+\index{refreshSlotSummaryLabel@{refreshSlotSummaryLabel}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{refreshSlotSummaryLabel}{refreshSlotSummaryLabel}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Button\+Edit\+Dialog\+::refresh\+Slot\+Summary\+Label (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a88d97effdbddb77cc830fe0376e425ff_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a88d97effdbddb77cc830fe0376e425ff_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_a091dcac0203bd45c34da204da675a18f}\label{classButtonEditDialog_a091dcac0203bd45c34da204da675a18f}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!selectionCleared@{selectionCleared}}
+\index{selectionCleared@{selectionCleared}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{selectionCleared}{selectionCleared}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Button\+Edit\+Dialog\+::selection\+Cleared (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a091dcac0203bd45c34da204da675a18f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_a1298376fb2fb98538ed77afc09f61fba}\label{classButtonEditDialog_a1298376fb2fb98538ed77afc09f61fba}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!selectionFinished@{selectionFinished}}
+\index{selectionFinished@{selectionFinished}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{selectionFinished}{selectionFinished}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Button\+Edit\+Dialog\+::selection\+Finished (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a1298376fb2fb98538ed77afc09f61fba_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_aec43fa70732aaa9b4a57fef25eb2bfed}\label{classButtonEditDialog_aec43fa70732aaa9b4a57fef25eb2bfed}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!sendSelectionFinished@{sendSelectionFinished}}
+\index{sendSelectionFinished@{sendSelectionFinished}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{sendSelectionFinished}{sendSelectionFinished}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Button\+Edit\+Dialog\+::send\+Selection\+Finished (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_aec43fa70732aaa9b4a57fef25eb2bfed_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_a1aaf303d0e9f9c581aa93986b4f32f3d}\label{classButtonEditDialog_a1aaf303d0e9f9c581aa93986b4f32f3d}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!sendTempSlotToAdvanced@{sendTempSlotToAdvanced}}
+\index{sendTempSlotToAdvanced@{sendTempSlotToAdvanced}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{sendTempSlotToAdvanced}{sendTempSlotToAdvanced}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Button\+Edit\+Dialog\+::send\+Temp\+Slot\+To\+Advanced (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButtonSlot}{Joy\+Button\+Slot}} $\ast$}]{tempslot }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a1aaf303d0e9f9c581aa93986b4f32f3d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_a251428b24ee7435f73dd3bf9b90f6908}\label{classButtonEditDialog_a251428b24ee7435f73dd3bf9b90f6908}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!setTurboButtonEnabled@{setTurboButtonEnabled}}
+\index{setTurboButtonEnabled@{setTurboButtonEnabled}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{setTurboButtonEnabled}{setTurboButtonEnabled}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Button\+Edit\+Dialog\+::set\+Turbo\+Button\+Enabled (\begin{DoxyParamCaption}\item[{bool}]{state }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a251428b24ee7435f73dd3bf9b90f6908_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_ad841ad92d4de8c0b04529d2e4d29b7ab}\label{classButtonEditDialog_ad841ad92d4de8c0b04529d2e4d29b7ab}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!setUpLastJoyButton@{setUpLastJoyButton}}
+\index{setUpLastJoyButton@{setUpLastJoyButton}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{setUpLastJoyButton()}{setUpLastJoyButton()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Button\+Edit\+Dialog\+::set\+Up\+Last\+Joy\+Button (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classJoyButton}{Joy\+Button}} $\ast$}]{new\+Button }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_ad841ad92d4de8c0b04529d2e4d29b7ab_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButtonEditDialog_a0057dab454e3f52eeab3e3ba1fd336e0}\label{classButtonEditDialog_a0057dab454e3f52eeab3e3ba1fd336e0}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!updateWindowTitleButtonName@{updateWindowTitleButtonName}}
+\index{updateWindowTitleButtonName@{updateWindowTitleButtonName}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{updateWindowTitleButtonName}{updateWindowTitleButtonName}}
+{\footnotesize\ttfamily \mbox{\hyperlink{lgpl-2_81_8txt_a3b083519fd2b41d83363afcfd5ebad9d}{void}} Button\+Edit\+Dialog\+::update\+Window\+Title\+Button\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a0057dab454e3f52eeab3e3ba1fd336e0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classButtonEditDialog_a0057dab454e3f52eeab3e3ba1fd336e0_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classButtonEditDialog_a0b4cc0853d46daff40c6f6bb00f1834c}\label{classButtonEditDialog_a0b4cc0853d46daff40c6f6bb00f1834c}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!buttonEventInterval@{buttonEventInterval}}
+\index{buttonEventInterval@{buttonEventInterval}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{buttonEventInterval}{buttonEventInterval}}
+{\footnotesize\ttfamily Q\+Elapsed\+Timer Button\+Edit\+Dialog\+::button\+Event\+Interval\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classButtonEditDialog_a133c13bffec73dcfd4047599b554e980}\label{classButtonEditDialog_a133c13bffec73dcfd4047599b554e980}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!currentQuickDialog@{currentQuickDialog}}
+\index{currentQuickDialog@{currentQuickDialog}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{currentQuickDialog}{currentQuickDialog}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classQuickSetDialog}{Quick\+Set\+Dialog}}$\ast$ Button\+Edit\+Dialog\+::current\+Quick\+Dialog\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classButtonEditDialog_a90bc505aef2e76c9fe8f822cdc12f811}\label{classButtonEditDialog_a90bc505aef2e76c9fe8f822cdc12f811}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!helper@{helper}}
+\index{helper@{helper}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{helper}{helper}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classButtonEditDialogHelper}{Button\+Edit\+Dialog\+Helper}} Button\+Edit\+Dialog\+::helper\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classButtonEditDialog_aa221722104932dabd4aaa92b2a51d66f}\label{classButtonEditDialog_aa221722104932dabd4aaa92b2a51d66f}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!ignoreRelease@{ignoreRelease}}
+\index{ignoreRelease@{ignoreRelease}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{ignoreRelease}{ignoreRelease}}
+{\footnotesize\ttfamily bool Button\+Edit\+Dialog\+::ignore\+Release\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classButtonEditDialog_ad0226b98a811561d406503a2d6b64e2a}\label{classButtonEditDialog_ad0226b98a811561d406503a2d6b64e2a}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!instance@{instance}}
+\index{instance@{instance}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{instance}{instance}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classButtonEditDialog}{Button\+Edit\+Dialog}} $\ast$ Button\+Edit\+Dialog\+::instance = nullptr\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classButtonEditDialog_a660eb476492fcc46b337b94a0fc6cf3a}\label{classButtonEditDialog_a660eb476492fcc46b337b94a0fc6cf3a}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!joystick@{joystick}}
+\index{joystick@{joystick}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{joystick}{joystick}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classInputDevice}{Input\+Device}}$\ast$ Button\+Edit\+Dialog\+::joystick\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classButtonEditDialog_a83a69c061f27d7f34fc4abd06d2608e6}\label{classButtonEditDialog_a83a69c061f27d7f34fc4abd06d2608e6}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!lastJoyButton@{lastJoyButton}}
+\index{lastJoyButton@{lastJoyButton}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{lastJoyButton}{lastJoyButton}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classJoyButton}{Joy\+Button}}$\ast$ Button\+Edit\+Dialog\+::last\+Joy\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classButtonEditDialog_abbd25bd7afc9b15abcfd7e2dcc84a385}\label{classButtonEditDialog_abbd25bd7afc9b15abcfd7e2dcc84a385}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!m\_isNumKeypad@{m\_isNumKeypad}}
+\index{m\_isNumKeypad@{m\_isNumKeypad}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{m\_isNumKeypad}{m\_isNumKeypad}}
+{\footnotesize\ttfamily bool Button\+Edit\+Dialog\+::m\+\_\+is\+Num\+Keypad\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classButtonEditDialog_ae4f7345d810ab5e718b231071890466f}\label{classButtonEditDialog_ae4f7345d810ab5e718b231071890466f}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!ui@{ui}}
+\index{ui@{ui}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Button\+Edit\+Dialog$\ast$ Button\+Edit\+Dialog\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classButtonEditDialog_a2a09ac4a2c262f4f2fe4239dcda1a926}\label{classButtonEditDialog_a2a09ac4a2c262f4f2fe4239dcda1a926}} 
+\index{ButtonEditDialog@{ButtonEditDialog}!withoutQuickSetDialog@{withoutQuickSetDialog}}
+\index{withoutQuickSetDialog@{withoutQuickSetDialog}!ButtonEditDialog@{ButtonEditDialog}}
+\doxysubsubsection{\texorpdfstring{withoutQuickSetDialog}{withoutQuickSetDialog}}
+{\footnotesize\ttfamily bool Button\+Edit\+Dialog\+::without\+Quick\+Set\+Dialog\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{buttoneditdialog_8h}{buttoneditdialog.\+h}}\item 
+/home/pawel/antimicrox/src/\mbox{\hyperlink{buttoneditdialog_8cpp}{buttoneditdialog.\+cpp}}\end{DoxyCompactItemize}

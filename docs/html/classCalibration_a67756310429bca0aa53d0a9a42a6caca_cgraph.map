@@ -1,0 +1,11 @@
+<map id="Calibration::setProgressBars" name="Calibration::setProgressBars">
+<area shape="rect" id="node1" title="Creates progress bars for axes and creates connections." alt="" coords="5,187,195,213"/>
+<area shape="rect" id="node2" href="$classCalibration.html#a025b5331301657dcddad2c31eb20a7a3" title="it&#39;s a slot of moving ax X. Counts positive and negative values for later comparisions" alt="" coords="277,5,411,32"/>
+<area shape="rect" id="node3" href="$classCalibration.html#a6dcc9941ef29ddd8c73312263cad6c3d" title="it&#39;s a slot of moving ax Y. Counts positive and negative values for later comparisions" alt="" coords="277,56,411,83"/>
+<area shape="rect" id="node4" href="$classJoyControlStick.html#a289947c34f708ce31ff20e79a17dcd67" title=" " alt="" coords="257,107,431,133"/>
+<area shape="rect" id="node5" href="$classJoyControlStick.html#a98d2b36924e0acf0a3240a1f1b78f666" title=" " alt="" coords="257,157,431,184"/>
+<area shape="rect" id="node6" href="$classJoyControlStick.html#a524664c295ecbbd51dfcff210b2bceab" title=" " alt="" coords="243,209,445,250"/>
+<area shape="rect" id="node7" href="$classJoyAxis.html#a0580ab0df546a1c03b4e8f755ad00272" title=" " alt="" coords="246,275,442,301"/>
+<area shape="rect" id="node8" href="$classJoyAxis.html#a9ceda991c13da3a99868acc436ed20f3" title=" " alt="" coords="257,325,431,352"/>
+<area shape="rect" id="node9" href="$classJoyControlStick.html#a5a1c2eb10e476c90082f864b40217934" title=" " alt="" coords="243,376,445,403"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="MainWindow::trayIconClickAction" name="MainWindow::trayIconClickAction">
+<area shape="rect" id="node1" title=" " alt="" coords="5,169,187,211"/>
+<area shape="rect" id="node2" href="$classMainWindow.html#a732dcadb7bd3365f28d2b38b6d22b5a7" title=" " alt="" coords="235,151,409,178"/>
+<area shape="rect" id="node12" href="$lgpl-2_81_8txt.html#a9642942062a0c88c684a2bb3289aa738" title=" " alt="" coords="291,202,353,229"/>
+<area shape="rect" id="node3" href="$classMainWindow.html#a5b10214725195446d31959dbde52df71" title=" " alt="" coords="457,144,635,185"/>
+<area shape="rect" id="node4" href="$classJoyButtonWidget.html#a6ed827523fd9bca4cafd2e329f5a6583" title=" " alt="" coords="707,239,877,280"/>
+<area shape="rect" id="node7" href="$classJoyControlStickPushButton.html#a8d4df51632a062b38edfffcd9f18324c" title=" " alt="" coords="701,5,883,47"/>
+<area shape="rect" id="node8" href="$classDPadPushButton.html#a1d981d9f300c310133d2581eac17091e" title=" " alt="" coords="683,71,901,98"/>
+<area shape="rect" id="node9" href="$classJoyAxisWidget.html#abb07c31ce716701a4bde8218be75ae81" title=" " alt="" coords="689,122,895,149"/>
+<area shape="rect" id="node10" href="$classJoyControlStickButtonPushButton.html#ab92f9abd7a079ac556cfe3d618e859b2" title=" " alt="" coords="701,173,883,215"/>
+<area shape="rect" id="node11" href="$classJoyTabWidget.html#a2b7d0077726b2b2bf406be8a4fa631af" title=" " alt="" coords="703,305,881,331"/>
+<area shape="rect" id="node5" href="$classFlashButtonWidget.html#ad8d71480fd154aad271af693af681394" title=" " alt="" coords="949,87,1091,128"/>
+<area shape="rect" id="node6" href="$classFlashButtonWidget.html#a84af4cf2103d6f054e117915850199ec" title=" " alt="" coords="949,152,1091,193"/>
+</map>

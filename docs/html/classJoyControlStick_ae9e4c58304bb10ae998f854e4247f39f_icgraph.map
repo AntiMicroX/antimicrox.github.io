@@ -1,0 +1,7 @@
+<map id="JoyControlStick::resetButtons" name="JoyControlStick::resetButtons">
+<area shape="rect" id="node1" title="Reset all the properties of the stick direction buttons and the stick modifier button." alt="" coords="728,35,924,61"/>
+<area shape="rect" id="node2" href="$classJoyControlStick.html#ae522566bf421862cb84d33aeefff71af" title=" " alt="" coords="529,35,680,61"/>
+<area shape="rect" id="node3" href="$classJoyControlStick.html#a57b418a495a22ea5182e89ef4a6cf233" title="Copy slots from all stick buttons and properties from a stick onto another." alt="" coords="255,5,481,32"/>
+<area shape="rect" id="node5" href="$classJoyControlStick.html#add8f98ad0df0e0dfbd6380abc4422385" title=" " alt="" coords="275,57,461,98"/>
+<area shape="rect" id="node4" href="$classSetJoystick.html#a36b0da099fef84270b6cc7c76741e689" title=" " alt="" coords="5,5,207,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Calibration::checkY" name="Calibration::checkY">
+<area shape="rect" id="node1" title="it&#39;s a slot of moving ax Y. Counts positive and negative values for later comparisions" alt="" coords="243,5,377,32"/>
+<area shape="rect" id="node2" href="$classCalibration.html#a67756310429bca0aa53d0a9a42a6caca" title="Creates progress bars for axes and creates connections." alt="" coords="5,5,195,32"/>
+</map>

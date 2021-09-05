@@ -1,0 +1,12 @@
+<map id="AutoProfileInfo::setExe" name="AutoProfileInfo::setExe">
+<area shape="rect" id="node1" title=" " alt="" coords="739,97,895,124"/>
+<area shape="rect" id="node2" href="$classAutoProfileInfo.html#ab2d60c700b0bafaa42c7d4a870678299" title=" " alt="" coords="488,5,691,32"/>
+<area shape="rect" id="node3" href="$classMainSettingsDialog.html#ae075b085dd2e591e721a3c45e41754b1" title=" " alt="" coords="514,57,665,98"/>
+<area shape="rect" id="node5" href="$classAddEditAutoProfileDialog.html#a6c236891f9ad9def8e162a795c6cc73b" title=" " alt="" coords="496,122,683,163"/>
+<area shape="rect" id="node7" href="$classAutoProfileWatcher.html#a561af8319ef8031986ac0eaee221c6a3" title=" " alt="" coords="508,187,671,229"/>
+<area shape="rect" id="node4" href="$classMainSettingsDialog.html#aeee272ff5482aca59310558ffdb9ebbe" title=" " alt="" coords="265,57,407,98"/>
+<area shape="rect" id="node6" href="$classAddEditAutoProfileDialog.html#a518993ac329de2e2bee5eeb392d124ec" title=" " alt="" coords="247,122,425,163"/>
+<area shape="rect" id="node8" href="$classAutoProfileWatcher.html#a6c9832eb02480c6909f49cbb05d5113c" title=" " alt="" coords="265,187,407,229"/>
+<area shape="rect" id="node9" href="$classMainWindow.html#ae9f72ff45056908317963a1e7fa634a0" title="Build list of current input devices and pass it to settings dialog instance. Open Settings dialog." alt="" coords="232,253,440,294"/>
+<area shape="rect" id="node10" href="$classMainWindow.html#a2f0c03d3d51748ab794e698322110614" title=" " alt="" coords="5,260,184,287"/>
+</map>

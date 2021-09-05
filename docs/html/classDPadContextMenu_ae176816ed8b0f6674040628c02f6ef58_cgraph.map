@@ -1,0 +1,11 @@
+<map id="DPadContextMenu::generateActionPreset" name="DPadContextMenu::generateActionPreset">
+<area shape="rect" id="node1" title=" " alt="" coords="5,99,196,141"/>
+<area shape="rect" id="node2" href="$classDPadContextMenu.html#a40550e6245c2c82666d52ca4e7e66f67" title="Assign the appropriate slots to DPad buttons based on the preset item that was chosen." alt="" coords="244,99,436,141"/>
+<area shape="rect" id="node3" href="$classDPadContextMenu.html#a60b40fa686979a820b816eae259cf52d" title=" " alt="" coords="484,5,681,32"/>
+<area shape="rect" id="node4" href="$classAntKeyMapper.html#acd08c44a2501edcfdb1ef8a68d534b1b" title=" " alt="" coords="491,56,674,83"/>
+<area shape="rect" id="node7" href="$classJoyDPad.html#a49c84e10ea78221ef1d42a2f986f05e8" title=" " alt="" coords="505,107,660,133"/>
+<area shape="rect" id="node8" href="$classJoyDPad.html#ae912673a382e0ffcdd1472373ffe832b" title=" " alt="" coords="505,157,660,184"/>
+<area shape="rect" id="node9" href="$classDPadContextMenuHelper.html#a454c25195ce9a77495ce74e388929561" title=" " alt="" coords="497,209,668,250"/>
+<area shape="rect" id="node5" href="$classAntKeyMapper.html#abe4a434636d370a750d32a14b9a139d3" title=" " alt="" coords="729,31,929,57"/>
+<area shape="rect" id="node6" href="$antkeymapper_8cpp.html#a4f87707944cf82e8e59c85d48e24951c" title=" " alt="" coords="749,81,909,108"/>
+</map>

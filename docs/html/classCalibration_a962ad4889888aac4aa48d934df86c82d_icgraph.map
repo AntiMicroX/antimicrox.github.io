@@ -1,0 +1,7 @@
+<map id="Calibration::summarizeValues" name="Calibration::summarizeValues">
+<area shape="rect" id="node1" title=" " alt="" coords="688,56,881,83"/>
+<area shape="rect" id="node2" href="$classCalibration.html#a784c4f6d1e1ec695a5fcea99c0813934" title="Prepares first step of calibration &#45; finding center." alt="" coords="461,56,640,83"/>
+<area shape="rect" id="node3" href="$classCalibration.html#a27a8dcaa8bc1ae3ebf2da993b29a4e2e" title=" " alt="" coords="252,5,404,32"/>
+<area shape="rect" id="node4" href="$classCalibration.html#a7395207c632a902aba620462d1ff584c" title="Prepares third step of calibration &#45; moving into bottom&#45;right corner &#45; postive values." alt="" coords="243,56,413,83"/>
+<area shape="rect" id="node5" href="$classCalibration.html#ab764fc9b8f7d08e04b7453636010862d" title="Prepares second step of calibration &#45; moving into top&#45;left corner &#45; negative values." alt="" coords="5,81,195,108"/>
+</map>

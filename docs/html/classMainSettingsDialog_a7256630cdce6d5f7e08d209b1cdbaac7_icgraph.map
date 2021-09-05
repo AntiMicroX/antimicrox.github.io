@@ -1,0 +1,8 @@
+<map id="MainSettingsDialog::changeLanguage" name="MainSettingsDialog::changeLanguage">
+<area shape="rect" id="node1" title=" " alt="" coords="679,39,813,80"/>
+<area shape="rect" id="node2" href="$classMainSettingsDialog.html#a7da8826e7910dfd97ae68b8ac633d3f8" title=" " alt="" coords="453,5,601,47"/>
+<area shape="rect" id="node5" href="$classMainWindow.html#ae9f72ff45056908317963a1e7fa634a0" title="Build list of current input devices and pass it to settings dialog instance. Open Settings dialog." alt="" coords="423,71,631,112"/>
+<area shape="rect" id="node3" href="$classMainSettingsDialog.html#a07b54c6c80f72c4c5b28b32a58cbcca6" title=" " alt="" coords="218,5,353,47"/>
+<area shape="rect" id="node4" href="$classMainSettingsDialog.html#aeee272ff5482aca59310558ffdb9ebbe" title=" " alt="" coords="5,5,148,47"/>
+<area shape="rect" id="node6" href="$classMainWindow.html#a2f0c03d3d51748ab794e698322110614" title=" " alt="" coords="196,78,375,105"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="SetJoystick::getCountBtnInList" name="SetJoystick::getCountBtnInList">
+<area shape="rect" id="node1" title=" " alt="" coords="5,35,176,76"/>
+<area shape="rect" id="node2" href="$classSetJoystick.html#aca1645951d2889553fbe8dc84d3e3ef8" title=" " alt="" coords="224,5,407,47"/>
+<area shape="rect" id="node3" href="$classJoyButton.html#acf2e65dcec7b0d2a8a2c21c36c489ad6" title=" " alt="" coords="225,71,405,98"/>
+<area shape="rect" id="node4" href="$classJoyButton.html#a39c9ccaf641bb8bf50b29d4c4e04c165" title="Get a 1 indexed number of button." alt="" coords="455,71,655,98"/>
+</map>

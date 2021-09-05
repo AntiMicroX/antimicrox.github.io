@@ -1,0 +1,6 @@
+<map id="SetJoystick::propogateSetVDPadButtonNameChange" name="SetJoystick::propogateSetVDPadButtonNameChange">
+<area shape="rect" id="node1" title=" " alt="" coords="5,49,188,90"/>
+<area shape="rect" id="node2" href="$classJoyDPadButton.html#a3562e822a51b68df01e9a76267428728" title=" " alt="" coords="237,5,410,32"/>
+<area shape="rect" id="node3" href="$classJoyDPad.html#a089e9a69356d82336da47361bfc94b63" title=" " alt="" coords="256,56,391,83"/>
+<area shape="rect" id="node4" href="$classJoyButton.html#aa659d5a0860f5047862ca0761d8d775a" title="Get 0 indexed number of button." alt="" coords="236,107,411,133"/>
+</map>

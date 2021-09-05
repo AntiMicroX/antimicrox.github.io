@@ -1,0 +1,4 @@
+<map id="JoyControlStick::readConfig" name="JoyControlStick::readConfig">
+<area shape="rect" id="node1" title="Take a XML stream and set the stick and direction button properties according to the values contained..." alt="" coords="237,5,423,32"/>
+<area shape="rect" id="node2" href="$classSetJoystickXml.html#aa95423a01fab878cbc69bffb7f6121f3" title=" " alt="" coords="5,5,189,32"/>
+</map>

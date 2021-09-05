@@ -1,0 +1,17 @@
+<map id="MainWindow::controllerMapOpening" name="MainWindow::controllerMapOpening">
+<area shape="rect" id="node1" title=" " alt="" coords="5,235,188,276"/>
+<area shape="rect" id="node2" href="$classCommandLineUtility.html#a95c17e6603579cb9f08067f49bf776a6" title=" " alt="" coords="277,5,417,47"/>
+<area shape="rect" id="node3" href="$classCommandLineUtility.html#a96db1e38b25c4f371e7d634011ea2312" title=" " alt="" coords="272,71,423,112"/>
+<area shape="rect" id="node4" href="$classCommandLineUtility.html#a78e62266b72b04743ab1fadb09f8d6e6" title=" " alt="" coords="262,136,433,177"/>
+<area shape="rect" id="node5" href="$classControllerOptionsInfo.html#a28cff551d988d490d3ab64103046c597" title=" " alt="" coords="275,201,420,243"/>
+<area shape="rect" id="node6" href="$classControllerOptionsInfo.html#a6c801fa0fe45421d984e189dc9503c59" title=" " alt="" coords="271,267,424,308"/>
+<area shape="rect" id="node7" href="$classMainWindow.html#a74c96dbe750f2f038777b8a0034da63f" title=" " alt="" coords="236,332,459,373"/>
+<area shape="rect" id="node10" href="$classMainWindow.html#a3e3d0a74572c6cbe2d9b8c1014deb291" title="Select appropriate tab that has a device with the specified GUID." alt="" coords="250,397,445,439"/>
+<area shape="rect" id="node15" href="$classCommandLineUtility.html#ad5ca0b7e558e3fe2fcd450d882e79008" title=" " alt="" coords="273,463,422,504"/>
+<area shape="rect" id="node8" href="$classJoyTabWidget.html#a2b7d0077726b2b2bf406be8a4fa631af" title=" " alt="" coords="523,283,701,310"/>
+<area shape="rect" id="node9" href="$classMainWindow.html#a4e2ec77808f2673635ad744be66e02dc" title=" " alt="" coords="507,335,717,376"/>
+<area shape="rect" id="node11" href="$classInputDevice.html#a197e76d4113e8258e6637981830dd219" title=" " alt="" coords="519,403,705,430"/>
+<area shape="rect" id="node12" href="$classInputDevice.html#a894f087cdfe06136fade922ff053d522" title=" " alt="" coords="511,454,713,481"/>
+<area shape="rect" id="node13" href="$classInputDevice.html#a3184377c2e251949cae1a0937aaef78c" title=" " alt="" coords="779,429,958,455"/>
+<area shape="rect" id="node14" href="$classInputDevice.html#ad2d9a268b89898a0a29b56d7af63de9e" title=" " alt="" coords="765,479,972,506"/>
+</map>
