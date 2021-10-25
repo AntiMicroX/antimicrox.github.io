@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['use_5fnew_5frefresh_6316',['USE_NEW_REFRESH',['../inputdaemon_8cpp.html#a83712b2816a90f5fccdaef00f1e72e48',1,'inputdaemon.cpp']]]
+  ['info_6420',['INFO',['../logger_8h.html#a7cec51f4ce4b22e8c0f256485d57fca7',1,'logger.h']]]
 ];

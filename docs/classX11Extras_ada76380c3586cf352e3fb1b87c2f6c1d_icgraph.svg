@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classX11Extras.html#ab25fb9906ada3cae39ae0e89e2a5276d" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classX11Extras.html#ab25fb9906ada3cae39ae0e89e2a5276d" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-50 0,-69 153,-69 153,-50 0,-50"/>
 <text text-anchor="middle" x="76.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">X11Extras::getPointInformation</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classX11Extras.html#a0c875a3177e690cfb5eb67cb6fda974d" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classX11Extras.html#a0c875a3177e690cfb5eb67cb6fda974d" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="7,-0.5 7,-30.5 146,-30.5 146,-0.5 7,-0.5"/>
 <text text-anchor="start" x="15" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">X11Extras::x11ResetMouse</text>
 <text text-anchor="middle" x="76.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">AccelerationChange</text>

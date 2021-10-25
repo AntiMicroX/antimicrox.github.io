@@ -23,7 +23,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classAutoProfileInfo.html#aba94c3fdd9e66bf8dc42a74237ff911c" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classAutoProfileInfo.html#aba94c3fdd9e66bf8dc42a74237ff911c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="191,-50 191,-69 333,-69 333,-50 191,-50"/>
 <text text-anchor="middle" x="262" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">AutoProfileInfo::getUniqueID</text>
 </a>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classAutoProfileInfo.html#a2d4730e620c4e433e5f477b474993ec3" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classAutoProfileInfo.html#a2d4730e620c4e433e5f477b474993ec3" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="198.5,-0.5 198.5,-30.5 325.5,-30.5 325.5,-0.5 198.5,-0.5"/>
 <text text-anchor="start" x="206.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">AutoProfileInfo::isCurrent</text>
 <text text-anchor="middle" x="262" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Default</text>

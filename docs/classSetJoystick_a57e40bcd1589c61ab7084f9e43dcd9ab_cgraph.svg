@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyAxisButton.html#a8b73356f8efc91ad97e2c281b3603cc8" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyAxisButton.html#a8b73356f8efc91ad97e2c281b3603cc8" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="173.5,-88.5 173.5,-107.5 292.5,-107.5 292.5,-88.5 173.5,-88.5"/>
 <text text-anchor="middle" x="233" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxisButton::getAxis</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyButton.html#abbccee98e377453167a47b49874eeab7" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyButton.html#abbccee98e377453167a47b49874eeab7" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="167,-39 167,-69 299,-69 299,-39 167,-39"/>
 <text text-anchor="start" x="175" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getIgnoreEvent</text>
 <text text-anchor="middle" x="233" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">State</text>
@@ -53,7 +53,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyAxis.html#afddf7399e2086fda738fe588f5e7d7cd" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyAxis.html#afddf7399e2086fda738fe588f5e7d7cd" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="185.5,-0.5 185.5,-19.5 280.5,-19.5 280.5,-0.5 185.5,-0.5"/>
 <text text-anchor="middle" x="233" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getIndex</text>
 </a>

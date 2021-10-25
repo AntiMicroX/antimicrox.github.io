@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classMainSettingsDialog.html#abc72f49787d551981e5d7569635115ad" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classMainSettingsDialog.html#abc72f49787d551981e5d7569635115ad" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 110,-30.5 110,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">MainSettingsDialog</text>
 <text text-anchor="middle" x="55" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::on_resetBtn_clicked</text>

@@ -21,7 +21,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classMouseAxisSettingsDialog.html" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classMouseAxisSettingsDialog.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="238.5,-126.5 238.5,-145.5 367.5,-145.5 367.5,-126.5 238.5,-126.5"/>
 <text text-anchor="middle" x="303" y="-133.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseAxisSettingsDialog</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classMouseButtonSettingsDialog.html" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classMouseButtonSettingsDialog.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="234,-88.5 234,-107.5 372,-107.5 372,-88.5 234,-88.5"/>
 <text text-anchor="middle" x="303" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseButtonSettingsDialog</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classMouseControlStickSettingsDialog.html" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classMouseControlStickSettingsDialog.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="235,-39 235,-69 371,-69 371,-39 235,-39"/>
 <text text-anchor="start" x="243" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">MouseControlStickSettings</text>
 <text text-anchor="middle" x="303" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">Dialog</text>
@@ -67,7 +67,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="$classMouseDPadSettingsDialog.html" xlink:title=" ">
+<g id="a_node6"><a xlink:href="classMouseDPadSettingsDialog.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="236,-0.5 236,-19.5 370,-19.5 370,-0.5 236,-0.5"/>
 <text text-anchor="middle" x="303" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseDPadSettingsDialog</text>
 </a>

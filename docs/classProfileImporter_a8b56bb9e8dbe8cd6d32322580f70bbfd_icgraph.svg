@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classProfileImporter.html#afc1217b49b684373639800728c6b7155" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classProfileImporter.html#afc1217b49b684373639800728c6b7155" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="4,-88 4,-118 120,-118 120,-88 4,-88"/>
 <text text-anchor="start" x="12" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">ProfileImporter::on</text>
 <text text-anchor="middle" x="62" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">_findConfigBtn_clicked</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classProfileImporter.html#a678b848eb45bc7c92e81a73f9efa784c" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classProfileImporter.html#a678b848eb45bc7c92e81a73f9efa784c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="4,-39 4,-69 120,-69 120,-39 4,-39"/>
 <text text-anchor="start" x="12" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">ProfileImporter::on</text>
 <text text-anchor="middle" x="62" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">_findProfileBtn_clicked</text>
@@ -54,7 +54,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classProfileImporter.html#a2e8fdf18c31a1510f1ba54d2259b5a69" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classProfileImporter.html#a2e8fdf18c31a1510f1ba54d2259b5a69" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 124,-19.5 124,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="62" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">ProfileImporter::openFile</text>
 </a>

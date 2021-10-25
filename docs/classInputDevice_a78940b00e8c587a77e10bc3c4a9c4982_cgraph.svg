@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classInputDevice.html#a742f2b9fe5f01464cb5351c042c76c8c" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classInputDevice.html#a742f2b9fe5f01464cb5351c042c76c8c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="167,-0.5 167,-19.5 316,-19.5 316,-0.5 167,-0.5"/>
 <text text-anchor="middle" x="241.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDevice::closeSDLDevice</text>
 </a>

@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyControlStickButtonPushButton.html#ab92f9abd7a079ac556cfe3d618e859b2" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyControlStickButtonPushButton.html#ab92f9abd7a079ac556cfe3d618e859b2" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="173,-49.5 173,-79.5 310,-79.5 310,-49.5 173,-49.5"/>
 <text text-anchor="start" x="181" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStickButtonPush</text>
 <text text-anchor="middle" x="241.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">Button::disableFlashes</text>
@@ -38,7 +38,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classJoyControlStickButtonPushButton.html#aa07b514aaa21e4084794a634e448a0cf" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classJoyControlStickButtonPushButton.html#aa07b514aaa21e4084794a634e448a0cf" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="173,-98.5 173,-128.5 310,-128.5 310,-98.5 173,-98.5"/>
 <text text-anchor="start" x="181" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStickButtonPush</text>
 <text text-anchor="middle" x="241.5" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">Button::enableFlashes</text>
@@ -54,7 +54,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="$classFlashButtonWidget.html#a14c9ecbbd3dfaef78b78371e17aac539" xlink:title=" ">
+<g id="a_node6"><a xlink:href="classFlashButtonWidget.html#a14c9ecbbd3dfaef78b78371e17aac539" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="188.5,-0.5 188.5,-30.5 294.5,-30.5 294.5,-0.5 188.5,-0.5"/>
 <text text-anchor="start" x="196.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">FlashButtonWidget::</text>
 <text text-anchor="middle" x="241.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">refreshLabel</text>
@@ -70,7 +70,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classFlashButtonWidget.html#ad8d71480fd154aad271af693af681394" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classFlashButtonWidget.html#ad8d71480fd154aad271af693af681394" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="346,-49.5 346,-79.5 452,-79.5 452,-49.5 346,-49.5"/>
 <text text-anchor="start" x="354" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">FlashButtonWidget::</text>
 <text text-anchor="middle" x="399" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">flash</text>
@@ -86,7 +86,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classFlashButtonWidget.html#a84af4cf2103d6f054e117915850199ec" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classFlashButtonWidget.html#a84af4cf2103d6f054e117915850199ec" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="346,-98.5 346,-128.5 452,-128.5 452,-98.5 346,-98.5"/>
 <text text-anchor="start" x="354" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">FlashButtonWidget::</text>
 <text text-anchor="middle" x="399" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">unflash</text>
@@ -114,7 +114,7 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="$classFlashButtonWidget.html#a15b2a9c645747d9f1f8368389da5830a" xlink:title=" ">
+<g id="a_node7"><a xlink:href="classFlashButtonWidget.html#a15b2a9c645747d9f1f8368389da5830a" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="346,-0.5 346,-30.5 452,-30.5 452,-0.5 346,-0.5"/>
 <text text-anchor="start" x="354" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">FlashButtonWidget::</text>
 <text text-anchor="middle" x="399" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">generateLabel</text>

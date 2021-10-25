@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classAutoProfileWatcher.html#a3e42030d3b71933be269e7eda00d253b" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classAutoProfileWatcher.html#a3e42030d3b71933be269e7eda00d253b" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="188,-49.5 188,-79.5 289,-79.5 289,-49.5 188,-49.5"/>
 <text text-anchor="start" x="196" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">AutoProfileWatcher</text>
 <text text-anchor="middle" x="238.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::startTimer</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classAutoProfileWatcher.html#ab08f83cac9bd6aaa66e250f25fe7a794" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classAutoProfileWatcher.html#ab08f83cac9bd6aaa66e250f25fe7a794" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="188,-0.5 188,-30.5 289,-30.5 289,-0.5 188,-0.5"/>
 <text text-anchor="start" x="196" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">AutoProfileWatcher</text>
 <text text-anchor="middle" x="238.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::stopTimer</text>

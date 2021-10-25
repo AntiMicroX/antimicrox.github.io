@@ -43,7 +43,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classQtKeyMapperBase.html" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classQtKeyMapperBase.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="52,-78.5 52,-97.5 150,-97.5 150,-78.5 52,-78.5"/>
 <text text-anchor="middle" x="101" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">QtKeyMapperBase</text>
 </a>

@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classCommandLineUtility.html#aba6b64467cd8351051bac970ceba52f7" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classCommandLineUtility.html#aba6b64467cd8351051bac970ceba52f7" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="164,-164 164,-194 269,-194 269,-164 164,-164"/>
 <text text-anchor="start" x="172" y="-182" font-family="Helvetica,sans-Serif" font-size="10.00">CommandLineUtility</text>
 <text text-anchor="middle" x="216.5" y="-171" font-family="Helvetica,sans-Serif" font-size="10.00">::getCurrentLogFile</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classCommandLineUtility.html#ab7ae77d077c422505fb129a7aad2cf6c" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classCommandLineUtility.html#ab7ae77d077c422505fb129a7aad2cf6c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="163,-115 163,-145 270,-145 270,-115 163,-115"/>
 <text text-anchor="start" x="171" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00">CommandLineUtility</text>
 <text text-anchor="middle" x="216.5" y="-122" font-family="Helvetica,sans-Serif" font-size="10.00">::getCurrentLogLevel</text>
@@ -54,7 +54,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classLogger.html#ace51996c11edf4539338cdec420dc62b" xlink:title="Get the Instance of logger.">
+<g id="a_node4"><a xlink:href="classLogger.html#ace51996c11edf4539338cdec420dc62b" target="_top" xlink:title="Get the Instance of logger.">
 <polygon fill="white" stroke="black" points="165,-76.5 165,-95.5 268,-95.5 268,-76.5 165,-76.5"/>
 <text text-anchor="middle" x="216.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">Logger::getInstance</text>
 </a>
@@ -69,7 +69,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classLogger.html#a5fbd8b1351633453037807a8707b46d7" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classLogger.html#a5fbd8b1351633453037807a8707b46d7" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="152,-38.5 152,-57.5 281,-57.5 281,-38.5 152,-38.5"/>
 <text text-anchor="middle" x="216.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Logger::setCurrentLogFile</text>
 </a>
@@ -84,7 +84,7 @@
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="$classLogger.html#a00fdcdbeb39a2d5d4fb27cc36c35c101" xlink:title="Set the highest logging level. Determines which messages are output to the output stream.">
+<g id="a_node8"><a xlink:href="classLogger.html#a00fdcdbeb39a2d5d4fb27cc36c35c101" target="_top" xlink:title="Set the highest logging level. Determines which messages are output to the output stream.">
 <polygon fill="white" stroke="black" points="164.5,-0.5 164.5,-19.5 268.5,-19.5 268.5,-0.5 164.5,-0.5"/>
 <text text-anchor="middle" x="216.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Logger::setLogLevel</text>
 </a>
@@ -99,7 +99,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="$classLogger.html#ac0b2a3d6502a6235b19103a81cdfc39a" xlink:title="Flushes output stream and closes stream if requested.">
+<g id="a_node6"><a xlink:href="classLogger.html#ac0b2a3d6502a6235b19103a81cdfc39a" target="_top" xlink:title="Flushes output stream and closes stream if requested.">
 <polygon fill="white" stroke="black" points="329.5,-57.5 329.5,-76.5 433.5,-76.5 433.5,-57.5 329.5,-57.5"/>
 <text text-anchor="middle" x="381.5" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">Logger::closeLogger</text>
 </a>
@@ -114,7 +114,7 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="$classLogger.html#a08f0798b1c7c7737c3c3ba493117f45d" xlink:title=" ">
+<g id="a_node7"><a xlink:href="classLogger.html#a08f0798b1c7c7737c3c3ba493117f45d" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="317,-19.5 317,-38.5 446,-38.5 446,-19.5 317,-19.5"/>
 <text text-anchor="middle" x="381.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">Logger::setCurrentStream</text>
 </a>

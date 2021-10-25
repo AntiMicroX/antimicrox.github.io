@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButtonSlot.html#ae8f24969cbe35083d18460052407e2c3" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButtonSlot.html#ae8f24969cbe35083d18460052407e2c3" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-38.5 0,-57.5 146,-57.5 146,-38.5 0,-38.5"/>
 <text text-anchor="middle" x="73" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButtonSlot::JoyButtonSlot</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyButtonSlot.html#a1de89a805811cc3e21f81092f2e36d5f" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyButtonSlot.html#a1de89a805811cc3e21f81092f2e36d5f" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="10.5,-0.5 10.5,-19.5 135.5,-19.5 135.5,-0.5 10.5,-0.5"/>
 <text text-anchor="middle" x="73" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButtonSlot::operator=</text>
 </a>

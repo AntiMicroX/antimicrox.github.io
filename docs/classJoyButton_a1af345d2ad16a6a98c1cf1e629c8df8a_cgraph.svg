@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classInputDevice.html#a15ce72c69139dfded93523e17d48c7ab" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classInputDevice.html#a15ce72c69139dfded93523e17d48c7ab" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="174.5,-77 174.5,-107 310.5,-107 310.5,-77 174.5,-77"/>
 <text text-anchor="start" x="182.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">InputDevice::getDeviceKey</text>
 <text text-anchor="middle" x="242.5" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">PressTime</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classSetJoystick.html#af641cbddd22e358218ba68497e40e4e3" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classSetJoystick.html#af641cbddd22e358218ba68497e40e4e3" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="173,-38.5 173,-57.5 312,-57.5 312,-38.5 173,-38.5"/>
 <text text-anchor="middle" x="242.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetJoystick::getInputDevice</text>
 </a>
@@ -53,7 +53,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyButtonSlot.html#a7fa0bf6d891437a2392e47d32b746502" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyButtonSlot.html#a7fa0bf6d891437a2392e47d32b746502" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="173.5,-0.5 173.5,-19.5 311.5,-19.5 311.5,-0.5 173.5,-0.5"/>
 <text text-anchor="middle" x="242.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButtonSlot::getSlotCode</text>
 </a>

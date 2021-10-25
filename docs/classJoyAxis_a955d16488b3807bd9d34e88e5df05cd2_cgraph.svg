@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#a2dc48e4d0de59b87938f5c0489d6e198" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButton.html#a2dc48e4d0de59b87938f5c0489d6e198" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="134,-88.5 134,-107.5 268,-107.5 268,-88.5 134,-88.5"/>
 <text text-anchor="middle" x="201" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getActionName</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyButton.html#a075d1d6380be607fcf69994f0d941afe" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyButton.html#a075d1d6380be607fcf69994f0d941afe" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="138,-39 138,-69 264,-69 264,-39 138,-39"/>
 <text text-anchor="start" x="146" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getCalculated</text>
 <text text-anchor="middle" x="201" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">ActiveZoneSummary</text>
@@ -52,7 +52,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classJoyAxis.html#a96710fb06ec9e989cd71ffce4ee7ca57" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classJoyAxis.html#a96710fb06ec9e989cd71ffce4ee7ca57" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="138,-0.5 138,-19.5 264,-19.5 264,-0.5 138,-0.5"/>
 <text text-anchor="middle" x="201" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getPartialName</text>
 </a>
@@ -67,7 +67,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyButton.html#a1b49d9ab85f0d5d128e2eca616747018" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyButton.html#a1b49d9ab85f0d5d128e2eca616747018" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="306,-39 306,-69 433,-69 433,-39 306,-39"/>
 <text text-anchor="start" x="314" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::lockForWrited</text>
 <text text-anchor="middle" x="369.5" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">String</text>
@@ -83,7 +83,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="$classJoyAxis.html#a9ceda991c13da3a99868acc436ed20f3" xlink:title=" ">
+<g id="a_node6"><a xlink:href="classJoyAxis.html#a9ceda991c13da3a99868acc436ed20f3" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="304,-0.5 304,-19.5 435,-19.5 435,-0.5 304,-0.5"/>
 <text text-anchor="middle" x="369.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getRealJoyIndex</text>
 </a>

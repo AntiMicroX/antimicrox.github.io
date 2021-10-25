@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classLogger.html#ace51996c11edf4539338cdec420dc62b" xlink:title="Get the Instance of logger.">
+<g id="a_node2"><a xlink:href="classLogger.html#ace51996c11edf4539338cdec420dc62b" target="_top" xlink:title="Get the Instance of logger.">
 <polygon fill="white" stroke="black" points="197.5,-38.5 197.5,-57.5 300.5,-57.5 300.5,-38.5 197.5,-38.5"/>
 <text text-anchor="middle" x="249" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Logger::getInstance</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classLogHelper.html#a983a9de6f9a429d1cd94aef960be9e9d" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classLogHelper.html#a983a9de6f9a429d1cd94aef960be9e9d" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="185,-0.5 185,-19.5 313,-19.5 313,-0.5 185,-0.5"/>
 <text text-anchor="middle" x="249" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">LogHelper::sendMessage</text>
 </a>

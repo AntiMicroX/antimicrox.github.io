@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classSpringModeRegionPreview.html#ac11ce802ca9098d5d61a1c7550e3a4f2" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classSpringModeRegionPreview.html#ac11ce802ca9098d5d61a1c7550e3a4f2" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="170,-0.5 170,-30.5 304,-30.5 304,-0.5 170,-0.5"/>
 <text text-anchor="start" x="178" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">SpringModeRegionPreview</text>
 <text text-anchor="middle" x="237" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::adjustSpringSizeHeight</text>

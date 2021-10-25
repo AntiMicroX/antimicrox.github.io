@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classGameControllerDPad.html#a415e52bdfdd12bd742a86b2237f6e11a" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classGameControllerDPad.html#a415e52bdfdd12bd742a86b2237f6e11a" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-39 0,-69 110,-69 110,-39 0,-39"/>
 <text text-anchor="start" x="8" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">GameControllerDPad</text>
 <text text-anchor="middle" x="55" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">::getName</text>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classVDPad.html#a42e3e226c3080939428095a12856b9a9" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classVDPad.html#a42e3e226c3080939428095a12856b9a9" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="8,-0.5 8,-19.5 102,-19.5 102,-0.5 8,-0.5"/>
 <text text-anchor="middle" x="55" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">VDPad::getName</text>
 </a>

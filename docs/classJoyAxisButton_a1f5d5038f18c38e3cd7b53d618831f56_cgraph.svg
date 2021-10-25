@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyAxis.html#ae168fbb214a184fcb41a6ab6b27e8f4e" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyAxis.html#ae168fbb214a184fcb41a6ab6b27e8f4e" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="175,-0.5 175,-30.5 308,-30.5 308,-0.5 175,-0.5"/>
 <text text-anchor="start" x="183" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getDistanceFrom</text>
 <text text-anchor="middle" x="241.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">DeadZone</text>

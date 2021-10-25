@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classGameController.html#afcddb9dcc5442a9746c3ff8760ea1791" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classGameController.html#afcddb9dcc5442a9746c3ff8760ea1791" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-38.5 0,-57.5 159,-57.5 159,-38.5 0,-38.5"/>
 <text text-anchor="middle" x="79.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameController::GameController</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoystick.html#a9df5e53506876f3c95e84bdf6c9cbaf1" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoystick.html#a9df5e53506876f3c95e84bdf6c9cbaf1" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="32.5,-0.5 32.5,-19.5 126.5,-19.5 126.5,-0.5 32.5,-0.5"/>
 <text text-anchor="middle" x="79.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Joystick::Joystick</text>
 </a>

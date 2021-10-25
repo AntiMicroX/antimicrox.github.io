@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classUInputEventHandler.html#aa04ce5a2e42124cf21a2872ee4511918" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classUInputEventHandler.html#aa04ce5a2e42124cf21a2872ee4511918" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="140,-0.5 140,-30.5 244,-30.5 244,-0.5 140,-0.5"/>
 <text text-anchor="start" x="148" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">UInputEventHandler</text>
 <text text-anchor="middle" x="192" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::write_uinput_event</text>

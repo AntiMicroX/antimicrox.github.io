@@ -23,7 +23,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classAutoProfileInfo.html#a9268ba686a854dfefe57d4840daa171d" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classAutoProfileInfo.html#a9268ba686a854dfefe57d4840daa171d" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="168,-11.5 168,-30.5 296,-30.5 296,-11.5 168,-11.5"/>
 <text text-anchor="middle" x="232" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">AutoProfileInfo::setActive</text>
 </a>

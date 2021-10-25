@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classCalibration.html#aac3cc29daae69f616489ddd29407f6fe" xlink:title="Resets memory of all variables to default, updates window and shows message.">
+<g id="a_node2"><a xlink:href="classCalibration.html#aac3cc29daae69f616489ddd29407f6fe" target="_top" xlink:title="Resets memory of all variables to default, updates window and shows message.">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 126,-19.5 126,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="63" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Calibration::resetSettings</text>
 </a>

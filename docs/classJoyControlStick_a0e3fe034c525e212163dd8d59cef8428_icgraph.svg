@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyControlStickStatusBox.html#a450e6a133de4e4d7894b967b051f9e31" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyControlStickStatusBox.html#a450e6a133de4e4d7894b967b051f9e31" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="176,-186.5 176,-216.5 308,-216.5 308,-186.5 176,-186.5"/>
 <text text-anchor="start" x="184" y="-204.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStickStatusBox</text>
 <text text-anchor="middle" x="242" y="-193.5" font-family="Helvetica,sans-Serif" font-size="10.00">::drawEightWayBox</text>
@@ -38,7 +38,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyControlStickStatusBox.html#ade94a0ecf5b485ce1e8d57ecdc82617f" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyControlStickStatusBox.html#ade94a0ecf5b485ce1e8d57ecdc82617f" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="174.5,-137.5 174.5,-167.5 309.5,-167.5 309.5,-137.5 174.5,-137.5"/>
 <text text-anchor="start" x="182.5" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStickStatusBox</text>
 <text text-anchor="middle" x="242" y="-144.5" font-family="Helvetica,sans-Serif" font-size="10.00">::drawFourWayCardinalBox</text>
@@ -54,7 +54,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classJoyControlStickStatusBox.html#a6c5557dfac58f22349a66743ec3cca4b" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classJoyControlStickStatusBox.html#a6c5557dfac58f22349a66743ec3cca4b" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="173,-88.5 173,-118.5 311,-118.5 311,-88.5 173,-88.5"/>
 <text text-anchor="start" x="181" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStickStatusBox</text>
 <text text-anchor="middle" x="242" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">::drawFourWayDiagonalBox</text>
@@ -70,7 +70,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="$classJoyControlStickEditDialog.html#a2baa35c50ff7528a03ec6f2ba1ed657d" xlink:title=" ">
+<g id="a_node6"><a xlink:href="classJoyControlStickEditDialog.html#a2baa35c50ff7528a03ec6f2ba1ed657d" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-22.5 0,-52.5 137,-52.5 137,-22.5 0,-22.5"/>
 <text text-anchor="start" x="8" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStickEditDialog</text>
 <text text-anchor="middle" x="68.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">::JoyControlStickEditDialog</text>
@@ -86,7 +86,7 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="$classJoyControlStickEditDialog.html#aa479f7bd7941c5be7efd683d3c0c8fd2" xlink:title=" ">
+<g id="a_node7"><a xlink:href="classJoyControlStickEditDialog.html#aa479f7bd7941c5be7efd683d3c0c8fd2" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="176.5,-0.5 176.5,-30.5 307.5,-30.5 307.5,-0.5 176.5,-0.5"/>
 <text text-anchor="start" x="184.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStickEditDialog</text>
 <text text-anchor="middle" x="242" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::refreshStickStats</text>
@@ -102,7 +102,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyControlStickStatusBox.html#ae321df188d9d51864893166076cf8582" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyControlStickStatusBox.html#ae321df188d9d51864893166076cf8582" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="2.5,-137.5 2.5,-167.5 134.5,-167.5 134.5,-137.5 2.5,-137.5"/>
 <text text-anchor="start" x="10.5" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStickStatusBox</text>
 <text text-anchor="middle" x="68.5" y="-144.5" font-family="Helvetica,sans-Serif" font-size="10.00">::paintEvent</text>

@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classMainWindow.html#a58c2bb4b8456b8dd246c6beb3623b3d2" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classMainWindow.html#a58c2bb4b8456b8dd246c6beb3623b3d2" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="74,-22.5 74,-52.5 222,-52.5 222,-22.5 74,-22.5"/>
 <text text-anchor="start" x="82" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">MainWindow::alterConfigFrom</text>
 <text text-anchor="middle" x="148" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">Settings</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" xlink:title=" ">
+<g id="a_node3"><a xlink:href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-6 0,-25 38,-25 38,-6 0,-6"/>
 <text text-anchor="middle" x="19" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
 </a>

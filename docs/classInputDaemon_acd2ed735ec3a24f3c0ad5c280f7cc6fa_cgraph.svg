@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classInputDevice.html#a10a2388bfb4b6d6183752f837dfe4638" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classInputDevice.html#a10a2388bfb4b6d6183752f837dfe4638" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="179.5,-88.5 179.5,-107.5 334.5,-107.5 334.5,-88.5 179.5,-88.5"/>
 <text text-anchor="middle" x="257" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDevice::getSDLJoystickID</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classInputDaemon.html#a80e732bfe962966009eecb2156575af1" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classInputDaemon.html#a80e732bfe962966009eecb2156575af1" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="179,-39 179,-69 335,-69 335,-39 179,-39"/>
 <text text-anchor="start" x="187" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">InputDaemon::getTrackjoysticks</text>
 <text text-anchor="middle" x="257" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">Local</text>
@@ -52,7 +52,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classInputDaemon.html#abb138e5469d5ebfd9a08cf958b7f8d86" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classInputDaemon.html#abb138e5469d5ebfd9a08cf958b7f8d86" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="185,-0.5 185,-19.5 329,-19.5 329,-0.5 185,-0.5"/>
 <text text-anchor="middle" x="257" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDaemon::refreshIndexes</text>
 </a>
@@ -67,7 +67,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classInputDevice.html#ae261306c1eecfe6d9d1d118102722a06" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classInputDevice.html#ae261306c1eecfe6d9d1d118102722a06" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="371,-0.5 371,-19.5 484,-19.5 484,-0.5 371,-0.5"/>
 <text text-anchor="middle" x="427.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDevice::setIndex</text>
 </a>

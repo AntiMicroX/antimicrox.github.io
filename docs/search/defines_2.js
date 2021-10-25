@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['check_5fbatteries_5fmsec_6311',['CHECK_BATTERIES_MSEC',['../mainwindow_8cpp.html#a5dca8105f4d9f7afbed62a57f11bc6b7',1,'mainwindow.cpp']]]
+  ['backend_5felse_5fif_6416',['BACKEND_ELSE_IF',['../eventhandlerfactory_8h.html#a527850d7ef932309249a70fda6c2f615',1,'eventhandlerfactory.h']]]
 ];

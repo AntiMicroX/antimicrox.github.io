@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyDPad.html#a2f5d634341589f42960a9ecc41454112" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyDPad.html#a2f5d634341589f42960a9ecc41454112" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="205,-138 205,-157 315,-157 315,-138 205,-138"/>
 <text text-anchor="middle" x="260" y="-145" font-family="Helvetica,sans-Serif" font-size="10.00">JoyDPad::getButtons</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyButton.html#abbccee98e377453167a47b49874eeab7" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyButton.html#abbccee98e377453167a47b49874eeab7" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="194,-88.5 194,-118.5 326,-118.5 326,-88.5 194,-88.5"/>
 <text text-anchor="start" x="202" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getIgnoreEvent</text>
 <text text-anchor="middle" x="260" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">State</text>
@@ -53,7 +53,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classSetJoystick.html#ad859311bfde76dbdaac274cb5ede63d6" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classSetJoystick.html#ad859311bfde76dbdaac274cb5ede63d6" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="200.5,-50 200.5,-69 319.5,-69 319.5,-50 200.5,-50"/>
 <text text-anchor="middle" x="260" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">SetJoystick::getVdpads</text>
 </a>
@@ -68,7 +68,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classJoyButton.html#aa8eaea52cff793034b943af1eb292b6c" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classJoyButton.html#aa8eaea52cff793034b943af1eb292b6c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="194,-0.5 194,-30.5 326,-30.5 326,-0.5 194,-0.5"/>
 <text text-anchor="start" x="202" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::setIgnoreEvent</text>
 <text text-anchor="middle" x="260" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">State</text>

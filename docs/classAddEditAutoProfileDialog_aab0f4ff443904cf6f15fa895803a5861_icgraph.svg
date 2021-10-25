@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classAddEditAutoProfileDialog.html#a518993ac329de2e2bee5eeb392d124ec" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classAddEditAutoProfileDialog.html#a518993ac329de2e2bee5eeb392d124ec" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-22.5 0,-52.5 133,-52.5 133,-22.5 0,-22.5"/>
 <text text-anchor="start" x="8" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">AddEditAutoProfileDialog</text>
 <text text-anchor="middle" x="66.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">::AddEditAutoProfileDialog</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classAddEditAutoProfileDialog.html#a6d785a59ce05061de7cd8793a631feca" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classAddEditAutoProfileDialog.html#a6d785a59ce05061de7cd8793a631feca" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="169,-0.5 169,-30.5 309,-30.5 309,-0.5 169,-0.5"/>
 <text text-anchor="start" x="177" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">AddEditAutoProfileDialog</text>
 <text text-anchor="middle" x="239" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::checkForReservedUniques</text>

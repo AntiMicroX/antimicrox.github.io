@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButtonMouseHelper.html#af68566bd3590fd3070cf044a61824c75" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButtonMouseHelper.html#af68566bd3590fd3070cf044a61824c75" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="200,-0.5 200,-30.5 360,-30.5 360,-0.5 200,-0.5"/>
 <text text-anchor="start" x="208" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButtonMouseHelper</text>
 <text text-anchor="middle" x="280" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::carryMouseRefreshRateUpdate</text>

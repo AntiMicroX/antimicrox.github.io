@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$dpadcontextmenu_8h.html" xlink:title=" ">
+<g id="a_node2"><a xlink:href="dpadcontextmenu_8h.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="78,-67.5 78,-97.5 200,-97.5 200,-67.5 78,-67.5"/>
 <text text-anchor="start" x="86" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/pawel/antimicrox</text>
 <text text-anchor="middle" x="139" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/dpadcontextmenu.h</text>
@@ -38,7 +38,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$dpadcontextmenuhelper_8cpp.html" xlink:title=" ">
+<g id="a_node5"><a xlink:href="dpadcontextmenuhelper_8cpp.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="218.5,-67.5 218.5,-97.5 419.5,-97.5 419.5,-67.5 218.5,-67.5"/>
 <text text-anchor="start" x="226.5" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/pawel/antimicrox</text>
 <text text-anchor="middle" x="319" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/uihelpers/dpadcontextmenuhelper.cpp</text>
@@ -54,7 +54,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$dpadcontextmenu_8cpp.html" xlink:title=" ">
+<g id="a_node3"><a xlink:href="dpadcontextmenu_8cpp.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 132,-30.5 132,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/pawel/antimicrox</text>
 <text text-anchor="middle" x="66" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/dpadcontextmenu.cpp</text>
@@ -70,7 +70,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$dpadpushbutton_8cpp.html" xlink:title=" ">
+<g id="a_node4"><a xlink:href="dpadpushbutton_8cpp.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="150,-0.5 150,-30.5 274,-30.5 274,-0.5 150,-0.5"/>
 <text text-anchor="start" x="158" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">/home/pawel/antimicrox</text>
 <text text-anchor="middle" x="212" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/dpadpushbutton.cpp</text>

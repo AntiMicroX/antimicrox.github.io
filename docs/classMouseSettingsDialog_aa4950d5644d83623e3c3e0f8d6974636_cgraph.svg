@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classMouseSettingsDialog.html#a7adbe7521ee56d97cf8c38efc39f4b6c" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classMouseSettingsDialog.html#a7adbe7521ee56d97cf8c38efc39f4b6c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="185,-0.5 185,-30.5 315,-30.5 315,-0.5 185,-0.5"/>
 <text text-anchor="start" x="193" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseSettingsDialog</text>
 <text text-anchor="middle" x="250" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getMouseCurveForIndex</text>

@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyAxisButton.html#a429addc0206287a1b5662c97c000e9b4" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyAxisButton.html#a429addc0206287a1b5662c97c000e9b4" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 154,-30.5 154,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxisButton::getAcceleration</text>
 <text text-anchor="middle" x="77" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Distance</text>

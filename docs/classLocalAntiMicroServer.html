@@ -66,22 +66,28 @@ $(function() {
 <a href="#pub-slots">Public Slots</a> &#124;
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">LocalAntiMicroServer Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
+<p>Class used for checking presence of other AntiMicroX instances and communicating with them.  
+ <a href="classLocalAntiMicroServer.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="localantimicroserver_8h_source.html">localantimicroserver.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for LocalAntiMicroServer:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLocalAntiMicroServer__inherit__graph.svg" width="158" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classLocalAntiMicroServer__inherit__graph.svg" width="158" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for LocalAntiMicroServer:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLocalAntiMicroServer__coll__graph.svg" width="158" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classLocalAntiMicroServer__coll__graph.svg" width="158" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
@@ -99,6 +105,8 @@ Public Slots</h2></td></tr>
 Signals</h2></td></tr>
 <tr class="memitem:a2769bb7ac4b4640c448aea3af4587efa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="lgpl-2_81_8txt.html#a3b083519fd2b41d83363afcfd5ebad9d">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLocalAntiMicroServer.html#a2769bb7ac4b4640c448aea3af4587efa">clientdisconnect</a> ()</td></tr>
 <tr class="separator:a2769bb7ac4b4640c448aea3af4587efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9caee3112edfcceeea130fa9c4f010cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="lgpl-2_81_8txt.html#a3b083519fd2b41d83363afcfd5ebad9d">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLocalAntiMicroServer.html#a9caee3112edfcceeea130fa9c4f010cc">showHiddenWindow</a> ()</td></tr>
+<tr class="separator:a9caee3112edfcceeea130fa9c4f010cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -107,12 +115,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a434aab536ee62bb57d2fdc6849b7c1a0"><td class="memItemLeft" align="right" valign="top">QLocalServer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLocalAntiMicroServer.html#a434aab536ee62bb57d2fdc6849b7c1a0">getLocalServer</a> () const</td></tr>
 <tr class="separator:a434aab536ee62bb57d2fdc6849b7c1a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a3e8d6aff9b8a69f8ea2a4554e46d5acc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="lgpl-2_81_8txt.html#a3b083519fd2b41d83363afcfd5ebad9d">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLocalAntiMicroServer.html#a3e8d6aff9b8a69f8ea2a4554e46d5acc">checkForMessages</a> (QLocalSocket *socket)</td></tr>
+<tr class="separator:a3e8d6aff9b8a69f8ea2a4554e46d5acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a683079e3f37fbde80bcc05795f519be2"><td class="memItemLeft" align="right" valign="top">QLocalServer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLocalAntiMicroServer.html#a683079e3f37fbde80bcc05795f519be2">localServer</a></td></tr>
 <tr class="separator:a683079e3f37fbde80bcc05795f519be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class used for checking presence of other AntiMicroX instances and communicating with them. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3324d761fceacd53d5ba563c373780bb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3324d761fceacd53d5ba563c373780bb">&#9670;&nbsp;</a></span>LocalAntiMicroServer()</h2>
 
@@ -140,6 +155,38 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a3e8d6aff9b8a69f8ea2a4554e46d5acc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e8d6aff9b8a69f8ea2a4554e46d5acc">&#9670;&nbsp;</a></span>checkForMessages()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="lgpl-2_81_8txt.html#a3b083519fd2b41d83363afcfd5ebad9d">void</a> LocalAntiMicroServer::checkForMessages </td>
+          <td>(</td>
+          <td class="paramtype">QLocalSocket *&#160;</td>
+          <td class="paramname"><em>socket</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classLocalAntiMicroServer_a3e8d6aff9b8a69f8ea2a4554e46d5acc_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
 <a id="a2769bb7ac4b4640c448aea3af4587efa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2769bb7ac4b4640c448aea3af4587efa">&#9670;&nbsp;</a></span>clientdisconnect</h2>
 
@@ -165,7 +212,8 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLocalAntiMicroServer_a2769bb7ac4b4640c448aea3af4587efa_icgraph.svg" width="900" height="82"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classLocalAntiMicroServer_a2769bb7ac4b4640c448aea3af4587efa_icgraph.svg" width="100%" height="361"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -195,7 +243,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLocalAntiMicroServer_acee5da9378f96ffe623864c5a557c557_icgraph.svg" width="256" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classLocalAntiMicroServer_acee5da9378f96ffe623864c5a557c557_icgraph.svg" width="256" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -242,12 +291,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLocalAntiMicroServer_a0ed51666c664fe6687f2bfe949f57737_cgraph.svg" width="412" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classLocalAntiMicroServer_a0ed51666c664fe6687f2bfe949f57737_cgraph.svg" width="412" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLocalAntiMicroServer_a0ed51666c664fe6687f2bfe949f57737_icgraph.svg" width="483" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classLocalAntiMicroServer_a0ed51666c664fe6687f2bfe949f57737_icgraph.svg" width="483" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -277,7 +328,39 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLocalAntiMicroServer_a17f7da4d8565b0bb829a5da490fa8056_icgraph.svg" width="706" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classLocalAntiMicroServer_a17f7da4d8565b0bb829a5da490fa8056_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a9caee3112edfcceeea130fa9c4f010cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9caee3112edfcceeea130fa9c4f010cc">&#9670;&nbsp;</a></span>showHiddenWindow</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="lgpl-2_81_8txt.html#a3b083519fd2b41d83363afcfd5ebad9d">void</a> LocalAntiMicroServer::showHiddenWindow </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classLocalAntiMicroServer_a9caee3112edfcceeea130fa9c4f010cc_icgraph.svg" width="100%" height="361"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -307,12 +390,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLocalAntiMicroServer_a68b7471d50c5383922b2af8e75392a78_cgraph.svg" width="607" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classLocalAntiMicroServer_a68b7471d50c5383922b2af8e75392a78_cgraph.svg" width="607" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLocalAntiMicroServer_a68b7471d50c5383922b2af8e75392a78_icgraph.svg" width="256" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classLocalAntiMicroServer_a68b7471d50c5383922b2af8e75392a78_icgraph.svg" width="256" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>

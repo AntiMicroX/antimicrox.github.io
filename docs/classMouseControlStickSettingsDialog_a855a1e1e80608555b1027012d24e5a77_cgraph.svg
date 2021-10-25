@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyControlStick.html#a617c2111d7af378fa1f179ad205dba55" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyControlStick.html#a617c2111d7af378fa1f179ad205dba55" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="172,-0.5 172,-30.5 311,-30.5 311,-0.5 172,-0.5"/>
 <text text-anchor="start" x="180" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::setButtons</text>
 <text text-anchor="middle" x="241.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Sensitivity</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyButton.html#a79db0e0cc11d3a55497a51701f9abcd0" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyButton.html#a79db0e0cc11d3a55497a51701f9abcd0" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="347,-6 347,-25 473,-25 473,-6 347,-6"/>
 <text text-anchor="middle" x="410" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::setSensitivity</text>
 </a>

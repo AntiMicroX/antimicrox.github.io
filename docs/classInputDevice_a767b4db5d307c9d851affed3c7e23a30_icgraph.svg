@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classInputDeviceXml.html#a847bf9ed17b554bf87d513a1aebdcb64" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classInputDeviceXml.html#a847bf9ed17b554bf87d513a1aebdcb64" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="160,-137 160,-156 300,-156 300,-137 160,-137"/>
 <text text-anchor="middle" x="230" y="-144" font-family="Helvetica,sans-Serif" font-size="10.00">InputDeviceXml::readConfig</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classGameControllerXml.html#a7e47256cae0d3815419bc254413777d1" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classGameControllerXml.html#a7e47256cae0d3815419bc254413777d1" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="8,-71.5 8,-101.5 116,-101.5 116,-71.5 8,-71.5"/>
 <text text-anchor="start" x="16" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameControllerXml::</text>
 <text text-anchor="middle" x="62" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">readConfig</text>
@@ -52,7 +52,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classGameControllerXml.html#aaa5257d4c6fe13f1d5fc51981e247c25" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classGameControllerXml.html#aaa5257d4c6fe13f1d5fc51981e247c25" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="176,-49.5 176,-79.5 284,-79.5 284,-49.5 176,-49.5"/>
 <text text-anchor="start" x="184" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameControllerXml::</text>
 <text text-anchor="middle" x="230" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">readJoystickConfig</text>
@@ -68,7 +68,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classJoyTabWidgetHelper.html#aef94ae0812f28f43eb891ddc210c341e" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classJoyTabWidgetHelper.html#aef94ae0812f28f43eb891ddc210c341e" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="176.5,-0.5 176.5,-30.5 283.5,-30.5 283.5,-0.5 176.5,-0.5"/>
 <text text-anchor="start" x="184.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyTabWidgetHelper</text>
 <text text-anchor="middle" x="230" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::reInitDevice</text>
@@ -90,7 +90,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="$classJoyTabWidgetHelper.html#acc5d7d51e925f84f9aa2936ce267f843" xlink:title=" ">
+<g id="a_node6"><a xlink:href="classJoyTabWidgetHelper.html#acc5d7d51e925f84f9aa2936ce267f843" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 124,-30.5 124,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyTabWidgetHelper</text>
 <text text-anchor="middle" x="62" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::reInitDeviceWithRevert</text>

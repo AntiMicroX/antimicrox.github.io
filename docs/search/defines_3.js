@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['make_5fcontroller_5fid_6312',['MAKE_CONTROLLER_ID',['../xbox360wireless_8cpp.html#a267b3c09ef5afff9c74f9b491244a6d0',1,'xbox360wireless.cpp']]]
+  ['check_5fbatteries_5fmsec_6417',['CHECK_BATTERIES_MSEC',['../mainwindow_8cpp.html#a5dca8105f4d9f7afbed62a57f11bc6b7',1,'mainwindow.cpp']]]
 ];

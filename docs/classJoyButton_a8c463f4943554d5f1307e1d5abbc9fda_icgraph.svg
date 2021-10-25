@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classAppLaunchHelper.html#a6d69ff98fa39bfbc9768bf6a164c573a" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classAppLaunchHelper.html#a6d69ff98fa39bfbc9768bf6a164c573a" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="74,-49.5 74,-79.5 235,-79.5 235,-49.5 74,-49.5"/>
 <text text-anchor="start" x="82" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">AppLaunchHelper::changeMouse</text>
 <text text-anchor="middle" x="154.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">Thread</text>
@@ -38,7 +38,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyButtonMouseHelper.html#a0a661702a333c35e0e86059b5232ed69" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyButtonMouseHelper.html#a0a661702a333c35e0e86059b5232ed69" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="95,-0.5 95,-30.5 214,-30.5 214,-0.5 95,-0.5"/>
 <text text-anchor="start" x="103" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButtonMouseHelper</text>
 <text text-anchor="middle" x="154.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::changeThread</text>
@@ -54,7 +54,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" xlink:title=" ">
+<g id="a_node3"><a xlink:href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-55 0,-74 38,-74 38,-55 0,-55"/>
 <text text-anchor="middle" x="19" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
 </a>

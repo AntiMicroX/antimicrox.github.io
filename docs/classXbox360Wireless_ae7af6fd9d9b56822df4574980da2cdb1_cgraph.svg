@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classXbox360Wireless.html#a85eb9c6a36f469ad6259c3e20745bcc1" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classXbox360Wireless.html#a85eb9c6a36f469ad6259c3e20745bcc1" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="173,-38.5 173,-57.5 310,-57.5 310,-38.5 173,-38.5"/>
 <text text-anchor="middle" x="241.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Xbox360Wireless::joyGUID</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classXbox360Wireless.html#a509d402b3e65f71df0bc379af316f638" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classXbox360Wireless.html#a509d402b3e65f71df0bc379af316f638" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="180,-0.5 180,-19.5 303,-19.5 303,-0.5 180,-0.5"/>
 <text text-anchor="middle" x="241.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Xbox360Wireless::name</text>
 </a>
@@ -52,7 +52,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classXbox360Wireless.html#a98f0d177a95a478bb79640058439c88d" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classXbox360Wireless.html#a98f0d177a95a478bb79640058439c88d" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="346,-38.5 346,-57.5 471,-57.5 471,-38.5 346,-38.5"/>
 <text text-anchor="middle" x="408.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Xbox360Wireless::GUID</text>
 </a>

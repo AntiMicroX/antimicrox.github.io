@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoystick.html#a380e5b9f5fac87e6d16c082228928e95" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoystick.html#a380e5b9f5fac87e6d16c082228928e95" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="183.5,-76.5 183.5,-95.5 305.5,-95.5 305.5,-76.5 183.5,-76.5"/>
 <text text-anchor="middle" x="244.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">Joystick::getGUIDString</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoystick.html#aca90acf568543ad555f8428440700df2" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoystick.html#aca90acf568543ad555f8428440700df2" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="174,-38.5 174,-57.5 315,-57.5 315,-38.5 174,-38.5"/>
 <text text-anchor="middle" x="244.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Joystick::getProductIDString</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoystick.html#af7521a48df3f5e1e69e6e7f1edafcdf0" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoystick.html#af7521a48df3f5e1e69e6e7f1edafcdf0" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="181,-0.5 181,-19.5 308,-19.5 308,-0.5 181,-0.5"/>
 <text text-anchor="middle" x="244.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Joystick::getVendorString</text>
 </a>

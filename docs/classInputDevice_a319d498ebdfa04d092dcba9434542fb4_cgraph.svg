@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyDPadButton.html#a3562e822a51b68df01e9a76267428728" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyDPadButton.html#a3562e822a51b68df01e9a76267428728" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="196,-38.5 196,-57.5 326,-57.5 326,-38.5 196,-38.5"/>
 <text text-anchor="middle" x="261" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyDPadButton::getDPad</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyDPad.html#a089e9a69356d82336da47361bfc94b63" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyDPad.html#a089e9a69356d82336da47361bfc94b63" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="210.5,-0.5 210.5,-19.5 311.5,-19.5 311.5,-0.5 210.5,-0.5"/>
 <text text-anchor="middle" x="261" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyDPad::getIndex</text>
 </a>

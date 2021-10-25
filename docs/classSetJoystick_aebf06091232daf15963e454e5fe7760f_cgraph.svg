@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#abbccee98e377453167a47b49874eeab7" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButton.html#abbccee98e377453167a47b49874eeab7" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="169.5,-88 169.5,-118 301.5,-118 301.5,-88 169.5,-88"/>
 <text text-anchor="start" x="177.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getIgnoreEvent</text>
 <text text-anchor="middle" x="235.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">State</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classSetJoystick.html#aca1645951d2889553fbe8dc84d3e3ef8" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classSetJoystick.html#aca1645951d2889553fbe8dc84d3e3ef8" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="167,-39 167,-69 304,-69 304,-39 167,-39"/>
 <text text-anchor="start" x="175" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">SetJoystick::getLastClicked</text>
 <text text-anchor="middle" x="235.5" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">Buttons</text>
@@ -54,7 +54,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyButton.html#acf2e65dcec7b0d2a8a2c21c36c489ad6" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyButton.html#acf2e65dcec7b0d2a8a2c21c36c489ad6" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="168,-0.5 168,-19.5 303,-19.5 303,-0.5 168,-0.5"/>
 <text text-anchor="middle" x="235.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getPartialName</text>
 </a>
@@ -69,7 +69,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classJoyButton.html#a39c9ccaf641bb8bf50b29d4c4e04c165" xlink:title="Get a 1 indexed number of button.">
+<g id="a_node5"><a xlink:href="classJoyButton.html#a39c9ccaf641bb8bf50b29d4c4e04c165" target="_top" xlink:title="Get a 1 indexed number of button.">
 <polygon fill="white" stroke="black" points="340,-0.5 340,-19.5 490,-19.5 490,-0.5 340,-0.5"/>
 <text text-anchor="middle" x="415" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getRealJoyNumber</text>
 </a>

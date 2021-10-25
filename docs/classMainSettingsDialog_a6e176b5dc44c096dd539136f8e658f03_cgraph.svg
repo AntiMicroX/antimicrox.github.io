@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classAutoProfileInfo.html#a79dc148898bc863eb5ceedc88d8f7638" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classAutoProfileInfo.html#a79dc148898bc863eb5ceedc88d8f7638" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="158,-252.5 158,-271.5 316,-271.5 316,-252.5 158,-252.5"/>
 <text text-anchor="middle" x="237" y="-259.5" font-family="Helvetica,sans-Serif" font-size="10.00">AutoProfileInfo::getDeviceName</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classAutoProfileInfo.html#a2c94a2f2793b09a153adbabc8c555eda" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classAutoProfileInfo.html#a2c94a2f2793b09a153adbabc8c555eda" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="178.5,-214.5 178.5,-233.5 295.5,-233.5 295.5,-214.5 178.5,-214.5"/>
 <text text-anchor="middle" x="237" y="-221.5" font-family="Helvetica,sans-Serif" font-size="10.00">AutoProfileInfo::getExe</text>
 </a>
@@ -52,7 +52,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classAutoProfileInfo.html#a542720df3f705eb79255b4b85af7b1a5" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classAutoProfileInfo.html#a542720df3f705eb79255b4b85af7b1a5" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="173,-165 173,-195 301,-195 301,-165 173,-165"/>
 <text text-anchor="start" x="181" y="-183" font-family="Helvetica,sans-Serif" font-size="10.00">AutoProfileInfo::getProfile</text>
 <text text-anchor="middle" x="237" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">Location</text>
@@ -68,7 +68,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classAutoProfileInfo.html#aba94c3fdd9e66bf8dc42a74237ff911c" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classAutoProfileInfo.html#aba94c3fdd9e66bf8dc42a74237ff911c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="166,-126.5 166,-145.5 308,-145.5 308,-126.5 166,-126.5"/>
 <text text-anchor="middle" x="237" y="-133.5" font-family="Helvetica,sans-Serif" font-size="10.00">AutoProfileInfo::getUniqueID</text>
 </a>
@@ -83,7 +83,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="$classAutoProfileInfo.html#a37dfba098d3c8a8e90beca36b2f3561b" xlink:title=" ">
+<g id="a_node6"><a xlink:href="classAutoProfileInfo.html#a37dfba098d3c8a8e90beca36b2f3561b" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="169,-77 169,-107 305,-107 305,-77 169,-77"/>
 <text text-anchor="start" x="177" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">AutoProfileInfo::getWindow</text>
 <text text-anchor="middle" x="237" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">Class</text>
@@ -99,7 +99,7 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="$classAutoProfileInfo.html#a8136af0d4f8e0fcdc0f6562dd6ec9c48" xlink:title=" ">
+<g id="a_node7"><a xlink:href="classAutoProfileInfo.html#a8136af0d4f8e0fcdc0f6562dd6ec9c48" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="156,-38.5 156,-57.5 318,-57.5 318,-38.5 156,-38.5"/>
 <text text-anchor="middle" x="237" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">AutoProfileInfo::getWindowName</text>
 </a>
@@ -114,7 +114,7 @@
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="$classAutoProfileInfo.html#a51f57cf7cda4e66b052d12e5a8879785" xlink:title=" ">
+<g id="a_node8"><a xlink:href="classAutoProfileInfo.html#a51f57cf7cda4e66b052d12e5a8879785" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="176,-0.5 176,-19.5 298,-19.5 298,-0.5 176,-0.5"/>
 <text text-anchor="middle" x="237" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">AutoProfileInfo::isActive</text>
 </a>

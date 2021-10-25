@@ -67,6 +67,28 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><h1><a class="anchor" id="autotoc_md1"></a>
+&lt;a href="https://github.com/AntiMicroX/antimicrox/tree/3.1.7"&gt;3.1.7&lt;/a&gt; (2021-09-10)</h1>
+<p><a href="https://github.com/AntiMicroX/antimicrox/compare/3.1.6...3.1.7">Full Changelog</a></p>
+<p><b>Implemented enhancements:</b></p>
+<ul>
+<li>Wayland support for keyboard emulation <a href="https://github.com/AntiMicroX/antimicrox/issues/32">#32</a></li>
+</ul>
+<p><b>Fixed bugs:</b></p>
+<ul>
+<li>Load save dialogue window won't show saved configs = can't open saves <a href="https://github.com/AntiMicroX/antimicrox/issues/123">#123</a></li>
+<li>Segmentation Fault when change profile from command line <a href="https://github.com/AntiMicroX/antimicrox/issues/76">#76</a></li>
+</ul>
+<p><b>Notable merged pull requests:</b></p>
+<ul>
+<li>Include Appstream information into AppImage Build <a href="https://github.com/AntiMicroX/antimicrox/pull/201">#201</a> (<a href="https://github.com/pktiuk">pktiuk</a>)</li>
+<li>fix: Remove warning "QLocalSocket::waitForDisconnected() is not allow… &lt;a href="<a href="https://github.com/AntiMicroX/antimicrox/pull/200">https://github.com/AntiMicroX/antimicrox/pull/200</a>"&gt;\#200&lt;/a&gt; (&lt;a href="<a href="https://github.com/pktiuk">https://github.com/pktiuk</a>"&gt;pktiuk&lt;/a&gt;)
+- Crash-related fixes linked with memory management &lt;a href="<a href="https://github.com/AntiMicroX/antimicrox/pull/194">https://github.com/AntiMicroX/antimicrox/pull/194</a>"&gt;\#194&lt;/a&gt; &lt;a href="<a href="https://github.com/AntiMicroX/antimicrox/pull/196">https://github.com/AntiMicroX/antimicrox/pull/196</a>"&gt;\#196&lt;/a&gt; &lt;a href="<a href="https://github.com/AntiMicroX/antimicrox/pull/198">https://github.com/AntiMicroX/antimicrox/pull/198</a>"&gt;\#198&lt;/a&gt; (&lt;a href="<a href="https://github.com/pktiuk">https://github.com/pktiuk</a>"&gt;pktiuk&lt;/a&gt;)
+- refactor: Improve log showing gamepad name &lt;a href="<a href="https://github.com/AntiMicroX/antimicrox/pull/195">https://github.com/AntiMicroX/antimicrox/pull/195</a>"&gt;\#195&lt;/a&gt; (&lt;a href="<a href="https://github.com/pktiuk">https://github.com/pktiuk</a>"&gt;pktiuk&lt;/a&gt;)
+- refactor: Refactor executing commands &lt;a href="<a href="https://github.com/AntiMicroX/antimicrox/pull/192">https://github.com/AntiMicroX/antimicrox/pull/192</a>"&gt;\#192&lt;/a&gt; (&lt;a href="<a href="https://github.com/pktiuk">https://github.com/pktiuk</a>"&gt;pktiuk&lt;/a&gt;)
+- Allow regular users using uinput &lt;a href="<a href="https://github.com/AntiMicroX/antimicrox/pull/188">https://github.com/AntiMicroX/antimicrox/pull/188</a>"&gt;\#188&lt;/a&gt; (&lt;a href="<a href="https://github.com/pktiuk">https://github.com/pktiuk</a>"&gt;pktiuk&lt;/a&gt;)
+- feat: switch from xtest to uinput when wayland is detected &lt;a href="<a href="https://github.com/AntiMicroX/antimicrox/pull/186">https://github.com/AntiMicroX/antimicrox/pull/186</a>"&gt;\#186&lt;/a&gt; (&lt;a href="<a href="https://github.com/pktiuk">https://github.com/pktiuk</a>"&gt;pktiuk)</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md2"></a>
 &lt;a href="https://github.com/AntiMicroX/antimicrox/tree/3.1.6"&gt;3.1.6&lt;/a&gt; (2021-08-14)</h1>
 <p><a href="https://github.com/AntiMicroX/antimicrox/compare/3.1.5...3.1.6">Full Changelog</a></p>
 <p><b>Fixed bugs:</b></p>
@@ -85,11 +107,12 @@ $(function() {
 <li>docs: Add information about commandline for flatpak packages <a href="https://github.com/AntiMicroX/antimicrox/pull/173">#173</a> (<a href="https://github.com/pktiuk">pktiuk</a>)</li>
 <li>Added openSUSE instruction <a href="https://github.com/AntiMicroX/antimicrox/pull/158">#158</a> (<a href="https://github.com/Mailaender">Mailaender</a>)</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md2"></a>
+<h1><a class="anchor" id="autotoc_md3"></a>
 &lt;a href="https://github.com/AntiMicroX/antimicrox/tree/3.1.5"&gt;3.1.5&lt;/a&gt; (2021-03-14)</h1>
 <p><a href="https://github.com/AntiMicroX/antimicrox/compare/3.1.4...3.1.5">Full Changelog</a></p>
 <p>Big thanks to @mirabilos for help with Debian packages migration and cleaning up project.</p>
-<p><b>Notable closed issues:</b></p><ul>
+<p><b>Notable closed issues:</b></p>
+<ul>
 <li>Migrate DEB packages to antimicrox <a href="https://github.com/AntiMicroX/antimicrox/issues/87">#87</a></li>
 <li>Integrate builds marking with docs cmake and CI <a href="https://github.com/AntiMicroX/antimicrox/pull/143">#143</a></li>
 </ul>
@@ -101,7 +124,7 @@ $(function() {
 <li>fix the manpage (hyphen as minus sign) <a href="https://github.com/AntiMicroX/antimicrox/pull/140">#140</a> (<a href="https://github.com/mirabilos">mirabilos</a>)</li>
 <li>fix: change deb arch prefix for building AppImage <a href="https://github.com/AntiMicroX/antimicrox/pull/135">#135</a> (<a href="https://github.com/pktiuk">pktiuk</a>)</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md3"></a>
+<h1><a class="anchor" id="autotoc_md4"></a>
 &lt;a href="https://github.com/AntiMicroX/antimicrox/tree/3.1.4"&gt;3.1.4&lt;/a&gt; (2021-01-11)</h1>
 <p><a href="https://github.com/AntiMicroX/antimicrox/compare/3.1.3...3.1.4">Full Changelog</a></p>
 <p>Kudos to @Janfel for PR!</p>
@@ -130,7 +153,7 @@ $(function() {
 <li>docs: update building and installation instructions <a href="https://github.com/AntiMicroX/antimicrox/pull/129">#129</a> (<a href="https://github.com/pktiuk">pktiuk</a>)</li>
 <li>feat: antimicro config migration <a href="https://github.com/AntiMicroX/antimicrox/pull/120">#120</a> (<a href="https://github.com/gombosg">gombosg</a>)</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md4"></a>
+<h1><a class="anchor" id="autotoc_md5"></a>
 &lt;a href="https://github.com/AntiMicroX/antimicrox/tree/3.1.3"&gt;3.1.3&lt;/a&gt; (2020-11-15)</h1>
 <p><a href="https://github.com/AntiMicroX/antimicrox/compare/3.1.2...3.1.3">Full Changelog</a></p>
 <p><b>Fixed bugs:</b></p>
@@ -150,7 +173,7 @@ $(function() {
 <li>Fix: Use system icons in common cases to avoid incompatibility issues <a href="https://github.com/AntiMicroX/antimicrox/pull/62">#62</a> (<a href="https://github.com/pktiuk">pktiuk</a>)</li>
 <li>General cleanup of repository <a href="https://github.com/AntiMicroX/antimicrox/pull/18">#18</a> (<a href="https://github.com/pktiuk">pktiuk</a>)</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md5"></a>
+<h1><a class="anchor" id="autotoc_md6"></a>
 &lt;a href="https://github.com/AntiMicroX/antimicrox/tree/3.1.2"&gt;3.1.2&lt;/a&gt; (2020-10-02)</h1>
 <p><a href="https://github.com/AntiMicroX/antimicrox/compare/3.1.1...3.1.2">Full Changelog</a></p>
 <p><b>Fixed bugs:</b></p>
@@ -224,7 +247,7 @@ $(function() {
 <li>Added support for the same model of gamepads</li>
 <li>Updated german, english and polish translation files</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md6"></a>
+<h1><a class="anchor" id="autotoc_md7"></a>
 Fixed issue #92</h1>
 <ul>
 <li>Fixed issue #97</li>
@@ -266,7 +289,7 @@ Fixed issue #92</h1>
 <p>Version 2.24.1</p>
 <ul>
 <li>Changed images and screenshots</li>
-<li>Updated Documents (README, *.txt files, *.md, *.mm files)</li>
+<li>Updated Documents (README, _.txt files, _.md, *.mm files)</li>
 <li>Updated resources</li>
 <li>Created index.theme</li>
 <li>Changed destination directories for icons, images, index.theme and other resources</li>
@@ -316,7 +339,7 @@ Fixed issue #92</h1>
 <li>Fixed a bug where invalid joystick was inserted into device list.</li>
 <li>Modified to hide turbo mode combobox for regular buttons</li>
 <li>Changed to allow blank config for auto profile entries again.</li>
-<li>Fixed matching by process filename in <a class="el" href="classAutoProfileWatcher.html">AutoProfileWatcher</a></li>
+<li>Fixed matching by process filename in <a class="el" href="classAutoProfileWatcher.html" title="Manages auto profile functionality. Allows for profiles to be associated with specific applications.">AutoProfileWatcher</a></li>
 </ul>
 <p>2016-01-10 Travis Nickles <a href="#" onclick="location.href='mai'+'lto:'+'nic'+'kl'+'es.'+'tr'+'avi'+'s@'+'gma'+'il'+'.co'+'m'; return false;">nickl<span style="display: none;">.nosp@m.</span>es.t<span style="display: none;">.nosp@m.</span>ravis<span style="display: none;">.nosp@m.</span>@gma<span style="display: none;">.nosp@m.</span>il.co<span style="display: none;">.nosp@m.</span>m</a></p>
 <p>Version 2.21</p>
@@ -676,7 +699,7 @@ Fixed issue #92</h1>
 <li>Active keyboard keys now use a reference count. This will be useful for keeping modifier keys held when moving a stick from a diagonal direction to a cardinal direction. This will allow a run to be maintained properly.</li>
 <li>A release delay has been added to release slot events. This is needed for some games where a key press and release might happen too quickly for a game, such as The Elder Scrolls IV: Oblivion, to catch it.</li>
 <li>Altered data sent to SendInput under Windows. The change should allow games that rely exclusively on scancode data to detect keyboard key presses now. Previously, keyboard emulation would not work while playing The Elder Scrolls IV: Oblivion on Windows.</li>
-<li>Improved key associations under Windows. VK_OEM_* keys associations are now generated at runtime which will allow associations to be more layout independent.</li>
+<li>Improved key associations under Windows. VK*OEM** keys associations are now generated at runtime which will allow associations to be more layout independent.</li>
 <li>Changed some portions of the Windows version so that the Numpad Enter key can be emulated.</li>
 <li>The recent profile list is now updated when a profile is added or removed from the list as opposed to when the program is closed. This allows the list to be in sync while utilizing hotplugging.</li>
 </ul>

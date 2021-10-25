@@ -23,7 +23,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#ad4007e748f2bead2dd5899fc612f94fa" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButton.html#ad4007e748f2bead2dd5899fc612f94fa" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="175,-77 175,-107 333,-107 333,-77 175,-77"/>
 <text text-anchor="start" x="183" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getExtraAcceleration</text>
 <text text-anchor="middle" x="254" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">Multiplier</text>
@@ -39,7 +39,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyAxis.html#aae658e2a7b83ce73ce3d7d1ed13eabc6" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyAxis.html#aae658e2a7b83ce73ce3d7d1ed13eabc6" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="191,-38.5 191,-57.5 317,-57.5 317,-38.5 191,-38.5"/>
 <text text-anchor="middle" x="254" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getNAxisButton</text>
 </a>
@@ -54,7 +54,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyAxis.html#ad51d55d2a95190468209f7481eae8639" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyAxis.html#ad51d55d2a95190468209f7481eae8639" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="191.5,-0.5 191.5,-19.5 316.5,-19.5 316.5,-0.5 191.5,-0.5"/>
 <text text-anchor="middle" x="254" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getPAxisButton</text>
 </a>

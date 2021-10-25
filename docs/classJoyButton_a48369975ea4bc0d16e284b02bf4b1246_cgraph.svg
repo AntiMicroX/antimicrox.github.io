@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#a447ec98d3ffd8b2a8668c14d2646851c" xlink:title="Get the distance that an element is away from its assigned dead zone.">
+<g id="a_node2"><a xlink:href="classJoyButton.html#a447ec98d3ffd8b2a8668c14d2646851c" target="_top" xlink:title="Get the distance that an element is away from its assigned dead zone.">
 <polygon fill="white" stroke="black" points="170,-0.5 170,-30.5 312,-30.5 312,-0.5 170,-0.5"/>
 <text text-anchor="start" x="178" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getDistanceFrom</text>
 <text text-anchor="middle" x="241" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">DeadZone</text>

@@ -1,7 +1,7 @@
 <map id="AutoProfileWatcher" name="AutoProfileWatcher">
-<area shape="rect" id="node1" title=" " alt="" coords="33,171,168,197"/>
+<area shape="rect" id="node1" title="Manages auto profile functionality. Allows for profiles to be associated with specific applications." alt="" coords="33,171,168,197"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,5,76,32"/>
-<area shape="rect" id="node3" href="$classAutoProfileInfo.html" title=" " alt="" coords="47,81,155,108"/>
+<area shape="rect" id="node3" href="$classAutoProfileInfo.html" title="Links information about targeted application with recommended profile." alt="" coords="47,81,155,108"/>
 <area shape="rect" id="node4" href="$classAntiMicroSettings.html" title=" " alt="" coords="179,81,305,108"/>
 <area shape="rect" id="node5" title=" " alt="" coords="202,5,282,32"/>
 </map>

@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyTabWidget.html#a612c729204802801165c9208cba9b1be" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyTabWidget.html#a612c729204802801165c9208cba9b1be" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="186,-202.5 186,-221.5 339,-221.5 339,-202.5 186,-202.5"/>
 <text text-anchor="middle" x="262.5" y="-209.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyTabWidget::getConfigName</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyTabWidget.html#a7f38558fdd9bb22d8e2c3c8f070305ee" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyTabWidget.html#a7f38558fdd9bb22d8e2c3c8f070305ee" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="197,-153 197,-183 328,-183 328,-153 197,-153"/>
 <text text-anchor="start" x="205" y="-171" font-family="Helvetica,sans-Serif" font-size="10.00">JoyTabWidget::getCurrent</text>
 <text text-anchor="middle" x="262.5" y="-160" font-family="Helvetica,sans-Serif" font-size="10.00">ConfigIndex</text>
@@ -53,7 +53,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyTabWidget.html#a2b7d0077726b2b2bf406be8a4fa631af" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyTabWidget.html#a2b7d0077726b2b2bf406be8a4fa631af" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="195.5,-114.5 195.5,-133.5 329.5,-133.5 329.5,-114.5 195.5,-114.5"/>
 <text text-anchor="middle" x="262.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyTabWidget::getJoystick</text>
 </a>
@@ -68,7 +68,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classMainWindow.html#abfc57743f7466ed751d94f09fc771270" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classMainWindow.html#abfc57743f7466ed751d94f09fc771270" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="186.5,-76.5 186.5,-95.5 338.5,-95.5 338.5,-76.5 186.5,-76.5"/>
 <text text-anchor="middle" x="262.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">MainWindow::getProfileActions</text>
 </a>
@@ -83,7 +83,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="$classInputDevice.html#a45366a3b2d57974de36920cfde0261d8" xlink:title=" ">
+<g id="a_node6"><a xlink:href="classInputDevice.html#a45366a3b2d57974de36920cfde0261d8" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="192,-38.5 192,-57.5 333,-57.5 333,-38.5 192,-38.5"/>
 <text text-anchor="middle" x="262.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDevice::isDeviceEdited</text>
 </a>
@@ -98,7 +98,7 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="$namespacePadderCommon.html#a9aa5baddf6f78b3e008bc29d04721f0d" xlink:title="Universal method for loading icons.">
+<g id="a_node7"><a xlink:href="namespacePadderCommon.html#a9aa5baddf6f78b3e008bc29d04721f0d" target="_top" xlink:title="Universal method for loading icons.">
 <polygon fill="white" stroke="black" points="197.5,-0.5 197.5,-19.5 327.5,-19.5 327.5,-0.5 197.5,-0.5"/>
 <text text-anchor="middle" x="262.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">PadderCommon::loadIcon</text>
 </a>

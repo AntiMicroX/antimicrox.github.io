@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#ae2cf7d7b14cd56c0cde9b2a573f49d05" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButton.html#ae2cf7d7b14cd56c0cde9b2a573f49d05" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="183,-6 183,-25 335,-25 335,-6 183,-6"/>
 <text text-anchor="middle" x="259" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::setCycleResetTime</text>
 </a>

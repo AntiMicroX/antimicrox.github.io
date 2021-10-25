@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyAxis.html#a9ceda991c13da3a99868acc436ed20f3" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyAxis.html#a9ceda991c13da3a99868acc436ed20f3" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="155.5,-99 155.5,-118 286.5,-118 286.5,-99 155.5,-99"/>
 <text text-anchor="middle" x="221" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getRealJoyIndex</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classSetAxisThrottleDialog.html#a6819a2d8c1dc50aa85944a3671e4728f" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classSetAxisThrottleDialog.html#a6819a2d8c1dc50aa85944a3671e4728f" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="155,-49.5 155,-79.5 287,-79.5 287,-49.5 155,-49.5"/>
 <text text-anchor="start" x="163" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetAxisThrottleDialog</text>
 <text text-anchor="middle" x="221" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::propogateThrottleChange</text>
@@ -53,7 +53,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyAxis.html#aedaf52e633241269baa64317398bd897" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyAxis.html#aedaf52e633241269baa64317398bd897" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="154,-0.5 154,-30.5 288,-30.5 288,-0.5 154,-0.5"/>
 <text text-anchor="start" x="162" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::propogateThrottle</text>
 <text text-anchor="middle" x="221" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Change</text>

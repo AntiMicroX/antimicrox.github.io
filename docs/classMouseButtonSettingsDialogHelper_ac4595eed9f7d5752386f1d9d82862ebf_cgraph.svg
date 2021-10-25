@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#a2fce9ef1fe8b843d32a01faced10e7e9" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButton.html#a2fce9ef1fe8b843d32a01faced10e7e9" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="208,-0.5 208,-30.5 335,-30.5 335,-0.5 208,-0.5"/>
 <text text-anchor="start" x="216" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::setStartAccel</text>
 <text text-anchor="middle" x="271.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Multiplier</text>

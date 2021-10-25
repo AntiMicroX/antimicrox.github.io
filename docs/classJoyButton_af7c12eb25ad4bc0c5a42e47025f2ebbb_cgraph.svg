@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#acefe6775a1dc0b34918c38526943ecba" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButton.html#acefe6775a1dc0b34918c38526943ecba" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="192,-0.5 192,-30.5 313,-30.5 313,-0.5 192,-0.5"/>
 <text text-anchor="start" x="200" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::restartAllFor</text>
 <text text-anchor="middle" x="252.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetChange</text>

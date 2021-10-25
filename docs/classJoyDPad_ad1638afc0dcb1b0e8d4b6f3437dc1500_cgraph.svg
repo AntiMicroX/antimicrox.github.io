@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyDPad.html#a5f5921607d183f4f221f3a4f97249d8e" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyDPad.html#a5f5921607d183f4f221f3a4f97249d8e" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="175,-38.5 175,-57.5 330,-57.5 330,-38.5 175,-38.5"/>
 <text text-anchor="middle" x="252.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyDPad::getApplicableButtons</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyButton.html#a51beaf1d3e91d0fd501368f52fa602f6" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyButton.html#a51beaf1d3e91d0fd501368f52fa602f6" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="185.5,-0.5 185.5,-19.5 319.5,-19.5 319.5,-0.5 185.5,-0.5"/>
 <text text-anchor="middle" x="252.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getSpringWidth</text>
 </a>

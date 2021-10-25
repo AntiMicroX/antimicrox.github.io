@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#a421e623fa5b3c324c95c28c34d6a485c" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButton.html#a421e623fa5b3c324c95c28c34d6a485c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="213,-76.5 213,-95.5 380,-95.5 380,-76.5 213,-76.5"/>
 <text text-anchor="middle" x="296.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getMaxAccelThreshold</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyAxis.html#aae658e2a7b83ce73ce3d7d1ed13eabc6" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyAxis.html#aae658e2a7b83ce73ce3d7d1ed13eabc6" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="233.5,-38.5 233.5,-57.5 359.5,-57.5 359.5,-38.5 233.5,-38.5"/>
 <text text-anchor="middle" x="296.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getNAxisButton</text>
 </a>
@@ -52,7 +52,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyAxis.html#ad51d55d2a95190468209f7481eae8639" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyAxis.html#ad51d55d2a95190468209f7481eae8639" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="234,-0.5 234,-19.5 359,-19.5 359,-0.5 234,-0.5"/>
 <text text-anchor="middle" x="296.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getPAxisButton</text>
 </a>

@@ -1,21 +1,21 @@
 <map id="/home/pawel/antimicrox/src/vdpad.h" name="/home/pawel/antimicrox/src/vdpad.h">
-<area shape="rect" id="node1" title=" " alt="" coords="1703,5,1861,47"/>
-<area shape="rect" id="node2" href="$advancestickassignmentdialog_8cpp.html" title=" " alt="" coords="485,102,735,143"/>
-<area shape="rect" id="node3" href="$gamecontrollerdpad_8h.html" title=" " alt="" coords="759,102,1021,143"/>
-<area shape="rect" id="node9" href="$joydpadxml_8cpp.html" title=" " alt="" coords="1257,206,1421,247"/>
-<area shape="rect" id="node10" href="$gamecontrollerdpadxml_8h.html" title=" " alt="" coords="1051,95,1222,151"/>
-<area shape="rect" id="node11" href="$inputdevice_8cpp.html" title=" " alt="" coords="1297,102,1456,143"/>
-<area shape="rect" id="node12" href="$joybutton_8cpp.html" title=" " alt="" coords="1480,102,1639,143"/>
-<area shape="rect" id="node13" href="$joyaxisbutton_8cpp.html" title=" " alt="" coords="1663,102,1901,143"/>
-<area shape="rect" id="node14" href="$joytabwidget_8cpp.html" title=" " alt="" coords="1925,102,2084,143"/>
-<area shape="rect" id="node15" href="$quicksetdialog_8cpp.html" title=" " alt="" coords="2108,102,2267,143"/>
-<area shape="rect" id="node16" href="$setjoystick_8cpp.html" title=" " alt="" coords="2291,102,2449,143"/>
-<area shape="rect" id="node17" href="$vdpad_8cpp.html" title=" " alt="" coords="2473,102,2632,143"/>
-<area shape="rect" id="node18" href="$inputdevicexml_8cpp.html" title=" " alt="" coords="2656,102,2841,143"/>
-<area shape="rect" id="node19" href="$setjoystickxml_8cpp.html" title=" " alt="" coords="2866,102,3047,143"/>
-<area shape="rect" id="node4" href="$gamecontroller_8cpp.html" title=" " alt="" coords="477,206,724,247"/>
-<area shape="rect" id="node5" href="$gamecontrollerdpad_8cpp.html" title=" " alt="" coords="749,206,1023,247"/>
-<area shape="rect" id="node6" href="$gamecontrollerset_8cpp.html" title=" " alt="" coords="5,206,271,247"/>
-<area shape="rect" id="node7" href="$gamecontrollerdpadxml_8cpp.html" title=" " alt="" coords="1048,199,1233,255"/>
-<area shape="rect" id="node8" href="$gamecontrollerxml_8cpp.html" title=" " alt="" coords="295,199,453,255"/>
+<area shape="rect" id="node1" title=" " alt="" coords="1988,5,2147,47"/>
+<area shape="rect" id="node2" href="$gamecontrollerdpad_8h.html" title=" " alt="" coords="755,102,1017,143"/>
+<area shape="rect" id="node8" href="$joydpadxml_8cpp.html" title=" " alt="" coords="1257,206,1421,247"/>
+<area shape="rect" id="node9" href="$gamecontrollerdpadxml_8h.html" title=" " alt="" coords="1055,95,1226,151"/>
+<area shape="rect" id="node10" href="$advancestickassignmentdialog_8cpp.html" title=" " alt="" coords="1301,102,1572,143"/>
+<area shape="rect" id="node11" href="$joytabwidget_8cpp.html" title=" " alt="" coords="1596,102,1763,143"/>
+<area shape="rect" id="node12" href="$quicksetdialog_8cpp.html" title=" " alt="" coords="1787,102,1964,143"/>
+<area shape="rect" id="node13" href="$inputdevice_8cpp.html" title=" " alt="" coords="1988,102,2147,143"/>
+<area shape="rect" id="node14" href="$joybutton_8cpp.html" title=" " alt="" coords="2171,102,2329,143"/>
+<area shape="rect" id="node15" href="$joyaxisbutton_8cpp.html" title=" " alt="" coords="2353,102,2592,143"/>
+<area shape="rect" id="node16" href="$setjoystick_8cpp.html" title=" " alt="" coords="2616,102,2775,143"/>
+<area shape="rect" id="node17" href="$vdpad_8cpp.html" title=" " alt="" coords="2799,102,2957,143"/>
+<area shape="rect" id="node18" href="$inputdevicexml_8cpp.html" title=" " alt="" coords="2981,102,3167,143"/>
+<area shape="rect" id="node19" href="$setjoystickxml_8cpp.html" title=" " alt="" coords="3191,102,3373,143"/>
+<area shape="rect" id="node3" href="$gamecontroller_8cpp.html" title=" " alt="" coords="477,206,724,247"/>
+<area shape="rect" id="node4" href="$gamecontrollerdpad_8cpp.html" title=" " alt="" coords="749,206,1023,247"/>
+<area shape="rect" id="node5" href="$gamecontrollerset_8cpp.html" title=" " alt="" coords="5,206,271,247"/>
+<area shape="rect" id="node6" href="$gamecontrollerdpadxml_8cpp.html" title=" " alt="" coords="1048,199,1233,255"/>
+<area shape="rect" id="node7" href="$gamecontrollerxml_8cpp.html" title=" " alt="" coords="295,199,453,255"/>
 </map>

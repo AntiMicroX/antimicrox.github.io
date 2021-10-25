@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#ae1d364dfa70f47fae3db99ffbcdea44b" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButton.html#ae1d364dfa70f47fae3db99ffbcdea44b" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="179,-38.5 179,-57.5 322,-57.5 322,-38.5 179,-38.5"/>
 <text text-anchor="middle" x="250.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getAssignedSlots</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyButtonSlot.html#abed7fe134c404b403ea79c0753f6eaaf" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyButtonSlot.html#abed7fe134c404b403ea79c0753f6eaaf" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="181,-0.5 181,-19.5 320,-19.5 320,-0.5 181,-0.5"/>
 <text text-anchor="middle" x="250.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButtonSlot::getSlotMode</text>
 </a>

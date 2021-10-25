@@ -1,4 +1,4 @@
 <map id="LocalAntiMicroServer" name="LocalAntiMicroServer">
-<area shape="rect" id="node1" title=" " alt="" coords="5,80,152,107"/>
+<area shape="rect" id="node1" title="Class used for checking presence of other AntiMicroX instances and communicating with them." alt="" coords="5,80,152,107"/>
 <area shape="rect" id="node2" title=" " alt="" coords="43,5,114,32"/>
 </map>

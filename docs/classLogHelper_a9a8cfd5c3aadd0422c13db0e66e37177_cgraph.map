@@ -1,5 +1,6 @@
 <map id="LogHelper::LogHelper" name="LogHelper::LogHelper">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,153,57"/>
-<area shape="rect" id="node2" href="$classLogger.html#ace51996c11edf4539338cdec420dc62b" title="Get the Instance of logger." alt="" coords="202,5,339,32"/>
-<area shape="rect" id="node3" href="$classLogger.html#a1e1e7a16e8d11d51a677e0dc5fa23869" title="Write an individual message to the text stream." alt="" coords="201,56,340,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,153,83"/>
+<area shape="rect" id="node2" href="$classLogger.html#a1a5a2a5210be894f2bc2373022c471a6" title="Get the current output level associated with the logger." alt="" coords="201,5,383,32"/>
+<area shape="rect" id="node3" href="$classLogger.html#ace51996c11edf4539338cdec420dc62b" title="Get the Instance of logger." alt="" coords="223,56,361,83"/>
+<area shape="rect" id="node4" href="$classLogger.html#a1e1e7a16e8d11d51a677e0dc5fa23869" title="Write an individual message to the text stream." alt="" coords="223,107,361,133"/>
 </map>

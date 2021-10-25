@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classAdvanceStickAssignmentDialog.html#a86cf0001cd774ce5ccec8543b7a9a50b" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classAdvanceStickAssignmentDialog.html#a86cf0001cd774ce5ccec8543b7a9a50b" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 162,-30.5 162,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">AdvanceStickAssignmentDialog</text>
 <text text-anchor="middle" x="81" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::AdvanceStickAssignmentDialog</text>

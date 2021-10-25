@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$namespacePadderCommon.html#a9034e2106269ccc67eb0ce52c40907d9" xlink:title=" ">
+<g id="a_node2"><a xlink:href="namespacePadderCommon.html#a9034e2106269ccc67eb0ce52c40907d9" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="196,-6 196,-25 368,-25 368,-6 196,-6"/>
 <text text-anchor="middle" x="282" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">PadderCommon::preferredProfileDir</text>
 </a>

@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classInputDaemon.html#ab7c3d331123e946ed8da490dfee5c265" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classInputDaemon.html#ab7c3d331123e946ed8da490dfee5c265" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="74,-38.5 74,-57.5 212,-57.5 212,-38.5 74,-38.5"/>
 <text text-anchor="middle" x="143" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDaemon::InputDaemon</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classInputDaemon.html#a7dbb5a72a490efb5b6f881528f1186ba" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classInputDaemon.html#a7dbb5a72a490efb5b6f881528f1186ba" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="88,-0.5 88,-19.5 198,-19.5 198,-0.5 88,-0.5"/>
 <text text-anchor="middle" x="143" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDaemon::refresh</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" xlink:title=" ">
+<g id="a_node4"><a xlink:href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 38,-19.5 38,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="19" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
 </a>

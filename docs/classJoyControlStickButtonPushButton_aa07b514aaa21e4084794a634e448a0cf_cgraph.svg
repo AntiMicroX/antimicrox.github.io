@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classFlashButtonWidget.html#ad8d71480fd154aad271af693af681394" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classFlashButtonWidget.html#ad8d71480fd154aad271af693af681394" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="173,-49.5 173,-79.5 279,-79.5 279,-49.5 173,-49.5"/>
 <text text-anchor="start" x="181" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">FlashButtonWidget::</text>
 <text text-anchor="middle" x="226" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">flash</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classFlashButtonWidget.html#a84af4cf2103d6f054e117915850199ec" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classFlashButtonWidget.html#a84af4cf2103d6f054e117915850199ec" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="173,-0.5 173,-30.5 279,-30.5 279,-0.5 173,-0.5"/>
 <text text-anchor="start" x="181" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">FlashButtonWidget::</text>
 <text text-anchor="middle" x="226" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">unflash</text>

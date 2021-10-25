@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classAppLaunchHelper.html#ab38c79745e55b3c4665c5b29a5d57a0f" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classAppLaunchHelper.html#ab38c79745e55b3c4665c5b29a5d57a0f" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="74,-0.5 74,-30.5 205,-30.5 205,-0.5 74,-0.5"/>
 <text text-anchor="start" x="82" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">AppLaunchHelper::initRun</text>
 <text text-anchor="middle" x="139.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Methods</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" xlink:title=" ">
+<g id="a_node3"><a xlink:href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-6 0,-25 38,-25 38,-6 0,-6"/>
 <text text-anchor="middle" x="19" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
 </a>

@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#a4305272f6fe2c5708f2ad7f1ce911514" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButton.html#a4305272f6fe2c5708f2ad7f1ce911514" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="155,-38.5 155,-57.5 287,-57.5 287,-38.5 155,-38.5"/>
 <text text-anchor="middle" x="221" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getToggleState</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyButton.html#a3850d1fdd6cac80b3ca0c0b3d2bfe6a6" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyButton.html#a3850d1fdd6cac80b3ca0c0b3d2bfe6a6" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="166.5,-0.5 166.5,-19.5 275.5,-19.5 275.5,-0.5 166.5,-0.5"/>
 <text text-anchor="middle" x="221" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::setToggle</text>
 </a>

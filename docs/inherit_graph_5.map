@@ -4,7 +4,7 @@
 <area shape="rect" id="node3" href="$classCalibration.html" title=" " alt="" coords="175,56,257,83"/>
 <area shape="rect" id="node4" href="$classGameControllerExample.html" title=" " alt="" coords="135,107,297,133"/>
 <area shape="rect" id="node5" href="$classJoyControlStickStatusBox.html" title=" " alt="" coords="128,157,304,184"/>
-<area shape="rect" id="node6" href="$classJoyTabWidget.html" title=" " alt="" coords="163,208,269,235"/>
+<area shape="rect" id="node6" href="$classJoyTabWidget.html" title="Widget containing tab representing selected joystick." alt="" coords="163,208,269,235"/>
 <area shape="rect" id="node7" href="$classProfileImporter.html" title=" " alt="" coords="162,259,270,285"/>
 <area shape="rect" id="node8" href="$classSpringModeRegionPreview.html" title=" " alt="" coords="127,309,305,336"/>
 </map>

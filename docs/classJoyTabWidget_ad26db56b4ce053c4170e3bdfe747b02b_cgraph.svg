@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyAxisWidget.html#aff9ff84ddc5c3052f9796a3e6d7eaa19" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyAxisWidget.html#aff9ff84ddc5c3052f9796a3e6d7eaa19" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="212.5,-38.5 212.5,-57.5 334.5,-57.5 334.5,-38.5 212.5,-38.5"/>
 <text text-anchor="middle" x="273.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxisWidget::getAxis</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyTabWidget.html#aeef6efb15d96224f1594d4a65cd3460a" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyTabWidget.html#aeef6efb15d96224f1594d4a65cd3460a" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="191,-0.5 191,-19.5 356,-19.5 356,-0.5 191,-0.5"/>
 <text text-anchor="middle" x="273.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyTabWidget::isKeypadUnlocked</text>
 </a>

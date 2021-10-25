@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classSetJoystick.html#af641cbddd22e358218ba68497e40e4e3" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classSetJoystick.html#af641cbddd22e358218ba68497e40e4e3" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="194,-38.5 194,-57.5 333,-57.5 333,-38.5 194,-38.5"/>
 <text text-anchor="middle" x="263.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetJoystick::getInputDevice</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classInputDevice.html#af5b2520af7b76ff18bf3c79c02e73569" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classInputDevice.html#af5b2520af7b76ff18bf3c79c02e73569" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="199,-0.5 199,-19.5 328,-19.5 328,-0.5 199,-0.5"/>
 <text text-anchor="middle" x="263.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDevice::profileEdited</text>
 </a>

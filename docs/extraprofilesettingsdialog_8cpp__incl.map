@@ -1,9 +1,9 @@
-<map id="/home/pawel/antimicrox/src/extraprofilesettingsdialog.cpp" name="/home/pawel/antimicrox/src/extraprofilesettingsdialog.cpp">
-<area shape="rect" id="node1" title=" " alt="" coords="1063,5,1280,47"/>
+<map id="/home/pawel/antimicrox/src/gui/extraprofilesettingsdialog.cpp" name="/home/pawel/antimicrox/src/gui/extraprofilesettingsdialog.cpp">
+<area shape="rect" id="node1" title=" " alt="" coords="1052,5,1291,47"/>
 <area shape="rect" id="node2" href="$extraprofilesettingsdialog_8h.html" title=" " alt="" coords="5,95,183,121"/>
 <area shape="rect" id="node4" title=" " alt="" coords="207,95,402,121"/>
 <area shape="rect" id="node5" title=" " alt="" coords="427,95,545,121"/>
-<area shape="rect" id="node6" title=" " alt="" coords="502,617,665,644"/>
+<area shape="rect" id="node6" title=" " alt="" coords="475,617,638,644"/>
 <area shape="rect" id="node7" title=" " alt="" coords="621,95,756,121"/>
 <area shape="rect" id="node8" title=" " alt="" coords="780,95,976,121"/>
 <area shape="rect" id="node9" title=" " alt="" coords="1000,95,1169,121"/>
@@ -13,29 +13,34 @@
 <area shape="rect" id="node13" title=" " alt="" coords="1671,95,1837,121"/>
 <area shape="rect" id="node14" title=" " alt="" coords="1861,95,2029,121"/>
 <area shape="rect" id="node15" href="$inputdevice_8h.html" title=" " alt="" coords="2053,95,2151,121"/>
-<area shape="rect" id="node39" title=" " alt="" coords="2176,95,2247,121"/>
+<area shape="rect" id="node44" title=" " alt="" coords="2176,95,2247,121"/>
 <area shape="rect" id="node3" title=" " alt="" coords="59,169,129,196"/>
-<area shape="rect" id="node16" href="$setjoystick_8h.html" title=" " alt="" coords="1923,169,2017,196"/>
-<area shape="rect" id="node38" title=" " alt="" coords="2042,169,2189,196"/>
-<area shape="rect" id="node17" href="$joyaxis_8h.html" title=" " alt="" coords="1961,244,2035,271"/>
-<area shape="rect" id="node37" href="$setjoystickxml_8h.html" title=" " alt="" coords="1178,319,1319,345"/>
-<area shape="rect" id="node18" title=" " alt="" coords="2098,617,2151,644"/>
-<area shape="rect" id="node19" title=" " alt="" coords="1852,617,1923,644"/>
-<area shape="rect" id="node20" href="$joyaxisbutton_8h.html" title=" " alt="" coords="1784,319,1983,345"/>
-<area shape="rect" id="node21" href="$joygradientbutton_8h.html" title=" " alt="" coords="1659,393,1879,420"/>
-<area shape="rect" id="node22" href="$joybutton_8h.html" title=" " alt="" coords="1509,468,1596,495"/>
-<area shape="rect" id="node23" href="$globalvariables_8h.html" title=" " alt="" coords="1992,543,2111,569"/>
-<area shape="rect" id="node24" href="$joybuttonmousehelper_8h.html" title=" " alt="" coords="1807,543,1967,569"/>
-<area shape="rect" id="node25" href="$joybuttonslot_8h.html" title=" " alt="" coords="765,543,871,569"/>
-<area shape="rect" id="node30" href="$springmousemoveinfo_8h.html" title=" " alt="" coords="947,543,1105,569"/>
-<area shape="rect" id="node31" title=" " alt="" coords="1129,543,1245,569"/>
-<area shape="rect" id="node32" title=" " alt="" coords="1269,543,1340,569"/>
-<area shape="rect" id="node33" title=" " alt="" coords="1365,543,1485,569"/>
-<area shape="rect" id="node34" title=" " alt="" coords="1509,543,1596,569"/>
-<area shape="rect" id="node35" title=" " alt="" coords="1621,543,1693,569"/>
-<area shape="rect" id="node36" title=" " alt="" coords="1717,543,1783,569"/>
-<area shape="rect" id="node26" title=" " alt="" coords="969,617,1081,644"/>
-<area shape="rect" id="node27" title=" " alt="" coords="689,617,763,644"/>
-<area shape="rect" id="node28" title=" " alt="" coords="787,617,849,644"/>
-<area shape="rect" id="node29" title=" " alt="" coords="873,617,945,644"/>
+<area shape="rect" id="node16" href="$setjoystick_8h.html" title=" " alt="" coords="2055,169,2149,196"/>
+<area shape="rect" id="node43" title=" " alt="" coords="2174,169,2321,196"/>
+<area shape="rect" id="node17" href="$joyaxis_8h.html" title=" " alt="" coords="2065,244,2139,271"/>
+<area shape="rect" id="node42" href="$setjoystickxml_8h.html" title=" " alt="" coords="2523,319,2665,345"/>
+<area shape="rect" id="node18" title=" " alt="" coords="2219,617,2273,644"/>
+<area shape="rect" id="node19" title=" " alt="" coords="1788,617,1859,644"/>
+<area shape="rect" id="node20" href="$joyaxisbutton_8h.html" title=" " alt="" coords="2003,319,2201,345"/>
+<area shape="rect" id="node21" href="$joygradientbutton_8h.html" title=" " alt="" coords="1608,393,1828,420"/>
+<area shape="rect" id="node37" href="$logger_8h.html" title=" " alt="" coords="2137,468,2205,495"/>
+<area shape="rect" id="node22" href="$joybutton_8h.html" title=" " alt="" coords="1423,468,1509,495"/>
+<area shape="rect" id="node23" href="$globalvariables_8h.html" title=" " alt="" coords="1847,543,1965,569"/>
+<area shape="rect" id="node24" href="$joybuttonmousehelper_8h.html" title=" " alt="" coords="1662,543,1822,569"/>
+<area shape="rect" id="node25" href="$joybuttonslot_8h.html" title=" " alt="" coords="717,543,823,569"/>
+<area shape="rect" id="node30" href="$springmousemoveinfo_8h.html" title=" " alt="" coords="988,543,1147,569"/>
+<area shape="rect" id="node31" title=" " alt="" coords="1171,543,1287,569"/>
+<area shape="rect" id="node32" title=" " alt="" coords="1311,543,1381,569"/>
+<area shape="rect" id="node33" title=" " alt="" coords="1406,543,1526,569"/>
+<area shape="rect" id="node34" title=" " alt="" coords="1551,543,1637,569"/>
+<area shape="rect" id="node35" title=" " alt="" coords="1990,543,2062,569"/>
+<area shape="rect" id="node36" title=" " alt="" coords="899,543,964,569"/>
+<area shape="rect" id="node26" title=" " alt="" coords="843,617,955,644"/>
+<area shape="rect" id="node27" title=" " alt="" coords="980,617,1053,644"/>
+<area shape="rect" id="node28" title=" " alt="" coords="662,617,723,644"/>
+<area shape="rect" id="node29" title=" " alt="" coords="747,617,819,644"/>
+<area shape="rect" id="node38" title=" " alt="" coords="2446,543,2499,569"/>
+<area shape="rect" id="node39" title=" " alt="" coords="2137,543,2205,569"/>
+<area shape="rect" id="node40" title=" " alt="" coords="2230,543,2329,569"/>
+<area shape="rect" id="node41" title=" " alt="" coords="2353,543,2422,569"/>
 </map>

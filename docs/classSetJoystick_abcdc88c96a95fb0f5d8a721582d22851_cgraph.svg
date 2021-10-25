@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classSetJoystick.html#ad859311bfde76dbdaac274cb5ede63d6" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classSetJoystick.html#ad859311bfde76dbdaac274cb5ede63d6" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="154,-0.5 154,-19.5 273,-19.5 273,-0.5 154,-0.5"/>
 <text text-anchor="middle" x="213.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetJoystick::getVdpads</text>
 </a>

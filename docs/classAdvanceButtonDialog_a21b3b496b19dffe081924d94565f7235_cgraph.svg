@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#a619d8146cc1948e6946339147b616e5d" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButton.html#a619d8146cc1948e6946339147b616e5d" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="151,-99 151,-118 303,-118 303,-99 151,-99"/>
 <text text-anchor="middle" x="227" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getCycleResetTime</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classAdvanceButtonDialog.html#a2242fea1619c2f5048b2d55b4a934384" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classAdvanceButtonDialog.html#a2242fea1619c2f5048b2d55b4a934384" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="153.5,-49.5 153.5,-79.5 300.5,-79.5 300.5,-49.5 153.5,-49.5"/>
 <text text-anchor="start" x="161.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">AdvanceButtonDialog</text>
 <text text-anchor="middle" x="227" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::setButtonCycleResetInterval</text>
@@ -53,7 +53,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classJoyButton.html#a725256449033a456c65eee07159f5cba" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classJoyButton.html#a725256449033a456c65eee07159f5cba" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="161.5,-0.5 161.5,-30.5 292.5,-30.5 292.5,-0.5 161.5,-0.5"/>
 <text text-anchor="start" x="169.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::setCycleReset</text>
 <text text-anchor="middle" x="227" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Status</text>
@@ -69,7 +69,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyButton.html#ae2cf7d7b14cd56c0cde9b2a573f49d05" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyButton.html#ae2cf7d7b14cd56c0cde9b2a573f49d05" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="339,-55 339,-74 491,-74 491,-55 339,-55"/>
 <text text-anchor="middle" x="415" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::setCycleResetTime</text>
 </a>

@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classCapturedWindowInfoDialog.html#afadb9b4bbaec10e076a5ab94495194c6" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classCapturedWindowInfoDialog.html#afadb9b4bbaec10e076a5ab94495194c6" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="143,-49.5 143,-79.5 284,-79.5 284,-49.5 143,-49.5"/>
 <text text-anchor="start" x="151" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">CapturedWindowInfoDialog</text>
 <text text-anchor="middle" x="213.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::CapturedWindowInfoDialog</text>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classAutoProfileWatcher.html#ae6ec8b944a048017f3e9958525ccfb62" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classAutoProfileWatcher.html#ae6ec8b944a048017f3e9958525ccfb62" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="163,-0.5 163,-30.5 264,-30.5 264,-0.5 163,-0.5"/>
 <text text-anchor="start" x="171" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">AutoProfileWatcher</text>
 <text text-anchor="middle" x="213.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::runAppCheck</text>
@@ -53,7 +53,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classAutoProfileWatcher.html#a6c9832eb02480c6909f49cbb05d5113c" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classAutoProfileWatcher.html#a6c9832eb02480c6909f49cbb05d5113c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 107,-30.5 107,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">AutoProfileWatcher</text>
 <text text-anchor="middle" x="53.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::AutoProfileWatcher</text>

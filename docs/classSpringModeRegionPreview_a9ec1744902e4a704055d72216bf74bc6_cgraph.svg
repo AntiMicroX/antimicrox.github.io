@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classSpringModeRegionPreview.html#ac11ce802ca9098d5d61a1c7550e3a4f2" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classSpringModeRegionPreview.html#ac11ce802ca9098d5d61a1c7550e3a4f2" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="176,-49.5 176,-79.5 310,-79.5 310,-49.5 176,-49.5"/>
 <text text-anchor="start" x="184" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">SpringModeRegionPreview</text>
 <text text-anchor="middle" x="243" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::adjustSpringSizeHeight</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classSpringModeRegionPreview.html#a78b54db3c38d88222b2491d21bb7daac" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classSpringModeRegionPreview.html#a78b54db3c38d88222b2491d21bb7daac" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="176,-0.5 176,-30.5 310,-30.5 310,-0.5 176,-0.5"/>
 <text text-anchor="start" x="184" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">SpringModeRegionPreview</text>
 <text text-anchor="middle" x="243" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::adjustSpringSizeWidth</text>

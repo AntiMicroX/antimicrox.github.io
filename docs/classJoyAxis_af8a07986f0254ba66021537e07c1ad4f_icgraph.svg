@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyAxisButton.html#a429addc0206287a1b5662c97c000e9b4" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyAxisButton.html#a429addc0206287a1b5662c97c000e9b4" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="9.5,-49.5 9.5,-79.5 163.5,-79.5 163.5,-49.5 9.5,-49.5"/>
 <text text-anchor="start" x="17.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxisButton::getAcceleration</text>
 <text text-anchor="middle" x="86.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">Distance</text>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyAxisButton.html#a75bae441e0c77e1821b1764f65baa529" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyAxisButton.html#a75bae441e0c77e1821b1764f65baa529" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 173,-30.5 173,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxisButton::getLastAcceleration</text>
 <text text-anchor="middle" x="86.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Distance</text>

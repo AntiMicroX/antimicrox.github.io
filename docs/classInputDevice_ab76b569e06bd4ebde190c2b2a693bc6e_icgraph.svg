@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classGameController.html#aa304c247aa13b7e534ad2b025ef4371c" xlink:title="Check if GUID passed matches the expected GUID for a device. Needed for xinput GUID abstraction.">
+<g id="a_node2"><a xlink:href="classGameController.html#aa304c247aa13b7e534ad2b025ef4371c" target="_top" xlink:title="Check if GUID passed matches the expected GUID for a device. Needed for xinput GUID abstraction.">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 136,-30.5 136,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameController::isRelevant</text>
 <text text-anchor="middle" x="68" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">UniqueID</text>

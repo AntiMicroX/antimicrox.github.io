@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classAntiMicroSettings.html#a4f172ffefe55eeba5afff3d54182f881" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classAntiMicroSettings.html#a4f172ffefe55eeba5afff3d54182f881" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="212.5,-39 212.5,-69 312.5,-69 312.5,-39 212.5,-39"/>
 <text text-anchor="start" x="220.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">AntiMicroSettings::</text>
 <text text-anchor="middle" x="262.5" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">getLock</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classInputDevice.html#ad2d9a268b89898a0a29b56d7af63de9e" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classInputDevice.html#ad2d9a268b89898a0a29b56d7af63de9e" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="185,-0.5 185,-19.5 340,-19.5 340,-0.5 185,-0.5"/>
 <text text-anchor="middle" x="262.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDevice::getUniqueIDString</text>
 </a>

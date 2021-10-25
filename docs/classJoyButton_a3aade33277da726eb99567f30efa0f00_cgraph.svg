@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#a38f4e806f3c8320d744dd45c329ec0b4" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButton.html#a38f4e806f3c8320d744dd45c329ec0b4" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="180.5,-49.5 180.5,-79.5 320.5,-79.5 320.5,-49.5 180.5,-49.5"/>
 <text text-anchor="start" x="188.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getCurrentSpring</text>
 <text text-anchor="middle" x="250.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">DeadCircle</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyButton.html#a17e7d44ff2d956493113d7312ab406dc" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyButton.html#a17e7d44ff2d956493113d7312ab406dc" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="167,-0.5 167,-30.5 334,-30.5 334,-0.5 167,-0.5"/>
 <text text-anchor="start" x="175" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getLastMouseDistance</text>
 <text text-anchor="middle" x="250.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">FromDeadZone</text>

@@ -23,7 +23,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classVirtualKeyboardMouseWidget.html#a34f7db07fdc0021751c57667866de8f9" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classVirtualKeyboardMouseWidget.html#a34f7db07fdc0021751c57667866de8f9" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="198,-6 198,-36 368,-36 368,-6 198,-6"/>
 <text text-anchor="start" x="206" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00">VirtualKeyboardMouseWidget</text>
 <text text-anchor="middle" x="283" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">::processAdvancedMouseSelection</text>

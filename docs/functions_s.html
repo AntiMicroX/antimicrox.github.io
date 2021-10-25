@@ -106,6 +106,9 @@ $(function() {
 : <a class="el" href="classCalibration.html#a61d733b70d5fd8a60c8f98e50469ed0e">Calibration</a>
 , <a class="el" href="classJoyTabWidget.html#afdc2166911c519519a473818504da844">JoyTabWidget</a>
 </li>
+<li>scancodeFromVirtualKey()
+: <a class="el" href="classWinExtras.html#a0bfa711c1abe72486dfebc8ff6fe7f5a">WinExtras</a>
+</li>
 <li>screen
 : <a class="el" href="structPadderCommon_1_1__springModeInfo.html#a26a7ad914cb45d2d60ae1a718875fdc7">PadderCommon::_springModeInfo</a>
 </li>
@@ -176,9 +179,14 @@ $(function() {
 <li>selectTriggerPreset()
 : <a class="el" href="classAxisEditDialog.html#af921ce39a98869e082345c645bf8b058">AxisEditDialog</a>
 </li>
+<li>sendInputHandler
+: <a class="el" href="classWinVMultiEventHandler.html#a81f6ed16d7a1fdbc229bbeb52b4c5d61">WinVMultiEventHandler</a>
+</li>
 <li>sendKeyboardEvent()
 : <a class="el" href="classBaseEventHandler.html#afd723bd1451d78a34976642783026c40">BaseEventHandler</a>
 , <a class="el" href="classUInputEventHandler.html#a86d9fad5709b20721c166693925144ba">UInputEventHandler</a>
+, <a class="el" href="classWinSendInputEventHandler.html#afd29783b55e6ebc6ef458cde6fc7ac76">WinSendInputEventHandler</a>
+, <a class="el" href="classWinVMultiEventHandler.html#a0a98b762b1770a4590dac5e2bc24d7a9">WinVMultiEventHandler</a>
 , <a class="el" href="classXTestEventHandler.html#a853b6823ff988d0ee9da95a38c553a9d">XTestEventHandler</a>
 </li>
 <li>sendLoadProfileRequest()
@@ -190,21 +198,28 @@ $(function() {
 <li>sendMouseAbsEvent()
 : <a class="el" href="classBaseEventHandler.html#a40a02bef908bd0f86f9625a58cc697b7">BaseEventHandler</a>
 , <a class="el" href="classUInputEventHandler.html#a73f8343b9072de4649b7c41316d0641a">UInputEventHandler</a>
+, <a class="el" href="classWinVMultiEventHandler.html#aadfecc085551b17f1f137d5c7245a176">WinVMultiEventHandler</a>
 , <a class="el" href="classXTestEventHandler.html#a65207f440defc79f5d3808ccc44a4eb2">XTestEventHandler</a>
 </li>
 <li>sendMouseButtonEvent()
 : <a class="el" href="classBaseEventHandler.html#a068ae99c4210979beb9e397960f33641">BaseEventHandler</a>
 , <a class="el" href="classUInputEventHandler.html#a1f3bdecee2237c6fd6d93ba00058fa7d">UInputEventHandler</a>
+, <a class="el" href="classWinSendInputEventHandler.html#a857775a30a19f084676055552f81ddde">WinSendInputEventHandler</a>
+, <a class="el" href="classWinVMultiEventHandler.html#a632abe92ac49c9668ede44994418890b">WinVMultiEventHandler</a>
 , <a class="el" href="classXTestEventHandler.html#ad3bfcf8da266fa2eaf1bc361e60c31e8">XTestEventHandler</a>
 </li>
 <li>sendMouseEvent()
 : <a class="el" href="classBaseEventHandler.html#aa79baec050fe242ee44ed4b8f87714e6">BaseEventHandler</a>
 , <a class="el" href="classUInputEventHandler.html#a5e8f8a059421c94e8879fb078a2b3016">UInputEventHandler</a>
+, <a class="el" href="classWinSendInputEventHandler.html#aa594e1c294738d91340ad43213c06018">WinSendInputEventHandler</a>
+, <a class="el" href="classWinVMultiEventHandler.html#a04c71416f8fc8fa27db094a40faa9ac2">WinVMultiEventHandler</a>
 , <a class="el" href="classXTestEventHandler.html#a7ce007016cc7fa84382c631fe57a627e">XTestEventHandler</a>
 </li>
 <li>sendMouseSpringEvent()
 : <a class="el" href="classBaseEventHandler.html#a6b337790de6e8b78e7abccc2a8a36ba5">BaseEventHandler</a>
 , <a class="el" href="classUInputEventHandler.html#a904564c73d32751fe861347ceb46ab34">UInputEventHandler</a>
+, <a class="el" href="classWinSendInputEventHandler.html#a711a6daea2b3a502cc09ce26a677145e">WinSendInputEventHandler</a>
+, <a class="el" href="classWinVMultiEventHandler.html#a0dc3ff56f8b5b800d8586124f951e16d">WinVMultiEventHandler</a>
 , <a class="el" href="classXTestEventHandler.html#a0325789dbf4167c812c27dae5f68127a">XTestEventHandler</a>
 </li>
 <li>sendSelectionFinished()
@@ -216,6 +231,8 @@ $(function() {
 <li>sendTextEntryEvent()
 : <a class="el" href="classBaseEventHandler.html#a9474d07cb2e38dca07ffac6f08a161ed">BaseEventHandler</a>
 , <a class="el" href="classUInputEventHandler.html#ae7f56462de69c74e7f2add96434a5313">UInputEventHandler</a>
+, <a class="el" href="classWinSendInputEventHandler.html#a1ca66b9438693c4a22252ca60dc3ddaf">WinSendInputEventHandler</a>
+, <a class="el" href="classWinVMultiEventHandler.html#a16e625e00e2b719fe14b74055feff9eb">WinVMultiEventHandler</a>
 , <a class="el" href="classXTestEventHandler.html#a9a39982f41e6d28d09b678b1c1da479c">XTestEventHandler</a>
 </li>
 <li>sensitivity
@@ -767,7 +784,7 @@ $(function() {
 : <a class="el" href="classInputDevice.html#ad27a114484ca7b3cd7d9e60055351799">InputDevice</a>
 </li>
 <li>setProgressBars()
-: <a class="el" href="classCalibration.html#ad9f7100b6b3035bcf0c469e92abc92c6">Calibration</a>
+: <a class="el" href="classCalibration.html#a67756310429bca0aa53d0a9a42a6caca">Calibration</a>
 </li>
 <li>setPushButton1
 : <a class="el" href="classJoyTabWidget.html#a71422149c9a5278dceed2e687f00aa8c">JoyTabWidget</a>
@@ -812,7 +829,7 @@ $(function() {
 : <a class="el" href="classJoyButton.html#a79db0e0cc11d3a55497a51701f9abcd0">JoyButton</a>
 </li>
 <li>setSlotCode()
-: <a class="el" href="classJoyButtonSlot.html#a23e2639dee82e872b1ebf3958b0db68c">JoyButtonSlot</a>
+: <a class="el" href="classJoyButtonSlot.html#acf19d3b67db66d732b125f96f4d28614">JoyButtonSlot</a>
 </li>
 <li>setSlotData()
 : <a class="el" href="classJoyButtonSlotXml.html#a1df87c1930541705c06f0d29d57648c4">JoyButtonSlotXml</a>
@@ -966,7 +983,7 @@ $(function() {
 </li>
 <li>setValue()
 : <a class="el" href="classAxisValueBox.html#aa6f4e3120d89903f7be977dd453fa30b">AxisValueBox</a>
-, <a class="el" href="classSimpleKeyGrabberButton.html#aca23aa02c35e5f10fec5a65697baa963">SimpleKeyGrabberButton</a>
+, <a class="el" href="classSimpleKeyGrabberButton.html#a3ae9151e0acc2d7e07a03356d2f6be62">SimpleKeyGrabberButton</a>
 </li>
 <li>setValues()
 : <a class="el" href="classSimpleKeyGrabberButton.html#a705250705121647cd8ee154e0ac5a532">SimpleKeyGrabberButton</a>
@@ -1001,6 +1018,9 @@ $(function() {
 </li>
 <li>setWindowName()
 : <a class="el" href="classAutoProfileInfo.html#abba6d0528f83ca5aabb4e61960bde2dc">AutoProfileInfo</a>
+</li>
+<li>shiftKeys
+: <a class="el" href="classWinVMultiEventHandler.html#a59c9ba82ed4e7fd5e082dd3b861e0df4">WinVMultiEventHandler</a>
 </li>
 <li>shouldInvokeMouseEvents()
 : <a class="el" href="classJoyButton.html#ab340ca8368f051e82cfc38ee9d3d587c">JoyButton</a>
@@ -1046,11 +1066,17 @@ $(function() {
 <li>showFindExecutableWindow()
 : <a class="el" href="classAdvanceButtonDialog.html#a748455fb1694f4c4dd4d050288c95e17">AdvanceButtonDialog</a>
 </li>
+<li>showHiddenWindow()
+: <a class="el" href="classLocalAntiMicroServer.html#a9caee3112edfcceeea130fa9c4f010cc">LocalAntiMicroServer</a>
+</li>
 <li>showKeyDelayDialog()
 : <a class="el" href="classJoyTabWidget.html#a9776239e101ab0d9c9309f4f3d3f1309">JoyTabWidget</a>
 </li>
 <li>showQuickSetDialog()
 : <a class="el" href="classJoyTabWidget.html#a43f5fa686c15ae958836e4bc094932b4">JoyTabWidget</a>
+</li>
+<li>showRequest
+: <a class="el" href="classCommandLineUtility.html#a5054d7e530ee451da8df75c06d00612d">CommandLineUtility</a>
 </li>
 <li>showSelectProfileWind()
 : <a class="el" href="classAdvanceButtonDialog.html#a537e84c8a495aa615b417b3851b59b62">AdvanceButtonDialog</a>
@@ -1202,6 +1228,7 @@ $(function() {
 </li>
 <li>startTimer()
 : <a class="el" href="classAutoProfileWatcher.html#a3e42030d3b71933be269e7eda00d253b">AutoProfileWatcher</a>
+, <a class="el" href="classWinAppProfileTimerDialog.html#aa09b82b48bb84980b839d81c28e8c91f">WinAppProfileTimerDialog</a>
 </li>
 <li>startTimerOverrun()
 : <a class="el" href="classJoyButton.html#a21ec1913b22745c8926040d463ccfacc">JoyButton</a>

@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyAxis.html#a26e2606a8916cfd5fe8f4fc15c7dc886" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyAxis.html#a26e2606a8916cfd5fe8f4fc15c7dc886" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="167,-6 167,-25 334,-25 334,-6 167,-6"/>
 <text text-anchor="middle" x="250.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getCurrentlyAssignedSet</text>
 </a>

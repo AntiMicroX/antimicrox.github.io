@@ -16,20 +16,21 @@
 <area shape="rect" id="node14" href="$classJoyAxisContextMenuHelper.html#abeb45b1b03177dbb96744d86811396e8" title=" " alt="" coords="1008,724,1193,765"/>
 <area shape="rect" id="node16" href="$classJoyButton.html#a9c65911b5b33fc6bec20d7418cea4324" title=" " alt="" coords="1041,790,1160,817"/>
 <area shape="rect" id="node17" href="$classGameControllerTrigger.html#a9a377b27df224a6eeddea986c0b1cf4d" title=" " alt="" coords="759,648,911,689"/>
-<area shape="rect" id="node19" href="$classJoyDPadButton.html#aebe0fc163770e4f98ab9cbaeb96b4f08" title=" " alt="" coords="760,714,911,741"/>
-<area shape="rect" id="node21" href="$classJoyButton.html#ae9adbedab9e5f99a893833b19035896b" title=" " alt="" coords="776,765,895,791"/>
-<area shape="rect" id="node22" href="$classJoyControlStick.html#ae9e4c58304bb10ae998f854e4247f39f" title="Reset all the properties of the stick direction buttons and the stick modifier button." alt="" coords="737,815,933,842"/>
-<area shape="rect" id="node27" href="$classJoyAxis.html#afce1f31390f589a417e9c70f47bd7187" title=" " alt="" coords="749,866,922,893"/>
-<area shape="rect" id="node33" href="$classJoyButton.html#a0e609c3e96518adfec008f3a04849900" title=" " alt="" coords="757,917,913,943"/>
-<area shape="rect" id="node18" href="$classGameControllerTrigger.html#a29c6221684b8eb4b3a4017ed93c6e866" title=" " alt="" coords="529,648,689,689"/>
-<area shape="rect" id="node20" href="$classJoyDPadButton.html#adce03b9dac0e26f1601907b36bb11263" title=" " alt="" coords="534,714,685,741"/>
-<area shape="rect" id="node23" href="$classJoyControlStick.html#ae522566bf421862cb84d33aeefff71af" title=" " alt="" coords="534,790,685,817"/>
-<area shape="rect" id="node24" href="$classJoyControlStick.html#a57b418a495a22ea5182e89ef4a6cf233" title="Copy slots from all stick buttons and properties from a stick onto another." alt="" coords="255,753,481,779"/>
-<area shape="rect" id="node26" href="$classJoyControlStick.html#add8f98ad0df0e0dfbd6380abc4422385" title=" " alt="" coords="275,804,461,845"/>
-<area shape="rect" id="node25" href="$classSetJoystick.html#a36b0da099fef84270b6cc7c76741e689" title=" " alt="" coords="5,811,207,838"/>
-<area shape="rect" id="node28" href="$classJoyAxis.html#a6123cf3edbb03ad45f114c333cdfd5f4" title=" " alt="" coords="547,841,671,867"/>
-<area shape="rect" id="node29" href="$classJoyAxis.html#a9e0633e04b88d2eecb10c8cf9599a86e" title=" " alt="" coords="556,891,663,918"/>
-<area shape="rect" id="node32" href="$classJoyAxis.html#a3e8aa5f4ba3afb8959ddd2d153a5fff1" title=" " alt="" coords="543,942,675,969"/>
-<area shape="rect" id="node30" href="$classJoyAxis.html#a854637def50e6ef091c87ee78e7dbb58" title=" " alt="" coords="277,870,459,897"/>
-<area shape="rect" id="node31" href="$classJoyAxis.html#a62d21dc1238df0c8e221365a434efe50" title=" " alt="" coords="315,921,421,947"/>
+<area shape="rect" id="node20" href="$classJoyDPadButton.html#aebe0fc163770e4f98ab9cbaeb96b4f08" title=" " alt="" coords="760,714,911,741"/>
+<area shape="rect" id="node22" href="$classJoyButton.html#ae9adbedab9e5f99a893833b19035896b" title=" " alt="" coords="776,765,895,791"/>
+<area shape="rect" id="node23" href="$classJoyControlStick.html#ae9e4c58304bb10ae998f854e4247f39f" title="Reset all the properties of the stick direction buttons and the stick modifier button." alt="" coords="737,815,933,842"/>
+<area shape="rect" id="node28" href="$classJoyAxis.html#afce1f31390f589a417e9c70f47bd7187" title=" " alt="" coords="749,866,922,893"/>
+<area shape="rect" id="node34" href="$classJoyButton.html#a0e609c3e96518adfec008f3a04849900" title=" " alt="" coords="757,917,913,943"/>
+<area shape="rect" id="node18" href="$classGameControllerTrigger.html#a29c6221684b8eb4b3a4017ed93c6e866" title=" " alt="" coords="529,583,689,624"/>
+<area shape="rect" id="node19" href="$classGameControllerTrigger.html#ab63a97404553aedc7cac20b65df5b763" title=" " alt="" coords="533,648,685,689"/>
+<area shape="rect" id="node21" href="$classJoyDPadButton.html#adce03b9dac0e26f1601907b36bb11263" title=" " alt="" coords="534,714,685,741"/>
+<area shape="rect" id="node24" href="$classJoyControlStick.html#ae522566bf421862cb84d33aeefff71af" title=" " alt="" coords="534,790,685,817"/>
+<area shape="rect" id="node25" href="$classJoyControlStick.html#a57b418a495a22ea5182e89ef4a6cf233" title="Copy slots from all stick buttons and properties from a stick onto another." alt="" coords="255,753,481,779"/>
+<area shape="rect" id="node27" href="$classJoyControlStick.html#add8f98ad0df0e0dfbd6380abc4422385" title=" " alt="" coords="275,804,461,845"/>
+<area shape="rect" id="node26" href="$classSetJoystick.html#a36b0da099fef84270b6cc7c76741e689" title=" " alt="" coords="5,811,207,838"/>
+<area shape="rect" id="node29" href="$classJoyAxis.html#a6123cf3edbb03ad45f114c333cdfd5f4" title=" " alt="" coords="547,841,671,867"/>
+<area shape="rect" id="node30" href="$classJoyAxis.html#a9e0633e04b88d2eecb10c8cf9599a86e" title=" " alt="" coords="556,891,663,918"/>
+<area shape="rect" id="node33" href="$classJoyAxis.html#a3e8aa5f4ba3afb8959ddd2d153a5fff1" title=" " alt="" coords="543,942,675,969"/>
+<area shape="rect" id="node31" href="$classJoyAxis.html#a854637def50e6ef091c87ee78e7dbb58" title=" " alt="" coords="277,870,459,897"/>
+<area shape="rect" id="node32" href="$classJoyAxis.html#a62d21dc1238df0c8e221365a434efe50" title=" " alt="" coords="315,921,421,947"/>
 </map>

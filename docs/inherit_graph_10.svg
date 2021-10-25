@@ -21,7 +21,7 @@
 <!-- Node0 -->
 <g id="node2" class="node">
 <title>Node0</title>
-<g id="a_node2"><a xlink:href="$classFlashButtonWidget.html" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classFlashButtonWidget.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="124,-152.5 124,-171.5 224,-171.5 224,-152.5 124,-152.5"/>
 <text text-anchor="middle" x="174" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">FlashButtonWidget</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node27 -->
 <g id="node9" class="node">
 <title>Node27</title>
-<g id="a_node9"><a xlink:href="$classJoyButtonStatusBox.html" xlink:title=" ">
+<g id="a_node9"><a xlink:href="classJoyButtonStatusBox.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="120.5,-114.5 120.5,-133.5 227.5,-133.5 227.5,-114.5 120.5,-114.5"/>
 <text text-anchor="middle" x="174" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButtonStatusBox</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node28 -->
 <g id="node10" class="node">
 <title>Node28</title>
-<g id="a_node10"><a xlink:href="$classSimpleKeyGrabberButton.html" xlink:title=" ">
+<g id="a_node10"><a xlink:href="classSimpleKeyGrabberButton.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="111,-76.5 111,-95.5 237,-95.5 237,-76.5 111,-76.5"/>
 <text text-anchor="middle" x="174" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">SimpleKeyGrabberButton</text>
 </a>
@@ -66,7 +66,7 @@
 <!-- Node29 -->
 <g id="node11" class="node">
 <title>Node29</title>
-<g id="a_node11"><a xlink:href="$classVirtualKeyPushButton.html" xlink:title=" ">
+<g id="a_node11"><a xlink:href="classVirtualKeyPushButton.html" target="_top" xlink:title="PushButton representing keyboard button on VirtualKeyboardMouseWidget.">
 <polygon fill="white" stroke="black" points="117.5,-38.5 117.5,-57.5 230.5,-57.5 230.5,-38.5 117.5,-38.5"/>
 <text text-anchor="middle" x="174" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">VirtualKeyPushButton</text>
 </a>
@@ -81,7 +81,7 @@
 <!-- Node30 -->
 <g id="node12" class="node">
 <title>Node30</title>
-<g id="a_node12"><a xlink:href="$classVirtualMousePushButton.html" xlink:title=" ">
+<g id="a_node12"><a xlink:href="classVirtualMousePushButton.html" target="_top" xlink:title="PushButton representing mouse action in VirtualKeyboardMouseWidget.">
 <polygon fill="white" stroke="black" points="111.5,-0.5 111.5,-19.5 236.5,-19.5 236.5,-0.5 111.5,-0.5"/>
 <text text-anchor="middle" x="174" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">VirtualMousePushButton</text>
 </a>
@@ -96,7 +96,7 @@
 <!-- Node1 -->
 <g id="node3" class="node">
 <title>Node1</title>
-<g id="a_node3"><a xlink:href="$classDPadPushButton.html" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classDPadPushButton.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="295.5,-228.5 295.5,-247.5 387.5,-247.5 387.5,-228.5 295.5,-228.5"/>
 <text text-anchor="middle" x="341.5" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">DPadPushButton</text>
 </a>
@@ -111,7 +111,7 @@
 <!-- Node2 -->
 <g id="node4" class="node">
 <title>Node2</title>
-<g id="a_node4"><a xlink:href="$classJoyAxisWidget.html" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyAxisWidget.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="300,-190.5 300,-209.5 383,-209.5 383,-190.5 300,-190.5"/>
 <text text-anchor="middle" x="341.5" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxisWidget</text>
 </a>
@@ -126,7 +126,7 @@
 <!-- Node3 -->
 <g id="node5" class="node">
 <title>Node3</title>
-<g id="a_node5"><a xlink:href="$classJoyButtonWidget.html" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classJoyButtonWidget.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="295.5,-152.5 295.5,-171.5 387.5,-171.5 387.5,-152.5 295.5,-152.5"/>
 <text text-anchor="middle" x="341.5" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButtonWidget</text>
 </a>
@@ -141,7 +141,7 @@
 <!-- Node5 -->
 <g id="node7" class="node">
 <title>Node5</title>
-<g id="a_node7"><a xlink:href="$classJoyControlStickButtonPushButton.html" xlink:title=" ">
+<g id="a_node7"><a xlink:href="classJoyControlStickButtonPushButton.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="273,-103 273,-133 410,-133 410,-103 273,-103"/>
 <text text-anchor="start" x="281" y="-121" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStickButtonPush</text>
 <text text-anchor="middle" x="341.5" y="-110" font-family="Helvetica,sans-Serif" font-size="10.00">Button</text>
@@ -157,7 +157,7 @@
 <!-- Node6 -->
 <g id="node8" class="node">
 <title>Node6</title>
-<g id="a_node8"><a xlink:href="$classJoyControlStickPushButton.html" xlink:title=" ">
+<g id="a_node8"><a xlink:href="classJoyControlStickPushButton.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="273,-64.5 273,-83.5 410,-83.5 410,-64.5 273,-64.5"/>
 <text text-anchor="middle" x="341.5" y="-71.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStickPushButton</text>
 </a>
@@ -172,7 +172,7 @@
 <!-- Node4 -->
 <g id="node6" class="node">
 <title>Node4</title>
-<g id="a_node6"><a xlink:href="$classJoyDPadButtonWidget.html" xlink:title=" ">
+<g id="a_node6"><a xlink:href="classJoyDPadButtonWidget.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="446,-152.5 446,-171.5 562,-171.5 562,-152.5 446,-152.5"/>
 <text text-anchor="middle" x="504" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyDPadButtonWidget</text>
 </a>

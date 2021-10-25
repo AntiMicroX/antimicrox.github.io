@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyTabWidget.html#a9111109cde328310dcd39fa068a06f86" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyTabWidget.html#a9111109cde328310dcd39fa068a06f86" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="210,-0.5 210,-30.5 374,-30.5 374,-0.5 210,-0.5"/>
 <text text-anchor="start" x="218" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyTabWidget::propogateMapping</text>
 <text text-anchor="middle" x="292" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Update</text>

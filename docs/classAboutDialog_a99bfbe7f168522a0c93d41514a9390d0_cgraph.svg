@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classAboutDialog.html#a84195e3782dff9d484bda3dd07198f8f" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classAboutDialog.html#a84195e3782dff9d484bda3dd07198f8f" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="168,-0.5 168,-19.5 299,-19.5 299,-0.5 168,-0.5"/>
 <text text-anchor="middle" x="233.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">AboutDialog::retranslateUi</text>
 </a>

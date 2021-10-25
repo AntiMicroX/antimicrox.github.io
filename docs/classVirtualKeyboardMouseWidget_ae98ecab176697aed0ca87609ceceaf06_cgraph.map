@@ -30,19 +30,19 @@
 <area shape="rect" id="node23" href="$event_8cpp.html#a76ce89b71143c1c09343f45f038b4a67" title=" " alt="" coords="1853,504,1988,531"/>
 <area shape="rect" id="node37" href="$classJoyButtonSlot.html#a37ff2b523177bae4ea6a44b82f2973eb" title=" " alt="" coords="1817,555,2024,581"/>
 <area shape="rect" id="node21" href="$classJoyButtonSlot.html#a9ba9cb0dda063a7df5575072c0aabe01" title=" " alt="" coords="2076,337,2248,378"/>
-<area shape="rect" id="node24" href="$classX11Extras.html#a643c95dc1de8eb073a0accb41619fe83" title="Get display instance." alt="" coords="2333,613,2465,640"/>
-<area shape="rect" id="node25" href="$classBaseEventHandler.html#a9a014e472ec57408d16b8b5eed964e90" title=" " alt="" coords="2296,664,2503,691"/>
-<area shape="rect" id="node26" href="$classEventHandlerFactory.html#a90ce153a19fbb91128bd52eb083ce271" title=" " alt="" coords="2327,329,2472,370"/>
-<area shape="rect" id="node29" href="$classEventHandlerFactory.html#a4c13007f0ece5bf881080c9c04f1f20d" title=" " alt="" coords="2767,391,2912,433"/>
-<area shape="rect" id="node31" href="$classX11Extras.html#ace76277fced60e6bd6ff880030338182" title=" " alt="" coords="2320,277,2479,304"/>
+<area shape="rect" id="node24" href="$classX11Extras.html#a643c95dc1de8eb073a0accb41619fe83" title="Get display instance." alt="" coords="2333,621,2465,648"/>
+<area shape="rect" id="node25" href="$classBaseEventHandler.html#a9a014e472ec57408d16b8b5eed964e90" title=" " alt="" coords="2296,672,2503,699"/>
+<area shape="rect" id="node26" href="$classX11Extras.html#ace76277fced60e6bd6ff880030338182" title=" " alt="" coords="2320,285,2479,312"/>
+<area shape="rect" id="node28" href="$classEventHandlerFactory.html#a90ce153a19fbb91128bd52eb083ce271" title=" " alt="" coords="2327,337,2472,378"/>
+<area shape="rect" id="node31" href="$classEventHandlerFactory.html#a4c13007f0ece5bf881080c9c04f1f20d" title=" " alt="" coords="2767,366,2912,407"/>
 <area shape="rect" id="node33" href="$event_8cpp.html#ad239a34cab482dc3cad5a23a9ac1ad78" title=" " alt="" coords="2093,504,2231,531"/>
-<area shape="rect" id="node27" href="$classEventHandlerFactory.html#ade5162034acc0f8683725fdb124bece0" title=" " alt="" coords="2551,179,2719,221"/>
-<area shape="rect" id="node28" href="$classEventHandlerFactory.html#a2f843293b2ea47271fc7bd99bd871fa6" title=" " alt="" coords="2558,362,2711,403"/>
-<area shape="rect" id="node30" href="$classEventHandlerFactory.html#afa5ca0171c70b1a24f92b5c8dd00dc92" title=" " alt="" coords="2562,297,2707,338"/>
-<area shape="rect" id="node32" href="$classX11Extras.html#ab9bcb016e23bacb0e988feb8175d2c88" title=" " alt="" coords="2559,128,2711,155"/>
-<area shape="rect" id="node34" href="$classUInputHelper.html#ac4c70c9479c1cc0eb515ab1bdf2426f5" title=" " alt="" coords="2315,497,2484,538"/>
-<area shape="rect" id="node35" href="$classX11Extras.html#abe710bac948c9802105a2d9d06815cac" title="Get appropriate alias for a known KeySym string that might be blank or contain invalid characters whe..." alt="" coords="2306,563,2493,589"/>
-<area shape="rect" id="node36" href="$classUInputHelper.html#a61509601d3dbd8933aaa26c1e2db02f6" title=" " alt="" coords="2312,445,2487,472"/>
+<area shape="rect" id="node27" href="$classX11Extras.html#ab9bcb016e23bacb0e988feb8175d2c88" title=" " alt="" coords="2559,132,2711,159"/>
+<area shape="rect" id="node29" href="$classEventHandlerFactory.html#ade5162034acc0f8683725fdb124bece0" title=" " alt="" coords="2551,249,2719,290"/>
+<area shape="rect" id="node30" href="$classEventHandlerFactory.html#a2f843293b2ea47271fc7bd99bd871fa6" title=" " alt="" coords="2558,183,2711,225"/>
+<area shape="rect" id="node32" href="$classEventHandlerFactory.html#afa5ca0171c70b1a24f92b5c8dd00dc92" title=" " alt="" coords="2562,366,2707,407"/>
+<area shape="rect" id="node34" href="$classWinExtras.html#a3487e64cfb407033d7e28a761d1e76dc" title=" " alt="" coords="2306,504,2493,531"/>
+<area shape="rect" id="node35" href="$classUInputHelper.html#ac4c70c9479c1cc0eb515ab1bdf2426f5" title=" " alt="" coords="2315,555,2484,597"/>
+<area shape="rect" id="node36" href="$classX11Extras.html#abe710bac948c9802105a2d9d06815cac" title="Get appropriate alias for a known KeySym string that might be blank or contain invalid characters whe..." alt="" coords="2306,453,2493,480"/>
 <area shape="rect" id="node44" href="$classSetJoystick.html#a3a7ae87b62fac9deace237039cb5ea85" title=" " alt="" coords="1346,315,1493,341"/>
 <area shape="rect" id="node45" href="$classSetJoystick.html#a102a4bbc464b9dfc5a8227c0fb4611c8" title=" " alt="" coords="1344,163,1495,189"/>
 <area shape="rect" id="node46" href="$classJoyButton.html#a28e4e0906126f95384245e73988bdb19" title=" " alt="" coords="1337,213,1502,240"/>

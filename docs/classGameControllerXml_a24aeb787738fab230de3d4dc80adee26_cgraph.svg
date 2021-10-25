@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classInputDevice.html#abc23a70bef37f2fc70248cd129af170b" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classInputDevice.html#abc23a70bef37f2fc70248cd129af170b" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="148.5,-127 148.5,-157 279.5,-157 279.5,-127 148.5,-127"/>
 <text text-anchor="start" x="156.5" y="-145" font-family="Helvetica,sans-Serif" font-size="10.00">InputDevice::getActiveSet</text>
 <text text-anchor="middle" x="214" y="-134" font-family="Helvetica,sans-Serif" font-size="10.00">Joystick</text>
@@ -38,7 +38,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyButton.html#a7123f5432bda7b5b9d4b2b95bdabf4db" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyButton.html#a7123f5432bda7b5b9d4b2b95bdabf4db" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="146.5,-88.5 146.5,-107.5 281.5,-107.5 281.5,-88.5 146.5,-88.5"/>
 <text text-anchor="middle" x="214" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getButtonName</text>
 </a>
@@ -53,7 +53,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classJoyDPadButton.html#ae6a39626f57db823f682ef1d028b1ef6" xlink:title="Get a 1 indexed number of button.">
+<g id="a_node5"><a xlink:href="classJoyDPadButton.html#ae6a39626f57db823f682ef1d028b1ef6" target="_top" xlink:title="Get a 1 indexed number of button.">
 <polygon fill="white" stroke="black" points="144,-39 144,-69 284,-69 284,-39 144,-39"/>
 <text text-anchor="start" x="152" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">JoyDPadButton::getRealJoy</text>
 <text text-anchor="middle" x="214" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">Number</text>
@@ -69,7 +69,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="$classSetJoystick.html#ad859311bfde76dbdaac274cb5ede63d6" xlink:title=" ">
+<g id="a_node6"><a xlink:href="classSetJoystick.html#ad859311bfde76dbdaac274cb5ede63d6" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="154.5,-0.5 154.5,-19.5 273.5,-19.5 273.5,-0.5 154.5,-0.5"/>
 <text text-anchor="middle" x="214" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetJoystick::getVdpads</text>
 </a>
@@ -84,7 +84,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classInputDevice.html#a1c4c65d9e509a5c3bde064871d7e1849" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classInputDevice.html#a1c4c65d9e509a5c3bde064871d7e1849" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="320,-132.5 320,-151.5 469,-151.5 469,-132.5 320,-132.5"/>
 <text text-anchor="middle" x="394.5" y="-139.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDevice::getJoystick_sets</text>
 </a>

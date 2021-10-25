@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyAxisButton.html#ae2f8659056c3f7c769a0b65efadc7351" xlink:title="Get the distance factor that should be used for mouse movement.">
+<g id="a_node2"><a xlink:href="classJoyAxisButton.html#ae2f8659056c3f7c769a0b65efadc7351" target="_top" xlink:title="Get the distance factor that should be used for mouse movement.">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 168,-30.5 168,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxisButton::getMouseDistance</text>
 <text text-anchor="middle" x="84" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">FromDeadZone</text>

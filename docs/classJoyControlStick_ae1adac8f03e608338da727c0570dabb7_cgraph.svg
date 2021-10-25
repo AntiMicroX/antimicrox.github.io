@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyControlStick.html#a033cec8c362b923e61ec638645e7a80c" xlink:title="Calculate the bearing (in degrees) corresponding to the current position of the X and Y axes of a sti...">
+<g id="a_node2"><a xlink:href="classJoyControlStick.html#a033cec8c362b923e61ec638645e7a80c" target="_top" xlink:title="Calculate the bearing (in degrees) corresponding to the current position of the X and Y axes of a sti...">
 <polygon fill="white" stroke="black" points="170,-49.5 170,-79.5 301,-79.5 301,-49.5 170,-49.5"/>
 <text text-anchor="start" x="178" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::calculate</text>
 <text text-anchor="middle" x="235.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">Bearing</text>
@@ -38,7 +38,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyControlStick.html#aacda79c376be57752cd841855ea40e45" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyControlStick.html#aacda79c376be57752cd841855ea40e45" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="172.5,-0.5 172.5,-30.5 298.5,-30.5 298.5,-0.5 172.5,-0.5"/>
 <text text-anchor="start" x="180.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::getFour</text>
 <text text-anchor="middle" x="235.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">WayDiagonalZoneAngles</text>
@@ -54,7 +54,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyAxis.html#a0580ab0df546a1c03b4e8f755ad00272" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyAxis.html#a0580ab0df546a1c03b4e8f755ad00272" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="337,-55 337,-74 484,-74 484,-55 337,-55"/>
 <text text-anchor="middle" x="410.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getCurrentRawValue</text>
 </a>

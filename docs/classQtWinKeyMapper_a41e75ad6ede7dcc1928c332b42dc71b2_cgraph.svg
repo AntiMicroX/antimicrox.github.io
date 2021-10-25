@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classQtWinKeyMapper.html#a72ce99fd0c0fa0308bf7cc2acd6c707e" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classQtWinKeyMapper.html#a72ce99fd0c0fa0308bf7cc2acd6c707e" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="179,-49.5 179,-79.5 315,-79.5 315,-49.5 179,-49.5"/>
 <text text-anchor="start" x="187" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">QtWinKeyMapper::populate</text>
 <text text-anchor="middle" x="247" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">CharKeyInformation</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classQtWinKeyMapper.html#a00e60b1af3c35d5efa7751d4d117e9f7" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classQtWinKeyMapper.html#a00e60b1af3c35d5efa7751d4d117e9f7" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="179,-0.5 179,-30.5 315,-30.5 315,-0.5 179,-0.5"/>
 <text text-anchor="start" x="187" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">QtWinKeyMapper::populate</text>
 <text text-anchor="middle" x="247" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">MappingHashes</text>

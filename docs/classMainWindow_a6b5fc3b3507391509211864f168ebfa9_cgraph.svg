@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classMainWindow.html#a5f2ca2a86e915e6bc3d85880b2dca600" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classMainWindow.html#a5f2ca2a86e915e6bc3d85880b2dca600" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="170,-6 170,-25 316,-25 316,-6 170,-6"/>
 <text text-anchor="middle" x="243" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">MainWindow::removeJoyTabs</text>
 </a>

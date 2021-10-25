@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyTabWidget.html#aed9ff16a8dc3c535453bda753a69693b" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyTabWidget.html#aed9ff16a8dc3c535453bda753a69693b" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="183,-49.5 183,-79.5 326,-79.5 326,-49.5 183,-49.5"/>
 <text text-anchor="start" x="191" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyTabWidget::changeName</text>
 <text text-anchor="middle" x="254.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">Display</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyTabWidget.html#a9f1348615c3d5e509c7e548c8ea5bfb1" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyTabWidget.html#a9f1348615c3d5e509c7e548c8ea5bfb1" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="185.5,-0.5 185.5,-30.5 323.5,-30.5 323.5,-0.5 185.5,-0.5"/>
 <text text-anchor="start" x="193.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyTabWidget::isDisplaying</text>
 <text text-anchor="middle" x="254.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Names</text>

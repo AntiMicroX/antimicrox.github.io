@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyAxis.html#a06d99d722b314998440165a01b0f87b3" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyAxis.html#a06d99d722b314998440165a01b0f87b3" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="167,-14 167,-44 302,-44 302,-14 167,-14"/>
 <text text-anchor="start" x="175" y="-32" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::calculateThrottled</text>
 <text text-anchor="middle" x="234.5" y="-21" font-family="Helvetica,sans-Serif" font-size="10.00">Value</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyAxis.html#af3f311fbf20c583224c2320d1fda0226" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyAxis.html#af3f311fbf20c583224c2320d1fda0226" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="338,-38.5 338,-57.5 463,-57.5 463,-38.5 338,-38.5"/>
 <text text-anchor="middle" x="400.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getAxisMaxCal</text>
 </a>
@@ -53,7 +53,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyAxis.html#aff06f563278beb621285f65fb33b784a" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyAxis.html#aff06f563278beb621285f65fb33b784a" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="340,-0.5 340,-19.5 461,-19.5 461,-0.5 340,-0.5"/>
 <text text-anchor="middle" x="400.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getAxisMinCal</text>
 </a>

@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButtonSlot.html#a7fa0bf6d891437a2392e47d32b746502" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButtonSlot.html#a7fa0bf6d891437a2392e47d32b746502" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="145.5,-88 145.5,-107 283.5,-107 283.5,-88 145.5,-88"/>
 <text text-anchor="middle" x="214.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButtonSlot::getSlotCode</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyButtonSlot.html#abed7fe134c404b403ea79c0753f6eaaf" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyButtonSlot.html#abed7fe134c404b403ea79c0753f6eaaf" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="145,-50 145,-69 284,-69 284,-50 145,-50"/>
 <text text-anchor="middle" x="214.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButtonSlot::getSlotMode</text>
 </a>
@@ -52,7 +52,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classUInputEventHandler.html#aa04ce5a2e42124cf21a2872ee4511918" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classUInputEventHandler.html#aa04ce5a2e42124cf21a2872ee4511918" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="162.5,-0.5 162.5,-30.5 266.5,-30.5 266.5,-0.5 162.5,-0.5"/>
 <text text-anchor="start" x="170.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">UInputEventHandler</text>
 <text text-anchor="middle" x="214.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::write_uinput_event</text>

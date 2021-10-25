@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classGameController.html#ae91ab30a326f043cb9ccb5e7531f7283" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classGameController.html#ae91ab30a326f043cb9ccb5e7531f7283" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="191,-99 191,-118 366,-118 366,-99 191,-99"/>
 <text text-anchor="middle" x="278.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">GameController::getRawGUIDString</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classGameController.html#ab0541272658f9b96ddd7a9581fd5246c" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classGameController.html#ab0541272658f9b96ddd7a9581fd5246c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="199.5,-49.5 199.5,-79.5 357.5,-79.5 357.5,-49.5 199.5,-49.5"/>
 <text text-anchor="start" x="207.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameController::getRawProduct</text>
 <text text-anchor="middle" x="278.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">IDString</text>
@@ -53,7 +53,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classGameController.html#a434290eeff7371a8fd94e2e939484202" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classGameController.html#a434290eeff7371a8fd94e2e939484202" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="201.5,-0.5 201.5,-30.5 355.5,-30.5 355.5,-0.5 201.5,-0.5"/>
 <text text-anchor="start" x="209.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameController::getRawVendor</text>
 <text text-anchor="middle" x="278.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">String</text>

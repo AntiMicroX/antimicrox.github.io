@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyTabWidget.html#a0fb752d9af16a80117bd48464f76acdf" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyTabWidget.html#a0fb752d9af16a80117bd48464f76acdf" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="188,-0.5 188,-30.5 331,-30.5 331,-0.5 188,-0.5"/>
 <text text-anchor="start" x="196" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyTabWidget::refreshHelper</text>
 <text text-anchor="middle" x="259.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Thread</text>

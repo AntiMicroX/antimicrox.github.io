@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classInputDevice.html#a19593f04a7f6996d9d7d6e82baf7853b" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classInputDevice.html#a19593f04a7f6996d9d7d6e82baf7853b" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="186,-6 186,-25 338,-25 338,-6 186,-6"/>
 <text text-anchor="middle" x="262" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">InputDevice::buttonDownEvent</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classInputDevice.html#a7084000be8699a34315d91da8466ce71" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classInputDevice.html#a7084000be8699a34315d91da8466ce71" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="374,-6 374,-25 484,-25 484,-6 374,-6"/>
 <text text-anchor="middle" x="429" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">InputDevice::isActive</text>
 </a>

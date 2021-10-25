@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classQtKeyMapperBase.html#ac65b8696f15214f498f26d4d6c51b769" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classQtKeyMapperBase.html#ac65b8696f15214f498f26d4d6c51b769" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="181,-0.5 181,-19.5 327,-19.5 327,-0.5 181,-0.5"/>
 <text text-anchor="middle" x="254" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">QtKeyMapperBase::isModifier</text>
 </a>

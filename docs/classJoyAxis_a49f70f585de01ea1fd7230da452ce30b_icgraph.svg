@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classMouseAxisSettingsDialog.html#a5a1a9b2b1511587e826e933fab21a581" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classMouseAxisSettingsDialog.html#a5a1a9b2b1511587e826e933fab21a581" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="171,-0.5 171,-30.5 300,-30.5 300,-0.5 171,-0.5"/>
 <text text-anchor="start" x="179" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseAxisSettingsDialog</text>
 <text text-anchor="middle" x="235.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::updateSpringWidth</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classMouseAxisSettingsDialog.html#a33546e4b608264ce6d2758678eb6d2e7" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classMouseAxisSettingsDialog.html#a33546e4b608264ce6d2758678eb6d2e7" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 135,-30.5 135,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseAxisSettingsDialog</text>
 <text text-anchor="middle" x="67.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::MouseAxisSettingsDialog</text>

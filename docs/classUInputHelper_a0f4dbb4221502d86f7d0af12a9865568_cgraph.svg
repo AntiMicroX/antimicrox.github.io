@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classUInputHelper.html#a043b0fa7cf4ce5811d01d95f3ca318b7" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classUInputHelper.html#a043b0fa7cf4ce5811d01d95f3ca318b7" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="183,-147.5 183,-177.5 339,-177.5 339,-147.5 183,-147.5"/>
 <text text-anchor="start" x="191" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">UInputHelper::getKnownAliases</text>
 <text text-anchor="middle" x="261" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">VKStrings</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classUInputHelper.html#a8f3fe71ae635cd3c46eaab79dd11c2e0" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classUInputHelper.html#a8f3fe71ae635cd3c46eaab79dd11c2e0" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="183,-98.5 183,-128.5 339,-128.5 339,-98.5 183,-98.5"/>
 <text text-anchor="start" x="191" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">UInputHelper::getKnownAliases</text>
 <text text-anchor="middle" x="261" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">X11SymVK</text>
@@ -54,7 +54,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classUInputHelper.html#a9793030329fbbe1106b255814ef2bd0f" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classUInputHelper.html#a9793030329fbbe1106b255814ef2bd0f" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="194,-49.5 194,-79.5 328,-79.5 328,-49.5 194,-49.5"/>
 <text text-anchor="start" x="202" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">UInputHelper::populateX11</text>
 <text text-anchor="middle" x="261" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">SymVk</text>
@@ -70,7 +70,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classUInputHelper.html#af02574de230bb0550eebb63f5a669681" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classUInputHelper.html#af02574de230bb0550eebb63f5a669681" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="193,-0.5 193,-30.5 329,-30.5 329,-0.5 193,-0.5"/>
 <text text-anchor="start" x="201" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">UInputHelper::populateXVk</text>
 <text text-anchor="middle" x="261" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Strings</text>

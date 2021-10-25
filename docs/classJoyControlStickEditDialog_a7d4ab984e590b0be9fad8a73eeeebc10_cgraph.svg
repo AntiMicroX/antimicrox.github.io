@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyControlStick.html#ac695c4212005e61e5ecfbde0305501d1" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyControlStick.html#ac695c4212005e61e5ecfbde0305501d1" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="167,-0.5 167,-30.5 306,-30.5 306,-0.5 167,-0.5"/>
 <text text-anchor="start" x="175" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::setButtons</text>
 <text text-anchor="middle" x="236.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseMode</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyButton.html#a28224ca61d50adb1338643ae63bab3a3" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyButton.html#a28224ca61d50adb1338643ae63bab3a3" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="342,-6 342,-25 476,-25 476,-6 342,-6"/>
 <text text-anchor="middle" x="409" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::setMouseMode</text>
 </a>

@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classFlashButtonWidget.html#a14c9ecbbd3dfaef78b78371e17aac539" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classFlashButtonWidget.html#a14c9ecbbd3dfaef78b78371e17aac539" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="158,-0.5 158,-30.5 264,-30.5 264,-0.5 158,-0.5"/>
 <text text-anchor="start" x="166" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">FlashButtonWidget::</text>
 <text text-anchor="middle" x="211" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">refreshLabel</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classFlashButtonWidget.html#a15b2a9c645747d9f1f8368389da5830a" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classFlashButtonWidget.html#a15b2a9c645747d9f1f8368389da5830a" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="300,-0.5 300,-30.5 406,-30.5 406,-0.5 300,-0.5"/>
 <text text-anchor="start" x="308" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">FlashButtonWidget::</text>
 <text text-anchor="middle" x="353" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">generateLabel</text>

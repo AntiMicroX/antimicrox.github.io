@@ -69,8 +69,7 @@ $(function() {
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
-<a href="#pri-methods">Private Member Functions</a>  </div>
+<a href="#pro-static-attribs">Static Protected Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">Logger Class Reference</div>  </div>
 </div><!--header-->
@@ -83,12 +82,14 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for Logger:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger__inherit__graph.svg" width="82" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger__inherit__graph.svg" width="82" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for Logger:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger__coll__graph.svg" width="155" height="114"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger__coll__graph.svg" width="155" height="114"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -99,7 +100,8 @@ Public Types</h2></td></tr>
 <a class="el" href="classLogger.html#ac744681e23720966b5f430ec2060da36a6c02a459f178795533376d3622d42b11">LOG_WARNING</a> = 2, 
 <a class="el" href="classLogger.html#ac744681e23720966b5f430ec2060da36a486a2070742e8847e3a14d39cfc639bb">LOG_INFO</a> = 3, 
 <br />
-&#160;&#160;<a class="el" href="classLogger.html#ac744681e23720966b5f430ec2060da36a3d390e12a16a389ee2d0d496bd692890">LOG_DEBUG</a> = 4, 
+&#160;&#160;<a class="el" href="classLogger.html#ac744681e23720966b5f430ec2060da36ad936e0e8d3300a171cff12818a6c2caa">LOG_VERBOSE</a> = 4, 
+<a class="el" href="classLogger.html#ac744681e23720966b5f430ec2060da36a3d390e12a16a389ee2d0d496bd692890">LOG_DEBUG</a> = 5, 
 <a class="el" href="classLogger.html#ac744681e23720966b5f430ec2060da36a09818404dc8354ba7bd1eb1c7f5ce587">LOG_MAX</a> = LOG_DEBUG
 <br />
  }</td></tr>
@@ -171,15 +173,10 @@ Protected Attributes</h2></td></tr>
 Static Protected Attributes</h2></td></tr>
 <tr class="memitem:a5e9fd267cd621afeb1201131071425ea"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classLogger.html">Logger</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLogger.html#a5e9fd267cd621afeb1201131071425ea">instance</a> = nullptr</td></tr>
 <tr class="separator:a5e9fd267cd621afeb1201131071425ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:a75755ca320830f988f14dfe64774d4f7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLogger.html#a75755ca320830f988f14dfe64774d4f7">Q_ENUMS</a> (<a class="el" href="classLogger.html#ac744681e23720966b5f430ec2060da36">LogLevel</a>)</td></tr>
-<tr class="separator:a75755ca320830f988f14dfe64774d4f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Custom singleton class used for logging across application. </p>
-<p>It manages log-levels, formatting, printing logs and saving them to file. Logs across the program can be written using qDebug(), qInfo(), qWarning(), qCritical, and qFatal() functions </p>
+<p>It manages log-levels, formatting, printing logs and saving them to file. Logs across the program can be written using Local macros(better support for showing log location in release builds): <a class="el" href="logger_8h.html#aba6772a53f37234ac4fa7570b4d49c5a">DEBUG()</a>, <a class="el" href="logger_8h.html#a7cec51f4ce4b22e8c0f256485d57fca7">INFO()</a>, <a class="el" href="logger_8h.html#a752e06b2ecac5825f59e7b95ecfb8460">VERBOSE()</a>, <a class="el" href="logger_8h.html#ad1ccc51e239005df4978895dae15497b">WARN()</a>, <a class="el" href="logger_8h.html#abd742fc8ab69fdffee4b677a9f8f35f1">ERROR()</a> QT macros: qDebug(), qInfo(), qWarning(), qCritical, and qFatal() </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="ac744681e23720966b5f430ec2060da36"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac744681e23720966b5f430ec2060da36">&#9670;&nbsp;</a></span>LogLevel</h2>
@@ -197,6 +194,7 @@ Private Member Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="ac744681e23720966b5f430ec2060da36ad0843a7cc01f5aecd3f20e15e78f1410"></a>LOG_ERROR&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac744681e23720966b5f430ec2060da36a6c02a459f178795533376d3622d42b11"></a>LOG_WARNING&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac744681e23720966b5f430ec2060da36a486a2070742e8847e3a14d39cfc639bb"></a>LOG_INFO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac744681e23720966b5f430ec2060da36ad936e0e8d3300a171cff12818a6c2caa"></a>LOG_VERBOSE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac744681e23720966b5f430ec2060da36a3d390e12a16a389ee2d0d496bd692890"></a>LOG_DEBUG&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac744681e23720966b5f430ec2060da36a09818404dc8354ba7bd1eb1c7f5ce587"></a>LOG_MAX&#160;</td><td class="fielddoc"></td></tr>
 </table>
@@ -223,7 +221,8 @@ Private Member Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_acb668a9e186a25fbaad2e4af6d1ed00a_cgraph.svg" width="314" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_acb668a9e186a25fbaad2e4af6d1ed00a_cgraph.svg" width="314" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -271,16 +270,17 @@ Here is the call graph for this function:</div>
 <p>Outputs log messages to a given text stream. Client code should determine whether it points to a console stream or to a file. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Stream</td><td>used to output text </td></tr>
-    <tr><td class="paramname">Messages</td><td>based of a given output level or lower will be logged </td></tr>
-    <tr><td class="paramname">Parent</td><td>object </td></tr>
+    <tr><td class="paramname">stream</td><td>used to output text </td></tr>
+    <tr><td class="paramname">output_lvl</td><td>Messages based of a given output level or lower will be logged </td></tr>
+    <tr><td class="paramname">parent</td><td>object </td></tr>
   </table>
   </dd>
 </dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_a375b5ac6d5eb0331ea19b698920d9776_icgraph.svg" width="420" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_a375b5ac6d5eb0331ea19b698920d9776_icgraph.svg" width="420" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -313,14 +313,15 @@ Here is the caller graph for this function:</div>
 <p>Flushes output stream and closes stream if requested. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Whether</td><td>to close the current stream. Defaults to true. </td></tr>
+    <tr><td class="paramname">closeStream</td><td>Whether to close the current stream. Defaults to true. </td></tr>
   </table>
   </dd>
 </dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_ac0b2a3d6502a6235b19103a81cdfc39a_icgraph.svg" width="671" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classLogger_ac0b2a3d6502a6235b19103a81cdfc39a_icgraph.svg" width="100%" height="394"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -370,12 +371,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_a53c45e837a6c388fd21ff57a2527803f_cgraph.svg" width="322" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_a53c45e837a6c388fd21ff57a2527803f_cgraph.svg" width="322" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_a53c45e837a6c388fd21ff57a2527803f_icgraph.svg" width="264" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_a53c45e837a6c388fd21ff57a2527803f_icgraph.svg" width="264" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -400,7 +403,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_a1a5a2a5210be894f2bc2373022c471a6_icgraph.svg" width="542" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_a1a5a2a5210be894f2bc2373022c471a6_icgraph.svg" width="542" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -457,7 +461,7 @@ Here is the caller graph for this function:</div>
 <p>Get the Instance of logger. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">raiseException</td><td>- raise std::runtime_error when instance doesn't exist </td></tr>
+    <tr><td class="paramname">raiseExceptionForNull</td><td>- raise std::runtime_error when instance doesn't exist </td></tr>
   </table>
   </dd>
 </dl>
@@ -465,7 +469,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_ace51996c11edf4539338cdec420dc62b_icgraph.svg" width="494" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_ace51996c11edf4539338cdec420dc62b_icgraph.svg" width="494" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -540,12 +545,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_aa005c7f6e56b44f2006d115b5aa82737_cgraph.svg" width="443" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_aa005c7f6e56b44f2006d115b5aa82737_cgraph.svg" width="443" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_aa005c7f6e56b44f2006d115b5aa82737_icgraph.svg" width="312" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_aa005c7f6e56b44f2006d115b5aa82737_icgraph.svg" width="312" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -601,34 +608,9 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_a1e1e7a16e8d11d51a677e0dc5fa23869_icgraph.svg" width="346" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
+<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_a1e1e7a16e8d11d51a677e0dc5fa23869_icgraph.svg" width="346" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<a id="a75755ca320830f988f14dfe64774d4f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75755ca320830f988f14dfe64774d4f7">&#9670;&nbsp;</a></span>Q_ENUMS()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Logger::Q_ENUMS </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classLogger.html#ac744681e23720966b5f430ec2060da36">LogLevel</a>&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -658,12 +640,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_a5fbd8b1351633453037807a8707b46d7_cgraph.svg" width="403" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_a5fbd8b1351633453037807a8707b46d7_cgraph.svg" width="403" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_a5fbd8b1351633453037807a8707b46d7_icgraph.svg" width="484" height="75"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_a5fbd8b1351633453037807a8707b46d7_icgraph.svg" width="484" height="75"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -694,7 +678,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_a08f0798b1c7c7737c3c3ba493117f45d_icgraph.svg" width="704" height="75"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classLogger_a08f0798b1c7c7737c3c3ba493117f45d_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -726,14 +711,15 @@ Here is the caller graph for this function:</div>
 <p>Set the highest logging level. Determines which messages are output to the output stream. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Highest</td><td>log level utilized. </td></tr>
+    <tr><td class="paramname">level</td><td>Highest log level utilized. </td></tr>
   </table>
   </dd>
 </dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_a00fdcdbeb39a2d5d4fb27cc36c35c101_icgraph.svg" width="451" height="75"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classLogger_a00fdcdbeb39a2d5d4fb27cc36c35c101_icgraph.svg" width="451" height="75"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>

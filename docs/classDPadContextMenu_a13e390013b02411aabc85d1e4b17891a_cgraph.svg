@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyDPad.html#ae912673a382e0ffcdd1472373ffe832b" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyDPad.html#ae912673a382e0ffcdd1472373ffe832b" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="204,-0.5 204,-19.5 320,-19.5 320,-0.5 204,-0.5"/>
 <text text-anchor="middle" x="262" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyDPad::setJoyMode</text>
 </a>

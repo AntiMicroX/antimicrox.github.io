@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classX11Extras.html#a9affa85055348376e96413c5c526947d" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classX11Extras.html#a9affa85055348376e96413c5c526947d" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="192.5,-77 192.5,-107 324.5,-107 324.5,-77 192.5,-77"/>
 <text text-anchor="start" x="200.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">X11Extras::checkProperty</text>
 <text text-anchor="middle" x="258.5" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">OnWin</text>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classX11Extras.html#a643c95dc1de8eb073a0accb41619fe83" xlink:title="Get display instance.">
+<g id="a_node3"><a xlink:href="classX11Extras.html#a643c95dc1de8eb073a0accb41619fe83" target="_top" xlink:title="Get display instance.">
 <polygon fill="white" stroke="black" points="373,-38.5 373,-57.5 472,-57.5 472,-38.5 373,-38.5"/>
 <text text-anchor="middle" x="422.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">X11Extras::display</text>
 </a>
@@ -52,7 +52,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classX11Extras.html#a44556cc9630d8685f1978b258c40679d" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classX11Extras.html#a44556cc9630d8685f1978b258c40679d" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="180,-0.5 180,-19.5 337,-19.5 337,-0.5 180,-0.5"/>
 <text text-anchor="middle" x="258.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">X11Extras::windowHasProperty</text>
 </a>
@@ -79,7 +79,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$x11extras_8cpp.html#abd96e3a47ad21173e08bc83e90a98fda" xlink:title=" ">
+<g id="a_node5"><a xlink:href="x11extras_8cpp.html#abd96e3a47ad21173e08bc83e90a98fda" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="388.5,-0.5 388.5,-19.5 456.5,-19.5 456.5,-0.5 388.5,-0.5"/>
 <text text-anchor="middle" x="422.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">freeWindow</text>
 </a>

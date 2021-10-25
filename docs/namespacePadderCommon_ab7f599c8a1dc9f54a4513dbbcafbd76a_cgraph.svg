@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$namespacePadderCommon.html#a3118b584e59ff64cae16ca7332f3e8c8" xlink:title=" ">
+<g id="a_node2"><a xlink:href="namespacePadderCommon.html#a3118b584e59ff64cae16ca7332f3e8c8" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="191,-0.5 191,-19.5 331,-19.5 331,-0.5 191,-0.5"/>
 <text text-anchor="middle" x="261" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">PadderCommon::configPath</text>
 </a>

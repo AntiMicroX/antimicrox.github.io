@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classSetJoystick.html#a4d1b6543ec53dd06992f77c0b89a5532" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classSetJoystick.html#a4d1b6543ec53dd06992f77c0b89a5532" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="144,-82.5 144,-101.5 252,-101.5 252,-82.5 144,-82.5"/>
 <text text-anchor="middle" x="198" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetJoystick::getAxes</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classGameControllerXml.html#a58cc6838bb726b635eb2875c192b144a" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classGameControllerXml.html#a58cc6838bb726b635eb2875c192b144a" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="144,-33 144,-63 252,-63 252,-33 144,-33"/>
 <text text-anchor="start" x="152" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00">GameControllerXml::</text>
 <text text-anchor="middle" x="198" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">writeXmlAxBtn</text>
@@ -53,7 +53,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyButton.html#a7123f5432bda7b5b9d4b2b95bdabf4db" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyButton.html#a7123f5432bda7b5b9d4b2b95bdabf4db" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="295.5,-76.5 295.5,-95.5 430.5,-95.5 430.5,-76.5 295.5,-76.5"/>
 <text text-anchor="middle" x="363" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getButtonName</text>
 </a>
@@ -68,7 +68,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classJoyAxis.html#a9ceda991c13da3a99868acc436ed20f3" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classJoyAxis.html#a9ceda991c13da3a99868acc436ed20f3" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="297.5,-38.5 297.5,-57.5 428.5,-57.5 428.5,-38.5 297.5,-38.5"/>
 <text text-anchor="middle" x="363" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getRealJoyIndex</text>
 </a>
@@ -83,7 +83,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="$classJoyButton.html#a39c9ccaf641bb8bf50b29d4c4e04c165" xlink:title="Get a 1 indexed number of button.">
+<g id="a_node6"><a xlink:href="classJoyButton.html#a39c9ccaf641bb8bf50b29d4c4e04c165" target="_top" xlink:title="Get a 1 indexed number of button.">
 <polygon fill="white" stroke="black" points="288,-0.5 288,-19.5 438,-19.5 438,-0.5 288,-0.5"/>
 <text text-anchor="middle" x="363" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getRealJoyNumber</text>
 </a>

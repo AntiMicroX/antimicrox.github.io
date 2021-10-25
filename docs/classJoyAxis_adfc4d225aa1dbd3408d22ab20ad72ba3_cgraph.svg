@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyAxis.html#a12c4147c5f4a320aee710f8753263aa6" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyAxis.html#a12c4147c5f4a320aee710f8753263aa6" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="186,-38.5 186,-57.5 301,-57.5 301,-38.5 186,-38.5"/>
 <text text-anchor="middle" x="243.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getParentSet</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classInputDevice.html#af5b2520af7b76ff18bf3c79c02e73569" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classInputDevice.html#af5b2520af7b76ff18bf3c79c02e73569" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="179,-0.5 179,-19.5 308,-19.5 308,-0.5 179,-0.5"/>
 <text text-anchor="middle" x="243.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDevice::profileEdited</text>
 </a>

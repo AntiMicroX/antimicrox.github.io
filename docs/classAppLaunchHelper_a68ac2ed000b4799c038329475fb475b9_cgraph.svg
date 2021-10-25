@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#a4474e5e2e8c765aa5dcd68b5d7ef4b91" xlink:title="Set mouse history buffer size used for mouse smoothing.">
+<g id="a_node2"><a xlink:href="classJoyButton.html#a4474e5e2e8c765aa5dcd68b5d7ef4b91" target="_top" xlink:title="Set mouse history buffer size used for mouse smoothing.">
 <polygon fill="white" stroke="black" points="202,-38.5 202,-57.5 363,-57.5 363,-38.5 202,-38.5"/>
 <text text-anchor="middle" x="282.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::setMouseHistorySize</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyButton.html#af85f86003ec07d782d02ca515039f229" xlink:title="Set the weight modifier to use for mouse smoothing.">
+<g id="a_node3"><a xlink:href="classJoyButton.html#af85f86003ec07d782d02ca515039f229" target="_top" xlink:title="Set the weight modifier to use for mouse smoothing.">
 <polygon fill="white" stroke="black" points="210,-0.5 210,-19.5 355,-19.5 355,-0.5 210,-0.5"/>
 <text text-anchor="middle" x="282.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::setWeightModifier</text>
 </a>

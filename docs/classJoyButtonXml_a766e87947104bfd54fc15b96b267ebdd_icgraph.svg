@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classGameControllerTriggerXml.html#a382a32a139351f790192dc0991dea637" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classGameControllerTriggerXml.html#a382a32a139351f790192dc0991dea637" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="10.5,-126 10.5,-156 141.5,-156 141.5,-126 10.5,-126"/>
 <text text-anchor="start" x="18.5" y="-144" font-family="Helvetica,sans-Serif" font-size="10.00">GameControllerTriggerXml</text>
 <text text-anchor="middle" x="76" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00">::writeConfig</text>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyDPadXml.html#ac78c8fd1ad107f6a3baed4910863cb0c" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyDPadXml.html#ac78c8fd1ad107f6a3baed4910863cb0c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-77 0,-107 152,-107 152,-77 0,-77"/>
 <text text-anchor="start" x="8" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">JoyDPadXml&lt; GameController</text>
 <text text-anchor="middle" x="76" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">DPad &gt;::writeConfig</text>
@@ -53,7 +53,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classSetJoystickXml.html#a11eec051c05deac5ebe47b9582e83b6f" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classSetJoystickXml.html#a11eec051c05deac5ebe47b9582e83b6f" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="6,-38.5 6,-57.5 146,-57.5 146,-38.5 6,-38.5"/>
 <text text-anchor="middle" x="76" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetJoystickXml::writeConfig</text>
 </a>
@@ -68,7 +68,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classJoyControlStick.html#a3ab1764a44e806d2d3896023f82fa3b1" xlink:title="Write the status of the properties of a stick and direction buttons to an XML stream.">
+<g id="a_node5"><a xlink:href="classJoyControlStick.html#a3ab1764a44e806d2d3896023f82fa3b1" target="_top" xlink:title="Write the status of the properties of a stick and direction buttons to an XML stream.">
 <polygon fill="white" stroke="black" points="5.5,-0.5 5.5,-19.5 146.5,-19.5 146.5,-0.5 5.5,-0.5"/>
 <text text-anchor="middle" x="76" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::writeConfig</text>
 </a>

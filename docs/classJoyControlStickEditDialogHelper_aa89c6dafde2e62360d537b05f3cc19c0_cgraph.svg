@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyControlStick.html#a6b95b71cc59689d4681174a6435b955f" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyControlStick.html#a6b95b71cc59689d4681174a6435b955f" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="196,-49.5 196,-79.5 324,-79.5 324,-49.5 196,-49.5"/>
 <text text-anchor="start" x="204" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::getStick</text>
 <text text-anchor="middle" x="260" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">Delay</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyControlStick.html#ac13e6601f793905edae978fd8f1e8a2b" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyControlStick.html#ac13e6601f793905edae978fd8f1e8a2b" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="196,-0.5 196,-30.5 324,-30.5 324,-0.5 196,-0.5"/>
 <text text-anchor="start" x="204" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::setStick</text>
 <text text-anchor="middle" x="260" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Delay</text>

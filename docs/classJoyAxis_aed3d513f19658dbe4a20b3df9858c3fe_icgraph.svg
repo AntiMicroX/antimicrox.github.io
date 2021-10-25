@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classAxisEditDialog.html#a702a1718f3a1dd6b64b4474ea19b71cd" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classAxisEditDialog.html#a702a1718f3a1dd6b64b4474ea19b71cd" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="188.5,-137 188.5,-167 312.5,-167 312.5,-137 188.5,-137"/>
 <text text-anchor="start" x="196.5" y="-155" font-family="Helvetica,sans-Serif" font-size="10.00">AxisEditDialog::AxisEdit</text>
 <text text-anchor="middle" x="250.5" y="-144" font-family="Helvetica,sans-Serif" font-size="10.00">Dialog</text>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classSetJoystick.html#a21aeedb02f1b513c6f88f916c6be47cd" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classSetJoystick.html#a21aeedb02f1b513c6f88f916c6be47cd" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="188,-88 188,-118 313,-118 313,-88 188,-88"/>
 <text text-anchor="start" x="196" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">SetJoystick::currentAxes</text>
 <text text-anchor="middle" x="250.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">DeadZones</text>
@@ -53,7 +53,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classGameControllerTriggerXml.html#a382a32a139351f790192dc0991dea637" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classGameControllerTriggerXml.html#a382a32a139351f790192dc0991dea637" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="185,-39 185,-69 316,-69 316,-39 185,-39"/>
 <text text-anchor="start" x="193" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">GameControllerTriggerXml</text>
 <text text-anchor="middle" x="250.5" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">::writeConfig</text>
@@ -69,7 +69,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="$classJoyAxisXml.html#a044a6be446ab6cc4b6fcb359e0cef898" xlink:title=" ">
+<g id="a_node6"><a xlink:href="classJoyAxisXml.html#a044a6be446ab6cc4b6fcb359e0cef898" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="188,-0.5 188,-19.5 313,-19.5 313,-0.5 188,-0.5"/>
 <text text-anchor="middle" x="250.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxisXml::writeConfig</text>
 </a>
@@ -84,7 +84,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classGameControllerMappingDialogHelper.html#a7852aab5763281aa59c17f2f1da8dd31" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classGameControllerMappingDialogHelper.html#a7852aab5763281aa59c17f2f1da8dd31" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-88 0,-118 149,-118 149,-88 0,-88"/>
 <text text-anchor="start" x="8" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">GameControllerMappingDialog</text>
 <text text-anchor="middle" x="74.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">Helper::setupDeadZones</text>
@@ -100,7 +100,7 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="$classSetJoystickXml.html#a11eec051c05deac5ebe47b9582e83b6f" xlink:title=" ">
+<g id="a_node7"><a xlink:href="classSetJoystickXml.html#a11eec051c05deac5ebe47b9582e83b6f" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="4.5,-0.5 4.5,-19.5 144.5,-19.5 144.5,-0.5 4.5,-0.5"/>
 <text text-anchor="middle" x="74.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetJoystickXml::writeConfig</text>
 </a>

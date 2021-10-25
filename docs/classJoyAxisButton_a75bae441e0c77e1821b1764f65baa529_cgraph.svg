@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyAxis.html#a6ed704ce0c9da777cbb5c694a9ed2238" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyAxis.html#a6ed704ce0c9da777cbb5c694a9ed2238" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="209,-39 209,-69 361,-69 361,-39 209,-39"/>
 <text text-anchor="start" x="217" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getLastKnownThrottle</text>
 <text text-anchor="middle" x="285" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">Value</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyAxis.html#af8a07986f0254ba66021537e07c1ad4f" xlink:title="Get the current value for an axis in either direction converted to the range of &#45;1....">
+<g id="a_node3"><a xlink:href="classJoyAxis.html#af8a07986f0254ba66021537e07c1ad4f" target="_top" xlink:title="Get the current value for an axis in either direction converted to the range of &#45;1....">
 <polygon fill="white" stroke="black" points="220,-0.5 220,-19.5 350,-19.5 350,-0.5 220,-0.5"/>
 <text text-anchor="middle" x="285" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getRawDistance</text>
 </a>

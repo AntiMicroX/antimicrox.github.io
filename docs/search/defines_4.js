@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['num_5fbackends_6313',['NUM_BACKENDS',['../eventhandlerfactory_8h.html#ab1c8bdfe7be26ef24c10f85b5a19e918',1,'eventhandlerfactory.h']]]
+  ['debug_6418',['DEBUG',['../logger_8h.html#aba6772a53f37234ac4fa7570b4d49c5a',1,'logger.h']]]
 ];

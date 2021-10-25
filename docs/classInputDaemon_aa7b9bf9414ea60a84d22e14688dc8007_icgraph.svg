@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" xlink:title=" ">
+<g id="a_node2"><a xlink:href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-19.5 0,-38.5 38,-38.5 38,-19.5 0,-19.5"/>
 <text text-anchor="middle" x="19" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classInputDaemon.html#a69164b93be97f28321b0cea7662feb6e" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classInputDaemon.html#a69164b93be97f28321b0cea7662feb6e" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="74,-0.5 74,-19.5 221,-19.5 221,-0.5 74,-0.5"/>
 <text text-anchor="middle" x="147.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDaemon::refreshMapping</text>
 </a>

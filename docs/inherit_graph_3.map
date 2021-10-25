@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,503,75,529"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,528,75,555"/>
 <area shape="rect" id="node2" href="$classAboutDialog.html" title=" " alt="" coords="180,5,273,32"/>
 <area shape="rect" id="node3" href="$classAddEditAutoProfileDialog.html" title=" " alt="" coords="142,56,311,83"/>
 <area shape="rect" id="node4" href="$classAdvanceButtonDialog.html" title=" " alt="" coords="153,107,300,133"/>
@@ -20,6 +20,7 @@
 <area shape="rect" id="node23" href="$classSetAxisThrottleDialog.html" title=" " alt="" coords="152,883,301,909"/>
 <area shape="rect" id="node24" href="$classSetNamesDialog.html" title=" " alt="" coords="166,933,287,960"/>
 <area shape="rect" id="node25" href="$classUnixWindowInfoDialog.html" title=" " alt="" coords="149,984,304,1011"/>
+<area shape="rect" id="node26" href="$classWinAppProfileTimerDialog.html" title=" " alt="" coords="139,1035,314,1061"/>
 <area shape="rect" id="node17" href="$classMouseAxisSettingsDialog.html" title=" " alt="" coords="385,651,557,677"/>
 <area shape="rect" id="node18" href="$classMouseButtonSettingsDialog.html" title=" " alt="" coords="379,701,563,728"/>
 <area shape="rect" id="node19" href="$classMouseControlStickSettingsDialog.html" title=" " alt="" coords="380,753,561,794"/>

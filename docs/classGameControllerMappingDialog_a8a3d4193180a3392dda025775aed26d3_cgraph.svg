@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classGameController.html#a3565a85b9d311dbda454ac2d3f375614" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classGameController.html#a3565a85b9d311dbda454ac2d3f375614" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="186,-115 186,-145 335,-145 335,-115 186,-115"/>
 <text text-anchor="start" x="194" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00">GameController::getBindString</text>
 <text text-anchor="middle" x="260.5" y="-122" font-family="Helvetica,sans-Serif" font-size="10.00">ForAxis</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyAxis.html#afddf7399e2086fda738fe588f5e7d7cd" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyAxis.html#afddf7399e2086fda738fe588f5e7d7cd" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="213,-76.5 213,-95.5 308,-95.5 308,-76.5 213,-76.5"/>
 <text text-anchor="middle" x="260.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getIndex</text>
 </a>
@@ -53,7 +53,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyAxis.html#a9ceda991c13da3a99868acc436ed20f3" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyAxis.html#a9ceda991c13da3a99868acc436ed20f3" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="195,-38.5 195,-57.5 326,-57.5 326,-38.5 195,-38.5"/>
 <text text-anchor="middle" x="260.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getRealJoyIndex</text>
 </a>
@@ -68,7 +68,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classInputDevice.html#aeaf77e979b09dbd752e29b47c830737c" xlink:title="Check if device is using the SDL Game Controller API.">
+<g id="a_node5"><a xlink:href="classInputDevice.html#aeaf77e979b09dbd752e29b47c830737c" target="_top" xlink:title="Check if device is using the SDL Game Controller API.">
 <polygon fill="white" stroke="black" points="185,-0.5 185,-19.5 336,-19.5 336,-0.5 185,-0.5"/>
 <text text-anchor="middle" x="260.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDevice::isGameController</text>
 </a>

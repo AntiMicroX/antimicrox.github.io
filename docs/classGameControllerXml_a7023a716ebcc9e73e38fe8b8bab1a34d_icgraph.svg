@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classGameControllerXml.html#aaa5257d4c6fe13f1d5fc51981e247c25" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classGameControllerXml.html#aaa5257d4c6fe13f1d5fc51981e247c25" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="146.5,-49.5 146.5,-79.5 254.5,-79.5 254.5,-49.5 146.5,-49.5"/>
 <text text-anchor="start" x="154.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameControllerXml::</text>
 <text text-anchor="middle" x="200.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">readJoystickConfig</text>
@@ -38,7 +38,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classGameControllerXml.html#ae5f862960b70f00d38eb26f94e8d9cba" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classGameControllerXml.html#ae5f862960b70f00d38eb26f94e8d9cba" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="144,-0.5 144,-30.5 257,-30.5 257,-0.5 144,-0.5"/>
 <text text-anchor="start" x="152" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameControllerXml::</text>
 <text text-anchor="middle" x="200.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">readXmlNamesMiddle</text>
@@ -54,7 +54,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classGameControllerXml.html#a7e47256cae0d3815419bc254413777d1" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classGameControllerXml.html#a7e47256cae0d3815419bc254413777d1" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-24.5 0,-54.5 108,-54.5 108,-24.5 0,-24.5"/>
 <text text-anchor="start" x="8" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameControllerXml::</text>
 <text text-anchor="middle" x="54" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">readConfig</text>

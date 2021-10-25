@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classXTestEventHandler.html#a4ca0d012f135759e6516b2163f4bbd66" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classXTestEventHandler.html#a4ca0d012f135759e6516b2163f4bbd66" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="147.5,-50 147.5,-69 266.5,-69 266.5,-50 147.5,-50"/>
 <text text-anchor="middle" x="207" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">XTestEventHandler::init</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classMainSettingsDialog.html#a6cf6a429394b9e95e342a4581611e465" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classMainSettingsDialog.html#a6cf6a429394b9e95e342a4581611e465" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="143,-0.5 143,-30.5 271,-30.5 271,-0.5 143,-0.5"/>
 <text text-anchor="start" x="151" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">MainSettingsDialog</text>
 <text text-anchor="middle" x="207" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::resetMouseAcceleration</text>
@@ -53,7 +53,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classMainSettingsDialog.html#aeee272ff5482aca59310558ffdb9ebbe" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classMainSettingsDialog.html#aeee272ff5482aca59310558ffdb9ebbe" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 107,-30.5 107,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">MainSettingsDialog</text>
 <text text-anchor="middle" x="53.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::MainSettingsDialog</text>

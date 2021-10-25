@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyControlStickButtonPushButton.html#a5f39ed590bf3334bbed945edb85ee010" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyControlStickButtonPushButton.html#a5f39ed590bf3334bbed945edb85ee010" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="164,-77 164,-107 301,-107 301,-77 164,-77"/>
 <text text-anchor="start" x="172" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStickButtonPush</text>
 <text text-anchor="middle" x="232.5" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">Button::getButton</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classSetJoystick.html#af641cbddd22e358218ba68497e40e4e3" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classSetJoystick.html#af641cbddd22e358218ba68497e40e4e3" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="163,-38.5 163,-57.5 302,-57.5 302,-38.5 163,-38.5"/>
 <text text-anchor="middle" x="232.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetJoystick::getInputDevice</text>
 </a>
@@ -53,7 +53,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyControlStick.html#a368fdbc00c4a4a9cf3f3e49d6736da65" xlink:title="Get pointer to the set that a stick belongs to.">
+<g id="a_node4"><a xlink:href="classJoyControlStick.html#a368fdbc00c4a4a9cf3f3e49d6736da65" target="_top" xlink:title="Get pointer to the set that a stick belongs to.">
 <polygon fill="white" stroke="black" points="158,-0.5 158,-19.5 307,-19.5 307,-0.5 158,-0.5"/>
 <text text-anchor="middle" x="232.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::getParentSet</text>
 </a>
@@ -68,7 +68,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classJoyAxis.html#a12c4147c5f4a320aee710f8753263aa6" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classJoyAxis.html#a12c4147c5f4a320aee710f8753263aa6" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="343,-0.5 343,-19.5 458,-19.5 458,-0.5 343,-0.5"/>
 <text text-anchor="middle" x="400.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getParentSet</text>
 </a>

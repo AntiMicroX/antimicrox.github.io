@@ -11,7 +11,7 @@
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-219 106,-219 106,4 -4,4"/>
 <g id="clust1" class="cluster">
 <title>clusterdir_ecc1b394a1e8eda394b58a5d6b4a5243</title>
-<g id="a_clust1"><a xlink:href="dir_ecc1b394a1e8eda394b58a5d6b4a5243.html" xlink:title="gamecontroller">
+<g id="a_clust1"><a xlink:href="dir_ecc1b394a1e8eda394b58a5d6b4a5243.html" target="_top" xlink:title="gamecontroller">
 <polygon fill="#ddddee" stroke="black" points="8,-136 8,-207 88,-207 88,-136 8,-136"/>
 <text text-anchor="middle" x="48" y="-195" font-family="Helvetica,sans-Serif" font-size="10.00">gamecontroller</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- dir_29403ddb0426a2d223f3fc5df13fa973 -->
 <g id="node1" class="node">
 <title>dir_29403ddb0426a2d223f3fc5df13fa973</title>
-<g id="a_node1"><a xlink:href="dir_29403ddb0426a2d223f3fc5df13fa973.html" xlink:title="xml">
+<g id="a_node1"><a xlink:href="dir_29403ddb0426a2d223f3fc5df13fa973.html" target="_top" xlink:title="xml">
 <polygon fill="#eeeeff" stroke="black" points="75,-180 21,-180 21,-144 75,-144 75,-180"/>
 <text text-anchor="middle" x="48" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">xml</text>
 </a>
@@ -29,7 +29,7 @@
 <!-- dir_7e98ab78f7c4c69c748bca1aedeab2ac -->
 <g id="node2" class="node">
 <title>dir_7e98ab78f7c4c69c748bca1aedeab2ac</title>
-<g id="a_node2"><a xlink:href="dir_7e98ab78f7c4c69c748bca1aedeab2ac.html" xlink:title="joybuttontypes">
+<g id="a_node2"><a xlink:href="dir_7e98ab78f7c4c69c748bca1aedeab2ac.html" target="_top" xlink:title="joybuttontypes">
 <polygon fill="none" stroke="black" points="87,-36 7,-36 7,0 87,0 87,-36"/>
 <text text-anchor="middle" x="47" y="-15.5" font-family="Helvetica,sans-Serif" font-size="10.00">joybuttontypes</text>
 </a>
@@ -40,7 +40,7 @@
 <title>dir_29403ddb0426a2d223f3fc5df13fa973&#45;&gt;dir_7e98ab78f7c4c69c748bca1aedeab2ac</title>
 <path fill="none" stroke="black" d="M44.35,-143.91C42.32,-133.57 40.02,-120.09 39,-108 37.66,-92.06 37.8,-87.96 39,-72 39.64,-63.52 40.84,-54.34 42.12,-46.04"/>
 <polygon fill="black" stroke="black" points="45.58,-46.55 43.75,-36.11 38.68,-45.41 45.58,-46.55"/>
-<g id="a_edge2&#45;headlabel"><a xlink:href="dir_000004_000006.html" xlink:title="1">
+<g id="a_edge2&#45;headlabel"><a xlink:href="dir_000004_000007.html" target="_top" xlink:title="1">
 <text text-anchor="middle" x="47.8" y="-48.05" font-family="Helvetica,sans-Serif" font-size="10.00">1</text>
 </a>
 </g>
@@ -48,7 +48,7 @@
 <!-- dir_c43b215a2ade73e6562bd37d8a11c12a -->
 <g id="node3" class="node">
 <title>dir_c43b215a2ade73e6562bd37d8a11c12a</title>
-<g id="a_node3"><a xlink:href="dir_c43b215a2ade73e6562bd37d8a11c12a.html" xlink:title="xml">
+<g id="a_node3"><a xlink:href="dir_c43b215a2ade73e6562bd37d8a11c12a.html" target="_top" xlink:title="xml">
 <polygon fill="none" stroke="black" points="102,-108 48,-108 48,-72 102,-72 102,-108"/>
 <text text-anchor="middle" x="75" y="-87.5" font-family="Helvetica,sans-Serif" font-size="10.00">xml</text>
 </a>
@@ -59,7 +59,7 @@
 <title>dir_29403ddb0426a2d223f3fc5df13fa973&#45;&gt;dir_c43b215a2ade73e6562bd37d8a11c12a</title>
 <path fill="none" stroke="black" d="M54.67,-143.7C57.71,-135.81 61.38,-126.3 64.76,-117.55"/>
 <polygon fill="black" stroke="black" points="68.07,-118.69 68.4,-108.1 61.54,-116.17 68.07,-118.69"/>
-<g id="a_edge3&#45;headlabel"><a xlink:href="dir_000004_000011.html" xlink:title="5">
+<g id="a_edge3&#45;headlabel"><a xlink:href="dir_000004_000012.html" target="_top" xlink:title="5">
 <text text-anchor="middle" x="69.42" y="-120.57" font-family="Helvetica,sans-Serif" font-size="10.00">5</text>
 </a>
 </g>
@@ -69,7 +69,7 @@
 <title>dir_c43b215a2ade73e6562bd37d8a11c12a&#45;&gt;dir_7e98ab78f7c4c69c748bca1aedeab2ac</title>
 <path fill="none" stroke="black" d="M68.08,-71.7C64.93,-63.81 61.12,-54.3 57.62,-45.55"/>
 <polygon fill="black" stroke="black" points="60.81,-44.09 53.84,-36.1 54.31,-46.69 60.81,-44.09"/>
-<g id="a_edge1&#45;headlabel"><a xlink:href="dir_000011_000006.html" xlink:title="2">
+<g id="a_edge1&#45;headlabel"><a xlink:href="dir_000012_000007.html" target="_top" xlink:title="2">
 <text text-anchor="middle" x="64.78" y="-43.87" font-family="Helvetica,sans-Serif" font-size="10.00">2</text>
 </a>
 </g>

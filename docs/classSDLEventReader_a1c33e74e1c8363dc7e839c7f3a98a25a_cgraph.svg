@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$namespacePadderCommon.html#a354573bde6a47232b838ceccca533b02" xlink:title=" ">
+<g id="a_node2"><a xlink:href="namespacePadderCommon.html#a354573bde6a47232b838ceccca533b02" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="188,-50 188,-69 357,-69 357,-50 188,-50"/>
 <text text-anchor="middle" x="272.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">PadderCommon::lockInputDevices</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$namespacePadderCommon.html#a5de97eeb52ef44a36a1caba613b7a343" xlink:title=" ">
+<g id="a_node3"><a xlink:href="namespacePadderCommon.html#a5de97eeb52ef44a36a1caba613b7a343" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="201,-0.5 201,-30.5 344,-30.5 344,-0.5 201,-0.5"/>
 <text text-anchor="start" x="209" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">PadderCommon::unlockInput</text>
 <text text-anchor="middle" x="272.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Devices</text>

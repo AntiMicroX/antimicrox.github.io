@@ -1,9 +1,9 @@
 <map id="AdvanceStickAssignmentDialog::changeStateVDPadWidgets" name="AdvanceStickAssignmentDialog::changeStateVDPadWidgets">
-<area shape="rect" id="node1" title=" " alt="" coords="5,367,213,408"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,373,213,415"/>
 <area shape="rect" id="node2" href="$classSetJoystick.html#a5d361ae7d236016146559f96be00685b" title=" " alt="" coords="281,231,441,258"/>
-<area shape="rect" id="node15" href="$classInputDevice.html#a1c4c65d9e509a5c3bde064871d7e1849" title=" " alt="" coords="261,349,460,375"/>
-<area shape="rect" id="node16" href="$classSetJoystick.html#abcdc88c96a95fb0f5d8a721582d22851" title=" " alt="" coords="282,399,439,426"/>
-<area shape="rect" id="node18" href="$classSetJoystick.html#a48f0e4f996b21a056c9eb40bf4968295" title=" " alt="" coords="270,450,451,477"/>
+<area shape="rect" id="node15" href="$classInputDevice.html#a1c4c65d9e509a5c3bde064871d7e1849" title=" " alt="" coords="261,355,460,382"/>
+<area shape="rect" id="node16" href="$classSetJoystick.html#abcdc88c96a95fb0f5d8a721582d22851" title=" " alt="" coords="282,406,439,433"/>
+<area shape="rect" id="node18" href="$classSetJoystick.html#a48f0e4f996b21a056c9eb40bf4968295" title=" " alt="" coords="270,457,451,483"/>
 <area shape="rect" id="node3" href="$classJoyDPad.html#a2f5d634341589f42960a9ecc41454112" title=" " alt="" coords="526,202,673,229"/>
 <area shape="rect" id="node4" href="$classSetJoystick.html#aeb069bf5f9e89bf2fb7dc73d89b5fbbd" title=" " alt="" coords="512,253,687,295"/>
 <area shape="rect" id="node5" href="$classSetJoystick.html#a34909d7126daa4494789b77ce86dea27" title=" " alt="" coords="512,319,687,360"/>

@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyControlStick.html#a033cec8c362b923e61ec638645e7a80c" xlink:title="Calculate the bearing (in degrees) corresponding to the current position of the X and Y axes of a sti...">
+<g id="a_node2"><a xlink:href="classJoyControlStick.html#a033cec8c362b923e61ec638645e7a80c" target="_top" xlink:title="Calculate the bearing (in degrees) corresponding to the current position of the X and Y axes of a sti...">
 <polygon fill="white" stroke="black" points="172.5,-49.5 172.5,-79.5 303.5,-79.5 303.5,-49.5 172.5,-49.5"/>
 <text text-anchor="start" x="180.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::calculate</text>
 <text text-anchor="middle" x="238" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">Bearing</text>
@@ -38,7 +38,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyControlStick.html#af4ceb950523eedb36857e695d259d383" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyControlStick.html#af4ceb950523eedb36857e695d259d383" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="172,-0.5 172,-30.5 304,-30.5 304,-0.5 172,-0.5"/>
 <text text-anchor="start" x="180" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::getRadial</text>
 <text text-anchor="middle" x="238" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Distance</text>
@@ -54,7 +54,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyAxis.html#a0580ab0df546a1c03b4e8f755ad00272" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyAxis.html#a0580ab0df546a1c03b4e8f755ad00272" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="340,-55 340,-74 487,-74 487,-55 340,-55"/>
 <text text-anchor="middle" x="413.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getCurrentRawValue</text>
 </a>

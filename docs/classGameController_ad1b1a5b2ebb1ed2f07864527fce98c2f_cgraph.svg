@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classGameController.html#ae91ab30a326f043cb9ccb5e7531f7283" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classGameController.html#ae91ab30a326f043cb9ccb5e7531f7283" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="191,-0.5 191,-19.5 366,-19.5 366,-0.5 191,-0.5"/>
 <text text-anchor="middle" x="278.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameController::getRawGUIDString</text>
 </a>

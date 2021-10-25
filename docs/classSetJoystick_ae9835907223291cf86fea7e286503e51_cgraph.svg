@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#aa659d5a0860f5047862ca0761d8d775a" xlink:title="Get 0 indexed number of button.">
+<g id="a_node2"><a xlink:href="classJoyButton.html#aa659d5a0860f5047862ca0761d8d775a" target="_top" xlink:title="Get 0 indexed number of button.">
 <polygon fill="white" stroke="black" points="167,-6 167,-25 298,-25 298,-6 167,-6"/>
 <text text-anchor="middle" x="232.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getJoyNumber</text>
 </a>

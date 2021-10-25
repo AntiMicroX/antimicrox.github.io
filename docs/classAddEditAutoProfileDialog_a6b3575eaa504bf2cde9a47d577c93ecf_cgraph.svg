@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classAddEditAutoProfileDialog.html#aa166e5c0e217e1ef7cc895040f71c0a6" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classAddEditAutoProfileDialog.html#aa166e5c0e217e1ef7cc895040f71c0a6" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="168,-245.5 168,-275.5 295,-275.5 295,-245.5 168,-245.5"/>
 <text text-anchor="start" x="176" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">AddEditAutoProfileDialog</text>
 <text text-anchor="middle" x="231.5" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00">::checkForDefaultStatus</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classCapturedWindowInfoDialog.html#ac3d240fb4abed8fdc56674a194cb7a83" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classCapturedWindowInfoDialog.html#ac3d240fb4abed8fdc56674a194cb7a83" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="164,-196.5 164,-226.5 299,-226.5 299,-196.5 164,-196.5"/>
 <text text-anchor="start" x="172" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00">CapturedWindowInfoDialog</text>
 <text text-anchor="middle" x="231.5" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getSelectedOptions</text>
@@ -54,7 +54,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classCapturedWindowInfoDialog.html#ab2d91ee6fba008c437256fed547fd3c4" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classCapturedWindowInfoDialog.html#ab2d91ee6fba008c437256fed547fd3c4" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="164,-147.5 164,-177.5 299,-177.5 299,-147.5 164,-147.5"/>
 <text text-anchor="start" x="172" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">CapturedWindowInfoDialog</text>
 <text text-anchor="middle" x="231.5" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getWindowClass</text>
@@ -70,7 +70,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classCapturedWindowInfoDialog.html#a7093a286ca8fac8160979fa91e56700a" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classCapturedWindowInfoDialog.html#a7093a286ca8fac8160979fa91e56700a" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="164,-98.5 164,-128.5 299,-128.5 299,-98.5 164,-98.5"/>
 <text text-anchor="start" x="172" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">CapturedWindowInfoDialog</text>
 <text text-anchor="middle" x="231.5" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getWindowName</text>
@@ -86,7 +86,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="$classCapturedWindowInfoDialog.html#a754c68068cabd48e5d5f65c627014785" xlink:title=" ">
+<g id="a_node6"><a xlink:href="classCapturedWindowInfoDialog.html#a754c68068cabd48e5d5f65c627014785" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="164,-49.5 164,-79.5 299,-79.5 299,-49.5 164,-49.5"/>
 <text text-anchor="start" x="172" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">CapturedWindowInfoDialog</text>
 <text text-anchor="middle" x="231.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getWindowPath</text>
@@ -102,7 +102,7 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="$classCapturedWindowInfoDialog.html#aef9a63e65cb029f83e780cd7a928999e" xlink:title=" ">
+<g id="a_node7"><a xlink:href="classCapturedWindowInfoDialog.html#aef9a63e65cb029f83e780cd7a928999e" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="164,-0.5 164,-30.5 299,-30.5 299,-0.5 164,-0.5"/>
 <text text-anchor="start" x="172" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">CapturedWindowInfoDialog</text>
 <text text-anchor="middle" x="231.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::useFullWindowPath</text>

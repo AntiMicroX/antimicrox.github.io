@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classInputDevice.html" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classInputDevice.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="8,-57.5 8,-76.5 77,-76.5 77,-57.5 8,-57.5"/>
 <text text-anchor="middle" x="42.5" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDevice</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classAntiMicroSettings.html" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classAntiMicroSettings.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="71.5,-124.5 71.5,-143.5 165.5,-143.5 165.5,-124.5 71.5,-124.5"/>
 <text text-anchor="middle" x="118.5" y="-131.5" font-family="Helvetica,sans-Serif" font-size="10.00">AntiMicroSettings</text>
 </a>

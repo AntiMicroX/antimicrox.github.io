@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classSetJoystick.html#ac5baae46a0b3924a83b523ad89819a53" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classSetJoystick.html#ac5baae46a0b3924a83b523ad89819a53" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="144,-6 144,-25 264,-25 264,-6 144,-6"/>
 <text text-anchor="middle" x="204" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">SetJoystick::getButtons</text>
 </a>

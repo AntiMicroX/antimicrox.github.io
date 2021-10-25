@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classUInputHelper.html#a043b0fa7cf4ce5811d01d95f3ca318b7" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classUInputHelper.html#a043b0fa7cf4ce5811d01d95f3ca318b7" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="163,-0.5 163,-30.5 319,-30.5 319,-0.5 163,-0.5"/>
 <text text-anchor="start" x="171" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">UInputHelper::getKnownAliases</text>
 <text text-anchor="middle" x="241" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">VKStrings</text>

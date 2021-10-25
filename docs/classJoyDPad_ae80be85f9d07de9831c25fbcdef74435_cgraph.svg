@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyDPad.html#a5f5921607d183f4f221f3a4f97249d8e" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyDPad.html#a5f5921607d183f4f221f3a4f97249d8e" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="203,-38.5 203,-57.5 358,-57.5 358,-38.5 203,-38.5"/>
 <text text-anchor="middle" x="280.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyDPad::getApplicableButtons</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyButton.html#ad107fc4d6e2725fd5b09a2412c18b1e3" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyButton.html#ad107fc4d6e2725fd5b09a2412c18b1e3" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="212.5,-0.5 212.5,-19.5 348.5,-19.5 348.5,-0.5 212.5,-0.5"/>
 <text text-anchor="middle" x="280.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getMouseCurve</text>
 </a>

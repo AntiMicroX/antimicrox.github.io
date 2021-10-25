@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#abf976dbf566397b7a361660d137b0118" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButton.html#abf976dbf566397b7a361660d137b0118" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="200,-6 200,-25 364,-25 364,-6 200,-6"/>
 <text text-anchor="middle" x="282" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::setMinAccelThreshold</text>
 </a>

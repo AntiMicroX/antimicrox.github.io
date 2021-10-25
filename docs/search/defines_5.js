@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['print_5fstderr_6314',['PRINT_STDERR',['../logger_8h.html#a930d78c973685965a14ec9a3dcbf373d',1,'logger.h']]],
-  ['print_5fstdout_6315',['PRINT_STDOUT',['../logger_8h.html#ae15389cf2f6cb63255ad552bc271e25b',1,'logger.h']]]
+  ['error_6419',['ERROR',['../logger_8h.html#abd742fc8ab69fdffee4b677a9f8f35f1',1,'logger.h']]]
 ];

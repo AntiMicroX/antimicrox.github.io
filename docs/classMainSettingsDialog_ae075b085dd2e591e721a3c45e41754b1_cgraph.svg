@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classMainSettingsDialog.html#a13f64f1f6b38c47b6fb5f37533dfdeb8" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classMainSettingsDialog.html#a13f64f1f6b38c47b6fb5f37533dfdeb8" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="149,-214 149,-244 326,-244 326,-214 149,-214"/>
 <text text-anchor="start" x="157" y="-232" font-family="Helvetica,sans-Serif" font-size="10.00">MainSettingsDialog</text>
 <text text-anchor="middle" x="237.5" y="-221" font-family="Helvetica,sans-Serif" font-size="10.00">::convToUniqueIDAutoProfGroupSett</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classAutoProfileInfo.html#a93b07c48618aa5b09c62c2c7bac81d4b" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classAutoProfileInfo.html#a93b07c48618aa5b09c62c2c7bac81d4b" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="171.5,-165 171.5,-195 303.5,-195 303.5,-165 171.5,-165"/>
 <text text-anchor="start" x="179.5" y="-183" font-family="Helvetica,sans-Serif" font-size="10.00">AutoProfileInfo::setDefault</text>
 <text text-anchor="middle" x="237.5" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">State</text>
@@ -54,7 +54,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classAutoProfileInfo.html#a268f71cfef71ac6dc9bc0e0d8cf2a480" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classAutoProfileInfo.html#a268f71cfef71ac6dc9bc0e0d8cf2a480" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="158.5,-126.5 158.5,-145.5 316.5,-145.5 316.5,-126.5 158.5,-126.5"/>
 <text text-anchor="middle" x="237.5" y="-133.5" font-family="Helvetica,sans-Serif" font-size="10.00">AutoProfileInfo::setDeviceName</text>
 </a>
@@ -69,7 +69,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classAutoProfileInfo.html#adbbc10755c2428a8af350dc7b2f79d22" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classAutoProfileInfo.html#adbbc10755c2428a8af350dc7b2f79d22" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="179,-88.5 179,-107.5 296,-107.5 296,-88.5 179,-88.5"/>
 <text text-anchor="middle" x="237.5" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">AutoProfileInfo::setExe</text>
 </a>
@@ -84,7 +84,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="$classAutoProfileInfo.html#a0c30776585e8ccc8f4023a494cdb773c" xlink:title=" ">
+<g id="a_node6"><a xlink:href="classAutoProfileInfo.html#a0c30776585e8ccc8f4023a494cdb773c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="169.5,-39 169.5,-69 305.5,-69 305.5,-39 169.5,-39"/>
 <text text-anchor="start" x="177.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">AutoProfileInfo::setWindow</text>
 <text text-anchor="middle" x="237.5" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">Class</text>
@@ -100,7 +100,7 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="$classAutoProfileInfo.html#abba6d0528f83ca5aabb4e61960bde2dc" xlink:title=" ">
+<g id="a_node7"><a xlink:href="classAutoProfileInfo.html#abba6d0528f83ca5aabb4e61960bde2dc" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="156.5,-0.5 156.5,-19.5 318.5,-19.5 318.5,-0.5 156.5,-0.5"/>
 <text text-anchor="middle" x="237.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">AutoProfileInfo::setWindowName</text>
 </a>

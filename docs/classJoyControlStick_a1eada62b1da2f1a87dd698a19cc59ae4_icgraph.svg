@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyControlStick.html#add8f98ad0df0e0dfbd6380abc4422385" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyControlStick.html#add8f98ad0df0e0dfbd6380abc4422385" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 139,-30.5 139,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::JoyControl</text>
 <text text-anchor="middle" x="69.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Stick</text>

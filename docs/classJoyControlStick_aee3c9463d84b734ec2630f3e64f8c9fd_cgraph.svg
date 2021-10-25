@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#ae1d364dfa70f47fae3db99ffbcdea44b" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButton.html#ae1d364dfa70f47fae3db99ffbcdea44b" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="166,-6 166,-25 309,-25 309,-6 166,-6"/>
 <text text-anchor="middle" x="237.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getAssignedSlots</text>
 </a>

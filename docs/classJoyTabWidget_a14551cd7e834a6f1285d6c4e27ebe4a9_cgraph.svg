@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$namespacePadderCommon.html#aaa09739d2df84421a5a3467a06ce941c" xlink:title="Returns the &quot;human&#45;readable&quot; name of the given profile.">
+<g id="a_node2"><a xlink:href="namespacePadderCommon.html#aaa09739d2df84421a5a3467a06ce941c" target="_top" xlink:title="Returns the &quot;human&#45;readable&quot; name of the given profile.">
 <polygon fill="white" stroke="black" points="169,-6 169,-25 330,-25 330,-6 169,-6"/>
 <text text-anchor="middle" x="249.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">PadderCommon::getProfileName</text>
 </a>

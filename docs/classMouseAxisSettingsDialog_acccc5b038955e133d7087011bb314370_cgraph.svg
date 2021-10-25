@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#a76e65a13abf96d01fa11ed9fd3b08a7b" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButton.html#a76e65a13abf96d01fa11ed9fd3b08a7b" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="183,-114.5 183,-133.5 327,-133.5 327,-114.5 183,-114.5"/>
 <text text-anchor="middle" x="255" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getMouseSpeedX</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyButton.html#a897f0f78773ace1b5916222bd757b1bc" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyButton.html#a897f0f78773ace1b5916222bd757b1bc" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="183,-76.5 183,-95.5 327,-95.5 327,-76.5 183,-76.5"/>
 <text text-anchor="middle" x="255" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getMouseSpeedY</text>
 </a>
@@ -52,7 +52,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyAxis.html#aae658e2a7b83ce73ce3d7d1ed13eabc6" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyAxis.html#aae658e2a7b83ce73ce3d7d1ed13eabc6" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="192,-38.5 192,-57.5 318,-57.5 318,-38.5 192,-38.5"/>
 <text text-anchor="middle" x="255" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getNAxisButton</text>
 </a>
@@ -67,7 +67,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classJoyAxis.html#ad51d55d2a95190468209f7481eae8639" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classJoyAxis.html#ad51d55d2a95190468209f7481eae8639" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="192.5,-0.5 192.5,-19.5 317.5,-19.5 317.5,-0.5 192.5,-0.5"/>
 <text text-anchor="middle" x="255" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getPAxisButton</text>
 </a>

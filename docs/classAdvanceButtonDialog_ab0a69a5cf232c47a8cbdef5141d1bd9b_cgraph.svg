@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classAdvanceButtonDialog.html#ab72e06536fc36f403249d7f48a925a82" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classAdvanceButtonDialog.html#ab72e06536fc36f403249d7f48a925a82" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="166,-22.5 166,-52.5 282,-52.5 282,-22.5 166,-22.5"/>
 <text text-anchor="start" x="174" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">AdvanceButtonDialog</text>
 <text text-anchor="middle" x="224" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">::connectButtonEvents</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyButtonSlot.html#abed7fe134c404b403ea79c0753f6eaaf" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyButtonSlot.html#abed7fe134c404b403ea79c0753f6eaaf" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="318,-50 318,-69 457,-69 457,-50 318,-50"/>
 <text text-anchor="middle" x="387.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButtonSlot::getSlotMode</text>
 </a>
@@ -53,7 +53,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classSimpleKeyGrabberButton.html#a25cefc81223387f0bfd2183627109ff8" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classSimpleKeyGrabberButton.html#a25cefc81223387f0bfd2183627109ff8" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="324.5,-0.5 324.5,-30.5 450.5,-30.5 450.5,-0.5 324.5,-0.5"/>
 <text text-anchor="start" x="332.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">SimpleKeyGrabberButton</text>
 <text text-anchor="middle" x="387.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getValue</text>

@@ -21,7 +21,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyDPadButtonWidget.html" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyDPadButtonWidget.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 116,-19.5 116,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="58" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyDPadButtonWidget</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classFlashButtonWidget.html" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classFlashButtonWidget.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="8,-112.5 8,-131.5 108,-131.5 108,-112.5 8,-112.5"/>
 <text text-anchor="middle" x="58" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">FlashButtonWidget</text>
 </a>

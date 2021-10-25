@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classCalibration.html#a784c4f6d1e1ec695a5fcea99c0813934" xlink:title="Prepares first step of calibration &#45; finding center.">
+<g id="a_node2"><a xlink:href="classCalibration.html#a784c4f6d1e1ec695a5fcea99c0813934" target="_top" xlink:title="Prepares first step of calibration &#45; finding center.">
 <polygon fill="white" stroke="black" points="164,-38.5 164,-57.5 298,-57.5 298,-38.5 164,-38.5"/>
 <text text-anchor="middle" x="231" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Calibration::startCalibration</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classCalibration.html#a27a8dcaa8bc1ae3ebf2da993b29a4e2e" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classCalibration.html#a27a8dcaa8bc1ae3ebf2da993b29a4e2e" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="7,-38.5 7,-57.5 121,-57.5 121,-38.5 7,-38.5"/>
 <text text-anchor="middle" x="64" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Calibration::Calibration</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classCalibration.html#a7395207c632a902aba620462d1ff584c" xlink:title="Prepares third step of calibration &#45; moving into bottom&#45;right corner &#45; postive values.">
+<g id="a_node4"><a xlink:href="classCalibration.html#a7395207c632a902aba620462d1ff584c" target="_top" xlink:title="Prepares third step of calibration &#45; moving into bottom&#45;right corner &#45; postive values.">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 128,-19.5 128,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="64" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Calibration::startLastStep</text>
 </a>

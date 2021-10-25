@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyControlStick.html#a5a7efb7f014fda77da422cc0c7282530" xlink:title="Delete old stick direction buttons and create new stick direction buttons.">
+<g id="a_node2"><a xlink:href="classJoyControlStick.html#a5a7efb7f014fda77da422cc0c7282530" target="_top" xlink:title="Delete old stick direction buttons and create new stick direction buttons.">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 122,-30.5 122,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::refresh</text>
 <text text-anchor="middle" x="61" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Buttons</text>

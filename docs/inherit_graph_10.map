@@ -3,8 +3,8 @@
 <area shape="rect" id="node2" href="$classFlashButtonWidget.html" title=" " alt="" coords="171,107,304,133"/>
 <area shape="rect" id="node9" href="$classJoyButtonStatusBox.html" title=" " alt="" coords="166,157,309,184"/>
 <area shape="rect" id="node10" href="$classSimpleKeyGrabberButton.html" title=" " alt="" coords="153,208,321,235"/>
-<area shape="rect" id="node11" href="$classVirtualKeyPushButton.html" title=" " alt="" coords="162,259,313,285"/>
-<area shape="rect" id="node12" href="$classVirtualMousePushButton.html" title=" " alt="" coords="154,309,321,336"/>
+<area shape="rect" id="node11" href="$classVirtualKeyPushButton.html" title="PushButton representing keyboard button on VirtualKeyboardMouseWidget." alt="" coords="162,259,313,285"/>
+<area shape="rect" id="node12" href="$classVirtualMousePushButton.html" title="PushButton representing mouse action in VirtualKeyboardMouseWidget." alt="" coords="154,309,321,336"/>
 <area shape="rect" id="node3" href="$classDPadPushButton.html" title=" " alt="" coords="399,5,522,32"/>
 <area shape="rect" id="node4" href="$classJoyAxisWidget.html" title=" " alt="" coords="405,56,516,83"/>
 <area shape="rect" id="node5" href="$classJoyButtonWidget.html" title=" " alt="" coords="399,107,522,133"/>

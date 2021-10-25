@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyControlStick.html#ad026b977d24fb22e9fe5681dc4b80c3c" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyControlStick.html#ad026b977d24fb22e9fe5681dc4b80c3c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="172,-0.5 172,-30.5 311,-30.5 311,-0.5 172,-0.5"/>
 <text text-anchor="start" x="180" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::setButtons</text>
 <text text-anchor="middle" x="241.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">SpringHeight</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyButton.html#a9def8a4e4664baa01f38f6c25bee5c59" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyButton.html#a9def8a4e4664baa01f38f6c25bee5c59" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="347,-6 347,-25 484,-25 484,-6 347,-6"/>
 <text text-anchor="middle" x="415.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::setSpringHeight</text>
 </a>

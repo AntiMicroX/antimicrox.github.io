@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyControlStick.html#a2bf34c9768e9975e311a1ea8918468b1" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyControlStick.html#a2bf34c9768e9975e311a1ea8918468b1" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="168,-88 168,-107 297,-107 297,-88 168,-88"/>
 <text text-anchor="middle" x="232.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::getIndex</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyButton.html#aa659d5a0860f5047862ca0761d8d775a" xlink:title="Get 0 indexed number of button.">
+<g id="a_node3"><a xlink:href="classJoyButton.html#aa659d5a0860f5047862ca0761d8d775a" target="_top" xlink:title="Get 0 indexed number of button.">
 <polygon fill="white" stroke="black" points="167,-50 167,-69 298,-69 298,-50 167,-50"/>
 <text text-anchor="middle" x="232.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getJoyNumber</text>
 </a>
@@ -52,7 +52,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyControlStickButton.html#a9dc9e9c5b8811ef41a0cde33c5af649e" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyControlStickButton.html#a9dc9e9c5b8811ef41a0cde33c5af649e" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="175,-0.5 175,-30.5 290,-30.5 290,-0.5 175,-0.5"/>
 <text text-anchor="start" x="183" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStickButton</text>
 <text text-anchor="middle" x="232.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getStick</text>

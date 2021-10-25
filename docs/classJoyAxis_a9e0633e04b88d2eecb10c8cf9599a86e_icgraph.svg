@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyAxis.html#a854637def50e6ef091c87ee78e7dbb58" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyAxis.html#a854637def50e6ef091c87ee78e7dbb58" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="187,-38.5 187,-57.5 323,-57.5 323,-38.5 187,-38.5"/>
 <text text-anchor="middle" x="255" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::copyAssignments</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyAxis.html#a62d21dc1238df0c8e221365a434efe50" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyAxis.html#a62d21dc1238df0c8e221365a434efe50" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="215,-0.5 215,-19.5 295,-19.5 295,-0.5 215,-0.5"/>
 <text text-anchor="middle" x="255" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::reset</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classSetJoystick.html#a36b0da099fef84270b6cc7c76741e689" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classSetJoystick.html#a36b0da099fef84270b6cc7c76741e689" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-38.5 0,-57.5 151,-57.5 151,-38.5 0,-38.5"/>
 <text text-anchor="middle" x="75.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetJoystick::copyAssignments</text>
 </a>

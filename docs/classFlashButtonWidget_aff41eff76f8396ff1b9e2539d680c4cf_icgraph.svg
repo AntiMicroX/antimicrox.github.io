@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyDPadButtonWidget.html#a939570112ea1398fc6f4f13b6a67aa92" xlink:title="Generate the string that will be displayed on the button.">
+<g id="a_node2"><a xlink:href="classJoyDPadButtonWidget.html#a939570112ea1398fc6f4f13b6a67aa92" target="_top" xlink:title="Generate the string that will be displayed on the button.">
 <polygon fill="white" stroke="black" points="16.5,-235.5 16.5,-265.5 132.5,-265.5 132.5,-235.5 16.5,-235.5"/>
 <text text-anchor="start" x="24.5" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyDPadButtonWidget</text>
 <text text-anchor="middle" x="74.5" y="-242.5" font-family="Helvetica,sans-Serif" font-size="10.00">::generateLabel</text>
@@ -38,10 +38,10 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyButtonWidget.html#a73f4114ba7e98c2cdeb7d3d0ea2629a2" xlink:title=" ">
-<polygon fill="white" stroke="black" points="7,-186.5 7,-216.5 142,-216.5 142,-186.5 7,-186.5"/>
-<text text-anchor="start" x="15" y="-204.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButtonWidget::generate</text>
-<text text-anchor="middle" x="74.5" y="-193.5" font-family="Helvetica,sans-Serif" font-size="10.00">Label</text>
+<g id="a_node3"><a xlink:href="classJoyControlStickPushButton.html#a0059ca289c5b44dd334330d2b7db5b79" target="_top" xlink:title="Generate the string that will be displayed on the button.">
+<polygon fill="white" stroke="black" points="6,-186.5 6,-216.5 143,-216.5 143,-186.5 6,-186.5"/>
+<text text-anchor="start" x="14" y="-204.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStickPushButton</text>
+<text text-anchor="middle" x="74.5" y="-193.5" font-family="Helvetica,sans-Serif" font-size="10.00">::generateLabel</text>
 </a>
 </g>
 </g>
@@ -54,23 +54,23 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyControlStickPushButton.html#a0059ca289c5b44dd334330d2b7db5b79" xlink:title="Generate the string that will be displayed on the button.">
-<polygon fill="white" stroke="black" points="6,-137.5 6,-167.5 143,-167.5 143,-137.5 6,-137.5"/>
-<text text-anchor="start" x="14" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStickPushButton</text>
-<text text-anchor="middle" x="74.5" y="-144.5" font-family="Helvetica,sans-Serif" font-size="10.00">::generateLabel</text>
+<g id="a_node4"><a xlink:href="classDPadPushButton.html#ad6bc6aa6744a480371f447261bfe3464" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="6.5,-137.5 6.5,-167.5 142.5,-167.5 142.5,-137.5 6.5,-137.5"/>
+<text text-anchor="start" x="14.5" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00">DPadPushButton::generate</text>
+<text text-anchor="middle" x="74.5" y="-144.5" font-family="Helvetica,sans-Serif" font-size="10.00">Label</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M174.5,-139.01C164.27,-140.41 153.62,-141.86 143.27,-143.27"/>
+<path fill="none" stroke="midnightblue" d="M174.35,-139.03C163.98,-140.45 153.18,-141.92 142.69,-143.35"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="175.13,-142.46 184.57,-137.64 174.18,-135.52 175.13,-142.46"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classJoyAxisWidget.html#afe328d556ea6dd282e63847b1c13a202" xlink:title="Generate the string that will be displayed on the button.">
+<g id="a_node5"><a xlink:href="classJoyAxisWidget.html#afe328d556ea6dd282e63847b1c13a202" target="_top" xlink:title="Generate the string that will be displayed on the button.">
 <polygon fill="white" stroke="black" points="0,-99 0,-118 149,-118 149,-99 0,-99"/>
 <text text-anchor="middle" x="74.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxisWidget::generateLabel</text>
 </a>
@@ -85,9 +85,9 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="$classDPadPushButton.html#ad6bc6aa6744a480371f447261bfe3464" xlink:title=" ">
-<polygon fill="white" stroke="black" points="6.5,-49.5 6.5,-79.5 142.5,-79.5 142.5,-49.5 6.5,-49.5"/>
-<text text-anchor="start" x="14.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">DPadPushButton::generate</text>
+<g id="a_node6"><a xlink:href="classJoyButtonWidget.html#a73f4114ba7e98c2cdeb7d3d0ea2629a2" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="7,-49.5 7,-79.5 142,-79.5 142,-49.5 7,-49.5"/>
+<text text-anchor="start" x="15" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButtonWidget::generate</text>
 <text text-anchor="middle" x="74.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">Label</text>
 </a>
 </g>
@@ -101,7 +101,7 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="$classJoyControlStickButtonPushButton.html#a5f99e1a540217bddf417c2e993c19aa4" xlink:title="Generate the string that will be displayed on the button.">
+<g id="a_node7"><a xlink:href="classJoyControlStickButtonPushButton.html#a5f99e1a540217bddf417c2e993c19aa4" target="_top" xlink:title="Generate the string that will be displayed on the button.">
 <polygon fill="white" stroke="black" points="6,-0.5 6,-30.5 143,-30.5 143,-0.5 6,-0.5"/>
 <text text-anchor="start" x="14" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStickButtonPush</text>
 <text text-anchor="middle" x="74.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Button::generateLabel</text>

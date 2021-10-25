@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classVirtualMousePushButton.html#a444809ef5204c0447fc4467dbef28a43" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classVirtualMousePushButton.html#a444809ef5204c0447fc4467dbef28a43" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="167,-0.5 167,-30.5 292,-30.5 292,-0.5 167,-0.5"/>
 <text text-anchor="start" x="175" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">VirtualMousePushButton</text>
 <text text-anchor="middle" x="229.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::createTempSlot</text>

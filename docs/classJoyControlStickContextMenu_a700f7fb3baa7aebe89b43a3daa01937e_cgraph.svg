@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyControlStickContextMenu.html#ad2bcaf30656d4ef472d20e55b43a4f0d" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyControlStickContextMenu.html#ad2bcaf30656d4ef472d20e55b43a4f0d" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="187,-0.5 187,-30.5 332,-30.5 332,-0.5 187,-0.5"/>
 <text text-anchor="start" x="195" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStickContextMenu</text>
 <text text-anchor="middle" x="259.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getHelperLocal</text>

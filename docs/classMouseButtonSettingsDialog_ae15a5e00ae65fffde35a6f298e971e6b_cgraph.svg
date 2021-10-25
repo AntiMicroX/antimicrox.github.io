@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#acd84988b8ba20fb677c8ff9d10f900c3" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButton.html#acd84988b8ba20fb677c8ff9d10f900c3" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="201,-61 201,-91 359,-91 359,-61 201,-61"/>
 <text text-anchor="start" x="209" y="-79" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getExtraAcceleration</text>
 <text text-anchor="middle" x="280" y="-68" font-family="Helvetica,sans-Serif" font-size="10.00">Curve</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classMouseSettingsDialog.html#ab5ac51d0e5fd4f505faa11128a279109" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classMouseSettingsDialog.html#ab5ac51d0e5fd4f505faa11128a279109" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="202.5,-0.5 202.5,-41.5 357.5,-41.5 357.5,-0.5 202.5,-0.5"/>
 <text text-anchor="start" x="210.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseSettingsDialog</text>
 <text text-anchor="start" x="210.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">::updateExtraAccelerationCurve</text>

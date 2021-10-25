@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classMainWindow.html#a435b6567cdb461077fee16ac1d23523c" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classMainWindow.html#a435b6567cdb461077fee16ac1d23523c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="162,-38.5 162,-57.5 326,-57.5 326,-38.5 162,-38.5"/>
 <text text-anchor="middle" x="244" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">MainWindow::enableFlashActions</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyAxisWidget.html#af03b84951f7731c7e4a773d66c6fe414" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyAxisWidget.html#af03b84951f7731c7e4a773d66c6fe414" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="166.5,-0.5 166.5,-19.5 321.5,-19.5 321.5,-0.5 166.5,-0.5"/>
 <text text-anchor="middle" x="244" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxisWidget::JoyAxisWidget</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classMainWindow.html#a3dfe834b2836b316908ace3f38c06db2" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classMainWindow.html#a3dfe834b2836b316908ace3f38c06db2" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-38.5 0,-57.5 126,-57.5 126,-38.5 0,-38.5"/>
 <text text-anchor="middle" x="63" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">MainWindow::showEvent</text>
 </a>

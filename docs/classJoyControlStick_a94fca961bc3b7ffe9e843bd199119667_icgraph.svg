@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyControlStick.html#aa4796b8825e4352c74e8a5ec2e009dc4" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyControlStick.html#aa4796b8825e4352c74e8a5ec2e009dc4" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-22.5 0,-52.5 131,-52.5 131,-22.5 0,-22.5"/>
 <text text-anchor="start" x="8" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::calculate</text>
 <text text-anchor="middle" x="65.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">StickDirection</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyControlStick.html#a3511f471a2d83fa4f8d7cc21ada7e99b" xlink:title="Find the current stick direction based on a Eight Way mode stick.">
+<g id="a_node3"><a xlink:href="classJoyControlStick.html#a3511f471a2d83fa4f8d7cc21ada7e99b" target="_top" xlink:title="Find the current stick direction based on a Eight Way mode stick.">
 <polygon fill="white" stroke="black" points="167,-0.5 167,-30.5 301,-30.5 301,-0.5 167,-0.5"/>
 <text text-anchor="start" x="175" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::determine</text>
 <text text-anchor="middle" x="234" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">EightWayModeDirection</text>

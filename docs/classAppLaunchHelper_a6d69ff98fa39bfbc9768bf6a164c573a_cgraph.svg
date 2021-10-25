@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#a65766cc767496485cc211a6e1511137a" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButton.html#a65766cc767496485cc211a6e1511137a" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="210.5,-138 210.5,-157 348.5,-157 348.5,-138 210.5,-138"/>
 <text text-anchor="middle" x="279.5" y="-145" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getMouseHelper</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyButton.html#adcbf2eb84178a075252fd096c5aee4e9" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyButton.html#adcbf2eb84178a075252fd096c5aee4e9" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="212,-88.5 212,-118.5 347,-118.5 347,-88.5 212,-88.5"/>
 <text text-anchor="start" x="220" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getStaticMouse</text>
 <text text-anchor="middle" x="279.5" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">EventTimer</text>
@@ -53,7 +53,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyButton.html#a17ca5850b4db9dc5dc83083533d34768" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyButton.html#a17ca5850b4db9dc5dc83083533d34768" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="197,-50 197,-69 362,-69 362,-50 197,-50"/>
 <text text-anchor="middle" x="279.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getTestOldMouseTime</text>
 </a>
@@ -68,7 +68,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classJoyButton.html#a8c463f4943554d5f1307e1d5abbc9fda" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classJoyButton.html#a8c463f4943554d5f1307e1d5abbc9fda" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="212,-0.5 212,-30.5 347,-30.5 347,-0.5 212,-0.5"/>
 <text text-anchor="start" x="220" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::setStaticMouse</text>
 <text text-anchor="middle" x="279.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Thread</text>

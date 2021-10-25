@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyControlStickEditDialog.html#a45b53b03932fa2a4e50c9dade1d2fcbe" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyControlStickEditDialog.html#a45b53b03932fa2a4e50c9dade1d2fcbe" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="173,-22.5 173,-52.5 304,-52.5 304,-22.5 173,-22.5"/>
 <text text-anchor="start" x="181" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStickEditDialog</text>
 <text text-anchor="middle" x="238.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">::implementPresets</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyControlStickEditDialog.html#a2baa35c50ff7528a03ec6f2ba1ed657d" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyControlStickEditDialog.html#a2baa35c50ff7528a03ec6f2ba1ed657d" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 137,-30.5 137,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStickEditDialog</text>
 <text text-anchor="middle" x="68.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::JoyControlStickEditDialog</text>

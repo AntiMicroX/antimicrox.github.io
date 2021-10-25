@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classAutoProfileWatcher.html#a6f859d7413059615f203f5962dec15ea" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classAutoProfileWatcher.html#a6f859d7413059615f203f5962dec15ea" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="143,-0.5 143,-30.5 295,-30.5 295,-0.5 143,-0.5"/>
 <text text-anchor="start" x="151" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">AutoProfileWatcher</text>
 <text text-anchor="middle" x="219" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getDefaultProfileAssignments</text>

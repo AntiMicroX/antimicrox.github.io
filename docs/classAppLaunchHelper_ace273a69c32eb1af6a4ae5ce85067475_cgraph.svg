@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#a65766cc767496485cc211a6e1511137a" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButton.html#a65766cc767496485cc211a6e1511137a" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="190,-99 190,-118 328,-118 328,-99 190,-99"/>
 <text text-anchor="middle" x="259" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getMouseHelper</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyButton.html#adcbf2eb84178a075252fd096c5aee4e9" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyButton.html#adcbf2eb84178a075252fd096c5aee4e9" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="191.5,-49.5 191.5,-79.5 326.5,-79.5 326.5,-49.5 191.5,-49.5"/>
 <text text-anchor="start" x="199.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getStaticMouse</text>
 <text text-anchor="middle" x="259" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">EventTimer</text>
@@ -53,7 +53,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyButton.html#ac51b3185eb7a2627b457f0889d5726ea" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyButton.html#ac51b3185eb7a2627b457f0889d5726ea" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="197,-0.5 197,-30.5 321,-30.5 321,-0.5 197,-0.5"/>
 <text text-anchor="start" x="205" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::indirectStatic</text>
 <text text-anchor="middle" x="259" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseThread</text>

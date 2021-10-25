@@ -9,9 +9,9 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 24)">
 <title>Graphical Class Hierarchy</title>
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-24 211,-24 211,4 -4,4"/>
-<!-- Node112 -->
+<!-- Node115 -->
 <g id="node1" class="node">
-<title>Node112</title>
+<title>Node115</title>
 <g id="a_node1"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="0,-0.5 0,-19.5 71,-19.5 71,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="35.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">QListWidget</text>
@@ -21,15 +21,15 @@
 <!-- Node0 -->
 <g id="node2" class="node">
 <title>Node0</title>
-<g id="a_node2"><a xlink:href="$classSlotItemListWidget.html" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classSlotItemListWidget.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="107,-0.5 107,-19.5 207,-19.5 207,-0.5 107,-0.5"/>
 <text text-anchor="middle" x="157" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">SlotItemListWidget</text>
 </a>
 </g>
 </g>
-<!-- Node112&#45;&gt;Node0 -->
+<!-- Node115&#45;&gt;Node0 -->
 <g id="edge1" class="edge">
-<title>Node112&#45;&gt;Node0</title>
+<title>Node115&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M81.34,-10C89.66,-10 98.4,-10 106.85,-10"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="81.06,-6.5 71.06,-10 81.06,-13.5 81.06,-6.5"/>
 </g>

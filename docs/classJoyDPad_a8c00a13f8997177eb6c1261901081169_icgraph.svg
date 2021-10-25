@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classDPadPushButton.html#ad6bc6aa6744a480371f447261bfe3464" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classDPadPushButton.html#ad6bc6aa6744a480371f447261bfe3464" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="188,-137.5 188,-167.5 324,-167.5 324,-137.5 188,-137.5"/>
 <text text-anchor="start" x="196" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00">DPadPushButton::generate</text>
 <text text-anchor="middle" x="256" y="-144.5" font-family="Helvetica,sans-Serif" font-size="10.00">Label</text>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyDPadButton.html#a74e36e481a0463fa410a687805084010" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyDPadButton.html#a74e36e481a0463fa410a687805084010" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="176,-99 176,-118 336,-118 336,-99 176,-99"/>
 <text text-anchor="middle" x="256" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">JoyDPadButton::getPartialName</text>
 </a>
@@ -52,7 +52,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classMouseDPadSettingsDialog.html#a68706a0ac77693478c027a0d76cb0fcc" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classMouseDPadSettingsDialog.html#a68706a0ac77693478c027a0d76cb0fcc" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="177.5,-49.5 177.5,-79.5 334.5,-79.5 334.5,-49.5 177.5,-49.5"/>
 <text text-anchor="start" x="185.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseDPadSettingsDialog</text>
 <text text-anchor="middle" x="256" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::updateWindowTitleDPadName</text>
@@ -68,7 +68,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="$classDPadEditDialog.html#a159bedd30c6c36cb1c60e6146183c1a2" xlink:title=" ">
+<g id="a_node6"><a xlink:href="classDPadEditDialog.html#a159bedd30c6c36cb1c60e6146183c1a2" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="177.5,-0.5 177.5,-30.5 334.5,-30.5 334.5,-0.5 177.5,-0.5"/>
 <text text-anchor="start" x="185.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">DPadEditDialog::updateWindow</text>
 <text text-anchor="middle" x="256" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TitleDPadName</text>
@@ -84,7 +84,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classMouseDPadSettingsDialog.html#a51ae7b4e5b371e35d4f470787f5fc846" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classMouseDPadSettingsDialog.html#a51ae7b4e5b371e35d4f470787f5fc846" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-49.5 0,-79.5 140,-79.5 140,-49.5 0,-49.5"/>
 <text text-anchor="start" x="8" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseDPadSettingsDialog</text>
 <text text-anchor="middle" x="70" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::MouseDPadSettingsDialog</text>
@@ -100,7 +100,7 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="$classDPadEditDialog.html#a87782609227b6c56ef82e3844a117dc1" xlink:title=" ">
+<g id="a_node7"><a xlink:href="classDPadEditDialog.html#a87782609227b6c56ef82e3844a117dc1" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="3,-0.5 3,-30.5 137,-30.5 137,-0.5 3,-0.5"/>
 <text text-anchor="start" x="11" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">DPadEditDialog::DPadEdit</text>
 <text text-anchor="middle" x="70" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Dialog</text>

@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classInputDaemon.html#ac0e260b8e967de67806f8554ffab9bef" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classInputDaemon.html#ac0e260b8e967de67806f8554ffab9bef" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="174,-39 174,-69 303,-69 303,-39 174,-39"/>
 <text text-anchor="start" x="182" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">InputDaemon::resetActive</text>
 <text text-anchor="middle" x="238.5" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">ButtonMouseDistances</text>
@@ -38,7 +38,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classInputDaemon.html#ad7f954b25b67cb5a84fdb1a154282bfd" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classInputDaemon.html#ad7f954b25b67cb5a84fdb1a154282bfd" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="191.5,-0.5 191.5,-19.5 285.5,-19.5 285.5,-0.5 191.5,-0.5"/>
 <text text-anchor="middle" x="238.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDaemon::run</text>
 </a>
@@ -53,7 +53,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classInputDaemon.html#ab7c3d331123e946ed8da490dfee5c265" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classInputDaemon.html#ab7c3d331123e946ed8da490dfee5c265" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-22.5 0,-41.5 138,-41.5 138,-22.5 0,-22.5"/>
 <text text-anchor="middle" x="69" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDaemon::InputDaemon</text>
 </a>

@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyAxis.html#a8552b6736231d1611c8809602e189d68" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyAxis.html#a8552b6736231d1611c8809602e189d68" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="133,-76.5 133,-95.5 281,-95.5 281,-76.5 133,-76.5"/>
 <text text-anchor="middle" x="207" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getDefaultDeadZone</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyAxis.html#a61149f5541d5dc820ae2a04a6ca9af68" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyAxis.html#a61149f5541d5dc820ae2a04a6ca9af68" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="135,-38.5 135,-57.5 279,-57.5 279,-38.5 135,-38.5"/>
 <text text-anchor="middle" x="207" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getDefaultMaxZone</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyButton.html#aaae603630f3485683593320bd446927d" xlink:title="Check if button properties are at their default values.">
+<g id="a_node4"><a xlink:href="classJoyButton.html#aaae603630f3485683593320bd446927d" target="_top" xlink:title="Check if button properties are at their default values.">
 <polygon fill="white" stroke="black" points="154,-0.5 154,-19.5 260,-19.5 260,-0.5 154,-0.5"/>
 <text text-anchor="middle" x="207" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::isDefault</text>
 </a>
@@ -66,7 +66,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classJoyButton.html#ae1d364dfa70f47fae3db99ffbcdea44b" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classJoyButton.html#ae1d364dfa70f47fae3db99ffbcdea44b" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="317,-0.5 317,-19.5 460,-19.5 460,-0.5 317,-0.5"/>
 <text text-anchor="middle" x="388.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getAssignedSlots</text>
 </a>

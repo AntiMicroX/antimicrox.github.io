@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classVirtualKeyboardMouseWidget.html#a77281128042634ae233e6e679e2f0471" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classVirtualKeyboardMouseWidget.html#a77281128042634ae233e6e679e2f0471" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="182.5,-39 182.5,-69 328.5,-69 328.5,-39 182.5,-39"/>
 <text text-anchor="start" x="190.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">VirtualKeyboardMouseWidget</text>
 <text text-anchor="middle" x="255.5" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">::enableMouseSettingButton</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classButtonEditDialog.html#af8126f12b4a9a65a316a335288e8cb79" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classButtonEditDialog.html#af8126f12b4a9a65a316a335288e8cb79" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="182,-0.5 182,-19.5 329,-19.5 329,-0.5 182,-0.5"/>
 <text text-anchor="middle" x="255.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">ButtonEditDialog::getInstance</text>
 </a>

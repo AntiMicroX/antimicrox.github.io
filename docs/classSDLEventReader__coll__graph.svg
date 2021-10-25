@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classAntiMicroSettings.html" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classAntiMicroSettings.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="75,-67.5 75,-86.5 169,-86.5 169,-67.5 75,-67.5"/>
 <text text-anchor="middle" x="122" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">AntiMicroSettings</text>
 </a>

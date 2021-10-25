@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classVirtualKeyPushButton.html#a79b2ddfcba784773ccc9fb1a4b64bb3f" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classVirtualKeyPushButton.html#a79b2ddfcba784773ccc9fb1a4b64bb3f" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="155,-22.5 155,-52.5 268,-52.5 268,-22.5 155,-22.5"/>
 <text text-anchor="start" x="163" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">VirtualKeyPushButton</text>
 <text text-anchor="middle" x="211.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">::setDisplayString</text>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classVirtualKeyPushButton.html#a74da413e3983df7fe256e5950f97da7b" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classVirtualKeyPushButton.html#a74da413e3983df7fe256e5950f97da7b" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 119,-30.5 119,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">VirtualKeyPushButton</text>
 <text text-anchor="middle" x="59.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::VirtualKeyPushButton</text>

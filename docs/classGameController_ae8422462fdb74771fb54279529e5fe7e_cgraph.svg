@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classGameController.html#a919063d8bad721b962171fabcaaf0810" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classGameController.html#a919063d8bad721b962171fabcaaf0810" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="187,-0.5 187,-19.5 339,-19.5 339,-0.5 187,-0.5"/>
 <text text-anchor="middle" x="263" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameController::getAxisvalues</text>
 </a>

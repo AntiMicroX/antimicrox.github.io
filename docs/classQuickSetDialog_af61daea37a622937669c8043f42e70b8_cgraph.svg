@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classButtonEditDialogHelper.html#a2160209c705906abf0510c903f432f42" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classButtonEditDialogHelper.html#a2160209c705906abf0510c903f432f42" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="186,-0.5 186,-30.5 305,-30.5 305,-0.5 186,-0.5"/>
 <text text-anchor="start" x="194" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">ButtonEditDialogHelper</text>
 <text text-anchor="middle" x="245.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::setThisButton</text>

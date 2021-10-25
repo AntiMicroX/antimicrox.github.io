@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#abbccee98e377453167a47b49874eeab7" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButton.html#abbccee98e377453167a47b49874eeab7" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="167,-0.5 167,-30.5 299,-30.5 299,-0.5 167,-0.5"/>
 <text text-anchor="start" x="175" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getIgnoreEvent</text>
 <text text-anchor="middle" x="233" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">State</text>

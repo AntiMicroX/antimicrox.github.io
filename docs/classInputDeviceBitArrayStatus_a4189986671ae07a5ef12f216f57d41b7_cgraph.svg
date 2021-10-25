@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classInputDeviceBitArrayStatus.html#aa2d24f289cc48038bc2dd9d0524ecc05" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classInputDeviceBitArrayStatus.html#aa2d24f289cc48038bc2dd9d0524ecc05" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="169,-0.5 169,-30.5 302,-30.5 302,-0.5 169,-0.5"/>
 <text text-anchor="start" x="177" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDeviceBitArrayStatus</text>
 <text text-anchor="middle" x="235.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getButtonStatusLocal</text>

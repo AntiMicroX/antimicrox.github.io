@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classProfileImporter.html#a654fe23f61f753108a01802cd6e857e1" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classProfileImporter.html#a654fe23f61f753108a01802cd6e857e1" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="203,-0.5 203,-30.5 332,-30.5 332,-0.5 203,-0.5"/>
 <text text-anchor="start" x="211" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">ProfileImporter::extension</text>
 <text text-anchor="middle" x="267.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Profile</text>

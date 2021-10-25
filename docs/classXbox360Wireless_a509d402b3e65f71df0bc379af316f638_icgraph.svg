@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classXbox360Wireless.html#ae7af6fd9d9b56822df4574980da2cdb1" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classXbox360Wireless.html#ae7af6fd9d9b56822df4574980da2cdb1" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 137,-30.5 137,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">Xbox360Wireless::Xbox360</text>
 <text text-anchor="middle" x="68.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Wireless</text>

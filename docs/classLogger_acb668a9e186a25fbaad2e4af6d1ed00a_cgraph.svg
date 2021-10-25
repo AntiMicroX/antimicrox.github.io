@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classLogger.html#ac0b2a3d6502a6235b19103a81cdfc39a" xlink:title="Flushes output stream and closes stream if requested.">
+<g id="a_node2"><a xlink:href="classLogger.html#ac0b2a3d6502a6235b19103a81cdfc39a" target="_top" xlink:title="Flushes output stream and closes stream if requested.">
 <polygon fill="white" stroke="black" points="123,-0.5 123,-19.5 227,-19.5 227,-0.5 123,-0.5"/>
 <text text-anchor="middle" x="175" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Logger::closeLogger</text>
 </a>

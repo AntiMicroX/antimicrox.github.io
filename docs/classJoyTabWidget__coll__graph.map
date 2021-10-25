@@ -1,5 +1,5 @@
 <map id="JoyTabWidget" name="JoyTabWidget">
-<area shape="rect" id="node1" title=" " alt="" coords="1896,441,2001,468"/>
+<area shape="rect" id="node1" title="Widget containing tab representing selected joystick." alt="" coords="1896,441,2001,468"/>
 <area shape="rect" id="node2" title=" " alt="" coords="1645,441,1719,468"/>
 <area shape="rect" id="node3" href="$classJoyTabWidgetHelper.html" title=" " alt="" coords="1250,1188,1393,1215"/>
 <area shape="rect" id="node4" title=" " alt="" coords="162,701,233,728"/>

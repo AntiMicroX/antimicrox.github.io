@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classX11Extras.html#a643c95dc1de8eb073a0accb41619fe83" xlink:title="Get display instance.">
+<g id="a_node2"><a xlink:href="classX11Extras.html#a643c95dc1de8eb073a0accb41619fe83" target="_top" xlink:title="Get display instance.">
 <polygon fill="white" stroke="black" points="378,-38.5 378,-57.5 477,-57.5 477,-38.5 378,-38.5"/>
 <text text-anchor="middle" x="427.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">X11Extras::display</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classX11Extras.html#a44556cc9630d8685f1978b258c40679d" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classX11Extras.html#a44556cc9630d8685f1978b258c40679d" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="185,-0.5 185,-19.5 342,-19.5 342,-0.5 185,-0.5"/>
 <text text-anchor="middle" x="263.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">X11Extras::windowHasProperty</text>
 </a>
@@ -57,7 +57,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$x11extras_8cpp.html#abd96e3a47ad21173e08bc83e90a98fda" xlink:title=" ">
+<g id="a_node4"><a xlink:href="x11extras_8cpp.html#abd96e3a47ad21173e08bc83e90a98fda" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="393.5,-0.5 393.5,-19.5 461.5,-19.5 461.5,-0.5 393.5,-0.5"/>
 <text text-anchor="middle" x="427.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">freeWindow</text>
 </a>

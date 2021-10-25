@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyControlStickButton.html#af0379c4c2d1a1b518681be52f78cdd18" xlink:title="Check if button should be considered a part of a real controller axis. Needed for some dialogs so the...">
+<g id="a_node2"><a xlink:href="classJoyControlStickButton.html#af0379c4c2d1a1b518681be52f78cdd18" target="_top" xlink:title="Check if button should be considered a part of a real controller axis. Needed for some dialogs so the...">
 <polygon fill="white" stroke="black" points="151,-0.5 151,-30.5 266,-30.5 266,-0.5 151,-0.5"/>
 <text text-anchor="start" x="159" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStickButton</text>
 <text text-anchor="middle" x="208.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::isPartRealAxis</text>

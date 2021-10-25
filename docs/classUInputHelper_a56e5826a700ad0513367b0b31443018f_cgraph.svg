@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classUInputHelper.html#a8f3fe71ae635cd3c46eaab79dd11c2e0" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classUInputHelper.html#a8f3fe71ae635cd3c46eaab79dd11c2e0" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="175,-0.5 175,-30.5 331,-30.5 331,-0.5 175,-0.5"/>
 <text text-anchor="start" x="183" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">UInputHelper::getKnownAliases</text>
 <text text-anchor="middle" x="253" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">X11SymVK</text>

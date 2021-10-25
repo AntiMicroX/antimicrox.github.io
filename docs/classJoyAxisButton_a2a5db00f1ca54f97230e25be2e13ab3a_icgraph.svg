@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyAxisButton.html#a1fff66cebefda2cbb2f262b1936b3c20" xlink:title="Set the turbo mode that the button should use.">
+<g id="a_node2"><a xlink:href="classJoyAxisButton.html#a1fff66cebefda2cbb2f262b1936b3c20" target="_top" xlink:title="Set the turbo mode that the button should use.">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 149,-19.5 149,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="74.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxisButton::setTurboMode</text>
 </a>

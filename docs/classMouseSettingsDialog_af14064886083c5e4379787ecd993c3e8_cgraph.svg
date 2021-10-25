@@ -23,7 +23,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#aaef7a531d7db8ddffcb1cc8f016fc1a2" xlink:title="Calculate maximum mouse speed when using a given mouse curve.">
+<g id="a_node2"><a xlink:href="classJoyButton.html#aaef7a531d7db8ddffcb1cc8f016fc1a2" target="_top" xlink:title="Calculate maximum mouse speed when using a given mouse curve.">
 <polygon fill="white" stroke="black" points="195.5,-49.5 195.5,-79.5 322.5,-79.5 322.5,-49.5 195.5,-49.5"/>
 <text text-anchor="start" x="203.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::calculateFinal</text>
 <text text-anchor="middle" x="259" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseSpeed</text>
@@ -39,7 +39,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classMouseSettingsDialog.html#a7adbe7521ee56d97cf8c38efc39f4b6c" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classMouseSettingsDialog.html#a7adbe7521ee56d97cf8c38efc39f4b6c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="194,-0.5 194,-30.5 324,-30.5 324,-0.5 194,-0.5"/>
 <text text-anchor="start" x="202" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseSettingsDialog</text>
 <text text-anchor="middle" x="259" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getMouseCurveForIndex</text>

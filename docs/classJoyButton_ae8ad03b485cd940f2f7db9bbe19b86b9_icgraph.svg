@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#a51b62d2ddcd4b5d24c1ab07eb67ff195" xlink:title="Create new JoyButtonSlot with data provided and insert it into assignments list if it is valid.">
+<g id="a_node2"><a xlink:href="classJoyButton.html#a51b62d2ddcd4b5d24c1ab07eb67ff195" target="_top" xlink:title="Create new JoyButtonSlot with data provided and insert it into assignments list if it is valid.">
 <polygon fill="white" stroke="black" points="0,-38.5 0,-57.5 149,-57.5 149,-38.5 0,-38.5"/>
 <text text-anchor="middle" x="74.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::insertAssignedSlot</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyButton.html#a63bb562a33c13b39832f88a21deec83b" xlink:title="Create new JoyButtonSlot with data provided and append the new slot an existing to the assignment lis...">
+<g id="a_node3"><a xlink:href="classJoyButton.html#a63bb562a33c13b39832f88a21deec83b" target="_top" xlink:title="Create new JoyButtonSlot with data provided and append the new slot an existing to the assignment lis...">
 <polygon fill="white" stroke="black" points="5.5,-0.5 5.5,-19.5 143.5,-19.5 143.5,-0.5 5.5,-0.5"/>
 <text text-anchor="middle" x="74.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::setAssignedSlot</text>
 </a>

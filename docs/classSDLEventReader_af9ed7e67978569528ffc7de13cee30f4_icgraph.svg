@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classSDLEventReader.html#a6a04914bb03b550adda5e191abd2ae49" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classSDLEventReader.html#a6a04914bb03b550adda5e191abd2ae49" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="164.5,-49.5 164.5,-79.5 306.5,-79.5 306.5,-49.5 164.5,-49.5"/>
 <text text-anchor="start" x="172.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">SDLEventReader::SDLEvent</text>
 <text text-anchor="middle" x="235.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">Reader</text>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classSDLEventReader.html#a8dc8ff624f25ddf0595a055db7c91742" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classSDLEventReader.html#a8dc8ff624f25ddf0595a055db7c91742" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="164,-0.5 164,-30.5 307,-30.5 307,-0.5 164,-0.5"/>
 <text text-anchor="start" x="172" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">SDLEventReader::secondary</text>
 <text text-anchor="middle" x="235.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Refresh</text>
@@ -53,7 +53,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classSDLEventReader.html#a90ca921f9f50fa3847efb5ca1860504f" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classSDLEventReader.html#a90ca921f9f50fa3847efb5ca1860504f" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-6 0,-25 128,-25 128,-6 0,-6"/>
 <text text-anchor="middle" x="64" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">SDLEventReader::refresh</text>
 </a>

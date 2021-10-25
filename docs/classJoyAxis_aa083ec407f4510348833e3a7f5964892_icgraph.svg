@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classAxisEditDialog.html#a702a1718f3a1dd6b64b4474ea19b71cd" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classAxisEditDialog.html#a702a1718f3a1dd6b64b4474ea19b71cd" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="179.5,-88 179.5,-118 303.5,-118 303.5,-88 179.5,-88"/>
 <text text-anchor="start" x="187.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">AxisEditDialog::AxisEdit</text>
 <text text-anchor="middle" x="241.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">Dialog</text>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classGameControllerTriggerXml.html#a382a32a139351f790192dc0991dea637" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classGameControllerTriggerXml.html#a382a32a139351f790192dc0991dea637" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="176,-39 176,-69 307,-69 307,-39 176,-39"/>
 <text text-anchor="start" x="184" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">GameControllerTriggerXml</text>
 <text text-anchor="middle" x="241.5" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">::writeConfig</text>
@@ -53,7 +53,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyAxisXml.html#a044a6be446ab6cc4b6fcb359e0cef898" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyAxisXml.html#a044a6be446ab6cc4b6fcb359e0cef898" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="179,-0.5 179,-19.5 304,-19.5 304,-0.5 179,-0.5"/>
 <text text-anchor="middle" x="241.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxisXml::writeConfig</text>
 </a>
@@ -68,7 +68,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classSetJoystickXml.html#a11eec051c05deac5ebe47b9582e83b6f" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classSetJoystickXml.html#a11eec051c05deac5ebe47b9582e83b6f" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 140,-19.5 140,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="70" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetJoystickXml::writeConfig</text>
 </a>

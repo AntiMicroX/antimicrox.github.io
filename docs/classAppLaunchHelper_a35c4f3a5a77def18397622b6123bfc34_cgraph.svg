@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#a2aace0b4e094ecc9f3642eaa90841e4f" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButton.html#a2aace0b4e094ecc9f3642eaa90841e4f" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="195,-0.5 195,-30.5 327,-30.5 327,-0.5 195,-0.5"/>
 <text text-anchor="start" x="203" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::setSpringMode</text>
 <text text-anchor="middle" x="261" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Screen</text>

@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyControlStick.html#a2b073090095e78d41f83f68835412550" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyControlStick.html#a2b073090095e78d41f83f68835412550" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="179,-295 179,-314 318,-314 318,-295 179,-295"/>
 <text text-anchor="middle" x="248.5" y="-302" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::getButtons</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classSetJoystick.html#aeb069bf5f9e89bf2fb7dc73d89b5fbbd" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classSetJoystick.html#aeb069bf5f9e89bf2fb7dc73d89b5fbbd" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="183,-245.5 183,-275.5 314,-275.5 314,-245.5 183,-245.5"/>
 <text text-anchor="start" x="191" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetJoystick::propogateSet</text>
 <text text-anchor="middle" x="248.5" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00">Change</text>
@@ -52,7 +52,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classSetJoystick.html#a67ced6595586b28e10149b6e94a8fd5b" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classSetJoystick.html#a67ced6595586b28e10149b6e94a8fd5b" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="183,-196.5 183,-226.5 314,-226.5 314,-196.5 183,-196.5"/>
 <text text-anchor="start" x="191" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetJoystick::propogateSet</text>
 <text text-anchor="middle" x="248.5" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">StickButtonAssociation</text>
@@ -68,7 +68,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classSetJoystick.html#aab253b5aecb108448850005cb2f443c4" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classSetJoystick.html#aab253b5aecb108448850005cb2f443c4" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="183,-98.5 183,-128.5 314,-128.5 314,-98.5 183,-98.5"/>
 <text text-anchor="start" x="191" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetJoystick::propogateSet</text>
 <text text-anchor="middle" x="248.5" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">StickButtonClick</text>
@@ -84,7 +84,7 @@
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="$classSetJoystick.html#a6506ecba3209c605da73d86f87a10e2b" xlink:title=" ">
+<g id="a_node9"><a xlink:href="classSetJoystick.html#a6506ecba3209c605da73d86f87a10e2b" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="183,-49.5 183,-79.5 314,-79.5 314,-49.5 183,-49.5"/>
 <text text-anchor="start" x="191" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetJoystick::propogateSet</text>
 <text text-anchor="middle" x="248.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">StickButtonNameChange</text>
@@ -100,7 +100,7 @@
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="$classSetJoystick.html#af29af23160b680dfa735921cc4c6b4de" xlink:title=" ">
+<g id="a_node11"><a xlink:href="classSetJoystick.html#af29af23160b680dfa735921cc4c6b4de" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="183,-147.5 183,-177.5 314,-177.5 314,-147.5 183,-147.5"/>
 <text text-anchor="start" x="191" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetJoystick::propogateSet</text>
 <text text-anchor="middle" x="248.5" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">StickButtonRelease</text>
@@ -116,7 +116,7 @@
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="$classSetJoystick.html#a56ee7ab2c8907e4b11c44f0db1986e27" xlink:title=" ">
+<g id="a_node12"><a xlink:href="classSetJoystick.html#a56ee7ab2c8907e4b11c44f0db1986e27" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="183,-0.5 183,-30.5 314,-30.5 314,-0.5 183,-0.5"/>
 <text text-anchor="start" x="191" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetJoystick::propogateSet</text>
 <text text-anchor="middle" x="248.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">StickNameChange</text>
@@ -132,7 +132,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="$classJoyButton.html#abbccee98e377453167a47b49874eeab7" xlink:title=" ">
+<g id="a_node6"><a xlink:href="classJoyButton.html#abbccee98e377453167a47b49874eeab7" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="354,-147.5 354,-177.5 486,-177.5 486,-147.5 354,-147.5"/>
 <text text-anchor="start" x="362" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getIgnoreEvent</text>
 <text text-anchor="middle" x="420" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">State</text>
@@ -148,7 +148,7 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="$classJoyControlStick.html#a2bf34c9768e9975e311a1ea8918468b1" xlink:title=" ">
+<g id="a_node7"><a xlink:href="classJoyControlStick.html#a2bf34c9768e9975e311a1ea8918468b1" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="355.5,-60 355.5,-79 484.5,-79 484.5,-60 355.5,-60"/>
 <text text-anchor="middle" x="420" y="-67" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::getIndex</text>
 </a>
@@ -163,7 +163,7 @@
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="$classJoyControlStickButton.html#a9dc9e9c5b8811ef41a0cde33c5af649e" xlink:title=" ">
+<g id="a_node8"><a xlink:href="classJoyControlStickButton.html#a9dc9e9c5b8811ef41a0cde33c5af649e" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="362.5,-98.5 362.5,-128.5 477.5,-128.5 477.5,-98.5 362.5,-98.5"/>
 <text text-anchor="start" x="370.5" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStickButton</text>
 <text text-anchor="middle" x="420" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getStick</text>
@@ -191,7 +191,7 @@
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="$classJoyButton.html#aa659d5a0860f5047862ca0761d8d775a" xlink:title="Get 0 indexed number of button.">
+<g id="a_node10"><a xlink:href="classJoyButton.html#aa659d5a0860f5047862ca0761d8d775a" target="_top" xlink:title="Get 0 indexed number of button.">
 <polygon fill="white" stroke="black" points="354.5,-22 354.5,-41 485.5,-41 485.5,-22 354.5,-22"/>
 <text text-anchor="middle" x="420" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getJoyNumber</text>
 </a>

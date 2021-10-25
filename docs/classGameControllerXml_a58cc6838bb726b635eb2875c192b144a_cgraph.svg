@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#a7123f5432bda7b5b9d4b2b95bdabf4db" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButton.html#a7123f5432bda7b5b9d4b2b95bdabf4db" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="151.5,-76.5 151.5,-95.5 286.5,-95.5 286.5,-76.5 151.5,-76.5"/>
 <text text-anchor="middle" x="219" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getButtonName</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyAxis.html#a9ceda991c13da3a99868acc436ed20f3" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyAxis.html#a9ceda991c13da3a99868acc436ed20f3" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="153.5,-38.5 153.5,-57.5 284.5,-57.5 284.5,-38.5 153.5,-38.5"/>
 <text text-anchor="middle" x="219" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getRealJoyIndex</text>
 </a>
@@ -52,7 +52,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyButton.html#a39c9ccaf641bb8bf50b29d4c4e04c165" xlink:title="Get a 1 indexed number of button.">
+<g id="a_node4"><a xlink:href="classJoyButton.html#a39c9ccaf641bb8bf50b29d4c4e04c165" target="_top" xlink:title="Get a 1 indexed number of button.">
 <polygon fill="white" stroke="black" points="144,-0.5 144,-19.5 294,-19.5 294,-0.5 144,-0.5"/>
 <text text-anchor="middle" x="219" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getRealJoyNumber</text>
 </a>

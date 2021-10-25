@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classInputDevice.html#a7084000be8699a34315d91da8466ce71" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classInputDevice.html#a7084000be8699a34315d91da8466ce71" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="176,-0.5 176,-19.5 286,-19.5 286,-0.5 176,-0.5"/>
 <text text-anchor="middle" x="231" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDevice::isActive</text>
 </a>

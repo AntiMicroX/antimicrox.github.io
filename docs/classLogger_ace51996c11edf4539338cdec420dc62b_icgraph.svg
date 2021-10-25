@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classAntiMicroSettings.html#a5650eb5f8d9af851a7f58fc086b5ce27" xlink:title="applies settings from command line to logger">
+<g id="a_node2"><a xlink:href="classAntiMicroSettings.html#a5650eb5f8d9af851a7f58fc086b5ce27" target="_top" xlink:title="applies settings from command line to logger">
 <polygon fill="white" stroke="black" points="90.5,-77 90.5,-107 206.5,-107 206.5,-77 90.5,-77"/>
 <text text-anchor="start" x="98.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">AntiMicroSettings::</text>
 <text text-anchor="middle" x="148.5" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">applySettingsToLogger</text>
@@ -37,7 +37,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classLogHelper.html#a9a8cfd5c3aadd0422c13db0e66e37177" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classLogHelper.html#a9a8cfd5c3aadd0422c13db0e66e37177" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="93,-38.5 93,-57.5 204,-57.5 204,-38.5 93,-38.5"/>
 <text text-anchor="middle" x="148.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">LogHelper::LogHelper</text>
 </a>
@@ -52,7 +52,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classStreamPrinter.html#a3592b2b36fab0bfcd31356437ab26b42" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classStreamPrinter.html#a3592b2b36fab0bfcd31356437ab26b42" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="74,-0.5 74,-19.5 223,-19.5 223,-0.5 74,-0.5"/>
 <text text-anchor="middle" x="148.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">StreamPrinter::~StreamPrinter</text>
 </a>
@@ -67,7 +67,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" xlink:title=" ">
+<g id="a_node3"><a xlink:href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-82.5 0,-101.5 38,-101.5 38,-82.5 0,-82.5"/>
 <text text-anchor="middle" x="19" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
 </a>

@@ -1,7 +1,8 @@
 <map id="AntKeyMapper::getNativeKeyMapper" name="AntKeyMapper::getNativeKeyMapper">
-<area shape="rect" id="node1" title=" " alt="" coords="248,104,440,145"/>
+<area shape="rect" id="node1" title=" " alt="" coords="248,136,440,177"/>
 <area shape="rect" id="node2" href="$classSimpleKeyGrabberButton.html#ab6a33975387e7840e45cf0a6e5a701df" title=" " alt="" coords="19,5,187,47"/>
-<area shape="rect" id="node3" href="$classQKeyDisplayDialog.html#ab4ce996adf426435f5075ca246d75c32" title=" " alt="" coords="31,71,174,112"/>
-<area shape="rect" id="node4" href="$classButtonEditDialog.html#aa9469772bd8abc88407492e2c9385687" title=" " alt="" coords="5,136,200,177"/>
-<area shape="rect" id="node5" href="$classUInputEventHandler.html#ae7f56462de69c74e7f2add96434a5313" title=" " alt="" coords="29,201,177,243"/>
+<area shape="rect" id="node3" href="$classWinVMultiEventHandler.html#adfd0ac833d8fe76ab0896e49369a9445" title=" " alt="" coords="23,71,183,112"/>
+<area shape="rect" id="node4" href="$classQKeyDisplayDialog.html#ab4ce996adf426435f5075ca246d75c32" title=" " alt="" coords="31,136,174,177"/>
+<area shape="rect" id="node5" href="$classButtonEditDialog.html#aa9469772bd8abc88407492e2c9385687" title=" " alt="" coords="5,201,200,243"/>
+<area shape="rect" id="node6" href="$classUInputEventHandler.html#ae7f56462de69c74e7f2add96434a5313" title=" " alt="" coords="29,267,177,308"/>
 </map>

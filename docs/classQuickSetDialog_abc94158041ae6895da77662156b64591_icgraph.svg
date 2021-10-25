@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classQuickSetDialog.html#aecc56c37a7b9b387e3ea4afb8637596a" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classQuickSetDialog.html#aecc56c37a7b9b387e3ea4afb8637596a" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="167,-0.5 167,-30.5 307,-30.5 307,-0.5 167,-0.5"/>
 <text text-anchor="start" x="175" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">QuickSetDialog::connectBtn</text>
 <text text-anchor="middle" x="237" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">ForDialog</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classQuickSetDialog.html#a57726006cbe2d8534f4be91a05646dd2" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classQuickSetDialog.html#a57726006cbe2d8534f4be91a05646dd2" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 131,-30.5 131,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">QuickSetDialog::QuickSet</text>
 <text text-anchor="middle" x="65.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Dialog</text>

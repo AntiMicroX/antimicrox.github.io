@@ -1,9 +1,8 @@
 <map id="AutoProfileWatcher::getWindowNameProfileAssignments" name="AutoProfileWatcher::getWindowNameProfileAssignments">
-<area shape="rect" id="node1" title=" " alt="" coords="917,64,1160,105"/>
-<area shape="rect" id="node2" href="$classAutoProfileWatcher.html#a271cfd222b93c64b8c079cfa8c0279d5" title=" " alt="" coords="699,5,869,47"/>
-<area shape="rect" id="node3" href="$classAutoProfileWatcher.html#a561af8319ef8031986ac0eaee221c6a3" title=" " alt="" coords="488,49,651,91"/>
-<area shape="rect" id="node7" href="$classAutoProfileWatcher.html#ae6ec8b944a048017f3e9958525ccfb62" title=" " alt="" coords="502,115,637,156"/>
-<area shape="rect" id="node4" href="$classAutoProfileWatcher.html#a6c9832eb02480c6909f49cbb05d5113c" title=" " alt="" coords="265,115,407,156"/>
-<area shape="rect" id="node5" href="$classMainWindow.html#ae9f72ff45056908317963a1e7fa634a0" title="Build list of current input devices and pass it to settings dialog instance. Open Settings dialog." alt="" coords="232,49,440,91"/>
-<area shape="rect" id="node6" href="$classMainWindow.html#a2f0c03d3d51748ab794e698322110614" title=" " alt="" coords="5,57,184,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="699,39,941,80"/>
+<area shape="rect" id="node2" href="$classAutoProfileWatcher.html#ae6ec8b944a048017f3e9958525ccfb62" title=" " alt="" coords="502,5,637,47"/>
+<area shape="rect" id="node4" href="$classAutoProfileWatcher.html#a561af8319ef8031986ac0eaee221c6a3" title=" " alt="" coords="488,71,651,112"/>
+<area shape="rect" id="node3" href="$classAutoProfileWatcher.html#a6c9832eb02480c6909f49cbb05d5113c" title=" " alt="" coords="265,5,407,47"/>
+<area shape="rect" id="node5" href="$classMainWindow.html#ae9f72ff45056908317963a1e7fa634a0" title="Build list of current input devices and pass it to settings dialog instance. Open Settings dialog." alt="" coords="232,71,440,112"/>
+<area shape="rect" id="node6" href="$classMainWindow.html#a2f0c03d3d51748ab794e698322110614" title=" " alt="" coords="5,78,184,105"/>
 </map>

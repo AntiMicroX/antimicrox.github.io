@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classMainWindow.html#a9738583d1ab872fb2784c0faee89cb46" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classMainWindow.html#a9738583d1ab872fb2784c0faee89cb46" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="74,-6 74,-25 199,-25 199,-6 74,-6"/>
 <text text-anchor="middle" x="136.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">MainWindow::addJoyTab</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" xlink:title=" ">
+<g id="a_node3"><a xlink:href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-6 0,-25 38,-25 38,-6 0,-6"/>
 <text text-anchor="middle" x="19" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
 </a>

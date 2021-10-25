@@ -1,22 +1,23 @@
 <map id="ButtonEditDialog::keyReleaseEvent" name="ButtonEditDialog::keyReleaseEvent">
-<area shape="rect" id="node1" title=" " alt="" coords="5,407,200,449"/>
-<area shape="rect" id="node2" href="$classBaseEventHandler.html#a9a014e472ec57408d16b8b5eed964e90" title=" " alt="" coords="249,68,455,95"/>
-<area shape="rect" id="node3" href="$classAntKeyMapper.html#acd08c44a2501edcfdb1ef8a68d534b1b" title=" " alt="" coords="261,119,443,145"/>
-<area shape="rect" id="node6" href="$classEventHandlerFactory.html#a90ce153a19fbb91128bd52eb083ce271" title=" " alt="" coords="279,231,425,273"/>
-<area shape="rect" id="node9" href="$classEventHandlerFactory.html#a4c13007f0ece5bf881080c9c04f1f20d" title=" " alt="" coords="787,231,933,273"/>
-<area shape="rect" id="node11" href="$classAntKeyMapper.html#aa5a2d74e172693019c4984f5d89ba3b0" title=" " alt="" coords="256,407,448,449"/>
-<area shape="rect" id="node12" href="$classQtKeyMapperBase.html#a320ec78a9a4a978014992808ca787796" title=" " alt="" coords="516,499,724,525"/>
-<area shape="rect" id="node13" href="$classAntKeyMapper.html#afc93b666a3e8691ae48184e8093797fb" title=" " alt="" coords="260,524,444,551"/>
-<area shape="rect" id="node14" href="$classAntKeyMapper.html#a07957c1e2baac6c4266678d89dc7c3a6" title=" " alt="" coords="248,575,456,601"/>
-<area shape="rect" id="node16" href="$event_8cpp.html#a720e476fc47628b6581dba3eb6ce9657" title=" " alt="" coords="260,625,444,652"/>
-<area shape="rect" id="node4" href="$classAntKeyMapper.html#abe4a434636d370a750d32a14b9a139d3" title=" " alt="" coords="520,5,720,32"/>
-<area shape="rect" id="node5" href="$antkeymapper_8cpp.html#a4f87707944cf82e8e59c85d48e24951c" title=" " alt="" coords="540,56,700,83"/>
-<area shape="rect" id="node7" href="$classEventHandlerFactory.html#ade5162034acc0f8683725fdb124bece0" title=" " alt="" coords="536,107,704,149"/>
-<area shape="rect" id="node8" href="$classEventHandlerFactory.html#a2f843293b2ea47271fc7bd99bd871fa6" title=" " alt="" coords="543,173,697,214"/>
-<area shape="rect" id="node10" href="$classEventHandlerFactory.html#afa5ca0171c70b1a24f92b5c8dd00dc92" title=" " alt="" coords="547,290,693,331"/>
-<area shape="rect" id="node15" href="$classQtKeyMapperBase.html#a5df0f313bce11847f8495126373e7178" title=" " alt="" coords="504,575,736,601"/>
-<area shape="rect" id="node17" href="$classX11Extras.html#a643c95dc1de8eb073a0accb41619fe83" title="Get display instance." alt="" coords="554,625,686,652"/>
-<area shape="rect" id="node18" href="$classX11Extras.html#ace76277fced60e6bd6ff880030338182" title=" " alt="" coords="541,676,699,703"/>
-<area shape="rect" id="node19" href="$classX11Extras.html#ab9bcb016e23bacb0e988feb8175d2c88" title=" " alt="" coords="784,676,936,703"/>
-<area shape="rect" id="node20" href="$classX11Extras.html#a6f63e77ed045e174546d77333672b8f0" title=" " alt="" coords="984,669,1164,710"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,363,200,405"/>
+<area shape="rect" id="node2" href="$classWinExtras.html#a0a256f3e0cfa4aae5937dae5b51fb24b" title="Obtain a more specific virtual key (unsigned int) for a key grab event." alt="" coords="257,93,447,120"/>
+<area shape="rect" id="node3" href="$classBaseEventHandler.html#a9a014e472ec57408d16b8b5eed964e90" title=" " alt="" coords="249,144,455,171"/>
+<area shape="rect" id="node4" href="$classAntKeyMapper.html#acd08c44a2501edcfdb1ef8a68d534b1b" title=" " alt="" coords="261,195,443,221"/>
+<area shape="rect" id="node7" href="$classEventHandlerFactory.html#a90ce153a19fbb91128bd52eb083ce271" title=" " alt="" coords="279,246,425,287"/>
+<area shape="rect" id="node10" href="$classEventHandlerFactory.html#a4c13007f0ece5bf881080c9c04f1f20d" title=" " alt="" coords="787,231,933,273"/>
+<area shape="rect" id="node12" href="$classAntKeyMapper.html#aa5a2d74e172693019c4984f5d89ba3b0" title=" " alt="" coords="256,393,448,434"/>
+<area shape="rect" id="node13" href="$classQtKeyMapperBase.html#a320ec78a9a4a978014992808ca787796" title=" " alt="" coords="516,484,724,511"/>
+<area shape="rect" id="node14" href="$classAntKeyMapper.html#afc93b666a3e8691ae48184e8093797fb" title=" " alt="" coords="260,509,444,536"/>
+<area shape="rect" id="node15" href="$classAntKeyMapper.html#a07957c1e2baac6c4266678d89dc7c3a6" title=" " alt="" coords="248,560,456,587"/>
+<area shape="rect" id="node17" href="$event_8cpp.html#a720e476fc47628b6581dba3eb6ce9657" title=" " alt="" coords="260,611,444,637"/>
+<area shape="rect" id="node5" href="$classAntKeyMapper.html#abe4a434636d370a750d32a14b9a139d3" title=" " alt="" coords="520,5,720,32"/>
+<area shape="rect" id="node6" href="$antkeymapper_8cpp.html#a4f87707944cf82e8e59c85d48e24951c" title=" " alt="" coords="540,56,700,83"/>
+<area shape="rect" id="node8" href="$classEventHandlerFactory.html#ade5162034acc0f8683725fdb124bece0" title=" " alt="" coords="536,107,704,149"/>
+<area shape="rect" id="node9" href="$classEventHandlerFactory.html#a2f843293b2ea47271fc7bd99bd871fa6" title=" " alt="" coords="543,173,697,214"/>
+<area shape="rect" id="node11" href="$classEventHandlerFactory.html#afa5ca0171c70b1a24f92b5c8dd00dc92" title=" " alt="" coords="547,290,693,331"/>
+<area shape="rect" id="node16" href="$classQtKeyMapperBase.html#a5df0f313bce11847f8495126373e7178" title=" " alt="" coords="504,560,736,587"/>
+<area shape="rect" id="node18" href="$classX11Extras.html#a643c95dc1de8eb073a0accb41619fe83" title="Get display instance." alt="" coords="554,611,686,637"/>
+<area shape="rect" id="node19" href="$classX11Extras.html#ace76277fced60e6bd6ff880030338182" title=" " alt="" coords="541,661,699,688"/>
+<area shape="rect" id="node20" href="$classX11Extras.html#ab9bcb016e23bacb0e988feb8175d2c88" title=" " alt="" coords="784,661,936,688"/>
+<area shape="rect" id="node21" href="$classX11Extras.html#a6f63e77ed045e174546d77333672b8f0" title=" " alt="" coords="984,654,1164,695"/>
 </map>

@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyDPad.html#a642b801fba7ca92115b95eb6d0d95b52" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyDPad.html#a642b801fba7ca92115b95eb6d0d95b52" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="154,-38.5 154,-57.5 281,-57.5 281,-38.5 154,-38.5"/>
 <text text-anchor="middle" x="217.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyDPad::getDPadDelay</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyDPad.html#af6ce40c6bed6e6ceb12b2060014d818c" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyDPad.html#af6ce40c6bed6e6ceb12b2060014d818c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="154,-0.5 154,-19.5 281,-19.5 281,-0.5 154,-0.5"/>
 <text text-anchor="middle" x="217.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyDPad::setDPadDelay</text>
 </a>

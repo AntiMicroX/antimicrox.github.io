@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classInputDevice.html#a7a7e979f61e7ad7ab12d32913004a81b" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classInputDevice.html#a7a7e979f61e7ad7ab12d32913004a81b" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="192,-38.5 192,-57.5 297,-57.5 297,-38.5 192,-38.5"/>
 <text text-anchor="middle" x="244.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDevice::getCali</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classInputDevice.html#a1c4c65d9e509a5c3bde064871d7e1849" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classInputDevice.html#a1c4c65d9e509a5c3bde064871d7e1849" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="170,-0.5 170,-19.5 319,-19.5 319,-0.5 170,-0.5"/>
 <text text-anchor="middle" x="244.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDevice::getJoystick_sets</text>
 </a>

@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyAxisXml.html#abfcf483748d22f52a9f76d2bf23e9a3d" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyAxisXml.html#abfcf483748d22f52a9f76d2bf23e9a3d" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="177.5,-38.5 177.5,-57.5 299.5,-57.5 299.5,-38.5 177.5,-38.5"/>
 <text text-anchor="middle" x="238.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxisXml::readConfig</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyAxisXml.html#a044a6be446ab6cc4b6fcb359e0cef898" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyAxisXml.html#a044a6be446ab6cc4b6fcb359e0cef898" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="176,-0.5 176,-19.5 301,-19.5 301,-0.5 176,-0.5"/>
 <text text-anchor="middle" x="238.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxisXml::writeConfig</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classSetJoystickXml.html#aa95423a01fab878cbc69bffb7f6121f3" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classSetJoystickXml.html#aa95423a01fab878cbc69bffb7f6121f3" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="1,-38.5 1,-57.5 139,-57.5 139,-38.5 1,-38.5"/>
 <text text-anchor="middle" x="70" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetJoystickXml::readConfig</text>
 </a>
@@ -66,7 +66,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classSetJoystickXml.html#a11eec051c05deac5ebe47b9582e83b6f" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classSetJoystickXml.html#a11eec051c05deac5ebe47b9582e83b6f" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 140,-19.5 140,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="70" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetJoystickXml::writeConfig</text>
 </a>

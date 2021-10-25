@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classInputDevice.html#ac48b8e2215ac8b1310d7397e45fed557" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classInputDevice.html#ac48b8e2215ac8b1310d7397e45fed557" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="185,-6 185,-25 325,-25 325,-6 185,-6"/>
 <text text-anchor="middle" x="255" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">InputDevice::getGUIDString</text>
 </a>

@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classInputDevice.html#a3184377c2e251949cae1a0937aaef78c" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classInputDevice.html#a3184377c2e251949cae1a0937aaef78c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="198.5,-38.5 198.5,-57.5 332.5,-57.5 332.5,-38.5 198.5,-38.5"/>
 <text text-anchor="middle" x="265.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDevice::getSDLName</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classInputDevice.html#ad2d9a268b89898a0a29b56d7af63de9e" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classInputDevice.html#ad2d9a268b89898a0a29b56d7af63de9e" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="188,-0.5 188,-19.5 343,-19.5 343,-0.5 188,-0.5"/>
 <text text-anchor="middle" x="265.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDevice::getUniqueIDString</text>
 </a>

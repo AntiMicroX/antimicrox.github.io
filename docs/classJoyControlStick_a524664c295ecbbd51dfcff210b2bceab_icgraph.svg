@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classCalibration.html#a27a8dcaa8bc1ae3ebf2da993b29a4e2e" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classCalibration.html#a27a8dcaa8bc1ae3ebf2da993b29a4e2e" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="14,-76.5 14,-95.5 128,-95.5 128,-76.5 14,-76.5"/>
 <text text-anchor="middle" x="71" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">Calibration::Calibration</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classCalibration.html#a67756310429bca0aa53d0a9a42a6caca" xlink:title="Creates progress bars for axes and creates connections.">
+<g id="a_node3"><a xlink:href="classCalibration.html#a67756310429bca0aa53d0a9a42a6caca" target="_top" xlink:title="Creates progress bars for axes and creates connections.">
 <polygon fill="white" stroke="black" points="0,-38.5 0,-57.5 142,-57.5 142,-38.5 0,-38.5"/>
 <text text-anchor="middle" x="71" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Calibration::setProgressBars</text>
 </a>
@@ -52,7 +52,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyControlStick.html#a3ab1764a44e806d2d3896023f82fa3b1" xlink:title="Write the status of the properties of a stick and direction buttons to an XML stream.">
+<g id="a_node4"><a xlink:href="classJoyControlStick.html#a3ab1764a44e806d2d3896023f82fa3b1" target="_top" xlink:title="Write the status of the properties of a stick and direction buttons to an XML stream.">
 <polygon fill="white" stroke="black" points="0.5,-0.5 0.5,-19.5 141.5,-19.5 141.5,-0.5 0.5,-0.5"/>
 <text text-anchor="middle" x="71" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::writeConfig</text>
 </a>

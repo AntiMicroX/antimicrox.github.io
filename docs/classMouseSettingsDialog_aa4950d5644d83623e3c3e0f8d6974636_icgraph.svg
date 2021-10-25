@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classMouseAxisSettingsDialog.html#a33546e4b608264ce6d2758678eb6d2e7" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classMouseAxisSettingsDialog.html#a33546e4b608264ce6d2758678eb6d2e7" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="17.5,-208.5 17.5,-238.5 152.5,-238.5 152.5,-208.5 17.5,-208.5"/>
 <text text-anchor="start" x="25.5" y="-226.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseAxisSettingsDialog</text>
 <text text-anchor="middle" x="85" y="-215.5" font-family="Helvetica,sans-Serif" font-size="10.00">::MouseAxisSettingsDialog</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classMouseButtonSettingsDialog.html#a181bfdf388907056ec492d58d85f5d34" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classMouseButtonSettingsDialog.html#a181bfdf388907056ec492d58d85f5d34" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="13,-159.5 13,-189.5 157,-189.5 157,-159.5 13,-159.5"/>
 <text text-anchor="start" x="21" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseButtonSettingsDialog</text>
 <text text-anchor="middle" x="85" y="-166.5" font-family="Helvetica,sans-Serif" font-size="10.00">::MouseButtonSettingsDialog</text>
@@ -54,7 +54,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classMouseControlStickSettingsDialog.html#aac9d5ef09dced4cee0df95d99ae13369" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classMouseControlStickSettingsDialog.html#aac9d5ef09dced4cee0df95d99ae13369" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-99 0,-140 170,-140 170,-99 0,-99"/>
 <text text-anchor="start" x="8" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00">MouseControlStickSettings</text>
 <text text-anchor="start" x="8" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">Dialog::MouseControlStickSettings</text>
@@ -71,7 +71,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classMouseDPadSettingsDialog.html#a51ae7b4e5b371e35d4f470787f5fc846" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classMouseDPadSettingsDialog.html#a51ae7b4e5b371e35d4f470787f5fc846" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="15,-49.5 15,-79.5 155,-79.5 155,-49.5 15,-49.5"/>
 <text text-anchor="start" x="23" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseDPadSettingsDialog</text>
 <text text-anchor="middle" x="85" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::MouseDPadSettingsDialog</text>
@@ -87,7 +87,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="$classMouseSettingsDialog.html#a4a3da2adef113d4d6580b36fe62067ed" xlink:title=" ">
+<g id="a_node6"><a xlink:href="classMouseSettingsDialog.html#a4a3da2adef113d4d6580b36fe62067ed" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="27,-0.5 27,-30.5 143,-30.5 143,-0.5 27,-0.5"/>
 <text text-anchor="start" x="35" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseSettingsDialog</text>
 <text text-anchor="middle" x="85" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::MouseSettingsDialog</text>

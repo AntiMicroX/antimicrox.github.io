@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classVirtualMousePushButton.html#af2fb97fe4f04f89cc69abc3615c7c1ca" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classVirtualMousePushButton.html#af2fb97fe4f04f89cc69abc3615c7c1ca" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 131,-30.5 131,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">VirtualMousePushButton</text>
 <text text-anchor="middle" x="65.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::VirtualMousePushButton</text>

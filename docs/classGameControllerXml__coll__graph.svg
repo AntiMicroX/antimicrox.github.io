@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classInputDeviceXml.html" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classInputDeviceXml.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-67.5 0,-86.5 86,-86.5 86,-67.5 0,-67.5"/>
 <text text-anchor="middle" x="43" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDeviceXml</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classInputDevice.html" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classInputDevice.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="72.5,-134.5 72.5,-153.5 141.5,-153.5 141.5,-134.5 72.5,-134.5"/>
 <text text-anchor="middle" x="107" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDevice</text>
 </a>
@@ -73,7 +73,7 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="$classGameController.html" xlink:title=" ">
+<g id="a_node7"><a xlink:href="classGameController.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="104.5,-67.5 104.5,-86.5 189.5,-86.5 189.5,-67.5 104.5,-67.5"/>
 <text text-anchor="middle" x="147" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameController</text>
 </a>
@@ -88,7 +88,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classAntiMicroSettings.html" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classAntiMicroSettings.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="75,-201.5 75,-220.5 169,-220.5 169,-201.5 75,-201.5"/>
 <text text-anchor="middle" x="122" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00">AntiMicroSettings</text>
 </a>

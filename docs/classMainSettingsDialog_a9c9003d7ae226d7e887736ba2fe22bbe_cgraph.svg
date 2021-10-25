@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classAntiMicroSettings.html#a4f172ffefe55eeba5afff3d54182f881" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classAntiMicroSettings.html#a4f172ffefe55eeba5afff3d54182f881" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="201,-49.5 201,-79.5 301,-79.5 301,-49.5 201,-49.5"/>
 <text text-anchor="start" x="209" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">AntiMicroSettings::</text>
 <text text-anchor="middle" x="251" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">getLock</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classMainSettingsDialog.html#a210ab27414cfb818dfbc5b03b9e15b6f" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classMainSettingsDialog.html#a210ab27414cfb818dfbc5b03b9e15b6f" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="176,-0.5 176,-30.5 326,-30.5 326,-0.5 176,-0.5"/>
 <text text-anchor="start" x="184" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">MainSettingsDialog</text>
 <text text-anchor="middle" x="251" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::insertTempControllerMapping</text>

@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classX11Extras.html#a60a2f22efb4419a05464fb18bf3ac9f1" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classX11Extras.html#a60a2f22efb4419a05464fb18bf3ac9f1" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="189,-76.5 189,-95.5 326,-95.5 326,-76.5 189,-76.5"/>
 <text text-anchor="middle" x="257.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">X11Extras::checkFeedback</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classX11Extras.html#a643c95dc1de8eb073a0accb41619fe83" xlink:title="Get display instance.">
+<g id="a_node3"><a xlink:href="classX11Extras.html#a643c95dc1de8eb073a0accb41619fe83" target="_top" xlink:title="Get display instance.">
 <polygon fill="white" stroke="black" points="208,-38.5 208,-57.5 307,-57.5 307,-38.5 208,-38.5"/>
 <text text-anchor="middle" x="257.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">X11Extras::display</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classX11Extras.html#ada76380c3586cf352e3fb1b87c2f6c1d" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classX11Extras.html#ada76380c3586cf352e3fb1b87c2f6c1d" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="195,-0.5 195,-19.5 320,-19.5 320,-0.5 195,-0.5"/>
 <text text-anchor="middle" x="257.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">X11Extras::findVirtualPtr</text>
 </a>

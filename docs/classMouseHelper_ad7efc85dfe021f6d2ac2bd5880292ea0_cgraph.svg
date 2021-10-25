@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classMouseHelper.html#a7751ab442288b9c4878eb87ea56fa647" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classMouseHelper.html#a7751ab442288b9c4878eb87ea56fa647" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="174,-0.5 174,-30.5 304,-30.5 304,-0.5 174,-0.5"/>
 <text text-anchor="start" x="182" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseHelper::resetSpring</text>
 <text text-anchor="middle" x="239" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">MouseMoving</text>

@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classFlashButtonWidget.html#ad8d71480fd154aad271af693af681394" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classFlashButtonWidget.html#ad8d71480fd154aad271af693af681394" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="174,-115 174,-145 280,-145 280,-115 174,-115"/>
 <text text-anchor="start" x="182" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00">FlashButtonWidget::</text>
 <text text-anchor="middle" x="227" y="-122" font-family="Helvetica,sans-Serif" font-size="10.00">flash</text>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyButton.html#aa1eb52e9cce61ac403f9b451c512f197" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyButton.html#aa1eb52e9cce61ac403f9b451c512f197" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="161,-76.5 161,-95.5 293,-95.5 293,-76.5 161,-76.5"/>
 <text text-anchor="middle" x="227" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getButtonState</text>
 </a>
@@ -52,7 +52,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyAxis.html#aae658e2a7b83ce73ce3d7d1ed13eabc6" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyAxis.html#aae658e2a7b83ce73ce3d7d1ed13eabc6" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="164,-38.5 164,-57.5 290,-57.5 290,-38.5 164,-38.5"/>
 <text text-anchor="middle" x="227" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getNAxisButton</text>
 </a>
@@ -67,7 +67,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classJoyAxis.html#ad51d55d2a95190468209f7481eae8639" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classJoyAxis.html#ad51d55d2a95190468209f7481eae8639" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="164.5,-0.5 164.5,-19.5 289.5,-19.5 289.5,-0.5 164.5,-0.5"/>
 <text text-anchor="middle" x="227" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getPAxisButton</text>
 </a>

@@ -9,9 +9,9 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 138)">
 <title>Graphical Class Hierarchy</title>
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-138 233,-138 233,4 -4,4"/>
-<!-- Node105 -->
+<!-- Node108 -->
 <g id="node1" class="node">
-<title>Node105</title>
+<title>Node108</title>
 <g id="a_node1"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="0,-57.5 0,-76.5 48,-76.5 48,-57.5 0,-57.5"/>
 <text text-anchor="middle" x="24" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">QMenu</text>
@@ -21,60 +21,60 @@
 <!-- Node0 -->
 <g id="node2" class="node">
 <title>Node0</title>
-<g id="a_node2"><a xlink:href="$classDPadContextMenu.html" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classDPadContextMenu.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="106.5,-114.5 106.5,-133.5 206.5,-133.5 206.5,-114.5 106.5,-114.5"/>
 <text text-anchor="middle" x="156.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">DPadContextMenu</text>
 </a>
 </g>
 </g>
-<!-- Node105&#45;&gt;Node0 -->
+<!-- Node108&#45;&gt;Node0 -->
 <g id="edge1" class="edge">
-<title>Node105&#45;&gt;Node0</title>
+<title>Node108&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M45.85,-82.72C56.75,-90.33 70.59,-99.08 84,-105 92.46,-108.74 101.82,-111.87 110.9,-114.45"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="47.62,-79.68 37.46,-76.68 43.53,-85.36 47.62,-79.68"/>
 </g>
-<!-- Node107 -->
+<!-- Node110 -->
 <g id="node3" class="node">
-<title>Node107</title>
-<g id="a_node3"><a xlink:href="$classJoyAxisContextMenu.html" xlink:title=" ">
+<title>Node110</title>
+<g id="a_node3"><a xlink:href="classJoyAxisContextMenu.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="101.5,-76.5 101.5,-95.5 211.5,-95.5 211.5,-76.5 101.5,-76.5"/>
 <text text-anchor="middle" x="156.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxisContextMenu</text>
 </a>
 </g>
 </g>
-<!-- Node105&#45;&gt;Node107 -->
+<!-- Node108&#45;&gt;Node110 -->
 <g id="edge2" class="edge">
-<title>Node105&#45;&gt;Node107</title>
+<title>Node108&#45;&gt;Node110</title>
 <path fill="none" stroke="midnightblue" d="M58,-71.8C71.13,-73.72 86.58,-75.97 101.27,-78.1"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="58.43,-68.33 48.03,-70.35 57.42,-75.26 58.43,-68.33"/>
 </g>
-<!-- Node108 -->
+<!-- Node111 -->
 <g id="node4" class="node">
-<title>Node108</title>
-<g id="a_node4"><a xlink:href="$classJoyButtonContextMenu.html" xlink:title=" ">
+<title>Node111</title>
+<g id="a_node4"><a xlink:href="classJoyButtonContextMenu.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="97,-38.5 97,-57.5 216,-57.5 216,-38.5 97,-38.5"/>
 <text text-anchor="middle" x="156.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButtonContextMenu</text>
 </a>
 </g>
 </g>
-<!-- Node105&#45;&gt;Node108 -->
+<!-- Node108&#45;&gt;Node111 -->
 <g id="edge3" class="edge">
-<title>Node105&#45;&gt;Node108</title>
+<title>Node108&#45;&gt;Node111</title>
 <path fill="none" stroke="midnightblue" d="M58.24,-62.16C70,-60.45 83.6,-58.47 96.83,-56.54"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="57.42,-58.74 48.03,-63.65 58.43,-65.67 57.42,-58.74"/>
 </g>
-<!-- Node109 -->
+<!-- Node112 -->
 <g id="node5" class="node">
-<title>Node109</title>
-<g id="a_node5"><a xlink:href="$classJoyControlStickContextMenu.html" xlink:title=" ">
+<title>Node112</title>
+<g id="a_node5"><a xlink:href="classJoyControlStickContextMenu.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="84,-0.5 84,-19.5 229,-19.5 229,-0.5 84,-0.5"/>
 <text text-anchor="middle" x="156.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStickContextMenu</text>
 </a>
 </g>
 </g>
-<!-- Node105&#45;&gt;Node109 -->
+<!-- Node108&#45;&gt;Node112 -->
 <g id="edge4" class="edge">
-<title>Node105&#45;&gt;Node109</title>
+<title>Node108&#45;&gt;Node112</title>
 <path fill="none" stroke="midnightblue" d="M45.85,-51.28C56.75,-43.67 70.59,-34.92 84,-29 92.46,-25.26 101.82,-22.13 110.9,-19.55"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="43.53,-48.64 37.46,-57.32 47.62,-54.32 43.53,-48.64"/>
 </g>

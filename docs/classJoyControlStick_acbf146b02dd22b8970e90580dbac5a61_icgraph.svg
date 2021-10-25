@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyControlStickButton.html#a3fde8ac631cd01ff73e1e13b4317330c" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyControlStickButton.html#a3fde8ac631cd01ff73e1e13b4317330c" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 191,-30.5 191,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStickButton</text>
 <text text-anchor="middle" x="95.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getLastMouseDistanceFromDeadZone</text>

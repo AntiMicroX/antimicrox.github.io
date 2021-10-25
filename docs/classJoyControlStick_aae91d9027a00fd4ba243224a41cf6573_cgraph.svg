@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyControlStick.html#acd482c339765a3f85816d0a4ac8ce088" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyControlStick.html#acd482c339765a3f85816d0a4ac8ce088" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="188,-49.5 188,-79.5 327,-79.5 327,-49.5 188,-49.5"/>
 <text text-anchor="start" x="196" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::getButtons</text>
 <text text-anchor="middle" x="257.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">ForDirection</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyButton.html#a2c5263620301922a785c5d8664d93aeb" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyButton.html#a2c5263620301922a785c5d8664d93aeb" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="195,-0.5 195,-30.5 320,-30.5 320,-0.5 195,-0.5"/>
 <text text-anchor="start" x="203" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::setUpdateInit</text>
 <text text-anchor="middle" x="257.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Accel</text>

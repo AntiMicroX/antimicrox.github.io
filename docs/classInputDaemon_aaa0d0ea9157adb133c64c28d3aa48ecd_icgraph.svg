@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" xlink:title=" ">
+<g id="a_node2"><a xlink:href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="54,-38.5 54,-57.5 92,-57.5 92,-38.5 54,-38.5"/>
 <text text-anchor="middle" x="73" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classInputDaemon.html#a70fa1dbeac61db6cc29a96cdc57a4518" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classInputDaemon.html#a70fa1dbeac61db6cc29a96cdc57a4518" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 146,-19.5 146,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="73" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDaemon::refreshJoystick</text>
 </a>

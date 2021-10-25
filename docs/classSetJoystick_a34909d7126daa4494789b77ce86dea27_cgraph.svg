@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#aa1eb52e9cce61ac403f9b451c512f197" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButton.html#aa1eb52e9cce61ac403f9b451c512f197" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="167,-126.5 167,-145.5 299,-145.5 299,-126.5 167,-126.5"/>
 <text text-anchor="middle" x="233" y="-133.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getButtonState</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyDPadButton.html#a3562e822a51b68df01e9a76267428728" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyDPadButton.html#a3562e822a51b68df01e9a76267428728" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="168,-88.5 168,-107.5 298,-107.5 298,-88.5 168,-88.5"/>
 <text text-anchor="middle" x="233" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyDPadButton::getDPad</text>
 </a>
@@ -52,7 +52,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyButton.html#abbccee98e377453167a47b49874eeab7" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyButton.html#abbccee98e377453167a47b49874eeab7" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="167,-39 167,-69 299,-69 299,-39 167,-39"/>
 <text text-anchor="start" x="175" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getIgnoreEvent</text>
 <text text-anchor="middle" x="233" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">State</text>
@@ -68,7 +68,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classJoyDPad.html#a089e9a69356d82336da47361bfc94b63" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classJoyDPad.html#a089e9a69356d82336da47361bfc94b63" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="182.5,-0.5 182.5,-19.5 283.5,-19.5 283.5,-0.5 182.5,-0.5"/>
 <text text-anchor="middle" x="233" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyDPad::getIndex</text>
 </a>

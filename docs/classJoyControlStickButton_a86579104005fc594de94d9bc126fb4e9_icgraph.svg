@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyControlStickButtonPushButton.html#a5f99e1a540217bddf417c2e993c19aa4" xlink:title="Generate the string that will be displayed on the button.">
+<g id="a_node2"><a xlink:href="classJoyControlStickButtonPushButton.html#a5f99e1a540217bddf417c2e993c19aa4" target="_top" xlink:title="Generate the string that will be displayed on the button.">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 137,-30.5 137,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStickButtonPush</text>
 <text text-anchor="middle" x="68.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Button::generateLabel</text>

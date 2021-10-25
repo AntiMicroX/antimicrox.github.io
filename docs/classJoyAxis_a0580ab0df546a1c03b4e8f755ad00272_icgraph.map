@@ -22,7 +22,7 @@
 <area shape="rect" id="node41" href="$classJoyControlStick.html#ac12ecf9bf840ecee8fa8b2873304fc66" title="Get the value for the corresponding X axis." alt="" coords="805,315,1015,342"/>
 <area shape="rect" id="node42" href="$classJoyControlStick.html#ad68f8a723bdefd42af7b4317ab40371a" title="Get the value for the corresponding Y axis." alt="" coords="805,366,1015,393"/>
 <area shape="rect" id="node43" href="$classJoyControlStick.html#a2cac9088503383ba2e71303e5c5de678" title="Check the current stick position to see if it lies in the assigned dead zone." alt="" coords="814,1709,1006,1735"/>
-<area shape="rect" id="node44" href="$classInputDeviceBitArrayStatus.html#a103f5eabb3a49acb59b637b37410e812" title=" " alt="" coords="817,2072,1003,2113"/>
+<area shape="rect" id="node44" href="$classInputDeviceBitArrayStatus.html#a4255eb1af0e32f80549c0f662985d395" title=" " alt="" coords="817,2072,1003,2113"/>
 <area shape="rect" id="node45" href="$classJoystickStatusWindow.html#a96d9e83b764e14faed4c4dc275d23c45" title=" " alt="" coords="829,2137,991,2179"/>
 <area shape="rect" id="node46" href="$classGameControllerTriggerXml.html#a4578ad54daf8a24231e8b0e4e09f1587" title=" " alt="" coords="504,2221,679,2263"/>
 <area shape="rect" id="node47" href="$classJoyAxisXml.html#a722916013ad49036b2ad38ab8ec30484" title=" " alt="" coords="815,2254,1005,2281"/>

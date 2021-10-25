@@ -23,7 +23,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classMainSettingsDialog.html#ad5b67a6742eafcd666fc73752f94a638" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classMainSettingsDialog.html#ad5b67a6742eafcd666fc73752f94a638" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="143,-6 143,-36 280,-36 280,-6 143,-6"/>
 <text text-anchor="start" x="151" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00">MainSettingsDialog</text>
 <text text-anchor="middle" x="211.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">::openEditAutoProfileDialog</text>
@@ -39,7 +39,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classMainSettingsDialog.html#aeee272ff5482aca59310558ffdb9ebbe" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classMainSettingsDialog.html#aeee272ff5482aca59310558ffdb9ebbe" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-6 0,-36 107,-36 107,-6 0,-6"/>
 <text text-anchor="start" x="8" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00">MainSettingsDialog</text>
 <text text-anchor="middle" x="53.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">::MainSettingsDialog</text>

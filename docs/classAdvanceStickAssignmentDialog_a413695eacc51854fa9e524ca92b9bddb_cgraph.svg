@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyControlStick.html#a289947c34f708ce31ff20e79a17dcd67" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyControlStick.html#a289947c34f708ce31ff20e79a17dcd67" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="204.5,-126 204.5,-145 335.5,-145 335.5,-126 204.5,-126"/>
 <text text-anchor="middle" x="270" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::getAxisX</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyControlStick.html#a98d2b36924e0acf0a3240a1f1b78f666" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyControlStick.html#a98d2b36924e0acf0a3240a1f1b78f666" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="204.5,-88 204.5,-107 335.5,-107 335.5,-88 204.5,-88"/>
 <text text-anchor="middle" x="270" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::getAxisY</text>
 </a>
@@ -52,7 +52,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyAxis.html#a9ceda991c13da3a99868acc436ed20f3" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyAxis.html#a9ceda991c13da3a99868acc436ed20f3" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="204.5,-50 204.5,-69 335.5,-69 335.5,-50 204.5,-50"/>
 <text text-anchor="middle" x="270" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getRealJoyIndex</text>
 </a>
@@ -67,7 +67,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classAdvanceStickAssignmentDialog.html#ae8d5280ce8512b5fcd821eea30b57f73" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classAdvanceStickAssignmentDialog.html#ae8d5280ce8512b5fcd821eea30b57f73" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="192,-0.5 192,-30.5 348,-30.5 348,-0.5 192,-0.5"/>
 <text text-anchor="start" x="200" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">AdvanceStickAssignmentDialog</text>
 <text text-anchor="middle" x="270" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::refreshSticksForAxes</text>

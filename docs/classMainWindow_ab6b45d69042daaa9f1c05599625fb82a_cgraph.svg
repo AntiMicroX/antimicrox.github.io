@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$namespacePadderCommon.html#ab6c4e9957765d3fb81854deed9714d09" xlink:title="Reload main application and base Qt translation files.">
+<g id="a_node2"><a xlink:href="namespacePadderCommon.html#ab6c4e9957765d3fb81854deed9714d09" target="_top" xlink:title="Reload main application and base Qt translation files.">
 <polygon fill="white" stroke="black" points="188,-0.5 188,-19.5 360,-19.5 360,-0.5 188,-0.5"/>
 <text text-anchor="middle" x="274" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">PadderCommon::reloadTranslations</text>
 </a>

@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classUInputEventHandler.html#a791e0dd22cd62bdfc3729ff95b1b66c7" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classUInputEventHandler.html#a791e0dd22cd62bdfc3729ff95b1b66c7" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="140,-0.5 140,-30.5 260,-30.5 260,-0.5 140,-0.5"/>
 <text text-anchor="start" x="148" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">UInputEventHandler</text>
 <text text-anchor="middle" x="200" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::cleanupUinputEvHand</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classUInputEventHandler.html#a21649f035e732e5713dbb1fc7b46710d" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classUInputEventHandler.html#a21649f035e732e5713dbb1fc7b46710d" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="296,-0.5 296,-30.5 402,-30.5 402,-0.5 296,-0.5"/>
 <text text-anchor="start" x="304" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">UInputEventHandler</text>
 <text text-anchor="middle" x="349" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::closeUInputDevice</text>

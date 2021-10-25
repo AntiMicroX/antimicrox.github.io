@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#ae1d364dfa70f47fae3db99ffbcdea44b" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButton.html#ae1d364dfa70f47fae3db99ffbcdea44b" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="154,-114.5 154,-133.5 297,-133.5 297,-114.5 154,-114.5"/>
 <text text-anchor="middle" x="225.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getAssignedSlots</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyAxis.html#ad51d55d2a95190468209f7481eae8639" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyAxis.html#ad51d55d2a95190468209f7481eae8639" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="163,-76.5 163,-95.5 288,-95.5 288,-76.5 163,-76.5"/>
 <text text-anchor="middle" x="225.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getPAxisButton</text>
 </a>
@@ -52,7 +52,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyButtonSlot.html#a7fa0bf6d891437a2392e47d32b746502" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyButtonSlot.html#a7fa0bf6d891437a2392e47d32b746502" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="156.5,-38.5 156.5,-57.5 294.5,-57.5 294.5,-38.5 156.5,-38.5"/>
 <text text-anchor="middle" x="225.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButtonSlot::getSlotCode</text>
 </a>
@@ -67,7 +67,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classJoyButtonSlot.html#abed7fe134c404b403ea79c0753f6eaaf" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classJoyButtonSlot.html#abed7fe134c404b403ea79c0753f6eaaf" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="156,-0.5 156,-19.5 295,-19.5 295,-0.5 156,-0.5"/>
 <text text-anchor="middle" x="225.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButtonSlot::getSlotMode</text>
 </a>

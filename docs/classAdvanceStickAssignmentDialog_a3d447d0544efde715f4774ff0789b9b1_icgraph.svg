@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classAdvanceStickAssignmentDialog.html#a0558948fa11d0753485a53d6729e1e53" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classAdvanceStickAssignmentDialog.html#a0558948fa11d0753485a53d6729e1e53" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-49.5 0,-79.5 175,-79.5 175,-49.5 0,-49.5"/>
 <text text-anchor="start" x="8" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">AdvanceStickAssignmentDialog</text>
 <text text-anchor="middle" x="87.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::checkForAxisAssignmentStickOne</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classAdvanceStickAssignmentDialog.html#a60498e3f0a4ade4f6644478cb78d3cbc" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classAdvanceStickAssignmentDialog.html#a60498e3f0a4ade4f6644478cb78d3cbc" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0.5,-0.5 0.5,-30.5 174.5,-30.5 174.5,-0.5 0.5,-0.5"/>
 <text text-anchor="start" x="8.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">AdvanceStickAssignmentDialog</text>
 <text text-anchor="middle" x="87.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::checkForAxisAssignmentStickTwo</text>

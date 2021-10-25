@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classSetJoystick.html#af641cbddd22e358218ba68497e40e4e3" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classSetJoystick.html#af641cbddd22e358218ba68497e40e4e3" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="205,-114.5 205,-133.5 344,-133.5 344,-114.5 205,-114.5"/>
 <text text-anchor="middle" x="274.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">SetJoystick::getInputDevice</text>
 </a>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classInputDevice.html#a1c4c65d9e509a5c3bde064871d7e1849" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classInputDevice.html#a1c4c65d9e509a5c3bde064871d7e1849" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="200,-76.5 200,-95.5 349,-95.5 349,-76.5 200,-76.5"/>
 <text text-anchor="middle" x="274.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDevice::getJoystick_sets</text>
 </a>
@@ -52,7 +52,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyButton.html#a9d89af7a0cfef2aa8b743fabca29dd42" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyButton.html#a9d89af7a0cfef2aa8b743fabca29dd42" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="214,-38.5 214,-57.5 335,-57.5 335,-38.5 214,-38.5"/>
 <text text-anchor="middle" x="274.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getOriginSet</text>
 </a>
@@ -67,7 +67,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classJoyButton.html#a28e4e0906126f95384245e73988bdb19" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classJoyButton.html#a28e4e0906126f95384245e73988bdb19" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="212.5,-0.5 212.5,-19.5 336.5,-19.5 336.5,-0.5 212.5,-0.5"/>
 <text text-anchor="middle" x="274.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::getParentSet</text>
 </a>

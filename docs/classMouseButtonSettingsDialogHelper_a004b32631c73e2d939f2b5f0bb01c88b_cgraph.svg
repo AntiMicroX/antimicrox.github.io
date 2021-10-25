@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#a8c448fa3d079ea5bd1c5bb4effee45e5" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButton.html#a8c448fa3d079ea5bd1c5bb4effee45e5" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="201,-0.5 201,-30.5 329,-30.5 329,-0.5 201,-0.5"/>
 <text text-anchor="start" x="209" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::setAccelExtra</text>
 <text text-anchor="middle" x="265" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Duration</text>

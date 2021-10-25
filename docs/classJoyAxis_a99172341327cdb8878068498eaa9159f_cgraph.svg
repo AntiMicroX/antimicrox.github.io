@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyButton.html#a79db0e0cc11d3a55497a51701f9abcd0" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyButton.html#a79db0e0cc11d3a55497a51701f9abcd0" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="187,-0.5 187,-19.5 313,-19.5 313,-0.5 187,-0.5"/>
 <text text-anchor="middle" x="250" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton::setSensitivity</text>
 </a>

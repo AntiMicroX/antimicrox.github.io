@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyControlStick.html#a474ce78a526ae11be203450f605ef5ad" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyControlStick.html#a474ce78a526ae11be203450f605ef5ad" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="175,-39 175,-69 306,-69 306,-39 175,-39"/>
 <text text-anchor="start" x="183" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::calculate</text>
 <text text-anchor="middle" x="240.5" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">CircleYValue</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyAxis.html#a0580ab0df546a1c03b4e8f755ad00272" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyAxis.html#a0580ab0df546a1c03b4e8f755ad00272" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="167,-0.5 167,-19.5 314,-19.5 314,-0.5 167,-0.5"/>
 <text text-anchor="middle" x="240.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getCurrentRawValue</text>
 </a>

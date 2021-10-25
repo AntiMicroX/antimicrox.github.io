@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classExtraProfileSettingsDialog.html#ad5751d1a02ef93bdff60ef334839d12f" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classExtraProfileSettingsDialog.html#ad5751d1a02ef93bdff60ef334839d12f" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="145.5,-126.5 145.5,-156.5 282.5,-156.5 282.5,-126.5 145.5,-126.5"/>
 <text text-anchor="start" x="153.5" y="-144.5" font-family="Helvetica,sans-Serif" font-size="10.00">ExtraProfileSettingsDialog</text>
 <text text-anchor="middle" x="214" y="-133.5" font-family="Helvetica,sans-Serif" font-size="10.00">::ExtraProfileSettingsDialog</text>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classInputDeviceXml.html#a847bf9ed17b554bf87d513a1aebdcb64" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classInputDeviceXml.html#a847bf9ed17b554bf87d513a1aebdcb64" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="144,-88 144,-107 284,-107 284,-88 144,-88"/>
 <text text-anchor="middle" x="214" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">InputDeviceXml::readConfig</text>
 </a>
@@ -52,7 +52,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classGameControllerXml.html#a7e47256cae0d3815419bc254413777d1" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classGameControllerXml.html#a7e47256cae0d3815419bc254413777d1" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-22.5 0,-52.5 108,-52.5 108,-22.5 0,-22.5"/>
 <text text-anchor="start" x="8" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameControllerXml::</text>
 <text text-anchor="middle" x="54" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">readConfig</text>
@@ -68,7 +68,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classGameControllerXml.html#aaa5257d4c6fe13f1d5fc51981e247c25" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classGameControllerXml.html#aaa5257d4c6fe13f1d5fc51981e247c25" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="160,-0.5 160,-30.5 268,-30.5 268,-0.5 160,-0.5"/>
 <text text-anchor="start" x="168" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameControllerXml::</text>
 <text text-anchor="middle" x="214" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">readJoystickConfig</text>

@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyAxis.html#af3f311fbf20c583224c2320d1fda0226" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyAxis.html#af3f311fbf20c583224c2320d1fda0226" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="185,-38.5 185,-57.5 310,-57.5 310,-38.5 185,-38.5"/>
 <text text-anchor="middle" x="247.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getAxisMaxCal</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyControlStick.html#a289947c34f708ce31ff20e79a17dcd67" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyControlStick.html#a289947c34f708ce31ff20e79a17dcd67" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="182,-0.5 182,-19.5 313,-19.5 313,-0.5 182,-0.5"/>
 <text text-anchor="middle" x="247.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::getAxisX</text>
 </a>

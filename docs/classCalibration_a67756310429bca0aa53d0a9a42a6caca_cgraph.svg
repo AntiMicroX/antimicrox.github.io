@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classCalibration.html#a025b5331301657dcddad2c31eb20a7a3" xlink:title="it&#39;s a slot of moving ax X. Counts positive and negative values for later comparisions">
+<g id="a_node2"><a xlink:href="classCalibration.html#a025b5331301657dcddad2c31eb20a7a3" target="_top" xlink:title="it&#39;s a slot of moving ax X. Counts positive and negative values for later comparisions">
 <polygon fill="white" stroke="black" points="203.5,-278.5 203.5,-297.5 304.5,-297.5 304.5,-278.5 203.5,-278.5"/>
 <text text-anchor="middle" x="254" y="-285.5" font-family="Helvetica,sans-Serif" font-size="10.00">Calibration::checkX</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classCalibration.html#a6dcc9941ef29ddd8c73312263cad6c3d" xlink:title="it&#39;s a slot of moving ax Y. Counts positive and negative values for later comparisions">
+<g id="a_node3"><a xlink:href="classCalibration.html#a6dcc9941ef29ddd8c73312263cad6c3d" target="_top" xlink:title="it&#39;s a slot of moving ax Y. Counts positive and negative values for later comparisions">
 <polygon fill="white" stroke="black" points="203.5,-240.5 203.5,-259.5 304.5,-259.5 304.5,-240.5 203.5,-240.5"/>
 <text text-anchor="middle" x="254" y="-247.5" font-family="Helvetica,sans-Serif" font-size="10.00">Calibration::checkY</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classJoyControlStick.html#a289947c34f708ce31ff20e79a17dcd67" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classJoyControlStick.html#a289947c34f708ce31ff20e79a17dcd67" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="188.5,-202.5 188.5,-221.5 319.5,-221.5 319.5,-202.5 188.5,-202.5"/>
 <text text-anchor="middle" x="254" y="-209.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::getAxisX</text>
 </a>
@@ -66,7 +66,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classJoyControlStick.html#a98d2b36924e0acf0a3240a1f1b78f666" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classJoyControlStick.html#a98d2b36924e0acf0a3240a1f1b78f666" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="188.5,-164.5 188.5,-183.5 319.5,-183.5 319.5,-164.5 188.5,-164.5"/>
 <text text-anchor="middle" x="254" y="-171.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::getAxisY</text>
 </a>
@@ -81,7 +81,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="$classJoyControlStick.html#a524664c295ecbbd51dfcff210b2bceab" xlink:title=" ">
+<g id="a_node6"><a xlink:href="classJoyControlStick.html#a524664c295ecbbd51dfcff210b2bceab" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="178.5,-115 178.5,-145 329.5,-145 329.5,-115 178.5,-115"/>
 <text text-anchor="start" x="186.5" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::getCalibration</text>
 <text text-anchor="middle" x="254" y="-122" font-family="Helvetica,sans-Serif" font-size="10.00">Summary</text>
@@ -97,7 +97,7 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="$classJoyAxis.html#a0580ab0df546a1c03b4e8f755ad00272" xlink:title=" ">
+<g id="a_node7"><a xlink:href="classJoyAxis.html#a0580ab0df546a1c03b4e8f755ad00272" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="180.5,-76.5 180.5,-95.5 327.5,-95.5 327.5,-76.5 180.5,-76.5"/>
 <text text-anchor="middle" x="254" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getCurrentRawValue</text>
 </a>
@@ -112,7 +112,7 @@
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="$classJoyAxis.html#a9ceda991c13da3a99868acc436ed20f3" xlink:title=" ">
+<g id="a_node8"><a xlink:href="classJoyAxis.html#a9ceda991c13da3a99868acc436ed20f3" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="188.5,-38.5 188.5,-57.5 319.5,-57.5 319.5,-38.5 188.5,-38.5"/>
 <text text-anchor="middle" x="254" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyAxis::getRealJoyIndex</text>
 </a>
@@ -127,7 +127,7 @@
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="$classJoyControlStick.html#a5a1c2eb10e476c90082f864b40217934" xlink:title=" ">
+<g id="a_node9"><a xlink:href="classJoyControlStick.html#a5a1c2eb10e476c90082f864b40217934" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="178,-0.5 178,-19.5 330,-19.5 330,-0.5 178,-0.5"/>
 <text text-anchor="middle" x="254" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyControlStick::wasCalibrated</text>
 </a>

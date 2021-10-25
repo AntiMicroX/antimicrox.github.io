@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classInputDevice.html#af398dd46ce98825fe56b36e41a13db9b" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classInputDevice.html#af398dd46ce98825fe56b36e41a13db9b" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="134,-0.5 134,-19.5 292,-19.5 292,-0.5 134,-0.5"/>
 <text text-anchor="middle" x="213" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDevice::getRealJoyNumber</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classInputDevice.html#a197e76d4113e8258e6637981830dd219" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classInputDevice.html#a197e76d4113e8258e6637981830dd219" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="328,-0.5 328,-19.5 467,-19.5 467,-0.5 328,-0.5"/>
 <text text-anchor="middle" x="397.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">InputDevice::getJoyNumber</text>
 </a>

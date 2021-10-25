@@ -21,7 +21,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classGameControllerTrigger.html" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classGameControllerTrigger.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 114,-19.5 114,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="57" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameControllerTrigger</text>
 </a>

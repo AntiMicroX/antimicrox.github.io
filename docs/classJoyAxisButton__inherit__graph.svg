@@ -21,7 +21,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classGameControllerTriggerButton.html" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classGameControllerTriggerButton.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 143,-19.5 143,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="71.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">GameControllerTriggerButton</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classJoyGradientButton.html" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classJoyGradientButton.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="22.5,-112.5 22.5,-131.5 120.5,-131.5 120.5,-112.5 22.5,-112.5"/>
 <text text-anchor="middle" x="71.5" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyGradientButton</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classJoyButton.html" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classJoyButton.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="41,-168.5 41,-187.5 102,-187.5 102,-168.5 41,-168.5"/>
 <text text-anchor="middle" x="71.5" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">JoyButton</text>
 </a>
