@@ -6,7 +6,7 @@ name: Build and Deploy AntiMicroX Website
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build-and-deploy:
