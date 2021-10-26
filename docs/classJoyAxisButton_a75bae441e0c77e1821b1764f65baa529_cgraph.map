@@ -1,5 +1,0 @@
-<map id="JoyAxisButton::getLastAccelerationDistance" name="JoyAxisButton::getLastAccelerationDistance">
-<area shape="rect" id="node1" title=" " alt="" coords="5,35,236,76"/>
-<area shape="rect" id="node2" href="$classJoyAxis.html#a6ed704ce0c9da777cbb5c694a9ed2238" title=" " alt="" coords="284,5,487,47"/>
-<area shape="rect" id="node3" href="$classJoyAxis.html#af8a07986f0254ba66021537e07c1ad4f" title="Get the current value for an axis in either direction converted to the range of &#45;1...." alt="" coords="299,71,472,98"/>
-</map>

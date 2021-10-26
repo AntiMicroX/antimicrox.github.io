@@ -1,7 +1,0 @@
-<map id="JoyAxis::isDefault" name="JoyAxis::isDefault">
-<area shape="rect" id="node1" title=" " alt="" coords="5,56,135,83"/>
-<area shape="rect" id="node2" href="$classJoyAxis.html#a8552b6736231d1611c8809602e189d68" title=" " alt="" coords="183,5,380,32"/>
-<area shape="rect" id="node3" href="$classJoyAxis.html#a61149f5541d5dc820ae2a04a6ca9af68" title=" " alt="" coords="185,56,377,83"/>
-<area shape="rect" id="node4" href="$classJoyButton.html#aaae603630f3485683593320bd446927d" title="Check if button properties are at their default values." alt="" coords="211,107,352,133"/>
-<area shape="rect" id="node5" href="$classJoyButton.html#ae1d364dfa70f47fae3db99ffbcdea44b" title=" " alt="" coords="428,107,619,133"/>
-</map>

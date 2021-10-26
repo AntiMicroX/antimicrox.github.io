@@ -1,9 +1,0 @@
-<map id="MouseDPadSettingsDialog::changeMouseMode" name="MouseDPadSettingsDialog::changeMouseMode">
-<area shape="rect" id="node1" title=" " alt="" coords="5,57,184,98"/>
-<area shape="rect" id="node2" href="$classJoyDPad.html#a16141810b2675be301c8f17f5d85df35" title=" " alt="" coords="232,5,451,32"/>
-<area shape="rect" id="node4" href="$classSpringModeRegionPreview.html#a8d2b08d077d77697a327e2d062130cbd" title=" " alt="" coords="252,57,431,98"/>
-<area shape="rect" id="node6" href="$classSpringModeRegionPreview.html#a769d674b3f0697dee55b0a7fbfe4a48f" title=" " alt="" coords="252,122,431,163"/>
-<area shape="rect" id="node3" href="$classJoyButton.html#a28224ca61d50adb1338643ae63bab3a3" title=" " alt="" coords="499,5,677,32"/>
-<area shape="rect" id="node5" href="$classSpringModeRegionPreview.html#ac11ce802ca9098d5d61a1c7550e3a4f2" title=" " alt="" coords="499,57,677,98"/>
-<area shape="rect" id="node7" href="$classSpringModeRegionPreview.html#a78b54db3c38d88222b2491d21bb7daac" title=" " alt="" coords="499,122,677,163"/>
-</map>

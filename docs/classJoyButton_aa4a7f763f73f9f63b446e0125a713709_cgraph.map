@@ -1,8 +1,0 @@
-<map id="JoyButton::initializeDistanceValues" name="JoyButton::initializeDistanceValues">
-<area shape="rect" id="node1" title=" " alt="" coords="5,104,192,145"/>
-<area shape="rect" id="node2" href="$classJoyButton.html#a48369975ea4bc0d16e284b02bf4b1246" title=" " alt="" coords="262,5,441,47"/>
-<area shape="rect" id="node4" href="$classJoyButton.html#a384912c63bcea6a25ab2957c7c8c23c6" title=" " alt="" coords="249,71,453,112"/>
-<area shape="rect" id="node5" href="$classJoyButton.html#a17e7d44ff2d956493113d7312ab406dc" title=" " alt="" coords="240,136,463,177"/>
-<area shape="rect" id="node6" href="$classJoyButton.html#a352acb56d462240c593e7b70bca74f55" title="Get the distance factor that should be used for mouse movement." alt="" coords="252,201,451,243"/>
-<area shape="rect" id="node3" href="$classJoyButton.html#a447ec98d3ffd8b2a8668c14d2646851c" title="Get the distance that an element is away from its assigned dead zone." alt="" coords="511,104,700,145"/>
-</map>

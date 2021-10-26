@@ -1,4 +1,0 @@
-<map id="JoyControlStickEditDialog::updateStickDelaySlider" name="JoyControlStickEditDialog::updateStickDelaySlider">
-<area shape="rect" id="node1" title="Update QSlider value based on value from QDoubleSpinBox." alt="" coords="236,5,411,47"/>
-<area shape="rect" id="node2" href="$classJoyControlStickEditDialog.html#a2baa35c50ff7528a03ec6f2ba1ed657d" title=" " alt="" coords="5,5,188,47"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="JoyDPad::getName" name="JoyDPad::getName">
-<area shape="rect" id="node1" title=" " alt="" coords="501,101,639,127"/>
-<area shape="rect" id="node2" href="$classDPadPushButton.html#ad6bc6aa6744a480371f447261bfe3464" title=" " alt="" coords="256,5,437,47"/>
-<area shape="rect" id="node3" href="$classJoyDPadButton.html#a74e36e481a0463fa410a687805084010" title=" " alt="" coords="240,71,453,98"/>
-<area shape="rect" id="node4" href="$classMouseDPadSettingsDialog.html#a68706a0ac77693478c027a0d76cb0fcc" title=" " alt="" coords="242,123,451,164"/>
-<area shape="rect" id="node6" href="$classDPadEditDialog.html#a159bedd30c6c36cb1c60e6146183c1a2" title=" " alt="" coords="242,188,451,229"/>
-<area shape="rect" id="node5" href="$classMouseDPadSettingsDialog.html#a51ae7b4e5b371e35d4f470787f5fc846" title=" " alt="" coords="5,123,192,164"/>
-<area shape="rect" id="node7" href="$classDPadEditDialog.html#a87782609227b6c56ef82e3844a117dc1" title=" " alt="" coords="9,188,188,229"/>
-</map>

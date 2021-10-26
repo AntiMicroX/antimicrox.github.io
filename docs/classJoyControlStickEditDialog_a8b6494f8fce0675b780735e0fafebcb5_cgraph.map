@@ -1,7 +1,0 @@
-<map id="JoyControlStickEditDialog::openModifierEditDialog" name="JoyControlStickEditDialog::openModifierEditDialog">
-<area shape="rect" id="node1" title=" " alt="" coords="5,57,180,98"/>
-<area shape="rect" id="node2" href="$classSetJoystick.html#af641cbddd22e358218ba68497e40e4e3" title=" " alt="" coords="235,5,420,32"/>
-<area shape="rect" id="node3" href="$classJoyControlStick.html#a81da76522d4f12f081c169f0a0365996" title=" " alt="" coords="234,57,421,98"/>
-<area shape="rect" id="node4" href="$classJoyControlStick.html#a368fdbc00c4a4a9cf3f3e49d6736da65" title="Get pointer to the set that a stick belongs to." alt="" coords="228,123,427,149"/>
-<area shape="rect" id="node5" href="$classJoyAxis.html#a12c4147c5f4a320aee710f8753263aa6" title=" " alt="" coords="475,123,628,149"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="AdvanceButtonDialog::updateWindowTitleButtonName" name="AdvanceButtonDialog::updateWindowTitleButtonName">
-<area shape="rect" id="node1" title=" " alt="" coords="5,99,220,141"/>
-<area shape="rect" id="node2" href="$classSetJoystick.html#a3a7ae87b62fac9deace237039cb5ea85" title=" " alt="" coords="285,5,431,32"/>
-<area shape="rect" id="node3" href="$classSetJoystick.html#a102a4bbc464b9dfc5a8227c0fb4611c8" title=" " alt="" coords="283,56,433,83"/>
-<area shape="rect" id="node4" href="$classJoyButton.html#a28e4e0906126f95384245e73988bdb19" title=" " alt="" coords="275,107,441,133"/>
-<area shape="rect" id="node5" href="$classJoyButton.html#acf2e65dcec7b0d2a8a2c21c36c489ad6" title=" " alt="" coords="268,157,448,184"/>
-<area shape="rect" id="node7" href="$classSetJoystick.html#a00ecd09902d11bbfe7e6e82ad25ae456" title=" " alt="" coords="271,208,445,235"/>
-<area shape="rect" id="node6" href="$classJoyButton.html#a39c9ccaf641bb8bf50b29d4c4e04c165" title="Get a 1 indexed number of button." alt="" coords="496,157,696,184"/>
-</map>

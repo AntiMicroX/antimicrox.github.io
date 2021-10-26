@@ -1,6 +1,0 @@
-<map id="JoyButtonStatusBox::JoyButtonStatusBox" name="JoyButtonStatusBox::JoyButtonStatusBox">
-<area shape="rect" id="node1" title=" " alt="" coords="5,64,156,105"/>
-<area shape="rect" id="node2" href="$classJoyButtonStatusBox.html#ab23cbfc10e746e657b2d7c481b785f9c" title=" " alt="" coords="233,5,375,47"/>
-<area shape="rect" id="node3" href="$classJoyButton.html#a39c9ccaf641bb8bf50b29d4c4e04c165" title="Get a 1 indexed number of button." alt="" coords="204,71,404,98"/>
-<area shape="rect" id="node4" href="$classJoyButtonStatusBox.html#aaffb2ae6022f739808223995f27c8a9d" title=" " alt="" coords="233,123,375,164"/>
-</map>

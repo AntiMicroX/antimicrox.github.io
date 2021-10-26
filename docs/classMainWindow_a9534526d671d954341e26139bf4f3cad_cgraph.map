@@ -1,8 +1,0 @@
-<map id="MainWindow::checkEachTenMinutesBattery" name="MainWindow::checkEachTenMinutesBattery">
-<area shape="rect" id="node1" title=" " alt="" coords="5,49,196,90"/>
-<area shape="rect" id="node2" href="$classMainWindow.html#a30076e3116e3b40bb01db2b9a2933266" title=" " alt="" coords="244,56,452,83"/>
-<area shape="rect" id="node3" href="$classInputDevice.html#a9bf88d0be91afb0648bd86cb2fc77480" title=" " alt="" coords="515,5,695,32"/>
-<area shape="rect" id="node4" href="$classInputDevice.html#af398dd46ce98825fe56b36e41a13db9b" title=" " alt="" coords="500,56,711,83"/>
-<area shape="rect" id="node6" href="$classInputDevice.html#a3184377c2e251949cae1a0937aaef78c" title=" " alt="" coords="516,107,695,133"/>
-<area shape="rect" id="node5" href="$classInputDevice.html#a197e76d4113e8258e6637981830dd219" title=" " alt="" coords="759,56,944,83"/>
-</map>

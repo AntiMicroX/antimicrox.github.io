@@ -1,6 +1,0 @@
-<map id="JoyControlStick::calculateDirectionalDistance" name="JoyControlStick::calculateDirectionalDistance">
-<area shape="rect" id="node1" title="Used to calculate the distance value that should be used for keyboard events and distance slots." alt="" coords="529,39,704,80"/>
-<area shape="rect" id="node2" href="$classJoyControlStickModifierButton.html#a65412dae4962e20798e45533f0b98948" title="Get the distance that an element is away from its assigned dead zone." alt="" coords="283,5,481,47"/>
-<area shape="rect" id="node4" href="$classJoyControlStickButton.html#a22064a3a113464fb9969ebb30e011d22" title="Get the distance that an element is away from its assigned dead zone." alt="" coords="287,71,477,112"/>
-<area shape="rect" id="node3" href="$classJoyControlStickModifierButton.html#ac2f9e7924a72d288733c987fc3498a91" title="Get the distance factor that should be used for mouse movement." alt="" coords="5,5,235,47"/>
-</map>

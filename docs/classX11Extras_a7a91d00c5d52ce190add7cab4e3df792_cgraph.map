@@ -1,4 +1,0 @@
-<map id="X11Extras::appRootWindow" name="X11Extras::appRootWindow">
-<area shape="rect" id="node1" title="Return root window for a given X display." alt="" coords="5,5,192,32"/>
-<area shape="rect" id="node2" href="$classX11Extras.html#a643c95dc1de8eb073a0accb41619fe83" title="Get display instance." alt="" coords="240,5,372,32"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="InputDevice::buttonUpEvent" name="InputDevice::buttonUpEvent">
-<area shape="rect" id="node1" title=" " alt="" coords="775,101,961,127"/>
-<area shape="rect" id="node2" href="$classInputDevice.html#a5207c7f681a8d8343dfcfc251c98cb83" title=" " alt="" coords="545,5,725,47"/>
-<area shape="rect" id="node3" href="$classInputDevice.html#a6ffcebba103a7db02e82c1c7f62387bf" title=" " alt="" coords="265,101,496,127"/>
-<area shape="rect" id="node6" href="$classInputDevice.html#aebae2238e618916a2046dddf4d0ed33e" title=" " alt="" coords="544,123,727,164"/>
-<area shape="rect" id="node7" href="$classInputDevice.html#a6cf4a8a0416165687399068eeee06916" title=" " alt="" coords="552,188,719,229"/>
-<area shape="rect" id="node4" href="$classGameController.html#afcddb9dcc5442a9746c3ff8760ea1791" title=" " alt="" coords="5,75,217,102"/>
-<area shape="rect" id="node5" href="$classJoystick.html#a9df5e53506876f3c95e84bdf6c9cbaf1" title=" " alt="" coords="49,126,174,153"/>
-</map>

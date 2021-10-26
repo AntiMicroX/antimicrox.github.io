@@ -1,8 +1,0 @@
-<map id="MainWindow::joystickTrayShow" name="MainWindow::joystickTrayShow">
-<area shape="rect" id="node1" title=" " alt="" coords="5,123,212,149"/>
-<area shape="rect" id="node2" href="$classJoyTabWidget.html#a612c729204802801165c9208cba9b1be" title=" " alt="" coords="260,5,464,32"/>
-<area shape="rect" id="node3" href="$classJoyTabWidget.html#a7f38558fdd9bb22d8e2c3c8f070305ee" title=" " alt="" coords="275,57,449,98"/>
-<area shape="rect" id="node4" href="$classJoyTabWidget.html#a2b7d0077726b2b2bf406be8a4fa631af" title=" " alt="" coords="273,123,451,149"/>
-<area shape="rect" id="node5" href="$classInputDevice.html#a45366a3b2d57974de36920cfde0261d8" title=" " alt="" coords="268,173,456,200"/>
-<area shape="rect" id="node6" href="$namespacePadderCommon.html#a9aa5baddf6f78b3e008bc29d04721f0d" title="Universal method for loading icons." alt="" coords="275,224,449,251"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="InputDevice::getNumberButtons" name="InputDevice::getNumberButtons">
-<area shape="rect" id="node1" title=" " alt="" coords="5,42,215,69"/>
-<area shape="rect" id="node2" href="$classInputDevice.html#abc23a70bef37f2fc70248cd129af170b" title=" " alt="" coords="279,5,453,47"/>
-<area shape="rect" id="node4" href="$classSetJoystick.html#a446e296af015f6304bd7425153a4c4ae" title=" " alt="" coords="263,71,469,98"/>
-<area shape="rect" id="node3" href="$classInputDevice.html#a1c4c65d9e509a5c3bde064871d7e1849" title=" " alt="" coords="517,13,716,39"/>
-<area shape="rect" id="node5" href="$classSetJoystick.html#ac5baae46a0b3924a83b523ad89819a53" title=" " alt="" coords="537,71,697,98"/>
-</map>

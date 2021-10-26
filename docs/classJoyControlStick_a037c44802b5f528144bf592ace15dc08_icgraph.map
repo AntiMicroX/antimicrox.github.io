@@ -1,8 +1,0 @@
-<map id="JoyControlStick::getMaxZone" name="JoyControlStick::getMaxZone">
-<area shape="rect" id="node1" title=" " alt="" coords="461,111,656,138"/>
-<area shape="rect" id="node2" href="$classJoyControlStickStatusBox.html#a450e6a133de4e4d7894b967b051f9e31" title=" " alt="" coords="233,5,409,47"/>
-<area shape="rect" id="node4" href="$classJoyControlStickStatusBox.html#ade94a0ecf5b485ce1e8d57ecdc82617f" title=" " alt="" coords="231,71,411,112"/>
-<area shape="rect" id="node5" href="$classJoyControlStickStatusBox.html#a6c5557dfac58f22349a66743ec3cca4b" title=" " alt="" coords="229,136,413,177"/>
-<area shape="rect" id="node6" href="$classJoyControlStickEditDialog.html#a2baa35c50ff7528a03ec6f2ba1ed657d" title=" " alt="" coords="230,201,413,243"/>
-<area shape="rect" id="node3" href="$classJoyControlStickStatusBox.html#ae321df188d9d51864893166076cf8582" title=" " alt="" coords="5,71,181,112"/>
-</map>

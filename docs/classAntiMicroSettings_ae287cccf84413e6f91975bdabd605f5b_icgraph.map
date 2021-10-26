@@ -1,4 +1,0 @@
-<map id="AntiMicroSettings::importFromCommandLine" name="AntiMicroSettings::importFromCommandLine">
-<area shape="rect" id="node1" title="Import relevant options given on the command line into a QSettings instance. Used to override any opt..." alt="" coords="104,5,277,47"/>
-<area shape="rect" id="node2" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,13,56,39"/>
-</map>

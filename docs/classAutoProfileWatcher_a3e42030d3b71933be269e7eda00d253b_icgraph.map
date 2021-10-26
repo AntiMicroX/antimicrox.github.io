@@ -1,6 +1,0 @@
-<map id="AutoProfileWatcher::startTimer" name="AutoProfileWatcher::startTimer">
-<area shape="rect" id="node1" title=" " alt="" coords="739,5,873,47"/>
-<area shape="rect" id="node2" href="$classMainWindow.html#adb240e3698ab0a5958347fd9cfa78d06" title=" " alt="" coords="488,5,691,47"/>
-<area shape="rect" id="node3" href="$classMainWindow.html#a2f0c03d3d51748ab794e698322110614" title=" " alt="" coords="5,13,184,39"/>
-<area shape="rect" id="node4" href="$classMainWindow.html#ae9f72ff45056908317963a1e7fa634a0" title="Build list of current input devices and pass it to settings dialog instance. Open Settings dialog." alt="" coords="232,35,440,76"/>
-</map>

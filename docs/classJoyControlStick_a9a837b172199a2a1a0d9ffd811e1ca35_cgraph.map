@@ -1,5 +1,0 @@
-<map id="JoyControlStick::isDefault" name="JoyControlStick::isDefault">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,180,32"/>
-<area shape="rect" id="node2" href="$classJoyButton.html#aaae603630f3485683593320bd446927d" title="Check if button properties are at their default values." alt="" coords="228,5,369,32"/>
-<area shape="rect" id="node3" href="$classJoyButton.html#ae1d364dfa70f47fae3db99ffbcdea44b" title=" " alt="" coords="417,5,608,32"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="JoyAxis::getLastKnownThrottleValue" name="JoyAxis::getLastKnownThrottleValue">
-<area shape="rect" id="node1" title=" " alt="" coords="587,104,789,145"/>
-<area shape="rect" id="node2" href="$classJoyControlStick.html#afb2b5e5e03f384d3d0533518baedf7ab" title=" " alt="" coords="336,5,511,47"/>
-<area shape="rect" id="node4" href="$classJoyControlStick.html#acbf146b02dd22b8970e90580dbac5a61" title=" " alt="" coords="323,71,523,112"/>
-<area shape="rect" id="node6" href="$classJoyAxisButton.html#a75bae441e0c77e1821b1764f65baa529" title=" " alt="" coords="308,136,539,177"/>
-<area shape="rect" id="node7" href="$classJoyAxisButton.html#a7bbc63efd1b9d52a38ae9188256f6166" title=" " alt="" coords="325,201,522,243"/>
-<area shape="rect" id="node3" href="$classJoyControlStickModifierButton.html#adaf7679f50f4cd6b8d0b217351c7032c" title=" " alt="" coords="5,5,260,47"/>
-<area shape="rect" id="node5" href="$classJoyControlStickButton.html#a3fde8ac631cd01ff73e1e13b4317330c" title=" " alt="" coords="5,71,260,112"/>
-</map>

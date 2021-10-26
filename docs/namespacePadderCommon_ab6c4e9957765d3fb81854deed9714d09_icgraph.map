@@ -1,6 +1,0 @@
-<map id="PadderCommon::reloadTranslations" name="PadderCommon::reloadTranslations">
-<area shape="rect" id="node1" title="Reload main application and base Qt translation files." alt="" coords="739,13,968,39"/>
-<area shape="rect" id="node2" href="$classMainWindow.html#ab6b45d69042daaa9f1c05599625fb82a" title="Change language used by the application." alt="" coords="488,13,691,39"/>
-<area shape="rect" id="node3" href="$classMainWindow.html#ae9f72ff45056908317963a1e7fa634a0" title="Build list of current input devices and pass it to settings dialog instance. Open Settings dialog." alt="" coords="232,5,440,47"/>
-<area shape="rect" id="node4" href="$classMainWindow.html#a2f0c03d3d51748ab794e698322110614" title=" " alt="" coords="5,13,184,39"/>
-</map>

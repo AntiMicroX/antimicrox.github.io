@@ -1,6 +1,0 @@
-<map id="JoyControlStick::circleAdjustChange" name="JoyControlStick::circleAdjustChange">
-<area shape="rect" id="node1" title=" " alt="" coords="693,5,884,47"/>
-<area shape="rect" id="node2" href="$classJoyControlStick.html#a364ee17e1be39a187186ee842d633217" title="Set the percentage of the outer square that should be ignored when performing the final axis calculat..." alt="" coords="471,5,645,47"/>
-<area shape="rect" id="node3" href="$classJoyControlStick.html#ab6ce741115ee3d436c1a7e866abd21e6" title="Take a XML stream and set the stick and direction button properties according to the values contained..." alt="" coords="237,13,423,39"/>
-<area shape="rect" id="node4" href="$classSetJoystickXml.html#aa95423a01fab878cbc69bffb7f6121f3" title=" " alt="" coords="5,13,189,39"/>
-</map>

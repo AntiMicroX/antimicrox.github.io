@@ -1,5 +1,0 @@
-<map id="Logger::Logger" name="Logger::Logger">
-<area shape="rect" id="node1" title="Outputs log messages to a given text stream. Client code should determine whether it points to a cons..." alt="" coords="307,5,415,32"/>
-<area shape="rect" id="node2" href="$classLogger.html#a53c45e837a6c388fd21ff57a2527803f" title="Create instance of logger, if there is any other instance it will de deleted." alt="" coords="104,5,259,32"/>
-<area shape="rect" id="node3" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-</map>

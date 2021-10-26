@@ -1,8 +1,0 @@
-<map id="JoyAxis::disconnectPropertyUpdatedConnection" name="JoyAxis::disconnectPropertyUpdatedConnection">
-<area shape="rect" id="node1" title=" " alt="" coords="503,104,693,145"/>
-<area shape="rect" id="node2" href="$classSetJoystick.html#a65ac9f7b25b04650d7243219ad6e8ebd" title="Raise the dead zones for axes. Used when launching the controller mapping window." alt="" coords="269,71,455,112"/>
-<area shape="rect" id="node5" href="$classSetJoystick.html#ab3214fccc9b07b7f4b47ae886c62cd60" title=" " alt="" coords="275,136,449,177"/>
-<area shape="rect" id="node3" href="$classGameControllerMappingDialogHelper.html#a2302e55d686dfedb8b6e0dfa880bb199" title=" " alt="" coords="14,5,213,47"/>
-<area shape="rect" id="node4" href="$classGameControllerMappingDialogHelper.html#a7852aab5763281aa59c17f2f1da8dd31" title=" " alt="" coords="14,71,213,112"/>
-<area shape="rect" id="node6" href="$classGameControllerMappingDialogHelper.html#a4040e6cf676fe8af751125e2928d8a35" title=" " alt="" coords="5,136,221,177"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="JoyControlStick::calculateYDistanceFromDeadZone" name="JoyControlStick::calculateYDistanceFromDeadZone">
-<area shape="rect" id="node1" title="Get distance of the Y axis past the assigned dead zone based on the passed X and Y axis values for th..." alt="" coords="5,71,180,112"/>
-<area shape="rect" id="node2" href="$classJoyControlStick.html#a9a9a23ba2fd1d4304e759a2de2985a69" title="Calculate the current direction of the stick based on the values of the X and Y axes and the current ..." alt="" coords="236,5,411,47"/>
-<area shape="rect" id="node4" href="$classJoyControlStick.html#a40e3aafc2c097e430c76d3cfc839e358" title="Get the raw radial distance of the stick. Values will be between 0 &#45; 32,767." alt="" coords="228,71,419,112"/>
-<area shape="rect" id="node5" href="$classJoyControlStick.html#af1d63f69041b08e3e1e086768a4c22cf" title=" " alt="" coords="228,136,419,177"/>
-<area shape="rect" id="node3" href="$classJoyAxis.html#a0580ab0df546a1c03b4e8f755ad00272" title=" " alt="" coords="467,46,663,73"/>
-</map>

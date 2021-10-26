@@ -1,7 +1,0 @@
-<map id="X11Extras::windowIsViewable" name="X11Extras::windowIsViewable">
-<area shape="rect" id="node1" title=" " alt="" coords="620,31,819,57"/>
-<area shape="rect" id="node2" href="$classX11Extras.html#ac6c0762b3f82eff9529245369c0899fe" title="Find the proper client window within a hierarchy. This check is needed in some environments where the..." alt="" coords="379,5,572,32"/>
-<area shape="rect" id="node3" href="$classX11Extras.html#a0e404fe7dacdcebf5b40a0cc7095f3ba" title=" " alt="" coords="383,56,567,83"/>
-<area shape="rect" id="node4" href="$classAutoProfileWatcher.html#ae6ec8b944a048017f3e9958525ccfb62" title=" " alt="" coords="196,49,331,90"/>
-<area shape="rect" id="node5" href="$classAutoProfileWatcher.html#a6c9832eb02480c6909f49cbb05d5113c" title=" " alt="" coords="5,49,148,90"/>
-</map>

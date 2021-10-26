@@ -1,6 +1,0 @@
-<map id="AntiMicroSettings::runtimeValue" name="AntiMicroSettings::runtimeValue">
-<area shape="rect" id="node1" title="Get the currently used value such as an setting overridden with a command line argument." alt="" coords="507,39,640,80"/>
-<area shape="rect" id="node2" href="$classMainWindow.html#affe344f13315c09bd280d0bc200e94ca" title=" " alt="" coords="263,5,456,47"/>
-<area shape="rect" id="node3" href="$classGameControllerMappingDialog.html#a12fb7328d4a9e9579ff6eb37c76813ab" title=" " alt="" coords="260,71,459,112"/>
-<area shape="rect" id="node4" href="$classGameControllerMappingDialog.html#a3b5f7c179120ccffa5c7eca5de1edafe" title=" " alt="" coords="5,71,212,112"/>
-</map>

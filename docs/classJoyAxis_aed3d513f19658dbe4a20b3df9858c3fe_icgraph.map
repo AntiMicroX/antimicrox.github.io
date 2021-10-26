@@ -1,9 +1,0 @@
-<map id="JoyAxis::getDeadZone" name="JoyAxis::getDeadZone">
-<area shape="rect" id="node1" title=" " alt="" coords="475,111,629,138"/>
-<area shape="rect" id="node2" href="$classAxisEditDialog.html#a702a1718f3a1dd6b64b4474ea19b71cd" title=" " alt="" coords="257,5,422,47"/>
-<area shape="rect" id="node3" href="$classSetJoystick.html#a21aeedb02f1b513c6f88f916c6be47cd" title=" " alt="" coords="256,71,423,112"/>
-<area shape="rect" id="node5" href="$classGameControllerTriggerXml.html#a382a32a139351f790192dc0991dea637" title=" " alt="" coords="252,136,427,177"/>
-<area shape="rect" id="node6" href="$classJoyAxisXml.html#a044a6be446ab6cc4b6fcb359e0cef898" title=" " alt="" coords="256,202,423,229"/>
-<area shape="rect" id="node4" href="$classGameControllerMappingDialogHelper.html#a7852aab5763281aa59c17f2f1da8dd31" title=" " alt="" coords="5,71,204,112"/>
-<area shape="rect" id="node7" href="$classSetJoystickXml.html#a11eec051c05deac5ebe47b9582e83b6f" title=" " alt="" coords="11,202,198,229"/>
-</map>

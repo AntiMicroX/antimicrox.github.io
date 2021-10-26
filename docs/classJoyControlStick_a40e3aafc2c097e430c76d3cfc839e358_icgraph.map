@@ -1,8 +1,0 @@
-<map id="JoyControlStick::getAbsoluteRawDistance" name="JoyControlStick::getAbsoluteRawDistance">
-<area shape="rect" id="node1" title="Get the raw radial distance of the stick. Values will be between 0 &#45; 32,767." alt="" coords="483,136,673,177"/>
-<area shape="rect" id="node2" href="$classJoyControlStick.html#af6f3b4eb679d6ff36004840f1980ae14" title="Get distance of the X axis past the assigned dead zone based on the passed X and Y axis values for th..." alt="" coords="248,5,423,47"/>
-<area shape="rect" id="node3" href="$classJoyControlStick.html#abc290fe1e20f35629171d32783c17f4b" title="Get distance of the Y axis past the assigned dead zone based on the passed X and Y axis values for th..." alt="" coords="248,71,423,112"/>
-<area shape="rect" id="node4" href="$classJoyControlStickModifierButton.html#a21a8abce0e5340778292fab50cced777" title=" " alt="" coords="236,136,435,177"/>
-<area shape="rect" id="node5" href="$classJoyControlStickEditDialog.html#a2baa35c50ff7528a03ec6f2ba1ed657d" title=" " alt="" coords="5,224,188,265"/>
-<area shape="rect" id="node6" href="$classJoyControlStickEditDialog.html#aa479f7bd7941c5be7efd683d3c0c8fd2" title=" " alt="" coords="248,253,423,295"/>
-</map>

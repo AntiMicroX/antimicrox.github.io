@@ -1,9 +1,0 @@
-<map id="MainWindow::singleTrayProfileMenuShow" name="MainWindow::singleTrayProfileMenuShow">
-<area shape="rect" id="node1" title="Display a version of the tray menu that shows all recent profiles for all controllers in one list." alt="" coords="5,141,205,182"/>
-<area shape="rect" id="node2" href="$classJoyTabWidget.html#a612c729204802801165c9208cba9b1be" title=" " alt="" coords="253,5,457,32"/>
-<area shape="rect" id="node3" href="$classJoyTabWidget.html#a7f38558fdd9bb22d8e2c3c8f070305ee" title=" " alt="" coords="268,57,443,98"/>
-<area shape="rect" id="node4" href="$classJoyTabWidget.html#a2b7d0077726b2b2bf406be8a4fa631af" title=" " alt="" coords="266,123,445,149"/>
-<area shape="rect" id="node5" href="$classMainWindow.html#abfc57743f7466ed751d94f09fc771270" title=" " alt="" coords="254,173,457,200"/>
-<area shape="rect" id="node6" href="$classInputDevice.html#a45366a3b2d57974de36920cfde0261d8" title=" " alt="" coords="261,224,449,251"/>
-<area shape="rect" id="node7" href="$namespacePadderCommon.html#a9aa5baddf6f78b3e008bc29d04721f0d" title="Universal method for loading icons." alt="" coords="269,275,442,301"/>
-</map>

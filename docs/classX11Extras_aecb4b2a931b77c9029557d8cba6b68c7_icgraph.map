@@ -1,4 +1,0 @@
-<map id="X11Extras::getXDisplayString" name="X11Extras::getXDisplayString">
-<area shape="rect" id="node1" title="Get QString representation of currently utilized X display." alt="" coords="228,13,424,39"/>
-<area shape="rect" id="node2" href="$classUnixCaptureWindowUtility.html#a028aabc2b9bf04847f2e01af7ebd1760" title="Attempt to capture window selected with the mouse." alt="" coords="5,5,180,47"/>
-</map>

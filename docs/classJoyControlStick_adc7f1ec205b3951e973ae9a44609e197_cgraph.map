@@ -1,8 +1,0 @@
-<map id="JoyControlStick::getSpringDeadCircleX" name="JoyControlStick::getSpringDeadCircleX">
-<area shape="rect" id="node1" title=" " alt="" coords="5,129,183,171"/>
-<area shape="rect" id="node2" href="$classJoyControlStick.html#ac6fc21b89fe06fed5bc9434b38fe65ff" title=" " alt="" coords="237,71,411,112"/>
-<area shape="rect" id="node4" href="$classJoyAxis.html#a0580ab0df546a1c03b4e8f755ad00272" title=" " alt="" coords="704,75,900,102"/>
-<area shape="rect" id="node6" href="$classJoyAxis.html#ac5fab6f5b5159f85843c97032f669c8b" title=" " alt="" coords="231,188,417,229"/>
-<area shape="rect" id="node3" href="$classJoyControlStick.html#a9a9a23ba2fd1d4304e759a2de2985a69" title="Calculate the current direction of the stick based on the values of the X and Y axes and the current ..." alt="" coords="473,5,648,47"/>
-<area shape="rect" id="node5" href="$classJoyControlStick.html#af1d63f69041b08e3e1e086768a4c22cf" title=" " alt="" coords="465,71,656,112"/>
-</map>

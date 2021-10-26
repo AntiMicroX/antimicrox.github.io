@@ -1,4 +1,0 @@
-<map id="Calibration::restoreCalValues" name="Calibration::restoreCalValues">
-<area shape="rect" id="node1" title=" " alt="" coords="221,5,411,32"/>
-<area shape="rect" id="node2" href="$classCalibration.html#aac3cc29daae69f616489ddd29407f6fe" title="Resets memory of all variables to default, updates window and shows message." alt="" coords="5,5,173,32"/>
-</map>

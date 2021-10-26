@@ -1,7 +1,0 @@
-<map id="XTestEventHandler::sendMouseAbsEvent" name="XTestEventHandler::sendMouseAbsEvent">
-<area shape="rect" id="node1" title="Do nothing by default. Useful for child classes to define behavior." alt="" coords="5,23,151,65"/>
-<area shape="rect" id="node2" href="$classX11Extras.html#a643c95dc1de8eb073a0accb41619fe83" title="Get display instance." alt="" coords="212,5,344,32"/>
-<area shape="rect" id="node3" href="$classX11Extras.html#ace76277fced60e6bd6ff880030338182" title=" " alt="" coords="199,56,357,83"/>
-<area shape="rect" id="node4" href="$classX11Extras.html#ab9bcb016e23bacb0e988feb8175d2c88" title=" " alt="" coords="405,56,557,83"/>
-<area shape="rect" id="node5" href="$classX11Extras.html#a6f63e77ed045e174546d77333672b8f0" title=" " alt="" coords="605,49,785,90"/>
-</map>

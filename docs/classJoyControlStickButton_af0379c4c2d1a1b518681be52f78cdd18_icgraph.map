@@ -1,4 +1,0 @@
-<map id="JoyControlStickButton::isPartRealAxis" name="JoyControlStickButton::isPartRealAxis">
-<area shape="rect" id="node1" title="Check if button should be considered a part of a real controller axis. Needed for some dialogs so the..." alt="" coords="207,5,360,47"/>
-<area shape="rect" id="node2" href="$classJoyControlStickButton.html#ac32d2e0ec5c137c2b6936728ed91eab1" title="Set the turbo mode that the button should use." alt="" coords="5,5,159,47"/>
-</map>

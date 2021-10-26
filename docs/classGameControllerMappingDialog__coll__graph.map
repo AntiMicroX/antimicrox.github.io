@@ -1,9 +1,0 @@
-<map id="GameControllerMappingDialog" name="GameControllerMappingDialog">
-<area shape="rect" id="node1" title=" " alt="" coords="207,364,406,391"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,267,75,294"/>
-<area shape="rect" id="node3" href="$classInputDevice.html" title=" " alt="" coords="262,171,354,197"/>
-<area shape="rect" id="node7" href="$classGameControllerMappingDialogHelper.html" title=" " alt="" coords="98,260,297,301"/>
-<area shape="rect" id="node4" title=" " alt="" coords="199,81,270,108"/>
-<area shape="rect" id="node5" href="$classAntiMicroSettings.html" title=" " alt="" coords="313,81,439,108"/>
-<area shape="rect" id="node6" title=" " alt="" coords="336,5,416,32"/>
-</map>

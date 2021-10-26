@@ -1,5 +1,0 @@
-<map id="JoyDPad::isDefault" name="JoyDPad::isDefault">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,141,32"/>
-<area shape="rect" id="node2" href="$classJoyButton.html#aaae603630f3485683593320bd446927d" title="Check if button properties are at their default values." alt="" coords="189,5,331,32"/>
-<area shape="rect" id="node3" href="$classJoyButton.html#ae1d364dfa70f47fae3db99ffbcdea44b" title=" " alt="" coords="379,5,569,32"/>
-</map>

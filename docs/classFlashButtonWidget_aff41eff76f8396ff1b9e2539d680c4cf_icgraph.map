@@ -1,9 +1,0 @@
-<map id="FlashButtonWidget::ifDisplayNames" name="FlashButtonWidget::ifDisplayNames">
-<area shape="rect" id="node1" title=" " alt="" coords="252,165,393,207"/>
-<area shape="rect" id="node2" href="$classJoyDPadButtonWidget.html#a939570112ea1398fc6f4f13b6a67aa92" title="Generate the string that will be displayed on the button." alt="" coords="27,5,182,47"/>
-<area shape="rect" id="node3" href="$classJoyControlStickPushButton.html#a0059ca289c5b44dd334330d2b7db5b79" title="Generate the string that will be displayed on the button." alt="" coords="13,71,196,112"/>
-<area shape="rect" id="node4" href="$classDPadPushButton.html#ad6bc6aa6744a480371f447261bfe3464" title=" " alt="" coords="14,136,195,177"/>
-<area shape="rect" id="node5" href="$classJoyAxisWidget.html#afe328d556ea6dd282e63847b1c13a202" title="Generate the string that will be displayed on the button." alt="" coords="5,202,204,229"/>
-<area shape="rect" id="node6" href="$classJoyButtonWidget.html#a73f4114ba7e98c2cdeb7d3d0ea2629a2" title=" " alt="" coords="15,253,195,295"/>
-<area shape="rect" id="node7" href="$classJoyControlStickButtonPushButton.html#a5f99e1a540217bddf417c2e993c19aa4" title="Generate the string that will be displayed on the button." alt="" coords="13,319,196,360"/>
-</map>

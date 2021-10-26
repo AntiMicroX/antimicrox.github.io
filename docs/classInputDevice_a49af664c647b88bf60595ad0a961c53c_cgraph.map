@@ -1,8 +1,0 @@
-<map id="InputDevice::removeControlStick" name="InputDevice::removeControlStick">
-<area shape="rect" id="node1" title=" " alt="" coords="5,57,189,98"/>
-<area shape="rect" id="node2" href="$classSetJoystick.html#a7b74d7b4a0adfc9c25cdbe4433d9b275" title=" " alt="" coords="247,5,414,32"/>
-<area shape="rect" id="node4" href="$classInputDevice.html#aee4515edc1daad9be16eb4e25862ae25" title=" " alt="" coords="237,123,424,149"/>
-<area shape="rect" id="node6" href="$classSetJoystick.html#adaabb617dba2a8ba29d146df36933ab1" title=" " alt="" coords="240,57,421,98"/>
-<area shape="rect" id="node3" href="$classSetJoystick.html#a7ca499fe41a0a9841b4fe904b07cbc30" title=" " alt="" coords="495,35,647,61"/>
-<area shape="rect" id="node5" href="$classInputDevice.html#a1c4c65d9e509a5c3bde064871d7e1849" title=" " alt="" coords="472,123,671,149"/>
-</map>

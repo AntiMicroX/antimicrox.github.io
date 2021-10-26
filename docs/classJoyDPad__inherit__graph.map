@@ -1,6 +1,0 @@
-<map id="JoyDPad" name="JoyDPad">
-<area shape="rect" id="node1" title=" " alt="" coords="41,80,117,107"/>
-<area shape="rect" id="node3" href="$classVDPad.html" title=" " alt="" coords="47,155,111,181"/>
-<area shape="rect" id="node2" title=" " alt="" coords="43,5,114,32"/>
-<area shape="rect" id="node4" href="$classGameControllerDPad.html" title=" " alt="" coords="5,229,152,256"/>
-</map>

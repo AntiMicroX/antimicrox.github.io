@@ -1,8 +1,0 @@
-<map id="UnixCaptureWindowUtility::attemptWindowCapture" name="UnixCaptureWindowUtility::attemptWindowCapture">
-<area shape="rect" id="node1" title="Attempt to capture window selected with the mouse." alt="" coords="5,56,180,97"/>
-<area shape="rect" id="node2" href="$classX11Extras.html#ace76277fced60e6bd6ff880030338182" title=" " alt="" coords="265,13,423,39"/>
-<area shape="rect" id="node5" href="$classX11Extras.html#aecb4b2a931b77c9029557d8cba6b68c7" title="Get QString representation of currently utilized X display." alt="" coords="246,63,442,90"/>
-<area shape="rect" id="node6" href="$classQtKeyMapperBase.html#a5df0f313bce11847f8495126373e7178" title=" " alt="" coords="228,114,460,141"/>
-<area shape="rect" id="node3" href="$classX11Extras.html#ab9bcb016e23bacb0e988feb8175d2c88" title=" " alt="" coords="508,13,660,39"/>
-<area shape="rect" id="node4" href="$classX11Extras.html#a6f63e77ed045e174546d77333672b8f0" title=" " alt="" coords="708,5,888,47"/>
-</map>

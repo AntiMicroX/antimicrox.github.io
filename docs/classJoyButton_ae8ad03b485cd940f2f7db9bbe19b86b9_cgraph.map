@@ -1,8 +1,0 @@
-<map id="JoyButton::checkTurboCondition" name="JoyButton::checkTurboCondition">
-<area shape="rect" id="node1" title="Check if turbo should be disabled for a slot." alt="" coords="5,56,217,83"/>
-<area shape="rect" id="node2" href="$classJoyButtonSlot.html#abed7fe134c404b403ea79c0753f6eaaf" title=" " alt="" coords="724,5,909,32"/>
-<area shape="rect" id="node3" href="$classJoyButton.html#a0750530dac3901ece7c78c19d15e0d54" title=" " alt="" coords="265,81,429,108"/>
-<area shape="rect" id="node4" href="$classJoyButton.html#a6e3ee0e05fe5d243b142c5f22011c2e9" title=" " alt="" coords="477,56,673,83"/>
-<area shape="rect" id="node6" href="$classJoyButton.html#a42d517ef696229862b238c52c4ff345c" title=" " alt="" coords="484,107,667,133"/>
-<area shape="rect" id="node5" href="$classJoyButton.html#ae1d364dfa70f47fae3db99ffbcdea44b" title=" " alt="" coords="721,56,912,83"/>
-</map>

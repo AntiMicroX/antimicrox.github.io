@@ -1,9 +1,0 @@
-<map id="InputDaemon::~InputDaemon" name="InputDaemon::~InputDaemon">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,197,57"/>
-<area shape="rect" id="node2" href="$classInputDaemon.html#ae783b649c2cbac46f852d3189c833957" title=" " alt="" coords="245,31,373,57"/>
-<area shape="rect" id="node3" href="$classSDLEventReader.html#a02963fe211624fa51c657fb6013e325f" title=" " alt="" coords="423,5,574,32"/>
-<area shape="rect" id="node7" href="$classSDLEventReader.html#a9aea4a49e5b72851a6676609b18dac6f" title=" " alt="" coords="421,56,576,83"/>
-<area shape="rect" id="node4" href="$classSDLEventReader.html#aaadf77acabf14b73b512d0ae73c9e078" title=" " alt="" coords="624,5,811,32"/>
-<area shape="rect" id="node5" href="$classSDLEventReader.html#ab23b916f4086fe58ecc8335378b70c0b" title=" " alt="" coords="859,5,1068,32"/>
-<area shape="rect" id="node6" href="$classInputDevice.html#a742f2b9fe5f01464cb5351c042c76c8c" title=" " alt="" coords="1116,5,1315,32"/>
-</map>

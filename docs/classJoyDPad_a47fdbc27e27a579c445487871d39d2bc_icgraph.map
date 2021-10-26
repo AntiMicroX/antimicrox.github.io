@@ -1,7 +1,0 @@
-<map id="JoyDPad::isDefault" name="JoyDPad::isDefault">
-<area shape="rect" id="node1" title=" " alt="" coords="491,31,627,57"/>
-<area shape="rect" id="node2" href="$classJoyDPad.html#ad7787a985beddc065f2818df29fd5b77" title=" " alt="" coords="255,5,443,32"/>
-<area shape="rect" id="node4" href="$classSetJoystick.html#a5de4017d04f877e12df92334f41d08f3" title=" " alt="" coords="266,56,431,83"/>
-<area shape="rect" id="node3" href="$classSetJoystick.html#a36b0da099fef84270b6cc7c76741e689" title=" " alt="" coords="5,5,207,32"/>
-<area shape="rect" id="node5" href="$classSetJoystickXml.html#a11eec051c05deac5ebe47b9582e83b6f" title=" " alt="" coords="13,56,199,83"/>
-</map>

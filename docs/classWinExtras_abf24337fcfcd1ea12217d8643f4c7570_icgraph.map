@@ -1,4 +1,0 @@
-<map id="WinExtras::IsRunningAsAdmin" name="WinExtras::IsRunningAsAdmin">
-<area shape="rect" id="node1" title="Check if the application is running with administrative privileges." alt="" coords="232,5,435,32"/>
-<area shape="rect" id="node2" href="$classMainWindow.html#a2f0c03d3d51748ab794e698322110614" title=" " alt="" coords="5,5,184,32"/>
-</map>

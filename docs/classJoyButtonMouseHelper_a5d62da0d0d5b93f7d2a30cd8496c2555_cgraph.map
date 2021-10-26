@@ -1,8 +1,0 @@
-<map id="JoyButtonMouseHelper::resetButtonMouseDistances" name="JoyButtonMouseHelper::resetButtonMouseDistances">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,200,80"/>
-<area shape="rect" id="node2" href="$classJoyButton.html#a6f1b62fe61277f5f341dd5156f701946" title="Get the list of buttons that have a pending mouse movement event." alt="" coords="248,5,440,47"/>
-<area shape="rect" id="node3" href="$classJoyButton.html#a50c06702f8781ee7fc49b4a842bd6bc4" title=" " alt="" coords="249,71,439,112"/>
-<area shape="rect" id="node4" href="$classJoyButton.html#a48369975ea4bc0d16e284b02bf4b1246" title=" " alt="" coords="498,37,677,79"/>
-<area shape="rect" id="node6" href="$classJoyButton.html#a352acb56d462240c593e7b70bca74f55" title="Get the distance factor that should be used for mouse movement." alt="" coords="488,103,687,144"/>
-<area shape="rect" id="node5" href="$classJoyButton.html#a447ec98d3ffd8b2a8668c14d2646851c" title="Get the distance that an element is away from its assigned dead zone." alt="" coords="735,71,924,112"/>
-</map>

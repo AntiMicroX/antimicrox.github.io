@@ -1,8 +1,0 @@
-<map id="JoystickStatusWindow" name="JoystickStatusWindow">
-<area shape="rect" id="node1" title=" " alt="" coords="5,260,160,287"/>
-<area shape="rect" id="node2" title=" " alt="" coords="27,171,96,197"/>
-<area shape="rect" id="node3" href="$classInputDevice.html" title=" " alt="" coords="121,171,213,197"/>
-<area shape="rect" id="node4" title=" " alt="" coords="90,81,161,108"/>
-<area shape="rect" id="node5" href="$classAntiMicroSettings.html" title=" " alt="" coords="185,81,311,108"/>
-<area shape="rect" id="node6" title=" " alt="" coords="208,5,288,32"/>
-</map>

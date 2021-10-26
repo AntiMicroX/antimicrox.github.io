@@ -1,7 +1,0 @@
-<map id="InputDevice::getNumberHats" name="InputDevice::getNumberHats">
-<area shape="rect" id="node1" title=" " alt="" coords="5,42,197,69"/>
-<area shape="rect" id="node2" href="$classInputDevice.html#abc23a70bef37f2fc70248cd129af170b" title=" " alt="" coords="253,5,427,47"/>
-<area shape="rect" id="node4" href="$classSetJoystick.html#ab3a314813bde0be4e3b80fd77deea968" title=" " alt="" coords="245,71,435,98"/>
-<area shape="rect" id="node3" href="$classInputDevice.html#a1c4c65d9e509a5c3bde064871d7e1849" title=" " alt="" coords="483,13,681,39"/>
-<area shape="rect" id="node5" href="$classSetJoystick.html#a2a6870a2ac3f5cc490344baf7ed2edd5" title=" " alt="" coords="511,71,653,98"/>
-</map>

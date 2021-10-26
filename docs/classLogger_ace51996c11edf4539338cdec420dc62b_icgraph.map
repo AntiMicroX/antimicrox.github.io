@@ -1,7 +1,0 @@
-<map id="Logger::getInstance" name="Logger::getInstance">
-<area shape="rect" id="node1" title="Get the Instance of logger." alt="" coords="351,71,488,98"/>
-<area shape="rect" id="node2" href="$classAntiMicroSettings.html#a5650eb5f8d9af851a7f58fc086b5ce27" title="applies settings from command line to logger" alt="" coords="126,5,281,47"/>
-<area shape="rect" id="node4" href="$classLogHelper.html#a9a8cfd5c3aadd0422c13db0e66e37177" title=" " alt="" coords="129,71,277,98"/>
-<area shape="rect" id="node5" href="$classStreamPrinter.html#a3592b2b36fab0bfcd31356437ab26b42" title=" " alt="" coords="104,122,303,149"/>
-<area shape="rect" id="node3" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,13,56,39"/>
-</map>

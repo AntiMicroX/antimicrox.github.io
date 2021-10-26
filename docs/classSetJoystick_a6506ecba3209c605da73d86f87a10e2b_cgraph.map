@@ -1,6 +1,0 @@
-<map id="SetJoystick::propogateSetStickButtonNameChange" name="SetJoystick::propogateSetStickButtonNameChange">
-<area shape="rect" id="node1" title=" " alt="" coords="5,49,180,90"/>
-<area shape="rect" id="node2" href="$classJoyControlStick.html#a2bf34c9768e9975e311a1ea8918468b1" title=" " alt="" coords="229,5,401,32"/>
-<area shape="rect" id="node3" href="$classJoyButton.html#aa659d5a0860f5047862ca0761d8d775a" title="Get 0 indexed number of button." alt="" coords="228,56,403,83"/>
-<area shape="rect" id="node4" href="$classJoyControlStickButton.html#a9dc9e9c5b8811ef41a0cde33c5af649e" title=" " alt="" coords="239,107,392,149"/>
-</map>

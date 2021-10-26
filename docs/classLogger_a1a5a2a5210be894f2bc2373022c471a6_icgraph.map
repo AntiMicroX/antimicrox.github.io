@@ -1,6 +1,0 @@
-<map id="Logger::getCurrentLogLevel" name="Logger::getCurrentLogLevel">
-<area shape="rect" id="node1" title="Get the current output level associated with the logger." alt="" coords="355,31,536,57"/>
-<area shape="rect" id="node2" href="$classLogger.html#aa005c7f6e56b44f2006d115b5aa82737" title="log message handling function" alt="" coords="104,5,307,32"/>
-<area shape="rect" id="node4" href="$classLogHelper.html#a9a8cfd5c3aadd0422c13db0e66e37177" title=" " alt="" coords="131,56,279,83"/>
-<area shape="rect" id="node3" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="JoyControlStick::calculateEightWayDiagonalDistance" name="JoyControlStick::calculateEightWayDiagonalDistance">
-<area shape="rect" id="node1" title=" " alt="" coords="533,71,715,112"/>
-<area shape="rect" id="node2" href="$classJoyControlStick.html#ac3091fa4cf9831e0b43ea0ad6611ff8d" title=" " alt="" coords="281,5,456,47"/>
-<area shape="rect" id="node4" href="$classJoyControlStick.html#ac5b937badd1c088bec283d00e97cdb54" title=" " alt="" coords="264,71,473,112"/>
-<area shape="rect" id="node6" href="$classJoyControlStick.html#af3d500edee6291808903b8cccf833e9e" title=" " alt="" coords="252,136,485,177"/>
-<area shape="rect" id="node3" href="$classJoyControlStickButton.html#acf2da4c7a376cc7a580bf39ceff61361" title=" " alt="" coords="19,5,191,47"/>
-<area shape="rect" id="node5" href="$classJoyControlStickButton.html#a87a8737f5be7e3ae5c2184302a5592db" title=" " alt="" coords="6,71,203,112"/>
-<area shape="rect" id="node7" href="$classJoyControlStickModifierButton.html#a9b1b1ef20983233e1ab1328e00370aa9" title=" " alt="" coords="5,136,204,177"/>
-</map>

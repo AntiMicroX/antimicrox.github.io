@@ -1,7 +1,0 @@
-<map id="JoyButton::calculateFinalMouseSpeed" name="JoyButton::calculateFinalMouseSpeed">
-<area shape="rect" id="node1" title="Calculate maximum mouse speed when using a given mouse curve." alt="" coords="740,53,909,94"/>
-<area shape="rect" id="node2" href="$classMouseSettingsDialog.html#af14064886083c5e4379787ecd993c3e8" title=" " alt="" coords="481,5,692,61"/>
-<area shape="rect" id="node5" href="$classMouseSettingsDialog.html#a0c696d56f5ccd41c0e548147e211bdd3" title=" " alt="" coords="489,85,685,141"/>
-<area shape="rect" id="node3" href="$classMouseSettingsDialog.html#a4a3da2adef113d4d6580b36fe62067ed" title=" " alt="" coords="5,53,160,94"/>
-<area shape="rect" id="node4" href="$classMouseSettingsDialog.html#abec3bd3d5cc2908867575d79be6a756a" title=" " alt="" coords="208,53,433,94"/>
-</map>

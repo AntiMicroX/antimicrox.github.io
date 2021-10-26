@@ -1,7 +1,0 @@
-<map id="X11Extras::getApplicationPid" name="X11Extras::getApplicationPid">
-<area shape="rect" id="node1" title="Check window and any parents for the window property &quot;_NET_WM_PID&quot;." alt="" coords="615,46,807,73"/>
-<area shape="rect" id="node2" href="$classCapturedWindowInfoDialog.html#afadb9b4bbaec10e076a5ab94495194c6" title=" " alt="" coords="379,5,567,47"/>
-<area shape="rect" id="node3" href="$classAutoProfileWatcher.html#a9192562fc92f52545e3c0fe663026f95" title=" " alt="" coords="405,71,540,112"/>
-<area shape="rect" id="node4" href="$classAutoProfileWatcher.html#ae6ec8b944a048017f3e9958525ccfb62" title=" " alt="" coords="196,71,331,112"/>
-<area shape="rect" id="node5" href="$classAutoProfileWatcher.html#a6c9832eb02480c6909f49cbb05d5113c" title=" " alt="" coords="5,71,148,112"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="JoyButtonContextMenu::switchTurbo" name="JoyButtonContextMenu::switchTurbo">
-<area shape="rect" id="node1" title=" " alt="" coords="5,49,164,90"/>
-<area shape="rect" id="node2" href="$classJoyButton.html#ad2123134411e4ab2c8f15b65f3c4ae79" title=" " alt="" coords="212,31,379,57"/>
-<area shape="rect" id="node3" href="$classJoyButton.html#a0750530dac3901ece7c78c19d15e0d54" title=" " alt="" coords="213,81,377,108"/>
-<area shape="rect" id="node4" href="$classJoyButton.html#a6e3ee0e05fe5d243b142c5f22011c2e9" title=" " alt="" coords="427,31,623,57"/>
-<area shape="rect" id="node7" href="$classJoyButton.html#a42d517ef696229862b238c52c4ff345c" title=" " alt="" coords="433,81,616,108"/>
-<area shape="rect" id="node5" href="$classJoyButton.html#ae1d364dfa70f47fae3db99ffbcdea44b" title=" " alt="" coords="671,5,861,32"/>
-<area shape="rect" id="node6" href="$classJoyButtonSlot.html#abed7fe134c404b403ea79c0753f6eaaf" title=" " alt="" coords="673,56,859,83"/>
-</map>

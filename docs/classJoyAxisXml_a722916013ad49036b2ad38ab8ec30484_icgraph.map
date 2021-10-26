@@ -1,9 +1,0 @@
-<map id="JoyAxisXml::readMainConfig" name="JoyAxisXml::readMainConfig">
-<area shape="rect" id="node1" title=" " alt="" coords="844,35,1035,61"/>
-<area shape="rect" id="node2" href="$classJoyAxisXml.html#abfcf483748d22f52a9f76d2bf23e9a3d" title=" " alt="" coords="627,5,790,32"/>
-<area shape="rect" id="node4" href="$classGameControllerTriggerXml.html#a4578ad54daf8a24231e8b0e4e09f1587" title=" " alt="" coords="621,57,796,98"/>
-<area shape="rect" id="node3" href="$classSetJoystickXml.html#aa95423a01fab878cbc69bffb7f6121f3" title=" " alt="" coords="389,5,573,32"/>
-<area shape="rect" id="node5" href="$classGameControllerSet.html#a6b551139e353a654212d498309744025" title=" " alt="" coords="411,57,552,98"/>
-<area shape="rect" id="node6" href="$classGameControllerXml.html#aaa5257d4c6fe13f1d5fc51981e247c25" title=" " alt="" coords="197,57,341,98"/>
-<area shape="rect" id="node7" href="$classGameControllerXml.html#a7e47256cae0d3815419bc254413777d1" title=" " alt="" coords="5,57,149,98"/>
-</map>

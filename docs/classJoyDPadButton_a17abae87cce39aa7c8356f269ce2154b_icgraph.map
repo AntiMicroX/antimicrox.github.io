@@ -1,8 +1,0 @@
-<map id="JoyDPadButton::setChangeSetCondition" name="JoyDPadButton::setChangeSetCondition">
-<area shape="rect" id="node1" title=" " alt="" coords="796,39,981,80"/>
-<area shape="rect" id="node2" href="$classInputDevice.html#ae6abc0024490060e5694e3750e3e0aea" title=" " alt="" coords="549,5,743,47"/>
-<area shape="rect" id="node6" href="$classInputDevice.html#acce02eff964fce3cc49baae950641702" title=" " alt="" coords="544,71,748,112"/>
-<area shape="rect" id="node3" href="$classInputDevice.html#a6ffcebba103a7db02e82c1c7f62387bf" title=" " alt="" coords="265,46,496,73"/>
-<area shape="rect" id="node4" href="$classGameController.html#afcddb9dcc5442a9746c3ff8760ea1791" title=" " alt="" coords="5,21,217,47"/>
-<area shape="rect" id="node5" href="$classJoystick.html#a9df5e53506876f3c95e84bdf6c9cbaf1" title=" " alt="" coords="49,71,174,98"/>
-</map>

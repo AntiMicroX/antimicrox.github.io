@@ -1,7 +1,0 @@
-<map id="AdvanceButtonDialog::populateSlotSetSelectionComboBox" name="AdvanceButtonDialog::populateSlotSetSelectionComboBox">
-<area shape="rect" id="node1" title=" " alt="" coords="5,67,181,123"/>
-<area shape="rect" id="node2" href="$classSetJoystick.html#af641cbddd22e358218ba68497e40e4e3" title=" " alt="" coords="236,5,421,32"/>
-<area shape="rect" id="node3" href="$classInputDevice.html#a1c4c65d9e509a5c3bde064871d7e1849" title=" " alt="" coords="229,56,428,83"/>
-<area shape="rect" id="node4" href="$classJoyButton.html#a9d89af7a0cfef2aa8b743fabca29dd42" title=" " alt="" coords="248,107,409,133"/>
-<area shape="rect" id="node5" href="$classJoyButton.html#a28e4e0906126f95384245e73988bdb19" title=" " alt="" coords="246,157,411,184"/>
-</map>

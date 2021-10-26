@@ -1,7 +1,0 @@
-<map id="SetJoystick::propogateSetButtonClick" name="SetJoystick::propogateSetButtonClick">
-<area shape="rect" id="node1" title=" " alt="" coords="5,71,180,112"/>
-<area shape="rect" id="node2" href="$classJoyButton.html#abbccee98e377453167a47b49874eeab7" title=" " alt="" coords="231,5,407,47"/>
-<area shape="rect" id="node3" href="$classSetJoystick.html#aca1645951d2889553fbe8dc84d3e3ef8" title=" " alt="" coords="228,71,411,112"/>
-<area shape="rect" id="node4" href="$classJoyButton.html#acf2e65dcec7b0d2a8a2c21c36c489ad6" title=" " alt="" coords="229,137,409,163"/>
-<area shape="rect" id="node5" href="$classJoyButton.html#a39c9ccaf641bb8bf50b29d4c4e04c165" title="Get a 1 indexed number of button." alt="" coords="459,137,659,163"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="X11Extras::isWindowRelevant" name="X11Extras::isWindowRelevant">
-<area shape="rect" id="node1" title="Go through a window&#39;s properties and search for an Atom from a defined list. If an Atom is found in a..." alt="" coords="5,31,204,57"/>
-<area shape="rect" id="node2" href="$classX11Extras.html#a643c95dc1de8eb073a0accb41619fe83" title="Get display instance." alt="" coords="509,5,641,32"/>
-<area shape="rect" id="node3" href="$classX11Extras.html#a44556cc9630d8685f1978b258c40679d" title=" " alt="" coords="252,56,461,83"/>
-<area shape="rect" id="node4" href="$x11extras_8cpp.html#abd96e3a47ad21173e08bc83e90a98fda" title=" " alt="" coords="530,56,621,83"/>
-</map>

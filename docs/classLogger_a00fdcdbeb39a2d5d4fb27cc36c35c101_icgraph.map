@@ -1,5 +1,0 @@
-<map id="Logger::setLogLevel" name="Logger::setLogLevel">
-<area shape="rect" id="node1" title="Set the highest logging level. Determines which messages are output to the output stream." alt="" coords="307,42,445,69"/>
-<area shape="rect" id="node2" href="$classAntiMicroSettings.html#a5650eb5f8d9af851a7f58fc086b5ce27" title="applies settings from command line to logger" alt="" coords="104,5,259,47"/>
-<area shape="rect" id="node3" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,42,56,69"/>
-</map>

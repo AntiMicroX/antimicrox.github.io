@@ -1,8 +1,0 @@
-<map id="AppLaunchHelper::changeMouseRefreshRate" name="AppLaunchHelper::changeMouseRefreshRate">
-<area shape="rect" id="node1" title=" " alt="" coords="5,86,220,127"/>
-<area shape="rect" id="node2" href="$classJoyButton.html#a65766cc767496485cc211a6e1511137a" title=" " alt="" coords="286,5,470,32"/>
-<area shape="rect" id="node3" href="$classJoyButton.html#adcbf2eb84178a075252fd096c5aee4e9" title=" " alt="" coords="288,57,468,98"/>
-<area shape="rect" id="node4" href="$classJoyButton.html#a17ca5850b4db9dc5dc83083533d34768" title=" " alt="" coords="268,123,488,149"/>
-<area shape="rect" id="node5" href="$classJoyButton.html#a77fcc637c78243eff0d2911e18d79933" title="Set the mouse refresh rate when a mouse slot is active." alt="" coords="269,173,487,200"/>
-<area shape="rect" id="node6" href="$classJoyButtonMouseHelper.html#af68566bd3590fd3070cf044a61824c75" title=" " alt="" coords="536,166,749,207"/>
-</map>
