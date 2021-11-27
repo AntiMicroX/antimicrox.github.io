@@ -5,11 +5,11 @@ tagline: A graphical program used to map keyboard buttons and mouse controls to 
 actionText: Quick Start →
 actionLink: /guide/installation
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Made by Aria Moradi with ❤️
+- title: Gamepad Mapping
+  details: Create highly customisable mappings of your keyboard, mouse, scripts & more to your Gamepad
+- title: Generate SDL2 Configurations
+  details: Map atypical gamepads to generic ones like xbox360/PSdualshock
+- title: Control Any Program
+  details: Map custom controls for Linux software
+footer: Made by Aria Moradi with ❤️ & served a side of fraich by Neill
 ---
